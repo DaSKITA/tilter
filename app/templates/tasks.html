@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Welcome to TILTer {% endblock %}</h1>
+    {% for task in tasks %}
+        <a href="{{ url_for("label", task_id=task.id) }}">{{ task.name }}</a>
+    {% endfor %}
+{% endblock %}
