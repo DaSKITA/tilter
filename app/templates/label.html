@@ -20,8 +20,9 @@
       config: `
       <View>
         <HyperTextLabels name="ner" toName="text">
-          <Label value="Controller" background="green"/>
-          <Label value="Organization" background="blue"/>
+          {% for label in task.labels %}
+            <Label value="label"/>
+          {% endfor %}
         </HyperTextLabels>
 
         <View style="border: 1px solid #CCC;
@@ -54,7 +55,7 @@
         predictions: [],
         id: 1,
         data: {
-          text: "{{ task.text }}"
+          text: '{% if task.html %}{{ task.text|replace("'", "&#39;")|safe }}{% else %}{{ task.text }}{% endif %}'
         }
       },
 

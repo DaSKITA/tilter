@@ -4,3 +4,10 @@ h1 {
     text-align: center;
     padding: 10px;
 }
+
+h2 {
+    border: 1px #eee solid;
+    color: brown;
+    text-align: center;
+    padding: 10px;
+}
