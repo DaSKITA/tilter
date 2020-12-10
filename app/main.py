@@ -1,5 +1,5 @@
 from config import Config
-from flask import Flask, render_template, render_template_string, request
+from flask import flash, Flask, Markup, render_template, redirect, render_template_string, request
 from flask_mongoengine import MongoEngine
 from flask_user import login_required, UserManager, UserMixin
 from forms import CreateTaskForm
@@ -12,6 +12,14 @@ app.config.from_object(Config)
 db = MongoEngine()
 db.init_app(app)
 
+# Character Escaping Filters for Templates
+@app.template_filter()
+def html_escape(text):
+    return Markup(text.replace("'", "&#39;").replace('\r\n', '').replace('\n', '').replace('\r', ''))
+
+@app.template_filter()
+def txt_escape(text):
+    return Markup(text.replace('\r\n', '<br>').replace('\n', '<br>').replace('\r', '<br>'))
 
 # Model Entries
 class Task(db.Document):
@@ -90,25 +98,29 @@ def tasks():
 @app.route('/tasks/create', methods=['GET', 'POST'])
 @login_required
 def create_task():
+    form = CreateTaskForm()
     if request.method == 'GET':
-        form = CreateTaskForm()
         return render_template('create_task.html', form=form)
     else:
-        html = True if request.form['html'] == 'html' else False
-        Task(name=request.form['name'], labels=request.form['labels'],
-             interfaces=[
-                 "panel",
-                 "update",
-                 "controls",
-                 "side-column",
-                 "completions:menu",
-                 "completions:add-new",
-                 "completions:delete",
-                 "predictions:menu"],
-             text=request.form['text'],
-             html=html
-             ).save()
-        return render_template('create_task.html')
+        if form.validate_on_submit():
+            Task(name=form.name.data, labels=form.labels.data,
+                 interfaces=[
+                     "panel",
+                     "update",
+                     "controls",
+                     "side-column",
+                     "completions:menu",
+                     "completions:add-new",
+                     "completions:delete",
+                     "predictions:menu"],
+                 text=form.text.data,
+                 html=form.html.data
+                 ).save()
+            flash("Succesfully created Task " + form.name.data)
+            return redirect('/tasks/create')
+        else:
+            flash("Error in Validation of sent Form, please check")
+            return redirect('/tasks/create')
 
 
 @app.route('/tasks/<string:task_id>')

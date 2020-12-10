@@ -21,7 +21,7 @@
       <View>
         <HyperTextLabels name="ner" toName="text">
           {% for label in task.labels %}
-            <Label value="label"/>
+            <Label value="{{ label['label'] }}"/>
           {% endfor %}
         </HyperTextLabels>
 
@@ -38,9 +38,9 @@
         "update",
         "controls",
         "side-column",
-        "completions:menu",
-        "completions:add-new",
-        "completions:delete",
+//        "completions:menu",
+//        "completions:add-new",
+//        "completions:delete",
         "predictions:menu",
       ],
 
@@ -53,9 +53,9 @@
       task: {
         completions: [], //load tasks from db here
         predictions: [],
-        id: 1,
+        id: 777,
         data: {
-          text: '{% if task.html %}{{ task.text|replace("'", "&#39;")|safe }}{% else %}{{ task.text }}{% endif %}'
+          text: '{% if task.html %}{{ task.text | html_escape }}{% else %}{{ task.text | txt_escape }}{% endif %}'
         }
       },
 
