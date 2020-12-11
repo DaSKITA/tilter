@@ -1,7 +1,7 @@
 ![Docker Compose Actions Workflow](https://github.com/DaSKITA/tilter/workflows/Docker%20Compose%20Actions%20Workflow/badge.svg)
 
 # tilter
-Annotation tool _TILTer_ for the annotation and conversion of privacy policies into the TILT schema.
+Annotation tool _TILTer_ for the annotation and conversion of privacy policies into the [TILT schema](https://github.com/Transparency-Information-Language/schema).
 
 ## Versions
 
