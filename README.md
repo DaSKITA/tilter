@@ -7,7 +7,7 @@ Annotation tool _TILTer_ for the annotation and conversion of privacy policies i
 1. Install [Docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/).
 2. `git clone https://github.com/DaSKITA/tilter.git`
 3. `docker-compose up`
-5. Access [localhost:5000](localhost:5000) in your favorite browser.
+5. Access [http://localhost:5000](http://localhost:5000) in your favorite browser.
 
 
 ## Versions
