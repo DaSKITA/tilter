@@ -21,7 +21,7 @@
       <View>
         <HyperTextLabels name="ner" toName="text">
           {% for label in task.labels %}
-            <Label value="{{ label['label'] }}"/>
+            <Label value="{{ label }}"/>
           {% endfor %}
         </HyperTextLabels>
 
