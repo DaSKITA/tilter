@@ -1,7 +1,14 @@
 ![Docker Compose Actions Workflow](https://github.com/DaSKITA/tilter/workflows/Docker%20Compose%20Actions%20Workflow/badge.svg)
 
 # tilter
-Annotation tool _TILTer_ for the annotation and conversion of privacy policies into the TILT schema.
+Annotation tool _TILTer_ for the annotation and conversion of privacy policies into the [TILT schema](https://github.com/Transparency-Information-Language/schema).
+
+## Installation
+1. Install [Docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/).
+2. `git clone https://github.com/DaSKITA/tilter.git`
+3. `docker-compose up`
+5. Access [http://localhost:5000](http://localhost:5000) in your favorite browser.
+
 
 ## Versions
 
