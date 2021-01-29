@@ -1,73 +1,92 @@
 {% extends 'base.html' %}
 
 {% block content %}
-  <!-- Include Label Studio stylesheet -->
-  <link href="https://unpkg.com/label-studio@0.8.0/build/static/css/main.css" rel="stylesheet">
+    <!-- Include Label Studio stylesheet -->
+    <link href="https://unpkg.com/label-studio@0.8.0/build/static/css/main.css" rel="stylesheet">
 
     <h1>{% block title %} Welcome to TILTer {% endblock %}</h1>
     <h2>This is task "{{ task.name }}"</h2>
     <a href="{{ url_for("tasks") }}"><- task overview</a>
 
-  <!-- Create the Label Studio container -->
-  <div id="label-studio"></div>
+    <!-- Create the Label Studio container -->
+    <div id="label-studio"></div>
 
-  <!-- Include the Label Studio library -->
-  <script src="https://unpkg.com/label-studio@0.8.0/build/static/js/main.js"></script>
+    <!-- Include the Label Studio library -->
+    <script src="https://unpkg.com/label-studio@0.8.0/build/static/js/main.js"></script>
 
-  <!-- Initialize Label Studio -->
-  <script>
-    var labelStudio = new LabelStudio('label-studio', {
-      config: `
+    <!-- Initialize Label Studio -->
+    <script>
+        const sendAnnotations = async (completion) => {
+                        const response = await fetch('{{ target_url }}', {
+                            method: "POST",
+                            body: JSON.stringify(completion.areas.toJSON()),
+                            headers: {
+                                "accept": "application/json",
+                                "Content-Type": "application/json"
+                            }
+                        });
+                      const content = await response;
+                      console.log(content)
+                    }
+
+        var labelStudio = new LabelStudio('label-studio', {
+            config: `
       <View>
-        <HyperTextLabels name="ner" toName="text">
+        <Labels name="ner" toName="text"> // type: htmllabels
           {% for label in task.labels %}
             <Label value="{{ label }}"/>
           {% endfor %}
-        </HyperTextLabels>
+        </Labels>
 
         <View style="border: 1px solid #CCC;
                      border-radius: 10px;
                      padding: 5px">
-          <HyperText name="text" value="$text"/>
+          <Text name="text" value="$text" showLabels="true"/>
         </View>
       </View>
       `,
 
-      interfaces: [
-        "panel",
-        "update",
-        "controls",
-        "side-column",
+            interfaces: [
+                "panel",
+                "update",
+                "controls",
+                "side-column",
 //        "completions:menu",
 //        "completions:add-new",
 //        "completions:delete",
-        "predictions:menu",
-      ],
+                "predictions:menu",
+            ],
 
-      user: {
-        pk: 1, //load user auth from db here
-        firstName: "James",
-        lastName: "Dean"
-      },
+            user: {
+                pk: 1, //load user auth from db here
+                firstName: "James",
+                lastName: "Dean"
+            },
 
-      task: {
-        completions: [], //load tasks from db here
-        predictions: [],
-        id: 777,
-        data: {
-          text: '{% if task.html %}{{ task.text | html_escape }}{% else %}{{ task.text | txt_escape }}{% endif %}'
-        }
-      },
+            task: {
+                completions: [], //load tasks from db here
+                predictions: [],
+                id: 777,
+                data: {
+                    text: ` {% if task.html %}
+                                {{ task.text | html_escape }}
+                            {% else %}{{ task.text | txt_escape }}
+                                {% endif %}`
+                }
+            },
 
-      onLabelStudioLoad: function(LS) {
-        var c = LS.completionStore.addCompletion({
-          userGenerate: true
+            onLabelStudioLoad: function (LS) {
+                var c = LS.completionStore.addCompletion({
+                    userGenerate: true
+                });
+                LS.completionStore.selectCompletion(c.id);
+            },
+            onSubmitCompletion: function (LS, completion) {
+                sendAnnotations(completion)
+            },
+            onUpdateCompletion: function (LS, completion) {
+                console.log(completion)
+            }
         });
-        LS.completionStore.selectCompletion(c.id);
-      },
-      onSubmitCompletion: function(LS, completion) {
-        console.log(completion)
-      }
-    });
-  </script>
+    </script>
 {% endblock %}

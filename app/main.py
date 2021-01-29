@@ -26,7 +26,7 @@ def html_escape(text):
 
 @app.template_filter()
 def txt_escape(text):
-    return Markup(text.replace('\r\n', '<br>').replace('\n', '<br>').replace('\r', '<br>'))
+    return Markup(text.replace('\r', ''))
 
 
 # Routing
@@ -78,11 +78,12 @@ def create_task():
 @login_required
 def label(task_id):
     query = Task.objects.get(pk=task_id)
-    return render_template('label.html', task=query)
+    target_url = request.url_root + 'api/task/' + str(task_id) + '/annotation/json'
+    return render_template('label.html', task=query, target_url=target_url)
 
 
 # API Setup
-api = Api(version='1.0', title='TILTer API', doc='/api/',
+api = Api(version='1.0', title='TILTer API', doc='/docs/',
           description='A simple API granting access to Task & Annotation objects and TILT document conversions')
 api.add_namespace(ns)
 api.init_app(app)

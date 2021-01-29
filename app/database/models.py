@@ -27,8 +27,8 @@ class User(db.Document, UserMixin):
 
 
 class Annotation(db.Document):
-    start = db.IntegerField(required=True)
-    end = db.IntegerField(required=True)
+    start = db.IntField(required=True)
+    end = db.IntField(required=True)
     text = db.StringField(required=True)
     label = db.StringField(required=True)
     task = db.ReferenceField('Task', required=True)

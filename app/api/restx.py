@@ -24,6 +24,8 @@ task_no_id = ns.model('Task', {
 annotation = ns.model('Annotation', {
     'text': fields.String(description='Annotation text'),
     'label': fields.String(description='Annotation label'),
+    'start': fields.Integer(description='Starting Position of Annotation'),
+    'end': fields.Integer(description='Ending Position of Annotation'),
 })
 
 
@@ -75,7 +77,7 @@ class TaskById(Resource):
         :param id: unique id of the task
         :return: task with given id
         """
-        return Task.objects.get(id=id)
+        return Task.objects(id=id)
 
     def delete(self, id):
         """
@@ -83,7 +85,7 @@ class TaskById(Resource):
         :param id: unique id of the task
         :return: TODO
         """
-        return Task.objects.get(id=id).delete()
+        return Task.objects(id=id).delete()
 
 
 @ns.route('/task/<string:id>/annotation')
@@ -97,7 +99,7 @@ class AnnotationByTaskId(Resource):
         :param id: unique id of the task
         :return: annotations of task with given id
         """
-        task = Task.objects.get(id=id)
+        task = Task.objects(id=id)
         return list(Annotation.objects(task=task))
 
     @ns.expect(annotation)
@@ -111,12 +113,44 @@ class AnnotationByTaskId(Resource):
         task = Task.objects.get(id=id)
         text = request.json.get('text')
         label = request.json.get('label')
-        if text != '' and label != '':
-            new_annotation = Annotation(task=task, label=label, text=text)
+        start = request.json.get('start')
+        end = request.json.get('end')
+        if text != '' and label != '' and start and end:
+            new_annotation = Annotation(task=task, label=label, text=text, start=start, end=end)
             new_annotation.save()
             return new_annotation
         else:
             return None, 400
+
+
+@ns.route('/task/<string:id>/annotation/json')
+@ns.param('id', 'unique task identifier')
+class AnnotationByTaskIdInJSON(Resource):
+
+    @ns.marshal_with(annotation, as_list=True)
+    def post(self, id):
+        """
+        Creates a new annotation for task with given id and returns it.
+        :param id: unique id of the task
+        :return: newly created annotation
+        """
+        task = Task.objects.get(id=id)
+        data = request.json
+        resp = []
+        for content in data.values():
+            label = content['results'][0]['value']['labels'][0]
+            start = content['start']
+            end = content['end']
+            text = content['text']
+            print(label)
+            if not Annotation.objects(task=task, text=text, start=start, end=end, label=label):
+                new_annotation = Annotation(task=task, text=text, start=start, end=end, label=label)
+                new_annotation.save()
+                resp.append(new_annotation)
+        if resp:
+            return resp, 200
+        else:
+            return [], 400
 
 
 @ns.route('/task/tilt')
@@ -145,6 +179,6 @@ class TiltDocumentByTaskId(Resource):
         :return: JSON tilt representation of all tasks
         """
         # create json and fill it
-        for anno in Annotation.objects(task=Task.object.get(id=id)):
+        for anno in Annotation.objects(task=Task.objects(id=id)):
             anno
         return None, 200
