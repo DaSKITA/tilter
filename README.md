@@ -15,6 +15,9 @@ Annotation tool _TILTer_ for the annotation and conversion of privacy policies i
 ### v0.1
 ![](./.docs/screen1.png)
 
+## Adding Privacy Policies
+Run `python scripts/feeder.py [dir]`, where `[dir]` is the path to a folder containing privacy policies.
+
 ## License
 MIT License
 
