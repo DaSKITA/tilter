@@ -64,9 +64,28 @@
             },
 
             task: {
-                completions: [], //load tasks from db here
+                completions: [{
+                    "result": [
+                        {% for annotation in annotations %}
+                            {
+                                "value": {
+                                    "start": {{ annotation.start }},
+                                    "end": {{ annotation.end }},
+                                    "text": "{{ annotation.text }}",
+                                    "labels": [
+                                        "{{ annotation.label }}"
+                                    ]
+                                },
+                                "id": "{{ annotation.id }}",
+                                "from_name": "ner",
+                                "to_name": "text",
+                                "type": "labels"
+                            },
+                        {% endfor %}
+                    ]
+                  }],
                 predictions: [],
-                id: 777,
+//                id: 777,
                 data: {
                     text: ` {% if task.html %}
                                 {{ task.text | html_escape }}
@@ -85,7 +104,7 @@
                 sendAnnotations(completion)
             },
             onUpdateCompletion: function (LS, completion) {
-                console.log(completion)
+                sendAnnotations(completion)
             }
         });
     </script>

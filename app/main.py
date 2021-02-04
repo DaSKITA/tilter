@@ -77,9 +77,10 @@ def create_task():
 @app.route('/tasks/<string:task_id>')
 @login_required
 def label(task_id):
-    query = Task.objects.get(pk=task_id)
+    task = Task.objects.get(pk=task_id)
+    annotations = Annotation.objects(task=task)
     target_url = request.url_root + 'api/task/' + str(task_id) + '/annotation/json'
-    return render_template('label.html', task=query, target_url=target_url)
+    return render_template('label.html', task=task, target_url=target_url, annotations=annotations)
 
 
 # API Setup
