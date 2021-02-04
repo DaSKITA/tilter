@@ -29,7 +29,6 @@ annotation = ns.model('Annotation', {
 })
 
 
-# TODO: CORRECT RESPONSES
 @ns.route('/task')
 class TaskCollection(Resource):
 
@@ -148,7 +147,7 @@ class AnnotationByTaskIdInJSON(Resource):
                 new_annotation.save()
                 resp.append(new_annotation)
         if resp:
-            return resp, 200
+            return resp
         else:
             return [], 400
 
