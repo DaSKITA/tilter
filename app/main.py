@@ -2,7 +2,7 @@ from api.restx import ns
 from config import Config
 from database.db import db
 from database.models import Task, User, Annotation
-from flask import flash, Flask, Markup, render_template, redirect, request
+from flask import Blueprint, flash, Flask, Markup, render_template, redirect, request
 from flask_restx import Api
 from flask_user import login_required, UserManager
 from forms import CreateTaskForm
@@ -84,7 +84,8 @@ def label(task_id):
 
 
 # API Setup
-api = Api(version='1.0', title='TILTer API', doc='/docs/',
+api_bp = Blueprint("api", __name__, url_prefix="/api/")
+api = Api(api_bp, version='1.0', title='TILTer API', doc='/docs/',
           description='A simple API granting access to Task & Annotation objects and TILT document conversions')
 api.add_namespace(ns)
-api.init_app(app)
+app.register_blueprint(api_bp)

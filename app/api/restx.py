@@ -3,7 +3,7 @@ from flask import request
 from flask_restx import fields, Namespace, Resource
 
 # API Namespace
-ns = Namespace("api", description="API Node for TILTer")
+ns = Namespace("task", description="API Node for TILTer")
 
 # create models for marshalling
 task_with_id = ns.model('Task', {
@@ -29,7 +29,7 @@ annotation = ns.model('Annotation', {
 })
 
 
-@ns.route('/task')
+@ns.route('/')
 class TaskCollection(Resource):
 
     @ns.marshal_with(task_with_id, as_list=True)
@@ -65,7 +65,7 @@ class TaskCollection(Resource):
             return None, 400
 
 
-@ns.route('/task/<string:id>')
+@ns.route('/<string:id>')
 @ns.param('id', 'unique task identifier')
 class TaskById(Resource):
 
@@ -87,7 +87,7 @@ class TaskById(Resource):
         return Task.objects(id=id).delete()
 
 
-@ns.route('/task/<string:id>/annotation')
+@ns.route('/<string:id>/annotation')
 @ns.param('id', 'unique task identifier')
 class AnnotationByTaskId(Resource):
 
@@ -122,7 +122,7 @@ class AnnotationByTaskId(Resource):
             return None, 400
 
 
-@ns.route('/task/<string:id>/annotation/json')
+@ns.route('/<string:id>/annotation/json')
 @ns.param('id', 'unique task identifier')
 class AnnotationByTaskIdInJSON(Resource):
 
@@ -152,7 +152,7 @@ class AnnotationByTaskIdInJSON(Resource):
             return [], 400
 
 
-@ns.route('/task/tilt')
+@ns.route('/tilt')
 class TiltDocumentCollection(Resource):
 
     def get(self):
@@ -167,7 +167,7 @@ class TiltDocumentCollection(Resource):
         return None, 200
 
 
-@ns.route('/task/<string:id>/tilt')
+@ns.route('/<string:id>/tilt')
 @ns.param('id', 'unique task identifier')
 class TiltDocumentByTaskId(Resource):
 
