@@ -1,11 +1,8 @@
+import json
+
+
 # Flask Config from Class
 class Config(object):
-    SECRET_KEY = "12345678901234567890123456789012"
-
-    MONGODB_SETTINGS = {
-        'db': 'tilterdb',
-        'host': "mongodb://root:SuperSecret@mongo:27017/?authSource=admin",
-    }
 
     # Flask-User Setup
     USER_APP_NAME = "TILTer"  # Shown in and email templates and page footers
@@ -14,3 +11,10 @@ class Config(object):
     USER_REQUIRE_RETYPE_PASSWORD = False  # Simplify register form
     USER_ENABLE_CHANGE_USERNAME = False
     USER_AFTER_LOGIN_ENDPOINT = 'member_page'
+
+    with open('secrets/secrets.json') as f:
+        data = json.load(f)
+        SECRET_KEY = data["flask_secret_key"]
+        MONGODB_SETTINGS = {"db": data["mongodb_database"],
+                            "host": f"mongodb://{data['mongodb_user']}:{data['mongodb_password']}"
+                                    f"@mongo:{data['mongodb_port']}/?authSource=admin"}
