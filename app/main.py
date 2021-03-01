@@ -3,6 +3,7 @@ from config import Config
 from database.db import db
 from database.models import Task, User, Annotation
 from flask import Blueprint, flash, Flask, Markup, render_template, redirect, request
+from flask_babel import Babel, _
 from flask_restx import Api
 from flask_user import login_required, UserManager
 from forms import CreateTaskForm
@@ -13,6 +14,16 @@ app.config.from_object(Config)
 
 # MongoDB Setup
 db.init_app(app)
+
+# Babel Setup
+babel = Babel(app)
+
+
+@babel.localeselector
+def get_locale():
+    # return request.accept_languages.best_match(app.config['LANGUAGES'])
+    return 'de'
+
 
 # Setup Flask-User and specify the User data-model
 user_manager = UserManager(app, db, User)

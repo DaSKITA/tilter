@@ -1,28 +1,26 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h1>{% block title %} Welcome to TILTer {% endblock %}</h1>
+    <h1>{% block title %} {{ _('Welcome to TILTer') }} {% endblock %}</h1>
     {% if tasks %}
-        <h2>These are your Tasks!</h2>
+        <h2>{{ _('These are your Tasks!') }}</h2>
         <table class="table">
           <thead>
             <tr>
-              <th scope="col">Task Name</th>
-              <th scope="col">Labels</th>
+              <th scope="col">{{ _('Task Name') }}</th>
             </tr>
           </thead>
           <tbody>
             {% for task in tasks %}
                 <tr>
                 <td><a href="{{ url_for("label", task_id=task.id) }}">{{ task.name }}</a></td>
-                <td>{{ task.label }}</td>
                 </tr>
             {% endfor %}
           </tbody>
         </table>
     {% else %}
         <br><br>
-        <h2>You currently have no tasks!</h2>
+        <h2>{{ _('You currently have no tasks!') }}</h2>
     {% endif%}
-    <button onclick="location.href='{{ url_for("create_task") }}'" type="button" class="btn btn-secondary btn-lg btn-block">Create a new Task</button>
+    <button onclick="location.href='{{ url_for("create_task") }}'" type="button" class="btn btn-secondary btn-lg btn-block">{{ _('Create a new Task') }}</button>
 {% endblock %}

@@ -1,6 +1,7 @@
 from database.models import Task, Annotation
 from flask import request
 from flask_restx import fields, Namespace, Resource
+from tilt.utilities import tilt_from_task
 
 # API Namespace
 ns = Namespace("task", description="API Node for TILTer")
@@ -160,11 +161,10 @@ class TiltDocumentCollection(Resource):
         Fetches the tilt representation of a all tasks with their current annotations in JSON
         :return: JSON tilt representation of all tasks
         """
-        # create json and fill it
+        documents = []
         for task in Task.objects:
-            for anno in Annotation.objects(task=task):
-                anno
-        return None, 200
+            documents.append(tilt_from_task(task))
+        return list(documents), 200
 
 
 @ns.route('/<string:id>/tilt')
@@ -177,7 +177,5 @@ class TiltDocumentByTaskId(Resource):
         :param id: unique id of the task
         :return: JSON tilt representation of all tasks
         """
-        # create json and fill it
-        for anno in Annotation.objects(task=Task.objects(id=id)):
-            anno
-        return None, 200
+        task = Task.objects(id=id)
+        return tilt_from_task(task), 200

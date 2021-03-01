@@ -4,9 +4,9 @@
     <!-- Include Label Studio stylesheet -->
     <link href="https://unpkg.com/label-studio@0.8.0/build/static/css/main.css" rel="stylesheet">
 
-    <h1>{% block title %} Welcome to TILTer {% endblock %}</h1>
-    <h2>Task "{{ task.name }}"</h2>
-    <a href="{{ url_for("tasks") }}"><- task overview</a>
+    <h1>{% block title %} {{ _('Welcome to TILTer') }} {% endblock %}</h1>
+    <h2>{{ _('Task') }} "{{ task.name }}"</h2>
+    <a href="{{ url_for("tasks") }}"><- {{ _('task overview') }}</a>
     <br><br>
 
     <!-- Create the Label Studio container -->
@@ -72,7 +72,7 @@
                                 "value": {
                                     "start": {{ annotation.start }},
                                     "end": {{ annotation.end }},
-                                    "text": "{{ annotation.text }}",
+                                    "text": `{{ annotation.text }}`,
                                     "labels": [
                                         "{{ annotation.label }}"
                                     ]

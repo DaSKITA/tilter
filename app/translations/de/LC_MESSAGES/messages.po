@@ -1,0 +1,89 @@
+# German translations for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-03-01 11:59+0100\n"
+"PO-Revision-Date: 2021-02-28 18:05+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: templates/create_task.html:4 templates/index.html:2 templates/label.html:7
+#: templates/member_page.html:2 templates/tasks.html:4
+msgid "Welcome to TILTer"
+msgstr "Willkommen bei TILTer"
+
+#: templates/create_task.html:5 templates/label.html:9
+msgid "task overview"
+msgstr "Aufgabenübersicht"
+
+#: templates/create_task.html:6
+msgid "Task Creation"
+msgstr "Aufgabenerstellung"
+
+#: templates/index.html:4 templates/index.html:7 templates/member_page.html:5
+msgid "Home page"
+msgstr "Homepage"
+
+#: templates/index.html:5
+msgid "Register"
+msgstr "Registrieren"
+
+#: templates/index.html:6
+msgid "Sign in"
+msgstr "Anmelden"
+
+#: templates/index.html:7 templates/member_page.html:5
+msgid "accessible to anyone"
+msgstr "ohne Anmeldung zugänglich"
+
+#: templates/index.html:8 templates/member_page.html:6
+msgid "Member page"
+msgstr "Mitgliedsseite"
+
+#: templates/index.html:8 templates/member_page.html:6
+msgid "login required"
+msgstr "Anmeldung erforderlich"
+
+#: templates/label.html:8
+msgid "Task"
+msgstr "Aufgabe"
+
+#: templates/member_page.html:4
+msgid "Members page"
+msgstr "Mitgliedsseite"
+
+#: templates/member_page.html:7
+msgid "Sign out"
+msgstr "Abmelden"
+
+#: templates/member_page.html:8
+msgid "Task Overview"
+msgstr "Aufgabenübersicht"
+
+#: templates/tasks.html:6
+msgid "These are your Tasks!"
+msgstr "Dies sind Ihre Aufgaben!"
+
+#: templates/tasks.html:10
+msgid "Task Name"
+msgstr "Aufgabe"
+
+#: templates/tasks.html:23
+msgid "You currently have no tasks!"
+msgstr "Sie haben aktuell keine Aufgaben!"
+
+#: templates/tasks.html:25
+msgid "Create a new Task"
+msgstr "Neue Aufgabe erstellen"
+

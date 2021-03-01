@@ -5,3 +5,4 @@ flask_wtf
 wtforms
 flask_restx
 email_validator
+flask-babel

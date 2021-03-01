@@ -12,6 +12,8 @@ class Config(object):
     USER_ENABLE_CHANGE_USERNAME = False
     USER_AFTER_LOGIN_ENDPOINT = 'member_page'
 
+    LANGUAGES = ['en', 'de']
+
     with open('secrets/secrets.json') as f:
         data = json.load(f)
         SECRET_KEY = data["flask_secret_key"]

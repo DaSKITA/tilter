@@ -1,9 +1,9 @@
 {% extends "base.html" %}
-<h1>{% block title %} Welcome to TILTer {% endblock %}</h1>
+<h1>{% block title %} {{ _('Welcome to TILTer') }} {% endblock %}</h1>
 {% block content %}
-    <h2>Members page</h2>
-    <p><a href={{ url_for('index') }}>Home page</a> (accessible to anyone)</p>
-    <p><a href={{ url_for('member_page') }}>Member page</a> (login required)</p>
-    <p><a href={{ url_for('user.logout') }}>Sign out</a></p>
-    <p><a href={{ url_for('tasks') }}>Task Overview</a></p>
+    <h2>{{ _('Members page') }}</h2>
+    <p><a href={{ url_for('index') }}>{{ _('Home page') }}</a> ({{ _('accessible to anyone') }})</p>
+    <p><a href={{ url_for('member_page') }}>{{ _('Member page') }}</a> ({{ _('login required') }})</p>
+    <p><a href={{ url_for('user.logout') }}>{{ _('Sign out') }}</a></p>
+    <p><a href={{ url_for('tasks') }}>{{ _('Task Overview') }}</a></p>
 {% endblock %}

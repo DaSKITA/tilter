@@ -1,9 +1,9 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h1>{% block title %} Welcome to TILTer {% endblock %}</h1>
-    <a href="{{ url_for("tasks") }}"><- task overview</a>
-    <h2>Task Creation</h2>
+    <h1>{% block title %} {{ _('Welcome to TILTer') }} {% endblock %}</h1>
+    <a href="{{ url_for("tasks") }}"><- {{ _('task overview') }}</a>
+    <h2>{{ _('Task Creation') }}</h2>
     <form action="" method="post" novalidate>
         {{ form.hidden_tag() }}
         <p>
