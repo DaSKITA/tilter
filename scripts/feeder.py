@@ -1,6 +1,4 @@
-from pathlib import Path
 
-import codecs
 import json
 import os
 import requests
@@ -18,16 +16,17 @@ def main(argv):
     directory = argv[0]
 
     for file in os.listdir(directory):
+        # skip hidden files
+        if file.startswith('.'):
+            continue
 
-        textfile = open(directory + "/" + file, "r", encoding="utf-8")
-        print(directory + "/" + file)
+        textfile = open(directory + "/" + file, "r")
         text = textfile.read()
         textfile.close()
 
-        data = {"name": file[:-4], "text": text, "html": False,
-                "labels": ["Controller - Name", "Data Protection Officer - Email", "Third Country Transfer - Target Country"]}
+        data = {"name": file[:-4], "text": text, "html": False}
 
-        response = requests.post('http://localhost:5000/api/task', headers=headers, data=json.dumps(data))
+        response = requests.post('http://localhost:5000/api/task/', headers=headers, data=json.dumps(data))
 
         print(response.status_code)
         print(response.text)

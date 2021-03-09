@@ -86,4 +86,3 @@ msgstr "Sie haben aktuell keine Aufgaben!"
 #: templates/tasks.html:25
 msgid "Create a new Task"
 msgstr "Neue Aufgabe erstellen"
-

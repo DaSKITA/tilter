@@ -3,6 +3,9 @@ from flask import request
 from flask_restx import fields, Namespace, Resource
 from tilt.utilities import tilt_from_task
 
+import json
+import os
+
 # API Namespace
 ns = Namespace("task", description="API Node for TILTer")
 
@@ -47,12 +50,23 @@ class TaskCollection(Resource):
         Creates a new task and returns it.
         :return: newly created task
         """
+        labels = []
+
+        # open tilt schema file
+        cur_path = os.path.dirname(__file__)
+        new_path = os.path.join(cur_path, '..', 'tilt', 'schema.json')
+        with open(new_path, 'r') as f:
+            schema = json.load(f)
+
+        # construct labels from tilt schema
+        for i in schema.keys():
+            labels.append(schema[i]["desc"])
+
         name = request.json.get('name')
         text = request.json.get('text')
         html = request.json.get('html')
-        labels = request.json.get('labels')
-        if name != '' and text != '' and labels != '':
-            new_task = Task(name=name, labels=labels,
+        if name != '' and text != '':
+            new_task = Task(name=name, labels=labels, hierarchy=[], parent=None,
                  interfaces=[
                      "panel",
                      "update",

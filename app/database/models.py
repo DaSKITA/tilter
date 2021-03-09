@@ -6,6 +6,8 @@ from flask_user import UserMixin
 class Task(db.Document):
     name = db.StringField(max_length=255)
     labels = db.ListField()
+    hierarchy = db.ListField()
+    parent = db.ReferenceField('Task')
     interfaces = db.ListField()
     text = db.StringField()
     html = db.BooleanField()
@@ -32,3 +34,4 @@ class Annotation(db.Document):
     text = db.StringField(required=True)
     label = db.StringField(required=True)
     task = db.ReferenceField('Task', required=True)
+    related_to = db.ReferenceField('Annotation', required=True)

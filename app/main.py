@@ -69,7 +69,7 @@ def create_task():
         return render_template('create_task.html', form=form)
     else:
         if form.validate_on_submit():
-            Task(name=form.name.data, labels=form.labels.data,
+            Task(name=form.name.data, labels=form.labels.data, hierarchy=[], parent=None,
                  interfaces=[
                      "panel",
                      "update",
