@@ -3,6 +3,6 @@ flask_mongoengine
 flask_user
 flask_wtf
 wtforms
-flask_restx
+flask-restx
 email_validator
 flask-babel
