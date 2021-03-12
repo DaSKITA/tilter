@@ -34,4 +34,4 @@ class Annotation(db.Document):
     text = db.StringField(required=True)
     label = db.StringField(required=True)
     task = db.ReferenceField('Task', required=True)
-    related_to = db.ReferenceField('Annotation', required=True)
+    related_to = db.ReferenceField('Annotation')
