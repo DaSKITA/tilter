@@ -24,17 +24,19 @@
             </ul>
         </div>
     </nav>
-    {% with messages = get_flashed_messages() %}
-      {% if messages %}
-          <div class="container">
-            <ul class=flashes>
-            {% for message in messages %}
-              <li>{{ message }}</li>
-            {% endfor %}
-            </ul>
-          </div>
-      {% endif %}
-    {% endwith %}
+    {# One-time system messages called Flash messages #}
+    {% block flash_messages %}
+        {%- with messages = get_flashed_messages(with_categories=true) -%}
+            {% if messages %}
+                {% for category, message in messages %}
+                    {% if category=='error' %}
+                        {% set category='danger' %}
+                    {% endif %}
+                    <div class="alert alert-{{category}}">{{ message|safe }}</div>
+                {% endfor %}
+            {% endif %}
+        {%- endwith %}
+    {% endblock %}
     <div class="container">
         {% block content %} {% endblock %}
     </div>

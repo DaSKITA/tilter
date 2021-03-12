@@ -58,7 +58,7 @@ class TaskCollection(Resource):
         with open(new_path, 'r') as f:
             schema = json.load(f)
 
-        # construct labels from tilt schema
+        # construct first-level labels from tilt schema
         for i in schema.keys():
             labels.append(schema[i]["desc"])
 
