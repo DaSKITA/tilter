@@ -66,16 +66,20 @@ class TaskCollection(Resource):
         text = request.json.get('text')
         html = request.json.get('html')
         if name != '' and text != '':
-            new_task = Task(name=name, labels=labels, hierarchy=[], parent=None,
-                 interfaces=[
-                     "panel",
-                     "update",
-                     "controls",
-                     "side-column",
-                     "predictions:menu"],
-                 html=html, text=text)
-            new_task.save()
-            return new_task
+            task = Task.objects.get(name=name, labels=labels, hierarchy=[], parent=None, html=html, text=text)
+            if not task:
+                task = Task(name=name, labels=labels, hierarchy=[], parent=None,
+                     interfaces=[
+                         "panel",
+                         "update",
+                         "controls",
+                         "side-column",
+                         "predictions:menu"],
+                     html=html, text=text)
+                task.save()
+                return task, 201
+            else:
+                return task, 200
         else:
             return None, 400
 
