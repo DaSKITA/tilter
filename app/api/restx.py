@@ -1,6 +1,7 @@
 from database.models import Task, Annotation
 from flask import request
 from flask_restx import fields, Namespace, Resource
+from mongoengine import DoesNotExist
 from tilt.utilities import tilt_from_task
 
 import json
@@ -154,19 +155,82 @@ class AnnotationByTaskIdInJSON(Resource):
         """
         task = Task.objects.get(id=id)
         data = request.json
-        resp = []
+        all_current_annotations = []
+        new_annotations = []
+
+        #create new annotations
         for content in data.values():
             label = content['results'][0]['value']['labels'][0]
             start = content['start']
             end = content['end']
             text = content['text']
             print(label)
-            if not Annotation.objects(task=task, text=text, start=start, end=end, label=label):
+            try:
+                old_annotation = Annotation.objects.get(task=task, text=text, start=start, end=end, label=label)
+                all_current_annotations.append(old_annotation.id)
+            except DoesNotExist:
                 new_annotation = Annotation(task=task, text=text, start=start, end=end, label=label)
                 new_annotation.save()
-                resp.append(new_annotation)
-        if resp:
-            return resp
+                new_annotations.append(new_annotation)
+                all_current_annotations.append(new_annotation.id)
+
+        # delete old unwanted annotations
+        for anno in Annotation.objects(task=task):
+            if anno.id not in all_current_annotations:
+                anno.delete()
+
+        # create new tasks according to the tilt schema
+        # open tilt schema file
+        cur_path = os.path.dirname(__file__)
+        new_path = os.path.join(cur_path, '..', 'tilt', 'schema.json')
+        with open(new_path, 'r') as f:
+            schema = json.load(f)
+
+        # advance in tilt schema until reaching the hierarchy level of the current task
+        for i in task.hierarchy:
+            schema = schema[i]
+
+        # iterate through newly created annotations and create a new task, if necessary
+        for anno in new_annotations:
+            for i in schema.keys():
+                if type(schema[i]) is not dict:
+                    continue
+                if schema[i]['desc'] == anno.label and \
+                        (len(schema[i].values()) > 3 or any(isinstance(val, dict) for val in schema[i].values())):
+                    # creation of new task is needed, gather labels and create new hierarchy list
+                    labels = []
+                    for key, val in schema[i].items():
+                        if type(val) is dict:
+                            labels.append(val['desc'])
+                        elif key in ['desc', 'key']:
+                            continue
+                        else:
+                            labels.append(val)
+
+                    hierarchy = task.hierarchy
+                    hierarchy.append(i)
+
+                    # create new task
+                    new_task = Task(name=anno.label + ' - ' + task.name, labels=labels,
+                                    hierarchy=hierarchy, parent=task,
+                                    interfaces=[
+                                        "panel",
+                                        "update",
+                                        "controls",
+                                        "side-column",
+                                        "predictions:menu"],
+                                    html=task.html, text=task.text)
+                    new_task.save()
+
+                    # create annotation for new task
+                    new_task_anno = Annotation(task=new_task, label=schema[i][schema[i]['key']], text=anno.text,
+                                               start=anno.start, end=anno.end)
+                    new_task_anno.save()
+
+                    # TODO: add construction of relations between annotations here
+
+        if new_annotations:
+            return new_annotations
         else:
             return [], 400
 
