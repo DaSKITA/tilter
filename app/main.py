@@ -3,7 +3,7 @@ from config import Config
 from database.db import db
 from database.models import Task, User, Annotation
 from flask import Blueprint, flash, Flask, Markup, render_template, redirect, request
-from flask_babel import Babel, _
+from flask_babel import Babel
 from flask_restx import Api
 from flask_user import login_required, UserManager
 from forms import CreateTaskForm
@@ -11,28 +11,26 @@ from forms import CreateTaskForm
 # Initialize Flask App
 app = Flask(__name__)
 app.config.from_object(Config)
-
 # MongoDB Setup
 db.init_app(app)
 
 # Babel Setup
-babel = Babel(app)
+babel = Babel(app, default_locale='de')
 
 
 @babel.localeselector
 def get_locale():
-    # return request.accept_languages.best_match(app.config['LANGUAGES'])
-    return 'de'
-
-
-# Setup Flask-User and specify the User data-model
-user_manager = UserManager(app, db, User)
+    return request.accept_languages.best_match(app.config['LANGUAGES'])
 
 
 # Character Escaping Filters for Templates
 @app.template_filter()
 def html_escape(text):
     return Markup(text.replace("'", "&#39;").replace('\r\n', '').replace('\n', '').replace('\r', ''))
+
+
+# Setup Flask-User and specify the User data-model
+user_manager = UserManager(app, db, User)
 
 
 @app.template_filter()
