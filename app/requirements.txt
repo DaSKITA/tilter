@@ -5,4 +5,4 @@ flask_wtf
 wtforms
 flask-restx
 email_validator
-flask-babel
+flask-babel==2.0.0
