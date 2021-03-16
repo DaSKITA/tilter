@@ -1,6 +1,6 @@
 flask
 flask_mongoengine
-flask_user
+dependencies/dist/Flask_User-1.0.2.3-py2.py3-none-any.whl
 flask_wtf
 wtforms
 flask-restx
