@@ -26,7 +26,7 @@ def main(directory: str):
 
         data = {"name": file[:-4], "text": text, "html": False}
 
-        response = requests.post('http://localhost:5000/api/task/', headers=headers, data=json.dumps(data))
+        _ = requests.post('http://localhost:5000/api/task/', headers=headers, data=json.dumps(data))
 
 
 if __name__ == "__main__":
