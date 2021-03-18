@@ -1,4 +1,5 @@
 import json
+import os
 
 
 # Flask Config from Class
@@ -13,8 +14,9 @@ class Config(object):
     USER_AFTER_LOGIN_ENDPOINT = 'member_page'
 
     LANGUAGES = ['en', 'de']
+    BASE_PATH = os.path.abspath(os.path.dirname(__file__))
 
-    with open('secrets/secrets.json') as f:
+    with open(f'{BASE_PATH}/secrets/secrets.json') as f:
         data = json.load(f)
         SECRET_KEY = data["flask_secret_key"]
         MONGODB_SETTINGS = {"db": data["mongodb_database"],
