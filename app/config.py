@@ -21,4 +21,4 @@ class Config(object):
         SECRET_KEY = data["flask_secret_key"]
         MONGODB_SETTINGS = {"db": data["mongodb_database"],
                             "host": f"mongodb://{data['mongodb_user']}:{data['mongodb_password']}"
-                                    f"@mongo:{data['mongodb_port']}/?authSource=admin"}
+                                    f"@mongo:{data['mongodb_port']}/{data['mongodb_database']}?authSource=admin"}

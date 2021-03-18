@@ -3,7 +3,9 @@ FROM tiangolo/uwsgi-nginx-flask:python3.8
 EXPOSE 5000
 ENV FLASK_APP=app/main.py
 
-COPY ./app /app
+COPY app/requirements.txt requirements.txt
 COPY dependencies dependencies
+RUN pip install -r requirements.txt
 
-RUN pip install -r /app/requirements.txt
+WORKDIR /app
+COPY ./app .
