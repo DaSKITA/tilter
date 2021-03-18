@@ -2,20 +2,20 @@
 import json
 import os
 import requests
-import sys
+import click
+from tqdm import tqdm
 
-def main(argv):
+
+@click.command()
+@click.option('-d', '--directory', default=None, help="Directory of policies.")
+def main(directory: str):
     headers = {
-    'Content-Type': 'application/json; charset=utf-8',
+        'Content-Type': 'application/json; charset=utf-8',
     }
 
-    if len(argv) != 1:
-        print("Usage: python feeder.py [directory of policies]")
-        return
+    assert directory, "No Input Files provided!"
 
-    directory = argv[0]
-
-    for file in os.listdir(directory):
+    for file in tqdm(os.listdir(directory)):
         # skip hidden files
         if file.startswith('.'):
             continue
@@ -26,10 +26,8 @@ def main(argv):
 
         data = {"name": file[:-4], "text": text, "html": False}
 
-        response = requests.post('http://localhost:5000/api/task/', headers=headers, data=json.dumps(data))
+        _ = requests.post('http://localhost:5000/api/task/', headers=headers, data=json.dumps(data))
 
-        print(response.status_code)
-        print(response.text)
 
 if __name__ == "__main__":
-    main(sys.argv[1:])
+    main()
