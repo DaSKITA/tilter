@@ -2,7 +2,6 @@
 
 SCRIPT_DIR=$(cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )
 BASEDIR=$(dirname "$SCRIPT_DIR")
-echo $SCRIPT_DIR
 export FLASK_ENV="development"
 export FLASK_DEBUG=true
 export FLASK_APP=main.py
