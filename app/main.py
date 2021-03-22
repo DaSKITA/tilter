@@ -3,7 +3,7 @@ from config import Config
 from database.db import db
 from database.models import Task, User, Annotation
 from flask import Blueprint, flash, Flask, Markup, render_template, redirect, request
-from flask_babel import Babel
+from flask_babel import _, Babel
 from flask_restx import Api
 from flask_user import login_required, UserManager
 from forms import CreateTaskForm
@@ -86,10 +86,18 @@ def create_task():
 @app.route('/tasks/<string:task_id>')
 @login_required
 def label(task_id):
+    update_success = request.args.get('success', default=None)
+    if update_success:
+        flash(_("Annotations updated successfully!"), 'success')
+    elif update_success == False:
+        flash(_("Error updateing Annotations!"), 'error')
+
     task = Task.objects.get(pk=task_id)
     annotations = Annotation.objects(task=task)
     target_url = request.url_root + 'api/task/' + str(task_id) + '/annotation/json'
-    return render_template('label.html', task=task, target_url=target_url, annotations=annotations)
+    redirect_url = request.base_url
+    return render_template('label.html', task=task, target_url=target_url, annotations=annotations,
+                           redirect_url=redirect_url)
 
 
 # API Setup

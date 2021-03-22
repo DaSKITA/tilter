@@ -198,7 +198,7 @@ class AnnotationByTaskIdInJSON(Resource):
                     continue
                 if schema[i]['desc'] == anno.label and \
                         (len(schema[i].values()) > 3 or any(isinstance(val, dict) for val in schema[i].values())):
-                    # creation of new task is needed, gather labels and create new hierarchy list
+                    # creation of new task is needed, gather labels, create new hierarchy list and determine new name
                     labels = []
                     for key, val in schema[i].items():
                         if type(val) is dict:
@@ -211,8 +211,13 @@ class AnnotationByTaskIdInJSON(Resource):
                     hierarchy = task.hierarchy
                     hierarchy.append(i)
 
+                    tmp_task = task
+                    while tmp_task.parent is not None:
+                        tmp_task = tmp_task.parent
+                    name = anno.label + ' - ' + tmp_task.name
+
                     # create new task
-                    new_task = Task(name=anno.label + ' - ' + task.name, labels=labels,
+                    new_task = Task(name=name, labels=labels,
                                     hierarchy=hierarchy, parent=task,
                                     interfaces=[
                                         "panel",
@@ -228,12 +233,12 @@ class AnnotationByTaskIdInJSON(Resource):
                                                start=anno.start, end=anno.end)
                     new_task_anno.save()
 
-                    # TODO: add construction of relations between annotations here
+                    # TODO: add construction of relations between annotations here (?)
 
         if new_annotations:
             return new_annotations
         else:
-            return [], 400
+            return []
 
 
 @ns.route('/tilt')
