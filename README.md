@@ -16,7 +16,7 @@ Annotation tool _TILTer_ for the annotation and conversion of privacy policies i
 ![](./.docs/screen1.png)
 
 ## Adding Privacy Policies
-Run `python scripts/feeder.py [dir]`, where `[dir]` is the path to a folder containing privacy policies.
+Run `python scripts/feeder.py -d [dir]`, where `[dir]` is the path to a folder containing privacy policies.
 
 ## Languages and Translations
 Currently supported Languages are English (standard) and German. These are realized using the `pybabel` package. For more information regarding this topic please visit the [babel documentation](http://babel.pocoo.org/en/latest/index.html).
