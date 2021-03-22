@@ -238,7 +238,7 @@ class AnnotationByTaskIdInJSON(Resource):
         if new_annotations:
             return new_annotations
         else:
-            return [], 400
+            return []
 
 
 @ns.route('/tilt')

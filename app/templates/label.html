@@ -26,8 +26,10 @@
                                 "Content-Type": "application/json"
                             }
                         });
-                      const content = await response;
-                      console.log(content)
+                        const content = await response;
+                        console.log(content)
+                        answer = content.ok.toString().charAt(0).toUpperCase() + content.ok.toString().slice(1);
+                        window.location.replace('{{ redirect_url }}?success=' + answer)
                     }
 
         var labelStudio = new LabelStudio('label-studio', {
