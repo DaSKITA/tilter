@@ -159,6 +159,7 @@ class AnnotationByTaskIdInJSON(Resource):
         data = request.json
         all_current_annotations = []
         new_annotations = []
+        translation_dict = None
         if get_locale != "en":
             cache = get_translations()
             translation_dict = {value: key for key, value in cache._catalog.items()}
