@@ -169,7 +169,6 @@ class AnnotationByTaskIdInJSON(Resource):
             label = content['results'][0]['value']['labels'][0]
             if translation_dict:
                 label = translation_dict[label]
-            # TODO: add a domain and try again
             start = content['start']
             end = content['end']
             text = content['text']
