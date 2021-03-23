@@ -3,7 +3,7 @@ from config import Config
 from database.db import db
 from database.models import Task, User, Annotation
 from flask import Blueprint, flash, Flask, Markup, render_template, redirect, request
-from flask_babel import _, Babel
+from flask_babel import _, Babel, Domain
 from flask_restx import Api
 from flask_user import login_required, UserManager
 from forms import CreateTaskForm
@@ -15,6 +15,7 @@ app.config.from_object(Config)
 db.init_app(app)
 
 # Babel Setup
+domain = Domain()
 babel = Babel(app, default_locale='de')
 
 
