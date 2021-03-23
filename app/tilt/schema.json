@@ -21,6 +21,7 @@
       "category": "Data Category",
       "purposes": {
           "desc": "Data Disclosed - Purpose",
+          "key": "purpose",
           "purpose": "Purpose of Data"
         },
       "legalBases": {

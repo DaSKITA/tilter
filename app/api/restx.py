@@ -165,7 +165,6 @@ class AnnotationByTaskIdInJSON(Resource):
             start = content['start']
             end = content['end']
             text = content['text']
-            print(label)
             try:
                 old_annotation = Annotation.objects.get(task=task, text=text, start=start, end=end, label=label)
                 all_current_annotations.append(old_annotation.id)
@@ -188,8 +187,8 @@ class AnnotationByTaskIdInJSON(Resource):
             schema = json.load(f)
 
         # advance in tilt schema until reaching the hierarchy level of the current task
-        for i in task.hierarchy:
-            schema = schema[i]
+        for j in task.hierarchy:
+            schema = schema[j]
 
         # iterate through newly created annotations and create a new task, if necessary
         for anno in new_annotations:
@@ -233,12 +232,8 @@ class AnnotationByTaskIdInJSON(Resource):
                                                start=anno.start, end=anno.end)
                     new_task_anno.save()
 
-                    # TODO: add construction of relations between annotations here (?)
 
-        if new_annotations:
-            return new_annotations
-        else:
-            return []
+        return new_annotations
 
 
 @ns.route('/tilt')
