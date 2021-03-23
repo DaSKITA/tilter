@@ -12,6 +12,9 @@ services:
       MONGODB_DATABASE: tilterdb
       MONGODB_USERNAME: root
       MONGODB_PASSWORD: SuperSecret
+      MONGODB_PORT: 27017
+      MONGODB_HOST: mongo
+      FLASK_SECRET_KEY: 12345678901234567890123456789012
       FLASK_APP: main.py
       FLASK_DEBUG: 1
       RUN: flask run --host=0.0.0.0 --port=5000
@@ -22,7 +25,7 @@ services:
       - mongo
 
   mongo-express: # DATABASE ADMINISTRATION
-    image: mongo-express:latest
+    image: mongo-express:0.54
     container_name: mongo-express
     ports:
       - "8081:8081"
@@ -38,7 +41,7 @@ services:
       ME_CONFIG_BASICAUTH_PASSWORD: SuperSecret
 
   mongo:
-    image: mongo:latest
+    image: mongo:4.4.4
     container_name: mongo
     restart: unless-stopped
     command: mongod --auth

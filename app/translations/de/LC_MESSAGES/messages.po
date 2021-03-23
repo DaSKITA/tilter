@@ -86,3 +86,41 @@ msgstr "Sie haben aktuell keine Aufgaben!"
 #: templates/tasks.html:25
 msgid "Create a new Task"
 msgstr "Neue Aufgabe erstellen"
+
+#: templates/label.html:40
+msgid "Controller - Company Name"
+msgstr "Controller - Firmenname"
+
+#: templates/label.html:40
+msgid "Data Protection Officer - E-mail"
+msgstr "Datenschutz Beauftragter - E-mail"
+
+#: templates/label.html:40
+msgid "Data Disclosed - Category"
+msgstr "Daten Offenlegung - Kategorie"
+
+#: templates/label.html:40
+msgid "Third Country Transfers - Target Country"
+msgstr "Drittlandsübertragungen - Ziel Land"
+
+#: templates/label.html:40
+msgid "Automated Decision Making - Logic"
+msgstr "Automatisierte Entscheidungsfindung - Logik"
+
+
+#: templates/label.html:40
+msgid "Data Disclosed - Legal Basis"
+msgstr "Daten Offenlegung - Rechtliche Grundlage"
+
+
+#: templates/label.html:40
+msgid "Data Disclosed - Legitimate Interest"
+msgstr "Daten Offenlegung - Legitimes Interesse"
+
+#: templates/label.html:40
+msgid "Data Disclosed - Recipients"
+msgstr "Daten Offenlegung - Empfänger"
+
+#: templates/label.html:40
+msgid "Data Disclosed - Storage Period"
+msgstr "Daten Offenlegung - Speicherzeit"

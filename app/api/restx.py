@@ -3,6 +3,7 @@ from flask import request
 from flask_restx import fields, Namespace, Resource
 from mongoengine import DoesNotExist
 from tilt.utilities import tilt_from_task
+from flask_babel import get_translations, get_locale
 
 import json
 import os
@@ -158,10 +159,17 @@ class AnnotationByTaskIdInJSON(Resource):
         data = request.json
         all_current_annotations = []
         new_annotations = []
+        translation_dict = None
+        if get_locale != "en":
+            cache = get_translations()
+            translation_dict = {value: key for key, value in cache._catalog.items()}
 
-        #create new annotations
+        # create new annotations
         for content in data.values():
+
             label = content['results'][0]['value']['labels'][0]
+            if translation_dict:
+                label = translation_dict[label]
             start = content['start']
             end = content['end']
             text = content['text']

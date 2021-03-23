@@ -1,4 +1,4 @@
-import json
+from dotenv import load_dotenv
 import os
 
 
@@ -16,9 +16,23 @@ class Config(object):
     LANGUAGES = ['en', 'de']
     BASE_PATH = os.path.abspath(os.path.dirname(__file__))
 
-    with open(f'{BASE_PATH}/secrets/secrets.json') as f:
-        data = json.load(f)
-        SECRET_KEY = data["flask_secret_key"]
-        MONGODB_SETTINGS = {"db": data["mongodb_database"],
-                            "host": f"mongodb://{data['mongodb_user']}:{data['mongodb_password']}"
-                                    f"@mongo:{data['mongodb_port']}/?authSource=admin"}
+    # Secrets
+    if not os.environ.get("DEPLOYMENT", None):
+        load_dotenv(dotenv_path=os.path.join(BASE_PATH, "secrets/local.env"))
+
+    SECRET_KEY = os.environ["FLASK_SECRET_KEY"]
+
+    def _create_mongo_settings(mongodb_user: str,
+                               mongodb_password: str,
+                               mongodb_port: str,
+                               mongodb_database: str,
+                               host: str) -> str:
+        host = f"mongodb://{mongodb_user}:{mongodb_password}" + \
+            f"@{host}:{mongodb_port}/{mongodb_database}?authSource=admin"
+        return {"host": host}
+
+    MONGODB_SETTINGS = _create_mongo_settings(mongodb_user=os.environ["MONGODB_USERNAME"],
+                                              mongodb_password=os.environ["MONGODB_PASSWORD"],
+                                              mongodb_port=os.environ["MONGODB_PORT"],
+                                              mongodb_database=os.environ["MONGODB_DATABASE"],
+                                              host=os.environ.get("MONGODB_HOST", "localhost"))

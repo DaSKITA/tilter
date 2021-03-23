@@ -6,3 +6,6 @@ wtforms
 flask-restx
 email_validator
 flask-babel==2.0.0
+python-dotenv==0.15.0
+requests==2.25.1
+tqdm==4.59.0
