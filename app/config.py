@@ -18,7 +18,7 @@ class Config(object):
 
     # Secrets
     if not os.environ.get("DEPLOYMENT", None):
-        load_dotenv(dotenv_path=os.path.join(BASE_PATH, "secrets/local.env"))
+        load_dotenv(dotenv_path=os.path.join(BASE_PATH, "secrets/local/flask-local.env"))
 
     SECRET_KEY = os.environ["FLASK_SECRET_KEY"]
 
