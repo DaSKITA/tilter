@@ -97,7 +97,7 @@ def label(task_id):
     annotations = Annotation.objects(task=task)
     target_url = request.url_root + 'api/task/' + str(task_id) + '/annotation/json'
     redirect_url = request.base_url
-    colors = ['blue', 'red', 'yellow', 'green', 'orange', 'violet', 'pink']
+    colors = ['blue', 'red', 'yellow', 'green', 'orange', 'magenta', 'pink']
     return render_template('label.html', task=task, target_url=target_url, annotations=annotations,
                            redirect_url=redirect_url, colors=colors)
 

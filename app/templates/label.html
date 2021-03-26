@@ -39,7 +39,7 @@
                     background: white; top: 0">
             <Labels name="ner" toName="text">
                 {% for label in task.labels %}
-                    <Label value="{{ _(label) }}"/>
+                    <Label value="{{ _(label) }}" background="{{ colors[loop.index - 1] }}"/>
                 {% endfor %}
             </Labels>
         </View>
@@ -55,13 +55,7 @@
                 "controls",
                 "side-column",
 //                "predictions:menu",
-            ],{#
-
-            user: {
-                pk: 1, //load user auth from db here
-                firstName: "James",
-                lastName: "Dean"
-            },#}
+            ],
 
             task: {
                 completions: [{
@@ -73,7 +67,7 @@
                                     "end": {{ annotation.end }},
                                     "text": `{{ annotation.text }}`,
                                     "labels": [
-                                        "{{ annotation.label }}"
+                                        "{{ _(annotation.label) }}"
                                     ]
                                 },
                                 "id": "{{ annotation.id }}",
@@ -85,7 +79,6 @@
                     ]
                   }],
                 predictions: [],
-//                id: 777,
                 data: {
                     text: ` {% if task.html %}
                                 {{ task.text | html_escape }}
