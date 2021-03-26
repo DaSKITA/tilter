@@ -89,38 +89,96 @@ msgstr "Neue Aufgabe erstellen"
 
 #: templates/label.html:40
 msgid "Controller - Company Name"
-msgstr "Controller - Firmenname"
+msgstr "Verantwortliche*r - Unternehmensbezeichnung"
+
+#: templates/label.html:40
+msgid "Company Name"
+msgstr "Unternehmensbezeichnung"
+
+#: templates/label.html:40
+msgid "Country"
+msgstr "Land(-eskürzel)"
+
+#: templates/label.html:40
+msgid "Representative - E-Mail"
+msgstr "Vertreter - E-Mail"
 
 #: templates/label.html:40
 msgid "Data Protection Officer - E-mail"
-msgstr "Datenschutz Beauftragter - E-mail"
+msgstr "Datenschutzbeauftragte*r - E-mail"
+
+#: templates/label.html:40
+msgid "E-Mail address"
+msgstr "E-Mail Adresse"
 
 #: templates/label.html:40
 msgid "Data Disclosed - Category"
-msgstr "Daten Offenlegung - Kategorie"
+msgstr "Betroffene Daten - Kategorie"
+
+#: templates/label.html:40
+msgid "Data Category"
+msgstr "Kategorie der Daten"
+
+#: templates/label.html:40
+msgid "Data Disclosed - Purpose"
+msgstr "Betroffene Daten - Zweck"
+
+#: templates/label.html:40
+msgid "Purpose of Data"
+msgstr "Zweck"
+
+#: templates/label.html:40
+msgid "Data Disclosed - Legal Basis"
+msgstr "Betroffene Daten - Rechtsgrundlage"
+
+#: templates/label.html:40
+msgid "Legal Basis Description"
+msgstr "Beschreibung der Rechtsgrundlage"
+
+#: templates/label.html:40
+msgid "Data Disclosed - Legitimate Interest"
+msgstr "Betroffene Daten - Berechtigte Interessen"
+
+#: templates/label.html:40
+msgid "Legitimate Interest - Reasoning"
+msgstr "Berechtigte Interessen - Begründung"
+
+#: templates/label.html:40
+msgid "Data Disclosed - Recipients"
+msgstr "Betroffene Daten - Empfänger(-kategorien)"
+
+#: templates/label.html:40
+msgid "Recipient Name"
+msgstr "Empfänger(-kategorie) Unternehmensbezeichnung"
+
+#: templates/label.html:40
+msgid "Recipient Country"
+msgstr "Empfänger(-kategorie) Landeskürzel"
+
+#: templates/label.html:40
+msgid "Data Disclosed - Storage Period"
+msgstr "Betroffene Daten - Dauer der Speicherung"
+
+#: templates/label.html:40
+msgid "Storage Period - Purpose Conditional"
+msgstr "Dauer der Speicherung - Konditional: Beschreibung des Zwecks"
+
+#: templates/label.html:40
+msgid "Storage Period - Legal Basis Conditional"
+msgstr "Dauer der Speicherung - Konditional: Beschreibung der Rechtsgrundlage"
 
 #: templates/label.html:40
 msgid "Third Country Transfers - Target Country"
-msgstr "Drittlandsübertragungen - Ziel Land"
+msgstr "Drittlandweitergabe - Ziel Landeskürzel"
+
+#: templates/label.html:40
+msgid "Target Country"
+msgstr "Ziel Landeskürzel"
 
 #: templates/label.html:40
 msgid "Automated Decision Making - Logic"
 msgstr "Automatisierte Entscheidungsfindung - Logik"
 
-
 #: templates/label.html:40
-msgid "Data Disclosed - Legal Basis"
-msgstr "Daten Offenlegung - Rechtliche Grundlage"
-
-
-#: templates/label.html:40
-msgid "Data Disclosed - Legitimate Interest"
-msgstr "Daten Offenlegung - Legitimes Interesse"
-
-#: templates/label.html:40
-msgid "Data Disclosed - Recipients"
-msgstr "Daten Offenlegung - Empfänger"
-
-#: templates/label.html:40
-msgid "Data Disclosed - Storage Period"
-msgstr "Daten Offenlegung - Speicherzeit"
+msgid "Involved Logic"
+msgstr "Beschreibung der involvierten Logik"
