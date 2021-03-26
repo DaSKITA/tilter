@@ -35,16 +35,16 @@
         var labelStudio = new LabelStudio('label-studio', {
             config: `
       <View>
-        <Labels name="ner" toName="text"> // type: htmllabels
-          {% for label in task.labels %}
-            <Label value="{{ _(label) }}"/>
-          {% endfor %}
-        </Labels>
-
-        <View style="border: 1px solid #CCC;
-                     border-radius: 10px;
-                     padding: 5px">
-          <Text name="text" value="$text" showLabels="true"/>
+        <View style="padding: 20px; border: 1px solid #CCC; border-radius: 5px; margin-bottom: 5px; position:sticky;
+                    background: white; top: 0">
+            <Labels name="ner" toName="text">
+                {% for label in task.labels %}
+                    <Label value="{{ _(label) }}"/>
+                {% endfor %}
+            </Labels>
+        </View>
+        <View style="border: 1px solid #CCC; border-radius: 5px; padding: 5px">
+            <Text name="text" value="$text" showLabels="true"/>
         </View>
       </View>
       `,
@@ -54,17 +54,14 @@
                 "update",
                 "controls",
                 "side-column",
-//        "completions:menu",
-//        "completions:add-new",
-//        "completions:delete",
-                "predictions:menu",
-            ],
+//                "predictions:menu",
+            ],{#
 
             user: {
                 pk: 1, //load user auth from db here
                 firstName: "James",
                 lastName: "Dean"
-            },
+            },#}
 
             task: {
                 completions: [{
