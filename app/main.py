@@ -3,7 +3,7 @@ from config import Config
 from database.db import db
 from database.models import Task, User, Annotation
 from flask import Blueprint, flash, Flask, Markup, render_template, redirect, request
-from flask_babel import _, Babel, Domain
+from flask_babel import _, Babel, Domain, get_translations
 from flask_restx import Api
 from flask_user import login_required, UserManager
 from forms import CreateTaskForm
@@ -21,8 +21,8 @@ babel = Babel(app, default_locale='de')
 
 @babel.localeselector
 def get_locale():
-    return request.accept_languages.best_match(app.config['LANGUAGES'])
-
+    #return request.accept_languages.best_match(app.config['LANGUAGES'])
+    return "en"
 
 # Character Escaping Filters for Templates
 @app.template_filter()
@@ -95,6 +95,13 @@ def label(task_id):
 
     task = Task.objects.get(pk=task_id)
     annotations = Annotation.objects(task=task)
+
+    # translate labels
+    if get_locale() != "en":
+        cache = get_translations()
+        labels = [cache._catalog[label] for label in task.labels]
+        task.labels = labels
+
     target_url = request.url_root + 'api/task/' + str(task_id) + '/annotation/json'
     redirect_url = request.base_url
     return render_template('label.html', task=task, target_url=target_url, annotations=annotations,

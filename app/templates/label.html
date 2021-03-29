@@ -37,7 +37,7 @@
       <View>
         <Labels name="ner" toName="text"> // type: htmllabels
           {% for label in task.labels %}
-            <Label value="{{ _(label) }}"/>
+            <Label value="{{ label }}"/>
           {% endfor %}
         </Labels>
 

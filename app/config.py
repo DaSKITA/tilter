@@ -1,5 +1,6 @@
 from dotenv import load_dotenv
 import os
+from enum import Enum
 
 
 # Flask Config from Class
@@ -36,3 +37,7 @@ class Config(object):
                                               mongodb_port=os.environ["MONGODB_PORT"],
                                               mongodb_database=os.environ["MONGODB_DATABASE"],
                                               host=os.environ.get("MONGODB_HOST", "localhost"))
+
+
+class TiltMapping(Enum):
+    pass
