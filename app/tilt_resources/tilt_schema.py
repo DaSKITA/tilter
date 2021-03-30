@@ -37,7 +37,7 @@ class TiltSchema:
         for dict_key, dict_item in json_tilt_dict.items():
             if isinstance(dict_item, list):
                 node_list_entries = []
-                sub_parent = TiltNode(graph=self, name=dict_key, multiple=True)
+                sub_parent = TiltNode(graph=self, name=dict_key, multiple=True, hierarchy=hierarchy)
                 node_list.append(sub_parent)
                 for list_entry in dict_item:
                     if isinstance(list_entry, dict):
@@ -47,10 +47,11 @@ class TiltSchema:
                     else:
                         node_list_entries.append(list_entry)
                 if node_list_entries != []:
-                    node_list.append(TiltNode(graph=self, name=dict_key, value=node_list_entries))
+                    node_list.append(TiltNode(graph=self, name=dict_key, value=node_list_entries,
+                                              hierarchy=hierarchy))
                 continue
             if isinstance(dict_item, dict):
-                sub_parent = TiltNode(graph=self, name=dict_key)
+                sub_parent = TiltNode(graph=self, name=dict_key, hierarchy=hierarchy)
                 sub_nodes = self._create_graph(dict_item, sub_parent,
                                                hierarchy=hierarchy+1)
                 sub_node_list.extend(sub_nodes)
@@ -58,7 +59,8 @@ class TiltSchema:
                 continue
 
             if isinstance(dict_item, str) or isinstance(dict_item, int):
-                tilt_node = TiltNode(graph=self, name=dict_key, value=dict_item, parent=parent)
+                tilt_node = TiltNode(graph=self, name=dict_key, value=dict_item,
+                                     parent=parent, hierarchy=hierarchy)
                 parent.add_children(tilt_node)
                 node_list.append(tilt_node)
 
@@ -158,11 +160,14 @@ class TiltNode:
                  value: str = None,
                  parent: 'TiltNode' = None,
                  multiple: bool = False,
-                 children: 'TiltNode' = None):
+                 children: 'TiltNode' = None,
+                 hierarchy: int = None):
         self.graph = graph
         assert self.graph, "A Node needs a Graph!"
         TiltNode.node_id += 1
         self.node_id = TiltNode.node_id
+        assert hierarchy is not None, "A Node needs a Hierarchy!"
+        self.hierarchy = hierarchy
         self.name = name
         self.value = value
         self.parent = parent
@@ -171,7 +176,6 @@ class TiltNode:
             self.children = []
         else:
             self.children = children
-
 
     def to_dict(self):
         return {self.name: self.value}
@@ -184,9 +188,9 @@ class TiltNode:
         return self._parent
 
     @parent.setter
-    def parent(self, parent: 'TiltNode', hierarchy: int = 1):
+    def parent(self, parent: 'TiltNode'):
         if parent:
-            edge = Edge(origin=parent.node_id, target=self.node_id, hierarchy=hierarchy)
+            edge = Edge(origin=parent.node_id, target=self.node_id, hierarchy=self.hierarchy)
             self.graph.edge_list.append(edge)
             self._parent = parent
 
@@ -195,22 +199,22 @@ class TiltNode:
         return self._children
 
     @children.setter
-    def children(self, children: Union[List['TiltNode'], 'TiltNode'], hierarchy: int = 1):
+    def children(self, children: Union[List['TiltNode'], 'TiltNode']):
         if isinstance(children, list):
-            edge = [Edge(self.node_id, child.node_id, hierarchy=hierarchy)
+            edge = [Edge(self.node_id, child.node_id, hierarchy=self.hierarchy)
                     for child in children]
         else:
-            edge = [Edge(origin=self.node_id, target=self.node_id)]
+            edge = [Edge(origin=self.node_id, target=self.node_id, hierarchy=self.hierarchy)]
         self._children = children
         self.graph.edge_list.extend(edge)
 
-    def add_children(self, children: Union[List['TiltNode'], 'TiltNode'], hierarchy: int = 1):
+    def add_children(self, children: Union[List['TiltNode'], 'TiltNode']):
         if isinstance(children, list):
-            edge = [Edge(self.node_id, child.node_id, hierarchy=hierarchy)
+            edge = [Edge(self.node_id, child.node_id, hierarchy=self.hierarchy)
                     for child in children]
             self._children.extend(children)
         else:
-            edge = [Edge(origin=self.node_id, target=self.node_id)]
+            edge = [Edge(origin=self.node_id, target=self.node_id, hierarchy=self.hierarchy)]
             self._children.append(children)
         self.graph.edge_list.extend(edge)
 
@@ -234,7 +238,7 @@ class Edge:
 if __name__ == "__main__":
     tilt_schema = TiltSchema.create_from_json()
     node = tilt_schema.get_node_by_id(1)
-    children = tilt_schema.get_node_children(node)
+    children = node.children
     tilt_dict = tilt_schema.to_dict()
     test_json_path = os.path.join(Config.BASE_PATH, "tilt_resources/test_tilt_schema.json")
     with open(test_json_path, "w") as f:
