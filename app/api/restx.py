@@ -2,10 +2,9 @@ from database.models import Task, Annotation
 from flask import request
 from flask_restx import fields, Namespace, Resource
 from mongoengine import DoesNotExist
-from tilt_resources.utilities import tilt_from_task
 from flask_babel import get_translations, get_locale
 from data_handling.data_handler import DataHandler
-
+from tilt_resources.tilt_creator import TiltCreator
 import json
 import os
 
@@ -252,9 +251,13 @@ class TiltDocumentCollection(Resource):
         :return: JSON tilt representation of all tasks
         """
         documents = []
+        tilt_creator = TiltCreator()
         for task in Task.objects:
-            documents.append(tilt_from_task(task))
-        return list(documents), 200
+            relevant_tasks = DataHandler.get_relevant_tasks(task)
+            annotations = DataHandler.get_relevant_annotations(relevant_tasks)
+            tilt_dict = tilt_creator.create_tilt_document(annotations)
+            documents.append(tilt_dict)
+        return documents, 200
 
 
 @ns.route('/<string:id>/tilt')
@@ -268,7 +271,8 @@ class TiltDocumentByTaskId(Resource):
         :return: JSON tilt representation of all tasks
         """
         task = Task.objects(id=id)
+        tilt_creator = TiltCreator()
         relevant_tasks = DataHandler.get_relevant_tasks(task)
         annotations = DataHandler.get_relevant_annotations(relevant_tasks)
-
-        return tilt_from_task(task), 200
+        tilt_dict = tilt_creator.create_tilt_document(annotations)
+        return tilt_dict, 200

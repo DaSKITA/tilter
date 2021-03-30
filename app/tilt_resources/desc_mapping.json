@@ -1,0 +1,226 @@
+{
+    "meta": {
+      "_id": "f1424f86-ca0f-4f0c-9438-43cc00509931",
+      "name": "Green Company",
+      "created": "2020-04-03T15:53:05.929588",
+      "modified": "2020-04-03T15:53:05.929588",
+      "version": 2,
+      "language": "de",
+      "status": "active",
+      "url": "https://green-bikes.de/privacy",
+      "_hash": "be81d309088dde861ab5fc4d62d4bbfe0aeef3e3baf2f5362c1086f451f0a1e7"
+    },
+    "controller": {
+      "name": "Controller - Company Name",
+      "division": "",
+      "address": "",
+      "country": "Country",
+      "representative": {
+        "name": "",
+        "email": "Representative - E-Mail",
+        "phone": ""
+      }
+    },
+    "dataProtectionOfficer": {
+      "name": "",
+      "address": "",
+      "country": "",
+      "email": "Data Protection Officer - E-mail",
+      "phone": ""
+    },
+    "dataDisclosed": [
+      {
+        "_id": "",
+        "category": "Data Disclosed - Category",
+        "purposes": [
+          {
+            "purpose": "Data Disclosed - Purpose",
+            "description": ""
+          }
+        ],
+        "legalBases": [
+          {
+            "reference": "",
+            "description": "Data Disclosed - Legal Basis"
+          },
+          {
+            "reference": "",
+            "description": ""
+          }
+        ],
+        "legitimateInterests": [
+          {
+            "exists": "",
+            "reasoning": "Data Disclosed - Legitimate Interest"
+          }
+        ],
+        "recipients": [
+          {
+            "name": "Data Disclosed - Recipients",
+            "division": "",
+            " address": "",
+            "country": "Recipient Country",
+            "representative": {
+              "name": "",
+              "email": "",
+              "phone": ""
+            },
+            "category": ""
+          },
+          {
+            "category": ""
+          }
+        ],
+        "storage": [
+          {
+            "temporal": [
+              {
+                "description": "Data Disclosed - Storage Period",
+                "ttl": ""
+              },
+              {
+                "description": "",
+                "ttl": ""
+              }
+            ],
+            "purposeConditional": [
+                "Storage Period - Purpose Conditional"
+            ],
+            "legalBasisConditional": [
+                "Storage Period - Legal Basis Conditional"
+            ],
+            "aggregationFunction": ""
+          }
+        ],
+        "nonDisclosure": {
+          "legalRequirement": "",
+          "contractualRegulation": "",
+          "obligationToProvide": "",
+          "consequences": ""
+        }
+      }
+    ],
+    "thirdCountryTransfers": [
+      {
+        "country": "",
+        "adequacyDecision": {
+          "available": "",
+          "description": ""
+        },
+        "appropriateGuarantees": {
+          "available": "",
+          "description": ""
+        },
+        "presenceOfEnforceableRightsAndEffectiveRemedies": {
+          "available": "",
+          "description": ""
+        },
+        "standardDataProtectionClause": {
+          "available": "",
+          "description": ""
+        }
+      }
+    ],
+    "accessAndDataPortability": {
+      "available": "",
+      "description": "",
+      "url": "",
+      "email": "",
+      "identificationEvidences": [
+        "",
+        ""
+      ],
+      "administrativeFee": {
+        "amount": "",
+        "currency": ""
+      },
+      "dataFormats": [
+        "",
+        ""
+      ]
+    },
+    "sources": [
+      {
+        "_id": "",
+        "dataCategory": "",
+        "sources": [
+          {
+            "description": "",
+            "url": "",
+            "publiclyAvailable": ""
+          }
+        ]
+      }
+    ],
+    "rightToInformation": {
+      "available": "",
+      "description": "",
+      "url": "",
+      "email": "",
+      "identificationEvidences": [
+        "",
+        ""
+      ]
+    },
+    "rightToRectificationOrDeletion": {
+      "available": "",
+      "description": "",
+      "url": "",
+      "email": "",
+      "identificationEvidences": [
+        "",
+        ""
+      ]
+    },
+    "rightToDataPortability": {
+      "available": "",
+      "description": "",
+      "url": "",
+      "email": "",
+      "identificationEvidences": [
+        ""
+      ]
+    },
+    "rightToWithdrawConsent": {
+      "available": true,
+      "description": "",
+      "url": "",
+      "email": "",
+      "identificationEvidences": [
+        ""
+      ]
+    },
+    "rightToComplain": {
+      "available": "",
+      "description": "",
+      "url": "",
+      "email": "",
+      "identificationEvidences": [
+        "",
+        ""
+      ],
+      "supervisoryAuthority": {
+        "name": "",
+        "address": "",
+        "country": "",
+        "email": "",
+        "phone": ""
+      }
+    },
+    "automatedDecisionMaking": {
+      "inUse": "",
+      "logicInvolved": "Automated Decision Making - Logic",
+      "scopeAndIntendedEffects": ""
+    },
+    "changesOfPurpose": [
+      {
+        "description": "",
+        "affectedDataCategories": [
+          "",
+          ""
+        ],
+        "plannedDateOfChange": "",
+        "urlOfNewVersion": ""
+      }
+    ]
+  }

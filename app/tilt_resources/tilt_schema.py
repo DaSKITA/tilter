@@ -1,4 +1,3 @@
-"This is just a first scetch, in case task creatinon should be changed"
 import json
 import os
 from typing import List, Dict, Union
@@ -13,6 +12,14 @@ class TiltSchema:
     _default_json_path = os.path.join(Config.BASE_PATH, "tilt_resources/tilt_schema.json")
 
     def __init__(self, json_tilt_dict: dict, clean_schema: bool = True):
+        """
+        This class is a graph representation of a supplied json file.
+        The schems is used for tilt-documents.
+
+        Args:
+            json_tilt_dict (dict): [description]
+            clean_schema (bool, optional): [description]. Defaults to True.
+        """
         self.tilt_dict = json_tilt_dict
         self.edge_list = []
         self.node_list = self._create_graph(json_tilt_dict=json_tilt_dict)
@@ -28,6 +35,13 @@ class TiltSchema:
         with open(json_path, "r") as json_file:
             json_dict = json.load(json_file)
         return cls(json_tilt_dict=json_dict, clean_schema=clean_schema)
+
+    @classmethod
+    def create_schema_with_desc(cls):
+        desc_json_path = os.path.join(Config.BASE_PATH, "tilt_resources/desc_mapping.json")
+        with open(desc_json_path, "r") as json_file:
+            json_dict = json.load(json_file)
+        return cls(json_tilt_dict=json_dict)
 
     def _create_graph(self, json_tilt_dict: dict,
                       parent: 'TiltNode' = None,
@@ -52,7 +66,8 @@ class TiltSchema:
                 if node_list_entries != []:
                     node_list.append(TiltNode(graph=self, name=dict_key, value=node_list_entries,
                                               parent=parent,
-                                              hierarchy=hierarchy))
+                                              hierarchy=hierarchy,
+                                              desc=node_list_entries))
                 continue
             if isinstance(dict_item, dict):
                 sub_parent = TiltNode(graph=self, name=dict_key, hierarchy=hierarchy, parent=parent)
@@ -63,8 +78,8 @@ class TiltSchema:
                 continue
 
             if isinstance(dict_item, str) or isinstance(dict_item, int):
-                tilt_node = TiltNode(graph=self, name=dict_key, value=dict_item,
-                                     parent=parent, hierarchy=hierarchy)
+                tilt_node = TiltNode(graph=self, name=dict_key,
+                                     parent=parent, hierarchy=hierarchy, desc=dict_item)
                 node_list.append(tilt_node)
         if sub_node_list != []:
             node_list.extend(sub_node_list)
@@ -72,7 +87,7 @@ class TiltSchema:
 
     @staticmethod
     def _form_adjacency_matrix(edges_list: List) -> pd.DataFrame:
-        """Creates am adjacancy matrix. Rows are the parents columns are the childeren.
+        """Creates an adjacancy matrix. Rows are the parents columns are the childeren.
 
         Args:
             edges_list (List): [description]
@@ -112,8 +127,6 @@ class TiltSchema:
 
     def get_nodes_from_hierachy(self, hierarchy: int = 0) -> List['TiltNode']:
         node_ids = list(set([edge.origin for edge in self.edge_list if edge.hierarchy == hierarchy]))
-        # is_hierarchy_x = (self.adjacency_matrix == hierarchy).index
-        # node_ids = self.adjacency_matrix.loc[is_hierarchy_x, :].index.tolist()
         return self.get_nodes_by_ids(node_ids)
 
     def to_dict(self) -> Dict[str, str]:
@@ -150,6 +163,7 @@ class TiltNode:
     def __init__(self,
                  graph: 'TiltSchema' = None,
                  name: str = None,
+                 desc: str = None,
                  value: str = None,
                  parent: 'TiltNode' = None,
                  multiple: bool = False,
@@ -165,6 +179,7 @@ class TiltNode:
         self.parent = parent
         self._multiple = multiple
         self.children = []
+        self.desc = desc
 
     def to_dict(self):
         return {self.name: self.value}
@@ -209,6 +224,9 @@ class TiltNode:
             edge = [Edge(origin=self.node_id, target=children.node_id, hierarchy=self.hierarchy)]
             self._children.append(children)
         self.graph.edge_list.extend(edge)
+
+    def set_value(self, value):
+        self.value = value
 
 
 class ShadowNode(TiltNode):

@@ -1,20 +1,21 @@
 from typing import List, Dict
-from tilt import tilt
+
 from database.models import Annotation
-from config import TiltMapping
+from tilt_resources.tilt_schema import TiltSchema
 
 
 class TiltCreator:
 
     def __init__(self) -> None:
-        self.tilt_class_enum = TiltMapping
+        self.tilt_schema = TiltSchema.create_schema_with_desc()
 
     def create_tilt_document(self, annotation_list: List['Annotation']) -> Dict[str, object]:
         tilt_obj_dict = {}
         for annotation in annotation_list:
-            tilt_obj_dict = self._create_tilt_class_from_annot(annotation.label)
-            tilt_doc_dict = tilt.Tilt(**tilt_obj_dict).to_dict()
-        return tilt_doc_dict
+            _ = self._create_tilt_class_from_annot(annotation)
+        tilt_obj_dict = self.tilt_schema.to_dict()
+        return tilt_obj_dict
 
     def _create_tilt_class_from_annot(self, annotation: str) -> Dict[str, object]:
-        pass
+        [node.set_value(annotation.text)
+         for node in self.tilt_schema.node_list if node.desc == annotation.label]

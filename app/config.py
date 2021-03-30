@@ -1,7 +1,5 @@
 from dotenv import load_dotenv
 import os
-from enum import Enum
-from tilt import tilt
 
 
 # Flask Config from Class

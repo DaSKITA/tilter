@@ -28,6 +28,7 @@ class DataHandler:
         Returns:
             [type]: [description]
         """
+        task = task.get()
         for db_task in Task.objects:
             if task.parent and task.parent == db_task:
                 root_task = DataHandler.get_root_task(db_task)
