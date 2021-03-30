@@ -1,7 +1,7 @@
 "This is just a first scetch, in case task creatinon should be changed"
 import json
 import os
-from typing import List, Dict
+from typing import List, Dict, Union
 from dataclasses import dataclass
 import pandas as pd
 
@@ -14,7 +14,8 @@ class TiltSchema:
 
     def __init__(self, json_tilt_dict: dict, clean_schema: bool = True):
         self.tilt_dict = json_tilt_dict
-        self.node_list, self.edge_list = self._create_graph(json_tilt_dict=json_tilt_dict)
+        self.edge_list = []
+        self.node_list = self._create_graph(json_tilt_dict=json_tilt_dict)
         self.adjacency_matrix = self._form_adjacency_matrix(self.edge_list)
         if clean_schema:
             self.delete_all_values()
@@ -32,48 +33,38 @@ class TiltSchema:
                       parent: 'TiltNode' = None,
                       hierarchy: int = 0) -> List['TiltNode']:
         node_list = []
-        edge_list = []
         sub_node_list = []
         for dict_key, dict_item in json_tilt_dict.items():
             if isinstance(dict_item, list):
                 node_list_entries = []
+                sub_parent = TiltNode(graph=self, name=dict_key, multiple=True)
+                node_list.append(sub_parent)
                 for list_entry in dict_item:
                     if isinstance(list_entry, dict):
-                        sub_parent = TiltNode(name=dict_key, multiple=True)
-                        sub_nodes, sub_edges = self._create_graph(list_entry, sub_parent,
-                                                                  hierarchy=hierarchy+1)
+                        sub_nodes = self._create_graph(list_entry, sub_parent,
+                                                       hierarchy=hierarchy+1)
                         sub_node_list.extend(sub_nodes)
-                        node_list.append(sub_parent)
-                        edge_list.extend(sub_edges)
                     else:
                         node_list_entries.append(list_entry)
                 if node_list_entries != []:
-                    node_list.append(TiltNode(name=dict_key, value=node_list_entries))
+                    node_list.append(TiltNode(graph=self, name=dict_key, value=node_list_entries))
                 continue
             if isinstance(dict_item, dict):
-                sub_parent = TiltNode(name=dict_key)
-                sub_nodes, sub_edges = self._create_graph(dict_item, sub_parent,
-                                                          hierarchy=hierarchy+1)
+                sub_parent = TiltNode(graph=self, name=dict_key)
+                sub_nodes = self._create_graph(dict_item, sub_parent,
+                                               hierarchy=hierarchy+1)
                 sub_node_list.extend(sub_nodes)
                 node_list.append(sub_parent)
-                edge_list.extend(sub_edges)
                 continue
 
             if isinstance(dict_item, str) or isinstance(dict_item, int):
-                tilt_node = TiltNode(name=dict_key, value=dict_item)
+                tilt_node = TiltNode(graph=self, name=dict_key, value=dict_item, parent=parent)
+                parent.add_children(tilt_node)
                 node_list.append(tilt_node)
 
-        if parent:
-            for tilt_node in node_list:
-                if isinstance(tilt_node, TiltNode):
-                    tilt_node.set_parent(parent)
-                    edge = Edge(origin=parent.node_id,
-                                target=tilt_node.node_id,
-                                hierarchy=hierarchy)
-                    edge_list.append(edge)
         if sub_node_list != []:
             node_list.extend(sub_node_list)
-        return node_list, edge_list
+        return node_list
 
     @staticmethod
     def _form_adjacency_matrix(edges_list: List) -> pd.DataFrame:
@@ -95,7 +86,7 @@ class TiltSchema:
     def get_node_by_name(self, name: str = None) -> 'TiltNode':
         if name:
             node = [node for node in self.node_list if node.name == name]
-            if isinstance(node, list):
+            if len(node) > 1:
                 print(Warning("Multiple Nodes with the same name were found! A list will be returned."))
                 return node
             return node[0]
@@ -114,8 +105,8 @@ class TiltSchema:
 
     def get_node_children(self, node) -> List['TiltNode']:
         child_ids = self._query_adjacency_childs(node)
-        nodes = self.get_nodes_by_ids(child_ids)
-        return nodes
+        child_nodes = self.get_nodes_by_ids(child_ids)
+        return child_nodes
 
     def _query_adjacency_childs(self, node: 'TiltNode' = None) -> List[int]:
         if node.node_id in self.adjacency_matrix.index:
@@ -149,10 +140,10 @@ class TiltSchema:
         children = self.get_node_children(node)
         for child in children:
             child_dict = self._create_branch_dict(child)
-            if isinstance(node_dict[node.name], dict):
+            if node._multiple:
+                node_dict[node.name].append(child_dict)
+            else:
                 node_dict[node.name].update(child_dict)
-            if isinstance(node_dict[node.name], list):
-                node_dict[node.name].append(child_dict.)
         if not children:
             node_dict.update(node.to_dict())
         return node_dict
@@ -161,30 +152,76 @@ class TiltSchema:
 class TiltNode:
     node_id = 0
 
-    def __init__(self, name: str = None,
+    def __init__(self,
+                 graph: 'TiltSchema' = None,
+                 name: str = None,
                  value: str = None,
                  parent: 'TiltNode' = None,
-                 multiple: bool = False):
+                 multiple: bool = False,
+                 children: 'TiltNode' = None):
+        self.graph = graph
+        assert self.graph, "A Node needs a Graph!"
         TiltNode.node_id += 1
         self.node_id = TiltNode.node_id
         self.name = name
         self.value = value
         self.parent = parent
-        self.path = []
         self._multiple = multiple
+        if not children:
+            self.children = []
+        else:
+            self.children = children
 
-    def set_parent(self, parent):
-        self.parent = parent
-        self._update_path(parent)
 
     def to_dict(self):
         return {self.name: self.value}
 
-    def _update_path(self, parent):
-        self.path.append(parent)
-
     def delete_value(self):
         self.value = None
+
+    @property
+    def parent(self):
+        return self._parent
+
+    @parent.setter
+    def parent(self, parent: 'TiltNode', hierarchy: int = 1):
+        if parent:
+            edge = Edge(origin=parent.node_id, target=self.node_id, hierarchy=hierarchy)
+            self.graph.edge_list.append(edge)
+            self._parent = parent
+
+    @property
+    def children(self):
+        return self._children
+
+    @children.setter
+    def children(self, children: Union[List['TiltNode'], 'TiltNode'], hierarchy: int = 1):
+        if isinstance(children, list):
+            edge = [Edge(self.node_id, child.node_id, hierarchy=hierarchy)
+                    for child in children]
+        else:
+            edge = [Edge(origin=self.node_id, target=self.node_id)]
+        self._children = children
+        self.graph.edge_list.extend(edge)
+
+    def add_children(self, children: Union[List['TiltNode'], 'TiltNode'], hierarchy: int = 1):
+        if isinstance(children, list):
+            edge = [Edge(self.node_id, child.node_id, hierarchy=hierarchy)
+                    for child in children]
+            self._children.extend(children)
+        else:
+            edge = [Edge(origin=self.node_id, target=self.node_id)]
+            self._children.append(children)
+        self.graph.edge_list.extend(edge)
+
+
+class ShadowNode(TiltNode):
+
+    def __init__(self, name: str = None,
+                 value: str = None,
+                 parent: 'TiltNode' = None,
+                 multiple: bool = False):
+        super().__init__(name=name, value=value, parent=parent, multiple=multiple)
 
 
 @dataclass
