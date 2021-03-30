@@ -31,27 +31,31 @@ class TiltSchema:
 
     def _create_graph(self, json_tilt_dict: dict,
                       parent: 'TiltNode' = None,
-                      hierarchy: int = 0) -> List['TiltNode']:
+                      hierarchy: int = 1) -> List['TiltNode']:
         node_list = []
         sub_node_list = []
         for dict_key, dict_item in json_tilt_dict.items():
             if isinstance(dict_item, list):
                 node_list_entries = []
-                sub_parent = TiltNode(graph=self, name=dict_key, multiple=True, hierarchy=hierarchy)
+                sub_parent = TiltNode(graph=self, name=dict_key, multiple=True, hierarchy=hierarchy,
+                                      parent=parent)
                 node_list.append(sub_parent)
                 for list_entry in dict_item:
                     if isinstance(list_entry, dict):
-                        sub_nodes = self._create_graph(list_entry, sub_parent,
+                        shadow_parent = ShadowNode(name='', parent=sub_parent, graph=self,
+                                                   hierarchy=hierarchy)
+                        sub_nodes = self._create_graph(list_entry, shadow_parent,
                                                        hierarchy=hierarchy+1)
                         sub_node_list.extend(sub_nodes)
                     else:
                         node_list_entries.append(list_entry)
                 if node_list_entries != []:
                     node_list.append(TiltNode(graph=self, name=dict_key, value=node_list_entries,
+                                              parent=parent,
                                               hierarchy=hierarchy))
                 continue
             if isinstance(dict_item, dict):
-                sub_parent = TiltNode(graph=self, name=dict_key, hierarchy=hierarchy)
+                sub_parent = TiltNode(graph=self, name=dict_key, hierarchy=hierarchy, parent=parent)
                 sub_nodes = self._create_graph(dict_item, sub_parent,
                                                hierarchy=hierarchy+1)
                 sub_node_list.extend(sub_nodes)
@@ -61,9 +65,7 @@ class TiltSchema:
             if isinstance(dict_item, str) or isinstance(dict_item, int):
                 tilt_node = TiltNode(graph=self, name=dict_key, value=dict_item,
                                      parent=parent, hierarchy=hierarchy)
-                parent.add_children(tilt_node)
                 node_list.append(tilt_node)
-
         if sub_node_list != []:
             node_list.extend(sub_node_list)
         return node_list
@@ -105,25 +107,13 @@ class TiltSchema:
     def get_nodes_by_ids(self, node_ids: List[int] = None) -> List['TiltNode']:
         return [node for node in self.node_list if node.node_id in node_ids]
 
-    def get_node_children(self, node) -> List['TiltNode']:
-        child_ids = self._query_adjacency_childs(node)
-        child_nodes = self.get_nodes_by_ids(child_ids)
-        return child_nodes
-
-    def _query_adjacency_childs(self, node: 'TiltNode' = None) -> List[int]:
-        if node.node_id in self.adjacency_matrix.index:
-            is_child = self.adjacency_matrix.loc[node.node_id, :] > 0
-            children = self.adjacency_matrix.loc[node.node_id, :][is_child].index.tolist()
-        else:
-            children = []
-        return children
-
     def delete_all_values(self):
         [node.delete_value() for node in self.node_list]
 
     def get_nodes_from_hierachy(self, hierarchy: int = 0) -> List['TiltNode']:
-        is_hierarchy_x = (self.adjacency_matrix == hierarchy).index
-        node_ids = self.adjacency_matrix.loc[is_hierarchy_x, :].index.tolist()
+        node_ids = list(set([edge.origin for edge in self.edge_list if edge.hierarchy == hierarchy]))
+        # is_hierarchy_x = (self.adjacency_matrix == hierarchy).index
+        # node_ids = self.adjacency_matrix.loc[is_hierarchy_x, :].index.tolist()
         return self.get_nodes_by_ids(node_ids)
 
     def to_dict(self) -> Dict[str, str]:
@@ -137,16 +127,19 @@ class TiltSchema:
     def _create_branch_dict(self, node) -> Dict[str, str]:
         if node._multiple:
             node_dict = {node.name: []}
+        elif isinstance(node, ShadowNode):
+            node_dict = {}
         else:
             node_dict = {node.name: {}}
-        children = self.get_node_children(node)
-        for child in children:
+        for child in node.children:
             child_dict = self._create_branch_dict(child)
             if node._multiple:
                 node_dict[node.name].append(child_dict)
+            elif isinstance(node, ShadowNode):
+                node_dict = node_dict | child_dict
             else:
                 node_dict[node.name].update(child_dict)
-        if not children:
+        if not node.children:
             node_dict.update(node.to_dict())
         return node_dict
 
@@ -160,7 +153,6 @@ class TiltNode:
                  value: str = None,
                  parent: 'TiltNode' = None,
                  multiple: bool = False,
-                 children: 'TiltNode' = None,
                  hierarchy: int = None):
         self.graph = graph
         assert self.graph, "A Node needs a Graph!"
@@ -172,10 +164,7 @@ class TiltNode:
         self.value = value
         self.parent = parent
         self._multiple = multiple
-        if not children:
-            self.children = []
-        else:
-            self.children = children
+        self.children = []
 
     def to_dict(self):
         return {self.name: self.value}
@@ -193,6 +182,9 @@ class TiltNode:
             edge = Edge(origin=parent.node_id, target=self.node_id, hierarchy=self.hierarchy)
             self.graph.edge_list.append(edge)
             self._parent = parent
+            parent.add_children(self)
+        else:
+            self._parent = None
 
     @property
     def children(self):
@@ -214,7 +206,7 @@ class TiltNode:
                     for child in children]
             self._children.extend(children)
         else:
-            edge = [Edge(origin=self.node_id, target=self.node_id, hierarchy=self.hierarchy)]
+            edge = [Edge(origin=self.node_id, target=children.node_id, hierarchy=self.hierarchy)]
             self._children.append(children)
         self.graph.edge_list.extend(edge)
 
@@ -224,8 +216,33 @@ class ShadowNode(TiltNode):
     def __init__(self, name: str = None,
                  value: str = None,
                  parent: 'TiltNode' = None,
-                 multiple: bool = False):
-        super().__init__(name=name, value=value, parent=parent, multiple=multiple)
+                 graph: 'TiltSchema' = None,
+                 hierarchy: int = None):
+        super().__init__(name=name, value=value, graph=graph, hierarchy=hierarchy)
+        assert parent, "A ShadowNode needs a Parent on initialization!"
+        self.parent = parent
+
+    @property
+    def parent(self):
+        return self._parent
+
+    @parent.setter
+    def parent(self, parent: 'TiltNode'):
+        if parent:
+            self._parent = parent
+            parent.add_children(self)
+        else:
+            self._parent = None
+
+    def add_children(self, children: 'TiltNode'):
+        if isinstance(children, list):
+            edge = [Edge(self.parent.node_id, target=child.node_id, hierarchy=self.hierarchy)
+                    for child in children]
+            self._children.extend(children)
+        else:
+            edge = [Edge(origin=self.parent.node_id, target=children.node_id, hierarchy=self.hierarchy)]
+            self._children.append(children)
+        self.graph.edge_list.extend(edge)
 
 
 @dataclass
