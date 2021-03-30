@@ -4,9 +4,6 @@ from typing import List
 
 class DataHandler:
 
-    def __init__(self) -> None:
-        pass
-
     @staticmethod
     def get_subtasks(task: 'Task') -> List['Task']:
         """Gets all subtasks of a supplied task.
@@ -66,6 +63,12 @@ class DataHandler:
 
     @staticmethod
     def get_relevant_annotations(task_list: List['Task']) -> List['Annotation']:
+        """
+        Gets all annotations from a list of tasks.
+
+        Returns:
+            [type]: [description]
+        """
         annotation_list = []
         for task in task_list:
             annotation_list.extend(DataHandler.get_annotations_from_task(task))

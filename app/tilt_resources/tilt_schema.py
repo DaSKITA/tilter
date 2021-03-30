@@ -13,19 +13,24 @@ class TiltSchema:
 
     def __init__(self, json_tilt_dict: dict, clean_schema: bool = True):
         """
-        This class is a graph representation of a supplied json file.
-        The schems is used for tilt-documents.
+        This class is a graph that represents a deep nested dictionary. It serves as an interface for a
+        tilt document.
+        On initialization the graph is created from the supplied dictionary with the function "_create_graph".
+        The graph creates a node_list, adjacency_matrix and implicitly over TiltNode objects an edge_list.
+        The elements of the graph serve for further operations, like retrieving nodes by names, id or
+        hierarchy. The graph can also be changed into a dictionary again.
 
         Args:
             json_tilt_dict (dict): [description]
             clean_schema (bool, optional): [description]. Defaults to True.
         """
+        # TODO: clean up the mess
         self.tilt_dict = json_tilt_dict
         self.edge_list = []
         self.node_list = self._create_graph(json_tilt_dict=json_tilt_dict)
         self.adjacency_matrix = self._form_adjacency_matrix(self.edge_list)
         if clean_schema:
-            self.delete_all_values()
+            self._delete_all_values()
 
     @classmethod
     def create_from_json(cls, json_path: str = None, clean_schema: bool = False):
@@ -122,7 +127,7 @@ class TiltSchema:
     def get_nodes_by_ids(self, node_ids: List[int] = None) -> List['TiltNode']:
         return [node for node in self.node_list if node.node_id in node_ids]
 
-    def delete_all_values(self):
+    def _delete_all_values(self):
         [node.delete_value() for node in self.node_list]
 
     def get_nodes_from_hierachy(self, hierarchy: int = 0) -> List['TiltNode']:
@@ -265,6 +270,9 @@ class ShadowNode(TiltNode):
 
 @dataclass
 class Edge:
+    """
+    An directed edge of a graph, which goes from one node to another.
+    """
     origin: int
     target: int
     hierarchy: int = None
