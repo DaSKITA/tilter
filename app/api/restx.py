@@ -278,8 +278,8 @@ class TiltDocumentByTaskId(Resource):
         :param id: unique id of the task
         :return: JSON tilt representation of all tasks
         """
-        task = Task.objects(id=id)
         tilt_creator = TiltCreator()
+        task = Task.objects(id=id).get()
         relevant_tasks = DataHandler.get_relevant_tasks(task)
         annotations = DataHandler.get_relevant_annotations(relevant_tasks)
         tilt_dict = tilt_creator.create_tilt_document(annotations)

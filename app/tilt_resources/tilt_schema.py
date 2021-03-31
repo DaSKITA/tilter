@@ -8,9 +8,9 @@ from config import Config
 
 
 class TiltSchema:
-    # TODO: create from json - should values ne stored in nodes? If yes it has to be handled over the node
+    # TODO: create from json - should values be stored in nodes? If yes it has to be handled over the node
 
-    _default_json_path = os.path.join(Config.BASE_PATH, "tilt_resources/tilt_schema.json")
+    _default_json_path = os.path.join(Config.BASE_PATH, "tilt_resources/tilt_desc_mapping.json")
 
     def __init__(self, json_tilt_dict: dict, clean_schema: bool = True):
         """
@@ -47,8 +47,7 @@ class TiltSchema:
         Returns:
             [type]: [description]
         """
-        if not json_path:
-            json_path = cls._default_json_path
+        assert json_path, "Provide a json Path, when you want to lead a tilt schema from a json file!"
 
         with open(json_path, "r") as json_file:
             json_dict = json.load(json_file)
@@ -63,8 +62,8 @@ class TiltSchema:
         Returns:
             [type]: [description]
         """
-        desc_json_path = os.path.join(Config.BASE_PATH, "tilt_resources/tilt_desc_mapping.json")
-        with open(desc_json_path, "r") as json_file:
+
+        with open(TiltSchema._default_json_path, "r") as json_file:
             json_dict = json.load(json_file)
         return cls(json_tilt_dict=json_dict)
 
@@ -404,11 +403,12 @@ class Edge:
 
 
 if __name__ == "__main__":
-    tilt_schema = TiltSchema.create_from_json()
+    json_path = os.path.join(Config.ROOT_PATH, "data/test_data/tilt_schema.json")
+    tilt_schema = TiltSchema.create_from_json(json_path=json_path)
     node = tilt_schema.get_node_by_id(1)
     children = node.children
     tilt_dict = tilt_schema.to_dict()
-    test_json_path = os.path.join(Config.BASE_PATH, "tilt_resources/test_tilt_schema.json")
+    test_json_path = os.path.join(Config.ROOT_PATH, "data/test_data/test_tilt_schema.json")
     with open(test_json_path, "w") as f:
         json.dump(tilt_dict, f)
     print(tilt_dict == tilt_schema.tilt_dict)

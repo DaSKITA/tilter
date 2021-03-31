@@ -1,5 +1,6 @@
 from dotenv import load_dotenv
 import os
+from pathlib import Path
 
 
 # Flask Config from Class
@@ -14,7 +15,10 @@ class Config(object):
     USER_AFTER_LOGIN_ENDPOINT = 'member_page'
 
     LANGUAGES = ['en', 'de']
+
     BASE_PATH = os.path.abspath(os.path.dirname(__file__))
+    ROOT_PATH = Path(BASE_PATH).parent
+    TEST_PATH = os.path.join(ROOT_PATH, "test")
 
     # Secrets
     if not os.environ.get("DEPLOYMENT", None):

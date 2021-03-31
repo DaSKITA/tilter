@@ -3,6 +3,12 @@ from typing import List
 
 
 class DataHandler:
+    """
+    A class to store basic operations on the database.
+
+    Returns:
+        [type]: [description]
+    """
 
     @staticmethod
     def get_subtasks(task: 'Task') -> List['Task']:
@@ -43,7 +49,6 @@ class DataHandler:
         Returns:
             [type]: [description]
         """
-        task = task.get()
         root_task = DataHandler.get_root_task(task)
         task_list = DataHandler.get_subtasks(root_task)
         task_list.append(root_task)
