@@ -8,6 +8,7 @@ from config import Config
 
 
 class TiltSchema:
+    # TODO: create from json - should values ne stored in nodes? If yes it has to be handled over the node
 
     _default_json_path = os.path.join(Config.BASE_PATH, "tilt_resources/tilt_schema.json")
 
@@ -19,6 +20,8 @@ class TiltSchema:
         The graph creates a node_list, adjacency_matrix and implicitly over TiltNode objects an edge_list.
         The elements of the graph serve for further operations, like retrieving nodes by names, id or
         hierarchy. The graph can also be changed into a dictionary again.
+
+        As tilt follows a tree representation. The resulting graph can also be understood as a tree.
 
         Args:
             json_tilt_dict (dict): [description]
@@ -34,6 +37,16 @@ class TiltSchema:
 
     @classmethod
     def create_from_json(cls, json_path: str = None, clean_schema: bool = False):
+        """
+        Creates a Tilt-Schema from a supplied json. Default path goes to the greencompany tilt document.
+
+        Args:
+            json_path (str, optional): [description]. Defaults to None.
+            clean_schema (bool, optional): [description]. Defaults to False.
+
+        Returns:
+            [type]: [description]
+        """
         if not json_path:
             json_path = cls._default_json_path
 
@@ -43,7 +56,14 @@ class TiltSchema:
 
     @classmethod
     def create_schema_with_desc(cls):
-        desc_json_path = os.path.join(Config.BASE_PATH, "tilt_resources/desc_mapping.json")
+        """
+        Loads a json with descriptions for every Tilt Entry. The descriptions are stored in the nodes and
+        are used for the Tilter Frontend. So the user understands what he/she is annotating.
+
+        Returns:
+            [type]: [description]
+        """
+        desc_json_path = os.path.join(Config.BASE_PATH, "tilt_resources/tilt_desc_mapping.json")
         with open(desc_json_path, "r") as json_file:
             json_dict = json.load(json_file)
         return cls(json_tilt_dict=json_dict)
@@ -51,6 +71,29 @@ class TiltSchema:
     def _create_graph(self, json_tilt_dict: dict,
                       parent: 'TiltNode' = None,
                       hierarchy: int = 1) -> List['TiltNode']:
+        """
+        This is the core of the graph. This function builds the graph representation of the Tilt-Dependencies.
+        The Dependencies are expressed in the form of a nested dictionary. In the repective dictionary three
+        types of situations can appear.
+                    1. Entries are stored in a List
+                    2. Entries are stored in a dict
+                    3. Entries are stored as int or string
+        For all those situations the function is able to parse the respective content. For Situation 1 and 2
+        sub-parents are created from the key of the current dict entry and are given into a new call of
+        _create_graph together with the dict_value of the current key. Recursive execution makes the
+        most sense in this case, as the depth of the dictionary is undefined. The third case works without
+        recursion and just creates new nodes with the repsective edges.
+
+        Nodes and Edges can be understood in the basic sense of graph theory. A node is a graph entry, that
+        stores information, an edge connects two nodes with each other. In this case all edges are directed.
+        Every edge thus defines a parent node and a child node. The Node and Edge classes are defined below.
+        The creation of edges is done implicitly. Every assignment of a node as a parent, also automatically
+        adds its child to the list of child in the parent node. Afterwards an edge between both nodes will be
+        created in the same function call.
+
+        Returns:
+            [type]: [description]
+        """
         node_list = []
         sub_node_list = []
         for dict_key, dict_item in json_tilt_dict.items():
@@ -69,7 +112,7 @@ class TiltSchema:
                     else:
                         node_list_entries.append(list_entry)
                 if node_list_entries != []:
-                    node_list.append(TiltNode(graph=self, name=dict_key, value=node_list_entries,
+                    node_list.append(TiltNode(graph=self, name=dict_key,
                                               parent=parent,
                                               hierarchy=hierarchy,
                                               desc=node_list_entries))
@@ -92,7 +135,10 @@ class TiltSchema:
 
     @staticmethod
     def _form_adjacency_matrix(edges_list: List) -> pd.DataFrame:
-        """Creates an adjacancy matrix. Rows are the parents columns are the childeren.
+        """
+        Creates an adjacancy matrix. Rows are the parents columns are the childeren. Every entry in the
+        adjacency matrix is a hierarchy value. As the resulting structure is a tree, every step in the tree
+        is a hierarchy. So each child-parent connection also leads to a new hierarchy.
 
         Args:
             edges_list (List): [description]
@@ -128,13 +174,28 @@ class TiltSchema:
         return [node for node in self.node_list if node.node_id in node_ids]
 
     def _delete_all_values(self):
+        """
+        Delets all values in every node.
+        """
         [node.delete_value() for node in self.node_list]
 
     def get_nodes_from_hierachy(self, hierarchy: int = 0) -> List['TiltNode']:
+        """
+        Get all nodes from a specific hierarchy.
+
+        Returns:
+            [type]: [description]
+        """
         node_ids = list(set([edge.origin for edge in self.edge_list if edge.hierarchy == hierarchy]))
         return self.get_nodes_by_ids(node_ids)
 
     def to_dict(self) -> Dict[str, str]:
+        """
+        Converts the graph into a dictionary representation.
+
+        Returns:
+            Dict[str, str]: [description]
+        """
         output_dict = {}
         first_hierarchy_nodes = self.get_nodes_from_hierachy(1)
         for hierarchy_node in first_hierarchy_nodes:
@@ -143,6 +204,17 @@ class TiltSchema:
         return output_dict
 
     def _create_branch_dict(self, node) -> Dict[str, str]:
+        """
+        Creates a dictionary representation of a specific branch. A branch is a subgraph of the tree.
+        Every subgraph, that starts at a node, which is not the root node (the node in the 0 hierarchy) is
+        a branch.
+
+        Args:
+            node ([type]): [description]
+
+        Returns:
+            Dict[str, str]: [description]
+        """
         if node._multiple:
             node_dict = {node.name: []}
         elif isinstance(node, ShadowNode):
@@ -173,6 +245,22 @@ class TiltNode:
                  parent: 'TiltNode' = None,
                  multiple: bool = False,
                  hierarchy: int = None):
+        """
+        Defines an entry in a graph and bears information. Every node corresponts to an entry in a tilt
+        document. The value of a node is the entry in the tilt document, the name of the node is the key
+        in the tilt document. A node can have one parent and multiple children. If a node is assigned a parent
+        it is automatically added to the childs of the parents and the creation of an edge between both is
+        triggered.
+
+        Args:
+            graph (TiltSchema, optional): [description]. Defaults to None.
+            name (str, optional): [description]. Defaults to None.
+            desc (str, optional): [description]. Defaults to None.
+            value (str, optional): [description]. Defaults to None.
+            parent (TiltNode, optional): [description]. Defaults to None.
+            multiple (bool, optional): [description]. Defaults to False.
+            hierarchy (int, optional): [description]. Defaults to None.
+        """
         self.graph = graph
         assert self.graph, "A Node needs a Graph!"
         TiltNode.node_id += 1
@@ -193,34 +281,52 @@ class TiltNode:
         self.value = None
 
     @property
-    def parent(self):
+    def parent(self) -> Union['TiltNode', 'ShadowNode']:
         return self._parent
 
     @parent.setter
     def parent(self, parent: 'TiltNode'):
+        """
+        Links a node and its parent. Every time this attribute is set the current object will be added as
+        child to the parent node. Adding it as a child, will trigger edge creation.
+
+        Args:
+            parent (TiltNode): [description]
+        """
         if parent:
-            edge = Edge(origin=parent.node_id, target=self.node_id, hierarchy=self.hierarchy)
-            self.graph.edge_list.append(edge)
             self._parent = parent
             parent.add_children(self)
         else:
             self._parent = None
 
     @property
-    def children(self):
+    def children(self) -> List[Union['TiltNode', 'ShadowNode']]:
         return self._children
 
     @children.setter
     def children(self, children: Union[List['TiltNode'], 'TiltNode']):
+        """
+        Sets the children of a node. Should not be used at all! Consider to delete the function.
+
+        Args:
+            children (Union[List[): [description]
+        """
         if isinstance(children, list):
             edge = [Edge(self.node_id, child.node_id, hierarchy=self.hierarchy)
                     for child in children]
         else:
-            edge = [Edge(origin=self.node_id, target=self.node_id, hierarchy=self.hierarchy)]
+            edge = [Edge(origin=self.node_id, target=children.node_id, hierarchy=self.hierarchy)]
         self._children = children
         self.graph.edge_list.extend(edge)
 
-    def add_children(self, children: Union[List['TiltNode'], 'TiltNode']):
+    def add_children(self, children: Union[List[Union['TiltNode', 'ShadowNode']], 'TiltNode', 'ShadowNode']):
+        """
+        Adds children to the node. Children are a List of Nodes or just single Nodes. Every new children
+        creates a new edge in the graph.
+
+        Args:
+            children (Union[List[): [description]
+        """
         if isinstance(children, list):
             edge = [Edge(self.node_id, child.node_id, hierarchy=self.hierarchy)
                     for child in children]
@@ -241,23 +347,42 @@ class ShadowNode(TiltNode):
                  parent: 'TiltNode' = None,
                  graph: 'TiltSchema' = None,
                  hierarchy: int = None):
+        """
+        A node that serves as a Helper to combine list entries. E.g.:
+            "legalBases": [
+          {
+            "reference": "",
+            "description": "Data Disclosed - Legal Basis"
+          },
+          {
+            "reference": "",
+            "description": ""
+          }
+        ]
+        For each entry that is an iterator a shadownode will be created. The node does not have an edges
+        connected it directly with other nodes. The edges which are created, will be forwarded to the parent
+        of the shadownode. The only reference that reveal the true connects are stored in the child and parent
+        attributes of the respective nodes. This is to avoid confusion in the adjacency matrix.
+
+        Args:
+            name (str, optional): [description]. Defaults to None.
+            value (str, optional): [description]. Defaults to None.
+            parent (TiltNode, optional): [description]. Defaults to None.
+            graph (TiltSchema, optional): [description]. Defaults to None.
+            hierarchy (int, optional): [description]. Defaults to None.
+        """
         super().__init__(name=name, value=value, graph=graph, hierarchy=hierarchy)
         assert parent, "A ShadowNode needs a Parent on initialization!"
         self.parent = parent
 
-    @property
-    def parent(self):
-        return self._parent
-
-    @parent.setter
-    def parent(self, parent: 'TiltNode'):
-        if parent:
-            self._parent = parent
-            parent.add_children(self)
-        else:
-            self._parent = None
-
     def add_children(self, children: 'TiltNode'):
+        """
+        On child creation. An edge will not connect with the shadow node. The origin of the edge is forwarded
+        to the parent of the shadownode.
+
+        Args:
+            children (TiltNode): [description]
+        """
         if isinstance(children, list):
             edge = [Edge(self.parent.node_id, target=child.node_id, hierarchy=self.hierarchy)
                     for child in children]

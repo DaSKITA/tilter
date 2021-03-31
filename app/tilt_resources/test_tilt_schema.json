@@ -1,0 +1,200 @@
+{
+    "meta": {
+        "_id": null,
+        "name": null,
+        "created": null,
+        "modified": null,
+        "version": null,
+        "language": null,
+        "status": null,
+        "url": null,
+        "_hash": null
+    },
+    "controller": {
+        "name": null,
+        "division": null,
+        "address": null,
+        "country": null,
+        "representative": {
+            "name": null,
+            "email": null,
+            "phone": null
+        }
+    },
+    "dataProtectionOfficer": {
+        "name": null,
+        "address": null,
+        "country": null,
+        "email": null,
+        "phone": null
+    },
+    "dataDisclosed": [
+        {
+            "_id": null,
+            "category": null,
+            "purposes": [
+                {
+                    "purpose": null,
+                    "description": null
+                }
+            ],
+            "legalBases": [
+                {
+                    "reference": null,
+                    "description": null
+                },
+                {
+                    "reference": null,
+                    "description": null
+                }
+            ],
+            "legitimateInterests": [
+                {
+                    "exists": null,
+                    "reasoning": null
+                }
+            ],
+            "recipients": [
+                {
+                    "name": null,
+                    "division": null,
+                    " address": null,
+                    "country": null,
+                    "representative": {
+                        "name": null,
+                        "email": null,
+                        "phone": null
+                    },
+                    "category": null
+                },
+                {
+                    "category": null
+                }
+            ],
+            "storage": [
+                {
+                    "temporal": [
+                        {
+                            "description": null,
+                            "ttl": null
+                        },
+                        {
+                            "description": null,
+                            "ttl": null
+                        }
+                    ],
+                    "purposeConditional": null,
+                    "legalBasisConditional": null,
+                    "aggregationFunction": null
+                }
+            ],
+            "nonDisclosure": {
+                "legalRequirement": null,
+                "contractualRegulation": null,
+                "obligationToProvide": null,
+                "consequences": null
+            }
+        }
+    ],
+    "thirdCountryTransfers": [
+        {
+            "country": null,
+            "adequacyDecision": {
+                "available": null,
+                "description": null
+            },
+            "appropriateGuarantees": {
+                "available": null,
+                "description": null
+            },
+            "presenceOfEnforceableRightsAndEffectiveRemedies": {
+                "available": null,
+                "description": null
+            },
+            "standardDataProtectionClause": {
+                "available": null,
+                "description": null
+            }
+        }
+    ],
+    "accessAndDataPortability": {
+        "available": null,
+        "description": null,
+        "url": null,
+        "email": null,
+        "identificationEvidences": null,
+        "administrativeFee": {
+            "amount": null,
+            "currency": null
+        },
+        "dataFormats": null
+    },
+    "sources": [
+        {
+            "_id": null,
+            "dataCategory": null,
+            "sources": [
+                {
+                    "description": null,
+                    "url": null,
+                    "publiclyAvailable": null
+                }
+            ]
+        }
+    ],
+    "rightToInformation": {
+        "available": null,
+        "description": null,
+        "url": null,
+        "email": null,
+        "identificationEvidences": null
+    },
+    "rightToRectificationOrDeletion": {
+        "available": null,
+        "description": null,
+        "url": null,
+        "email": null,
+        "identificationEvidences": null
+    },
+    "rightToDataPortability": {
+        "available": null,
+        "description": null,
+        "url": null,
+        "email": null,
+        "identificationEvidences": null
+    },
+    "rightToWithdrawConsent": {
+        "available": null,
+        "description": null,
+        "url": null,
+        "email": null,
+        "identificationEvidences": null
+    },
+    "rightToComplain": {
+        "available": null,
+        "description": null,
+        "url": null,
+        "email": null,
+        "identificationEvidences": null,
+        "supervisoryAuthority": {
+            "name": null,
+            "address": null,
+            "country": null,
+            "email": null,
+            "phone": null
+        }
+    },
+    "automatedDecisionMaking": {
+        "inUse": null,
+        "logicInvolved": null,
+        "scopeAndIntendedEffects": null
+    },
+    "changesOfPurpose": [
+        {
+            "description": null,
+            "affectedDataCategories": null,
+            "plannedDateOfChange": null,
+            "urlOfNewVersion": null
+        }
+    ]
+}

@@ -20,19 +20,19 @@ class DataHandler:
 
     @staticmethod
     def get_root_task(task: 'Task') -> 'Task':
-        """Gets the root task of a supplied task.
+        """
+        Gets the root task of a supplied task.
 
         Returns:
             [type]: [description]
         """
-        task = task.get()
-        for db_task in Task.objects:
-            if task.parent and task.parent == db_task:
-                root_task = DataHandler.get_root_task(db_task)
-            if not task.parent:
-                return task
-            if not root_task.parent:
-                return root_task
+        root_task = None
+        if task.parent:
+            root_task = DataHandler.get_root_task(task.parent)
+        elif root_task:
+            return root_task
+        else:
+            return task
 
     @staticmethod
     def get_relevant_tasks(task: 'Task') -> List['Task']:
@@ -43,6 +43,7 @@ class DataHandler:
         Returns:
             [type]: [description]
         """
+        task = task.get()
         root_task = DataHandler.get_root_task(task)
         task_list = DataHandler.get_subtasks(root_task)
         task_list.append(root_task)
