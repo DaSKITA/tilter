@@ -4,14 +4,19 @@ import os
 import requests
 import click
 from tqdm import tqdm
+from pathlib import Path
 
 
 @click.command()
 @click.option('-d', '--directory', default=None, help="Directory of policies.")
-def main(directory: str):
+def main(directory: str = None):
     headers = {
         'Content-Type': 'application/json; charset=utf-8',
     }
+
+    if not directory:
+        directory = os.path.join(Path(os.path.abspath(__file__)).parent.parent, "data")
+
     file_count = 0
     for file_name in tqdm(os.listdir(directory)):
         # skip hidden files
