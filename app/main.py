@@ -22,8 +22,9 @@ babel = Babel(app, default_locale='de')
 @babel.localeselector
 def get_locale():
     # TODO: this line causes a bug with flask user, the bug prevails after changing it back to return 'en'
-    # return request.accept_languages.best_match(app.config['LANGUAGES'])
-    return "en"
+    # does not happen in a container!
+    return request.accept_languages.best_match(app.config['LANGUAGES'])
+    # return "en"
 
 
 # Character Escaping Filters for Templates

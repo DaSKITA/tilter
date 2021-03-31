@@ -225,7 +225,7 @@ class TiltSchema:
             if node._multiple:
                 node_dict[node.name].append(child_dict)
             elif isinstance(node, ShadowNode):
-                node_dict = node_dict | child_dict
+                node_dict = {**node_dict, **child_dict}
             else:
                 node_dict[node.name].update(child_dict)
         if not node.children:
