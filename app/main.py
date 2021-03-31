@@ -21,7 +21,8 @@ babel = Babel(app, default_locale='de')
 
 @babel.localeselector
 def get_locale():
-    #return request.accept_languages.best_match(app.config['LANGUAGES'])
+    # TODO: this line causes a bug with flask user, the bug prevails after changing it back to return 'en'
+    # return request.accept_languages.best_match(app.config['LANGUAGES'])
     return "en"
 
 
@@ -44,6 +45,7 @@ def txt_escape(text):
 @app.route('/')
 def index():
     # String-based templates
+
     return render_template('index.html')
 
 
