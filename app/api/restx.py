@@ -98,7 +98,7 @@ class TaskById(Resource):
         :param id: unique id of the task
         :return: task with given id
         """
-        return Task.objects(id=id)
+        return Task.objects.get(id=id)
 
     def delete(self, id):
         """
@@ -106,7 +106,7 @@ class TaskById(Resource):
         :param id: unique id of the task
         :return: TODO
         """
-        return Task.objects(id=id).delete()
+        return Task.objects.get(id=id).delete()
 
 
 @ns.route('/<string:id>/annotation')
