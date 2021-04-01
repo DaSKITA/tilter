@@ -214,17 +214,9 @@ class AnnotationByTaskIdInJSON(Resource):
                             continue
                         else:
                             labels.append(val)
-                    import logging
-
-                    logging.warning(task)
-                    logging.warning(task.hierarchy)
 
                     hierarchy = task.hierarchy.copy()
                     hierarchy.append(i)
-
-                    logging.warning(task)
-                    logging.warning(hierarchy)
-                    logging.warning(task.hierarchy)
 
                     tmp_task = task
                     while tmp_task.parent is not None:
