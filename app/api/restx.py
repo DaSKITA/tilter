@@ -5,8 +5,12 @@ from mongoengine import DoesNotExist
 from flask_babel import get_translations, get_locale
 from data_handling.data_handler import DataHandler
 from tilt_resources.tilt_creator import TiltCreator
+from config import Config
+
 import json
 import os
+import requests
+import fastjsonschema
 
 # API Namespace
 ns = Namespace("task", description="API Node for TILTer")
@@ -276,3 +280,42 @@ class TiltDocumentByTaskId(Resource):
         annotations = DataHandler.get_relevant_annotations(relevant_tasks)
         tilt_dict = tilt_creator.create_tilt_document(annotations)
         return tilt_dict, 200
+
+
+@ns.route('/<string:id>/push-to-tilt-hub')
+@ns.param('id', 'unique task identifier')
+#@ns.param('validation', 'toggle JSON schema validation', type=bool)
+class PushTiltToHub(Resource):
+    def post(self, id):
+        """
+        Pushes the respective tilt-document to the tilt-hub database
+        """
+        # Next 4 lines: Copy-paste from above future legacy get()
+        tilt_creator = TiltCreator()
+        task = Task.objects(id=id).get()
+        relevant_tasks = DataHandler.get_relevant_tasks(task)
+        annotations = DataHandler.get_relevant_annotations(relevant_tasks)
+        tilt = tilt_creator.create_tilt_document(annotations)
+
+        print(request.form['validation'])
+
+
+  #       if request.form['validation'] == True: # FIXME
+  #          with open('tilt_resources/tilt-complete-schema.json', 'r') as json_file:
+  #              schema = json.load(json_file)
+  #              validate_func = fastjsonschema.compile(schema)
+  #              try:
+  #                  validate_func(tilt)
+  #              except fastjsonschema.exceptions.JsonSchemaValueException as js:
+  #                  validation_errors =  { 
+  #                      'error': 'Could not validate document!',
+  #                      'details': str(js)
+  #                      }
+  #                  return validation_errors, 400
+
+        response = requests.post(
+                   url=os.getenv('TILT_HUB_REST_URL') + '/tilt/tilt',
+                   data=json.dumps(tilt),
+                   auth=(os.getenv('TILT_HUB_BASIC_AUTH_USER'), os.getenv('TILT_HUB_BASIC_AUTH_PASSWORD'))
+        )
+        return response.headers.get('location'), response.status_code

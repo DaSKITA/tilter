@@ -1,6 +1,8 @@
 from dotenv import load_dotenv
 import os
 from pathlib import Path
+import fastjsonschema
+import json
 
 
 # Flask Config from Class
@@ -40,3 +42,9 @@ class Config(object):
                                               mongodb_port=os.environ["MONGODB_PORT"],
                                               mongodb_database=os.environ["MONGODB_DATABASE"],
                                               host=os.environ.get("MONGODB_HOST", "localhost"))
+
+    
+
+
+    # Load tilt-hub secrets
+    TILT_HUB = load_dotenv(dotenv_path=os.path.join(BASE_PATH, "secrets/local/tilthub.env"))
