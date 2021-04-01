@@ -4,29 +4,34 @@ import os
 import requests
 import click
 from tqdm import tqdm
+from pathlib import Path
 
 
 @click.command()
 @click.option('-d', '--directory', default=None, help="Directory of policies.")
-def main(directory: str):
+def main(directory: str = None):
     headers = {
         'Content-Type': 'application/json; charset=utf-8',
     }
 
-    assert directory, "No Input Files provided!"
+    if not directory:
+        directory = os.path.join(Path(os.path.abspath(__file__)).parent.parent, "data")
 
-    for file in tqdm(os.listdir(directory)):
+    file_count = 0
+    for file_name in tqdm(os.listdir(directory)):
         # skip hidden files
-        if file.startswith('.'):
-            continue
+        file_path = os.path.join(directory, file_name)
+        if os.path.isfile(file_path) and file_name.endswith('.txt'):
 
-        textfile = open(directory + "/" + file, "r")
-        text = textfile.read()
-        textfile.close()
+            textfile = open(file_path, "r")
+            text = textfile.read()
+            textfile.close()
 
-        data = {"name": file[:-4], "text": text, "html": False}
+            data = {"name": file_name[:-4], "text": text, "html": False}
 
-        _ = requests.post('http://localhost:5000/api/task/', headers=headers, data=json.dumps(data))
+            _ = requests.post('http://localhost:5000/api/task/', headers=headers, data=json.dumps(data))
+            file_count += 1
+    print(f"{file_count} files were added to the database.")
 
 
 if __name__ == "__main__":

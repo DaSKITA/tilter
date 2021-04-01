@@ -5,7 +5,9 @@ ENV FLASK_APP=app/main.py
 
 COPY app/requirements.txt requirements.txt
 COPY dependencies dependencies
+
 RUN pip install -r requirements.txt
 
+COPY app app
 WORKDIR /app
-COPY ./app .
+

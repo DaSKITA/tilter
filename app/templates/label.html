@@ -39,7 +39,7 @@
                     background: white; top: 0">
             <Labels name="ner" toName="text">
                 {% for label in task.labels %}
-                    <Label value="{{ _(label) }}" background="{{ colors[loop.index - 1] }}"/>
+                    <Label value="{{ label }}" background="{{ colors[loop.index - 1] }}"/>
                 {% endfor %}
             </Labels>
         </View>

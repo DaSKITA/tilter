@@ -2,9 +2,9 @@ from database.models import Task, Annotation
 from flask import request
 from flask_restx import fields, Namespace, Resource
 from mongoengine import DoesNotExist
-from tilt.utilities import tilt_from_task
 from flask_babel import get_translations, get_locale
-
+from data_handling.data_handler import DataHandler
+from tilt_resources.tilt_creator import TiltCreator
 import json
 import os
 
@@ -56,7 +56,7 @@ class TaskCollection(Resource):
 
         # open tilt schema file
         cur_path = os.path.dirname(__file__)
-        new_path = os.path.join(cur_path, '..', 'tilt', 'schema.json')
+        new_path = os.path.join(cur_path, '..', 'tilt_resources', 'schema.json')
         with open(new_path, 'r') as f:
             schema = json.load(f)
 
@@ -160,7 +160,7 @@ class AnnotationByTaskIdInJSON(Resource):
         all_current_annotations = []
         new_annotations = []
         translation_dict = None
-        if get_locale != "en":
+        if get_locale() != "en":
             cache = get_translations()
             translation_dict = {value: key for key, value in cache._catalog.items()}
 
@@ -190,7 +190,7 @@ class AnnotationByTaskIdInJSON(Resource):
         # create new tasks according to the tilt schema
         # open tilt schema file
         cur_path = os.path.dirname(__file__)
-        new_path = os.path.join(cur_path, '..', 'tilt', 'schema.json')
+        new_path = os.path.join(cur_path, '..', 'tilt_resources', 'schema.json')
         with open(new_path, 'r') as f:
             schema = json.load(f)
 
@@ -247,8 +247,6 @@ class AnnotationByTaskIdInJSON(Resource):
                     new_task_anno = Annotation(task=new_task, label=schema[i][schema[i]['key']], text=anno.text,
                                                start=anno.start, end=anno.end)
                     new_task_anno.save()
-
-
         return new_annotations
 
 
@@ -261,9 +259,13 @@ class TiltDocumentCollection(Resource):
         :return: JSON tilt representation of all tasks
         """
         documents = []
+        tilt_creator = TiltCreator()
         for task in Task.objects:
-            documents.append(tilt_from_task(task))
-        return list(documents), 200
+            relevant_tasks = DataHandler.get_relevant_tasks(task)
+            annotations = DataHandler.get_relevant_annotations(relevant_tasks)
+            tilt_dict = tilt_creator.create_tilt_document(annotations)
+            documents.append(tilt_dict)
+        return documents, 200
 
 
 @ns.route('/<string:id>/tilt')
@@ -276,5 +278,9 @@ class TiltDocumentByTaskId(Resource):
         :param id: unique id of the task
         :return: JSON tilt representation of all tasks
         """
-        task = Task.objects(id=id)
-        return tilt_from_task(task), 200
+        tilt_creator = TiltCreator()
+        task = Task.objects(id=id).get()
+        relevant_tasks = DataHandler.get_relevant_tasks(task)
+        annotations = DataHandler.get_relevant_annotations(relevant_tasks)
+        tilt_dict = tilt_creator.create_tilt_document(annotations)
+        return tilt_dict, 200
