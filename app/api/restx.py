@@ -213,6 +213,7 @@ class AnnotationByTaskIdInJSON(Resource):
                     for key, val in schema[i].items():
                         if type(val) is dict:
                             labels.append(val['desc'])
+                            desc_keys.append(key)
                         elif key in ['desc', 'key']:
                             continue
                         else:

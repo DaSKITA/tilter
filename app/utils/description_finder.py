@@ -2,7 +2,6 @@ from typing import Dict, List
 from config import Config
 import json
 from database.models import Task
-from tilt_resources.tilt_schema import TiltNode, TiltSchema
 
 
 class DescriptonFinder:
@@ -13,31 +12,10 @@ class DescriptonFinder:
 
         """
         Finds all necessary descriptions for a provided task.
-        As tasks are created over the schema.json, names for potential annotations of a task are mapped from
-        schema.json into the Tiltschema. The TiltSchema gives a representation of an actual tilt document and
-        has the appropriate keys to navigate through the tilt_desc.json.
-        The keys for navigation are retrieved over the nodes in TiltSchema, as nodes store their path in the
-        graph. Over conditionals those keys are used to navigate through tilt_desc.json.
+        Task items store a "desc_keys" attribute which refers to the desciption keys in 'tilt_desctitions'.
         """
         with open(Config.DESC_PATH, "r") as json_file:
             self.tilt_descriptions = json.load(json_file)
-        tilt_schema = TiltSchema.create_schema_with_desc()
-        # mappings are required to be unique
-        self.schema_to_tilt_mapping = self._create_schema_to_tilt_mapping(tilt_schema)
-
-    def _get_path_node_names(self, label: str) -> List[str]:
-        """Get label_chain of a node. The label chain is the node path in the graph, whereas every path entry
-        is a node.name argument. Empty names from ShadowNodes are ignored.
-
-        Args:
-            label (str): [description]
-
-        Returns:
-            [type]: [description]
-        """
-        node = self.schema_to_tilt_mapping[label]
-        label_chain = [path_node.name for path_node in node.path if path_node.name != '']
-        return label_chain
 
     def _find_description_by_label_chain(self, label_chain: List[str],
                                          tilt_dict: Dict[str, str] = None) -> str:
@@ -74,9 +52,9 @@ class DescriptonFinder:
             Dict[str, str]: [description]
         """
         label_descriptions = {}
-        for label in task.labels:
-            label_chain = self._get_path_node_names(label)
-            label_descriptions[label] = self._find_description_by_label_chain(
+        for idx, desc_label in enumerate(task.desc_keys):
+            label_chain = task.hierarchy + [desc_label]
+            label_descriptions[task.labels[idx]] = self._find_description_by_label_chain(
                 label_chain,
                 tilt_dict=self.tilt_descriptions
                 )
@@ -105,26 +83,3 @@ class DescriptonFinder:
                 desc = tilt_dict["items"]["anyOf"][0]
                 desc = self._get_entry_from_tilt_desc_dict(label=label, tilt_dict=desc)
         return desc
-
-    @staticmethod
-    def _create_schema_to_tilt_mapping(tilt_schema: TiltSchema) -> Dict[str, TiltNode]:
-        """
-        Creates a unique mapping from schema.json to the tilt_schema nodes.
-        If the nodes do not have unique 'desc' entries the mapping will not be created and throw an error.
-
-        Args:
-            tilt_schema (TiltSchema): [description]
-
-        Raises:
-            AttributeError: [description]
-
-        Returns:
-            Dict: [description]
-        """
-        schema_to_tilt_mapping = {}
-        for node in tilt_schema.node_list:
-            if schema_to_tilt_mapping.get(node.desc):
-                raise AttributeError("Schema to Tilt Mapping is not unique!")
-            elif not schema_to_tilt_mapping.get(node.desc) and node.desc:
-                schema_to_tilt_mapping[node.desc] = node
-        return schema_to_tilt_mapping
