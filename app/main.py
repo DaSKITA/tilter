@@ -102,6 +102,7 @@ def label(task_id):
     task = Task.objects.get(pk=task_id)
     annotations = Annotation.objects(task=task)
 
+    # finds the descriptions for potential annotations of this task
     description_finder = DescriptonFinder()
     descriptions = description_finder.find_descriptions(task)
 
