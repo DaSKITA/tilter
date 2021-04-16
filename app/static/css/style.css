@@ -25,9 +25,9 @@ ul li {
 }
 
 ul li a.accordion-link {
-	width: 10%;
+	width: 5em;
 	display: block;
-    background: rgba(0, 0, 0, 0.78);
+    background: rgba(95, 95, 95, 0.78);
     color: #fefefe;
     padding: .75em;
     border-radius: 0 0.15em 0.15em 0;
@@ -41,7 +41,7 @@ ul li a:hover {
 }
 
 ul li div.toggle {
-    width: 90%;
+    width: -webkit-fill-available;
     display: block;
     background: rgba(0, 0, 0, 0.78);
     color: #fefefe;

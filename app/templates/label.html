@@ -39,7 +39,11 @@
                     background: white; top: 0">
             <Labels name="ner" toName="text">
                 {% for label in task.labels %}
-                    <Label value="{{ label }}" background="{{ colors[loop.index - 1] }}"/>
+                    {% if label[1] == True %}
+                    <Label value="{{ label[0] }}" background="{{ colors[loop.index - 1] }}" maxUsages="1" />
+                    {% else %}
+                    <Label value="{{ label[0] }}" background="{{ colors[loop.index - 1] }}"/>
+                    {% endif %}
                 {% endfor %}
             </Labels>
         </View>

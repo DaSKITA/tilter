@@ -62,7 +62,10 @@ class TaskCollection(Resource):
 
         # construct first-level labels from tilt schema
         for i in schema.keys():
-            labels.append(schema[i]["desc"])
+            try:
+                labels.append((schema[i]["desc"], True))
+            except:
+                labels.append((schema[i][0]["desc"], False))
 
         name = request.json.get('name')
         text = request.json.get('text')
@@ -151,38 +154,45 @@ class AnnotationByTaskIdInJSON(Resource):
     @ns.marshal_with(annotation, as_list=True)
     def post(self, id):
         """
-        Creates a new annotation for task with given id and returns it.
+        Creates new annotations for a task with given id and returns them.
+        Also creates new subtasks according to schema.json, if there have been
+        annotations made, which open a new hierarchical level.
         :param id: unique id of the task
         :return: newly created annotation
         """
+        # get the task and posted annotations
         task = Task.objects.get(id=id)
         data = request.json
         all_current_annotations = []
         new_annotations = []
+
+        # prepare reverse translations, if the client is using another language but english
         translation_dict = None
         if get_locale() != "en":
             cache = get_translations()
             translation_dict = {value: key for key, value in cache._catalog.items()}
 
-        # create new annotations
+        # iterate through all posted annotations and create new annotation objects
         for content in data.values():
-
+            # get the label and translate it back if necessary
             label = content['results'][0]['value']['labels'][0]
             if translation_dict:
                 label = translation_dict[label]
             start = content['start']
             end = content['end']
             text = content['text']
+            # try to find an already existing annotation with the same content
             try:
                 old_annotation = Annotation.objects.get(task=task, text=text, start=start, end=end, label=label)
                 all_current_annotations.append(old_annotation.id)
+            # if there is no old annotation, create a new one
             except DoesNotExist:
                 new_annotation = Annotation(task=task, text=text, start=start, end=end, label=label)
                 new_annotation.save()
                 new_annotations.append(new_annotation)
                 all_current_annotations.append(new_annotation.id)
 
-        # delete old unwanted annotations
+        # delete old annotations, that did not appear in the POST data
         for anno in Annotation.objects(task=task):
             if anno.id not in all_current_annotations:
                 anno.delete()
@@ -196,28 +206,51 @@ class AnnotationByTaskIdInJSON(Resource):
 
         # advance in tilt schema until reaching the hierarchy level of the current task
         for j in task.hierarchy:
-            schema = schema[j]
+            try:
+                schema = schema[j]
+            except:
+                schema = schema[0][j]
+
+        # if schema is now a list, we need to get the dict inside of it
+        if type(schema) is list:
+            schema = schema[0]
 
         # iterate through newly created annotations and create a new task, if necessary
         for anno in new_annotations:
+            # look through all entries in the current hierarchy level of the schema
             for i in schema.keys():
-                if type(schema[i]) is not dict:
+                entry = schema[i]
+                # if the entry is a list we need to look inside the list instead
+                if type(entry) is list:
+                    entry = entry[0]
+
+                # if the entry is not a dict, the annotation does not open a new hierarchical level
+                if type(entry) is not dict:
                     continue
-                if schema[i]['desc'] == anno.label and \
-                        (len(schema[i].values()) > 3 or any(isinstance(val, dict) for val in schema[i].values())):
+                # since the entry is a dict, check if there is a new subtask to be created
+                # a new subtask is needed if the entry holds more than 3 values or holds another dict
+                if entry['desc'] == anno.label and \
+                        (len(entry.values()) > 3 or any(isinstance(val, dict) for val in entry.values())):
                     # creation of new task is needed, gather labels, create new hierarchy list and determine new name
                     labels = []
-                    for key, val in schema[i].items():
+                    for key, val in entry.items():
+                        label_limited = True
+                        # if the entry is a list, the label can be annotated more than once
+                        if type(val) is list:
+                            val = val[0]
+                            label_limited = False
                         if type(val) is dict:
-                            labels.append(val['desc'])
+                            labels.append((val['desc'], label_limited))
                         elif key in ['desc', 'key']:
                             continue
                         else:
-                            labels.append(val)
+                            labels.append((val, label_limited))
 
+                    # copy the hierarchy list and append current hierarchical level
                     hierarchy = task.hierarchy.copy()
                     hierarchy.append(i)
 
+                    # name the new task in accordance to the root task
                     tmp_task = task
                     while tmp_task.parent is not None:
                         tmp_task = tmp_task.parent
@@ -236,7 +269,7 @@ class AnnotationByTaskIdInJSON(Resource):
                     new_task.save()
 
                     # create annotation for new task
-                    new_task_anno = Annotation(task=new_task, label=schema[i][schema[i]['key']], text=anno.text,
+                    new_task_anno = Annotation(task=new_task, label=entry[entry['key']], text=anno.text,
                                                start=anno.start, end=anno.end)
                     new_task_anno.save()
         return new_annotations

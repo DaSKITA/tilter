@@ -15,43 +15,48 @@
     "key": "email",
     "email": "E-Mail address"
   },
-  "dataDisclosed": {
+  "dataDisclosed": [{
       "desc": "Data Disclosed - Category",
       "key": "category",
       "category": "Data Category",
-      "purposes": {
+      "purposes": [{
           "desc": "Data Disclosed - Purpose",
           "key": "purpose",
           "purpose": "Purpose of Data"
-        },
-      "legalBases": {
+        }],
+      "legalBases": [
+        {
           "desc": "Data Disclosed - Legal Basis",
           "key": "description",
           "description": "Legal Basis Description"
-        },
-      "legitimateInterests": {
+        }],
+      "legitimateInterests": [
+        {
           "desc": "Data Disclosed - Legitimate Interest",
           "key": "reasoning",
           "reasoning": "Legitimate Interest - Reasoning"
-        },
-      "recipients": {
+        }],
+      "recipients": [
+        {
           "desc": "Data Disclosed - Recipients",
           "key": "name",
           "name": "Recipient Name",
           "country": "Recipient Country"
-        },
-      "storage": {
+        }],
+      "storage": [
+        {
           "desc": "Data Disclosed - Storage Period",
           "key": "purposeConditional",
-          "purposeConditional": "Storage Period - Purpose Conditional",
-          "legalBasisConditional": "Storage Period - Legal Basis Conditional"
-        }
-    },
-  "thirdCountryTransfers": {
-    "desc": "Third Country Transfers - Target Country",
-    "key": "country",
-    "country": "Target Country"
-  },
+          "purposeConditional": ["Storage Period - Purpose Conditional"],
+          "legalBasisConditional": ["Storage Period - Legal Basis Conditional"]
+        }]
+    }],
+  "thirdCountryTransfers": [
+    {
+      "desc": "Third Country Transfers - Target Country",
+      "key": "country",
+      "country": "Target Country"
+    }],
   "automatedDecisionMaking": {
     "desc": "Automated Decision Making - Logic",
     "key": "logicInvolved",

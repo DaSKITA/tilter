@@ -111,7 +111,7 @@ def label(task_id):
     # translate labels
     if get_locale() != "en":
         cache = get_translations()
-        labels = [cache._catalog[label] for label in task.labels]
+        labels = [(cache._catalog[label[0]], label[1]) for label in task.labels]
         task.labels = labels
 
     target_url = request.url_root + 'api/task/' + str(task_id) + '/annotation/json'
