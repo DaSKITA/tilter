@@ -103,7 +103,7 @@ class DescriptonFinder:
                 desc = tilt_dict["properties"][label]
             if tilt_dict.get("additionalItems"):
                 desc = tilt_dict["items"]["anyOf"][0]
-                desc = self._get_entry_from_tilt_dict(label=label, tilt_dict=desc)
+                desc = self._get_entry_from_tilt_desc_dict(label=label, tilt_dict=desc)
         return desc
 
     @staticmethod
@@ -122,7 +122,7 @@ class DescriptonFinder:
             Dict: [description]
         """
         schema_to_tilt_mapping = {}
-        for node in tilt_schema:
+        for node in tilt_schema.node_list:
             if schema_to_tilt_mapping.get(node.desc):
                 raise AttributeError("Schema to Tilt Mapping is not unique!")
             elif not schema_to_tilt_mapping.get(node.desc) and node.desc:
