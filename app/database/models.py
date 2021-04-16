@@ -11,6 +11,8 @@ class Task(db.Document):
     interfaces = db.ListField()
     text = db.StringField()
     html = db.BooleanField()
+    desc_keys = db.ListField()
+    desc = None
 
 
 class User(db.Document, UserMixin):
@@ -35,3 +37,4 @@ class Annotation(db.Document):
     label = db.StringField(required=True)
     task = db.ReferenceField('Task', required=True)
     related_to = db.ReferenceField('Annotation')
+    desc = None
