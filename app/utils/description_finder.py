@@ -6,8 +6,6 @@ from database.models import Task
 
 class DescriptonFinder:
 
-    tilt_dict = Config.TILT_DICT
-
     def __init__(self) -> None:
 
         """
