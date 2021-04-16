@@ -28,6 +28,13 @@ def get_locale():
     return request.accept_languages.best_match(app.config['LANGUAGES'])
     # return "en"
 
+# task render helper function
+def task_tree_to_dict(tasks):
+    task_tree_dict = {}
+    for task in tasks:
+        task_tree_dict[task] = task_tree_to_dict(Task.objects(parent=task))
+    return task_tree_dict
+
 
 # Character Escaping Filters for Templates
 @app.template_filter()
@@ -62,8 +69,9 @@ def member_page():
 @app.route('/tasks')
 @login_required
 def tasks():
-    query = Task.objects.all()
-    return render_template('tasks.html', tasks=query)
+    # tasks = gather_task_list()
+    tasks = task_tree_to_dict(Task.objects(parent=None))
+    return render_template('tasks.html', tasks=tasks)
 
 
 @app.route('/tasks/create', methods=['GET', 'POST'])

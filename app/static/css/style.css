@@ -1,13 +1,59 @@
-h1 {
-    border: 2px #eee solid;
-    color: brown;
-    text-align: center;
-    padding: 10px;
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
-h2 {
-    border: 1px #eee solid;
-    color: brown;
-    text-align: center;
-    padding: 10px;
+p {
+    font-size: 1.1em;
+    margin: 1em 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul .inner {
+    padding-left: 2em;
+    overflow: hidden;
+    display: none;
+}
+
+ul li {
+    margin: .5em 0;
+}
+
+ul li a.accordion-link {
+	width: 10%;
+	display: block;
+    background: rgba(0, 0, 0, 0.78);
+    color: #fefefe;
+    padding: .75em;
+    border-radius: 0 0.15em 0.15em 0;
+    transition: background .3s ease;
+	text-align: center;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+ul li div.toggle {
+    width: 90%;
+    display: block;
+    background: rgba(0, 0, 0, 0.78);
+    color: #fefefe;
+    padding: .75em;
+    border-radius: 0.15em 0 0 0.15em;
+    transition: background .3s ease;
+}
+
+ul li div.toggle:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+div.toggle-container {
+    display: flex;
 }
