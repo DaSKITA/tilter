@@ -39,7 +39,7 @@ class DescriptonFinder:
 
     def find_descriptions(self, task: 'Task') -> Dict[str, str]:
         """
-        Finds all descriptions for a provided task and returns these discriptions in a dictionary.
+        Finds all descriptions for a provided task and returns these descriptions in a dictionary.
         Key = Label_name
         Value = Description
 
@@ -52,7 +52,7 @@ class DescriptonFinder:
         label_descriptions = {}
         for idx, desc_label in enumerate(task.desc_keys):
             label_chain = task.hierarchy + [desc_label]
-            label_descriptions[task.labels[idx]] = self._find_description_by_label_chain(
+            label_descriptions[task.labels[idx][0]] = self._find_description_by_label_chain(
                 label_chain,
                 tilt_dict=self.tilt_descriptions
                 )

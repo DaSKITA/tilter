@@ -222,6 +222,7 @@ class AnnotationByTaskIdInJSON(Resource):
             # look through all entries in the current hierarchy level of the schema
             for i in schema.keys():
                 entry = schema[i]
+
                 # if the entry is a list we need to look inside the list instead
                 if type(entry) is list:
                     entry = entry[0]
@@ -229,6 +230,7 @@ class AnnotationByTaskIdInJSON(Resource):
                 # if the entry is not a dict, the annotation does not open a new hierarchical level
                 if type(entry) is not dict:
                     continue
+
                 # since the entry is a dict, check if there is a new subtask to be created
                 # a new subtask is needed if the entry holds more than 3 values or holds another dict
                 if entry['desc'] == anno.label and \
