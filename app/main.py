@@ -7,6 +7,8 @@ from flask_babel import _, Babel, Domain, get_translations
 from flask_restx import Api
 from flask_user import login_required, UserManager
 from forms import CreateTaskForm
+from utils.description_finder import DescriptonFinder
+
 
 # Initialize Flask App
 app = Flask(__name__)
@@ -108,6 +110,10 @@ def label(task_id):
     task = Task.objects.get(pk=task_id)
     annotations = Annotation.objects(task=task)
 
+    # finds the descriptions for potential annotations of this task
+    description_finder = DescriptonFinder()
+    descriptions = description_finder.find_descriptions(task)
+
     # translate labels
     if get_locale() != "en":
         cache = get_translations()
@@ -118,7 +124,7 @@ def label(task_id):
     redirect_url = request.base_url
     colors = ['blue', 'red', 'yellow', 'green', 'orange', 'magenta', 'pink']
     return render_template('label.html', task=task, target_url=target_url, annotations=annotations,
-                           redirect_url=redirect_url, colors=colors)
+                           redirect_url=redirect_url, colors=colors, descriptions=descriptions)
 
 
 # API Setup

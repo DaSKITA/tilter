@@ -69,7 +69,8 @@ class TaskCollection(Resource):
         html = request.json.get('html')
         if name != '' and text != '':
             try:
-                task = Task.objects.get(name=name, labels=labels, hierarchy=[], parent=None, html=html, text=text)
+                task = Task.objects.get(name=name, labels=labels, hierarchy=[], parent=None, html=html,
+                                        text=text)
             except DoesNotExist:
                 task = Task(name=name, labels=labels, hierarchy=[], parent=None,
                             interfaces=[
@@ -78,7 +79,8 @@ class TaskCollection(Resource):
                             "controls",
                             "side-column",
                             "predictions:menu"],
-                            html=html, text=text)
+                            html=html, text=text,
+                            desc_keys=schema.keys())
                 task.save()
                 return task, 201
             else:
@@ -207,13 +209,16 @@ class AnnotationByTaskIdInJSON(Resource):
                         (len(schema[i].values()) > 3 or any(isinstance(val, dict) for val in schema[i].values())):
                     # creation of new task is needed, gather labels, create new hierarchy list and determine new name
                     labels = []
+                    desc_keys = []
                     for key, val in schema[i].items():
                         if type(val) is dict:
                             labels.append(val['desc'])
+                            desc_keys.append(key)
                         elif key in ['desc', 'key']:
                             continue
                         else:
                             labels.append(val)
+                            desc_keys.append(key)
 
                     hierarchy = task.hierarchy.copy()
                     hierarchy.append(i)
@@ -232,11 +237,14 @@ class AnnotationByTaskIdInJSON(Resource):
                                         "controls",
                                         "side-column",
                                         "predictions:menu"],
-                                    html=task.html, text=task.text)
+                                    html=task.html,
+                                    text=task.text,
+                                    desc_keys=desc_keys)
                     new_task.save()
 
                     # create annotation for new task
-                    new_task_anno = Annotation(task=new_task, label=schema[i][schema[i]['key']], text=anno.text,
+                    new_task_anno = Annotation(task=new_task, label=schema[i][schema[i]['key']],
+                                               text=anno.text,
                                                start=anno.start, end=anno.end)
                     new_task_anno.save()
         return new_annotations

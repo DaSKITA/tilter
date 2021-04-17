@@ -9,6 +9,22 @@
     <a href="{{ url_for("tasks") }}"><- {{ _('task overview') }}</a>
     <br><br>
 
+    <div>
+
+        <table style="width:100%">
+            <tr>
+                <th><b>Annotation</b></th>
+                <th><b>Description</b></th>
+            </tr>
+            {% for key, desc in descriptions.items() %}
+            <tr>
+                <td>{{ _(key) }}</td>
+                <td>{{ desc }}</td>
+            </tr>
+            {% endfor %}
+          </table>
+    </div>
+
     <!-- Create the Label Studio container -->
     <div id="label-studio"></div>
 
