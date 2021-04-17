@@ -313,9 +313,11 @@ class TiltDocumentByTaskId(Resource):
         :param id: unique id of the task
         :return: JSON tilt representation of all tasks
         """
-        tilt_creator = TiltCreator()
-        task = Task.objects(id=id).get()
-        relevant_tasks = DataHandler.get_relevant_tasks(task)
-        annotations = DataHandler.get_relevant_annotations(relevant_tasks)
-        tilt_dict = tilt_creator.create_tilt_document(annotations)
-        return tilt_dict, 200
+        from utils.create_tilt import create_tilt
+        return create_tilt(id), 200
+        # tilt_creator = TiltCreator()
+        # task = Task.objects(id=id).get()
+        # relevant_tasks = DataHandler.get_relevant_tasks(task)
+        # annotations = DataHandler.get_relevant_annotations(relevant_tasks)
+        # tilt_dict = tilt_creator.create_tilt_document(annotations)
+        # return tilt_dict, 200
