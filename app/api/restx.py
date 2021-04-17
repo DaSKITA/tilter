@@ -277,8 +277,9 @@ class AnnotationByTaskIdInJSON(Resource):
                                     desc_keys=desc_keys)
                     new_task.save()
 
+                    new_task_anno_label = entry[entry['key']] if type(entry[entry['key']]) is not list else entry[entry['key']][0]
                     # create annotation for new task
-                    new_task_anno = Annotation(task=new_task, label=entry[entry['key']], text=anno.text,
+                    new_task_anno = Annotation(task=new_task, label=new_task_anno_label, text=anno.text,
                                                start=anno.start, end=anno.end)
                     new_task_anno.save()
         return new_annotations
