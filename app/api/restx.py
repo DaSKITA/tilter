@@ -72,7 +72,8 @@ class TaskCollection(Resource):
         html = request.json.get('html')
         if name != '' and text != '':
             try:
-                task = Task.objects.get(name=name, labels=labels, hierarchy=[], parent=None, html=html, text=text)
+                task = Task.objects.get(name=name, labels=labels, hierarchy=[], parent=None, html=html,
+                                        text=text)
             except DoesNotExist:
                 task = Task(name=name, labels=labels, hierarchy=[], parent=None,
                             interfaces=[
@@ -81,7 +82,8 @@ class TaskCollection(Resource):
                             "controls",
                             "side-column",
                             "predictions:menu"],
-                            html=html, text=text)
+                            html=html, text=text,
+                            desc_keys=schema.keys())
                 task.save()
                 return task, 201
             else:
@@ -233,6 +235,7 @@ class AnnotationByTaskIdInJSON(Resource):
                         (len(entry.values()) > 3 or any(isinstance(val, dict) for val in entry.values())):
                     # creation of new task is needed, gather labels, create new hierarchy list and determine new name
                     labels = []
+                    desc_keys = []
                     for key, val in entry.items():
                         label_limited = True
                         # if the entry is a list, the label can be annotated more than once
@@ -241,10 +244,12 @@ class AnnotationByTaskIdInJSON(Resource):
                             label_limited = False
                         if type(val) is dict:
                             labels.append((val['desc'], label_limited))
+                            desc_keys.append(key)
                         elif key in ['desc', 'key']:
                             continue
                         else:
                             labels.append((val, label_limited))
+                            desc_keys.append(key)
 
                     # copy the hierarchy list and append current hierarchical level
                     hierarchy = task.hierarchy.copy()
@@ -265,7 +270,9 @@ class AnnotationByTaskIdInJSON(Resource):
                                         "controls",
                                         "side-column",
                                         "predictions:menu"],
-                                    html=task.html, text=task.text)
+                                    html=task.html,
+                                    text=task.text,
+                                    desc_keys=desc_keys)
                     new_task.save()
 
                     # create annotation for new task

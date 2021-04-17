@@ -102,7 +102,7 @@
     ],
     "thirdCountryTransfers": [
       {
-        "country": "",
+        "country": "Third Country Transfers - Target Country",
         "adequacyDecision": {
           "available": "",
           "description": ""

@@ -10,8 +10,6 @@ from config import Config
 class TiltSchema:
     # TODO: create from json - should values be stored in nodes? If yes it has to be handled over the node
 
-    _default_json_path = os.path.join(Config.BASE_PATH, "tilt_resources/tilt_desc_mapping.json")
-
     def __init__(self, json_tilt_dict: dict, clean_schema: bool = True):
         """
         This class is a graph that represents a deep nested dictionary. It serves as an interface for a
@@ -62,9 +60,7 @@ class TiltSchema:
         Returns:
             [type]: [description]
         """
-
-        with open(TiltSchema._default_json_path, "r") as json_file:
-            json_dict = json.load(json_file)
+        json_dict = Config.TILT_DICT
         return cls(json_tilt_dict=json_dict)
 
     def _create_graph(self, json_tilt_dict: dict,
@@ -162,6 +158,7 @@ class TiltSchema:
 
         else:
             AttributeError("No value supplied!")
+
 
     def get_node_by_id(self, node_id: int = None) -> 'TiltNode':
         if node_id:
@@ -261,6 +258,7 @@ class TiltNode:
             hierarchy (int, optional): [description]. Defaults to None.
         """
         self.graph = graph
+        self.path = []
         assert self.graph, "A Node needs a Graph!"
         TiltNode.node_id += 1
         self.node_id = TiltNode.node_id
@@ -280,6 +278,19 @@ class TiltNode:
         self.value = None
 
     @property
+    def desc(self):
+        return self._desc
+
+    @desc.setter
+    def desc(self, desc):
+        if isinstance(desc, list):
+            desc = desc[0]
+        if desc != "" and not isinstance(desc, bool):
+            self._desc = desc
+        else:
+            self._desc = None
+
+    @property
     def parent(self) -> Union['TiltNode', 'ShadowNode']:
         return self._parent
 
@@ -295,8 +306,11 @@ class TiltNode:
         if parent:
             self._parent = parent
             parent.add_children(self)
+            self.path.extend(parent.path)
         else:
             self._parent = None
+        # TODO: find a nicer routine to set the path
+        self.path.append(self)
 
     @property
     def children(self) -> List[Union['TiltNode', 'ShadowNode']]:
