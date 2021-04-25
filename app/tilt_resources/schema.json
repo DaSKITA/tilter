@@ -4,16 +4,23 @@
     "key": "name",
     "name": "Company Name",
     "country": "Country",
+    "adress": "Adress",
+    "division": "Division",
     "representative": {
       "desc": "Representative - E-Mail",
       "key": "email",
-      "email": "E-Mail address"
+      "email": "E-Mail address",
+      "phone": "Phone",
+      "name": "Name"
     }
   },
   "dataProtectionOfficer": {
     "desc": "Data Protection Officer - E-mail",
     "key": "email",
-    "email": "E-Mail address"
+    "email": "E-Mail address",
+    "phone": "Phone",
+    "country": "Country",
+    "name": "Name"
   },
   "dataDisclosed": [{
       "desc": "Data Disclosed - Category",
@@ -22,44 +29,199 @@
       "purposes": [{
           "desc": "Data Disclosed - Purpose",
           "key": "purpose",
-          "purpose": "Purpose of Data"
+          "purpose": "Purpose of Data",
+          "description": "Description for Purose"
         }],
       "legalBases": [
         {
           "desc": "Data Disclosed - Legal Basis",
           "key": "description",
-          "description": "Legal Basis Description"
+          "description": "Legal Basis Description",
+          "reference": "Reference for Legal Basis"
         }],
       "legitimateInterests": [
         {
           "desc": "Data Disclosed - Legitimate Interest",
           "key": "reasoning",
-          "reasoning": "Legitimate Interest - Reasoning"
+          "reasoning": "Legitimate Interest - Reasoning",
+          "exists": "Exists"
         }],
       "recipients": [
         {
           "desc": "Data Disclosed - Recipients",
           "key": "name",
           "name": "Recipient Name",
-          "country": "Recipient Country"
+          "country": "Recipient Country",
+          "division": "Recipient Division",
+          "adress": "Adress",
+          "representative": {
+              "desc": "Data Disclosed - Recipients - Representative",
+              "key": "name",
+              "name": "Name",
+              "email": "Email",
+              "phone": "Phone"
+          },
+          "category": "Category"
+        },
+        {
+            "category": "Category"
         }],
       "storage": [
         {
           "desc": "Data Disclosed - Storage Period",
           "key": "purposeConditional",
           "purposeConditional": ["Storage Period - Purpose Conditional"],
-          "legalBasisConditional": ["Storage Period - Legal Basis Conditional"]
-        }]
+          "legalBasisConditional": ["Storage Period - Legal Basis Conditional"],
+          "temporal":
+            {
+                "desc": "Data Disclosed - Storage Period - Temporal",
+                "key": "temporal",
+                "description": "Description",
+                "ttl": "Time to Live"
+            },
+            "aggregationFunction": "Aggregation Function"
+        }],
+        "nonDisclosure": {
+            "desc": "Data Disclosed - Storage Period - Nondisclosure",
+            "key": "legalRequirement",
+            "legalRequirement": "Lega Requirement",
+            "contractualRegulation": "Contractual Regulation",
+            "obligationToProvide": "Obligation to provide",
+            "consequences": "Consequences"
+        }
     }],
   "thirdCountryTransfers": [
     {
       "desc": "Third Country Transfers - Target Country",
       "key": "country",
-      "country": "Target Country"
+      "country": "Target Country",
+      "adaquacyDecision": {
+          "desc": "Third Country Transfer - Adaquacy Decision",
+          "key": "available",
+          "available": "Available",
+          "description": "Desciription"
+      },
+      "appropriateGuarantees":
+      {
+        "desc": "Third Country Transfer - Appropiate Guarantees",
+        "key": "available",
+        "available": "Available",
+        "description": "Desciription"
+    },
+    "presenceOfEnforceableRightsAndEffectiveRemedies":
+      {
+        "desc": "Third Country Transfer - Presence of enforceable Rights and effective Remidies",
+        "key": "available",
+        "available": "Available",
+        "description": "Desciription"
+    },
+    "standardDataProtectionClause":
+      {
+        "desc": "Third Country Transfer - Standard Dataprotection Clause",
+        "key": "available",
+        "available": "Available",
+        "description": "Desciription"
+    }
     }],
+    "accessAndDataPortability": {
+        "desc": "Access and Data Portability",
+        "key": "available",
+        "available": "Available",
+        "description": "Description",
+        "url": "URL-Link",
+        "email": "E-Mail address",
+        "identificationEvidences":["Acess and Data Protability - Identification Evidences"],
+        "administrationFee":
+        {
+            "desc": "Administration Fee",
+            "key": "amount",
+            "amount": "Amount",
+            "currency": "Currency"
+        },
+        "dataFormats": ["Data Formats"]
+    },
+    "sources": [{
+        "desc": "Sources",
+        "key": "dataCategory",
+        "dataCategory": "Data Category",
+        "sources": [
+            {
+                "desc": "Sources",
+                "key": "description",
+                "descriotion": "Description",
+                "url": "URL-Link",
+                "publiclyAvaiable": "Publicly Available"
+            }
+        ]
+    }],
+    "rightToInformation": {
+        "desc": "Right to Information",
+        "key": "available",
+        "available": "Available",
+        "description": "Description",
+        "url": "URL-Link",
+        "email": "E-Mail address",
+        "identificationEvidences": ["Identification Evidences"]
+    },
+    "rightToRectificationOrDeletion": {
+        "desc": "Right to Information",
+        "key": "available",
+        "available": "Available",
+        "description": "Description",
+        "url": "URL-Link",
+        "email": "E-Mail address",
+        "identificationEvidences": ["Identification Evidences"]
+    },
+    "rightToDataPortability": {
+        "desc": "Right to Information",
+        "key": "available",
+        "available": "Available",
+        "description": "Description",
+        "url": "URL-Link",
+        "email": "E-Mail address",
+        "identificationEvidences": ["Identification Evidences"]
+    },
+    "rightToWithdrawConsent": {
+        "desc": "Right to Information",
+        "key": "available",
+        "available": "Available",
+        "description": "Description",
+        "url": "URL-Link",
+        "email": "E-Mail address",
+        "identificationEvidences": ["Identification Evidences"]
+    },
+    "rightToComplain": {
+        "desc": "Right to Information",
+        "key": "available",
+        "available": "Available",
+        "description": "Description",
+        "url": "URL-Link",
+        "email": "E-Mail address",
+        "identificationEvidences": ["Identification Evidences"],
+        "supervisorAuthority": {
+            "desc": "Supervisor Authority",
+            "key": "name",
+            "name": "Name",
+            "adress": "Adress",
+            "country": "Country",
+            "email": "E-Mail address",
+            "phone": "Phone"
+        }
+    },
   "automatedDecisionMaking": {
     "desc": "Automated Decision Making - Logic",
     "key": "logicInvolved",
     "logicInvolved": "Involved Logic"
-  }
+  },
+  "changesOfPurpose": [
+      {
+          "desc": "Changes of Purpose",
+          "key": "description",
+          "description": "Description",
+          "affectedDataCategories": ["Affected Data Categories"],
+          "plannedDateOfChange": "Planned Date of Change",
+          "urlofNewVersion": "URL of New Version"
+      }
+  ]
 }
+
