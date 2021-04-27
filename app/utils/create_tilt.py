@@ -1,16 +1,9 @@
+from config import Config
 from database.models import Task, Annotation
 from mongoengine import DoesNotExist
-import os
-import json
-
-# open tilt schema file
-cur_path = os.path.dirname(__file__)
-new_path = os.path.join(cur_path, '..', 'tilt_resources', 'schema.json')
-with open(new_path, 'r') as f:
-    schema = json.load(f)
 
 def iterate_through_hierarchy_level(parent_task, hierarchy):
-    local_schema = schema.copy()
+    local_schema = Config.SCHEMA_DICT.copy()
     label_limited = True
 
     # walk through schema using hierarchy
@@ -49,43 +42,19 @@ def iterate_through_hierarchy_level(parent_task, hierarchy):
                         except:
                             tilt_value_part[key] = Annotation.objects.get(task=task, label=val[0]).text
                 tilt_value.append(tilt_value_part)
-        else:
+        elif type(local_schema) is dict:
             # iterate through current schema hierarchy
-            if type(local_schema) is dict:
-                tilt_value_part = {}
-                for key, val in local_schema.items():
-                    annotations = Annotation.objects(task=parent_task, label=local_schema["desc"])
-                    if key in ['desc', 'key']:
-                        continue
-                    annotations_list = [anno.text for anno in annotations]
-                    tilt_value_part[key] = annotations_list
-                tilt_value.append(tilt_value_part)
-            else:
-                if local_schema == "dict":
-                    raise DoesNotExist
-                annotations = Annotation.objects(task=parent_task, label=local_schema)
-                tilt_value = [anno.text for anno in annotations]
-
-    # if not label_limited:
-    #     tilt_value = []
-    #     for task in tasks:
-    #         tilt_value_part = {}
-    #         # iterate through current schema hierarchy
-    #         for key, val in local_schema.items():
-    #             if type(val) in [dict, list]:
-    #                 new_hierarchy = hierarchy.copy()
-    #                 new_hierarchy.append(key)
-    #                 tilt_value_part[key] = iterate_through_hierarchy_level(task, new_hierarchy)
-    #             elif key in ['desc', 'key']:
-    #                 continue
-    #             else:
-    #                 try:
-    #                     tilt_value_part[key] = Annotation.objects.get(task=task, label=val).text
-    #                 except DoesNotExist:
-    #                     tilt_value_part[key] = None
-    #                 except:
-    #                     tilt_value_part[key] = Annotation.objects.get(task=task, label=val[0]).text
-    #         tilt_value.append(tilt_value_part)
+            tilt_value_part = {}
+            for key, val in local_schema.items():
+                annotations = Annotation.objects(task=parent_task, label=local_schema["desc"])
+                if key in ['desc', 'key']:
+                    continue
+                annotations_list = [anno.text for anno in annotations]
+                tilt_value_part[key] = annotations_list
+            tilt_value.append(tilt_value_part)
+        else:
+            annotations = Annotation.objects(task=parent_task, label=local_schema)
+            tilt_value = [anno.text for anno in annotations]
 
     # there is a limitation regarding cardinality
     else:
@@ -120,7 +89,7 @@ def create_tilt(id):
 
     # populate tilt dict according to tilt schema file
     tilt_dict = {}
-    for entry in schema.keys():
+    for entry in Config.SCHEMA_DICT.keys():
         tilt_value = iterate_through_hierarchy_level(root, [entry])
         tilt_dict[entry] = tilt_value
 

@@ -3,8 +3,8 @@ from flask import request
 from flask_restx import fields, Namespace, Resource
 from mongoengine import DoesNotExist
 from flask_babel import get_translations, get_locale
-from data_handling.data_handler import DataHandler
-from tilt_resources.tilt_creator import TiltCreator
+from utils.create_tilt import create_tilt
+
 import json
 import os
 
@@ -233,8 +233,8 @@ class AnnotationByTaskIdInJSON(Resource):
 
                 # since the entry is a dict, check if there is a new subtask to be created
                 # a new subtask is needed if the entry holds more than 3 values or holds another dict
-                if entry['desc'] == anno.label and \
-                        (len(entry.values()) > 3 or any(isinstance(val, dict) for val in entry.values())):
+                new_subtask_needed = len(entry.values()) > 3 or any(isinstance(val, dict) for val in entry.values())
+                if entry['desc'] == anno.label and new_subtask_needed:
                     # creation of new task is needed, gather labels, create new hierarchy list and determine new name
                     labels = []
                     desc_keys = []
@@ -294,12 +294,8 @@ class TiltDocumentCollection(Resource):
         :return: JSON tilt representation of all tasks
         """
         documents = []
-        tilt_creator = TiltCreator()
-        for task in Task.objects:
-            relevant_tasks = DataHandler.get_relevant_tasks(task)
-            annotations = DataHandler.get_relevant_annotations(relevant_tasks)
-            tilt_dict = tilt_creator.create_tilt_document(annotations)
-            documents.append(tilt_dict)
+        for task in Task.objects(parent=None):
+            documents.append(create_tilt(task.id))
         return documents, 200
 
 
@@ -313,11 +309,4 @@ class TiltDocumentByTaskId(Resource):
         :param id: unique id of the task
         :return: JSON tilt representation of all tasks
         """
-        from utils.create_tilt import create_tilt
         return create_tilt(id), 200
-        # tilt_creator = TiltCreator()
-        # task = Task.objects(id=id).get()
-        # relevant_tasks = DataHandler.get_relevant_tasks(task)
-        # annotations = DataHandler.get_relevant_annotations(relevant_tasks)
-        # tilt_dict = tilt_creator.create_tilt_document(annotations)
-        # return tilt_dict, 200
