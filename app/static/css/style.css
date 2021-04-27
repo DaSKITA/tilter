@@ -4,9 +4,50 @@
     font-weight: 300;
 }
 
-p {
-    font-size: 1.1em;
-    margin: 1em 0;
+nav.navbar {
+    background: rgba(0,0,0,0.78);
+    padding: 1em;
+}
+
+p.navbar-custom-text {
+    margin: auto;
+    display: inline-block;
+    color: white !important;
+}
+
+a.navbar-custom-btn {
+    margin-left: 0.2em;
+}
+
+div.navbar-custom-right {
+    text-align: center;
+}
+
+div.container {
+    margin-top: 2em;
+}
+
+h1.title {
+    margin-bottom: 0.5em;
+}
+
+h2.subtitle {
+    margin-bottom: 1.5em;
+}
+
+img.index-image {
+    margin-bottom: 1.25em;
+    width: inherit;
+}
+
+div.row {
+    justify-content: space-between;
+    margin: unset;
+}
+
+div.user-interface {
+    width: 50%;
+    margin: auto;
 }
 
 ul {
