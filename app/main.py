@@ -25,8 +25,8 @@ babel = Babel(app, default_locale='de')
 def get_locale():
     # TODO: this line causes a bug with flask user, the bug prevails after changing it back to return 'en'
     # does not happen in a container!
-    return request.accept_languages.best_match(app.config['LANGUAGES'])
-    # return "en"
+    # return request.accept_languages.best_match(app.config['LANGUAGES'])
+    return "en"
 
 # task render helper function
 def task_tree_to_dict(tasks):
@@ -122,7 +122,8 @@ def label(task_id):
 
     target_url = request.url_root + 'api/task/' + str(task_id) + '/annotation/json'
     redirect_url = request.base_url
-    colors = ['blue', 'red', 'yellow', 'green', 'orange', 'magenta', 'pink']
+    colors = ['blue', 'red', '#1CBA3D', '#13812A', 'orange', 'magenta', 'pink', 'brown', '#B986D4', '#8FA1E2', 'dimgrey',
+              '#0A4216', 'darksalmon']
     return render_template('label.html', task=task, target_url=target_url, annotations=annotations,
                            redirect_url=redirect_url, colors=colors, descriptions=descriptions)
 
