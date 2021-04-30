@@ -4,7 +4,7 @@
     "key": "name",
     "name": "Company Name",
     "country": "Country",
-    "adress": "Adress",
+    "address": "Address",
     "division": "Division",
     "representative": {
       "desc": "Representative - E-Mail",
@@ -106,29 +106,29 @@
       "desc": "Third Country Transfers - Target Country",
       "key": "country",
       "country": "Target Country",
-      "adaquacyDecision": {
-        "desc": "Third Country Transfer - Adaquacy Decision",
+      "adequacyDecision": {
+        "desc": "Third Country Transfer - Adequacy Decision",
         "key": "available",
         "available": "Available",
-        "description": "Desciription"
+        "description": "Description"
       },
       "appropriateGuarantees": {
         "desc": "Third Country Transfer - Appropiate Guarantees",
         "key": "available",
         "available": "Available",
-        "description": "Desciription"
+        "description": "Description"
       },
       "presenceOfEnforceableRightsAndEffectiveRemedies": {
-        "desc": "Third Country Transfer - Presence of enforceable Rights and effective Remidies",
+        "desc": "Third Country Transfer - Presence of enforceable Rights and effective Remedies",
         "key": "available",
         "available": "Available",
-        "description": "Desciription"
+        "description": "Description"
       },
       "standardDataProtectionClause": {
         "desc": "Third Country Transfer - Standard Dataprotection Clause",
         "key": "available",
         "available": "Available",
-        "description": "Desciription"
+        "description": "Description"
       }
     }
   ],
@@ -141,7 +141,7 @@
     "url": "URL-Link",
     "email": "E-Mail address",
     "identificationEvidences": [
-      "Acess and Data Protability - Identification Evidences"
+      "Access and Data Portability - Identification Evidences"
     ],
     "administrationFee": {
       "desc": "Administration Fee",
@@ -165,7 +165,7 @@
           "key": "description",
           "description": "Description",
           "url": "URL-Link",
-          "publiclyAvaiable": "Publicly Available"
+          "publiclyAvailable": "Publicly Available"
         }
       ]
     }
@@ -176,7 +176,7 @@
     "key": "available",
     "available": "Available",
     "description": "Description",
-    "url": "URL-Link",
+    "url": "URL",
     "email": "E-Mail address",
     "identificationEvidences": ["Identification Evidences"]
   },
@@ -186,7 +186,7 @@
     "key": "available",
     "available": "Available",
     "description": "Description",
-    "url": "URL-Link",
+    "url": "URL",
     "email": "E-Mail address",
     "identificationEvidences": ["Identification Evidences"]
   },
@@ -196,7 +196,7 @@
     "key": "available",
     "available": "Available",
     "description": "Description",
-    "url": "URL-Link",
+    "url": "URL",
     "email": "E-Mail address",
     "identificationEvidences": ["Identification Evidences"]
   },
@@ -206,7 +206,7 @@
     "key": "available",
     "available": "Available",
     "description": "Description",
-    "url": "URL-Link",
+    "url": "URL",
     "email": "E-Mail address",
     "identificationEvidences": ["Identification Evidences"]
   },
@@ -216,14 +216,14 @@
     "key": "available",
     "available": "Available",
     "description": "Description",
-    "url": "URL-Link",
+    "url": "URL",
     "email": "E-Mail address",
     "identificationEvidences": ["Identification Evidences"],
-    "supervisorAuthority": {
+    "supervisoryAuthority": {
       "desc": "Supervisor Authority",
       "key": "name",
       "name": "Name",
-      "adress": "Adress",
+      "address": "Adress",
       "country": "Country",
       "email": "E-Mail address",
       "phone": "Phone"
@@ -243,7 +243,7 @@
       "description": "Description",
       "affectedDataCategories": ["Affected Data Categories"],
       "plannedDateOfChange": "Planned Date of Change",
-      "urlofNewVersion": "URL of New Version"
+      "urlofNewVersion": "URL of new Version"
     }
   ]
 }
