@@ -1,9 +1,11 @@
+
 from database.models import Task, Annotation
 from flask import request
 from flask_restx import fields, Namespace, Resource
 from mongoengine import DoesNotExist
 from flask_babel import get_translations, get_locale
 from utils.create_tilt import create_tilt
+from utils.label import Label
 
 import json
 import os
@@ -63,9 +65,10 @@ class TaskCollection(Resource):
         # construct first-level labels from tilt schema
         for i in schema.keys():
             try:
-                labels.append((schema[i]["desc"], True))
-            except:
-                labels.append((schema[i][0]["desc"], False))
+                label = Label(name=schema[i]["desc"], multiple=True)
+            except TypeError:
+                label = Label(name=schema[i][0]["desc"], multiple=False)
+            labels.append(label.to_dict())
 
         name = request.json.get('name')
         text = request.json.get('text')
@@ -85,9 +88,9 @@ class TaskCollection(Resource):
                             html=html, text=text,
                             desc_keys=schema.keys())
                 task.save()
-                return task, 201
+                return task.name, 201
             else:
-                return task, 200
+                return task.name, 200
         else:
             return None, 400
 
@@ -245,12 +248,14 @@ class AnnotationByTaskIdInJSON(Resource):
                             val = val[0]
                             label_limited = False
                         if type(val) is dict:
-                            labels.append((val['desc'], label_limited))
+                            label = Label(name=val['desc'], multiple=label_limited)
+                            labels.append(label.to_dict())
                             desc_keys.append(key)
                         elif key in ['desc', 'key']:
                             continue
                         else:
-                            labels.append((val, label_limited))
+                            label = Label(name=val, multiple=label_limited)
+                            labels.append(label.to_dict())
                             desc_keys.append(key)
 
                     # copy the hierarchy list and append current hierarchical level

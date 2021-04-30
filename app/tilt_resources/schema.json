@@ -143,7 +143,7 @@
     "identificationEvidences": [
       "Access and Data Portability - Identification Evidences"
     ],
-    "administrationFee": {
+    "administrativeFee": {
       "desc": "Administration Fee",
       "key": "amount",
       "amount": "Amount",

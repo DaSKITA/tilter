@@ -2,6 +2,7 @@ from typing import Dict, List
 from config import Config
 import json
 from database.models import Task
+from utils.label import Label
 
 
 class DescriptonFinder:
@@ -32,7 +33,10 @@ class DescriptonFinder:
         if label_chain != [] and tilt_dict:
             label = label_chain.pop(0)
             tilt_entry = self._get_entry_from_tilt_desc_dict(label, tilt_dict)
-            description = self._find_description_by_label_chain(label_chain, tilt_entry)
+            if type(tilt_entry) != str:
+                description = self._find_description_by_label_chain(label_chain, tilt_entry)
+            else:
+                return tilt_entry
         else:
             description = tilt_dict["description"]
         return description
@@ -52,10 +56,13 @@ class DescriptonFinder:
         label_descriptions = {}
         for idx, desc_label in enumerate(task.desc_keys):
             label_chain = task.hierarchy + [desc_label]
-            label_descriptions[task.labels[idx][0]] = self._find_description_by_label_chain(
-                label_chain,
-                tilt_dict=self.tilt_descriptions
-                )
+            try:
+                label_descriptions[Label(**task.labels[idx]).name] = self._find_description_by_label_chain(
+                    label_chain,
+                    tilt_dict=self.tilt_descriptions
+                    )
+            except TypeError:
+                print("Gotcha!")
         return label_descriptions
 
     def _get_entry_from_tilt_desc_dict(self, label: str, tilt_dict: dict) -> str:
