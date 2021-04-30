@@ -56,13 +56,10 @@ class DescriptonFinder:
         label_descriptions = {}
         for idx, desc_label in enumerate(task.desc_keys):
             label_chain = task.hierarchy + [desc_label]
-            try:
-                label_descriptions[Label(**task.labels[idx]).name] = self._find_description_by_label_chain(
-                    label_chain,
-                    tilt_dict=self.tilt_descriptions
-                    )
-            except TypeError:
-                print("Gotcha!")
+            label_descriptions[Label(**task.labels[idx]).name] = self._find_description_by_label_chain(
+                label_chain,
+                tilt_dict=self.tilt_descriptions
+                )
         return label_descriptions
 
     def _get_entry_from_tilt_desc_dict(self, label: str, tilt_dict: dict) -> str:
