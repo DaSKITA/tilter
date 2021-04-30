@@ -55,12 +55,12 @@
       ],
       "recipients": [
         {
-          "desc": "Data Disclosed - Recipients",
-          "key": "name",
+          "desc": "Data Disclosed - Recipient Category",
+          "key": "category",
           "name": "Recipient Name",
           "country": "Recipient Country",
           "division": "Recipient Division",
-          "adress": "Adress",
+          "address": "Address",
           "representative": {
             "desc": "Data Disclosed - Recipients - Representative",
             "key": "name",
@@ -92,8 +92,8 @@
       ],
       "nonDisclosure": {
         "desc": "Data Disclosed - Storage Period - Nondisclosure",
-        "key": "legalRequirement",
-        "legalRequirement": "Lega Requirement",
+        "key": "consequences",
+        "legalRequirement": "Legal Requirement",
         "contractualRegulation": "Contractual Regulation",
         "obligationToProvide": "Obligation to provide",
         "consequences": "Consequences"
