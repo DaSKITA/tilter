@@ -28,7 +28,7 @@ def get_locale():
     # return request.accept_languages.best_match(app.config['LANGUAGES'])
     return "en"
 
-# task render helper function
+# .../tasks/ render helper function
 def task_tree_to_dict(tasks):
     task_tree_dict = {}
     for task in tasks:
@@ -55,7 +55,6 @@ def txt_escape(text):
 @app.route('/')
 def index():
     # String-based templates
-
     return render_template('index.html')
 
 

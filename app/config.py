@@ -12,7 +12,7 @@ class Config(object):
     USER_ENABLE_USERNAME = True  # Enable username authentication
     USER_REQUIRE_RETYPE_PASSWORD = False  # Simplify register form
     USER_ENABLE_CHANGE_USERNAME = False
-    USER_AFTER_LOGIN_ENDPOINT = 'member_page'
+    USER_AFTER_LOGIN_ENDPOINT = 'tasks'
 
     LANGUAGES = ['en', 'de']
 
