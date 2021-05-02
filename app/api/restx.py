@@ -1,8 +1,10 @@
+from config import Config
 from database.models import Task, Annotation
 from flask import request
 from flask_restx import fields, Namespace, Resource
 from mongoengine import DoesNotExist
 from flask_babel import get_translations, get_locale
+from utils.construct_first_level_labels import construct_first_level_labels
 from utils.create_tilt import create_tilt
 
 import json
@@ -52,20 +54,7 @@ class TaskCollection(Resource):
         Creates a new task and returns it.
         :return: newly created task
         """
-        labels = []
-
-        # open tilt schema file
-        cur_path = os.path.dirname(__file__)
-        new_path = os.path.join(cur_path, '..', 'tilt_resources', 'schema.json')
-        with open(new_path, 'r') as f:
-            schema = json.load(f)
-
-        # construct first-level labels from tilt schema
-        for i in schema.keys():
-            try:
-                labels.append((schema[i]["desc"], True))
-            except:
-                labels.append((schema[i][0]["desc"], False))
+        labels = construct_first_level_labels()
 
         name = request.json.get('name')
         text = request.json.get('text')
@@ -200,11 +189,8 @@ class AnnotationByTaskIdInJSON(Resource):
                 anno.delete()
 
         # create new tasks according to the tilt schema
-        # open tilt schema file
-        cur_path = os.path.dirname(__file__)
-        new_path = os.path.join(cur_path, '..', 'tilt_resources', 'schema.json')
-        with open(new_path, 'r') as f:
-            schema = json.load(f)
+        # load tilt schema file
+        schema = Config.SCHEMA_DICT.copy()
 
         # advance in tilt schema until reaching the hierarchy level of the current task
         for j in task.hierarchy:

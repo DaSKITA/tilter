@@ -7,6 +7,7 @@ from flask_babel import _, Babel, Domain, get_translations
 from flask_restx import Api
 from flask_user import login_required, UserManager
 from forms import CreateTaskForm
+from utils.construct_first_level_labels import construct_first_level_labels
 from utils.description_finder import DescriptonFinder
 
 
@@ -81,7 +82,8 @@ def create_task():
         return render_template('create_task.html', form=form)
     else:
         if form.validate_on_submit():
-            Task(name=form.name.data, labels=form.labels.data, hierarchy=[], parent=None,
+            labels = construct_first_level_labels()
+            Task(name=form.name.data, labels=labels, hierarchy=[], parent=None,
                  interfaces=[
                      "panel",
                      "update",
@@ -91,9 +93,9 @@ def create_task():
                  text=form.text.data,
                  html=form.html.data
                  ).save()
-            flash("Succesfully created Task " + form.name.data)
+            flash("Succesfully created Task " + form.name.data, 'success')
         else:
-            flash("Error in Validation of sent Form, please check")
+            flash("Error in Validation of sent Form, please check", 'error')
         return redirect('/tasks/create')
 
 

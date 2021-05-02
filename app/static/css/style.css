@@ -4,6 +4,11 @@
     font-weight: 300;
 }
 
+body {
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+}
+
 nav.navbar {
     background: rgba(0,0,0,0.78);
     padding: 1em;
@@ -78,7 +83,7 @@ ul li a.accordion-link {
 }
 
 ul li a:hover {
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(51, 51, 51, 0.78);
 }
 
 ul li div.toggle {
@@ -97,4 +102,22 @@ ul li div.toggle:hover {
 
 div.toggle-container {
     display: flex;
+}
+
+button.create-task {
+    background: rgba(95, 95, 95, 0.78);
+}
+
+button.create-task:hover {
+    background: rgba(51, 51, 51, 0.78);
+}
+
+div.return {
+    margin-bottom: 1em;
+}
+
+table.explanation {
+    width: 100%;
+    font-size: 0.9rem;
+    margin-bottom: 1em;
 }
