@@ -247,7 +247,8 @@ class AnnotationByTaskIdInJSON(Resource):
                     tmp_task = task
                     while tmp_task.parent is not None:
                         tmp_task = tmp_task.parent
-                    name = anno.label + ' - ' + tmp_task.name
+                    text = anno.text if len(anno.text) <= 20 else anno.text[:20] + '...'
+                    name = anno.label + ' (' + text + ')' + ' - ' + tmp_task.name
 
                     # create new task
                     new_task = Task(name=name, labels=labels,
