@@ -23,11 +23,13 @@
     <script>
         $(document).ready(function() {
             // hide task id text
-            $('.ls-task-info').css('display', 'none');
+            $('.ls-task-info').hide();
             // make update button float
             $('[class*="Controls_block"]').css({'position': 'fixed', 'bottom': '1em', 'right': '10vw'});
             // increase update button width
             $('.ls-update-btn').css('width', '200px')
+            // hide delete all labels button
+            $('div.ant-card-head-title').find('button.ant-btn-danger').hide()
 
 
             $('.toggle').click(function(e) {
