@@ -189,7 +189,7 @@ class AnnotationByTaskIdInJSON(Resource):
 
         # create new tasks according to the tilt schema
         # load tilt schema file
-        schema = Config.SCHEMA_DICT.copy()
+        schema = Config.SCHEMA_DICT
 
         # advance in tilt schema until reaching the hierarchy level of the current task
         for j in task.hierarchy:
