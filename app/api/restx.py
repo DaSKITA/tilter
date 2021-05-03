@@ -6,27 +6,25 @@ from mongoengine import DoesNotExist
 from flask_babel import get_translations, get_locale
 from utils.construct_first_level_labels import construct_first_level_labels
 from utils.create_tilt import create_tilt
-
-import json
-import os
+from utils.label import Label
 
 # API Namespace
 ns = Namespace("task", description="API Node for TILTer")
 
 # create models for marshalling
+label_fields = Label.for_marshalling()
 task_with_id = ns.model('Task', {
     'id': fields.String(required=True, description='Unique identifier of the task'),
     'name': fields.String(required=True, description='Name of the task'),
     'text': fields.String(required=True, description='Task text'),
     'html': fields.Boolean(description='HTML formatted task text'),
-    'labels': fields.List(description='Task labels', cls_or_instance=fields.String),
+    'labels': fields.List(description='Task labels', cls_or_instance=fields.Nested(label_fields)),
 })
 
-task_no_id = ns.model('Task', {
+task_no_id_or_label = ns.model('Task', {
     'name': fields.String(required=True, description='Name of the task'),
     'text': fields.String(required=True, description='Task text'),
     'html': fields.Boolean(description='HTML formatted task text'),
-    'labels': fields.List(description='Task labels', cls_or_instance=fields.String),
 })
 
 annotation = ns.model('Annotation', {
@@ -47,14 +45,15 @@ class TaskCollection(Resource):
         """
         return list(Task.objects)
 
-    @ns.expect(task_no_id)
+    @ns.expect(task_no_id_or_label)
     @ns.marshal_with(task_with_id)
     def post(self):
         """
         Creates a new task and returns it.
         :return: newly created task
         """
-        labels = construct_first_level_labels()
+        schema = Config.SCHEMA_DICT
+        labels = construct_first_level_labels(as_dict=True)
 
         name = request.json.get('name')
         text = request.json.get('text')
@@ -231,12 +230,14 @@ class AnnotationByTaskIdInJSON(Resource):
                             val = val[0]
                             label_limited = False
                         if type(val) is dict:
-                            labels.append((val['desc'], label_limited))
+                            label = Label(name=val['desc'], multiple=label_limited)
+                            labels.append(label.to_dict())
                             desc_keys.append(key)
                         elif key in ['desc', 'key']:
                             continue
                         else:
-                            labels.append((val, label_limited))
+                            label = Label(name=val, multiple=label_limited)
+                            labels.append(label.to_dict())
                             desc_keys.append(key)
 
                     # copy the hierarchy list and append current hierarchical level
