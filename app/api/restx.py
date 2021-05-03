@@ -14,12 +14,13 @@ import os
 ns = Namespace("task", description="API Node for TILTer")
 
 # create models for marshalling
+label_fields = Label.for_marshalling()
 task_with_id = ns.model('Task', {
     'id': fields.String(required=True, description='Unique identifier of the task'),
     'name': fields.String(required=True, description='Name of the task'),
     'text': fields.String(required=True, description='Task text'),
     'html': fields.Boolean(description='HTML formatted task text'),
-    'labels': fields.List(description='Task labels', cls_or_instance=fields.String),
+    'labels': fields.List(description='Task labels', cls_or_instance=fields.Nested(label_fields)),
 })
 
 task_no_id = ns.model('Task', {
@@ -88,9 +89,9 @@ class TaskCollection(Resource):
                             html=html, text=text,
                             desc_keys=schema.keys())
                 task.save()
-                return task.name, 201
+                return task, 201
             else:
-                return task.name, 200
+                return task, 200
         else:
             return None, 400
 

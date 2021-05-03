@@ -55,9 +55,9 @@
             <Labels name="ner" toName="text">
                 {% for label in task.labels %}
                     {% if label.multiple == True %}
-                    <Label value="{{ label.name }}" background="{{ colors[loop.index0] }}" maxUsages="1" />
-                    {% else %}
                     <Label value="{{ label.name }}" background="{{ colors[loop.index0] }}"/>
+                    {% else %}
+                    <Label value="{{ label.name }}" background="{{ colors[loop.index0] }}" maxUsages="1" />
                     {% endif %}
                 {% endfor %}
             </Labels>
