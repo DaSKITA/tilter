@@ -1,4 +1,3 @@
-
 from database.models import Task, Annotation
 from flask import request
 from flask_restx import fields, Namespace, Resource
@@ -23,11 +22,10 @@ task_with_id = ns.model('Task', {
     'labels': fields.List(description='Task labels', cls_or_instance=fields.Nested(label_fields)),
 })
 
-task_no_id = ns.model('Task', {
+task_no_id_or_label = ns.model('Task', {
     'name': fields.String(required=True, description='Name of the task'),
     'text': fields.String(required=True, description='Task text'),
     'html': fields.Boolean(description='HTML formatted task text'),
-    'labels': fields.List(description='Task labels', cls_or_instance=fields.String),
 })
 
 annotation = ns.model('Annotation', {
@@ -48,7 +46,7 @@ class TaskCollection(Resource):
         """
         return list(Task.objects)
 
-    @ns.expect(task_no_id)
+    @ns.expect(task_no_id_or_label)
     @ns.marshal_with(task_with_id)
     def post(self):
         """
