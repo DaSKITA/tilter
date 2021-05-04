@@ -1,9 +1,10 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h1>{% block title %} {{ _('Welcome to TILTer') }} {% endblock %}</h1>
-    <a href="{{ url_for("tasks") }}"><- {{ _('task overview') }}</a>
-    <h2>{{ _('Task Creation') }}</h2>
+    <h1 class="title">{% block title %} {{ _('Task Creation') }} {% endblock %}</h1>
+    <div class="return">
+        <a href="{{ url_for("tasks") }}"><- {{ _('task overview') }}</a>
+    </div>
     <form action="" method="post" novalidate>
         {{ form.hidden_tag() }}
         <p>
@@ -12,13 +13,9 @@
         </p>
         <p>
             {{ form.text.label }}<br>
-            {{ form.text() }}
-        </p>
-        <p>
-            {{ form.labels.label }}<br>
-            {{ form.labels() }}
+            {{ form.text(rows='10',cols='120') }}
         </p>
         <p>{{ form.html() }} {{ form.html.label }}</p>
-        <p>{{ form.submit() }}</p>
+        <p><input type=submit class='btn btn-primary btn-block'></p>
     </form>
 {% endblock %}

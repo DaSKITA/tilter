@@ -5,7 +5,7 @@ from flask_user import UserMixin
 # Model Entries
 class Task(db.Document):
     name = db.StringField(max_length=255)
-    labels = db.ListField()
+    labels = db.ListField(db.DictField())
     hierarchy = db.ListField()
     parent = db.ReferenceField('Task')
     interfaces = db.ListField()

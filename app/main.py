@@ -2,11 +2,12 @@ from api.restx import ns
 from config import Config
 from database.db import db
 from database.models import Task, User, Annotation
-from flask import Blueprint, flash, Flask, Markup, render_template, redirect, request
+from flask import Blueprint, flash, Flask, Markup, render_template, redirect, request, url_for
 from flask_babel import _, Babel, Domain, get_translations
 from flask_restx import Api
-from flask_user import login_required, UserManager
+from flask_user import current_user, login_required, UserManager
 from forms import CreateTaskForm
+from utils.construct_first_level_labels import construct_first_level_labels
 from utils.description_finder import DescriptonFinder
 
 
@@ -25,10 +26,10 @@ babel = Babel(app, default_locale='de')
 def get_locale():
     # TODO: this line causes a bug with flask user, the bug prevails after changing it back to return 'en'
     # does not happen in a container!
-    return request.accept_languages.best_match(app.config['LANGUAGES'])
-    # return "en"
+    # return request.accept_languages.best_match(app.config['LANGUAGES'])
+    return "en"
 
-# task render helper function
+# .../tasks/ render helper function
 def task_tree_to_dict(tasks):
     task_tree_dict = {}
     for task in tasks:
@@ -55,15 +56,10 @@ def txt_escape(text):
 @app.route('/')
 def index():
     # String-based templates
-
-    return render_template('index.html')
-
-
-@app.route('/members')
-@login_required
-def member_page():
-    # String-based templates
-    return render_template('member_page.html')
+    if current_user.is_authenticated:
+        return redirect(url_for('tasks'))
+    else:
+        return render_template('index.html')
 
 
 @app.route('/tasks')
@@ -82,7 +78,8 @@ def create_task():
         return render_template('create_task.html', form=form)
     else:
         if form.validate_on_submit():
-            Task(name=form.name.data, labels=form.labels.data, hierarchy=[], parent=None,
+            labels = construct_first_level_labels()
+            Task(name=form.name.data, labels=labels, hierarchy=[], parent=None,
                  interfaces=[
                      "panel",
                      "update",
@@ -92,9 +89,9 @@ def create_task():
                  text=form.text.data,
                  html=form.html.data
                  ).save()
-            flash("Succesfully created Task " + form.name.data)
+            flash("Succesfully created Task " + form.name.data, 'success')
         else:
-            flash("Error in Validation of sent Form, please check")
+            flash("Error in Validation of sent Form, please check", 'error')
         return redirect('/tasks/create')
 
 
@@ -117,12 +114,13 @@ def label(task_id):
     # translate labels
     if get_locale() != "en":
         cache = get_translations()
-        labels = [cache._catalog[label] for label in task.labels]
+        labels = [(cache._catalog[label[0]], label[1]) for label in task.labels]
         task.labels = labels
 
     target_url = request.url_root + 'api/task/' + str(task_id) + '/annotation/json'
     redirect_url = request.base_url
-    colors = ['blue', 'red', 'yellow', 'green', 'orange', 'magenta', 'pink']
+    colors = ['blue', 'red', '#1CBA3D', '#13812A', 'orange', 'magenta', 'pink', 'brown', '#B986D4', '#8FA1E2', 'dimgrey',
+              '#0A4216', 'darksalmon']
     return render_template('label.html', task=task, target_url=target_url, annotations=annotations,
                            redirect_url=redirect_url, colors=colors, descriptions=descriptions)
 

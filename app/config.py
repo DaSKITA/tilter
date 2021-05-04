@@ -3,7 +3,6 @@ import os
 from pathlib import Path
 import json
 
-
 # Flask Config from Class
 class Config(object):
 
@@ -13,18 +12,19 @@ class Config(object):
     USER_ENABLE_USERNAME = True  # Enable username authentication
     USER_REQUIRE_RETYPE_PASSWORD = False  # Simplify register form
     USER_ENABLE_CHANGE_USERNAME = False
-    USER_AFTER_LOGIN_ENDPOINT = 'member_page'
+    USER_AFTER_LOGIN_ENDPOINT = 'tasks'
 
     LANGUAGES = ['en', 'de']
 
     BASE_PATH = os.path.abspath(os.path.dirname(__file__))
     ROOT_PATH = Path(BASE_PATH).parent
-    TEST_PATH = os.path.join(ROOT_PATH, "test")
-    TILT_PATH = os.path.join(BASE_PATH, "tilt_resources/tilt_desc_mapping.json")
-    DESC_PATH = os.path.join(BASE_PATH, "tilt_resources/tilt_desc.json")
 
-    with open(TILT_PATH, "r") as json_file:
-        TILT_DICT = json.load(json_file)
+    TEST_PATH = os.path.join(ROOT_PATH, "test")
+    DESC_PATH = os.path.join(BASE_PATH, "tilt_resources/tilt_desc.json")
+    SCHEMA_PATH = os.path.join(BASE_PATH, "tilt_resources/schema.json")
+
+    with open(SCHEMA_PATH, 'r') as json_file:
+        SCHEMA_DICT = json.load(json_file)
 
     # Secrets
     if not os.environ.get("DEPLOYMENT", None):

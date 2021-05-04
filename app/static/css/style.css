@@ -4,9 +4,55 @@
     font-weight: 300;
 }
 
-p {
-    font-size: 1.1em;
-    margin: 1em 0;
+body {
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+}
+
+nav.navbar {
+    background: rgba(0,0,0,0.78);
+    padding: 1em;
+}
+
+p.navbar-custom-text {
+    margin: auto;
+    display: inline-block;
+    color: white !important;
+}
+
+a.navbar-custom-btn {
+    margin-left: 0.2em;
+}
+
+div.navbar-custom-right {
+    text-align: center;
+}
+
+div.container {
+    margin-top: 2em;
+}
+
+h1.title {
+    margin-bottom: 0.5em;
+}
+
+h2.subtitle {
+    margin-bottom: 1.5em;
+}
+
+img.index-image {
+    margin-bottom: 1.25em;
+    width: inherit;
+}
+
+div.row {
+    justify-content: space-between;
+    margin: unset;
+}
+
+div.user-interface {
+    width: 50%;
+    margin: auto;
 }
 
 ul {
@@ -25,9 +71,9 @@ ul li {
 }
 
 ul li a.accordion-link {
-	width: 10%;
+	width: 5em;
 	display: block;
-    background: rgba(0, 0, 0, 0.78);
+    background: rgba(95, 95, 95, 0.78);
     color: #fefefe;
     padding: .75em;
     border-radius: 0 0.15em 0.15em 0;
@@ -37,11 +83,11 @@ ul li a.accordion-link {
 }
 
 ul li a:hover {
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(51, 51, 51, 0.78);
 }
 
 ul li div.toggle {
-    width: 90%;
+    width: -webkit-fill-available;
     display: block;
     background: rgba(0, 0, 0, 0.78);
     color: #fefefe;
@@ -54,6 +100,32 @@ ul li div.toggle:hover {
     background: rgba(0, 0, 0, 0.9);
 }
 
+i.placeholder {
+    margin-left: 10px;
+}
+
+ul li i {
+    margin-right: 0.5em;
+}
+
 div.toggle-container {
     display: flex;
+}
+
+button.create-task {
+    background: rgba(95, 95, 95, 0.78);
+}
+
+button.create-task:hover {
+    background: rgba(51, 51, 51, 0.78);
+}
+
+div.return {
+    margin-bottom: 1em;
+}
+
+table.explanation {
+    width: 100%;
+    font-size: 0.9rem;
+    margin-bottom: 1em;
 }

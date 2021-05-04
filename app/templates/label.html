@@ -6,12 +6,12 @@
 
     <h1>{% block title %} {{ _('Welcome to TILTer') }} {% endblock %}</h1>
     <h2>{{ _('Task') }} "{{ task.name }}"</h2>
-    <a href="{{ url_for("tasks") }}"><- {{ _('task overview') }}</a>
-    <br><br>
-
+    <div class="return">
+        <a href="{{ url_for("tasks") }}"><- {{ _('task overview') }}</a>
+    </div>
+    {% if descriptions %}
     <div>
-
-        <table style="width:100%">
+        <table class="explanation">
             <tr>
                 <th><b>Annotation</b></th>
                 <th><b>Description</b></th>
@@ -24,6 +24,7 @@
             {% endfor %}
           </table>
     </div>
+    {% endif %}
 
     <!-- Create the Label Studio container -->
     <div id="label-studio"></div>
@@ -55,7 +56,11 @@
                     background: white; top: 0">
             <Labels name="ner" toName="text">
                 {% for label in task.labels %}
-                    <Label value="{{ label }}" background="{{ colors[loop.index - 1] }}"/>
+                    {% if label.multiple == True %}
+                    <Label value="{{ label.name }}" background="{{ colors[loop.index0] }}"/>
+                    {% else %}
+                    <Label value="{{ label.name }}" background="{{ colors[loop.index0] }}" maxUsages="1" />
+                    {% endif %}
                 {% endfor %}
             </Labels>
         </View>
