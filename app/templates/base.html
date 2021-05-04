@@ -71,14 +71,13 @@
 </head>
 <body>
 <nav class="navbar navbar-dark justify-content-between">
+        <a class="navbar-brand" href="{{ url_for('index') }}">TILTer</a>
     {% if current_user.is_authenticated %}
-        <a class="navbar-brand" href="{{ url_for('tasks') }}">TILTer</a>
         <div class="navbar-custom-right">
             <p class="navbar-custom-text">{{ current_user.username }}</p>
             <a href="{{ url_for('user.logout') }}" class="btn btn-danger navbar-custom-btn">{{ _('Sign out') }}</a>
         </div>
     {% else %}
-        <a class="navbar-brand" href="{{ url_for('index') }}">TILTer</a>
         <div class="navbar-custom-right">
             <a href="{{ url_for('user.login') }}" class="btn btn-primary navbar-custom-btn">{{ _('Sign in') }}</a>
             <a href="{{ url_for('user.register') }}" class="btn btn-primary navbar-custom-btn">{{ _('Register') }}</a>

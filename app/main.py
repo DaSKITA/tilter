@@ -2,10 +2,10 @@ from api.restx import ns
 from config import Config
 from database.db import db
 from database.models import Task, User, Annotation
-from flask import Blueprint, flash, Flask, Markup, render_template, redirect, request
+from flask import Blueprint, flash, Flask, Markup, render_template, redirect, request, url_for
 from flask_babel import _, Babel, Domain, get_translations
 from flask_restx import Api
-from flask_user import login_required, UserManager
+from flask_user import current_user, login_required, UserManager
 from forms import CreateTaskForm
 from utils.construct_first_level_labels import construct_first_level_labels
 from utils.description_finder import DescriptonFinder
@@ -56,14 +56,10 @@ def txt_escape(text):
 @app.route('/')
 def index():
     # String-based templates
-    return render_template('index.html')
-
-
-@app.route('/members')
-@login_required
-def member_page():
-    # String-based templates
-    return render_template('member_page.html')
+    if current_user.is_authenticated:
+        return redirect(url_for('tasks'))
+    else:
+        return render_template('index.html')
 
 
 @app.route('/tasks')
