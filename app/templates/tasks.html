@@ -3,7 +3,7 @@
 {% block content %}
     <h1 class="title">{% block title %} {{ _('Task Overview') }} {% endblock %}</h1>
     {% if tasks %}
-        <h2 class="subtitle">{{ _('These are your Tasks!') }}</h2>
+        <!--h2 class="subtitle">{{ _('These are your tasks!') }}</h2-->
         <ul class="accordion">
         {% for task, subtasks in tasks.items() recursive %}
           <li>
@@ -20,7 +20,7 @@
         </ul>
     {% else %}
         <br><br>
-        <h2 class="subtitle">{{ _('You currently have no tasks!') }}</h2>
+        <h2 class="subtitle">{{ _('You currently have no tasks! Maybe create one?') }}</h2>
     {% endif%}
-    <button onclick="location.href='{{ url_for("create_task") }}'" type="button" class="btn btn-secondary btn-lg btn-block create-task">{{ _('Create a new Task') }}</button>
+    <button onclick="location.href='{{ url_for("create_task") }}'" type="button" class="btn btn-secondary btn-lg create-task"><i class="bi bi-file-plus-fill"></i> {{ _('Create new task') }}</button>
 {% endblock %}
