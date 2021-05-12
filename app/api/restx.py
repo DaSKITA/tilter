@@ -8,6 +8,8 @@ from utils.construct_first_level_labels import construct_first_level_labels
 from utils.create_tilt import create_tilt
 from utils.label import Label
 
+from tilt_resources.meta import Meta
+
 # API Namespace
 ns = Namespace("task", description="API Node for TILTer")
 
@@ -58,6 +60,8 @@ class TaskCollection(Resource):
         name = request.json.get('name')
         text = request.json.get('text')
         html = request.json.get('html')
+        url = request.json.get('url')
+
         if name != '' and text != '':
             try:
                 task = Task.objects.get(name=name, labels=labels, hierarchy=[], parent=None, html=html,
@@ -73,6 +77,8 @@ class TaskCollection(Resource):
                             html=html, text=text,
                             desc_keys=schema.keys())
                 task.save()
+                meta = Meta(name=name, url=url, root_task=task)
+                meta.save()
                 return task, 201
             else:
                 return task, 200

@@ -1,6 +1,8 @@
 from config import Config
-from database.models import Task, Annotation
+from database.models import Task, Annotation, MetaTask
 from mongoengine import DoesNotExist
+from tilt_resources.meta import Meta
+
 
 def iterate_through_hierarchy_level(parent_task, hierarchy):
     local_schema = Config.SCHEMA_DICT.copy()
@@ -92,5 +94,12 @@ def create_tilt(id):
     for entry in Config.SCHEMA_DICT.keys():
         tilt_value = iterate_through_hierarchy_level(root, [entry])
         tilt_dict[entry] = tilt_value
+
+    # Create Meta Object
+    meta_document_obj = MetaTask.objects.get(root_task=root)
+    meta_entry = Meta.from_db_document(meta_document_obj)
+    meta_entry.generate_hash_entry(tilt_dict)
+    tilt_dict["meta"] = meta_entry.to_tilt_dict_meta()
+    # TODO: ordered dict to put it on the first position?
 
     return tilt_dict
