@@ -4,7 +4,7 @@ from flask import request
 from flask_restx import fields, Namespace, Resource
 from mongoengine import DoesNotExist
 from flask_babel import get_translations, get_locale
-from utils.construct_first_level_labels import construct_first_level_labels
+from utils.schema_tools import construct_first_level_labels, new_subtask_needed
 from utils.create_tilt import create_tilt
 from utils.label import Label
 
@@ -217,9 +217,8 @@ class AnnotationByTaskIdInJSON(Resource):
                     continue
 
                 # since the entry is a dict, check if there is a new subtask to be created
-                # a new subtask is needed if the entry holds more than 3 values or holds another dict
-                new_subtask_needed = len(entry.values()) > 3 or any(isinstance(val, dict) for val in entry.values())
-                if entry['desc'] == anno.label and new_subtask_needed:
+                # a new subtask is needed if the entry holds more than 1 non-artifical value or holds another dict
+                if entry['_desc'] == anno.label and new_subtask_needed(entry):
                     # creation of new task is needed, gather labels, create new hierarchy list and determine new name
                     labels = []
                     desc_keys = []
@@ -229,12 +228,15 @@ class AnnotationByTaskIdInJSON(Resource):
                         if type(val) is list:
                             val = val[0]
                             label_limited = False
+                        # if the entry is a dict, save a label using the entry's _desc field
                         if type(val) is dict:
-                            label = Label(name=val['desc'], multiple=label_limited)
+                            label = Label(name=val['_desc'], multiple=label_limited)
                             labels.append(label.to_dict())
                             desc_keys.append(key)
-                        elif key in ['desc', 'key']:
+                        # if the key is a boolean or an artificial field, skip it
+                        elif key[0] in ['_', '~']:
                             continue
+                        # the entry is a simple string
                         else:
                             label = Label(name=val, multiple=label_limited)
                             labels.append(label.to_dict())
@@ -265,7 +267,7 @@ class AnnotationByTaskIdInJSON(Resource):
                                     desc_keys=desc_keys)
                     new_task.save()
 
-                    new_task_anno_label = entry[entry['key']] if type(entry[entry['key']]) is not list else entry[entry['key']][0]
+                    new_task_anno_label = entry[entry['_key']] if type(entry[entry['_key']]) is not list else entry[entry['_key']][0]
                     # create annotation for new task
                     new_task_anno = Annotation(task=new_task, label=new_task_anno_label, text=anno.text,
                                                start=anno.start, end=anno.end)

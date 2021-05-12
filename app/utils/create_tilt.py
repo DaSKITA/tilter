@@ -2,6 +2,9 @@ from config import Config
 from database.models import Task, Annotation
 from mongoengine import DoesNotExist
 
+def create_tilt_meta(root):
+    return root.meta.asdict()
+
 def iterate_through_hierarchy_level(parent_task, hierarchy):
     local_schema = Config.SCHEMA_DICT.copy()
     label_limited = True
@@ -32,7 +35,7 @@ def iterate_through_hierarchy_level(parent_task, hierarchy):
                         new_hierarchy = hierarchy.copy()
                         new_hierarchy.append(key)
                         tilt_value_part[key] = iterate_through_hierarchy_level(task, new_hierarchy)
-                    elif key in ['desc', 'key']:
+                    elif key in ['_desc', '_key']:
                         continue
                     else:
                         try:
@@ -46,8 +49,8 @@ def iterate_through_hierarchy_level(parent_task, hierarchy):
             # iterate through current schema hierarchy
             tilt_value_part = {}
             for key, val in local_schema.items():
-                annotations = Annotation.objects(task=parent_task, label=local_schema["desc"])
-                if key in ['desc', 'key']:
+                annotations = Annotation.objects(task=parent_task, label=local_schema["_desc"])
+                if key in ['_desc', '_key']:
                     continue
                 annotations_list = [anno.text for anno in annotations]
                 tilt_value_part[key] = annotations_list
@@ -65,14 +68,14 @@ def iterate_through_hierarchy_level(parent_task, hierarchy):
                 new_hierarchy = hierarchy.copy()
                 new_hierarchy.append(key)
                 tilt_value[key] = iterate_through_hierarchy_level(child_task, new_hierarchy)
-            elif key in ['desc', 'key']:
+            elif key in ['_desc', '_key']:
                 continue
             else:
                 try:
                     tilt_value[key] = Annotation.objects.get(task=child_task, label=val).text
                 except DoesNotExist:
                     try:
-                        tilt_value[key] = Annotation.objects.get(task=parent_task, label=local_schema["desc"]).text
+                        tilt_value[key] = Annotation.objects.get(task=parent_task, label=local_schema["_desc"]).text
                     except DoesNotExist:
                         tilt_value[key] = None
                 except:
@@ -92,5 +95,7 @@ def create_tilt(id):
     for entry in Config.SCHEMA_DICT.keys():
         tilt_value = iterate_through_hierarchy_level(root, [entry])
         tilt_dict[entry] = tilt_value
+
+    # tilt_dict['meta'] = create_tilt_meta(root)
 
     return tilt_dict
