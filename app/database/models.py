@@ -36,16 +36,3 @@ class Annotation(db.Document):
     label = db.StringField(required=True)
     task = db.ReferenceField('Task', required=True)
     related_to = db.ReferenceField('Annotation')
-
-
-class MetaTask(db.Document):
-    _id = db.StringField(required=True)
-    name = db.StringField(required=True)
-    created = db.StringField(required=True)
-    modified = db.StringField(required=True)
-    version = db.StringField(required=True)
-    language = db.StringField(required=True)
-    status = db.StringField(required=True)
-    url = db.StringField(required=True)
-    root_task = db.ReferenceField('Task', required=True)
-    _hash = db.StringField(required=False)
