@@ -3,10 +3,10 @@ from database.models import Task, Annotation
 from flask import request
 from flask_restx import fields, Namespace, Resource
 from mongoengine import DoesNotExist
-from flask_babel import get_translations, get_locale
 from utils.schema_tools import construct_first_level_labels, new_subtask_needed
 from utils.create_tilt import create_tilt
 from utils.label import Label
+from utils.translator import Translator
 
 # API Namespace
 ns = Namespace("task", description="API Node for TILTer")
@@ -150,6 +150,7 @@ class AnnotationByTaskIdInJSON(Resource):
         :param id: unique id of the task
         :return: newly created annotation
         """
+        translator = Translator()
         # get the task and posted annotations
         task = Task.objects.get(id=id)
         data = request.json
@@ -157,17 +158,12 @@ class AnnotationByTaskIdInJSON(Resource):
         new_annotations = []
 
         # prepare reverse translations, if the client is using another language but english
-        translation_dict = None
-        if get_locale() != "en":
-            cache = get_translations()
-            translation_dict = {value: key for key, value in cache._catalog.items()}
 
         # iterate through all posted annotations and create new annotation objects
         for content in data.values():
             # get the label and translate it back if necessary
             label = content['results'][0]['value']['labels'][0]
-            if translation_dict:
-                label = translation_dict[label]
+            label = translator.translate_reverse(label)
             start = content['start']
             end = content['end']
             text = content['text']

@@ -3,12 +3,13 @@ from config import Config
 from database.db import db
 from database.models import Task, User, Annotation
 from flask import Blueprint, flash, Flask, Markup, render_template, redirect, request, url_for
-from flask_babel import _, Babel, Domain, get_translations
+from flask_babel import _, Babel, Domain
 from flask_restx import Api
 from flask_user import current_user, login_required, UserManager
 from forms import CreateTaskForm
-from utils.construct_first_level_labels import construct_first_level_labels
+from utils.schema_tools import construct_first_level_labels
 from utils.description_finder import DescriptonFinder
+from utils.translator import Translator
 
 
 # Initialize Flask App
@@ -28,6 +29,7 @@ def get_locale():
     # does not happen in a container!
     # return request.accept_languages.best_match(app.config['LANGUAGES'])
     return "en"
+
 
 # .../tasks/ render helper function
 def task_tree_to_dict(tasks):
@@ -98,6 +100,7 @@ def create_task():
 @app.route('/tasks/<string:task_id>')
 @login_required
 def label(task_id):
+    translator = Translator()
     update_success = request.args.get('success', default=None)
     if update_success:
         flash(_("Annotations updated successfully!"), 'success')
@@ -112,10 +115,7 @@ def label(task_id):
     descriptions = description_finder.find_descriptions(task)
 
     # translate labels
-    if get_locale() != "en":
-        cache = get_translations()
-        labels = [(cache._catalog[label[0]], label[1]) for label in task.labels]
-        task.labels = labels
+    task.labels = [translator.translate(label) for label in task.labels]
 
     target_url = request.url_root + 'api/task/' + str(task_id) + '/annotation/json'
     redirect_url = request.base_url
