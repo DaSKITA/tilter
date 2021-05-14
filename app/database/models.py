@@ -1,6 +1,5 @@
 from database.db import db
 from flask_user import UserMixin
-from datetime import datetime as dt
 
 
 # Model Entries
