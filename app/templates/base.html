@@ -25,6 +25,8 @@
 
     <!-- Font Awesome for icons -->
     <script src="https://kit.fontawesome.com/4811785e1a.js" crossorigin="anonymous"></script>
+    <!-- and Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
 
     <!-- Project CSS -->
     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/style.css') }}">
@@ -82,8 +84,8 @@
         </div>
     {% else %}
         <div class="navbar-custom-right">
-            <a href="{{ url_for('user.login') }}" class="btn btn-primary navbar-custom-btn">{{ _('Sign in') }}</a>
-            <a href="{{ url_for('user.register') }}" class="btn btn-primary navbar-custom-btn">{{ _('Register') }}</a>
+            <a href="{{ url_for('user.login') }}" class="btn btn-primary navbar-custom-btn"><i class="bi bi-box-arrow-in-right"></i> {{ _('Sign in') }}</a>
+            <a href="{{ url_for('user.register') }}" class="btn btn-primary navbar-custom-btn"><i class="bi bi-person-plus-fill"></i> {{ _('Register') }}</a>
         </div>
     {% endif %}
 </nav>

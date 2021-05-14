@@ -4,10 +4,19 @@
     <!-- Include Label Studio stylesheet -->
     <link href="https://unpkg.com/label-studio@0.8.0/build/static/css/main.css" rel="stylesheet">
 
+    <!-- quick hack to make update button look bigger -->
+    <style type="text/css">
+        .ls-update-btn {
+            width: 250px !important;
+            height: 75px !important;
+            font-size: 150% !important;
+        }
+    </style>
+
     <h1>{% block title %} {{ _('Welcome to TILTer') }} {% endblock %}</h1>
     <h2>{{ _('Task') }} "{{ task.name }}"</h2>
     <div class="return">
-        <a href="{{ url_for("tasks") }}"><- {{ _('task overview') }}</a>
+        <a href="{{ url_for('tasks') }}"><- {{ _('task overview') }}</a>
     </div>
     {% if descriptions %}
     <div>
