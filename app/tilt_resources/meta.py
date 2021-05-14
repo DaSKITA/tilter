@@ -2,6 +2,7 @@ import uuid
 from datetime import datetime
 import hashlib
 import json
+from typing import Dict
 
 from database.models import MetaTask
 
@@ -34,7 +35,7 @@ class Meta:
         self.root_task = root_task if root_task else None
 
     @classmethod
-    def from_db_document(cls, db_document):
+    def from_db_document(cls, db_document) -> 'Meta':
         """Use this method to create a Metadata class for the tilt document.
         A 'MetaTask' Object needs to be used to Instantiate this class from this
         class method. No Database Object is created with this metod.
@@ -68,7 +69,7 @@ class Meta:
             self._hash = new_hash
             print("Hash Value has been written into Metadata Object.")
 
-    def to_tilt_dict_meta(self):
+    def to_tilt_dict_meta(self) -> Dict:
         tilt_dict_meta = {
             "_id": self._id,
             "name": self.name,
