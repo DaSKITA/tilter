@@ -27,7 +27,7 @@ def main(directory: str = None):
             textfile.close()
 
             data = {"name": file_name[:-4], "text": text, "html": False,
-                    'url': file_path}
+                    'url': file_path, "language": "de"}
 
             _ = requests.post('http://localhost:5000/api/task/', headers=headers, data=json.dumps(data))
             file_count += 1

@@ -61,6 +61,7 @@ class TaskCollection(Resource):
         text = request.json.get('text')
         html = request.json.get('html')
         url = request.json.get('url')
+        language = request.json.get("language")
 
         if name != '' and text != '':
             try:
@@ -77,7 +78,7 @@ class TaskCollection(Resource):
                             html=html, text=text,
                             desc_keys=schema.keys())
                 task.save()
-                meta = Meta(name=name, url=url, root_task=task)
+                meta = Meta(name=name, url=url, root_task=task, language=language)
                 meta.save()
                 return task, 201
             else:
