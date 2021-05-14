@@ -2,6 +2,7 @@ from config import Config
 from database.models import Task, Annotation, MetaTask
 from mongoengine import DoesNotExist
 from tilt_resources.meta import Meta
+from collections import OrderedDict
 
 
 def iterate_through_hierarchy_level(parent_task, hierarchy):
@@ -99,7 +100,14 @@ def create_tilt(id):
     meta_document_obj = MetaTask.objects.get(root_task=root)
     meta_entry = Meta.from_db_document(meta_document_obj)
     meta_entry.generate_hash_entry(tilt_dict)
-    tilt_dict["meta"] = meta_entry.to_tilt_dict_meta()
-    # TODO: ordered dict to put it on the first position?
+
+    # update hash for modified
+    meta_document_obj._hash = meta_entry._hash
+    meta_document_obj.save()
+
+    # put meta first
+    meta_entry = list(meta_entry.to_tilt_dict_meta().items())
+    meta_entry.extend(tilt_dict.items())
+    tilt_dict = dict(meta_entry)
 
     return tilt_dict

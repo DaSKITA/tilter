@@ -43,7 +43,7 @@ class MetaTask(db.Document):
     name = db.StringField(required=True)
     created = db.StringField(required=True)
     modified = db.StringField(required=True)
-    version = db.StringField(required=True)
+    version = db.IntField(required=True)
     language = db.StringField(required=True)
     status = db.StringField(required=True)
     url = db.StringField(required=True)
