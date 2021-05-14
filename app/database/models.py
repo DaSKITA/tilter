@@ -13,15 +13,6 @@ class Task(db.Document):
     text = db.StringField()
     html = db.BooleanField()
     desc_keys = db.ListField()
-    modified_at = db.DateTimeField(default=dt.now)
-
-    def save(self, *args, **kwargs):
-        self.modified_at = dt.now()
-        return super(Task, self).save(*args, **kwargs)
-
-    @property
-    def created_at(self):
-        return self.id.generation_time if self.id else None
 
 
 class User(db.Document, UserMixin):
