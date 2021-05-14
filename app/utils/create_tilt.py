@@ -2,7 +2,6 @@ from config import Config
 from database.models import Task, Annotation, MetaTask
 from mongoengine import DoesNotExist
 from tilt_resources.meta import Meta
-from collections import OrderedDict
 
 
 def iterate_through_hierarchy_level(parent_task, hierarchy):
