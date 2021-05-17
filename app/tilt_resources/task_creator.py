@@ -74,6 +74,7 @@ class TaskCreator:
         Returns:
             Tuple[List, List]: [description]
         """
+        # TODO: move descriptions keys into labels
         labels = []
         desc_keys = []
         for dict_key, dict_value in dict_entry.items():
@@ -88,9 +89,9 @@ class TaskCreator:
                     label = ManualBoolLabel(name=dict_key, manual_bool_entry=dict_value)
             else:
                 label = self._create_annotation_label(dict_value)
+                desc_keys.append(dict_key)
             if label:
                 labels.append(label)
-                desc_keys.append(dict_key)
         return labels, desc_keys
 
     def _subtasks_needed(self, schema_value, annotation):

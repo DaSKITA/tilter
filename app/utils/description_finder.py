@@ -41,7 +41,11 @@ class DescriptonFinder:
             else:
                 return tilt_entry
         else:
-            description = tilt_dict["description"]
+            try:
+                description = tilt_dict["description"]
+            except KeyError:
+                print(Warning(f"Could not find description key in {tilt_dict}"))
+                description = "No description found!"
         return description
 
     def find_descriptions(self, task: 'Task') -> Dict[str, str]:
