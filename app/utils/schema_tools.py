@@ -15,9 +15,9 @@ def construct_first_level_labels(as_dict: bool = None):
     # construct first-level labels from tilt schema
     for i in schema.keys():
         try:
-            label = AnnotationLabel(name=schema[i]["_desc"], multiple=True)
+            label = AnnotationLabel(name=schema[i]["_desc"], multiple=False)
         except TypeError:
-            label = AnnotationLabel(name=schema[i][0]["_desc"], multiple=False)
+            label = AnnotationLabel(name=schema[i][0]["_desc"], multiple=True)
         if as_dict:
             label = label.to_dict()
         labels.append(label)

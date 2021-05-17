@@ -92,3 +92,4 @@ class AnnotationHandler:
         for anno in Annotation.objects(task=task):
             if anno.id not in current_annotation_list:
                 self.delete(anno)
+            # TODO: set annotations automatically which are linked

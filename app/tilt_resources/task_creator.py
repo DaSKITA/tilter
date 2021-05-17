@@ -3,7 +3,7 @@ from collections import defaultdict
 
 from database.models import Task, Annotation
 from config import Config
-from utils.label import AnnotationLabel, ManualBoolLabel, LinkedBoolLabel, IdLabel, Label
+from utils.label import AnnotationLabel, ManualBoolLabel, LinkedBoolLabel, IdLabel, Label, LabelEnum
 
 
 class TaskCreator:
@@ -25,9 +25,9 @@ class TaskCreator:
 
     def create_subtasks(self, annotations: List[Annotation]):
         """Basic Subtask Creation.
-        Once an Annotation meets condition a new subtask with corresponding annotations is created.
+        Once an Annotation meets condition a new subtask with corresponding labels is created.
         Depending on the entries in the schema of the created task, the Labels vary in classes.
-        Depending on the annotation class another routine is performed.
+        Depending on the label class another routine is performed.
 
         Args:
             annotations (List[Annotation]): [description]
@@ -43,7 +43,7 @@ class TaskCreator:
 
                     text = annotation.text if len(annotation.text) <= 20 else annotation.text[:20] + '...'
                     name = annotation.label + ' (' + text + ')' + ' - ' + self.task.name
-                    new_task = Task(name=name, labels=label_dict[AnnotationLabel],
+                    new_task = Task(name=name, labels=label_dict[LabelEnum.ANNOTATION],
                                     hierarchy=new_task_hierarchy, parent=self.task,
                                     interfaces=[
                                         "panel",
@@ -64,7 +64,7 @@ class TaskCreator:
                                                text=annotation.text,
                                                start=annotation.start, end=annotation.end)
                     new_task_anno.save()
-                    self._create_id_annotations(label_dict[IdLabel], new_task)
+                    self._create_id_annotations(label_dict[LabelEnum.ID], new_task)
 
     def _process_dict_entry(self, dict_entry: Dict) -> Tuple[List, List]:
         """Performs different processing routines, depending on the dictionary key and dictionary value.
@@ -79,19 +79,20 @@ class TaskCreator:
         labels = []
         desc_keys = []
         for dict_key, dict_value in dict_entry.items():
+            label = None
             if dict_key.startswith("_"):
                 if dict_key == "_id":
                     label = IdLabel(name="_id")
-                continue
             elif dict_key.startswith("~"):
                 if dict_value.startswith("#"):
                     label = LinkedBoolLabel(name=dict_key, linked_entry=dict_value.split("#")[1])
                 else:
                     label = ManualBoolLabel(name=dict_key, manual_bool_entry=dict_value)
             else:
-                label = self._create_annotation_label(dict_value).to_dict()
-            labels.append(label)
-            desc_keys.append(dict_key)
+                label = self._create_annotation_label(dict_value)
+            if label:
+                labels.append(label)
+                desc_keys.append(dict_key)
         return labels, desc_keys
 
     def _subtasks_needed(self, schema_value, annotation):
@@ -137,8 +138,8 @@ class TaskCreator:
         """
         for id_label in id_labels:
             annotation = Annotation(task=task,
-                                    label=id_label.name,
-                                    text=id_label.id_value,
+                                    label=id_label["name"],
+                                    text=id_label["id_value"],
                                     start=0,
                                     end=0)
             annotation.save()
@@ -155,5 +156,5 @@ class TaskCreator:
         """
         label_dict = defaultdict(list)
         for label in label_list:
-            label_dict[label.__class__].append(label)
+            label_dict[LabelEnum(label.__class__)].append(label.to_dict())
         return label_dict
