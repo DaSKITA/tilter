@@ -41,8 +41,7 @@ class TaskCreator:
                     new_task_hierarchy = self.task.hierarchy + [schema_key]
                     label_dict = self._filter_labels(labels)
 
-                    text = annotation.text if len(annotation.text) <= 20 else annotation.text[:20] + '...'
-                    name = annotation.label + ' (' + text + ')' + ' - ' + self.task.name
+                    name = self._create_task_name(annotation)
                     new_task = Task(name=name, labels=label_dict[LabelEnum.ANNOTATION],
                                     hierarchy=new_task_hierarchy, parent=self.task,
                                     interfaces=[
@@ -56,14 +55,13 @@ class TaskCreator:
                                     desc_keys=desc_keys)
                     new_task.save()
 
-                    new_task_anno_label = schema_value[schema_value['_key']] \
-                        if type(schema_value[schema_value['_key']]) is not list \
-                        else schema_value[schema_value['_key']][0]
                     # create annotation for new task
-                    new_task_anno = Annotation(task=new_task, label=new_task_anno_label,
+                    new_task_annotation_label = self._create_task_annotation_label(schema_value)
+                    new_task_anno = Annotation(task=new_task, label=new_task_annotation_label,
                                                text=annotation.text,
                                                start=annotation.start, end=annotation.end)
                     new_task_anno.save()
+
                     self._create_id_annotations(label_dict[LabelEnum.ID], new_task)
 
     def _process_dict_entry(self, dict_entry: Dict) -> Tuple[List, List]:
@@ -158,3 +156,14 @@ class TaskCreator:
         for label in label_list:
             label_dict[LabelEnum(label.__class__)].append(label.to_dict())
         return label_dict
+
+    def _create_task_name(self, annotation):
+        text = annotation.text if len(annotation.text) <= 20 else annotation.text[:20] + '...'
+        name = annotation.label + ' (' + text + ')' + ' - ' + self.task.name
+        return name
+
+    def _create_task_annotation_label(self, schema_value):
+        new_task_anno_label = schema_value[schema_value['_key']] \
+                        if type(schema_value[schema_value['_key']]) is not list \
+                        else schema_value[schema_value['_key']][0]
+        return new_task_anno_label
