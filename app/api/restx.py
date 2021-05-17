@@ -8,6 +8,8 @@ from utils.create_tilt import create_tilt
 from utils.label import Label
 from utils.translator import Translator
 from tilt_resources.annotation_handler import AnnotationHandler
+from tilt_resources.task_creator import TaskCreator
+
 
 # API Namespace
 ns = Namespace("task", description="API Node for TILTer")
@@ -152,6 +154,7 @@ class AnnotationByTaskIdInJSON(Resource):
         :return: newly created annotation
         """
         translator = Translator()
+        task_creator = TaskCreator()
         # get the task and posted annotations
         task = Task.objects.get(id=id)
         data = request.json
@@ -166,91 +169,7 @@ class AnnotationByTaskIdInJSON(Resource):
         new_annotations, current_annotations = annotation_handler.filter_new_annotations(shaped_data)
         annotation_handler.synch_task_annotations(task, current_annotations)
 
-        # create new tasks according to the tilt schema
-        # load tilt schema file
-        schema = Config.SCHEMA_DICT
-
-        # advance in tilt schema until reaching the hierarchy level of the current task
-        for j in task.hierarchy:
-            try:
-                schema = schema[j]
-            except:
-                schema = schema[0][j]
-
-        # if schema is now a list, we need to get the dict inside of it
-        if type(schema) is list:
-            schema = schema[0]
-
-        # iterate through newly created annotations and create a new task, if necessary
-        for anno in new_annotations:
-            # look through all entries in the current hierarchy level of the schema
-            for i in schema.keys():
-                entry = schema[i]
-
-                # if the entry is a list we need to look inside the list instead
-                if type(entry) is list:
-                    entry = entry[0]
-
-                # if the entry is not a dict, the annotation does not open a new hierarchical level
-                if type(entry) is not dict:
-                    continue
-
-                # since the entry is a dict, check if there is a new subtask to be created
-                # a new subtask is needed if the entry holds more than 1 non-artifical value or holds another dict
-                if entry['_desc'] == anno.label and new_subtask_needed(entry):
-                    # creation of new task is needed, gather labels, create new hierarchy list and determine new name
-                    labels = []
-                    desc_keys = []
-                    for key, val in entry.items():
-                        label_limited = True
-                        # if the entry is a list, the label can be annotated more than once
-                        if type(val) is list:
-                            val = val[0]
-                            label_limited = False
-                        # if the entry is a dict, save a label using the entry's _desc field
-                        if type(val) is dict:
-                            label = Label(name=val['_desc'], multiple=label_limited)
-                            labels.append(label.to_dict())
-                            desc_keys.append(key)
-                        # if the key is a boolean or an artificial field, skip it
-                        elif key[0] in ['_', '~']:
-                            continue
-                        # the entry is a simple string
-                        else:
-                            label = Label(name=val, multiple=label_limited)
-                            labels.append(label.to_dict())
-                            desc_keys.append(key)
-
-                    # copy the hierarchy list and append current hierarchical level
-                    hierarchy = task.hierarchy.copy()
-                    hierarchy.append(i)
-
-                    # name the new task in accordance to the root task
-                    tmp_task = task
-                    while tmp_task.parent is not None:
-                        tmp_task = tmp_task.parent
-                    text = anno.text if len(anno.text) <= 20 else anno.text[:20] + '...'
-                    name = anno.label + ' (' + text + ')' + ' - ' + tmp_task.name
-
-                    # create new task
-                    new_task = Task(name=name, labels=labels,
-                                    hierarchy=hierarchy, parent=task,
-                                    interfaces=[
-                                        "panel",
-                                        "update",
-                                        "controls",
-                                        "side-column",
-                                        "predictions:menu"],
-                                    html=task.html,
-                                    text=task.text,
-                                    desc_keys=desc_keys)
-                    new_task.save()
-
-                    new_task_anno_label = entry[entry['_key']] if type(entry[entry['_key']]) is not list else entry[entry['_key']][0]
-                    # create annotation for new task
-                    new_task_anno = Annotation(task=new_task, label=new_task_anno_label, text=anno.text,
-                                               start=anno.start, end=anno.end)
-                    new_task_anno.save()
+        task_creator.create_subtasks(new_annotations, task)
         return new_annotations
 
 

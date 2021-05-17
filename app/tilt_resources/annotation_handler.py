@@ -1,6 +1,6 @@
 from mongoengine import DoesNotExist
-from typing import Union, Tuple
-from database.models import Annotation
+from typing import Union, Tuple, List
+from database.models import Annotation, Task
 
 
 class AnnotationHandler:
@@ -29,7 +29,8 @@ class AnnotationHandler:
             annotation = None
         return annotation
 
-    def create_and_save_annotation(self, task=None, text=None, start=None, end=None, label=None,
+    def create_and_save_annotation(self, task: Task = None, text: str = None, start: float = None,
+                                   end: float = None, label: str = None,
                                    return_annotation=False) -> Tuple[bool, Union[Annotation, None]]:
         """Creates an nnotation. Before the annotation is created it is checked, whether it already exists in
         the database. If it existed already the boolean value in the returned tuple will be set to false.
@@ -55,12 +56,12 @@ class AnnotationHandler:
             created = False
         return created, annotation if return_annotation else None
 
-    def delete(self, annotation=None):
+    def delete(self, annotation: Annotation = None):
         if annotation:
             annotation.delete()
             print(f"Deleted Annotation with Label: {annotation.label}")
 
-    def filter_new_annotations(self, annotation_list):
+    def filter_new_annotations(self, annotation_list: List[Annotation]):
         """
         Filters our new annotations from a list of given annotation values. Every new annotation will be
         created. A list of newly created annotations, and all annotations generated from the provided list
@@ -80,7 +81,7 @@ class AnnotationHandler:
             self.all_current_annotations.append(annotation)
         return self.new_annotations, self.all_current_annotations
 
-    def synch_task_annotations(self, task, current_annotation_list):
+    def synch_task_annotations(self, task: Task, current_annotation_list: List[Annotation]):
         """
         Deletes annotations in the list from the database that are not part of the provided task.
 
