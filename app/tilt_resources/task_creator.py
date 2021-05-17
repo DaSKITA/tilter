@@ -1,4 +1,4 @@
-from typing import Dict, List, Tuple
+from typing import Dict, List, Tuple, Union
 from collections import defaultdict
 
 from database.models import Task, Annotation
@@ -94,7 +94,7 @@ class TaskCreator:
                 labels.append(label)
         return labels, desc_keys
 
-    def _subtasks_needed(self, schema_value, annotation):
+    def _subtasks_needed(self, schema_value: Dict, annotation: Annotation) -> bool:
         """Evaluates necessary conditions for creating a subtask.
 
         Args:
@@ -109,7 +109,7 @@ class TaskCreator:
         field_is_dict = any(isinstance(val, dict) for val in schema_value.values())
         return annotation_equality and (non_artificial or field_is_dict)
 
-    def _create_annotation_label(self, dict_value):
+    def _create_annotation_label(self, dict_value: Union[str, Dict, List]) -> AnnotationLabel:
         """Creates AnnotationLabel instances. These instances are pinned onto a task and provide
         basic annotation functionality in label studio.
 
@@ -128,7 +128,7 @@ class TaskCreator:
             multiple = False
         return AnnotationLabel(name=dict_value["_desc"], multiple=multiple)
 
-    def _create_id_annotations(self, id_labels, task):
+    def _create_id_annotations(self, id_labels: IdLabel, task: Task):
         """Creates Annotations with IDs and saves them in the Database.
 
         Args:
@@ -158,12 +158,12 @@ class TaskCreator:
             label_dict[LabelEnum(label.__class__)].append(label.to_dict())
         return label_dict
 
-    def _create_task_name(self, annotation):
+    def _create_task_name(self, annotation: Annotation) -> str:
         text = annotation.text if len(annotation.text) <= 20 else annotation.text[:20] + '...'
         name = annotation.label + ' (' + text + ')' + ' - ' + self.task.name
         return name
 
-    def _create_task_annotation_label(self, schema_value):
+    def _create_task_annotation_label(self, schema_value) -> str:
         new_task_anno_label = schema_value[schema_value['_key']] \
                         if type(schema_value[schema_value['_key']]) is not list \
                         else schema_value[schema_value['_key']][0]
