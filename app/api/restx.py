@@ -157,8 +157,6 @@ class AnnotationByTaskIdInJSON(Resource):
         all_current_annotations = []
         new_annotations = []
 
-        # prepare reverse translations, if the client is using another language but english
-
         # iterate through all posted annotations and create new annotation objects
         for content in data.values():
             # get the label and translate it back if necessary

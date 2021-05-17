@@ -115,7 +115,7 @@ def label(task_id):
     descriptions = description_finder.find_descriptions(task)
 
     # translate labels
-    task.labels = [translator.translate(label) for label in task.labels]
+    [label.update(name=translator.translate(label["name"])) for label in task.labels]
 
     target_url = request.url_root + 'api/task/' + str(task_id) + '/annotation/json'
     redirect_url = request.base_url

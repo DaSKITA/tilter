@@ -2,8 +2,6 @@ from config import Config
 from database.models import Task, Annotation
 from mongoengine import DoesNotExist
 
-def create_tilt_meta(root):
-    return root.meta.asdict()
 
 def iterate_through_hierarchy_level(parent_task, hierarchy):
     local_schema = Config.SCHEMA_DICT.copy()
@@ -95,7 +93,5 @@ def create_tilt(id):
     for entry in Config.SCHEMA_DICT.keys():
         tilt_value = iterate_through_hierarchy_level(root, [entry])
         tilt_dict[entry] = tilt_value
-
-    # tilt_dict['meta'] = create_tilt_meta(root)
 
     return tilt_dict

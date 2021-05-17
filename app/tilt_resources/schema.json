@@ -29,7 +29,7 @@
     {
       "_desc": "Data Disclosed - Category",
       "_key": "category",
-      "_id": "",// just some uuid differentiating the different datadisclosed elements when generating tilt json
+      "_id": "",
       "category": "Data Category",
       "purposes": [
         {
@@ -96,7 +96,7 @@
             "description": "Description",
             "ttl": "Time to Live"
           },
-          "_aggregationFunction": "" // max
+          "_aggregationFunction": "max"
         }
       ],
       "nonDisclosure": {
@@ -167,7 +167,7 @@
     {
       "_desc": "Sources",
       "_key": "dataCategory",
-      "_id": "", // fill automatically in tilt creation
+      "_id": "",
       "dataCategory": "Data Category",
       "sources": [
         {
