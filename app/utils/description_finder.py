@@ -15,6 +15,9 @@ class DescriptonFinder:
         """
         with open(Config.DESC_PATH, "r") as json_file:
             self.tilt_descriptions = json.load(json_file)
+        self.exception_list = {
+            "recipientsOnlyCategory": "category"
+        }
 
     def _find_description_by_label_chain(self, label_chain: List[str],
                                          tilt_dict: Dict[str, str] = None) -> str:
@@ -80,7 +83,11 @@ class DescriptonFinder:
         desc = tilt_dict.get(label)
         if not desc:
             if tilt_dict.get("additionalProperties"):
-                desc = tilt_dict["properties"][label]
+                try:
+                    desc = tilt_dict["properties"][label]
+                except KeyError:
+                    label = self.exception_list[label]
+                    desc = tilt_dict["properties"][label]
             if tilt_dict.get("additionalItems"):
                 desc = tilt_dict["items"]["anyOf"][0]
                 desc = self._get_entry_from_tilt_desc_dict(label=label, tilt_dict=desc)
