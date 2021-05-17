@@ -24,12 +24,20 @@ class TaskCreator:
         return hierarchy
 
     def create_subtasks(self, annotations: List[Annotation]):
+        """Basic Subtask Creation.
+        Once an Annotation meets condition a new subtask with corresponding annotations is created.
+        Depending on the entries in the schema of the created task, the Labels vary in classes.
+        Depending on the annotation class another routine is performed.
+
+        Args:
+            annotations (List[Annotation]): [description]
+        """
         schema_level = self._retrieve_schema_level(self.task.hierarchy)
         for annotation in annotations:
             for schema_key, schema_value in schema_level.items():
                 schema_value = schema_value[0] if isinstance(schema_value, list) else schema_value
                 if isinstance(schema_value, dict) and self._subtasks_needed(schema_value, annotation):
-                    labels, desc_keys, id_annotation = self._process_dict_entry(schema_value)
+                    labels, desc_keys = self._process_dict_entry(schema_value)
                     new_task_hierarchy = self.task.hierarchy + [schema_key]
                     label_dict = self._filter_labels(labels)
 
@@ -59,9 +67,17 @@ class TaskCreator:
                     self._create_id_annotations(label_dict[IdLabel], new_task)
 
     def _process_dict_entry(self, dict_entry: Dict) -> Tuple[List, List]:
+        """Performs different processing routines, depending on the dictionary key and dictionary value.
+        Herein conditions for booleans and id fields are performed.
+
+        Args:
+            dict_entry (Dict): [description]
+
+        Returns:
+            Tuple[List, List]: [description]
+        """
         labels = []
         desc_keys = []
-        id_annotation = False
         for dict_key, dict_value in dict_entry.items():
             if dict_key.startswith("_"):
                 if dict_key == "_id":
@@ -76,8 +92,7 @@ class TaskCreator:
                 label = self._create_annotation_label(dict_value).to_dict()
             labels.append(label)
             desc_keys.append(dict_key)
-
-        return labels, desc_keys, id_annotation
+        return labels, desc_keys
 
     def _subtasks_needed(self, schema_value, annotation):
         """Evaluates necessary conditions for creating a subtask.
@@ -95,6 +110,15 @@ class TaskCreator:
         return annotation_equality and (non_artificial or field_is_dict)
 
     def _create_annotation_label(self, dict_value):
+        """Creates AnnotationLabel instances. These instances are pinned onto a task and provide
+        basic annotation functionality in label studio.
+
+        Args:
+            dict_value ([type]): [description]
+
+        Returns:
+            [type]: [description]
+        """
         if isinstance(dict_value, str):
             return AnnotationLabel(dict_value, multiple=False)
         try:
@@ -105,6 +129,12 @@ class TaskCreator:
         return AnnotationLabel(name=dict_value["_desc"], multiple=multiple)
 
     def _create_id_annotations(self, id_labels, task):
+        """Creates Annotations with IDs and saves them in the Database.
+
+        Args:
+            id_labels ([type]): [description]
+            task ([type]): [description]
+        """
         for id_label in id_labels:
             annotation = Annotation(task=task,
                                     label=id_label.name,
@@ -114,6 +144,15 @@ class TaskCreator:
             annotation.save()
 
     def _filter_labels(self, label_list: List[Label]) -> Dict:
+        """Filters Labels acording to their class and puts them into a dictionary.
+        Each label type can be accessed directly via its class.
+
+        Args:
+            label_list (List[Label]): [description]
+
+        Returns:
+            Dict: [description]
+        """
         label_dict = defaultdict(list)
         for label in label_list:
             label_dict[label.__class__].append(label)
