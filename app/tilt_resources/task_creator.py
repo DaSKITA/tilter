@@ -1,9 +1,9 @@
 from typing import Dict, List, Tuple
-import uuid
+from collections import defaultdict
 
 from database.models import Task, Annotation
 from config import Config
-from utils.label import Label
+from utils.label import AnnotationLabel, ManualBoolLabel, LinkedBoolLabel, IdLabel, Label
 
 
 class TaskCreator:
@@ -31,10 +31,11 @@ class TaskCreator:
                 if isinstance(schema_value, dict) and self._subtasks_needed(schema_value, annotation):
                     labels, desc_keys, id_annotation = self._process_dict_entry(schema_value)
                     new_task_hierarchy = self.task.hierarchy + [schema_key]
+                    label_dict = self._filter_labels(labels)
 
                     text = annotation.text if len(annotation.text) <= 20 else annotation.text[:20] + '...'
                     name = annotation.label + ' (' + text + ')' + ' - ' + self.task.name
-                    new_task = Task(name=name, labels=labels,
+                    new_task = Task(name=name, labels=label_dict[AnnotationLabel],
                                     hierarchy=new_task_hierarchy, parent=self.task,
                                     interfaces=[
                                         "panel",
@@ -55,8 +56,7 @@ class TaskCreator:
                                                text=annotation.text,
                                                start=annotation.start, end=annotation.end)
                     new_task_anno.save()
-                    if id_annotation:
-                        self._create_id_annotation(new_task)
+                    self._create_id_annotations(label_dict[IdLabel], new_task)
 
     def _process_dict_entry(self, dict_entry: Dict) -> Tuple[List, List]:
         labels = []
@@ -65,17 +65,19 @@ class TaskCreator:
         for dict_key, dict_value in dict_entry.items():
             if dict_key.startswith("_"):
                 if dict_key == "_id":
-                    id_annotation = True
+                    label = IdLabel(name="_id")
                 continue
-            if dict_key.startswith("~"):
-                continue
-            label = self._create_label(dict_value).to_dict()
+            elif dict_key.startswith("~"):
+                if dict_value.startswith("#"):
+                    label = LinkedBoolLabel(name=dict_key, linked_entry=dict_value.split("#")[1])
+                else:
+                    label = ManualBoolLabel(name=dict_key, manual_bool_entry=dict_value)
+            else:
+                label = self._create_annotation_label(dict_value).to_dict()
             labels.append(label)
             desc_keys.append(dict_key)
 
         return labels, desc_keys, id_annotation
-
-    # TODO: give IDs, but tag annotations that should not be shown in frontend
 
     def _subtasks_needed(self, schema_value, annotation):
         """Evaluates necessary conditions for creating a subtask.
@@ -92,20 +94,27 @@ class TaskCreator:
         field_is_dict = any(isinstance(val, dict) for val in schema_value.values())
         return annotation_equality and (non_artificial or field_is_dict)
 
-    def _create_label(self, dict_value):
+    def _create_annotation_label(self, dict_value):
         if isinstance(dict_value, str):
-            return Label(dict_value, multiple=False)
+            return AnnotationLabel(dict_value, multiple=False)
         try:
             dict_value = dict_value[0]
             multiple = True
         except KeyError:
             multiple = False
-        return Label(name=dict_value["_desc"], multiple=multiple)
+        return AnnotationLabel(name=dict_value["_desc"], multiple=multiple)
 
-    def _create_id_annotation(self, task):
-        annotation = Annotation(task=task,
-                                label="_id",
-                                text=str(uuid.uuid4()),
-                                start=0,
-                                end=0)
-        annotation.save()
+    def _create_id_annotations(self, id_labels, task):
+        for id_label in id_labels:
+            annotation = Annotation(task=task,
+                                    label=id_label.name,
+                                    text=id_label.id_value,
+                                    start=0,
+                                    end=0)
+            annotation.save()
+
+    def _filter_labels(self, label_list: List[Label]) -> Dict:
+        label_dict = defaultdict(list)
+        for label in label_list:
+            label_dict[label.__class__].append(label)
+        return label_dict

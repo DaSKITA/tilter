@@ -2,7 +2,7 @@ from typing import Dict, List
 from config import Config
 import json
 from database.models import Task
-from utils.label import Label
+from utils.label import AnnotationLabel
 
 
 class DescriptonFinder:
@@ -59,7 +59,7 @@ class DescriptonFinder:
         label_descriptions = {}
         for idx, desc_label in enumerate(task.desc_keys):
             label_chain = task.hierarchy + [desc_label]
-            label_descriptions[Label(**task.labels[idx]).name] = self._find_description_by_label_chain(
+            label_descriptions[AnnotationLabel(**task.labels[idx]).name] = self._find_description_by_label_chain(
                 label_chain,
                 tilt_dict=self.tilt_descriptions
                 )

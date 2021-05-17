@@ -5,7 +5,7 @@ from flask_restx import fields, Namespace, Resource
 from mongoengine import DoesNotExist
 from utils.schema_tools import construct_first_level_labels, new_subtask_needed
 from utils.create_tilt import create_tilt
-from utils.label import Label
+from utils.label import AnnotationLabel
 from utils.translator import Translator
 from tilt_resources.annotation_handler import AnnotationHandler
 from tilt_resources.task_creator import TaskCreator
@@ -15,7 +15,7 @@ from tilt_resources.task_creator import TaskCreator
 ns = Namespace("task", description="API Node for TILTer")
 
 # create models for marshalling
-label_fields = Label.for_marshalling()
+label_fields = AnnotationLabel.for_marshalling()
 task_with_id = ns.model('Task', {
     'id': fields.String(required=True, description='Unique identifier of the task'),
     'name': fields.String(required=True, description='Name of the task'),
