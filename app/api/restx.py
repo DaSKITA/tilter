@@ -7,6 +7,7 @@ from utils.schema_tools import construct_first_level_labels, new_subtask_needed
 from utils.create_tilt import create_tilt
 from utils.label import Label
 from utils.translator import Translator
+from tilt_resources.annotation_handler import AnnotationHandler
 
 # API Namespace
 ns = Namespace("task", description="API Node for TILTer")
@@ -154,32 +155,16 @@ class AnnotationByTaskIdInJSON(Resource):
         # get the task and posted annotations
         task = Task.objects.get(id=id)
         data = request.json
-        all_current_annotations = []
-        new_annotations = []
+        shaped_data = [{
+            "task": task,
+            "label": translator.translate_reverse(content['results'][0]['value']['labels'][0]),
+            "start": content['start'],
+            "end": content['end'],
+            "text": content['text']} for content in data.values()]
+        annotation_handler = AnnotationHandler()
 
-        # iterate through all posted annotations and create new annotation objects
-        for content in data.values():
-            # get the label and translate it back if necessary
-            label = content['results'][0]['value']['labels'][0]
-            label = translator.translate_reverse(label)
-            start = content['start']
-            end = content['end']
-            text = content['text']
-            # try to find an already existing annotation with the same content
-            try:
-                old_annotation = Annotation.objects.get(task=task, text=text, start=start, end=end, label=label)
-                all_current_annotations.append(old_annotation.id)
-            # if there is no old annotation, create a new one
-            except DoesNotExist:
-                new_annotation = Annotation(task=task, text=text, start=start, end=end, label=label)
-                new_annotation.save()
-                new_annotations.append(new_annotation)
-                all_current_annotations.append(new_annotation.id)
-
-        # delete old annotations, that did not appear in the POST data
-        for anno in Annotation.objects(task=task):
-            if anno.id not in all_current_annotations:
-                anno.delete()
+        new_annotations, current_annotations = annotation_handler.filter_new_annotations(shaped_data)
+        annotation_handler.synch_task_annotations(task, current_annotations)
 
         # create new tasks according to the tilt schema
         # load tilt schema file
