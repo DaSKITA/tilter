@@ -1,4 +1,5 @@
 from typing import Dict, List, Tuple
+import uuid
 
 from database.models import Task, Annotation
 from config import Config
@@ -7,8 +8,9 @@ from utils.label import Label
 
 class TaskCreator:
 
-    def __init__(self) -> None:
+    def __init__(self, task: Task) -> None:
         self.schema = Config.SCHEMA_DICT
+        self.task = task
 
     def _retrieve_schema_level(self, path_list: List[str]) -> Dict:
         hierarchy = self.schema
@@ -21,27 +23,27 @@ class TaskCreator:
             hierarchy = hierarchy[0]
         return hierarchy
 
-    def create_subtasks(self, annotations: List[Annotation], task: Task):
-        schema_level = self._retrieve_schema_level(task.hierarchy)
+    def create_subtasks(self, annotations: List[Annotation]):
+        schema_level = self._retrieve_schema_level(self.task.hierarchy)
         for annotation in annotations:
             for schema_key, schema_value in schema_level.items():
                 schema_value = schema_value[0] if isinstance(schema_value, list) else schema_value
                 if isinstance(schema_value, dict) and self._subtasks_needed(schema_value, annotation):
-                    labels, desc_keys = self._process_dict_entry(schema_value)
-                    new_task_hierarchy = task.hierarchy + [schema_key]
+                    labels, desc_keys, id_annotation = self._process_dict_entry(schema_value)
+                    new_task_hierarchy = self.task.hierarchy + [schema_key]
 
                     text = annotation.text if len(annotation.text) <= 20 else annotation.text[:20] + '...'
-                    name = annotation.label + ' (' + text + ')' + ' - ' + task.name
+                    name = annotation.label + ' (' + text + ')' + ' - ' + self.task.name
                     new_task = Task(name=name, labels=labels,
-                                    hierarchy=new_task_hierarchy, parent=task,
+                                    hierarchy=new_task_hierarchy, parent=self.task,
                                     interfaces=[
                                         "panel",
                                         "update",
                                         "controls",
                                         "side-column",
                                         "predictions:menu"],
-                                    html=task.html,
-                                    text=task.text,
+                                    html=self.task.html,
+                                    text=self.task.text,
                                     desc_keys=desc_keys)
                     new_task.save()
 
@@ -53,12 +55,17 @@ class TaskCreator:
                                                text=annotation.text,
                                                start=annotation.start, end=annotation.end)
                     new_task_anno.save()
+                    if id_annotation:
+                        self._create_id_annotation(new_task)
 
     def _process_dict_entry(self, dict_entry: Dict) -> Tuple[List, List]:
         labels = []
         desc_keys = []
+        id_annotation = False
         for dict_key, dict_value in dict_entry.items():
             if dict_key.startswith("_"):
+                if dict_key == "_id":
+                    id_annotation = True
                 continue
             if dict_key.startswith("~"):
                 continue
@@ -66,7 +73,7 @@ class TaskCreator:
             labels.append(label)
             desc_keys.append(dict_key)
 
-        return labels, desc_keys
+        return labels, desc_keys, id_annotation
 
     # TODO: give IDs, but tag annotations that should not be shown in frontend
 
@@ -94,3 +101,11 @@ class TaskCreator:
         except KeyError:
             multiple = False
         return Label(name=dict_value["_desc"], multiple=multiple)
+
+    def _create_id_annotation(self, task):
+        annotation = Annotation(task=task,
+                                label="_id",
+                                text=str(uuid.uuid4()),
+                                start=0,
+                                end=0)
+        annotation.save()

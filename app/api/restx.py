@@ -154,9 +154,9 @@ class AnnotationByTaskIdInJSON(Resource):
         :return: newly created annotation
         """
         translator = Translator()
-        task_creator = TaskCreator()
         # get the task and posted annotations
         task = Task.objects.get(id=id)
+        task_creator = TaskCreator(task)
         data = request.json
         shaped_data = [{
             "task": task,
@@ -169,7 +169,7 @@ class AnnotationByTaskIdInJSON(Resource):
         new_annotations, current_annotations = annotation_handler.filter_new_annotations(shaped_data)
         annotation_handler.synch_task_annotations(task, current_annotations)
 
-        task_creator.create_subtasks(new_annotations, task)
+        task_creator.create_subtasks(new_annotations)
         return new_annotations
 
 

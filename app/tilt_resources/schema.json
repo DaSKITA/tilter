@@ -29,7 +29,7 @@
     {
       "_desc": "Data Disclosed - Category",
       "_key": "category",
-      "_id": "",
+      "_id": "_id",
       "category": "Data Category",
       "purposes": [
         {
@@ -167,7 +167,7 @@
     {
       "_desc": "Sources",
       "_key": "dataCategory",
-      "_id": "",
+      "_id": "_id",
       "dataCategory": "Data Category",
       "sources": [
         {
