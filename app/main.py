@@ -108,7 +108,7 @@ def label(task_id):
         flash(_("Error updateing Annotations!"), 'error')
 
     task = Task.objects.get(pk=task_id)
-    annotations = Annotation.objects(task=task)
+    annotations = [anno for anno in Annotation.objects(task=task) if anno.label[0][0] not in ['_', '~']]
 
     # finds the descriptions for potential annotations of this task
     description_finder = DescriptonFinder()
@@ -121,6 +121,7 @@ def label(task_id):
     redirect_url = request.base_url
     colors = ['blue', 'red', '#1CBA3D', '#13812A', 'orange', 'magenta', 'pink', 'brown', '#B986D4', '#8FA1E2', 'dimgrey',
               '#0A4216', 'darksalmon']
+
     return render_template('label.html', task=task, target_url=target_url, annotations=annotations,
                            redirect_url=redirect_url, colors=colors, descriptions=descriptions)
 

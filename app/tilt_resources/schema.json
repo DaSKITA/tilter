@@ -100,7 +100,7 @@
         }
       ],
       "nonDisclosure": {
-        "_desc": "Data Disclosed - Storage Purpose - Nondisclosure",
+        "_desc": "Data Disclosed - Nondisclosure",
         "_key": "consequences",
         "consequences": "Consequences",
         "~legalRequirement": "Legal Requirement",
