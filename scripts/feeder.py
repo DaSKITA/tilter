@@ -43,7 +43,7 @@ def jsonify_policies(directory: str, language: str, url_mapping_path: str):
             pure_file_name = file_name.split(".")[0]
 
             json_dict = {
-                "txt": policy_text,
+                "text": policy_text,
                 "name": pure_file_name,
                 "language": language,
                 "url": url_mapping_dict[file_name] if url_mapping_path else "no url"
@@ -59,6 +59,13 @@ def jsonify_policies(directory: str, language: str, url_mapping_path: str):
 @click.command()
 @click.option('-d', '--directory', default=None, help="Directory of policies.")
 def post_tasks(directory: str = None):
+    """
+    Writes tasks from a json format into the MongoDB. In order to run, the TILTer needs to be
+    setup.
+
+    Args:
+        directory (str, optional): [description]. Defaults to None.
+    """
     headers = {
         'Content-Type': 'application/json; charset=utf-8',
     }
@@ -76,7 +83,7 @@ def post_tasks(directory: str = None):
                 json_dict = json.load(json_file)
 
             data = {"name": json_dict["name"], "text": json_dict["text"], "html": False,
-                    "url": json_dict["url"], "language": json_dict["url"]}
+                    "url": json_dict["url"], "language": json_dict["language"]}
 
             requests.post('http://localhost:5000/api/task/', headers=headers, data=json.dumps(data))
             file_count += 1

@@ -3,13 +3,30 @@
 # tilter
 Annotation tool _TILTer_ for the annotation and conversion of privacy policies into the [TILT schema](https://github.com/Transparency-Information-Language/schema).
 
-## Installation
+
+## Run Application
+
+### Prerequisites
+
+* Python 3.7.0 or above
+
+### Installation
 1. Install [Docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/).
 2. `git clone https://github.com/DaSKITA/tilter.git`
-3. `docker-compose up`
-5. Access [http://localhost:5000](http://localhost:5000) and [http://localhost:5000/api/docs/](http://localhost:5000/api/docs/) in your favorite browser.
+browser.
 
 
+### SetUp
+
+3. Type `docker-compose up` in the Terminal Window.
+4. Access [http://localhost:5000](http://localhost:5000) and [http://localhost:5000/api/docs/](http://localhost:5000/api/docs/) in your favorite Browser
+5. Get some Privacy Policies from the TUB-Cloud as `.txt`-files. And place them in the `data` folder.
+6. Open a Terminal Window and activate your python environment.
+7. Execute the script under `scripts/fill_database.sh`
+
+
+__Note:__ You can also use the [feeder.py](/scripts/feeder.py) CLI drectly. For more Information run: `python feeder.py --help`. Make sure to install the required packages before.
+The packages can be found in `scripts/fill_database.sh` after the `pip` command.
 ## Versions
 
 ### v0.1
