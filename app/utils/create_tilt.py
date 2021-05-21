@@ -1,5 +1,5 @@
 from config import Config
-from database.models import Task, Annotation
+from database.models import Task, Annotation, HiddenAnnotation
 from mongoengine import DoesNotExist
 
 
@@ -35,6 +35,8 @@ def iterate_through_hierarchy_level(parent_task, hierarchy):
                         tilt_value_part[key] = iterate_through_hierarchy_level(task, new_hierarchy)
                     elif key in ['_desc', '_key']:
                         continue
+                    elif key == "_id":
+                        tilt_value_part[key] = HiddenAnnotation.objects.get(task=task, label=val).value
                     else:
                         try:
                             tilt_value_part[key] = Annotation.objects.get(task=task, label=val).text

@@ -1,7 +1,7 @@
 from typing import Dict, List, Tuple, Union
 from collections import defaultdict
 
-from database.models import Task, Annotation
+from database.models import Task, Annotation, HiddenAnnotation
 from config import Config
 from utils.label import AnnotationLabel, ManualBoolLabel, LinkedBoolLabel, IdLabel, Label, LabelEnum
 
@@ -136,11 +136,9 @@ class TaskCreator:
             task ([type]): [description]
         """
         for id_label in id_labels:
-            annotation = Annotation(task=task,
-                                    label=id_label["name"],
-                                    text=id_label["id_value"],
-                                    start=0,
-                                    end=0)
+            annotation = HiddenAnnotation(task=task,
+                                          label=id_label["name"],
+                                          value=id_label["id_value"])
             annotation.save()
 
     def _filter_labels(self, label_list: List[Label]) -> Dict:

@@ -37,6 +37,10 @@ annotation = ns.model('Annotation', {
     'end': fields.Integer(description='Ending Position of Annotation'),
 })
 
+hidden_annotation = ns.model('HiddenAnnotation', {
+    'label': fields.String(description='Annotation label'),
+    'value': fields.String(description='Annotation Value'),
+})
 
 @ns.route('/')
 class TaskCollection(Resource):

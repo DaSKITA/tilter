@@ -108,7 +108,7 @@ def label(task_id):
         flash(_("Error updateing Annotations!"), 'error')
 
     task = Task.objects.get(pk=task_id)
-    annotations = [anno for anno in Annotation.objects(task=task) if anno.label[0][0] not in ['_', '~']]
+    annotations = Annotation.objects(task=task)
 
     # finds the descriptions for potential annotations of this task
     description_finder = DescriptonFinder()

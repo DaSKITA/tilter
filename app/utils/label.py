@@ -1,7 +1,8 @@
-from dataclasses import dataclass, asdict
+from dataclasses import dataclass, asdict, field
 from flask_restx import fields
 import uuid
 from enum import Enum
+
 
 @dataclass
 class Label:
@@ -33,7 +34,10 @@ class LinkedBoolLabel(Label):
 
 @dataclass
 class IdLabel(Label):
-    id_value: str = str(uuid.uuid4())
+    id_value: str = field(default_factory=uuid.uuid4)
+
+    def __post_init__(self):
+        self.id_value = str(self.id_value)
 
 
 class LabelEnum(Enum):
