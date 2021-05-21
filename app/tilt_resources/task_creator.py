@@ -1,7 +1,7 @@
 from typing import Dict, List, Tuple, Union
 from collections import defaultdict
 
-from database.models import Task, Annotation, HiddenAnnotation
+from database.models import LinkedAnnotation, Task, Annotation, HiddenAnnotation
 from config import Config
 from utils.label import AnnotationLabel, ManualBoolLabel, LinkedBoolLabel, IdLabel, Label, LabelEnum
 
@@ -61,8 +61,8 @@ class TaskCreator:
                                                text=annotation.text,
                                                start=annotation.start, end=annotation.end)
                     new_task_anno.save()
-
                     self._create_id_annotations(label_dict[LabelEnum.ID], new_task)
+                    self._create_linked_annotations(label_dict[LinkedBoolLabel], task=new_task)
 
     def _process_dict_entry(self, dict_entry: Dict) -> Tuple[List, List]:
         """Performs different processing routines, depending on the dictionary key and dictionary value.
@@ -166,3 +166,11 @@ class TaskCreator:
                         if type(schema_value[schema_value['_key']]) is not list \
                         else schema_value[schema_value['_key']][0]
         return new_task_anno_label
+
+    def _create_linked_annotations(self, linked_label_list: List, task: Task):
+        for linked_label in linked_label_list:
+            related_annotation = Annotation.objects(task=task, label=linked_label["linked_entry"])
+            linked_annotation = LinkedAnnotation(task=task,
+                                                 label=linked_label["name"],
+                                                 related_to=related_annotation)
+            linked_annotation.save()

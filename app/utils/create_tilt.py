@@ -29,6 +29,7 @@ def iterate_through_hierarchy_level(parent_task, hierarchy):
                 tilt_value_part = {}
                 # iterate through current schema hierarchy
                 for key, val in local_schema.items():
+                    # TODO: incorporate linked annotations
                     if type(val) in [dict, list]:
                         new_hierarchy = hierarchy.copy()
                         new_hierarchy.append(key)
