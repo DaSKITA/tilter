@@ -126,7 +126,10 @@ class TaskCreator:
             multiple = True
         except KeyError:
             multiple = False
-        return AnnotationLabel(name=dict_value["_desc"], multiple=multiple)
+        if isinstance(dict_value, dict):
+            return AnnotationLabel(name=dict_value["_desc"], multiple=multiple)
+        else:
+            return AnnotationLabel(name=dict_value, multiple=multiple)
 
     def _create_id_annotations(self, id_labels: IdLabel, task: Task):
         """Creates Annotations with IDs and saves them in the Database.

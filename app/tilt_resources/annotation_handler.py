@@ -78,7 +78,7 @@ class AnnotationHandler:
                                                                   return_annotation=True)
             if created:
                 self.new_annotations.append(annotation)
-            self.all_current_annotations.append(annotation)
+            self.all_current_annotations.append(annotation.id)
         return self.new_annotations, self.all_current_annotations
 
     def synch_task_annotations(self, task: Task, current_annotation_list: List[Annotation]):
