@@ -170,7 +170,7 @@ class AnnotationByTaskIdInJSON(Resource):
         annotation_handler.synch_task_annotations(task, current_annotations)
 
         task_creator.create_subtasks(new_annotations)
-        return new_annotations
+
 
 
 @ns.route('/tilt')

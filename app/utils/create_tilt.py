@@ -1,5 +1,5 @@
 from config import Config
-from database.models import Task, Annotation, HiddenAnnotation
+from database.models import Task, Annotation, HiddenAnnotation, LinkedAnnotation
 from mongoengine import DoesNotExist
 
 
@@ -39,6 +39,10 @@ def iterate_through_hierarchy_level(parent_task, hierarchy):
                         continue
                     elif key == "_id":
                         tilt_value_part[key] = HiddenAnnotation.objects.get(task=task, label=val).value
+                    elif key.startswith("~"):
+                        if val.startswidth("#"):
+                            tilt_value_part[key[1:]] = \
+                                LinkedAnnotation.objects.get(task=task, label=key).value
                     else:
                         try:
                             tilt_value_part[key] = Annotation.objects.get(task=task, label=val).text
@@ -71,6 +75,13 @@ def iterate_through_hierarchy_level(parent_task, hierarchy):
                 tilt_value[key] = iterate_through_hierarchy_level(child_task, new_hierarchy)
             elif key in ['_desc', '_key']:
                 continue
+            elif key.startswith("~"):
+                if val.startswith("#"):
+                    try:
+                        tilt_value[key[1:]] = \
+                            LinkedAnnotation.objects.get(task=child_task, label=key).value
+                    except DoesNotExist:
+                        tilt_value[key[1:]] = None
             else:
                 try:
                     tilt_value[key] = Annotation.objects.get(task=child_task, label=val).text

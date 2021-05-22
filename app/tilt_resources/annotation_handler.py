@@ -1,6 +1,6 @@
 from mongoengine import DoesNotExist
 from typing import Union, Tuple, List
-from database.models import Annotation, HiddenAnnotation, Task
+from database.models import Annotation, LinkedAnnotation, Task
 
 
 class AnnotationHandler:
@@ -92,9 +92,11 @@ class AnnotationHandler:
         for anno in Annotation.objects(task=task):
             if anno.id not in current_annotation_list:
                 self.delete(anno)
+            else:
+                self.synch_linked_annotations(related_annotation=anno, task=task)
 
-    def synch_linked_annotations(related_annotation: None):
-        linked_annotations = HiddenAnnotation.objects(related_to=related_annotation)
+    def synch_linked_annotations(self, task, related_annotation: None):
+        linked_annotations = LinkedAnnotation.objects(related_to=related_annotation, task=task)
         for linked_annotation in linked_annotations:
             linked_annotation = linked_annotation.get()
             linked_annotation.value = True

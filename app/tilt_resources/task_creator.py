@@ -62,7 +62,8 @@ class TaskCreator:
                                                start=annotation.start, end=annotation.end)
                     new_task_anno.save()
                     self._create_id_annotations(label_dict[LabelEnum.ID], new_task)
-                    self._create_linked_annotations(label_dict[LinkedBoolLabel], task=new_task)
+                    self._create_linked_annotations(label_dict[LabelEnum.LINKED], task=new_task,
+                                                    schema_value=schema_value)
 
     def _process_dict_entry(self, dict_entry: Dict) -> Tuple[List, List]:
         """Performs different processing routines, depending on the dictionary key and dictionary value.
@@ -170,10 +171,15 @@ class TaskCreator:
                         else schema_value[schema_value['_key']][0]
         return new_task_anno_label
 
-    def _create_linked_annotations(self, linked_label_list: List, task: Task):
+    def _create_linked_annotations(self, linked_label_list: List, task: Task, schema_value: Dict):
         for linked_label in linked_label_list:
-            related_annotation = Annotation.objects(task=task, label=linked_label["linked_entry"])
+            related_annotation = Annotation.objects(task=task, label=linked_label["linked_entry"])[0]
+            if linked_label["linked_entry"] == schema_value["_key"]:
+                subtask_key = True
+            else:
+                subtask_key = False
             linked_annotation = LinkedAnnotation(task=task,
                                                  label=linked_label["name"],
-                                                 related_to=related_annotation)
+                                                 related_to=related_annotation,
+                                                 value=subtask_key)
             linked_annotation.save()
