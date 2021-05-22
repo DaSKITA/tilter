@@ -31,6 +31,7 @@ def iterate_through_hierarchy_level(parent_task, hierarchy):
                 for key, val in local_schema.items():
                     # TODO: incorporate linked annotations
                     if type(val) in [dict, list]:
+                        val = val[0] if isinstance(val, list) else val
                         new_hierarchy = hierarchy.copy()
                         new_hierarchy.append(key)
                         tilt_value_part[key] = iterate_through_hierarchy_level(task, new_hierarchy)
@@ -43,8 +44,6 @@ def iterate_through_hierarchy_level(parent_task, hierarchy):
                             tilt_value_part[key] = Annotation.objects.get(task=task, label=val).text
                         except DoesNotExist:
                             tilt_value_part[key] = None
-                        except:
-                            tilt_value_part[key] = Annotation.objects.get(task=task, label=val[0]).text
                 tilt_value.append(tilt_value_part)
         elif type(local_schema) is dict:
             # iterate through current schema hierarchy
@@ -66,6 +65,7 @@ def iterate_through_hierarchy_level(parent_task, hierarchy):
         child_task = tasks.first()
         for key, val in local_schema.items():
             if type(val) in [dict, list]:
+                val = val[0] if isinstance(val, list) else val
                 new_hierarchy = hierarchy.copy()
                 new_hierarchy.append(key)
                 tilt_value[key] = iterate_through_hierarchy_level(child_task, new_hierarchy)
@@ -75,12 +75,7 @@ def iterate_through_hierarchy_level(parent_task, hierarchy):
                 try:
                     tilt_value[key] = Annotation.objects.get(task=child_task, label=val).text
                 except DoesNotExist:
-                    try:
-                        tilt_value[key] = Annotation.objects.get(task=parent_task, label=local_schema["_desc"]).text
-                    except DoesNotExist:
-                        tilt_value[key] = None
-                except:
-                    tilt_value[key] = Annotation.objects.get(task=child_task, label=val[0]).text
+                    tilt_value[key] = None
 
     return tilt_value
 
