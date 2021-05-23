@@ -184,7 +184,7 @@
   "rightToInformation": {
     "_desc": "Right to Information",
     "_key": "description",
-    "~available": "Right to Information Available?",
+    "~available": "#description",
     "description": "Description",
     "url": "URL",
     "email": "E-Mail address",
@@ -194,7 +194,7 @@
   "rightToRectificationOrDeletion": {
     "_desc": "Right to Deletion",
     "_key": "description",
-    "available": "Available",
+    "~available": "#description",
     "description": "Description",
     "url": "URL",
     "email": "E-Mail address",
@@ -203,8 +203,8 @@
 
   "rightToDataPortability": {
     "_desc": "Right to Data Portability",
-    "_key": "available",
-    "available": "Available",
+    "_key": "description",
+    "~available": "#description",
     "description": "Description",
     "url": "URL",
     "email": "E-Mail address",
@@ -213,8 +213,8 @@
 
   "rightToWithdrawConsent": {
     "_desc": "Right to Withdraw Consent",
-    "_key": "available",
-    "available": "Available",
+    "_key": "description",
+    "~available": "#description",
     "description": "Description",
     "url": "URL",
     "email": "E-Mail address",
@@ -223,8 +223,8 @@
 
   "rightToComplain": {
     "_desc": "Right to Complain",
-    "_key": "available",
-    "available": "Available",
+    "_key": "description",
+    "~available": "#description",
     "description": "Description",
     "url": "URL",
     "email": "E-Mail address",
@@ -255,7 +255,7 @@
       "description": "Description",
       "affectedDataCategories": ["Affected Data Categories"],
       "plannedDateOfChange": "Planned Date of Change",
-      "urlofNewVersion": "URL of new Version"
+      "urlOfNewVersion": "URL of new Version"
     }
   ]
 }
