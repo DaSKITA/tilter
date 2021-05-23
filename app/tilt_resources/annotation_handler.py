@@ -96,8 +96,10 @@ class AnnotationHandler:
                 self.synch_linked_annotations(related_annotation=anno, task=task)
 
     def synch_linked_annotations(self, task, related_annotation: None):
-        linked_annotations = LinkedAnnotation.objects(related_to=related_annotation, task=task)
-        for linked_annotation in linked_annotations:
-            linked_annotation = linked_annotation.get()
-            linked_annotation.value = True
-            linked_annotation.save()
+        try:
+            linked_annotations = LinkedAnnotation.objects(related_to=related_annotation, task=task)
+            for linked_annotation in linked_annotations:
+                linked_annotation.value = True
+                linked_annotation.save()
+        except DoesNotExist:
+            print("No linked Annotations found.")
