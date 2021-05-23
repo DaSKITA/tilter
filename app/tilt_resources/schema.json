@@ -52,7 +52,7 @@
           "_desc": "Data Disclosed - Legitimate Interest",
           "_key": "reasoning",
           "reasoning": "Legitimate Interest - Reasoning",
-          "~exists": "#Legitimate Interest - Reasoning"
+          "~exists": "#reasoning"
         }
       ],
       "recipients": [
@@ -117,26 +117,26 @@
       "country": "Target Country",
       "adequacyDecision": {
         "_desc": "Third Country Transfer - Adequacy Decision",
-        "_key": "Description",
-        "~available": "#Description",
+        "_key": "description",
+        "~available": "#description",
         "description": "Description"
       },
       "appropriateGuarantees": {
         "_desc": "Third Country Transfer - Appropriate Guarantees",
-        "_key": "Description",
-        "~available": "#Description",
+        "_key": "description",
+        "~available": "#description",
         "description": "Description"
       },
       "presenceOfEnforceableRightsAndEffectiveRemedies": {
         "_desc": "Third Country Transfer - Presence of enforceable Rights and effective Remedies",
-        "_key": "Description",
-        "~available": "#Description",
+        "_key": "description",
+        "~available": "#description",
         "description": "Description"
       },
       "standardDataProtectionClause": {
         "_desc": "Third Country Transfer - Standard Data Protection Clause",
-        "_key": "Description",
-        "~available": "#Description",
+        "_key": "description",
+        "~available": "#description",
         "description": "Description"
       }
     }
@@ -144,8 +144,8 @@
 
   "accessAndDataPortability": {
     "_desc": "Access and Data Portability",
-    "_key": "Description",
-    "~available": "#Description",
+    "_key": "description",
+    "~available": "#description",
     "description": "Description",
     "url": "URL-Link",
     "email": "E-Mail address",
@@ -172,7 +172,7 @@
       "sources": [
         {
           "_desc": "Sources",
-          "_key": "Description",
+          "_key": "description",
           "description": "Description",
           "url": "URL-Link",
           "~publiclyAvailable": "Publicly Available"
@@ -183,7 +183,7 @@
 
   "rightToInformation": {
     "_desc": "Right to Information",
-    "_key": "Description",
+    "_key": "description",
     "~available": "Right to Information Available?",
     "description": "Description",
     "url": "URL",
@@ -193,7 +193,7 @@
 
   "rightToRectificationOrDeletion": {
     "_desc": "Right to Deletion",
-    "_key": "Description",
+    "_key": "description",
     "available": "Available",
     "description": "Description",
     "url": "URL",
@@ -244,14 +244,14 @@
     "_desc": "Automated Decision Making - Logic",
     "_key": "logicInvolved",
     "logicInvolved": "Involved Logic",
-    "~inUse": "#Involved Logic",
+    "~inUse": "#logicInvolved",
     "scopeAndIntendedEffects": "Scope and Intended Effects"
   },
 
   "changesOfPurpose": [
     {
       "_desc": "Changes of Purpose",
-      "_key": "Description",
+      "_key": "description",
       "description": "Description",
       "affectedDataCategories": ["Affected Data Categories"],
       "plannedDateOfChange": "Planned Date of Change",

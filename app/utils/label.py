@@ -29,7 +29,8 @@ class ManualBoolLabel(Label):
 
 @dataclass
 class LinkedBoolLabel(Label):
-    linked_entry: str = None
+    linked_entry_key: str = None
+    linked_entry_value: str = None
 
 
 @dataclass

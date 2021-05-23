@@ -85,7 +85,9 @@ class TaskCreator:
                     label = IdLabel(name="_id")
             elif dict_key.startswith("~"):
                 if dict_value.startswith("#"):
-                    label = LinkedBoolLabel(name=dict_key, linked_entry=dict_value.split("#")[1])
+                    linked_entry_key = dict_value.split("#")[1]
+                    label = LinkedBoolLabel(name=dict_key, linked_entry_value=dict_entry[linked_entry_key],
+                                            linked_entry_key=linked_entry_key)
                 else:
                     label = ManualBoolLabel(name=dict_key, manual_bool_entry=dict_value)
             else:
@@ -173,8 +175,8 @@ class TaskCreator:
 
     def _create_linked_annotations(self, linked_label_list: List, task: Task, schema_value: Dict):
         for linked_label in linked_label_list:
-            related_annotation = Annotation.objects(task=task, label=linked_label["linked_entry"])[0]
-            if linked_label["linked_entry"] == schema_value["_key"]:
+            related_annotation = Annotation.objects(task=task, label=linked_label["linked_entry_value"])[0]
+            if linked_label["linked_entry_key"] == schema_value["_key"]:
                 subtask_key = True
             else:
                 subtask_key = False
