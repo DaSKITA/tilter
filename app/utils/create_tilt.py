@@ -40,7 +40,7 @@ def iterate_through_hierarchy_level(parent_task, hierarchy):
                     elif key == "_id":
                         tilt_value_part[key] = HiddenAnnotation.objects.get(task=task, label=val).value
                     elif key.startswith("~"):
-                        if val.startswidth("#"):
+                        if val.startswith("#"):
                             tilt_value_part[key[1:]] = \
                                 LinkedAnnotation.objects.get(task=task, label=key).value
                     else:
