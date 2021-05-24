@@ -3,7 +3,7 @@
 SCRIPT_DIR=$(cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )
 BASEDIR=$(dirname "$SCRIPT_DIR")
 
-if [ -d "$BASEDIR/.venv/bin/activate" ]; then
+if [ -d "$BASEDIR/.venv" ]; then
     source $BASEDIR/.venv/bin/activate
 else
     echo "No Python Environment found. Actiavte your python environment!"
