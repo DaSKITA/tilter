@@ -101,9 +101,9 @@ def create_task():
 def label(task_id):
     # handle success message, after clicking update button
     update_success = request.args.get('success', default=None)
-    if update_success:
+    if update_success == "true":
         flash(_("Annotations updated successfully!"), 'success')
-    elif update_success == False:
+    elif update_success == "false":
         flash(_("Error updateing Annotations!"), 'error')
 
     # get task and its annotations

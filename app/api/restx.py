@@ -165,6 +165,9 @@ class AnnotationByTaskIdInJSON(Resource):
         task = Task.objects.get(id=id)
         task_creator = TaskCreator(task)
         data = request.json
+        if data.has_key('manual_bool'):
+            manual_bools = data['manual_bool']
+            data = data['completion']
         shaped_data = [{
             "task": task,
             "label": translator.translate_reverse(content['results'][0]['value']['labels'][0]),
@@ -177,6 +180,8 @@ class AnnotationByTaskIdInJSON(Resource):
         annotation_handler.synch_task_annotations(task, current_annotations)
 
         task_creator.create_subtasks(new_annotations)
+
+        # todo: return?
 
 
 

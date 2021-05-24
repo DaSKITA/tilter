@@ -39,17 +39,17 @@
                     <div class="modal-body">
                         {% for bool in manual_bools %}
                             <label class="form-check-label" for="flexCheckDefault">
-                                {% bool[1] %}
+                                {{ bool[1] }}
                             <!-- todo: tooltips (https://getbootstrap.com/docs/4.0/components/modal/#tooltips-and-popovers) -->
                             </label>
-                            <input class="form-check-input" type="checkbox" value="" id="manBool_{% bool[0] %}">
-
+                            <input class="form-check-input manual-bool-checkbox" type="checkbox" value="" id="{{ bool[0] }}">
+                            <br>
                         {% endfor %}
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                         <button type="button" class="btn btn-primary"
-                                onclick="finalizeAnnotationsIncludingBools(completion)">Update
+                                onclick="finalizeAnnotationsIncludingBools()">Update
                         </button>
                     </div>
                 </div>
@@ -67,6 +67,7 @@
     <script>
         const addBoolsToAnnotationsIfNeeded = async (completion) => {
             {% if manual_bools %}
+                window.completion = completion
                 $('#manualBoolModal').modal({
                     backdrop: false
                 })
@@ -75,28 +76,34 @@
             {% endif %}
         }
 
-        const finalizeAnnotationsIncludingBools = async (completion) => {
-            const checkboxValues = $( "input[name^='news']" ).map(function() {
+        const finalizeAnnotationsIncludingBools = async () => {
+            const checkboxValues = $(".manual-bool-checkbox").map(function() {
                 var checkboxValue = new Object();
-                checkboxValue[this.id] = this.value;
+                checkboxValue[this.id] = $(this).prop("checked");
                 return checkboxValue;
               }).get();
-            console.log(checkboxValues)
+            window.completion["manualBools"] = checkboxValues
+            await sendAnnotations(window.completion)
         }
 
         const sendAnnotations = async (completion) => {
+            let data = completion.areas.toJSON();
+            if (typeof completion["manualBools"] != "undefined") {
+                data["manual_bools"] = completion["manualBools"];
+            };
             const response = await fetch('{{ target_url }}', {
                 method: "POST",
-                body: JSON.stringify(completion.areas.toJSON()),
+                body: JSON.stringify(data),
                 headers: {
                     "accept": "application/json",
                     "Content-Type": "application/json"
                 }
             });
+            console.log(JSON.stringify(data))
             const content = await response;
+            let answer = content.ok.toString();
             console.log(content)
-            answer = content.ok.toString().charAt(0).toUpperCase() + content.ok.toString().slice(1);
-            window.location.replace('{{ redirect_url }}?success=' + answer)
+            //window.location.replace('{{ redirect_url }}?success=' + answer)
         }
 
         var labelStudio = new LabelStudio('label-studio', {
@@ -165,9 +172,11 @@
                 LS.completionStore.selectCompletion(c.id);
             },
             onSubmitCompletion: function (LS, completion) {
+                console.log(completion)
                 addBoolsToAnnotationsIfNeeded(completion)
             },
             onUpdateCompletion: function (LS, completion) {
+                console.log(completion)
                 addBoolsToAnnotationsIfNeeded(completion)
             }
         });
