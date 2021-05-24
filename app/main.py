@@ -7,7 +7,7 @@ from flask_babel import _, Babel, Domain
 from flask_restx import Api
 from flask_user import current_user, login_required, UserManager
 from forms import CreateTaskForm
-from utils.schema_tools import construct_first_level_labels
+from utils.schema_tools import get_manual_bools, construct_first_level_labels
 from utils.description_finder import DescriptonFinder
 from utils.translator import Translator
 
@@ -99,13 +99,14 @@ def create_task():
 @app.route('/tasks/<string:task_id>')
 @login_required
 def label(task_id):
-    translator = Translator()
+    # handle success message, after clicking update button
     update_success = request.args.get('success', default=None)
     if update_success:
         flash(_("Annotations updated successfully!"), 'success')
     elif update_success == False:
         flash(_("Error updateing Annotations!"), 'error')
 
+    # get task and its annotations
     task = Task.objects.get(pk=task_id)
     annotations = Annotation.objects(task=task)
 
@@ -114,15 +115,23 @@ def label(task_id):
     descriptions = description_finder.find_descriptions(task)
 
     # translate labels
+    translator = Translator()
     [label.update(name=translator.translate(label["name"])) for label in task.labels]
 
+    # define the API target url and the url to redirect to
     target_url = request.url_root + 'api/task/' + str(task_id) + '/annotation/json'
     redirect_url = request.base_url
+
+    # define colors for labels
     colors = ['blue', 'red', '#1CBA3D', '#13812A', 'orange', 'magenta', 'pink', 'brown', '#B986D4', '#8FA1E2', 'dimgrey',
               '#0A4216', 'darksalmon']
 
+    # decide if postprocessing is needed before sending LSF completion to API url
+    manual_bools = get_manual_bools(task.hierarchy)
+
     return render_template('label.html', task=task, target_url=target_url, annotations=annotations,
-                           redirect_url=redirect_url, colors=colors, descriptions=descriptions)
+                           redirect_url=redirect_url, colors=colors, descriptions=descriptions,
+                           manual_bools=manual_bools)
 
 
 # API Setup

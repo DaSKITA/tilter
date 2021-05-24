@@ -1,11 +1,6 @@
 from config import Config
 from utils.label import AnnotationLabel
 
-def new_subtask_needed(entry):
-    more_than_one_non_artificial = 1 < sum([True for field in entry.keys() if not field.startswith("_")])
-    # TODO: what if element is a list?
-    return more_than_one_non_artificial or any(isinstance(val, dict) for val in entry.values())
-
 def construct_first_level_labels(as_dict: bool = None):
     labels = []
 
@@ -23,3 +18,19 @@ def construct_first_level_labels(as_dict: bool = None):
         labels.append(label)
 
     return labels
+
+def retrieve_schema_level(hierarchy):
+    schema = Config.SCHEMA_DICT.copy()
+    for path_entry in hierarchy:
+        try:
+            schema = schema[path_entry]
+        except TypeError:
+            schema = schema[0][path_entry]
+    if isinstance(schema, list):
+        schema = schema[0]
+    return schema
+
+def get_manual_bools(hierarchy):
+    schema = retrieve_schema_level(hierarchy)
+    return [(k, v) for (k, v) in schema.items() if k[0] == '~' and v[0] != '#']
+
