@@ -6,7 +6,7 @@ BASEDIR=$(dirname "$SCRIPT_DIR")
 if [ -d "$BASEDIR/.venv/bin/activate" ]; then
     source $BASEDIR/.venv/bin/activate
 else
-    echo "No Python Environment found. Actiavte your python environment!"
+    echo "No Python Environment found. Activate your python environment!"
     exit
 fi
 
