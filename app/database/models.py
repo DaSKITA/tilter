@@ -49,3 +49,16 @@ class MetaTask(db.Document):
     url = db.StringField(required=True)
     root_task = db.ReferenceField('Task', required=True)
     _hash = db.StringField(required=False)
+
+
+class HiddenAnnotation(db.Document):
+    """Either an ID or a Boolean Value
+
+    Args:
+        db ([type]): [description]
+    """
+
+    value = db.StringField(required=True)
+    label = db.StringField(required=True)
+    task = db.ReferenceField('Task', required=True)
+    related_to = db.ReferenceField('Annotation', required=False)
