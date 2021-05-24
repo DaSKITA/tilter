@@ -32,9 +32,6 @@ The packages can be found in `scripts/fill_database.sh` after the `pip` command.
 ### v0.1
 ![](./.docs/screen1.png)
 
-## Adding Privacy Policies
-Run `python scripts/feeder.py -d [dir]`, where `[dir]` is the path to a folder containing privacy policies.
-
 ## Languages and Translations
 Currently supported Languages are English (standard) and German. These are realized using the `pybabel` package. For more information regarding this topic please visit the [babel documentation](http://babel.pocoo.org/en/latest/index.html).
 

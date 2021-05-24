@@ -14,7 +14,7 @@ def cli():
 @click.command()
 @click.option('-d', '--directory', default=None, help="Directory which contain Policies as .txt format.")
 @click.option('-l', '--language', default="de", help="Language of the policies.")
-@click.option('-u', '--url-mapping-path', default=None, help="Url Mapping frpm file name to url")
+@click.option('-u', '--url-mapping-path', default=None, help="Url Mapping from file name to url")
 def jsonify_policies(directory: str, language: str, url_mapping_path: str):
     """
     Transforms a .txt policy into a json file with inputs for the application.
