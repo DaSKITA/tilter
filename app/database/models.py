@@ -36,3 +36,16 @@ class Annotation(db.Document):
     label = db.StringField(required=True)
     task = db.ReferenceField('Task', required=True)
     related_to = db.ReferenceField('Annotation')
+
+
+class HiddenAnnotation(db.Document):
+    """Either an ID or a Boolean Value
+
+    Args:
+        db ([type]): [description]
+    """
+
+    value = db.StringField(required=True)
+    label = db.StringField(required=True)
+    task = db.ReferenceField('Task', required=True)
+    related_to = db.ReferenceField('Annotation', required=False)

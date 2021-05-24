@@ -2,7 +2,7 @@ from typing import Dict, List
 from config import Config
 import json
 from database.models import Task
-from utils.label import Label
+from utils.label import AnnotationLabel
 
 
 class DescriptonFinder:
@@ -15,6 +15,9 @@ class DescriptonFinder:
         """
         with open(Config.DESC_PATH, "r") as json_file:
             self.tilt_descriptions = json.load(json_file)
+        self.exception_list = {
+            "recipientsOnlyCategory": "category"
+        }
 
     def _find_description_by_label_chain(self, label_chain: List[str],
                                          tilt_dict: Dict[str, str] = None) -> str:
@@ -38,7 +41,11 @@ class DescriptonFinder:
             else:
                 return tilt_entry
         else:
-            description = tilt_dict["description"]
+            try:
+                description = tilt_dict["description"]
+            except KeyError:
+                print(Warning(f"Could not find description key in {tilt_dict}"))
+                description = "No description found!"
         return description
 
     def find_descriptions(self, task: 'Task') -> Dict[str, str]:
@@ -56,7 +63,7 @@ class DescriptonFinder:
         label_descriptions = {}
         for idx, desc_label in enumerate(task.desc_keys):
             label_chain = task.hierarchy + [desc_label]
-            label_descriptions[Label(**task.labels[idx]).name] = self._find_description_by_label_chain(
+            label_descriptions[AnnotationLabel(**task.labels[idx]).name] = self._find_description_by_label_chain(
                 label_chain,
                 tilt_dict=self.tilt_descriptions
                 )
@@ -80,7 +87,11 @@ class DescriptonFinder:
         desc = tilt_dict.get(label)
         if not desc:
             if tilt_dict.get("additionalProperties"):
-                desc = tilt_dict["properties"][label]
+                try:
+                    desc = tilt_dict["properties"][label]
+                except KeyError:
+                    label = self.exception_list[label]
+                    desc = tilt_dict["properties"][label]
             if tilt_dict.get("additionalItems"):
                 desc = tilt_dict["items"]["anyOf"][0]
                 desc = self._get_entry_from_tilt_desc_dict(label=label, tilt_dict=desc)

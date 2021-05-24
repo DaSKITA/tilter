@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -35,14 +38,23 @@
         $(document).ready(function () {
             // hide task id text
             $('.ls-task-info').hide();
-            // make update button float
+            // make update button float and hide it
             $('[class*="Controls_block"]').css({'position': 'fixed', 'bottom': '1em', 'right': '9.8em'});
+            $('[class*="Controls_block"]').hide();
             // give app menu margin-bottom to make room for update button
             $('[class*="App_menu"]').css('margin-bottom', '5em');
             // increase update button width
-            $('.ls-update-btn').css('width', '200px')
+            $('.ls-update-btn').css({'width': '250px', 'height': '75px', 'font-size': '150%'});
             // hide delete all labels button
             $('div.ant-card-head-title').find('button.ant-btn-danger').hide()
+
+            $(window).on("scroll", function () {
+               if ($(this).scrollTop() > 400) {
+                  $('[class*="Controls_block"]').fadeIn();
+               } else {
+                  $('[class*="Controls_block"]').fadeOut(200);
+               }
+            });
 
 
             $('.toggle').click(function (e) {
