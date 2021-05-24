@@ -11,7 +11,6 @@ from utils.schema_tools import construct_first_level_labels
 from utils.description_finder import DescriptonFinder
 from utils.translator import Translator
 
-
 # Initialize Flask App
 app = Flask(__name__)
 app.config.from_object(Config)
