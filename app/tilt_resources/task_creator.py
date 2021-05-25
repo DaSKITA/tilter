@@ -183,5 +183,6 @@ class TaskCreator:
             linked_annotation = LinkedAnnotation(task=task,
                                                  label=linked_label["name"],
                                                  related_to=related_annotation,
-                                                 value=subtask_key)
+                                                 value=subtask_key,
+                                                 manual=False)
             linked_annotation.save()
