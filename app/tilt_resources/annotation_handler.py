@@ -108,9 +108,9 @@ class AnnotationHandler:
         for manual_bool_label, manual_bool_value in manual_bools_dict.items():
             try:
                 manual_bool_annotation = LinkedAnnotation.objects.get(task=task,
-                                                                     manual=True,
-                                                                     value=manual_bool_value,
-                                                                     label=manual_bool_label)
+                                                                      manual=True,
+                                                                      value=manual_bool_value,
+                                                                      label=manual_bool_label)
                 print("Manual Annotation already exists. Overwriting Values...")
                 manual_bool_annotation.value = manual_bool_value
             except DoesNotExist:
