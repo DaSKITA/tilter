@@ -89,7 +89,7 @@
     {% if current_user.is_authenticated %}
         <div class="navbar-custom-right">
             <p class="navbar-custom-text">{{ current_user.username }}</p>
-            <a href="{{ url_for('user.logout') }}" class="btn btn-danger navbar-custom-btn">{{ _('Sign out') }}</a>
+            <a href="{{ url_for('user.logout') }}" class="btn btn-danger navbar-custom-btn"><i class="bi bi-box-arrow-left"></i> {{ _('Sign out') }}</a>
         </div>
     {% else %}
         <div class="navbar-custom-right">
