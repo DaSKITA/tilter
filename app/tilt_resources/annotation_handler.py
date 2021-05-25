@@ -110,13 +110,11 @@ class AnnotationHandler:
             try:
                 manual_bool_annotation = LinkedAnnotation.objects.get(task=task,
                                                                       manual=True,
-                                                                      value=manual_bool_value,
                                                                       label=manual_bool_label)
                 print("Manual Annotation already exists. Overwriting Values...")
                 manual_bool_annotation.value = manual_bool_value
             except DoesNotExist:
                 manual_bool_annotation = LinkedAnnotation(task=task, manual=True,
-                                                          value=manual_bool_value,
                                                           label=manual_bool_label)
             manual_bool_annotation.save()
         print("Manual Bools created.")
