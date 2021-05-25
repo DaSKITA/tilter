@@ -31,20 +31,24 @@
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title">Modal title</h5>
+                        <h5 class="modal-title">Zusätzliche Annotationen</h5><!-- todo: translate -->
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
+                        <table>
                         {% for bool in manual_bools %}
-                            <label class="form-check-label" for="flexCheckDefault">
-                                {{ bool[1] }}
-                            <!-- todo: tooltips (https://getbootstrap.com/docs/4.0/components/modal/#tooltips-and-popovers) -->
-                            </label>
-                            <input class="form-check-input manual-bool-checkbox" type="checkbox" value="" id="{{ bool[0] }}">
-                            <br>
+                            <div style="display: block">
+                                <input class="manual-bool-checkbox" type="checkbox" value="" id="{{ bool[0] }}">
+                                <label class="manual-bool-label" for="flexCheckDefault">
+                                    {{ bool[1] }}
+                                    <!-- todo: tooltips (https://getbootstrap.com/docs/4.0/components/modal/#tooltips-and-popovers) -->
+                                    <!-- todo: translate -->
+                                </label>
+                            </div>
                         {% endfor %}
+                        </table>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -68,11 +72,9 @@
         const addBoolsToAnnotationsIfNeeded = async (completion) => {
             {% if manual_bools %}
                 window.completion = completion
-                $('#manualBoolModal').modal({
-                    backdrop: false
-                })
+                $('#manualBoolModal').modal()
             {% else %}
-                sendAnnotations(completion)
+                await sendAnnotations(completion)
             {% endif %}
         }
 
@@ -99,11 +101,9 @@
                     "Content-Type": "application/json"
                 }
             });
-            console.log(JSON.stringify(data))
             const content = await response;
             let answer = content.ok.toString();
-            console.log(content)
-            //window.location.replace('{{ redirect_url }}?success=' + answer)
+            window.location.replace('{{ redirect_url }}?success=' + answer)
         }
 
         var labelStudio = new LabelStudio('label-studio', {
