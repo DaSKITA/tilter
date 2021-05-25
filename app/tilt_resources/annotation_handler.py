@@ -105,7 +105,8 @@ class AnnotationHandler:
             print("No linked Annotations found.")
 
     def create_manual_annotations(self, manual_bools_dict, task):
-        for manual_bool_label, manual_bool_value in manual_bools_dict.items():
+        for manual_bool_dict in manual_bools_dict:
+            manual_bool_label, manual_bool_value = list(manual_bool_dict.items())[0]
             try:
                 manual_bool_annotation = LinkedAnnotation.objects.get(task=task,
                                                                       manual=True,

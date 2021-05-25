@@ -3,6 +3,7 @@ import os
 from pathlib import Path
 import json
 
+
 # Flask Config from Class
 class Config(object):
 

@@ -165,10 +165,10 @@ class AnnotationByTaskIdInJSON(Resource):
         task = Task.objects.get(id=id)
         task_creator = TaskCreator(task)
         data = request.json
-        manual_bools = data.pop('manual_bools')
+        manual_bools = data.pop('manual_bools', None)
         annotation_handler = AnnotationHandler()
         if manual_bools:
-            annotation_handler.create_manual_annotations(manual_bools[0], task)
+            annotation_handler.create_manual_annotations(manual_bools, task)
         shaped_data = [{
             "task": task,
             "label": translator.translate_reverse(content['results'][0]['value']['labels'][0]),
