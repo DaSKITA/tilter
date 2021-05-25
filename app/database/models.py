@@ -35,7 +35,6 @@ class Annotation(db.Document):
     text = db.StringField(required=True)
     label = db.StringField(required=True)
     task = db.ReferenceField('Task', required=True)
-    related_to = db.ReferenceField('Annotation')
 
 
 class MetaTask(db.Document):
@@ -52,7 +51,7 @@ class MetaTask(db.Document):
 
 
 class HiddenAnnotation(db.Document):
-    """Either an ID or a Boolean Value
+    """An ID in the tilt.
 
     Args:
         db ([type]): [description]
@@ -61,4 +60,16 @@ class HiddenAnnotation(db.Document):
     value = db.StringField(required=True)
     label = db.StringField(required=True)
     task = db.ReferenceField('Task', required=True)
-    related_to = db.ReferenceField('Annotation', required=False)
+
+
+class LinkedAnnotation(db.Document):
+    """Annotations that fill out automaticall, when a label to a related annotation is given.
+
+    Args:
+        db ([type]): [description]
+    """
+    task = db.ReferenceField('Task', required=True)
+    value = db.BooleanField(required=False)
+    label = db.StringField(required=True)
+    related_to = db.ReferenceField('Annotation')
+    manual = db.BooleanField(required=True)

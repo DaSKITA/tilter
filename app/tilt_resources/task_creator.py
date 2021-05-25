@@ -1,7 +1,7 @@
 from typing import Dict, List, Tuple, Union
 from collections import defaultdict
 
-from database.models import Task, Annotation, HiddenAnnotation
+from database.models import LinkedAnnotation, Task, Annotation, HiddenAnnotation
 from config import Config
 from utils.label import AnnotationLabel, ManualBoolLabel, LinkedBoolLabel, IdLabel, Label, LabelEnum
 
@@ -61,8 +61,9 @@ class TaskCreator:
                                                text=annotation.text,
                                                start=annotation.start, end=annotation.end)
                     new_task_anno.save()
-
                     self._create_id_annotations(label_dict[LabelEnum.ID], new_task)
+                    self._create_linked_annotations(label_dict[LabelEnum.LINKED], task=new_task,
+                                                    schema_value=schema_value)
 
     def _process_dict_entry(self, dict_entry: Dict) -> Tuple[List, List]:
         """Performs different processing routines, depending on the dictionary key and dictionary value.
@@ -84,7 +85,9 @@ class TaskCreator:
                     label = IdLabel(name="_id")
             elif dict_key.startswith("~"):
                 if dict_value.startswith("#"):
-                    label = LinkedBoolLabel(name=dict_key, linked_entry=dict_value.split("#")[1])
+                    linked_entry_key = dict_value.split("#")[1]
+                    label = LinkedBoolLabel(name=dict_key, linked_entry_value=dict_entry[linked_entry_key],
+                                            linked_entry_key=linked_entry_key)
                 else:
                     label = ManualBoolLabel(name=dict_key, manual_bool_entry=dict_value)
             else:
@@ -169,3 +172,17 @@ class TaskCreator:
                         if type(schema_value[schema_value['_key']]) is not list \
                         else schema_value[schema_value['_key']][0]
         return new_task_anno_label
+
+    def _create_linked_annotations(self, linked_label_list: List, task: Task, schema_value: Dict):
+        for linked_label in linked_label_list:
+            related_annotation = Annotation.objects(task=task, label=linked_label["linked_entry_value"])[0]
+            if linked_label["linked_entry_key"] == schema_value["_key"]:
+                subtask_key = True
+            else:
+                subtask_key = False
+            linked_annotation = LinkedAnnotation(task=task,
+                                                 label=linked_label["name"],
+                                                 related_to=related_annotation,
+                                                 value=subtask_key,
+                                                 manual=False)
+            linked_annotation.save()

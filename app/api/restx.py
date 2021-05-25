@@ -3,7 +3,7 @@ from database.models import Task, Annotation
 from flask import request
 from flask_restx import fields, Namespace, Resource
 from mongoengine import DoesNotExist
-from utils.schema_tools import construct_first_level_labels, new_subtask_needed
+from utils.schema_tools import construct_first_level_labels
 from utils.create_tilt import create_tilt
 from utils.label import AnnotationLabel
 from utils.translator import Translator
@@ -165,19 +165,20 @@ class AnnotationByTaskIdInJSON(Resource):
         task = Task.objects.get(id=id)
         task_creator = TaskCreator(task)
         data = request.json
+        manual_bools = data.pop('manual_bools', None)
+        annotation_handler = AnnotationHandler()
+        if manual_bools:
+            annotation_handler.create_manual_annotations(manual_bools, task)
         shaped_data = [{
             "task": task,
             "label": translator.translate_reverse(content['results'][0]['value']['labels'][0]),
             "start": content['start'],
             "end": content['end'],
             "text": content['text']} for content in data.values()]
-        annotation_handler = AnnotationHandler()
-
         new_annotations, current_annotations = annotation_handler.filter_new_annotations(shaped_data)
         annotation_handler.synch_task_annotations(task, current_annotations)
-
         task_creator.create_subtasks(new_annotations)
-        return new_annotations
+
 
 
 @ns.route('/tilt')

@@ -1,5 +1,5 @@
 from config import Config
-from database.models import Task, Annotation, HiddenAnnotation, MetaTask
+from database.models import Task, Annotation, HiddenAnnotation, MetaTask, LinkedAnnotation
 from mongoengine import DoesNotExist
 from tilt_resources.meta import Meta
 
@@ -30,6 +30,7 @@ def iterate_through_hierarchy_level(parent_task, hierarchy):
                 tilt_value_part = {}
                 # iterate through current schema hierarchy
                 for key, val in local_schema.items():
+                    # TODO: incorporate linked annotations
                     if type(val) in [dict, list]:
                         val = val[0] if isinstance(val, list) else val
                         new_hierarchy = hierarchy.copy()
@@ -39,6 +40,13 @@ def iterate_through_hierarchy_level(parent_task, hierarchy):
                         continue
                     elif key == "_id":
                         tilt_value_part[key] = HiddenAnnotation.objects.get(task=task, label=val).value
+                    elif key.startswith("~"):
+                        if val.startswith("#"):
+                            tilt_value_part[key[1:]] = \
+                                LinkedAnnotation.objects.get(task=task, label=key, manual=False).value
+                        else:
+                            tilt_value_part[key[1:]] = \
+                                LinkedAnnotation.objects.get(task=task, label=key, manual=True).value
                     else:
                         try:
                             tilt_value_part[key] = Annotation.objects.get(task=task, label=val).text
@@ -71,6 +79,19 @@ def iterate_through_hierarchy_level(parent_task, hierarchy):
                 tilt_value[key] = iterate_through_hierarchy_level(child_task, new_hierarchy)
             elif key in ['_desc', '_key']:
                 continue
+            elif key.startswith("~"):
+                if val.startswith("#"):
+                    try:
+                        tilt_value[key[1:]] = \
+                            LinkedAnnotation.objects.get(task=child_task, label=key, manual=False).value
+                    except DoesNotExist:
+                        tilt_value[key[1:]] = None
+                else:
+                    try:
+                        tilt_value[key[1:]] = \
+                            LinkedAnnotation.objects.get(task=child_task, label=key, manual=True).value
+                    except DoesNotExist:
+                        tilt_value[key[1:]] = None
             else:
                 try:
                     tilt_value[key] = Annotation.objects.get(task=child_task, label=val).text

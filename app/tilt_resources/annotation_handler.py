@@ -1,6 +1,6 @@
 from mongoengine import DoesNotExist
 from typing import Union, Tuple, List
-from database.models import Annotation, Task
+from database.models import Annotation, LinkedAnnotation, Task
 
 
 class AnnotationHandler:
@@ -9,7 +9,7 @@ class AnnotationHandler:
         self.all_current_annotations = []
         self.new_annotations = []
 
-    def get_annotation(self, task=None, text=None, start=None, end=None, label=None) -> Union[Annotation, None]:
+    def get_annotation(self, task=None, text=None, start=None, end=None, label=None, annotation_class=None) -> Union[Annotation, None]:
         """Retrieves an Annotation by values. If the Annotation does not exist an error is thrown.
 
         Args:
@@ -92,4 +92,29 @@ class AnnotationHandler:
         for anno in Annotation.objects(task=task):
             if anno.id not in current_annotation_list:
                 self.delete(anno)
-            # TODO: set annotations automatically which are linked
+            else:
+                self.synch_linked_annotations(related_annotation=anno, task=task)
+
+    def synch_linked_annotations(self, task, related_annotation: None):
+        try:
+            linked_annotations = LinkedAnnotation.objects(related_to=related_annotation, task=task)
+            for linked_annotation in linked_annotations:
+                linked_annotation.value = True
+                linked_annotation.save()
+        except DoesNotExist:
+            print("No linked Annotations found.")
+
+    def create_manual_annotations(self, manual_bools_dict, task):
+        for manual_bool_dict in manual_bools_dict:
+            manual_bool_label, manual_bool_value = list(manual_bool_dict.items())[0]
+            try:
+                manual_bool_annotation = LinkedAnnotation.objects.get(task=task,
+                                                                      manual=True,
+                                                                      label=manual_bool_label)
+                print("Manual Annotation already exists. Overwriting Values...")
+                manual_bool_annotation.value = manual_bool_value
+            except DoesNotExist:
+                manual_bool_annotation = LinkedAnnotation(task=task, manual=True,
+                                                          label=manual_bool_label)
+            manual_bool_annotation.save()
+        print("Manual Bools created.")
