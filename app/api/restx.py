@@ -165,7 +165,7 @@ class AnnotationByTaskIdInJSON(Resource):
         task = Task.objects.get(id=id)
         task_creator = TaskCreator(task)
         data = request.json
-        if data.has_key('manual_bool'):
+        if 'manual_bool' in data:
             manual_bools = data['manual_bool']
             data = data['completion']
         shaped_data = [{
