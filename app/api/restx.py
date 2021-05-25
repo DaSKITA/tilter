@@ -165,26 +165,19 @@ class AnnotationByTaskIdInJSON(Resource):
         task = Task.objects.get(id=id)
         task_creator = TaskCreator(task)
         data = request.json
-        manual_bools = data.get('manual_bools')[0]
+        manual_bools = data.pop('manual_bools')
         annotation_handler = AnnotationHandler()
         if manual_bools:
-            annotation_handler.create_manual_annotations(manual_bools, task)
-        try:
-            shaped_data = [{
-                "task": task,
-                "label": translator.translate_reverse(content['results'][0]['value']['labels'][0]),
-                "start": content['start'],
-                "end": content['end'],
-                "text": content['text']} for content in data.values()]
-            new_annotations, current_annotations = annotation_handler.filter_new_annotations(shaped_data)
-
-            annotation_handler.synch_task_annotations(task, current_annotations)
-
-            task_creator.create_subtasks(new_annotations)
-        except TypeError:
-            print("No valuable Annotations provided.")
-
-        # todo: return?
+            annotation_handler.create_manual_annotations(manual_bools[0], task)
+        shaped_data = [{
+            "task": task,
+            "label": translator.translate_reverse(content['results'][0]['value']['labels'][0]),
+            "start": content['start'],
+            "end": content['end'],
+            "text": content['text']} for content in data.values()]
+        new_annotations, current_annotations = annotation_handler.filter_new_annotations(shaped_data)
+        annotation_handler.synch_task_annotations(task, current_annotations)
+        task_creator.create_subtasks(new_annotations)
 
 
 
