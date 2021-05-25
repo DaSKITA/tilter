@@ -72,3 +72,4 @@ class LinkedAnnotation(db.Document):
     value = db.BooleanField(required=True)
     label = db.StringField(required=True)
     related_to = db.ReferenceField('Annotation')
+    manual = db.BooleanField(required=True)

@@ -9,7 +9,7 @@ class AnnotationHandler:
         self.all_current_annotations = []
         self.new_annotations = []
 
-    def get_annotation(self, task=None, text=None, start=None, end=None, label=None) -> Union[Annotation, None]:
+    def get_annotation(self, task=None, text=None, start=None, end=None, label=None, annotation_class=None) -> Union[Annotation, None]:
         """Retrieves an Annotation by values. If the Annotation does not exist an error is thrown.
 
         Args:
@@ -103,3 +103,18 @@ class AnnotationHandler:
                 linked_annotation.save()
         except DoesNotExist:
             print("No linked Annotations found.")
+
+    def create_manual_annotations(self, manual_bools_dict, task):
+        for manual_bool_label, manual_bool_value in manual_bools_dict.items():
+            try:
+                manual_bool_annotation = LinkedAnnotation.objects.get(task=task,
+                                                                     manual=True,
+                                                                     value=manual_bool_value,
+                                                                     label=manual_bool_label)
+                print("Manual Annotation already exists. Overwriting...")
+                manual_bool_annotation.value = manual_bool_value
+            except DoesNotExist:
+                manual_bool_annotation = LinkedAnnotation(task=task, manual=True,
+                                                          value=manual_bool_value,
+                                                          label=manual_bool_label)
+            manual_bool_annotation.save()

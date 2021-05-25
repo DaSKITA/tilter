@@ -43,7 +43,10 @@ def iterate_through_hierarchy_level(parent_task, hierarchy):
                     elif key.startswith("~"):
                         if val.startswith("#"):
                             tilt_value_part[key[1:]] = \
-                                LinkedAnnotation.objects.get(task=task, label=key).value
+                                LinkedAnnotation.objects.get(task=task, label=key, manual=False).value
+                        else:
+                            tilt_value_part[key[1:]] = \
+                                LinkedAnnotation.objects.get(task=task, label=key, manual=True).value
                     else:
                         try:
                             tilt_value_part[key] = Annotation.objects.get(task=task, label=val).text
@@ -80,7 +83,13 @@ def iterate_through_hierarchy_level(parent_task, hierarchy):
                 if val.startswith("#"):
                     try:
                         tilt_value[key[1:]] = \
-                            LinkedAnnotation.objects.get(task=child_task, label=key).value
+                            LinkedAnnotation.objects.get(task=child_task, label=key, manual=False).value
+                    except DoesNotExist:
+                        tilt_value[key[1:]] = None
+                else:
+                    try:
+                        tilt_value[key[1:]] = \
+                            LinkedAnnotation.objects.get(task=child_task, label=key, manual=True).value
                     except DoesNotExist:
                         tilt_value[key[1:]] = None
             else:
