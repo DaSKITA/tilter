@@ -2,6 +2,7 @@ from config import Config
 from database.models import Task, Annotation, HiddenAnnotation, MetaTask, LinkedAnnotation
 from mongoengine import DoesNotExist
 from tilt_resources.meta import Meta
+from tilt_resources.tilt_creator import TiltCreator
 
 
 def iterate_through_hierarchy_level(parent_task, hierarchy):
@@ -112,6 +113,11 @@ def create_tilt(id):
     for entry in Config.SCHEMA_DICT.keys():
         tilt_value = iterate_through_hierarchy_level(root, [entry])
         tilt_dict[entry] = tilt_value
+
+    # TODO: this class needs to be extended
+    tilt_creator = TiltCreator(tilt_dict)
+    tilt_creator.write_tilt_default_values()
+    tilt_dict = tilt_creator.get_tilt_document()
 
     # Create Meta Object
     meta_document_obj = MetaTask.objects.get(root_task=root)
