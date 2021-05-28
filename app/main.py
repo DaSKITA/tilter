@@ -140,3 +140,6 @@ api = Api(api_bp, version='1.0', title='TILTer API', doc='/docs/',
           description='A simple API granting access to Task & Annotation objects and TILT document conversions')
 api.add_namespace(ns)
 app.register_blueprint(api_bp)
+
+if __name__ == "__main__":
+    app.run(use_debugger=False, use_reloader=False, passthrough_errors=True)
