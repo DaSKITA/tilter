@@ -27,6 +27,13 @@ browser.
 
 __Note:__ You can also use the [feeder.py](/scripts/feeder.py) CLI drectly. For more Information run: `python feeder.py --help`. Make sure to install the required packages before.
 The packages can be found in `scripts/fill_database.sh` after the `pip` command.
+
+## Deployment
+
+The TILTer ist currently deployed in a [google compute engine](http://34.89.190.55:5000/).
+Deplyoment is not automated. Inside the engine the repository is clonded and has to be manually synched with
+the remote repository. For access to the compute engine ask Michael, to provide you with the necessary
+`ssh-keys`. The deployment will be active for 90 days (from 31.05.2021).
 ## Versions
 
 ### v0.1
