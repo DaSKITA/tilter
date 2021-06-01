@@ -40,6 +40,8 @@ root directory of the titler.
 
 The deployment will be active for 90 days (from 31.05.2021) without any costs. Afterwards running the TILTer
 will costs ~13 Euros per month.
+
+The Deployment can be accessed under: http://34.89.190.55:5000
 ## Versions
 
 ### v0.1
