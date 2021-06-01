@@ -36,8 +36,14 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
+                {% for label in task.labels %}
+                    <div id="{{ label.name }}" class="modal-body">
+                        <label class="annotation-label">{{ label.name }}</label>
+                        <p class="annotation"></p>
+                    </div>
+                {% endfor %}
                     <div class="modal-body">
-                        <table>
+                        <table class="modal-checkboxes">
                         {% for bool in manual_bools %}
                             <div style="display: block">
                                 <input class="manual-bool-checkbox" type="checkbox" value="" id="{{ bool[0] }}">
@@ -69,10 +75,32 @@
 
     <!-- Initialize Label Studio -->
     <script>
+        function getAnnotationsByLabel(label, completion) {
+            let annotations = [];
+            completion.serializeCompletion().forEach( function (element) {
+                    if (element["value"]["labels"][0] === label) {
+                        annotations.push(element["value"]["text"]);
+                    }
+                }
+            )
+            return annotations.join("\n");
+        }
+
         const addBoolsToAnnotationsIfNeeded = async (completion) => {
+            console.log(window)
             {% if manual_bools %}
-                window.completion = completion
-                $('#manualBoolModal').modal()
+                window.completion = completion;
+                let labelText;
+                {% for label in task.labels %}
+                    labelText = getAnnotationsByLabel("{{ label.name }}", completion);
+                    if (labelText) {
+                        $('#{{ label.name }}').show()
+                        $('#{{ label.name }}').children("p").text(labelText);
+                    } else {
+                        $('#{{ label.name }}').hide()
+                    }
+                {% endfor %}
+                $('#manualBoolModal').modal();
             {% else %}
                 await sendAnnotations(completion)
             {% endif %}

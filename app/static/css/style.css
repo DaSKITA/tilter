@@ -49,7 +49,6 @@ img.index-image {
     width: inherit;
 }
 
-
 img.index-logo {
     margin-bottom: 1.25em;
     width: 25%;
@@ -145,4 +144,12 @@ table.explanation {
 
 label.manual-bool-label {
     padding-left: 1em;
+}
+
+label.annotation-label {
+    font-size: large;
+}
+
+p.annotation {
+    margin: 0 1em 0 1em;
 }
