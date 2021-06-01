@@ -48,8 +48,7 @@
                             <div style="display: block">
                                 <input class="manual-bool-checkbox" type="checkbox" value="" id="{{ bool[0] }}">
                                 <label class="manual-bool-label" for="flexCheckDefault">
-                                    {{ bool[1] }}
-                                    <!-- todo: tooltips (https://getbootstrap.com/docs/4.0/components/modal/#tooltips-and-popovers) -->
+                                    {{ bool[1] }}<a href="#" class="tooltip-link" data-toggle="tooltip" title="{{ tooltips[loop.index0] }}"><i class="fa fa-info-circle manual-bool-icon" aria-hidden="true"></i></a>
                                     <!-- todo: translate -->
                                 </label>
                             </div>
@@ -87,19 +86,19 @@
         }
 
         const addBoolsToAnnotationsIfNeeded = async (completion) => {
-            console.log(window)
             {% if manual_bools %}
                 window.completion = completion;
                 let labelText;
                 {% for label in task.labels %}
                     labelText = getAnnotationsByLabel("{{ label.name }}", completion);
                     if (labelText) {
-                        $('#{{ label.name }}').show()
+                        $('#{{ label.name }}').show();
                         $('#{{ label.name }}').children("p").text(labelText);
                     } else {
-                        $('#{{ label.name }}').hide()
+                        $('#{{ label.name }}').hide();
                     }
                 {% endfor %}
+                $('[data-toggle="tooltip"]').tooltip();
                 $('#manualBoolModal').modal();
             {% else %}
                 await sendAnnotations(completion)
@@ -200,11 +199,9 @@
                 LS.completionStore.selectCompletion(c.id);
             },
             onSubmitCompletion: function (LS, completion) {
-                console.log(completion)
                 addBoolsToAnnotationsIfNeeded(completion)
             },
             onUpdateCompletion: function (LS, completion) {
-                console.log(completion)
                 addBoolsToAnnotationsIfNeeded(completion)
             }
         });

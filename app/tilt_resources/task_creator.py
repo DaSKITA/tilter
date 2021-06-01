@@ -37,7 +37,7 @@ class TaskCreator:
             for schema_key, schema_value in schema_level.items():
                 schema_value = schema_value[0] if isinstance(schema_value, list) else schema_value
                 if isinstance(schema_value, dict) and self._subtasks_needed(schema_value, annotation):
-                    labels, desc_keys = self._process_dict_entry(schema_value)
+                    labels, desc_keys, manual_bool_desc_keys = self._process_dict_entry(schema_value)
                     new_task_hierarchy = self.task.hierarchy + [schema_key]
                     label_dict = self._filter_labels(labels)
 
@@ -52,7 +52,8 @@ class TaskCreator:
                                         "predictions:menu"],
                                     html=self.task.html,
                                     text=self.task.text,
-                                    desc_keys=desc_keys)
+                                    desc_keys=desc_keys,
+                                    manual_bool_desc_keys=manual_bool_desc_keys)
                     new_task.save()
 
                     # create annotation for new task
@@ -78,6 +79,7 @@ class TaskCreator:
         # TODO: move descriptions keys into labels
         labels = []
         desc_keys = []
+        manual_bool_desc_keys = []
         for dict_key, dict_value in dict_entry.items():
             label = None
             if dict_key.startswith("_"):
@@ -90,6 +92,7 @@ class TaskCreator:
                                             linked_entry_key=linked_entry_key)
                 else:
                     label = ManualBoolLabel(name=dict_key, manual_bool_entry=dict_value)
+                    manual_bool_desc_keys.append(dict_key)
             else:
                 label = self._create_annotation_label(dict_value)
                 desc_keys.append(dict_key)

@@ -153,3 +153,16 @@ label.annotation-label {
 p.annotation {
     margin: 0 1em 0 1em;
 }
+
+a.tooltip-link, a.tooltip-link:hover, a.tooltip-link:focus, a.tooltip-link:active {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.78);
+}
+
+.tooltip-inner {
+    max-width: 350px;
+}
+
+i.manual-bool-icon {
+    padding-left: 0.5em;
+}

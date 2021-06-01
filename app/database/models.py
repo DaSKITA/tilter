@@ -12,6 +12,7 @@ class Task(db.Document):
     text = db.StringField()
     html = db.BooleanField()
     desc_keys = db.ListField()
+    manual_bool_desc_keys = db.ListField()
 
 
 class User(db.Document, UserMixin):
