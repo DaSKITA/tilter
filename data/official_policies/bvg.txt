@@ -1,0 +1,686 @@
+Datenschutzerklärung
+1       Allgemeines
+Die Berliner Verkehrsbetriebe AöR, Holzmarktstraße 15-17, 10179 Berlin („BVG“ oder „wir“) beachtet die gesetzlichen Datenschutzbestimmungen. Daten der Nutzer werden vertraulich behandelt. Eine Weitergabe an Dritte erfolgt nur, soweit dies die Datenschutzbestimmungen gestatten oder der Nutzer hierin einwilligt.
+
+Personenbezogene Daten sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen (Art. 4 Nr. 1 EU-Datenschutzgrundverordnung („DSGVO“)). Darunter fallen Informationen wie Ihr Name, Ihre E-Mail-Adresse, Ihre Postanschrift oder Ihre Telefonnummer. Informationen, die nicht direkt mit Ihrer Identität in Verbindung gebracht werden, wie z.B. die Anzahl der Nutzer einer Internetpräsenz, fallen nicht hierunter.
+
+Bei Cookies handelt es sich um kleine Textinformationen, die in Webbrowsern verwendet werden. Cookies werden verwendet, um Kennungen und sonstige Informationen auf Computern, Telefonen und anderen Geräten zu speichern bzw. zu erhalten.
+
+Cookies können keine Programme ausführen oder Viren auf Ihren Computer übertragen. Sie dienen dazu, das Internetangebot insgesamt nutzerfreundlicher und effektiver zu machen.
+
+Wenn wir im folgenden von „Cookies“ sprechen, meinen wir damit stets auch vergleichbare Technologien, die für ähnliche Zwecke genutzt werden.
+
+Auf unserer Webseite setzen wir sowohl eigene Cookies, als auch Cookies von eingebundenen Diensten Dritter ein.
+
+Wir setzen funktionale Cookies ein, um Ihnen eine reibungslose Nutzung unserer Webseite zu ermöglichen. Daneben setzen wir Marketing-Cookies ein, um den Erfolg unserer Online-Werbemaßnahmen zu messen und eine optimale Verteilung unseres Werbebudgets zu ermöglichen. Weiterhin setzen wir Analyse-Cookies ein, die uns helfen, die Nutzung unserer Webseite besser zu verstehen und um unser Angebot für Sie noch passgenauer zu gestalten.
+
+Für eine direkte Kontaktaufnahme mit unserem Datenschutzbeauftragten beachten Sie bitte Ziffer 6.2.
+
+2       Einführung zur Datenverarbeitung bei der Nutzung der Webseite
+Die Datenverarbeitung auf unserer Webseite umfasst diejenigen personenbezogenen Daten, welche benötigt werden, um die informatorische Nutzung unserer Website, die Kontaktaufnahme per E-Mail oder über das Kontaktformular sowie die Nutzung des Portals „Meine BVG“ zu ermöglichen. Daneben setzen wir funktionale Cookies und ähnliche Technologien ein (hierzu unter 3.1 und 4.1), um die Nutzung unserer Webseite zu ermöglichen. Eine Verarbeitung weiterer personenbezogener Daten findet nur statt, soweit Sie der Verarbeitung zustimmen oder eine andere Rechtsgrundlage dies gestattet. Dies umfasst insbesondere diejenigen Daten, welche Sie freiwillig bei der Kontaktaufnahme sowie im Portal „Meine BVG“ angeben, sowie Daten zu Analyse- und Marketingzwecken (hierzu unter 4.2 und 4.3). Eine Verpflichtung zur Bereitstellung Ihrer personenbezogenen Daten besteht nicht.  Falls Sie die jeweils erforderlichen Daten nicht bereitstellen, kann die entsprechende Dienstleistung jedoch nicht erbracht werden.
+
+Bei der bloß informatorischen Nutzung der Website, also wenn Sie sich nicht zur Nutzung der Website anmelden, registrieren oder uns sonst Informationen übermitteln, verarbeiten wir keine personenbezogenen Daten, mit Ausnahme der Daten, die Ihr Browser übermittelt, um Ihnen den Besuch der Website sowie die IT-Sicherheit der Webseite zu ermöglichen. Hierzu gehören Ihre IP-Adresse, Datum und Uhrzeit der Anfrage, der verwendete Browser und der Inhalt der Anforderung. Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 S.1 lit. b, f DSGVO. Wir haben ein berechtigtes Interesse daran, die Stabilität und Sicherheit der Webseite zu gewährleisten.
+
+Wenn Sie hierin gemäß Art. 6 Abs. 1 S. 1 lit. a DSGVO eingewilligt haben, werden die vorgenannten Daten auch zu Marketing- und Analysezwecken verarbeitet und mit Dritten geteilt (hierzu unter 4.2 und 4.3).
+
+Um die Daten zwischen Ihrem Rechner und der Website sicher zu übertragen, verwenden wir die aktuelle Version des Verschlüsselungsprotokolls TLS 1.3. Damit werden die Daten vor dem Zugriff und der Manipulation unbefugter Dritter geschützt.
+
+Bitte stellen Sie sicher, dass Ihr Browser auf dem aktuellsten Stand ist und den Verschlüsselungsstandard TLS 1.3 unterstützt. Sollte Ihr Browser nicht auf dem aktuellsten Stand sein, werden Daten automatisch mit einer niedrigeren Version von TLS ausgetauscht, die der Konfiguration Ihres Browsers entspricht.
+
+3       Nutzung von Funktionen unserer Website
+Nachfolgend informieren wir Sie über die Datenverarbeitungen, die wir selbst im Zusammenhang mit den verschiedenen von Ihnen genutzten Funktionen unserer Website durchführen.
+
+3.1       Eigene Cookies
+3.1.1      Zweck der Datenverarbeitung
+Wir setzen eigene Cookies auf der Webseite. Bei unseren eigenen Cookies handelt sich um funktionale Cookies, die für eine reibungslose Nutzung der Webseite erforderlich sind. Sie können nicht deaktiviert werden.
+
+Sie ermöglichen zahlreiche Grundfunktionen, die wir beispielhaft auflisten:
+
+Bestellabwicklung für Abo-Online
+Zugriff auf den Login-Bereich der Webseite
+Speicherung der Sprachauswahl
+Speicherung der Auswahl der Schriftgröße
+Speicherung von Start-/Zielpunkte der Verbindungsanfragen
+
+
+Es handelt sich hierbei um Session-Cookies, die mit Schließen des Browsers gelöscht werden.
+
+3.1.2      Verarbeitete Daten
+Folgende Kategorien von Daten werden dabei regelmäßig verarbeitet:
+
+IP-Adresse
+Zeitpunkt der Anfrage
+Gerätedaten, wie Betriebssystem, Browserversion, Bildschirmauflösung
+Einstellungen, die Sie bei der Nutzung unserer Webseite vornehmen (z.B. Sprachwahl)
+3.1.3      Rechtsgrundlage für die Datenverarbeitung, Zweck der Datenverarbeitung
+Berechtigtes Interesse (Art. 6 Abs. 1 S.1 lit. f DSGVO): Sicherstellung der der reibungslosen Nutzung und wesentlicher Grundfunktionen der Webseite.
+
+3.2       Kontaktaufnahme per E-Mail oder Kontaktformular
+Bei Ihrer Kontaktaufnahme mit uns per E-Mail oder über das BVG Kontaktformular werden Ihre Anfrage und die darin enthaltenen Informationen verarbeitet, um den Grund der Kontaktaufnahme zu ermitteln und Ihnen entsprechend zu helfen. Der Grund der Kontaktaufnahme, Ihre E-Mail-Adresse und Ihr Name werden von uns gespeichert, um Ihre Fragen zu beantworten. Bei der Kontaktaufnahme durch Sie ist es hilfreich, wenn Sie sich auf die Übermittlung von Informationen beschränken, die für Ihre Anliegen zwingend erforderlich sind.
+
+Rechtsgrundlage für die vorgenannten Datenverarbeitungsvorgänge ist Art. 6 Abs. 1 S. 1 lit. b und Art. 6 Abs. 1 S. 1 lit. f DSGVO. Art. 6 Abs. 1 lit. b DSGVO ist die Rechtsgrundlage für die Bearbeitung von Anfragen unserer Kunden, mit denen wir Verträge haben. Im Übrigen haben wir ein berechtigtes Interesse daran, einen reibungslosen Kundenservice zu gewährleisten. Wir verwenden zudem Ihre Daten, um zu gewährleisten, dass unsere Dienste ordnungsgemäß funktionieren und um unsere Bearbeitungsprozesse zu verbessern und zu beschleunigen, z.B. durch optimierte Zuordnungsfunktionalitäten
+
+Wenn der Grund für die Datenverarbeitung wegfällt, werden alle von Ihnen eingegebenen personenbezogenen Daten gelöscht. Daten, die für die Vertragsbearbeitung benötigt werden oder gesetzlichen Aufbewahrungsfristen (z.B. steuerliche Gründe) unterliegen, bleiben hiervon unberührt.
+
+3.3       Funktionen der Karriere-Seiten und Online-Test
+3.3.1     Bewerbung auf ein Stellenangebot
+Im Rahmen der Bewerbung werden Ihr Name, Ihre Kontaktdaten, Ihre Qualifikationen sowie weitere Daten, die Sie uns mit Ihrer Bewerbung übermitteln, zum Zweck der Bewerberauswahl für ein Beschäftigungsverhältnis verarbeitet. Die Angabe von personenbezogenen Daten ist erforderlich für die Prüfung der Bewerbung und ggf. den späteren Abschluss eines Beschäftigungsvertrages. Ohne Angaben von personenbezogenen Daten kann eine Bewerbung nicht berücksichtigt werden. Ihre Bewerbungsunterlagen und die darin enthaltenen personenbezogenen Daten werden intern an die zuständigen und entscheidungstragenden Mitarbeiter weitergegeben.
+
+Die Datenverarbeitung beruht auf § 26 Abs. 1 BDSG, § 18 BlnDSG. Freiwillige Angaben im Rahmen Ihrer Bewerbung verarbeiten wir auf Grundlage von § 26 BDSG, § 18 BlnDSG in Verbindung mit Art. 6 Abs. 1 S. 1 lit. a DSGVO.
+
+Sofern ein Beschäftigungsverhältnis zustande kommt, werden die Daten, die für die Durchführung des Beschäftigungsverhältnisses erforderlich sind, weiterverarbeitet. Alle anderen Daten werden nach Beendigung des Bewerbungsverfahrens innerhalb von drei Monaten gelöscht. Diese Löschfrist gilt gleichermaßen, wenn es nach Abschluss des Bewerbungsverfahrens nicht zum Abschluss eines Beschäftigungsvertrages kommt. Gesetzliche Aufbewahrungspflichten bleiben unberührt.
+
+
+
+3.3.1.1 Durchführung des Bewerbungsverfahrens
+
+Zur Durchführung des Bewerbungsverfahrens - gleich, ob Sie Ihre Bewerbung in Papierform oder Online einreichen - benötigen wir einige Ihrer personenbezogenen Daten:
+
+Vorname, Nachname, Anschrift (beim Online-Verfahren: auch E-Mail-Adresse), Geburtsdatum, und Gehaltsvorstellung, Informationen zu Ihren fachlichen Kompetenzen (u.a. Schulausbildung, Berufsausbildung, sonstige Fähigkeiten) sowie Nachweise entsprechender Angaben (u.a. Zeugnisse), die Sie mit der Bewerbung übermitteln. Rechtsgrundlage für die Verarbeitung ist § 26 Abs. 1 S. 1 Bundesdatenschutzgesetz („BDSG“) in Verbindung mit § 18 Berliner Datenschutzgesetz (BlnDSG).
+
+Ihre Staatsbürgerschaft bzw. das Vorliegen eines gültigen, eine Erwerbstätigkeit gestattenden Aufenthaltstitels müssen wir abfragen. Rechtsgrundlage für diese Abfrage ist die Verpflichtung der BVG, Personen nur dann zu beschäftigen, wenn diese eine gültige Arbeitserlaubnis haben (§ 4 Abs. 3 S. 4 Aufenthaltsgesetz). Eine gültige Arbeitserlaubnis ist entweder gegeben, wenn Sie im Besitz einer EU-Staatsbürgerschaft oder eines gültigen, eine Erwerbstätigkeit gestattenden Aufenthaltstitels sind.
+
+3.3.1.2 Verarbeitung besonderer Kategorien personenbezogener Daten
+
+Die von Ihnen übermittelte Bewerbung einschließlich der beigefügten Dokumente soll keine sensiblen personenbezogenen Daten enthalten. Sensible Daten meint personenbezogene Daten, aus denen die rassische und ethnische Herkunft, politische Meinungen, religiöse oder weltanschauliche Überzeugungen oder die Gewerkschaftszugehörigkeit hervorgehen, sowie genetische Daten, biometrischen Daten zur eindeutigen Identifizierung einer natürlichen Person, Gesundheitsdaten oder Daten zum Sexualleben oder der sexuellen Orientierung einer natürlichen Person.
+
+Es steht ihnen jedoch frei, im Rahmen Ihrer Bewerbung Angaben zur Schwerbehinderteneigenschaft zu machen.
+
+3.3.1.3 Speicherdauer
+
+Die personenbezogenen Daten, die die BVG in Bezug auf Bewerber verarbeitet, werden sechs Monate nach Abschluss des Bewerbungsverfahrens gelöscht, soweit diese Daten nicht legitimer Weise für andere Zwecke benötigt werden (bspw. wenn Sie ein Arbeitsverhältnis mit uns beginnen).
+
+3.3.2    Chatbot
+
+Auf unseren Karriere-Seiten setzen wir einen Chatbot ein (Näheres hierzu siehe auch Ziffer 4.5). Der Chatbot gibt Ihnen auch die Möglichkeit, im Zusammenhang mit einer Stellenausschreibung bewerbungsbezogene Dokumente hochzuladen. Aus diesem Upload generieren wir eine E-Mail, der die von Ihnen hochgeladenen Dokumente als Anlage(n) beiliegen. Diese E-Mail wird ausschließlich an diejenigen Personen innerhalb der BVG weitergeleitet, die mit der Durchführung der Bewerbungsverfahren befasst sind.
+
+3.3.3    Online-Test bei bestimmten Stellenausschreibungen
+
+Bei bestimmten Stellen ist ein Online-Test vorgesehen, z. B. Ausbildungsstellen, Fahrpersonal zur Qualifizierung, Mitarbeiter*in im Sicherheitsdienst. Sofern Sie sich auf eine solche Stellenausschreibung bewerben, erhalten Sie nach Eingabe Ihrer Bewerberdaten eine E-Mail mit einem Link zum Online-Test.
+
+Hierfür werden folgende Ihrer personenbezogenen Daten verarbeitet: Vorname, Name, Geburtsdatum, Geschlecht. Rechtsgrundlage hierfür ist § 26 BDSG iVm § 18 BlnDSG. Die IP-Adresse, Uhrzeit und Datum des Zugriffs, Browseraktivitäten und -einstellungen sowie Anmelde-ID-Daten werden aus Sicherheitsgründen zur Authentifizierung und Eingabesteuerung benötigt; Rechtsgrundlage hierfür ist Art. 6 Abs. 1 f) DSGVO. Die Auswertung umfasst die Schnelligkeit der Beantwortung der Aufgaben und die Richtigkeit der Antworten sowie die Anzahl der richtigen Antworten. Eine automatisierte Entscheidung findet nicht statt.
+
+Rechtsgrundlage für die Datenverarbeitung im Zusammenhang mit dem Onlinetest, einschließlich der Auswertung des Onlinetests, ist Ihre Einwilligung gem. Art. 6 Abs. 1 lit. a) DSGVO.
+
+Im Rahmen des Online-Bewerbungsverfahrens haben wir einen Dienstleister beauftragt, der in unserem Auftrag die o.g. Daten erhebt und den Onlinetest auswertet.
+
+Bei dem beauftragten Dienstleister handelt es sich um:
+
+Aon Assessment GmbH
+
+Großer Burstah 18-32
+
+20457 Hamburg
+
+E-Mail: info.germany@cut-e.com
+
+
+
+Mit Aon Assessment GmbH haben wir einen Auftragsverarbeitungsvertrag gem. Art. 28 DSGVO geschlossen. Dieser Auftragsverarbeitung stellt sicher, dass die Verarbeitung Ihrer personenbezogenen Daten nur nach Weisung der BVG und im Einklang mit den datenschutzrechtlichen Bestimmungen erfolgt.
+
+Eine Weitergabe an Dritte erfolgt nur, soweit eine gesetzliche Erlaubnis oder Verpflichtung besteht oder Sie hierin einwilligen.
+
+3.3.4.   Jobalert-Newsletter
+Mit Ihrer E-Mail-Adresse und Ihrem Namen sowie der Angabe Ihrer Jobinteressen können Sie sich für unseren „Jobalert“-Newsletter anmelden. Über den Jobalert-Newsletter werden Sie informiert, wenn ein Stellenangebot eingestellt wird, das Ihren Suchkriterien entspricht.
+
+Mit der Anmeldung zum Jobalert-Newsletter speichern wir Ihre IP-Adresse und das Datum der Anmeldung und Ihre Bestätigung der Anmeldung. Diese Speicherung dient alleine dem Nachweis im Fall, dass ein Dritter eine E-Mail-Adresse missbraucht und sich ohne Wissen des Berechtigten für den Jobalert anmeldet.
+
+Die Rechtsgrundlage dieser Verarbeitung ist Ihre Einwilligung gem. Art. 6 Abs. 1 S. 1 lit. a DSGVO. Ihre E-Mail-Adresse speichern wir so lange, wie Sie unseren Jobalert abonnieren.
+
+Die Einwilligung wird mit Hilfe des sog. "Double-Opt-In“-Verfahrens eingeholt. Sie erhalten dabei eine E-Mail mit einem Link, über den Sie bestätigen können, dass Sie der Inhaber der E-Mail-Adresse sind und über unseren E-Mail-Dienst benachrichtigt werden möchten. Wird Ihr Newsletter-Abonnement nicht innerhalb von 2 Wochen nach Anforderung der Bestätigungsmail bestätigt, werden Ihre bereitgestellten personenbezogenen Daten nicht verarbeitet, sondern automatisch gelöscht. Sie können sich jederzeit vom Jobalert abmelden, indem Sie auf den in jedem Jobalert enthaltenen Link klicken oder durch Mitteilung an die obenstehenden Kontaktmöglichkeiten. Nach Abmeldung werden Ihre Anmeldedaten gelöscht.
+
+3.4       Portal "Meine BVG"
+Soweit Sie unser Portal „Meine BVG“ nutzen möchten, müssen Sie sich mittels Angabe Ihres Namens, Ihrer E-Mail-Adresse sowie eines selbst gewählten Passworts registrieren. Wir verwenden für die Registrierung das sog. Double-opt-in-Verfahren, d. h. Ihre Registrierung ist erst abgeschlossen, wenn Sie zuvor Ihre Anmeldung über eine Ihnen zu diesem Zweck zugesandte Bestätigungs-E-Mail durch Klick auf den darin enthaltenen Link bestätigt haben. Falls Ihre diesbezügliche Bestätigung nicht innerhalb von 1 Tag erfolgt, werden die von Ihnen angegebenen personenbezogenen Daten automatisch aus unserer Datenbank gelöscht.
+
+Weiterhin speichern wir die von Ihnen angegebenen freiwilligen Daten für die Zeit Ihrer Nutzung des Portals, soweit Sie diese nicht zuvor löschen. Alle Angaben können Sie im geschützten Kundenbereich selbst verwalten und ändern.
+
+Wenn Sie das Portal nutzen, können Ihre Daten entsprechend der Vertragsleistung anderen Teilnehmern des Portals zugänglich werden. Hierüber entscheiden Sie selbst. Nicht angemeldete Mitglieder erhalten keine Informationen über Sie.
+
+Die Verarbeitung Ihrer personenbezogenen Daten erfolgt ausschließlich für die Nutzung des Portals. Diese personenbezogenen Daten werden von uns gespeichert, bis Sie diese über das Profil löschen, oder Ihr Profil insgesamt löschen.
+
+Rechtsgrundlage für die Datenverarbeitung sind Art. 6 Abs. 1 S. 1 lit. a, b DSGVO.
+
+3.5       Fahrausweis-Abonnements und Firmentickets
+Beim Abschluss eines Fahrausweis-Abonnements (übertragbare sowie persönliche Fahrausweise) und zur Verlängerung bestehender Abonnements verarbeiten wir Ihre personenbezogenen Daten in der nachfolgend beschriebenen Weise.
+
+3.5.1     Fahrausweis-Abonnements
+3.5.1.1    Kategorien der personenbezogenen Daten zur Vertragsdurchführung
+Wir verarbeiten Ihre personenbezogenen Daten im Zusammenhang mit dem mit Ihnen bestehenden Abonnementvertrag. Für übertragbare Zeitkarten (Jahres- und Monats-Umweltkarten, 10-Uhr-Monatskarten) werden Ihr vollständiger Name, Adresse, Geburtsdatum, Geschlecht, Kontodaten (außer Schülerticket Berlin AB), Zahlungsweise (monatlich oder jährlich), ggf. der vollständige Name, Geburtsdatum, Geschlecht und Adresse der gesetzlichen Vertretung oder des Vormunds/Betreuers benötigt.
+
+Für persönliche Zeitkarten (VBB-Abo 65plus, Schülerticket, Azubi-Ticket) benötigen wir neben den vorgenannten Daten außerdem Ihr Foto und einen Berechtigungsnachweis. Rechtsgrundlage für die Verarbeitung der benannten Daten ist Art. 6 Abs.1 S. 1 lit. b DSGVO.
+
+Das Foto wird benötigt, weil die Zeitkarte sonst nicht auf Ihre Person ausgestellt werden kann. Das Foto wird elektronisch verarbeitet, als Bilddatei digitalisiert und ausschließlich für die Zeit und zum Zweck der Produktion des elektronischen Fahrausweises in Form der personengebundenen VBB-fahrCard gespeichert. Nach spätestens zwei Monaten ab Versendung der VBB-fahrCard wird die gespeicherte Bilddatei gelöscht. Eine Rückgabe des Bildes erfolgt nicht, Papierfotos werden vernichtet.
+
+Der Berechtigungsnachweis (z.B. Vorder- und Rückseite des Schülerausweises für ein Schülerticket; Bescheinigung mit Hologramm für das VBB-Abo Azubi; Ausbildungsvertrag für ein Azubi / Schüler; Personaldokument als Altersnachweis für ein VBB-Abo 65+) wird benötigt, um Ihre Berechtigung für den beantragten Fahrausweis zu prüfen. Eingereichte Nachweise im Zusammenhang mit dem Abschluss eines Abonnements werden 10 Tage nach Versendung des Fahrausweises gelöscht. Wird der Berechtigungsnachweis nur für eine Prüfung (z.B. Nachweis der Schülereigenschaft über 16 Jahre), jedoch nicht für eine Neuausstellung eines Fahrausweises benötigt, wird der Berechtigungsnachweis spätestens zwei Monate nach der Prüfung gelöscht. Welche Berechtigungsnachweise erforderlich sind, ergibt sich aus dem jeweiligen Tarifprodukt.
+
+Die Angabe Ihrer Telefonnummer und Ihrer E-Mail-Adresse ist freiwillig und dient uns im Bedarfsfall der erleichterten Kontaktaufnahme mit Ihnen. Wir verarbeiten und verwenden diese Angaben ausschließlich zur Klärung von Vertragsangelegenheiten mit Ihnen. Rechtsgrundlage hierfür ist Ihre Einwilligung gem. Art. 6 Abs. 1 lit. a DSGVO. Sie können die Einwilligung jederzeit widerrufen.
+
+Darüber hinaus verarbeiten wir pseudonymisiert ID-Nummern der Chipkarte, um deren Echtheit zu verifizieren, sowie personenbezogene Daten unserer Kunden, wenn dies für den Betriebsablauf erforderlich ist. Dies betrifft zum Beispiel personenbezogene Daten, die bei Fahrscheinkontrollen (z.B. Name des Fahrgastes ohne gültigen Fahrausweis, Zeit und Ort der Kontrolle, Forderungshöhe) verarbeitet werden oder auch Daten im Zusammenhang mit Betriebsvorkommnissen. Rechtsgrundlagen hierfür sind Art. 6 Abs. 1 S. 1 lit. b und f DSGVO.
+
+Wir weisen darauf hin, dass Sie grundsätzlich nicht zur Bereitstellung personenbezogener Daten verpflichtet sind. Die Bereitstellung kann unter Umständen aber zum Abschluss oder Durchführung eines Vertrages mit der BVG erforderlich sein. Die Nichtbereitstellung personenbezogener Daten kann in diesen Fällen zur Folge haben, dass Sie mit uns keinen Abonnementvertrag eingehen können.
+
+3.5.1.2    Weitergabe an Dritte
+Wir geben Ihre personenbezogenen Daten nur dann an Dritte weiter, wenn dies für die oben genannten Zwecke erforderlich ist. Dies kann die Weitergabe personenbezogener Daten an Vertriebsdienstleister für den Fahrscheinverkauf, an Dienstleister für den Druck von Fahrscheinen/Chipkarten sowie für die Echtheitsprüfung der VBB-fahrCard, an Inkassounternehmen für die Durchsetzung von Forderungen und an IT-Dienstleister zu Zwecken der Datenhaltung und Wartung betreffen. Die Weitergabe in den vorgenannten Fällen beruht auf Art. 28 DSGVO, jeweils in Verbindung mit einem Vertrag über die Auftragsverarbeitung.
+
+Im Rahmen des von Ihnen erteilten Sepa-Basislastschriftmandates geben wir Ihre insoweit erforderlichen personenbezogenen Daten an unsere zahlungseinziehende Bank weiter, die diesen Geldtransfer und die damit verbundene Verarbeitung Ihrer personenbezogenen Daten als eigenverantwortliche Stelle durchführt.
+
+Mit der Bearbeitung des Bestellvorganges von Abonnements, der Prüfung des Fotos und der Berechtigungsnachweise haben wir den IT-Dienstleister
+
+Sal.A iT-Services GmbH
+
+Albertstr. 12, 10827 Berlin,
+
+E-Mail: info@sal-a.de
+
+
+
+beauftragt. Auch hier wurde ein Auftragsverarbeitungsvertrag gem. Art. 28 DSGVO geschlossen.
+
+Wenn im Rahmen des Bestell- oder Prüfvorganges festgestellt wird, dass die von Ihnen hochgeladenen Berechtigungsnachweise oder Fotos nicht prüffähig sind, werden wir Sie über unseren Dienstleister über diesen Umstand informieren und Hinweise zum weiteren Verfahren geben. Rechtsgrundlage hierfür ist Art. 6 Abs. 1 lit. b) DSGVO. Die Kontaktaufnahme ist erforderlich, um den von Ihnen gewünschten Vertrag schließen bzw. durchführen zu können.
+
+Darüber hinaus übermitteln wir in bestimmten Fällen personenbezogene Daten vor Abschluss sowie vor wesentlichen Änderungen eines Abonnementvertrages an Auskunfteien, um die Bonität des Abonnenten zu überprüfen. Rechtsgrundlage hierfür ist Art. 6 Abs. 1 S. 1 lit. f DSGVO. Unser berechtigtes Interesse besteht in der Vermeidung von Zahlungsausfällen.
+
+Soweit wir personenbezogene Daten gem. Art. 6 Abs. 1 S. 1 lit. f DSGVO an Inkassounternehmen weitergeben, verfolgen wir unser berechtigtes Interesse, unsere rechtlichen Ansprüche geltend zu machen, auszuüben und zu verteidigen.
+
+3.5.1.3    Speicherdauer
+Ihre personenbezogenen Daten speichern wir so lange, wie sie für die jeweiligen Zwecke, für die sie verarbeitet wurden, benötigt werden. Wenn eine gesetzliche Aufbewahrungspflicht (z.B. aus steuerlichen Gründen) besteht, werden wir hierfür erforderliche personenbezogene Daten für die Dauer dieser Aufbewahrungsfrist verarbeiten.
+
+3.5.2     Firmentickets
+Wir verarbeiten wir Ihre personenbezogenen Daten im Zusammenhang mit dem mit Ihnen bestehenden Firmenticket-Vertrag (Foto, Name, Adresse, Firmenzugehörigkeit, Kontodaten, Zahlungsinformationen). Rechtsgrundlage hierfür ist Art. 6 Abs. 1 S. 1 lit. b DSGVO.
+
+Da das Firmenticket eine persönliche Zeitkarte und nicht übertragbar ist, wird hierfür Ihr Foto benötigt, ansonsten kann das Firmenticket nicht auf Ihre Person ausgestellt werden. Das Foto wird elektronisch verarbeitet, es wird als Bilddatei digitalisiert und ausschließlich für die Zeit und zum Zweck der Produktion des elektronischen Fahrausweises in Form der personengebundenen VBB-fahrCard (hier als Firmenticket) gespeichert. Spätestens zwei Monate nach Versendung der VBB-fahrCard wird die gespeicherte Bilddatei gelöscht. Für eine eventuelle Ersatzausstellung des personengebundenen Fahrausweises ist die erneute Vorlage eines Lichtbildes erforderlich.
+
+Wir weisen darauf hin, dass Sie grundsätzlich nicht zur Bereitstellung personenbezogener Daten verpflichtet sind. Die Bereitstellung kann unter Umständen aber zum Abschluss oder Durchführung eines Vertrages mit der BVG erforderlich sein. Die Nichtbereitstellung personenbezogener Daten kann in diesen Fällen zur Folge haben, dass wir Ihnen den beantragten Firmenticket-Fahrausweis nicht zur Verfügung stellen und wir Ihnen gegenüber keine Leistungen erbringen können.
+
+Ziffern 3.5.1.2. (Weitergabe an Dritte) und 3.5.1.3 (Speicherdauer) gelten entsprechend.
+
+3.5.3     Fahrausweiskontrollen und erhöhtes Beförderungsentgelt
+Bei Fahrausweiskontrollen wird die Gültigkeit der jeweiligen Fahrausweise überprüft. Handelt es sich um persönliche Fahrausweise, wird der Fahrausweis ggf. gegen einen amtlichen Lichtbildausweis geprüft (z. B. bei Handy- und Printtickets). Bei Überprüfung von fahrCards sind dem Kontrollpersonal folgende auf den fahrCards gespeicherte Daten sichtbar:
+
+Maximale Nutzungsdauer der fahrCard
+Kartennummer
+Kundenvertragspartner
+Name, Vorname (bei persönlichen Fahrausweisen )
+Kann die Gültigkeit nicht festgestellt werden, ist das erhöhte Beförderungsentgelt verwirkt. In diesem Fall dürfen folgende Daten von Ihnen erhoben werden:
+
+​Name, Vorname,
+Geburtsdatum,
+Geschlecht,
+Anschrift,
+E-Mail-Adresse,
+Bankverbindung,
+Name und Anschrift gesetzlicher Vertreterinnen und Vertreter,
+Zeit, Ort und sonstige für die Rechtsverfolgung erhebliche Umstände des Vorfalls einschließlich Forderungen.
+Die insoweit erforderliche Datenverarbeitung basiert auf § 4 der „Verordnung über die Verarbeitung personenbezogener Daten bei den Berliner Stadtreinigungsbetrieben, den Berliner Verkehrsbetrieben und bei den Berliner Wasserbetrieben“ (BlnBetrDatVO). Die Daten werden zwei Jahre nach dem letzten einschlägigen Vorfall, frühestens aber mit der Abwicklung des Vorgangs – in Ihrem Fall des Zahlungseingangs – gelöscht bzw. gesperrt.
+
+Bei Fahrausweiskontrollen kann die Verweigerung zur Herausgabe von Daten zur Folge haben, dass die Identifizierung von Personen und die Herausgabe erforderlicher Daten mit polizeilicher Unterstützung erfolgen muss.
+
+3.6       Teilnahme an Gewinnspielen
+3.6.1     Allgemeines
+Wir veranstalten Gewinnspiele. Teilnehmen kann grundsätzlich jeder, es sei denn, dass im jeweiligen Gewinnspiel etwas anders geregelt ist. So können z.B. bei manchen Gewinnspielen die Beschäftigten der BVG oder ihrer 100%igen Tochterunternehmen (im Folgenden kurz: BVG) von der Teilnahme ausgeschlossen sein oder es kann ein Mindestalter für die Teilnahme vorgegeben werden. Die Einzelheiten der Gewinnspiele entnehmen Sie bitte den jeweiligen Teilnahmebedingungen.
+
+3.6.2     Kategorien der personenbezogenen Daten
+Grundsätzlich verarbeiten wir die personenbezogenen Daten in dem Umfang und in der Form, wie Sie sie uns durch Ihre Teilnahme zukommen lassen. Das bedeutet Aufbewahren Ihrer Postkarte oder Speichern Ihrer E-Mail mit den jeweils enthaltenen personenbezogenen Daten, die für die Teilnahme, Ermittlung der Gewinner*innen und Gewinnausgabe erforderlich sind. Dies hängt immer von der konkreten Ausgestaltung des Gewinnspiels ab; erforderlich können sein: Ihr Name, Ihre Kontaktdaten, Ihre Adresse oder E-Mail-Adresse, Ihre Telefonnummer oder bei Mitarbeitern der BVG oder ihrer 100%igen Tochtergesellschaften auch Organisationseinheit und Dienstausweis-Nr. Die Bereitstellung der Daten durch Sie erfolgt ausschließlich freiwillig. Ohne die jeweils erforderliche Datenbereitstellung können Sie jedoch an dem Gewinnspiel nicht teilnehmen.
+
+Bei Gewinnspielen über die Profil-App, die nur für Beschäftigte der BVG nutzbar ist, ist in der Regel die Angabe einer E-Mail-Adresse erforderlich. Daneben verarbeiten wir folgende personenbezogene Daten: Daten, die Sie im Rahmen des Log-In eingeben (E-Mail-Adresse, Vor- und Nachname), Zeitstempel der Anmeldung sowie Ihre Lösung. Ergänzend gelten die allgemeinen Hinweise zur Datenverarbeitung im Rahmen der Nutzung der PROFIL-App www.profil-app.de/legal/datenschutzerklaerung.
+
+Wir verarbeiten die personenbezogenen Daten durch Aufbewahrung in analoger Form (dh Sammeln von postalischen Zuschriften) an einem nur für berechtigtes Personal zugänglichen Ort bzw. durch Speichern der E-Mails, auf die ebenfalls nur berechtigtes Personal der BVG Zugriff hat. Die Datenverarbeitung erfolgt ausschließlich für die Durchführung des Gewinnspiels, also insbesondere die Ermittlung eines Gewinners oder einer Gewinnerin. Wenn Sie gewonnen haben, werden wir Sie über die angegebene postalische oder E-Mail-Adresse kontaktieren.
+
+Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. b DSGVO.
+
+Ihre personenbezogenen Daten werden zu keinem anderen Zweck als nur für das Gewinnspiel verwendet. Insbesondere werden die Daten nicht für Werbezwecke verwendet oder weitergegeben.
+
+Allerdings behalten wir uns vor, vom Gewinner den Vor- und Nachnamen sowie Wohnort und Gewinn zu veröffentlichen. Dies ist Voraussetzung für die Teilnahme am Gewinnspiel. Die Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. f DSGVO. Das berechtigte Interesse der BVG besteht darin, transparent zu machen, dass das Gewinnspiel stattgefunden hat und ein Gewinner ermittelt wurde.
+
+3.6.3     Speicherdauer
+Grundsätzlich bewahren wir die personenbezogenen Daten nur so lange auf bzw. speichern sie, bis das Gewinnspiel beendet und der/die Gewinnerin ermittelt ist. Im Anschluss werden die Postkarten vernichtet (geschreddert) bzw. die E-Mails gelöscht.
+
+Ausnahmen gibt es nur, wenn es sich bei dem Gewinner um einen Beschäftigten der BVG handelt. Dann müssen die folgenden personenbezogenen Daten aus steuerlichen Gründen weiterverarbeitet werden: Name, Vorname, Wert des Gewinns.  Diese Daten speichern wir nur so lange, wie es aufgrund der einschlägigen Steuergesetze erforderlich ist. Die Rechtsgrundlage dafür ist Art. 6 Abs. 1 S. 1 lit. c DSGVO in Verbindung mit den einschlägigen Steuervorschriften.
+
+3.6.4     Weitergabe an Dritte
+Ihre personenbezogenen Daten, die jeweils für ein Gewinnspiel erforderlich sind, können zu dem oben genannten Zweck an von uns beauftragte Dienstleister für die Durchführung von Gewinnspielen übermittelt werden.
+
+Die Weitergabe von personenbezogenen Daten an unsere Dienstleister für die Durchführung von Gewinnspielen beruht auf Art. 28 DSGVO, jeweils in Verbindung mit einem Vertrag über die Auftragsverarbeitung, der gewährleistet, dass Ihre personenbezogenen Daten nur nach den Weisungen der BVG verarbeitet und nicht weitergegeben oder zu anderen Zwecken verarbeitet werden.
+
+3.7       Marktforschungen
+3.7.1     Verarbeitungszweck
+Über unsere Website führen wir hin und wieder Marktforschungen durch. Dabei werden über Hyperlinks interessierte Besucher auf das Marktforschungstool G3plus der von uns beauftragten Rogator AG, Emmericher Str. 17, D-90411 Nürnberg („Rogator“) geleitet. Dort gelten die Datenschutzbestimmungen der Rogator AG, die hier einsehbar sind.
+
+Teilnehmen kann grundsätzlich jeder, es sei denn, dass bei der jeweiligen Marktforschung etwas anders geregelt ist. So können z.B. bei manchen Marktforschungen die Beschäftigten der BVG oder ihrer 100%igen Tochterunternehmen (im Folgenden kurz: BVG) von der Teilnahme ausgeschlossen sein oder es kann ein Mindestalter für die Teilnahme vorgegeben werden. Die Einzelheiten der Marktforschung entnehmen Sie bitte den jeweiligen Teilnahmebedingungen.
+
+3.7.2     Kategorien von personenbezogenen Daten
+Grundsätzlich verarbeiten wir die personenbezogenen Daten in dem Umfang und in der Form, wie Sie sie uns durch Ihre Teilnahme zukommen lassen. Dies hängt immer von der konkreten Ausgestaltung der Marktforschung ab. In der Regel und in den meisten Fällen fragen wir jedoch bei Marktforschungen keine Daten wie Name, Adresse oder E-Mail-Adresse ab.
+
+Bei einzelnen Projekten kann es notwendig sein, Name, Kontaktdaten, Adresse oder E-Mail-Adresse abzufragen. In diesen Fällen werden alle datenschutzrelevanten Hinweise separat aufgeführt und alle notwendigen Einverständniserklärungen vor der Datenspeicherung eingeholt. Die Bereitstellung der Daten durch Sie erfolgt ausschließlich freiwillig.
+
+Die Datenverarbeitung erfolgt ausschließlich für die Durchführung und Auswertung der Marktforschung. Die Daten werden auf den Servern der Rogator AG gespeichert bzw. durch Speichern der Daten bei der BVG, auf die nur berechtigtes Personal der BVG Zugriff hat, ausgewertet.
+
+Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. a DSGVO.
+
+3.7.3     Speicherdauer
+Grundsätzlich werden die personenbezogenen Daten nur so lange gespeichert, wie sie für die Marktforschung, also die Sammlung der Daten, und die Auswertung notwendig sind. Danach werden die Daten gelöscht.
+
+3.7.4     Weitergabe an Dritte
+Ihre personenbezogenen Daten, die jeweils für eine Marktforschung erforderlich sind, und die Sie freiwillig mit Einwilligung zur Verfügung stellen, können zu dem oben genannten Zweck an weitere von uns beauftragte Dienstleister für die Durchführung von Marktforschungen übermittelt werden.
+
+Die Weitergabe von personenbezogenen Daten an diese Dienstleister für die Durchführung von Marktforschungen beruht auf Art. 28 DSGVO, jeweils in Verbindung mit einem Vertrag über die Auftragsverarbeitung, der gewährleistet, dass Ihre personenbezogenen Daten nur nach den Weisungen der BVG verarbeitet und nicht weitergegeben oder zu anderen Zwecken verarbeitet werden.
+
+3.8       Automatisierte Entscheidungsfindung
+Eine automatisierte Entscheidungsfindung – einschließlich Profiling – erfolgt nicht.
+
+4       Eingebundene Dienste Dritter
+Um die Funktionen unserer Webseite anzubieten, binden wir Dienste Dritter ein. Diese unterscheiden wir im folgenden nach funktionalen Diensten, Analyse-Diensten und Marketing-Diensten.
+
+4.1       Funktionale Dienste
+Funktionale Dienste ermöglichen Ihnen eine reibungslose Nutzung unserer Webseite und sind zur Nutzung unserer Webseite zwingend erforderlich.
+
+4.1.1     Consent Manager
+4.1.1.1     Zweck und Umfang der Datenverarbeitung
+Wir nutzen den Cookie Consent Manager „Consent Management Provider“ (im Folgenden „Consent Manager“) der Firma consentmanager AB, Schweden, um Einwilligungen für die Datenverarbeitung bzw. den Einsatz von Cookies oder vergleichbaren Funktionen abzufragen. Sie können mithilfe des Consent Managers ihre Einwilligung für sämtliche Funktionen erteilen oder ablehnen oder ihre Einwilligung für einzelne Zwecke oder einzelne Funktionen erteilen.
+
+Die von Ihnen vorgenommenen Einstellungen können auch im Nachhinein hier von Ihnen geändert werden. Zweck der Einbindung ist es, den Nutzern unserer Website die Entscheidung über die Verwendung von nicht-funktionalen Cookies zu überlassen und im Rahmen der weiteren Nutzung unserer Website die Möglichkeit zu bieten, bereits vorgenommene Einstellungen zu ändern.
+
+Der Consent Manager speichert Ihre Daten, solange Ihre Nutzereinstellungen aktiv sind. Wenn sich an den jeweiligen Cookies oder sonstigen Anwendungen, in die Sie eingewilligt haben, Änderungen ergeben, die auch Änderungen in der Verarbeitung Ihrer Daten nach sich ziehen können, oder spätestens ein Jahr nach der letzten Verarbeitung Ihrer Nutzereinstellungen erfolgt eine erneute Abfrage der Einwilligung. Die vorgenommenen Nutzereinstellungen werden dann erneut für diesen Zeitraum gespeichert.
+
+4.1.1.2     Verwendung von Cookies
+Der Consent Manager verwendet Cookies. Die Lebensdauer der Cookies beträgt max. 1 Jahr.
+
+4.1.1.3     Verarbeitete Daten
+Folgende Kategorien von Daten werden dabei regelmäßig verarbeitet:
+
+IP-Adresse
+Zeitpunkt und Dauer des Besuchs
+Gerätedaten, wie Betriebssystem, Browserversion, Bildschirmauflösung
+Besuchte Webseiten
+Zustimmungsinformationen
+
+
+4.1.1.4     Eingesetzter Auftragsverarbeiter gem. Art. 28 DSGVO
+consentmanager AB
+Håltegelvägen 1b
+72348 Västerås
+Schweden
+
+4.1.1.5     Verhältnis zwischen der BVG und datenverarbeitender Stelle
+Der Consent Manager wird im Rahmen einer Auftragsverarbeitung gem. Art. 28 DSGVO eingesetzt, sodass consentmanager AB Ihre Daten nur weisungsgebunden in unserem Auftrag verwenden darf.
+
+4.1.1.6     Rechtsgrundlage für die Datenverarbeitung, Zweck der Datenverarbeitung
+Berechtigtes Interesse (Art. 6 Abs. 1 S. 1 lit. f) DSGVO): Sicherstellung, dass nicht-funktionale Cookies nur bei erteilter Einwilligung gesetzt werden.
+
+4.1.1.7     Dauer der Datenverarbeitung
+Alle Daten werden so lange gespeichert, wie sie zur Erfüllung des genannten Zwecks erforderlich sind und danach gelöscht, soweit keine Rechtspflichten zur Aufbewahrung bestehen.
+
+4.1.2     Cloudflare
+4.1.2.1     Zweck der Datenverarbeitung
+Diese Website nutzt Funktionen des Unternehmens Cloudflare, Inc. (im folgenden "Cloudflare"). Cloudflare betreibt ein Content-Verteilungsnetzwerk (Content Delivery Network, CDN), das es uns ermöglicht, unser Webangebot mit bestmöglicher Performance bereitzustellen.
+
+4.1.2.2     Verwendung von Cookies
+Cloudflare verwendet keine Cookies.
+
+4.1.2.3     Verarbeitete Daten
+Beim Besuch unserer Webseite werden durch Cloudflare Daten des Nutzers verarbeitet. Dazu zählen:
+
+IP-Adresse
+Gerätedaten, wie Betriebssystem, Browserversion, Bildschirmauflösung
+Informationen über den Traffic von und zu unserer Webseite
+4.1.2.4     Eingesetzter Auftragsverarbeiter gem. Art. 28 DSGVO
+Cloudflare, Inc.
+101 Townsend St
+San Francisco
+CA 94107
+USA
+
+Ihre Daten können bei der Nutzung von Cloudfare auch in Ländern außerhalb der Europäischen Union verarbeitet werden. In den USA ist das allgemeine Datenschutzniveau nicht deckungsgleich mit dem, das in der Europäischen Union besteht; es kann auch nicht ausgeschlossen werden, dass Behörden in den USA oder in anderen Ländern auf Ihre Daten zugreifen können. Weitere Informationen zu den Schutzmaßnahmen für die Absicherung der Datenübermittlung finden Sie unten in Abschnitt 4.4.
+
+4.1.2.5     Verhältnis zwischen der BVG und datenverarbeitender Stelle
+Cloudflare wird im Rahmen einer Auftragsverarbeitung gem. Art. 28 DSGVO eingesetzt, sodass Cloudflare Ihre Daten nur weisungsgebunden in unserem Auftrag verwenden darf.
+
+4.1.2.6     Rechtsgrundlage für die Datenverarbeitung, Zweck der Datenverarbeitung
+Berechtigtes Interesse (Art. 6 Abs. 1 S.1 lit. f DSGVO): Sicherstellung der bestmöglichen Performance der Webseite.
+
+4.1.2.7     Dauer der Datenverarbeitung
+Alle Daten werden so lange gespeichert, wie sie zur Erfüllung des genannten Zwecks erforderlich sind und danach gelöscht, soweit keine Rechtspflichten zur Aufbewahrung bestehen.
+
+4.1.3     Google Tag Manager
+4.1.3.1     Zweck der Datenverarbeitung
+Diese Webseite nutzt den Google Tag Manager von der Google Ireland Limited (im Folgenden "Tag Manager").
+
+Mit dem Google Tag Manager steuern wir den Einsatz von Code-Schnipseln („Tags“), wie z.B. Tracking Code auf unserer Webseite. Der Google Tag Manager ermöglicht uns dabei, schnell und einfach über eine Weboberfläche Code auf unserer Webseite auszutauschen, ohne in den Quellcode eingreifen zu müssen.
+
+Soweit der Google Tag Manager genutzt wird, um andere Funktionen auszuspielen, die ihrerseits ggf. Daten erfassen und verarbeiten, wird darauf an anderer Stelle jeweils verwiesen (z.B. Google Analytics).
+
+4.1.3.2     Verwendung von Cookies
+Der Google Tag Manager verwendet keine Cookies.
+
+4.1.3.3     Verarbeitete Daten
+Beim Besuch unserer Webseite werden durch den Google Tag Manager Daten des Nutzers verarbeitet. Dazu zählen:
+
+IP-Adresse
+Gerätedaten, wie Betriebssystem, Browserversion, Bildschirmauflösung
+4.1.3.4     Eingesetzter Auftragsverarbeiter gem. Art. 28 DSGVO
+Google Ireland Limited
+Gordon House
+Barrow Street
+Dublin 4
+Irland
+
+Ihre Daten können bei der Nutzung durch Google auch in Ländern außerhalb der Europäischen Union verarbeitet werden. In den USA ist das allgemeine Datenschutzniveau nicht deckungsgleich mit dem, das in der Europäischen Union besteht; es kann auch nicht ausgeschlossen werden, dass Behörden in den USA oder in anderen Ländern auf Ihre Daten zugreifen können. Weitere Informationen zu den Schutzmaßnahmen für die Absicherung der Datenübermittlung finden Sie unten in Abschnitt 4.4.
+
+4.1.3.5     Verhältnis zwischen der BVG und datenverarbeitender Stelle
+Der Google Tag Manager wird im Rahmen einer Auftragsverarbeitung gem. Art. 28 DSGVO eingesetzt, sodass Google Ihre Daten nur weisungsgebunden in unserem Auftrag verwenden darf.
+
+4.1.3.6     Rechtsgrundlage für die Datenverarbeitung, Zweck der Datenverarbeitung
+Berechtigtes Interesse (Art. 6 Abs. 1 S.1 lit. f DSGVO): Schnelles und einfaches Ausspielen von Website-Tags.
+
+4.1.3.7     Dauer der Datenverarbeitung
+Ihre personenbezogenen Daten werden durch Google nach 9 Monaten anonymisiert, soweit keine Rechtspflichten zur Aufbewahrung bestehen.
+
+4.1.4     Instapage
+4.1.4.1     Zweck der Datenverarbeitung
+Wir verwenden Instapage von Instapage Inc. ("Instapage"), um Webseiten für bestimmte Produkte, Produkteigenschaften, oder Marketingaktionen (sog. "Landingpages") bereitzustellen. Die Landingpages enthalten u.U. Kontaktformulare.
+
+4.1.4.2     Verwendung von Cookies
+Instapage verwendet Cookies. Die Lebensdauer der Cookies beträgt max. 1 Jahr.
+
+4.1.4.3     Verarbeitete Daten
+Wenn Sie eine unsere Landingpages besuchen, werden die folgende Daten von Instapage verarbeitet:
+
+IP-Adresse
+Datum und Uhrzeit
+Seitenaufrufe inkl. Titel und URL
+Referrer-URL
+aufgerufene und heruntergeladene Dateien
+Klicks auf Elemente oder Links zu anderen Seiten
+für den Seitenaufbau benötigte Zeit
+Geräteinformationen (Spracheinstellungen, Bildschirmauflösung, Browsertyp/-version)
+Wenn Sie uns über eines dieser Kontaktformulare kontaktieren, speichern wir neben den von Ihnen gemachten Angaben die folgenden Informationen:
+
+IP-Adresse
+Zeitpunkt des Absendens
+Information, auf welcher Seite Sie das Formular ausgefüllt haben
+
+
+4.1.4.4     Eingesetzter Auftragsverarbeiter gem. Art. 28 DSGVO
+Instapage Inc.
+303 Second Street
+Suite 901 South Tower
+San Francisco, CA 94107
+USA
+
+Instapage ist in den USA niedergelassenen und verarbeitet personenbezogene Daten auch außerhalb der EU. In den USA ist das allgemeine Datenschutzniveau nicht deckungsgleich mit dem, das in der Europäischen Union besteht; es kann auch nicht ausgeschlossen werden, dass Behörden in den USA oder in anderen Ländern auf Ihre Daten zugreifen können. Weitere Informationen zu den Schutzmaßnahmen für die Absicherung der Datenübermittlung finden Sie unten in Abschnitt 4.4.
+
+4.1.4.5     Verhältnis zwischen der BVG und datenverarbeitender Stelle
+Instapage wird im Rahmen einer Auftragsverarbeitung gem. Art. 28 DSGVO eingesetzt, sodass Instapage Ihre Daten nur weisungsgebunden in unserem Auftrag verwenden darf.
+
+4.1.4.6     Rechtsgrundlage für die Datenverarbeitung, Zweck der Datenverarbeitung
+Berechtigtes Interesse (Art. 6 Abs. 1 S. 1 lit. f DSGVO): Die Nutzung von Instapage erfolgt im Interesse einer flexiblen und ansprechenden Darstellung einzelner Aspekte unseres Online-Angebotes.
+
+4.1.4.7     Dauer der Datenverarbeitung
+Alle Daten werden so lange gespeichert, wie sie zur Erfüllung des genannten Zwecks erforderlich sind und danach gelöscht, soweit keine Rechtspflichten zur Aufbewahrung bestehen.
+
+4.1.5     Kontaktaufnahme per Chatbot
+Chatbot im Sinne dieser Datenschutzhinweise meint alle bei der BVG angebotenen Servicebots, wie Karriere-Bot, Service-Bot und Firmenticket-Bot.
+
+4.1.5.1     Zweck der Datenverarbeitung
+Der Chatbot bietet Ihnen rund um die Uhr die Möglichkeit, Ihre Fragen möglichst schnell beantwortet zu bekommen. Zudem können Sie über digitale Formulare oder freie Eingabefelder im Chatbot Aufträge zur Bearbeitung an die BVG richten. Der Chatbot übernimmt je nach Inhalt der Anforderung oder des Auftrages die direkte Zustellung an den zuständigen BVG-Sachbearbeiter zur schnellstmöglichen Bearbeitung.
+
+Bei Ihrer Kontaktaufnahme mit uns per Chatbot wird Ihre Konversation mit dem Chatbot ausgewertet, um den Grund Ihrer Kontaktaufnahme zu ermitteln und Ihnen entsprechend zu helfen oder antworten zu können und um eine spätere Wiederaufnahme der Konversation zu ermöglichen.
+
+4.1.5.2     Verwendung von Cookies
+Der Chatbot verwendet Cookies (Local Storage). Die Lebensdauer ist unbegrenzt.
+
+4.1.5.3     Verarbeitete Daten
+Beim Besuch unseres Chatbots werden Daten des Nutzers verarbeitet. Diese sind:
+
+IP-Adresse
+UserID
+ConversationID
+ggf. vom Nutzer eingegebene Daten
+Bei der ersten Nutzung des Chatbots wird Ihnen eine zufällig generierte UserID zugeordnet. Die UserID bleibt in Ihrem Browser gespeichert bis Sie Ihren Browserverlauf löschen. Wenn Sie nach Löschung Ihres Browserverlaufs den Bot erneut nutzen wollen, wird eine neue zufällig generierte UserID generiert. In diesem Fall müssen Sie ggf. alle zuvor angeklickten Antworten oder gestellten Fragen oder Eingaben neu eingeben. Wenn Sie den Bot erneut nutzen, wird diesem von Ihrem Browser die UserID übermittelt. Das ermöglicht Ihnen jederzeit die Fortsetzung einer zuvor unterbrochenen Konversation, Suche oder Eingabe im Bot (ähnlich wie das Setzen von Cookies auf Websites). Die von Ihnen begonnenen Konversationen, Suchen oder Eingaben werden ebenfalls in den Ereignissen auf Ihrem Browser erzeugt und gespeichert. Zur ständigen Verbesserung des Bots erfassen wir Ereignisse wie z.B. "Bot wurde angezeigt" und Klick-Ereignisse wie z.B. "Benutzer hat auf Antwort X geklickt". Hierfür verwenden wir Conversation IDs, die analog der UserID innerhalb der Datenbank des Bots generiert wird. Sie dient als Objektidentifikator und ist für die Konstruktion des Bots erforderlich, da Datenbankeinträge einen eindeutigen Identifikator brauchen.
+
+Die über den Chatbot ggf. vom Nutzer eingegebenen Daten werden von unserem Dienstleister erfasst und zur weiteren Bearbeitung der BVG zur Verfügung gestellt.
+
+4.1.5.4     Eingesetzter Auftragsverarbeiter gem. Art. 28 DSGVO
+Solvemate GmbH
+Tempelhofer Ufer 1
+10961 Berlin
+Deutschland
+
+4.1.5.5     Verhältnis zwischen der BVG und datenverarbeitender Stelle
+Der Chatbot wird im Rahmen einer Auftragsverarbeitung gem. Art. 28 DSGVO eingesetzt, sodass Solvemate Ihre Daten nur weisungsgebunden in unserem Auftrag verwenden darf.
+
+4.1.5.6     Rechtsgrundlage für die Datenverarbeitung, Zweck der Datenverarbeitung
+(1) Erfüllung eines Vertrags (Art. 6 Abs. 1 S. 1 lit. b DSGVO): Bearbeitung von Anfragen unserer Kunden, mit denen wir Verträge haben.
+
+(2) Berechtigtes Interesse (Art. 6 Abs. 1 S.1 lit. f DSGVO): Berechtigtes Interesse daran, einen reibungslosen Kundenservice zu gewährleisten und daran, dass unsere Dienste ordnungsgemäß funktionieren und um unsere Bearbeitungsprozesse zu verbessern und zu beschleunigen, z.B. durch optimierte Zuordnungsfunktionalitäten.
+
+4.1.5.7     Dauer der Datenverarbeitung
+Wenn die Rechtsgrundlage für die Datenverarbeitung wegfällt, werden alle von Ihnen eingegebenen personenbezogenen Daten gelöscht. Daten, die für die Vertragsbearbeitung benötigt werden oder gesetzlichen Aufbewahrungsfristen (z.B. steuerliche Gründe) unterliegen, bleiben hiervon unberührt.
+
+4.1.6     Auslastungsinfo
+4.1.6.1     Zweck der Datenverarbeitung
+Die Auslastungsinfo gibt eine Orientierung über die durchschnittliche Auslastung der BVG-Verkehrsmittel. Die Angaben zur Auslastung basieren auf den durch die BVG anonym erhobenen Daten aus dem Automatischen Fahrgastzählsystem (AFZS). Diese können bis zu einige Wochen alt sein. Die Auslastungsinfo wird Ihnen als farbliche Grafik-Tabelle auf einer Seite von Microsoft Power BI bereitgestellt.
+
+4.1.6.2     Verwendung von Cookies
+Microsoft Power BI verwendet Session Cookies, die mit dem Schließen des Browsers automatisch gelöscht werden. Der Cookie ai_user wird nach einem Jahr gelöscht und speichert eine eindeutige Kennung, um Benutzer bei wiederkehrenden Besuchen im Laufe der Zeit wiederzuerkennen. Sie können den Cookie jederzeit manuell aus Ihrem Browser löschen. Microsoft setzt diese Cookies als eigenständiger Verantwortlicher.
+
+4.1.6.3 Verarbeitete Daten
+Angaben darüber, welche Daten durch Microsoft verarbeitet und zu welchen Zwecken genutzt werden, finden Sie in der Datenschutzerklärung von Microsoft: https://privacy.microsoft.com/de-de/privacystatement.
+
+4.1.6.4     Eingesetzter Dienstleister
+Microsoft Corporation
+One Microsoft Way
+Redmond, WA 98052-6399
+USA
+
+In den USA ist das allgemeine Datenschutzniveau nicht deckungsgleich mit dem, das in der Europäischen Union besteht; es kann auch nicht ausgeschlossen werden, dass Behörden in den USA oder in anderen Ländern auf Ihre Daten zugreifen können. Weitere Informationen zu den Schutzmaßnahmen für die Absicherung der Datenübermittlung finden Sie unten in Abschnitt 4.4.
+
+4.2       Analyse-Dienste
+Analyse-Dienste helfen uns, die Nutzung unserer Webseite besser zu verstehen.
+
+4.2.1     Google Analytics
+4.2.1.1     Zweck der Datenverarbeitung
+Diese Website nutzt Funktionen des Webanalysedienstes Google Analytics. Anbieter ist die Google LLC.
+
+Mit Hilfe von Google Analytics analysieren wir Ihr Nutzerverhalten, um basierend auf den Ergebnissen Entscheidungen bezüglich der Produkt- und Marketingoptimierung zu treffen.
+
+Wir haben auf unserer Website die von Google bereitgestellte Funktion „IP-Anonymisierung“ aktiviert. Dadurch wird Ihre IP-Adresse von Google innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum vor der Übermittlung in die USA gekürzt. Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt.
+
+Im Auftrag der BVG wird Google diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen gegenüber dem Websitebetreiber zu erbringen. Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nach Aussage von Google nicht mit anderen Daten von Google zusammengeführt.
+
+Wir nutzen außerdem die Funktion „demografische Merkmale“ von Google Analytics. Dadurch können Berichte erstellt werden, die Aussagen zu Alter, Geschlecht und Interessen unserer Seitenbesucher enthalten. Diese Daten stammen aus Google-Werbediensten sowie aus Besucherdaten von Drittanbietern. Die uns zur Verfügung gestellten Daten können von uns keiner bestimmten Person zugeordnet werden. Sie können diese Funktion jederzeit über die Anzeigeneinstellungen in Ihrem Google-Konto deaktivieren.
+
+4.2.1.2     Einwilligung in Datenverarbeitung
+Sie können in die Verarbeitung Ihrer Daten durch Google Analytics mit Hilfe unseres Consent Managers einwilligen, die Erfassung Ihrer Daten verhindern oder eine einmal erteilte Einwilligung widerrufen. Für den Widerruf rufen Sie die Cookie-Einstellungen unten auf unserer Webseite erneut auf.
+
+4.2.1.3     Verwendung von Cookies
+Google Analytics verwendet Cookies. Die Lebensdauer der Cookies beträgt max. 2 Jahre. Wir werden jedoch nach Ablauf eines Jahres erneut um Ihre Einwilligung bitten und die Analyse nach Ablauf dieses Zeitraums nur noch vornehmen, wenn Sie erneut einwilligen.
+
+4.2.1.4     Verarbeitete Daten
+Folgende Kategorien von Daten werden verarbeitet:
+
+IP-Adressen
+Online-Kennzeichnungen (einschließlich Cookie-Kennungen)
+Gerätekennungen
+Technische Eigenschaften von Nutzern (z.B. Browsertyp und -version, Gerätetyp, Betriebssystem)
+Messung des Nutzungsverhaltens (z.B. Aufrufe einzelner Seiten / Inhalte, Aufrufe von Inhalten verschiedener Bereiche, Sitzungsdauer / Verweildauer, Absprungrate
+Nutzung einzelner Funktionalitäten der Webseite (z.B. Fahrplanauskunft, Suchanfragen, Downloads)
+eCommerce-Aktivität (z.B. gekaufte Produkte, Umsätze)
+
+
+4.2.1.5     Eingesetzter Auftragsverarbeiter gem. Art. 28 DSGVO
+Google LLC
+1600 Amphitheatre Parkway
+Mountain View, California 94043
+USA
+
+Die von Google verarbeiteten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übermittelt und dort verarbeitet.
+
+In den USA ist das allgemeine Datenschutzniveau jedoch nicht deckungsgleich mit dem, das in der Europäischen Union besteht; es kann auch nicht ausgeschlossen werden, dass Behörden in den USA oder in anderen Ländern auf Ihre Daten zugreifen können.
+
+4.2.1.6     Verhältnis zwischen der BVG und datenverarbeitender Stelle
+Google Analytics wird im Rahmen einer Auftragsverarbeitung gem. Art. 28 DSGVO eingesetzt.
+
+Wir haben jedoch keinen Einfluss auf Art und Umfang der durch Google verarbeiteten Daten, die Art der Verarbeitung und Nutzung oder die Weitergabe dieser Daten an Dritte. Wir haben insoweit keine effektiven Kontrollmöglichkeiten. Insbesondere kann Google die Daten für beliebige eigene Zwecke verwenden, beispielsweise zur Profilbildung und zur Verknüpfung mit anderen bei Google vorhandenen Daten, beispielsweise Ihren Google Account-Daten.
+
+4.2.1.7     Rechtsgrundlage für die Datenverarbeitung, Zweck der Datenverarbeitung
+Einwilligung (Art. 6 Abs. 1 S. 1 lit. a DSGVO): Die Speicherung von Google-Analytics-Cookies und die damit verbundene Datenverarbeitung erfolgt nur, wenn Sie uns Ihre freiwillige und widerrufbare Einwilligung erteilt haben.
+
+4.2.1.8     Dauer der Datenverarbeitung
+Ihre personenbezogenen Daten werden durch Google 14 Monate nach Ihrer letzten Aktivität anonymisiert, soweit keine Rechtspflichten zur Aufbewahrung bestehen.
+
+4.2.2     Google Optimize
+4.2.2.1     Zweck der Datenverarbeitung
+Diese Website nutzt Funktionen des Webanalysedienstes Google Optimize. Anbieter ist die Google LLC.
+
+Wir verwenden Google Optimize, um sogenannte A/B-Tests zum Validieren neuer Designs und Texte durchzuführen. Dabei zeigen wir dem Nutzer verschiedene Versionen unserer Webseite und werten das unterschiedliche Verhalten des Nutzers in den jeweiligen Versionen aus. Dies dient der Optimierung unserer Webseiten und hilft uns, unser Angebot allgemein nutzerorientiert weiterzuentwickeln.
+
+Wir haben auf unserer Website die von Google bereitgestellte Funktion „IP-Anonymisierung“ aktiviert. Dadurch wird Ihre IP-Adresse von Google innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum vor der Übermittlung in die USA gekürzt. Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt.
+
+Im Auftrag der BVG wird Google diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen gegenüber dem Websitebetreiber zu erbringen. Die im Rahmen von Google Optimize von Ihrem Browser übermittelte IP-Adresse wird nach Aussage von Google nicht mit anderen Daten von Google zusammengeführt.
+
+4.2.2.2     Einwilligung in Datenverarbeitung
+Sie können in die Verarbeitung Ihrer Daten durch Google Optimize mit Hilfe unseres Consent Managers einwilligen, die Erfassung Ihrer Daten verhindern oder eine einmal erteilte Einwilligung widerrufen. Für den Widerruf rufen Sie die Cookie-Einstellungen unten auf unserer Webseite erneut auf.
+
+4.2.2.3     Verwendung von Cookies
+Google Optimize verwendet Cookies. Die Lebensdauer der Cookies beträgt max. 2 Jahre. Wir werden jedoch nach Ablauf eines Jahres erneut um Ihre Einwilligung bitten und die Analyse nach Ablauf dieses Zeitraums nur noch vornehmen, wenn Sie erneut einwilligen.
+
+4.2.2.4     Verarbeitete Daten
+Folgende Kategorien von Daten werden verarbeitet:
+
+IP-Adressen
+Online-Kennzeichnungen (einschließlich Cookie-Kennungen)
+Gerätekennungen
+Technische Eigenschaften von Nutzern (z.B. Browsertyp und -version, Gerätetyp, Betriebssystem)
+Messung des Nutzungsverhaltens (z.B. Aufrufe einzelner Seiten / Inhalte, Aufrufe von Inhalten verschiedener Bereiche, Sitzungsdauer / Verweildauer, Absprungrate
+Nutzung einzelner Funktionalitäten der Webseite (z.B. Fahrplanauskunft, Suchanfragen, Downloads)
+eCommerce-Aktivität (z.B. gekaufte Produkte, Umsätze)
+
+
+4.2.2.5     Eingesetzter Auftragsverarbeiter gem. Art. 28 DSGVO
+Google LLC
+1600 Amphitheatre Parkway
+Mountain View, California 94043
+USA
+
+Die von Google verarbeiteten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übermittelt und dort verarbeitet.
+
+In den USA ist das allgemeine Datenschutzniveau nicht deckungsgleich mit dem, das in der Europäischen Union besteht; es kann auch nicht ausgeschlossen werden, dass Behörden in den USA oder in anderen Ländern auf Ihre Daten zugreifen können. Weitere Informationen zu den Schutzmaßnahmen für die Absicherung der Datenübermittlung finden Sie unten in Abschnitt 4.4.
+
+4.2.2.6     Verhältnis zwischen der BVG und datenverarbeitender Stelle
+Google Optimize wird im Rahmen einer Auftragsverarbeitung gem. Art. 28 DSGVO eingesetzt.
+
+Wir haben jedoch keinen Einfluss auf Art und Umfang der durch Google verarbeiteten Daten, die Art der Verarbeitung und Nutzung oder die Weitergabe dieser Daten an Dritte. Wir haben insoweit keine effektiven Kontrollmöglichkeiten. Insbesondere kann Google die Daten für beliebige eigene Zwecke verwenden, beispielsweise zur Profilbildung und zur Verknüpfung mit anderen bei Google vorhandenen Daten, beispielsweise Ihren Google Account-Daten.
+
+4.2.2.7     Rechtsgrundlage für die Datenverarbeitung, Zweck der Datenverarbeitung
+Einwilligung (Art. 6 Abs. 1 S. 1 lit. a DSGVO): Die Speicherung von Google-Optimize-Cookies und die damit verbundene Datenverarbeitung erfolgt nur, wenn Sie uns Ihre freiwillige und widerrufbare Einwilligung erteilt haben.
+
+4.2.2.8     Dauer der Datenverarbeitung
+Ihre personenbezogenen Daten werden durch Google 14 Monate nach Ihrer letzten Aktivität anonymisiert, soweit keine Rechtspflichten zur Aufbewahrung bestehen.
+
+
+
+4.3       Marketing-Dienste
+4.3.1     YouTube
+4.3.1.1     Zweck der Datenverarbeitung
+Wir verwenden für unsere Imagevideos einen YouTube-Kanal der Google Ireland Limited. Unsere bei YouTube eingestellten Videos binden wir via Frame auf unserer Webseite ein, um Ihnen einen reibungslosen Zugang ohne Webseitenwechsel gewähren zu können.
+
+4.3.1.2     Einwilligung in Datenverarbeitung
+Sie können in die Verarbeitung Ihrer Daten durch YouTube mit Hilfe unseres Consent Managers einwilligen, die Erfassung Ihrer Daten verhindern oder eine einmal erteilte Einwilligung widerrufen. Für den Widerruf rufen Sie die Cookie-Einstellungen unten auf unserer Webseite erneut auf.
+
+4.3.1.3     Verwendung von Cookies
+YouTube verwendet Cookies. Die Lebensdauer der Cookies beträgt max. 2 Jahre. Wir werden jedoch nach Ablauf eines Jahres erneut um Ihre Einwilligung bitten und die Analyse nach Ablauf dieses Zeitraums nur noch vornehmen, wenn Sie erneut einwilligen.
+
+4.3.1.4     Verarbeitete Daten
+Bereits bei Aufruf des Videos verarbeitet Google Ihre personenbezogenen Daten (mindestens IP-Adresse, Browser-Daten, Einstellungen).
+
+Vor Ansicht eines Videos werden Sie um Einwilligung gebeten zur Anzeige des Videos und dazu, dass Google in Ihrem Browser Cookies setzen darf. Angaben darüber, welche Daten durch Google verarbeitet und zu welchen Zwecken genutzt werden, finden Sie in der Datenschutzerklärung von Google LLC:
+
+https://policies.google.com/privacy?hl=de&gl=de#infocollect
+
+Wir haben keinen Einfluss auf Art und Umfang der durch Google verarbeiteten Daten, die Art der Verarbeitung und Nutzung oder die Weitergabe dieser Daten an Dritte. Wir haben insoweit keine effektiven Kontrollmöglichkeiten. Insbesondere kann Google die Daten für beliebige eigene Zwecke verwenden, beispielsweise zur Profilbildung und zur Verknüpfung mit anderen bei Google vorhandenen Daten, beispielsweise Ihren Google Account-Daten.
+
+In jedem Fall erhält Google auch Informationen über die von Ihnen angeschaute Inhalte, auch wenn Sie keinen Account erstellt haben. Bei diesen sog. „Log-Daten” kann es sich um die IP-Adresse, den Browsertyp, das Betriebssystem, Informationen zu der zuvor aufgerufenen Website und den von Ihnen aufgerufenen Seiten, Ihrem Standort, Ihrem Mobilfunkanbieter, dem von Ihnen genutzten Endgerät (einschließlich Geräte-ID und Anwendungs-ID), die von Ihnen verwendeten Suchbegriffe und Cookie-Informationen handeln.
+
+4.3.1.5     Verantwortliche Stelle
+Google Ireland Limited
+Gordon House
+Barrow Street
+Dublin 4
+Irland
+
+Es ist nicht auszuschließen, dass Google Ireland die von Ihnen verarbeiteten Informationen an einen Server von Google LLC., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, übermittelt und diese dort verarbeitet werden.
+
+In den USA ist das allgemeine Datenschutzniveau nicht deckungsgleich mit dem, das in der Europäischen Union besteht; es kann auch nicht ausgeschlossen werden, dass Behörden in den USA oder in anderen Ländern auf Ihre Daten zugreifen können. Weitere Informationen zu den Schutzmaßnahmen für die Absicherung der Datenübermittlung finden Sie unten in Abschnitt 4.4.
+
+4.3.1.6     Rechtsgrundlage für die Datenverarbeitung, Zweck der Datenverarbeitung
+Einwilligung (Art. 6 Abs. 1 S.1 lit. a DSGVO): Die Speicherung der o.g. Daten und die in Ihrem Browser gesetzten Cookies und die damit verbundene Datenverarbeitung erfolgt nur, wenn Sie darin vor Ansehen unserer Videos freiwillig und widerrufbare Einwilligung erteilt haben.
+
+4.4       Übermittlung personenbezogener Daten in Drittstaaten
+Beachten Sie bitte, dass in anderen Staaten verarbeitete Daten ggf. ausländischen Gesetzen unterliegen und den dortigen Regierungen, Gerichten sowie Strafverfolgungs- und Aufsichtsbehörden zugänglich sind. Bei der Übertragung Ihrer personenbezogenen Daten in Drittstaaten werden wir jedoch geeignete Maßnahmen treffen, um Ihre Daten angemessen zu sichern.
+
+Sofern für das Empfängerland kein Angemessenheitsbeschluss der EU Kommission besteht, ist die Übertragung Ihrer Daten in einen Drittstaat dadurch geschützt, dass mit dem Empfänger EU-Standardvertragsklauseln (https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc_en) abgeschlossen wurden oder verbindliche interne Datenschutzrichtlinien vorliegen. Andernfalls erfolgt eine Übermittlung nur, wenn eine Ausnahme nach Art. 49 DSGVO erfüllt ist.
+
+
+
+5       Ihre Datenschutzrechte
+Sie haben, je nach den Gegebenheiten des konkreten Falls, folgende Datenschutzrechte:
+
+Auskunft über Ihre bei uns verarbeiteten personenbezogenen Daten zu erhalten und/oder Kopien dieser Daten zu verlangen. Dies schließt Auskünfte über den Zweck der Nutzung, die Kategorie der genutzten Daten, deren Empfänger und Zugriffsberechtigte sowie, falls möglich, die geplante Dauer der Datenspeicherung oder, falls dies nicht möglich ist, die Kriterien für die Festlegung dieser Dauer, ein;
+Die Berichtigung, Löschung oder Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen, soweit deren Nutzung datenschutzrechtlich unzulässig ist, insbesondere, weil (i) die Daten unvollständig oder unrichtig sind, (ii) sie für die Zwecke, für die sie erhoben wurden nicht mehr notwendig sind, (iii) die Einwilligung, auf die sich die Verarbeitung stützte widerrufen wurde, oder (iv) Sie erfolgreich von einem Widerspruchsrecht zur Datenverarbeitung Gebrauch gemacht haben; in Fällen, in denen die Daten von dritten Parteien verarbeitet werden, werden wir Ihre Anträge auf Berichtigung, Löschung  oder Einschränkung der Verarbeitung an diese dritten Parteien weiterleiten, es sei denn dies erweist sich als unmöglich oder ist mit einem unverhältnismäßigen Aufwand verbunden;
+Die Einwilligung zu verweigern oder – ohne Auswirkung auf die Rechtmäßigkeit der vor dem Widerruf erfolgten Datenverarbeitungen – Ihre Einwilligung zur Verarbeitung Ihrer personenbezogenen Daten jederzeit zu widerrufen;
+Die Sie betreffenden personenbezogenen Daten, die Sie uns bereitgestellt haben, in einem strukturierten, gängigen und maschinenlesbaren Format zu verlangen und diese Daten einem anderen Verantwortlichen ohne Behinderung durch uns zu übermitteln; Sie haben gegebenenfalls auch das Recht zu verlangen, dass wir die personenbezogenen Daten direkt einem anderen Verantwortlichen übermitteln, soweit dies technisch machbar ist;
+Rechtliche Maßnahmen zu ergreifen oder die Datenschutzaufsichtsbehörde anzurufen, wenn Sie der Ansicht sind, dass Ihre Rechte infolge einer nicht im Einklang mit den datenschutzrechtlichen Vorgaben stehenden Verarbeitung Ihrer personenbezogenen Daten verletzt wurden.
+Zusätzlich hierzu steht Ihnen das Recht zu, der Verarbeitung Ihrer personenbezogenen Daten jederzeit zu widersprechen:
+
+sofern wir Ihre personenbezogenen Daten zu Zwecken der Direktwerbung verarbeiten; oder
+sofern wir Ihre personenbezogenen Daten zur Verfolgung unserer berechtigten Interessen verarbeiten und Gründe vorliegen, die sich aus Ihrer besonderen Situation ergeben.
+6       Sonstiges
+6.1       Aktualisierung der Datenschutzhinweise
+Wir passen den Datenschutzhinweis an veränderte Funktionalitäten oder geänderte Rechtslagen an. Wir empfehlen Ihnen daher, unsere Datenschutzhinweise in regelmäßigen Abständen zur Kenntnis zu nehmen.
+
+6.2       Kontakt
+Für Fragen, Anregungen oder Kommentare zum Thema Datenschutz können Sie sich gerne an unseren Datenschutzbeauftragten wenden.
+
+Kontaktinformationen:
+
+
+
+Datenschutzbeauftragter
+
+Berliner Verkehrsbetriebe (BVG)
+
+Anstalt des öffentlichen Rechts
+
+Holzmarktstraße 15-17
+
+10179 Berlin
+
+
+
+oder
+
+datenschutz@bvg.de
+
+6.3       Aufsichtsbehörde
+Sie können sich in allen Fragen zum Daten auch an die für Berlin zuständige Aufsichtsbehörde wenden:
+
+
+
+Berliner Beauftragte
+
+für Datenschutz und Informationsfreihet
+
+Friedrichstraße 219
+
+10969 Berlin
+
+Telefon: +49 (30) 13889-0
+
+Fax: +49 (30) 2155050
+
+E-Mail: mailbox@datenschutz-berlin.de
+
+
+
+Stand: 01.04.2021
