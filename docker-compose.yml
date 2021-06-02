@@ -3,7 +3,7 @@ services:
   feeder:
     build:
         context: .
-        dockerfile: ops/Dockerfile-feeder
+        dockerfile: ops/Dockerfile.feeder
     container_name: feeder
     depends_on:
         - flask

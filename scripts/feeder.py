@@ -15,7 +15,8 @@ def cli():
 @click.option('-d', '--directory', default=None, help="Directory which contain Policies as .txt format.")
 @click.option('-l', '--language', default="de", help="Language of the policies.")
 @click.option('-u', '--url-mapping-path', default=None, help="Url Mapping from file name to url")
-def jsonify_policies(directory: str, language: str, url_mapping_path: str):
+@click.option('-o', '--output', default=None, help="Output path - the path where the jsonified policies go.")
+def jsonify_policies(directory: str, language: str, url_mapping_path: str, output_path: str):
     """
     Transforms a .txt policy into a json file with inputs for the application.
     An URL mapping can be provided to map a file to a url it is retrieved from. If not provided a default
@@ -26,6 +27,7 @@ def jsonify_policies(directory: str, language: str, url_mapping_path: str):
         language (str): [description]
         url_mapping_path (str): [description]
     """
+    # TODO: language identification with langid or similar libs
     print("Forming Jsons...")
     if url_mapping_path:
         with open(url_mapping_path, 'r') as mapping_file:
@@ -49,10 +51,11 @@ def jsonify_policies(directory: str, language: str, url_mapping_path: str):
                 "language": language,
                 "url": url_mapping_dict[file_name] if url_mapping_path else "no url"
             }
-            json_path = os.path.join(Path(os.path.abspath(__file__)).parent.parent, "data", "json_policies")
-            if not os.path.isdir(json_path):
-                os.makedirs(json_path)
-            json_file_path = os.path.join(json_path, f"{pure_file_name}.json")
+            if not output_path:
+                output_path = os.path.join(Path(os.path.abspath(__file__)).parent.parent, "data", "json_policies")
+            if not os.path.isdir(output_path):
+                os.makedirs(output_path)
+            json_file_path = os.path.join(output_path, f"{pure_file_name}.json")
             with open(json_file_path, "w") as json_write_file:
                 json.dump(json_dict, json_write_file)
 

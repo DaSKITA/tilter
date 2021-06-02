@@ -3,7 +3,7 @@ FROM python:3.8-slim
 RUN apt-get update && apt-get install curl -y
 RUN pip install --upgrade pip && pip install tqdm==4.59.0 click==7.1.2 requests==2.25.1
 EXPOSE 5000
-COPY data data
+COPY data/official_policies data/official_policies
 COPY scripts scripts
 
 WORKDIR /scripts

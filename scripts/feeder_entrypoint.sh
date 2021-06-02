@@ -13,5 +13,5 @@ until [ ${RESPONSE} == 200 ]; do
 done
 
 >&2 echo "Service is up, feeding data..."
-python $SCRIPT_DIR/feeder.py jsonify-policies -d $BASEDIR/data -l "de"
+python $SCRIPT_DIR/feeder.py jsonify-policies -d $BASEDIR/data/official_policies -l "de" -o $BASEDIR/data/json_policies
 python $SCRIPT_DIR/feeder.py post-tasks -d $BASEDIR/data/json_policies -u "http://flask:5000/"
