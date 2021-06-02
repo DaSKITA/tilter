@@ -1,0 +1,429 @@
+Datenschutzerklärung
+A. Verantwortlicher
+Wir freuen uns, dass Sie eine Webseite der Volkswagen AG, Berliner Ring 2, 38440 Wolfsburg, kundenbetreuung@volkswagen.de , eingetragen im Handelsregister des Amtsgerichts Braunschweig unter der Nr. HRB 100484 („Volkswagen AG“) besuchen. Im Folgenden informieren wir Sie über die Verarbeitung Ihrer personenbezogenen Daten durch die Volkswagen AG im Zusammenhang mit Ihrem Besuch der Webseite.
+
+B. Verarbeitung personenbezogener Daten
+a. Verarbeitung von Protokolldateien
+
+Bei ihrem Besuch auf unserer Webseite verarbeiten wir die folgenden Protokolldateien von Ihnen, die keinen Rückschluss auf Ihre Person zulassen:
+
+Eine anonyme Cookie-ID, die keinen Rückschluss auf Ihre IP-Adresse ermöglicht,
+das von Ihnen genutzte Betriebssystem, den von Ihnen genutzten Web-Browser und die von Ihnen eingestellte Bildschirmauflösung,
+das Datum und die Uhrzeit Ihres Besuchs
+die Websites, die Sie bei uns besucht haben und
+die Website, von der Sie uns besuchen sowie
+IP Adresse Ihres Endgerätes, mit der Sie auf die Webseite zugreifen.
+Für das Hosting dieser Webseite verwenden wir den Auftragsverarbeiter Amazon Web Services (Amazon Web Services, Inc.). Da ein Zugriff aus einem unsicheren Drittstaat auf die Daten nicht ausgeschlossen werden kann, wurden sogenannte EU-Standardverträge als angemessene Garantie zur Datenverarbeitung in nicht europäischen Ländern abgeschlossen.
+
+Die Verarbeitung dieser Daten erfolgt gemäß Artikel 6 Abs. 1 lit. f DSGVO aufgrund unseres berechtigten Interesses, Ihnen die Webseite ordnungsgemäß anzeigen zu können. Die Daten werden nach 30 Tagen gelöscht.
+
+b. Bestellung Newsletter
+
+Es wird Ihnen die Möglichkeit geboten, Newsletter zu verschiedenen Themen oder Produkten zu bestellen. Die in diesem Zusammenhang angegebenen Daten (Anrede, Vor-/Nachname und E-Mail-Adresse, optional Titel) werden von uns ausschließlich zum Zweck der Erbringung dieses Services im Rahmen Ihrer dafür gegebenen Einwilligung genutzt (Art. 6 Abs. 1 lit. a DSGVO). Die Volkswagen AG verwendet zur Bestätigung Ihrer Anfrage und E-Mail-Adresse das sog. Double-Opt-In-Verfahren. Dabei wird Ihnen eine E-Mail an die von Ihnen angegebene E-Mail-Adresse mit der Bitte um Bestätigung Ihrer Einwilligung gesendet. Im Zusammenhang mit dem Double-Opt-In-Verfahren dokumentieren wir die IP-Adresse, Datum und Uhrzeit der Absendung des Web-Formulars sowie die IP-Adresse, Datum und Uhrzeit der Bestätigung der Double-Opt-In E-Mail.
+
+Sie können Ihre Einwilligung jederzeit unentgeltlich mit Wirkung für die Zukunft gegenüber der Volkswagen AG widerrufen, z. B. über den in jeder E-Mail enthaltenen Link „Abbestellen" oder über die folgende Webseite: https://datenschutz.volkswagen.de/
+
+Weitere Informationen zur Geltendmachung Ihrer Rechte finden Sie in dieser Datenschutzerklärung im Abschnitt „Ihre Rechte“.
+
+Sobald Sie den Newsletter abbestellen, werden Ihre für den Newsletter angegeben personenbezogenen Daten gelöscht, sofern keine anderen Aufbewahrungsfristen (z. B. steuerliche Aufbewahrungsfristen) entgegenstehen. Der Versand des Newsletters erfolgt durch die Salesforce.com, Inc., die als Auftragsverarbeiter für die Volkswagen AG agiert. Ein Zugriff auf die Informationen durch Salesforce.com, Inc. mit Sitz in den USA kann nicht ausgeschlossen werden, so dass ein entsprechender EU-Standardvertrag (angemessene Garantie zur Datenverarbeitung in nicht europäischen Ländern) geschlossen wurde. Die zu vertraglichen Zwecken verarbeiteten Daten sind zudem durch das EU-US-Datenschutzschild sowie BCR (Binding Corporate Rules) abgesichert. Sie habe das Recht, im Rahmen der Auskunft über diesen Standardvertrag, das EU-US-Datenschutzschild sowie BCR informiert zu werden.
+
+c. Kontaktformular & Live Chat
+
+Sie haben die Möglichkeit, über ein Kontaktformular mit uns Kontakt aufzunehmen und eine Anfrage an uns zu richten. In diesem Zusammenhang verarbeiten wir folgende Daten: verpflichtend: Anrede, Vor-/Nachname, E-Mail-Adresse und optional: Titel, Telefonnummer. Wir verarbeiten Ihre dort angegebenen personenbezogenen Daten, um mit Ihnen Kontakt aufzunehmen und Ihre Anfrage zu bearbeiten (vgl. Art. 6 Abs. 1 lit. b DSGVO). Bei der Bearbeitung unterstützt uns die Volkswagen Vertriebsbetreuungsgesellschaft mbH als Auftragsverarbeiter.
+
+Alternativ zum Kontaktformular haben Sie die Möglichkeit über den Live-Chat mit uns Kontakt aufzunehmen. Sollte eine sofortige und komplette Klärung Ihrer Anfrage nicht möglich sein und eine weiterläufige Bearbeitung notwendig sein, wird ein entsprechender Vorgang angelegt. In diesem Zusammenhang verarbeiten wir die personenbezogenen Daten, die Sie uns im Verlauf des Live-Chats übermitteln (wie beispielsweise Ihren Vor- und Nachnamen, Adresse, E-Mail-Adresse, Telefonnummer etc.) sowie Ihre IP-Adresse, um Ihre Anfrage zu bearbeiten (vgl. Art. 6 Abs. 1 lit. b DSGVO).
+
+Bei der Bearbeitung unterstützt uns jeweils die Volkswagen Vertriebsbetreuungsgesellschaft mbH als Auftragsverarbeiter. Die Volkswagen Vertriebsbetreuungsgesellschaft mbH setzt dazu den Auftragsverarbeiter Salesforce.com, Inc., ein. Ein Zugriff auf die Informationen durch Salesforce.com, Inc. kann nicht ausgeschlossen werden, so dass ein entsprechender EU-Standardvertrag (angemessene Garantie zur Datenverarbeitung in nicht europäischen Ländern) geschlossen wurde. Die verwendeten EU-Standardvertragsklauseln können Sie über die URL https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32010D0087 abrufen.
+
+Wir löschen Ihre Daten, sobald wir Ihre Anfrage zu Ihrer Zufriedenheit beantwortet haben, sofern keine anderen Aufbewahrungsfristen (z. B. steuerliche Aufbewahrungsfristen) entgegenstehen.
+
+d. Einwilligungserklärung in Werbung und Marktforschung
+
+Wenn Sie Informationen zu unseren Produkten erhalten möchten, können Sie die entsprechende Werbung bestellen. Hierfür werden im Rahmen der von Ihnen zu gebenden Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) folgende Daten zum Zwecke der Werbezustellung verarbeitet: Name, Vorname, E-Mail-Adresse und/oder Telefonnummer). Die Volkswagen AG verwendet zur Bestätigung Ihrer Anfrage und E-Mail-Adresse das sog. Double-Opt-In-Verfahren. Dabei wird Ihnen eine E-Mail an die von Ihnen angegebene E-Mail-Adresse mit der Bitte um Bestätigung Ihrer Einwilligung gesendet. Im Zusammenhang mit dem Double-Opt-In-Verfahren dokumentieren wir die IP-Adresse, Datum und Uhrzeit der Absendung des Web-Formulars sowie die IP-Adresse, Datum und Uhrzeit der Bestätigung der Double-Opt-In E-Mail. Bei der Ausführung der Verarbeitung unterstützt uns die BOSSE IT Consulting GmbH als Auftragsverarbeiter.
+
+Sie können Ihre Einwilligung jederzeit unentgeltlich mit Wirkung für die Zukunft gegenüber der Volkswagen AG widerrufen, z. B. über die folgende Webseite: https://datenschutz.volkswagen.de.
+
+Weitere Informationen zur Geltendmachung Ihrer Rechte finden Sie in dieser Datenschutzerklärung im Abschnitt „Ihre Rechte“.
+
+Sobald Sie Ihre Einwilligung widerrufen haben, werden Ihre personenbezogenen Daten gelöscht, sofern keine anderen Aufbewahrungsfristen (z. B. steuerliche Aufbewahrungsfristen) entgegenstehen.
+
+e. Volkswagen ID
+
+Mit der Volkswagen ID können Sie sich bei zahlreichen Diensten der Volkswagen AG oder Dritter anmelden. Sie dient als zentrales Benutzerkonto, in dem Sie Ihre personenbezogenen Daten zentral verwalten können. Die hierfür erforderliche Datenverarbeitung erfolgt im Rahmen der Vertragserfüllung (Art. 6 Abs. 1 S. 1 lit. b DSGVO). Um bestimmte Funktionen dieser Webseite nutzen zu können, ist es erforderlich sich bei der Volkswagen ID zu registrieren oder sich mit einem bestehenden Volkswagen ID Benutzerkonto einzuloggen. Des Weiteren bietet die Webseite Funktionen, die eine Registrierung bzw. Anmeldung bei der Volkswagen ID zwar vorsehen, aber nicht erfordern. Sofern Sie die Volkswagen ID nutzen, wird der von Ihnen ausgewählte Dienst mit Ihrem Volkswagen ID Benutzerkonto verknüpft. Diese Verknüpfung erfolgt nur, wenn Sie dieser eingewilligt haben (Art. 6 Abs. 1 S. 1 lit. a DSGVO). Weiterführende Informationen zur Datenverarbeitung im Rahmen der Volkswagen ID erhalten Sie in der Datenschutzerklärung unter https://vwid.vwgroup.io/data-privacy.
+
+i. Einwilligung in die persönliche Gestaltung der digitalen Services
+
+Sie haben auf unserer Website die Möglichkeit, dass wir Ihnen Inhalte basierend auf Ihrem Nutzungsverhalten und Ihren Interessen individuell personalisieren.
+
+Wenn Sie in diese persönliche Gestaltung einwilligen, analysieren wir dazu Ihr Nutzugsverhalten anhand Ihrer Cookie-Einstellungen und fügen dieses mit Ihrem Volkswagen ID Benutzerkonto zusammen, um Ihnen Inhalte der digitalen Services und Werbung basierend auf Ihren Präferenzen und Interessen auszuspielen und Ihre Erwartungen und Bedürfnisse bestmöglich zu erfüllen. Diese Datenverarbeitung basiert auf Ihrer Einwilligung (vgl. Art. 6 Abs. 1 lit. a) DSGVO). Selbstverständlich können Sie Ihre Einwilligung jederzeit ohne Angabe von Gründen jeweils gegenüber der Volkswagen AG mit Wirkung für die Zukunft (z. B. in meinem Volkswagen ID Benutzerkonto) widerrufen. Weiterführende Informationen zur Datenverarbeitung im Rahmen der Volkswagen ID erhalten Sie in der Datenschutzerklärung unter https://vwid.vwgroup.io/data-privacy .
+
+ii. Sonderedition ID.3 1ST Registrierung
+
+Im Rahmen der Registrierung für eine Sonderedition ID.3 1ST werden die angegebenen personenbezogenen Daten verarbeitetet. Diese umfassen Ihren Namen und Ihre privaten Kontaktdaten (Anrede, Anschrift und E-Mail-Adresse).
+
+Ihre personenbezogenen Daten verarbeiten wir zur Registrierung sowie zur Durchführung eines Vertrages gemäß Art. 6 Abs. 1 lit. b DSGVO.
+
+Zum Zwecke der Bestellung beim Handel werden Ihre Daten Anrede, Titel, Vorname(n) und Nachname, Adresse, Land und Registrierungsnummer gespeichert, es sei denn Sie führen vorher eine Stornierung Ihrer Registrierung in der webbasierten Anwendung aus.
+
+Wir anonymisieren Ihre oben genannten personenbezogenen Daten, um diese optional analytischen Zwecken zuzuführen. Bei der Durchführung der Anonymisierung unterstützt das in Deutschland ansässige Dienstleistungsunternehmen Bosse IT-Consulting GmbH.
+
+Rechtsgrundlage für die Anonymisierung ist ein überwiegendes berechtigtes Interesse nach Art. 6 Abs. 1 lit. f DSGVO. Das berechtigte Interesse der Volkswagen AG liegt darin, durch anonymisierte Daten Merkmalsanalysen durchzuführen. Diese Analysen finden vollständig ohne Personenbezug statt.
+
+Zum Zwecke der Vertragserfüllung (Art 6 Abs. 1 lit. b DSGVO) wird die von Ihnen angegebene E-Mail-Adresse verwendet, um Ihnen Informationen zum weiteren Prozessverlauf und der Vertragsabwicklung zukommen zu lassen. Drei mögliche an Sie zu versendende Transaktionsemails, die Sie im Kontext der Registrierung erhalten können, werden in einem Postfach gespeichert. Die Speicherung dient dazu den Informationsfluss der Versendung dieser E-Mails im Fall von versendeten Willkommens- und Stornierungs-E-Mails nachvollziehbar zu machen, wenn E-Mails bei Ihnen nicht angekommen sind und Sie um Auskunft bitten. Ihre Daten für die Produktbestellung werden nach 7 Jahren gelöscht.
+
+Zum Zwecke der Abwicklung der Zahlungsmodalitäten übergibt die Volkswagen AG Ihre Daten an die Volkswagen Payments S.A.
+
+Möchten Sie nach Abschluss der Registrierung eine Silhouette der Sonderedition ID.3 1ST in Ihr persönliches Profil von myVolkswagen (https://www.volkswagen.de/de/besitzer-und-nutzer/myvolkswagen.html ) importieren, so haben Sie die Möglichkeit dies nach Abschluss der Registrierung, bzw. nach Login auf der Webseite mit Klick auf „Mit myVolkswagen teilen“ zu tun.
+
+Händlerauswahl: Im Rahmen der Registrierung für die Sonderedition ID.3 1ST wählen Sie Ihren präferierten Händler aus, bei welchen Sie das Fahrzeug bestellen möchten. Wenn Sie Ihren präferierten Händler ausgewählt haben, wird der Händler darüber informiert. Ihre Daten werden an den von Ihnen ausgewählten Händler zur Vertragsdurchführung (Art. 6 Abs. 1 lit. b DSGVO) weitergegeben, der Sie im Kontext der Registrierung zur Klärung möglicher Fragen kontaktieren kann.
+
+MyVolkswagen: Wenn Sie im Registrierungsprozess den Button „Mit myVolkswagen teilen“ angeklickt haben, wird Ihnen beim nächsten Login in myVolkswagen eine Silhouette der Sonderedition ID.3 1ST in der Garage angezeigt. Für die Darstellung der Silhouette der Sonderedition ID.3 1ST in der myVolkswagen Garage und die Anzeige weiterer ID.3 1ST relevanter Informationen wird die Info zu Ihrer Zustimmung (Art. 6 Abs. 1 lit. a DSGVO) zur „Transferierung der Info zur Registrierung“ mit der myVolkswagen beim nächsten Login geteilt. Ihre Registrierungsdaten werden mit Ihrer Zustimmung an myVolkswagen beim nächsten Login übertragen. Bei Stornierung ihrer Registrierung erhält myVolkswagen auch diese Information beim nächsten Login in myVolkswagen. Infolge Ihrer Stornierung werden Sie keine Informationen mehr zur Registrierung in myVolkswagen sehen. Weitere Informationen entnehmen Sie bitte der Datenschutzerklärung von myVolkswagen in dieser Datenschutzerklärung Abschnitt h. myVolkswagen.
+
+iii. Erweiterte Angebotsanfrage
+
+Mit dem Start der ID. Modelle bietet die Volkswagen AG seinen Kunden einen erweiterten Prozess der Angebotsanfrage an. Sie können die erweiterte Angebotsanfrage als Gast oder über Ihre VW ID durchführen.
+
+Sofern Sie Interesse an einem Volkswagen Elektrofahrzeug haben, können Sie eines konfigurieren sowie eine Angebotsanfrage für einen Barkauf des oder für ein Leasing erstellen. Zu diesem Zweck werden von der Volkswagen AG Ihr Name (ggf. mit Anrede), Ihre Anschrift, Ihre E-Mail-Adresse, eine ID Ihrer Anfrage, Angaben zu der von Ihnen präferierten Zahlungsmethode und Abholung sowie zu zusätzlichen von Ihnen ausgewählten Services und Ihre Kundennummer aus der VW ID (sofern vorhanden) verarbeitet und zunächst in Ihrem virtuellen Warenkorb gespeichert, diesen können Sie über die in Ihrem Browser angezeigte URL erneut aufrufen. Die Verarbeitung dieser Daten erfolgt gemäß Artikel 6 Abs. 1 lit. b DSGVO um Ihnen ein entsprechendes Angebot zu erstellen sowie Ihnen die Möglichkeit zu bieten Ihren Zwischenstand der Angebotsanfrage erneut aufzurufen zu können und diesen zu einem späteren Zeitpunkt fortzusetzen. Die Daten in Ihrem Warenkorb werden nach 30 Tagen gelöscht.
+
+Sofern Sie die Angebotsanfrage bestätigen werden diese Daten an den von Ihnen ausgewählten Volkswagen Service Partner übermittelt; wenn Sie eine telefonische Kontaktaufnahme durch Ihren ausgewählten Volkswagen Service Partner wünschen, wird diesem außerdem Ihre Telefonnummer übermittelt. Zur Bestätigung Ihrer Angebotsanfrage erhalten Sie diese per E-Mail. Zur Bestätigung Ihrer Angebotsanfrage und E-Mail-Adresse verwenden wir das sog. Double-Opt-In-Verfahren (dabei wird Ihnen eine E-Mail an die von Ihnen angegebene E-Mail-Adresse mit der Bitte um Bestätigung Ihrer Angebotsanfrage gesendet) und speichern dazu die IP-Adresse, Datum und Uhrzeit der Absendung des Web-Formulars sowie die IP-Adresse, Datum und Uhrzeit Ihrer Bestätigung.
+
+Wir verarbeiten diese Daten und übermitteln diese dem ausgewählten Volkswagen Service Partner, um Ihnen ein entsprechendes Angebot vorzubereiten und unterbreiten zu können (Art. 6 Abs. 1 lit. b) DSGVO) solange, wie das für den vorgenannten Zweck erforderlich ist und löschen diese allgemein unverzüglich nach Wegfall der rechtlichen Grundlage, wenn sie für die genannten Zwecke nicht mehr erforderlich sind oder die genannten Zwecke wegfallen und sofern keine anderweitige Rechtsgrundlage (z. B. handels- und steuerrechtliche Aufbewahrungsfristen) vorliegt, andernfalls nach Wegfall der anderweitigen Rechtsgrundlage oder, wenn wir hierzu aus anderen gesetzlichen Gründen verpflichtet sind. Bitte beachten Sie, dass wir für die Datenverarbeitung des ausgewählten Volkswagen Service Partner nicht verantwortlich sind und dieser die Daten in eigener Verantwortung betreibt (Hinweise zum Datenschutz des ausgewählten Volkswagen Service Partners finden Sie in dessen Datenschutzhinweisen).
+
+Zur Abwicklung von Angebotsanfragen setzt die Volkswagen AG die Volkswagen Vertriebsbetreuungsgesellschaft mbH sowie zu Supportzwecken die Diconium Digital Solutions GmbH sowie die Audi Business Innovation GmbH jeweils als Auftragsverarbeiter ein. Wir haben mit unseren Auftragsverarbeitern jeweils einen Auftragsverarbeitungsvertrag geschlossen und angemessene Garantien zur Wahrung des Schutzes personenbezogener Daten vereinbart (die Auftragsverarbeiter verarbeiten personenbezogene Daten ausschließlich zur Erfüllung ihrer Aufgaben und sind vertraglich an unsere Weisungen gebunden, verfügen über geeignete technische und organisatorische Maßnahmen zum Schutz personenbezogener Daten und werden von uns regelmäßig kontrolliert).
+
+Ein Zugriff auf die Informationen durch Tochtergesellschaften der Commercetools GmbH zu Supportzwecken in Drittländern (Commercetools Pte. Ltd. und Commercetools Inc.) kann nicht ausgeschlossen werden, so dass ein entsprechender EU-Standardvertrag (angemessene Garantie zur Datenverarbeitung in nicht europäischen Ländern) geschlossen wurde. Die verwendeten EU-Standardvertragsklauseln können Sie über die URL https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32010D0087  abrufen.
+
+f. Allgemeine Informationen zur Analyse der Daten von volkswagen.de
+
+Die Volkswagen AG und die Volkswagen Deutschland GmbH & Co. KG sind beständig bestrebt neue Produkte und Dienste zu entwickeln, von ihr angebotene Produkte und Dienste zu verbessern sowie Werbung zur Vermarktung dieser Produkte und Dienste zu verbessern. Zur Erreichung dieser Ziele ist die fundierte Analyse der Nutzung von Produkten und Diensten (Analytics) notwendig. Aus diesem Grund verarbeiten die Volkswagen AG und die Volkswagen Deutschland GmbH & Co. KG Daten aus dem Volkswagen ID Benutzerkonto und den damit verbundenen Diensten, wie z.B.
+
+Pseudonyme Identifikationsdaten (z.B. eine zufällig generierte pseudonyme Nutzerkennung)
+Kfz-Nutzungsdaten (z.B. Fahrtenbuch, Flüssigkeitsfüllstände)
+Vertragsdaten (z.B. Fahrzeugausstattung, laufende Verträge mit verknüpften Diensten)
+IT-Nutzungsdaten (z.B. letzte Anmeldungen an den Diensten, Nutzung von Funktionen)
+Die Zwecke der Verarbeitung, die Verarbeitung sowie entsprechende Rechtsgrundlagen sind nachfolgend im Detail beschrieben.
+i. Analyse zur Entwicklung und Verbesserung von Produkten
+
+Zum Zweck der Entwicklung neuer (z.B. Schätzung von Adoptionsraten neuer Produkte) und zur Verbesserung bestehender (z.B. Auswertung der Adoptionsrate bestehender Produkte) Produkte und Dienste verarbeiten Volkswagen AG und die Volkswagen Deutschland GmbH & Co. KG Daten von volkswagen.de.  Im Fall hinterlegter Fahrzeuge verarbeiten Volkswagen AG und die Volkswagen Deutschland GmbH & Co. KG die Fahrzeugidentifikationsnummer und reichern die oben aufgeführten Daten mit weiteren Ausstattungsdaten ihres Fahrzeugs an. Im Zuge der Verarbeitung werden Ihre personenbezogenen Daten pseudonymisiert. Die Pseudonymisierung beinhaltet die Entfernung aller direkten persönlichen Identifikationsmerkmale (z.B. Name, Email, Telefonnummer, Fahrzeugidentifikationsnummer). Indirekt rückführbare Identifikationsmerkmale (Pseudonyme) werden beibehalten. Erst im Anschluss an diese Pseudonymisierung werden die Daten in den Analytics-Systemen der Volkswagen AG analysiert. Es erfolgt zu keinem Zeitpunkt eine Wiederherstellung des direkten Personenbezugs. Die aus der Analyse resultierenden Ergebnisse (insbesondere Metriken und Kennzahlen) sind vollständig anonym.
+
+Die Verarbeitung pseudonymer Daten ist notwendig, da Wechselwirkungen zwischen dem Volkswagen ID Benutzerkonto und den jeweiligen Diensten bestehen. In diesen Fällen ist die Nutzung des Pseudonyms zwingend notwendig, um die der Analyse zugrundeliegenden Daten aus dem Volkswagen ID Benutzerkonto und den verknüpften Diensten in einen Zusammenhang zu bringen.
+
+Die beschriebene Verarbeitung Ihrer Daten erfolgt aufgrund des berechtigten Interesses der Volkswagen AG und der Volkswagen Deutschland GmbH & Co. KG Ihnen neu entwickelte und verbesserte Produkte und Dienste anzubieten (Art. 6 Abs.1 lit. f DSGVO).
+
+Die Volkswagen AG und die Volkswagen Deutschland GmbH & Co. KG löschen Ihre pseudonymen Daten nach 5 Jahren oder gemäß den gesetzlichen Anforderungen, zum Beispiel sobald der Zweck entfällt, zu dem sie erhoben wurden und sofern der Löschung keine anderen Aufbewahrungspflichten entgegenstehen.
+
+Bitte beachten Sie für weitere Informationen zur Analyse pseudonymer Daten zur Entwicklung und Verbesserung von Produkten und Diensten die für die Volkswagen ID geltende ausführliche Datenschutzerklärung. Diese können Sie abrufen unter https://vwid.vwgroup.io/data-privacy.
+
+ii. Segmentierung zur Verbesserung von Werbung
+
+Zum Zweck der Verbesserung von Werbung (z.B. der Auswertung von Relevanz für eine Kampagne) verarbeiten die Volkswagen AG und die Volkswagen Deutschland GmbH & Co. KG Daten von volkswagen.de. Im Fall hinterlegter Fahrzeuge verarbeiten Volkswagen AG und die Volkswagen Deutschland GmbH & Co. KG die Fahrzeugidentifikationsnummer und reichern die oben aufgeführten Daten mit weiteren Ausstattungsdaten ihres Fahrzeugs an. Im Zuge der Verarbeitung werden Ihre personenbezogenen Daten pseudonymsiert. Die Pseudonymisierung beinhaltet die Entfernung aller direkten persönlichen Identifikationsmerkmale (z.B. Name, Email, Telefonnummer, Fahrzeugidentifikationsnummer). Indirekt rückführbare Identifikationsmerkmale (Pseudonyme) werden beibehalten. Erst im Anschluss an diese Pseudonymisierung werden die Daten in den Analytics-Systemen der Volkswagen AG segmentiert.
+
+Die beschriebene Verarbeitung Ihrer Daten erfolgt aufgrund des berechtigten Interesses der Volkswagen AG und der Volkswagen Deutschland GmbH & Co. KG Ihnen verbesserte, persönlich auf den Nutzer zugeschnittene Werbung anzubieten (Art. 6 Abs. 1 lit. f DSGVO).
+
+Die Volkswagen AG und die Volkswagen Deutschland GmbH & Co. KG löschen Ihre pseudonymen Daten nach 3 Jahren oder gemäß den gesetzlichen Anforderungen, zum Beispiel sobald der Zweck entfällt, zu dem sie erhoben wurden und sofern der Löschung keine anderen Aufbewahrungspflichten entgegenstehen.
+
+Die Volkswagen AG und die Volkswagen Deutschland GmbH & Co. KG nutzen die Ergebnisse nicht zur Wiederherstellung eines direkten Personenbezugs, wenn Sie keine entsprechende Einwilligung in Werbung (Art. 6 Abs. 1 lit. a DSGVO) gegeben haben.
+
+Bitte beachten Sie für weitere Informationen zur Analyse pseudonymer Daten zur Verbesserung von Werbung sowie zur Einwilligung in Werbung der Volkswagen AG und der Volkswagen Deutschland GmbH & Co. die für die Volkswagen ID geltende ausführliche Datenschutzerklärung. Diese können Sie abrufen unter https://vwid.vwgroup.io/data-privacy .
+
+iii. Einsatz von Auftragsverarbeitern
+
+Die Verarbeitung ihrer personenbezogenen Daten zum Zweck der Verbesserung von Werbung und zum Zweck der Verbesserung von Produkten erfolgt in einer von der Amazon Web Services EMEA SARL (“Amazon”) betriebenen Amazon Web Services Cloud in der Europäischen Union. Ein Zugriff auf die personenbezogenen Daten durch Amazon Web Services, Inc. mit Sitz in den USA kann nicht ausgeschlossen werden, so dass entsprechende EU-Standardvertragsklauseln (ein von der Europäischen Kommission genehmigtes Vertragswerk, das personenbezogenen Daten den gleichen Schutz gewährt, den sie in der EU für die Datenverarbeitung in Nicht-EU-Ländern haben) abgeschlossen wurden. Amazon verarbeitet Ihre personenbezogenen Daten ausschließlich in unserem Auftrag und nach unserer Weisung im Rahmen einer Auftragsverarbeitungsvereinbarung. Darüber hinaus setzt die Volkswagen AG zur Sicherstellung des Betriebs und zur Weiterentwicklung die Volkswagen car.SW Org Wolfsburg AG, die Adastra GmbH und die Deloitte Consulting GmbH, alle mit Sitz in Deutschland, als Auftragsverarbeiter ein.
+
+iv. EU-Standardvertragsklauseln
+
+Die verwendeten EU-Standardvertragsklauseln können Sie über den folgenden Link einsehen: https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32010D0087
+
+g. Weitere Dienste
+
+Die folgenden Dienste können ohne eine Anmeldung in der VW ID verwendet werden.
+
+i. Konfigurator
+
+Im Konfigurator auf volkswagen.de haben Sie die Möglichkeit, ein Fahrzeug individuell nach Ihren Vorstellungen zu konfigurieren und dieses nach Abschluss der Konfiguration in Ihrer Volkswagen ID zu speichern und zu verwalten.
+
+ii. Probefahrt
+
+Sofern Sie Interesse an einem unserer Fahrzeuge haben, können Sie über die Webseite einen Wunsch zur Probefahrt angeben. Zu diesem Zweck werden von der Volkswagen AG folgende personenbezogenen Daten erhoben und an den von Ihnen ausgewählten Partner übermittelt: Name, Titel, Anrede, E-Mail-Adresse, Geburtsjahr; sofern eine telefonische Kontaktaufnahme durch Ihren ausgewählten Service Partner gewünscht, außerdem die Telefonnummer. Optional können Terminwünsche für die Durchführung der Probefahrt ausgewählt werden. Diese Erhebung und Übermittlung der Daten erfolgt auf der Grundlage eines Vertragsanbahnungsverhältnisses (Art 6 Abs. 1 lit. b DSGVO) zur Durchführung einer Probefahrt bei dem ausgewählten Partner. Die übermittelten Daten werden durch den Partner zum Zweck der Kontaktaufnahme mit Ihnen über Ihren präferierten Service Kanal verwendet.
+
+Die von Ihnen angegebenen personenbezogenen Daten und ihr Anliegen werden nach der Übermittlung an den Service Partner durch die Volkswagen AG nach 4 Monaten gelöscht. Sofern Sie zu dem eine „Einwilligung in Werbung und Marktforschung“ gegeben haben, werden die Daten zu diesem Zweck ebenso verarbeitet (siehe Abschnitt B.d.). Der Service Partner ist für die weitere Verarbeitung die verantwortliche Stelle.
+
+iii. Abfrage Fahrzeug-Identifizierungsnummer (FIN) zu Diesel- und Erdgasantrieben
+
+Im Rahmen des FIN Checks zu Diesel- und Erdgasantrieben auf volkswagen.de haben Sie die Möglichkeit nachzusehen, ob Ihr Fahrzeug von einer Rückrufaktion, Werkstattaktion oder Umweltaktion zu oben genannten Antrieben betroffen ist. Zu diesem Zweck werden von der Volkswagen AG folgende personenbezogenen Daten erhoben und zum temporären Abgleich an ein zentrales System der Volkswagen AG zur Abwicklung von Feldaktionen übermittelt: Fahrzeug-Identifikationsnummer (FIN). Mittels der FIN erhalten Sie dann eine Information, ob Ihr Fahrzeug von einer Maßnahme betroffen ist und ob bereits eine Maßnahme an Ihrem Fahrzeug durchgeführt wurde.
+
+Diese Verarbeitung der Daten erfolgt auf der Grundlage eines berechtigten Interesses (Art. 6 Abs. 1 f DSGVO).
+
+Die Volkswagen AG hat zudem ein berechtigtes Interesse daran, ihre (potentiellen) Kunden darüber zu informieren, ob ihr Fahrzeug einer Nachbesserung u.a. im Rahmen der sog. Diesel-Thematik bedarf und ob eine solche ggf. bereits durchgeführt wurde. Daneben hat die Volkswagen AG ebenfalls ein Interesse an einer effektiven Rechtsverteidigung, sowohl zu eigenen Gunsten als auch zu Gunsten beklagter Händler. Dieses Interesse erstreckt sich auch darauf, allen Beteiligten eines Rechtsstreits über ein potentiell von der Diesel-Thematik betroffenes Fahrzeug Informationen über ein notwendiges oder bereits durchgeführtes Software-Update zu gewähren.
+
+Daneben haben auch Dritte ein berechtigtes Interesse zu erfahren, ob ein von ihnen zu erwerbendes Fahrzeug von der Diesel-Thematik betroffen ist oder nicht. Durch die Bereitstellung der Informationen über das Online-Portal wird die Volkswagen AG ihrer Verantwortung gerecht und sorgt in unkomplizierter und transparenter Weise für Aufklärung.
+
+Bei der Bereitstellung dieser Webseitenfunktion unterstützt uns Amazon Web Services, Inc. als Auftragsverarbeiter. Die Daten werden unmittelbar nach Beendigung Ihrer Abfrage gelöscht.
+
+iv. Angebotsanfrage
+
+Sofern Sie Interesse an einem unserer Fahrzeuge haben, können Sie über die Webseite einen Wunsch zur Angebotsanfrage angeben. Zu diesem Zweck werden von der Volkswagen AG folgende personenbezogenen Daten erhoben und an den von Ihnen ausgewählten Partner übermittelt: Name, Titel, Anrede, E-Mail-Adresse; sofern eine telefonische Kontaktaufnahme durch Ihren ausgewählten Partner gewünscht, außerdem die Telefonnummer. Diese Erhebung und Übermittlung der Daten erfolgt auf der Grundlage eines Vertragsanbahnungsverhältnisses (Art 6 Abs. 1 lit. b DSGVO) zur Unterbreitung eines Angebots durch den ausgewählten Partner. Die übermittelten Daten werden durch den Partner zum Zweck der Kontaktaufnahme mit Ihnen über Ihren präferierten Service Kanal verwendet.
+
+Die von Ihnen angegebenen personenbezogenen Daten und ihr Anliegen werden nach der Übermittlung an den Service Partner durch die Volkswagen AG nach 4 Monaten gelöscht. Sofern Sie zu dem eine „Einwilligung in Werbung und Marktforschung“ gegeben haben, werden die Daten zu diesem Zweck ebenso verarbeitet (siehe Abschnitt B.d.). Der Service Partner ist für die weitere Verarbeitung die verantwortliche Stelle.
+
+v. Beratungstermin vereinbaren
+
+Sofern Sie Interesse an einem unserer Fahrzeuge haben, können Sie über die Webseite einen Beratungstermin anfragen. Zu diesem Zweck werden von der Volkswagen AG folgende personenbezogenen Daten erhoben und an den von Ihnen ausgewählten Partner übermittelt: Name, Titel, Anrede, E-Mail-Adresse; sofern eine telefonische Kontaktaufnahme durch Ihren ausgewählten Partner gewünscht, außerdem die Telefonnummer. Weiterhin steht ein Freitexteingabefeld zur Verfügung. Diese Erhebung und Übermittlung der Daten erfolgt auf der Grundlage eines Vertragsanbahnungsverhältnisses (Art 6 Abs. 1 lit. b DSGVO) zur Durchführung eines Beratungstermins bei dem ausgewählten Partner. Die übermittelten Daten werden durch den Partner zum Zweck der Kontaktaufnahme mit Ihnen über Ihren präferierten Service Kanal verwendet.
+
+Die von Ihnen angegeben personenbezogenen Daten werden nach der Übermittlung an den Partner durch die Volkswagen AG gelöscht. Der Partner ist für die weitere Verarbeitung die verantwortliche Stelle.
+
+h. myVolkswagen
+
+Die im Folgenden aufgeführten digitalen Dienste und Services befinden sich im Kundenbereich myVolkswagen. myVolkswagen vereint für Sie relevante Informationen und Einstellungen rund um Ihr Fahrzeug, digitale Dienste und Services. Hier bildet grundsätzlich Art. 6 Abs. 1 lit. b DSGVO die Rechtsgrundlage zur Verarbeitung der personenbezogenen Daten. Zur Nutzung der genannten Dienste ist die Anmeldung bzw. die Registrierung bei der Volkswagen ID erforderlich.
+
+i. Protokolldateien
+
+Wenn Sie sich im myVolkswagen Bereich mit Ihrer Volkswagen ID angemeldet haben, werden wir im Fall von auftretenden Fehlern folgende Daten protokollieren:
+
+Ihre Volkswagen ID in Form des Benutzernamens
+Ihre Fahrzeugidentifikationsnummer (sofern der Fehler in einer Funktion mit Fahrzeugkontext aufgetreten ist und Sie zuvor ein Fahrzeug zu Ihrem Benutzerkonto hinzugefügt haben)
+Diese Protokolldaten erfassen wir auf Grundlage eines berechtigten Interesses (Art. 6 Abs. 1 lit. f DSGVO) welches darin liegt, aufgetretene Fehler auf dieser Seite schnell beheben und Sie im Fehlerfall optimal unterstützen zu können. Diese Protokolldaten werden verschlüsselt gespeichert und automatisch nach 30 Tagen wieder gelöscht.
+
+ii. Virtuelle Fahrzeuggarage
+
+In der virtuellen Fahrzeuggarage haben Sie die Möglichkeit, Ihre bestellten oder bereits in Besitz befindlichen Fahrzeuge im Profil Ihrer Volkswagen ID zu speichern, damit wir Ihnen anschließend eine Übersicht Ihrer Fahrzeuge und deren Ausstattung geben zu können und Ihnen einen komfortablen Zugang zu weiteren fahrzeugbezogenen Mehrwertdiensten auf der Webseite bieten zu können, ohne erneut Ihr Fahrzeug identifizieren zu müssen. Dazu geben Sie die Kommissionsnummer (bei noch in Produktion befindlichen Fahrzeugen) oder die Fahrgestellnummer (FIN; bei bereits in Besitz befindlichen Fahrzeugen) ein, um Ihr Fahrzeug zu identifizieren. Sie haben dann die Möglichkeit, auf freiwilliger Basis weitere Daten zu Ihrem Fahrzeug einzugeben (Kennzeichen, Spitzname), die es Ihnen erleichtert, Ihr Fahrzeug in der anschließend verfügbaren Fahrzeugübersicht zu identifizieren. Sofern diese Daten bereits in der Volkswagen ID vorhanden sind, werden diese an die Fahrzeuggarage übermittelt. Entschließen Sie sich dazu, diese Daten einzugeben, werden diese ebenfalls in der Volkswagen ID gespeichert.
+
+Weiterhin werden Ihnen in dieser Fahrzeugübersicht Bilder Ihres Fahrzeugs im Produktionszustand angezeigt. Diese Bilder werden Ihnen anhand der von Ihnen eingegebenen Fahrzeugidentifikationsnummer zugeordnet. Möchten Sie Ihre Daten löschen oder ändern, so können Sie dies in der Volkswagen ID vornehmen.
+
+iii. Mediathek
+
+Sollten Sie über die virtuelle Fahrzeuggarage Fahrzeuge in Ihrer Volkswagen ID gespeichert haben, wird die Mediathek über die dort gespeicherte FIN bzw. Kommissionsnummer die Ausstattungsmerkmale Ihrer Fahrzeuge laden, um Ihnen für Ihre Fahrzeuge passende Videos anzuzeigen. Möchten Sie Ihre Daten löschen oder ändern, so können Sie dies in der Volkswagen ID vornehmen.
+
+iv. Navigationskartendownload
+
+In dem Bereich Navigationskartendownload können Sie das aktuellste Kartenmaterial auf ihren Computer herunterladen, um damit anschließend das Navigationsgerät in Ihrem Fahrzeug zu aktualisieren. Dafür müssen Sie die heruntergeladenen Dateien anschließend mit Hilfe eines Speichermediums (z.B. einer SD-Karte) in Ihr Navigationsgerät in Ihrem Fahrzeug übertragen. Sofern Sie in der virtuellen Fahrzeuggarage Ihr Fahrzeug hinterlegt haben, werden mit der FIN bzw. Kommissionsnummer die Ausstattungsmerkmale Ihrer Fahrzeuge geladen, um das passende Fahrzeugmodell sowie Navigationsgerät für den Download automatisch vorauszuwählen. Möchten Sie Ihre Daten löschen oder ändern, so können Sie dies in der Volkswagen ID vornehmen.
+
+v. Städte-Suche für We-Dienste
+
+In diesen Modulen erhalten Sie einen Überblick über die Verfügbarkeit der We Dienste in Ihrer Stadt. Um Ihnen die Suche auf der Karte zu erleichtern, haben Sie die Möglichkeit, entweder manuell einen Standort einzugeben oder Ihren Standort automatisch über die entsprechende Funktion ihres Browsers/Endgerätes bestimmen zu lassen. Zur Darstellung auf der Karte wird ein so eingegebener/ermittelter Standort an den Dienst Google Maps der Google Inc. weitergegeben.
+
+Nähere Informationen zur Datenverarbeitung bei Google finden Sie unter dem folgenden Link: https://policies.google.com/privacy?hl=de
+
+vi. Deutschland Garantie
+
+Sie erhalten beim Erwerb (Kauf, Leasing, Finanzierung) eines neuen Volkswagen Pkws oder Jahreswagens eine modellabhängige Prämie, wenn der von Ihnen im Zeitraum 01.04.2018 bis 30.06.2019 in Deutschland gekaufte Volkswagen Pkw Diesel Euro 6 von einem offiziellen Einfahrverbot zum Zwecke der Luftreinhaltung mindestens an einem Tag betroffen ist und die Neubestellung innerhalb des Monats des Einfahrverbots bzw. des darauf direkt folgenden Monats erfolgt. Der Zeitraum zwischen Zulassung des aktuellen Fahrzeugs und dem relevanten Einfahrverbot darf maximal 36 Monate betragen. Die Folgefahrzeugbestellung muss im Zeitraum vom 01.04.2018 – 31.12.2022 erfolgen. Das Angebot gilt für Privatkunden und gewerbliche Einzelkunden.  Zur Nutzung der Deutschland Garantie müssen Sie Ihren Code, den Sie vom Partner erhalten, im myVolkswagen-Bereich aktvieren. Der Partner agiert für die Volkswagen AG als Auftragsverarbeiter. Mit Klick auf „Deutschland Garantie“ erscheint ein Eingabefeld für den Garantie-Code. Nach Eingabe wird dieser auf Gültigkeit geprüft. Aus Sicherheitsgründen werden der von Ihnen angegebene Vor- und Nachname, welche in der Volkswagen ID gespeichert sind, mit den jenen, welche bei Ihrem Voucher hinterlegt sind, überprüft. Der Garantie-Code wird nicht in der Volkswagen ID gespeichert.
+
+vii. Volkswagen Lounge und ID Lounge (Order Status Tracker)
+
+Wenn Sie als (Neu-)Kunde ein Fahrzeug bestellt haben, können Sie im myVolkswagen-Bereich den aktuellen Status Ihrer Bestellung einsehen. Die Informationen darüber sind in Ihrer Kommissionsnummer enthalten. Diese Kommissionsnummer wird in Ihrer Volkswagen ID gespeichert, sobald Sie Ihr bestelltes Fahrzeug in die virtuelle Garage im myVolkswagen-Bereich hinzufügen. Beim Klick auf „Ihr Bestellstatus“ greift Volkswagen auf die hinterlegte Kommissionsnummer zurück, um den  aktuellen Bestellstatus anzuzeigen. Rechtsgrundlage für diese Datenverarbeitung ist Art. 6 Abs. 1 lit. b DSGVO. Sie können Ihre Angaben jederzeit über die Volkswagen ID korrigieren oder löschen.
+
+viii. Angebotssektion
+
+Wenn Sie einen Partner im registrierten myVolkswagen-Bereich ausgewählt und gespeichert haben, können Sie mit Klick auf „Ihre Angebote“ auf partnerspezifische Artikel zugreifen. Wenn Sie mehrere Partner als präferierten Volkswagen Partner gespeichert haben, können Sie über eine Filteroption zwischen den Partnern wechseln, um sich personalisierte Angebote anzuschauen. Dazu werden die von Ihnen hinterlegten Partner in Ihrer Volkswagen ID gespeichert. Sie können die Auswahl Ihrer hinterlegten Partner jederzeit ändern. Möchten Sie einen Partner löschen oder Ihre Auswahl ändern, so erfolgt die Speicherung Ihrer Änderungen in der Volkswagen ID. Der Angebotsbereich informiert Sie lediglich über verfügbare Produkte eines Partners. Es werden keine Daten an diesen weitergeleitet. Für die Verarbeitung gilt Art 6 Abs. 1 S. 1 lit. b DSGVO.
+
+ix. Terminbuchung Online
+
+Mit Klick auf „Ihre Terminbuchung“ können Sie als Nutzer des myVolkswagen-Bereichs mit einem registrierten Bestell- oder Bestandsfahrzeug bequem Ihre Terminwahl inklusive der damit verbundenen Beratungsoption an Ihren präferierten Volkswagen Partner senden. Zur Buchung eines Termins bei Ihrem präferierten Volkswagen Partner ist es erforderlich, dass wir die nachfolgend aufgeführten Daten aus Ihrer Volkswagen ID über den registrierten myVolkswagen-Bereich an den von Ihnen ausgewählten Partner übermitteln. Mit dem Aufruf der Funktion „Ihre Terminbuchung“ werden aus dem myVolkswagen-Bereich die Marke, Modell sowie Fahrgestellnummer und aus Ihrem Volkswagen ID Profil Ihr Vorname, Name, Adresse und E-Mailadresse, Anrede und sofern in der Volkswagen ID angegeben Ihre  Telefonnummer, an Ihren Volkswagen Partner übermittelt. Die Daten werden ausschließlich durch Ihren Volkswagen Partner zur Durchführung der Terminbuchung und Auftragsvorbereitung verwendet. Dabei wird die E-Mailadresse zum Versand einer Bestätigung der Terminvereinbarung und die Telefonnummer zur kurzfristigen Kontaktaufnahme durch den Volkswagen Partner verarbeitet.  Sollten Sie Ihre Telefonnummer nicht in der Volkswagen ID gespeichert haben, werden Sie auf der Internetseite des von Ihnen ausgewählten Volkswagen Partners aufgefordert diese zum oben beschriebenen Zweck anzugeben. Diese Erhebung und Übermittlung der vorangegangenen aufgezählten Daten erfolgt auf der Grundlage eines Vertragsanbahnungsverhältnisses (Art 6 Abs. 1 S. 1 lit. b DSGVO) zur Vereinbarung eines Termins mit Ihrem präferierten Volkswagen Partner. Es erfolgt keine Speicherung Ihrer angegebenen Daten in der Terminbuchung Online.
+
+x. Cash-Back Aktionen
+
+Über den myVolkswagen-Bereich können Sie mit Klick auf „Cash-Back Aktionen“ an der von der Volkswagen AG verantworteten Cash-Back Aktion teilnehmen und den jeweiligen Cash-Back Betrag online beantragen. Um an den Cash-Back Aktionen teilnehmen zu können, müssen Sie Informationen zu dem Produkt (Fahrzeugmodell, Teile-Nummer(n), Teilebezeichnung, Rechnungsdatum, Händlername, Händlerstraße, Händler PLZ, Händlerort), Ihre Kundendaten (Land, Vorname, Nachname, Straße, Hausnummer, PLZ, Wohnort, E-Mail, optional: Anrede, Telefonnummer) sowie Ihre Bankdaten (IBAN, BIC/SWIFT Code, Name der Bank, Kontoinhaber) zur Abwicklung der Aktion angeben. Darüber hinaus muss der Kaufbeleg auf dem Portal hochgeladen werden. Die in diesem Zusammenhang angegebenen personenbezogenen Daten werden nicht in der Volkswagen ID gespeichert, sondern nur für die Prüfung und Auszahlung des Cash-Back Betrages gem. Art. 6 Abs. 1 lit. b DSGVO erhoben, verarbeitet und genutzt. Im Falle vorbefüllter Datenfelder stammen diese Informationen aus den von Ihnen gespeicherten Volkswagen ID Profildaten, die Sie bei Bedarf jederzeit anpassen können. Eine Änderung der vorbefüllten Daten im Formular der Cash-Back Aktion führt nicht zu einer Aktualisierung und Speicherung Ihrer Daten in der Volkswagen ID. Im Rahmen der Vertragserfüllung gem. Art. 6 Abs. 1 S. 1 lit. b DSGVO übergibt die Volkswagen AG zur Überprüfung der Rechtmäßigkeit des Anspruches aus der Cash-Back Aktion die oben genannten Kundendaten sowie die Produktinformationen an die Volkswagen Vertriebsbetreuungsgesellschaft mbH. Die Daten werden 15 Jahre gespeichert.
+
+xi. Servicegutschein
+
+Mit Klick auf „Servicegutschein“ können Sie im myVolkswagen-Bereich an der von der Volkswagen AG verantworteten Servicegutschein-Aktion für ein Volkswagen Produkt oder den Kauf eines gebrauchten Volkswagen der Volkswagen AG teilnehmen und den Gutschein online beantragen. Um an der Aktion teilnehmen zu können, müssen Sie Ihre Kundendaten (Land, Vorname, Nachname, Straße, Hausnummer, PLZ, Wohnort, E-Mail, optional: Anrede, Telefonnummer) zur Abwicklung der Aktion angeben. Darüber hinaus muss der Fahrzeugschein oder Kaufbeleg hochgeladen werden. Die in diesem Zusammenhang angegebenen personenbezogenen Daten werden nicht in der Volkswagen ID gespeichert, sondern nur für die Prüfung und Auszahlung des Servicegutschein-Betrages gem. Art. 6 Abs. 1 lit. b DSGVO erhoben, verarbeitet und genutzt. Im Falle vorbefüllter Datenfelder stammen diese Informationen aus den von Ihnen gespeicherten Volkswagen ID Profildaten, die Sie bei Bedarf jederzeit anpassen können. Eine Änderung der vorbefüllten Daten im Formular der Cash-Back Aktion führt nicht zu einer Aktualisierung und Speicherung Ihrer Daten in der Volkswagen ID. Im Rahmen der Vertragserfüllung gem. Art. 6 Abs. 1 S. 1 lit. b DSGVO übergibt die Volkswagen AG zur Überprüfung der Rechtmäßigkeit des Anspruches aus der Servicegutschein-Aktion die oben genannten Kundendaten sowie die Produktinformationen an die Volkswagen Vertriebsbetreuungsgesellschaft mbH. Die Daten werden 15 Jahre gespeichert.
+
+i. We Charge Funktionen
+
+Mit dem Dienst We Charge können Sie optional verschiedene Funktionen und Services unseres Ladedienstes für Elektrofahrzeuge nutzen.
+
+i. Standortfreigabe / Verarbeitung von Geodaten
+
+Die Nutzung bestimmter Funktionen oder Dienste (z.B. um verfügbare Ladesäulen zu finden) ist nur möglich, wenn wir auf Ihrem Endgerät auf Ihren Standort zugreifen und Ihre Geodaten verarbeiten können. Dazu ist bei web-basierten Funktionen eine Übertragung Ihrer Positionsdaten über den jeweiligen Browser notwendig. Eine Übertragung der Positionsdaten erfolgt nur, wenn Sie diese Funktion in den Einstellungen Ihres Browsers aktiviert haben. Diese Datenverarbeitung erfolgt aufgrund Ihrer Einwilligung, die Sie beim erstmaligen Aufrufen der Funktion erteilen (vgl. Art. 6 Abs. 1 lit. a) DSGVO). Wenn Sie Ihre Einwilligung widerrufen, wird nicht auf Ihren Standort zugegriffen.
+
+ii. Suchen und Finden von Ladesäulen
+
+Wenn Sie die Funktion Suchen und Finden von Ladesäulen nutzen möchten, wird auf Ihrem Endgerät der Kartendienst Google Maps (Google Inc.) eingebunden. Durch diesen Kartendienst ist es möglich, Ihnen Ladesäulen anzuzeigen. Wenn Sie diesen Service nutzen, wird dem Kartendienst nach Ihrer Freigabe Ihr Standort zum Zeitpunkt Ihrer Anfrage übermittelt. Bitte beachten Sie, dass Ihnen dieser Kartendienst von Google in eigener Verantwortung bereitgestellt wird. Für die Datenverarbeitung von Google sind wir nicht verantwortlich. Hinweise zum Datenschutz des Google Kartendienstes finden Sie unter https://policies.google.com/privacy?hl=de .
+
+iii. We Charge Routenplanung für Elektrofahrzeuge („We Route“)
+
+We Route ist eine Funktion, die anhand übermittelter Parameter eine Multiladestopproute für Elektrofahrzeuge plant und dazu hilfreiche Informationen bereitstellt (z. B. voraussichtliche Stopps und Ladezeiten für eine geplante Route). Bei der Nutzung von We Route verarbeiten wir folgende personenbezogenen Daten anhand der von Ihnen getätigten Eingabeparameter: Start/Ziel/Zwischenziel(e) Ihrer angefragten Route (Routendaten). Ihre eingegebenen Routendaten werden in Geokoordinaten aufgelöst, um damit die von Ihnen angefragte Route zu berechnen und anhand der Route ggfs. benötigte Ladeinfrastruktur zu ermitteln. Wir verarbeiten außerdem das von Ihnen ggf. manuell ausgewählte Fahrzeugmodell (Fahrzeugdaten, wie z.B. Batteriekapazität) sowie weitere technische Parameter und reichweitenrelevante Komponenten (z. B. auswählbaren Batterieladestand beim Start), um Ihnen damit anhand der berechneten Route die ggfs. benötigte Ladeinfrastruktur ermitteln zu können. Wir verarbeiten die Routendaten solange, wie das für den vorgenannten Zweck erforderlich ist und löschen diese allgemein unmittelbar nach Bereitstellung der Route (aus technischen Gründen können gelöschte Routen nach der Löschung noch bis zu 30 Tage innerhalb von Datenbank-Backups bestehen).
+
+Für die Routenberechnung werden die Routendaten an HERE EUROPE BV, Kennedyplein 222, 5611 ZT Eindhoven, Niederlande (HERE) übermittelt. HERE erstellt und übermittelt anhand der Routendaten die Routen und übermittelt diese an uns zurück, damit die Volkswagen AG Ihnen Ihre finale Route berechnen und ggfs. benötigte Ladeinfrastruktur ermitteln kann. Die Datenverarbeitung von HERE erfolgt in eigener Verantwortlichkeit von HERE. Weitere Informationen zur Verarbeitung personenbezogener Daten durch HERE und der Geltendmachung Ihrer Rechte gegenüber HERE finden Sie in den Datenschutzhinweisen von HERE unter https://legal.here.com/de-de/privacy/policy.
+
+iv. We Charge Kundensupport
+
+Bei Fragen zur Nutzung der web-basierten Funktionen von We Charge können Sie jederzeit den Volkswagen Kundensupport kontaktieren und uns Ihr Kundenfeedback übermitteln.
+
+Wenn Sie unseren Kundensupport kontaktieren, verarbeiten wir die Angaben und Daten Ihrer Anfrage (z. B. Name, E-Mail-Adresse, Telefonnummer, Sprache sowie – je nach Anfrage – z. B., Betriebssystem Ihres Endgerätes, Spracheinstellungen, Fehleranalysen) in einem elektronischen Ticket, um mit Ihnen Kontakt aufnehmen und Ihre Anfrage bearbeiten zu können. Wir bewahren Ihre Daten so lange auf, wie dies für den jeweiligen Zweck Ihrer Anfrage erforderlich ist. Werden Ihre Daten für mehrere Zwecke benötigt und verarbeitet, werden sie automatisch gelöscht oder in anonymisierter Form gespeichert, die keine direkten Rückschlüsse auf Ihre Person zulässt, sobald der letzte spezifische Zweck erfüllt worden ist. Bei der Bearbeitung Ihrer Anfragen unterstützen unseren Kundensupport die NTT Data Group und Teleperformance Group Europe, Middle-East and Africa SAS sowie die Salesforce.com EMEA Limited als Auftragsverarbeiter. Ein Zugriff auf die Informationen durch Salesforce.com Inc. mit Sitz in den USA kann nicht ausgeschlossen werden. Es wurden entsprechende EU-Standardvertragsklauseln für die Übermittlung personenbezogener Daten an Auftragsverarbeiter in Drittländer (als angemessene Garantie zur Datenverarbeitung in nichteuropäischen Ländern) abgeschlossen, um Ihre personenbezogenen Daten ausreichend zu schützen. Die verwendeten EU-Standardvertragsklauseln können Sie über die URL https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32010D0087  abrufen. Die in Europa gehosteten Daten sind zudem durch den Abschluss von Binding Corporate Rules (angemessene Garantie zur Datenverarbeitung in nicht europäischen Ländern) abgesichert.
+
+Soweit wir eine Anfrage von Ihnen erhalten, für die wir nicht zuständig oder verantwortlich sind, leiten wir Ihre Anfragen und Ihre Daten an den jeweiligen Zuständigen oder Verantwortlichen weiter (z. B. Ihren präferierten Service Partner). Wir geben Ihre Anfrage und Ihre Daten aber nur an entsprechend weiter, wenn dies zur Bearbeitung Ihres Anliegens erforderlich ist und zu einer schnelleren und kundenfreundlicheren Bearbeitung in Ihrem und unserem berechtigten Interesse führt (vgl. Art. 6 Abs. 1 lit. f) DSGVO).
+
+j. Datenweitergabe
+
+Eine Weitergabe personenbezogener Daten an Dritte erfolgt nur, soweit dies notwendig ist. Dies ist z. B. der Fall, wenn Sie mit Hilfe des Services Händlersuche einen Händler suchen und dieser Ihnen dann auf der Google Maps Karte dargestellt wird. Nähere Informationen zur Datenverarbeitung bei Google Maps finden Sie unter dem folgenden Link: https://cloud.google.com/maps-platform/terms/
+
+k. Die Autosuche
+
+Die Autosuche bietet Neu-, Jahres- und Gebrauchtwagen von Volkswagen Partnern und Mitarbeitern an.
+
+Bei einer Anfrage zu einem Fahrzeug haben Sie die Möglichkeit, einen Volkswagen und/oder Audi Partner   eine Anfrage per E-Mail zuzusenden. Sie senden diese E-Mail direkt an den ausgewählten Volkswagen und/oder Audi Partner. Eine Verarbeitung Ihrer personenbezogenen Daten durch uns erfolgt nicht.
+
+Sie haben die Möglichkeit über die Webseite eine Probefahrt vereinbaren. Hierfür verarbeiten wir die von Ihnen angegebenen Kontaktdaten (Name, Anschrift, E-Mail-Adresse, Telefonnummer) sowie das gewünschte Fahrzeugmodell. Wir leiten Ihre Probefahrtanfrage zur weiteren Bearbeitung und Durchführung der Probefahrt (Art. 6 Abs. 1 lit. b DSGVO) an den von Ihnen ausgewählten Volkswagen und/oder Audi Partner weiter. Dieser verarbeitet die von Ihnen gegenüber angegebenen Daten, um Sie zur gewünschten Terminvereinbarung zu kontaktieren zur Erfüllung eines Vertrags mit Ihnen bzw. zur Durchführung vorvertraglicher Maßnahmen (Vertragsanbahnung), die auf Ihre Anfrage erfolgen.
+
+Sie können über die Webseite einen Verkaufsberater kontaktieren. Hierfür verarbeiten wir die von Ihnen angegebenen Kontaktdaten (Name, Anschrift, E-Mail-Adresse, Telefonnumer) sowie das Modell, zu dem Sie eine Beratung wünschen. Wir leiten Ihre Anfrage zur weiteren Bearbeitung und Kontaktaufnahme (Art. 6 Abs. 1 lit. b DSGVO) an den von Ihnen ausgewählten Volkswagen und/oder Audi Partner weiter. Hierfür verarbeitet der Volkswagen und/oder Audi Partner die von Ihnen angegebenen Daten, um Sie zur gewünschten Terminvereinbarung zu kontaktieren zur Erfüllung eines Vertrags mit Ihnen bzw. zur Durchführung vorvertraglicher Maßnahmen (Vertragsanbahnung), die auf Ihre Anfrage erfolgen.
+
+Die in der Volkswagen Autosuche erhobenen Daten werden zur weiteren Verarbeitung an die Audi AG im Rahmen eines Auftragsverarbeitungsverhältnisses weitergeleitet.
+
+Eine Weitergabe personenbezogener Daten an Dritte erfolgt nur, soweit dies notwendig ist. Dies ist z. B. der Fall, wenn Sie mit Hilfe des Dienstes HERE Maps einen Händler suchen und dieser Ihnen dann auf der Karte dargestellt wird. Nähere Informationen zur Datenverarbeitung bei Here Maps finden Sie unter dem folgenden Link: https://legal.here.com/de-de/privacy/policy
+
+l. Erhebung, Verarbeitung und Nutzung personenbezogener Daten im Self Service
+
+Der Self Service bietet die Möglichkeit der Beantwortung von häufig gestellten Fragen zum Thema Digitale Services. Mit Eingabe einer Frage im Eingabefeld „Ihre Frage“ wird der Self Service aktiviert und schlägt Ihnen anschließend Antworten auf Ihre Frage vor.
+
+Die Verarbeitung der von Ihnen angegebenen Daten durch den Self Service für die Dauer Ihrer Nutzung des Self Service erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO, da wir ein berechtigtes Interesse daran haben, Ihnen als Nutzer der Webseite www.volkswagen.de/iddirect bestmöglichen Service zu bieten und Ihre Anfrage bedarfsgerecht zu beantworten.
+
+Sie können den Self Service nutzen, ohne uns mitzuteilen, wer Sie sind. Es wird lediglich die Session ID zum Zweck der Qualitätssicherung gespeichert. Sofern Sie sich trotzdem entscheiden, personenbezogene Daten im Self Service mitzuteilen, haben wir folgende Schutzmaßnahmen ergriffen:
+
+Zur Vermeidung der Speicherung von personenbezogenen Daten wird der von Ihnen eingegebene Inhalt automatisiert auf personenbezogene Daten gescannt. Dabei werden systemtechnisch solche Nummernfolgen wie Postleitzahlen, Hausnummern und Fahrzeugidentifikationsnummern (FIN) erkannt. So erkannte Postleitzahlen und Hausnummern werden systemtechnisch automatisch unwiderruflich unkenntlich gemacht und erst anschließend gespeichert. Die FIN wird systemtechnisch pseudonymisiert, indem deren letzte sechs Stellen automatisch entfernt werden. Die so verkürzte FIN lässt nur noch die Baureihe, das Fahrzeugmodell sowie das Fahrzeugbaujahr erkennen. Der Rückschluss auf ein konkretes Fahrzeug und damit auf eine natürliche Person (Halter, Nutzer des Fahrzeugs) ist hingegen nicht mehr möglich. Übrige personenbezogenen Daten wie auch der Vor-und Nachname können nicht automatisch unkenntlich gemacht werden, sodass diese vollständig gespeichert werden Sämtliche gespeicherten Inhalte werden nach 100 Tagen gelöscht.
+
+Zur Ausführung des oben genannten Services setzen wir einen Auftragsverarbeiter ein. Die Auftragsverarbeitung erfolgt durch das Unternehmen Inbenta Holdings INC.
+
+m. Online Marktplatz Bestandsfahrzeuge
+
+Auf unserer Webseite haben Sie die Möglichkeit den Online Marktplatz für den Kauf von  Bestandsfahrzeugen bei Volkswagen Händlern zu nutzen. Die Volkswagen AG stellt hierfür auf dieser Webseite einen Online Marktplatz zur Verfügung, über den Volkswagen Händler Ihnen Fahrzeuge selbstständig zum Verkauf anbieten können, Sie nach von Volkswagen Händlern eingestellten Fahrzeugen suchen können und Fahrzeuge bestellen können.
+
+Zur Bestellung eines Fahrzeugs bei einem Volkswagen Händler auf dem Online Marktplatz können Sie sich entweder mit Ihrer bereits bestehenden Volkswagen ID anmelden bzw. sich für die Volkswagen ID registrieren oder als Gast ohne die Nutzung der Volkswagen ID fortfahren. Detaillierte Informationen finden Sie in dieser Datenschutzerklärung im Absatz „e. Volkswagen ID“. Wenn Sie ein Fahrzeug bestellen, werden zum Zweck des Fahrzeugkaufs von der Volkswagen AG die zum Kauf erforderlichen Daten (Ihr Name (ggf. mit Anrede), Ihre Anschrift, Ihre E-Mail-Adresse, eine ID Ihrer Anfrage, Angaben zu der von Ihnen präferierten Zahlungsmethode und der Abholung, Ihr Bestellstatus sowie Ihre Kundennummer aus der VW ID (sofern Sie sich mit der Volkswagen ID angemeldet haben) bzw. wenn Sie als Gast bestellen aus den von Ihnen befüllten Eingabefeldern) verarbeitet und nach Ihrer Bestätigung an den Volkswagen Partner übermittelt; wenn Sie eine telefonische Kontaktaufnahme durch den Volkswagen Partner wünschen, wird diesem außerdem Ihre Telefonnummer übermittelt. Diese Übermittlung erfolgt erst dann, wenn sie den Kauf mit Klick auf „Zahlungspflichtig bestellen“ abschließen. Rechtsgrundlage dieser Datenverarbeitung ist Art. 6 Abs. 1 lit. b) DSGVO, damit Ihr Kauf über den Online Marktplatz abgewickelt werden kann.
+
+Bitte beachten Sie, dass die Datenverarbeitung des jeweiligen Volkswagen Händlers in dessen eigener datenschutzrechtlicher Verantwortung erfolgt, auf die wir keinen Einfluss haben. Weitere Informationen zum Datenschutz des jeweiligen Volkswagen Händlers finden Sie in den Datenschutzhinweisen des entsprechenden Volkswagen Partners. Diese können Sie auf der Angebotsseite des Fahrzeugs bei den rechtlichen Angaben (Impressum, Nutzungsbedingungen, Datenschutzhinweise) abrufen.
+
+Nach dem Kauf erhalten Sie zwei E-Mails von Ihrem ausgewählten Volkswagen Partner an Ihre hinterlegte E-Mail Adresse: Eine Bestellbestätigung direkt nach dem Kauf und eine Bestellauftragsbestätigung sobald der Volkswagen Partner Ihre Bestellung bestätigt hat.
+
+Wir verarbeiten diese Daten solange, wie das für den vorgenannten Zweck erforderlich ist und löschen diese allgemein unverzüglich nach Wegfall der rechtlichen Grundlage, wenn sie für die genannten Zwecke nicht mehr erforderlich sind oder die genannten Zwecke wegfallen und sofern keine anderweitige Rechtsgrundlage (z. B. handels- und steuerrechtliche Aufbewahrungsfristen) vorliegt, andernfalls nach Wegfall der anderweitigen Rechtsgrundlage oder, wenn wir hierzu aus anderen gesetzlichen Gründen verpflichtet sind.
+
+Zur Bereitstellung des Marktplatzes setzen wir zu Supportzwecken die Diconium Digital Solutions GmbH und PEC Project Engineers & Consultants GmbH sowie die Audi Business Innovation GmbH jeweils als Auftragsverarbeiter ein. Wir haben mit unserem Auftragsverarbeitern jeweils einen Auftragsverarbeitungsvertrag geschlossen und angemessene Garantien zur Wahrung des Schutzes personenbezogener Daten vereinbart (der Auftragsverarbeiter verarbeitet personenbezogene Daten ausschließlich zur Erfüllung seiner Aufgaben und ist vertraglich an unsere Weisungen gebunden, verfügt über geeignete technische und organisatorische Maßnahmen zum Schutz personenbezogener Daten und wird von uns regelmäßig kontrolliert).
+
+Zudem agiert die Volkswagen AG im Rahmen der Abwicklung des Kaufvertrages beim ausgewählten Partner als Auftragsverarbeiter.
+
+Im Rahmen der Auftragsverarbeitung nutzt die Volkswagen AG den Unterauftragsverarbeiter Commercetools GmbH. Ein Zugriff auf die Informationen durch Tochtergesellschaften der Commercetools GmbH zu Supportzwecken in Drittländern (Commercetools Pte. Ltd. und Commercetools Inc.) kann nicht ausgeschlossen werden, so dass ein entsprechender EU-Standardvertrag (angemessene Garantie zur Datenverarbeitung in nicht europäischen Ländern) geschlossen wurde. Die verwendeten EU-Standardvertragsklauseln können Sie über die URL https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32010D0087  abrufen.
+
+n. Volkswagen Driving Experience
+
+Die nachstehenden Angebote der Volkswagen Driving Experience (i. - iv.) und die damit verbundene Datenverarbeitung werden in gemeinsamer Verantwortung zusammen mit der D&T DRIVE & TRAINING AG erbracht, Ehreshoven 23, 51766 Engelskirchen eingetragen im Handelsregister des Amtsgerichts Köln unter der Nr. HRB 87441. Die Volkswagen AG und die D&T DRIVE & TRAINING AG haben im Hinblick auf ihre gemeinsame Verantwortlichkeit Vereinbarungen im Sinne von Art. 26 DSGVO getroffen. Deren wesentliche Inhalte teilen wir Ihnen auf Anfrage mit. Hierzu nutzen Sie bitte die im Abschnitt „Ihre Ansprechpartner“ aufgeführten Kontaktmöglichkeiten. Die Wahrung der Betroffenenrechte übernimmt die Volkswagen AG, weitere Informationen finden Sie in den Abschnitten „E. Ihre Rechte“ und „F. Ihre Ansprechpartner“
+
+i. Kontaktanfrage Volkswagen Driving Experience
+
+Sie haben die Möglichkeit per Telefon oder per E-Mail mit uns Kontakt aufzunehmen. In diesem Zusammenhang verarbeiten wir folgende Daten: verpflichtend: Telefonnummer respektive E-Mail-Adresse und optional: Anrede. Wir verarbeiten Ihre bei der Kontaktaufnahme angegebenen personenbezogenen Daten um Ihre Anfrage zu bearbeiten (vgl. Art. 6 Abs. 1 lit. b DSGVO). Die von Ihnen übermittelten Daten werden spätesten zwei Wochen nach Beantwortung der Anfrage gelöscht. Die Beantwortung Ihrer Anfrage erfolgt durch die D&T DRIVE & TRAINING AG und den durch sie beauftragten Auftragsdatenverarbeiter lmc.communication GmbH.
+
+ii. Gutscheinbestellung Volkswagen Driving Experience
+
+Mit der Gutscheinbestellung beabsichtigen Sie mit der Volkswagen Driving Experience ein Vertragsverhältnis einzugehen. Ihre Anfrage stellt eine Vertragsanbahnung dar (Art. 6, Abs. 1 Satz lit b, DSGVO). Wir erheben folgende Daten, Vorname, Nachname, Anrede, Titel, Straße, Hausnummer, Postleitzahl, Stadt, E-Mail und Geburtstag. Ihre Daten werden im Zuge des Geschäftsverhältnisses benötigt und von uns für die korrekte Durchführung z.B. Gutscheinversand genutzt. Die personenbezogenen Daten, die im Rahmen der Gutscheinbestellung verarbeitet wurden, werden 3 Jahre nach einlösen des Gutscheins gelöscht, sofern keine anderen Aufbewahrungsfristen (z. B. Steuerliche Aufbewahrungsfristen von 6 Jahren für Rechnungen) entgegenstehen. Die Abwicklung der Gutscheinbestellung erfolgt durch die D&T DRIVE & TRAINING AG und den durch sie beauftragten Auftragsdatenverarbeiter lmc.communication GmbH.
+
+iii. Trainings und Touren Volkswagen Driving Experience
+
+Mit einer Trainings- und/oder Tourenanfrage beabsichtigen Sie mit der Volkswagen Driving Experience ein Vertragsverhältnis einzugehen. Ihre Anfrage stellt eine Vertragsanbahnung dar (Art. 6, Abs. 1 Satz lit b, DSGVO). Wir erheben folgende Daten, Vorname, Nachname, Anrede, Titel, E-Mail. Ihre Daten werden im Zuge des Geschäftsverhältnisses benötigt und von uns für die korrekte Durchführung z.B. für den Versand von Informationsmaterial und Reservierungsbestätigung genutzt. Sollte kein Vertrag zustande kommen, werden ihre personenbezogene Daten zwei Wochen nach der Anfrage gelöscht, personenbezogene Daten, die während der Erfüllung eines Vertrages anfallen werden nach 3 Jahre gelöscht, Rechnungen werden aufgrund steuerlicher Aufbewahrungsfristen 6 Jahre aufbewahrt. Die Abwicklung der Buchung erfolgt durch die durch die D&T DRIVE & TRAINING AG und den durch sie beauftragten Auftragsdatenverarbeiter lmc.communication GmbH.
+
+iv. Bestellung eines Newsletters Volkswagen Driving Experience
+
+Durch eine E-Mail an info@driving-experience.eu  haben Sie die Möglichkeit, einen Newsletter zu bestellen. Die in diesem Zusammenhang angegebene E-Mail-Adresse wird von uns ausschließlich zum Zweck der Erbringung dieses Services im Rahmen Ihrer dafür gegebenen Einwilligung genutzt (Art. 6 Abs. 1 lit. a DSGVO). Die D&T DRIVE & TRAINING AG verwendet hierfür das sog. Double-Opt-In-Verfahren. Dabei wird Ihnen eine E-Mail an die von Ihnen angegebene E-Mail-Adresse mit der Bitte um Bestätigung Ihrer Einwilligung gesendet. Sie können Ihre Einwilligung jederzeit unentgeltlich mit Wirkung für die Zukunft gegenüber der Volkswagen AG widerrufen, z. B. über den in jedem Newsletter enthaltenen Link „Abbestellen" oder über eine E-Mail mit der Bitte um Abbestellung an info@driving-experience.eu . Weitere Informationen zur Geltendmachung Ihrer Rechte finden Sie in dieser Datenschutzerklärung im Abschnitt „Ihre Rechte“.
+
+Sobald Sie den Newsletter abbestellen, werden Ihre für den Newsletter angegeben personenbezogenen Daten gelöscht, sofern keine anderen Aufbewahrungsfristen (z. B. steuerliche Aufbewahrungsfristen) entgegenstehen. Der Versand des Newsletters erfolgt durch den Einsatz der lmc.communication GmbH, die als Auftragsverarbeiter für die D&T DRIVE & TRAINING AG agiert.
+
+C. Customer Interaction Center
+Sie haben über das CIC die Möglichkeit, sich mit Anliegen zu unseren digitalen Diensten oder Apps an das Customer Interaction Center (CIC) zu wenden (z. B. per Post, E-Mail, Kontaktformular oder Telefon). Dabei [verarbeiten wir / verarbeitet die Volkswagen AG] die für die Bearbeitung Ihrer Frage und zur Kundenbetreuung erforderlichen personenbezogenen Daten (z.B. Name, E-Mail Adresse, Adresse, Telefonnummer, Land und Sprache). Weitere Informationen zum Datenschutz bei der Nutzung des CIC finden Sie in der Datenschutzerklärung des CIC unter [https://cic-legal.volkswagen.com].
+
+D. Einsatz von Cookies & Trackingtools
+a. Allgemeine Informationen
+Die Volkswagen AG setzt auf ihren Webseiten verschiedene Cookies ein. Cookies sind kleine Dateien mit Konfigurationsinformationen, die auf Ihrem Endgerät gespeichert werden. Cookies lassen sich grundsätzlich in drei Kategorien unterteilen. Es gibt Cookies, die für die Funktionalität der Webseite unerlässlich sind (sog. Funktionscookies), Cookies, die den Komfort eines Webseitenbesuchs erhöhen und z. B. Ihre Spracheinstellungen speichern (sog. Komfortcookies) und Cookies, aufgrund derer ein pseudonymisiertes Nutzungsprofil erstellt wird (sog. Trackingcookies).
+
+Die Verarbeitung der Funktionscookies ist notwendig, um Ihnen einen Besuch der Webseite zu ermöglichen (vgl. Art. 6 Abs. 1 lit. b DSGVO).
+
+Die Rechtsgrundlage für die Komfortcookies ist ein berechtigtes Interesse (Art. 6 Abs. 1 lit. f DSGVO). Das berechtigte Interesse liegt in der Bereitstellung eines Komforts bei dem Besuch der Webseite.
+
+Trackingcookies werden nur gesetzt, wenn eine Einwilligung durch den Webseitenbesucher dafür vorliegt (Art. 6 Abs. 1 lit. a DSGVO). Die Einwilligung wird über den sog. Cookie-Banner abgegeben, der aktiv angeklickt werden muss.
+
+Sie können der Datenverarbeitung jederzeit mit Wirkung für die Zukunft widersprechen, indem Sie die Speicherung von Cookies durch die Einstellung in Ihrem Browser verhindern oder indem Sie auf den nachfolgenden Link klicken und in unserem Cookie Consent Manager Ihre aktuell festgelegten Präferenzen ändern:
+
+Meine Cookie Präferenzen verwalten
+
+Weitere Informationen zu unseren Cookies entnehmen Sie bitte der Cookie-Richtlinie  sowie dem Folgenden.
+
+Smart Signals
+Auf Basis der oben beschriebenen Nutzungsauswertung steuert Smart Signals die Ausspielung von personalisierten Inhalten auf den Webseiten von Volkswagen. Dabei werden keine personenbezogenen Daten erhoben oder verarbeitet.
+Ensighten
+Ensighten ist ein Tag Management Tool und steuert die hier beschriebenen Tag-Integrationen. Ensighten selbst erhebt hierzu keine personenbezogenen Daten.
+b. Adobe Analytics
+Diese Webseite nutzt den Webanalysedienst Adobe Analytics, um die Nutzerzugriffe auf diese Webseite auszuwerten. Die Datenverarbeitung erfolgt auf Grundlage einer von Ihnen abgegebenen Einwilligung (Art. 6 Abs. 1 lit. a DSGVO).
+
+Für die Auswertung werden Cookies auf Ihrem Endgerät gespeichert und hierüber Informationen erhoben, die auch auf Servern unseres Auftragsverarbeiters Adobe Systems Software Ireland Limited („Adobe“) gespeichert werden. Ein Zugriff auf die Informationen durch Adobe Systems Incorporated mit Sitz in den USA kann nicht ausgeschlossen werden, so dass entsprechende EU-Standarddatenschutzklauseln als angemessene Garantien zur Datenverarbeitung in nicht europäischen Ländern abgeschlossen wurden. Sie haben das Recht, im Rahmen der Auskunft über diesen Standardvertrag informiert zu werden.
+
+Eine direkte Personenbeziehbarkeit der auf den Adobe Servern gespeicherten Informationen ist ausgeschlossen, da Adobe Analytics mit den Einstellungen „Before Geo-Lookup: Replace visitor’s last IP octet with 0“ und „Obfuscate IP-Removed“ genutzt wird. Durch die Einstellung „Before Geo-Lookup: Replace visitor’s last IP octet with 0“ wird gewährleistet, dass vor dieser sogenannten Geolokalisierung die IP-Adresse anonymisiert wird, indem das letzte Oktett der IP-Adresse durch Nullen ersetzt wird. Der ungefähre Standort des Nutzers wird zur statistischen Auswertung an das Tracking-Paket, dass noch die vollständige IP-Adresse enthält, hinzugefügt. Vor Speicherung des Tracking-Pakets wird die IP-Adresse dann durch eine einzelne feste IP-Adresse ersetzt - hier spricht man von einer generischen IP-Adresse - wenn die Einstellung „Obfuscate IP –Removed“ konfiguriert ist. Damit ist die IP-Adresse nicht mehr in einem gespeicherten Datensatz enthalten.
+
+c. Adform
+Diese Webseite nutzt das Webtracking Tool Adform. Adform ist eine Demand Side Platform und wird als Tool für den programmatischen Einkauf von digitalen Werbeflächen genutzt. Adform setzt Cookies ein, um für die Nutzer relevante Anzeigen zu schalten, die Berichte zur Kampagnenleistung zu verbessern oder um zu vermeiden, dass ein Nutzer die gleichen Anzeigen mehrmals sieht. Über eine Cookie-ID erfasst Adform, welche Anzeigen in welchem Browser geschaltet werden und kann so verhindern, dass diese mehrfach angezeigt werden. Adform verwendet dieses Cookie auch, um den Inhalt zu verstehen, mit dem Sie auf unseren Websites interagiert haben, um Ihnen später gezielte Werbung zusenden zu können. Darüber hinaus kann Adform mithilfe von Cookie-IDs sog. Conversions erfassen, die Bezug zu Anzeigenanfragen haben. Das ist etwa der Fall, wenn ein Nutzer eine Adform-Anzeige sieht und später mit demselben Browser die Website des Werbetreibenden aufruft und dort etwas kauft. Die Datenverarbeitung erfolgt auf Grundlage einer von Ihnen abgegebenen Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Sie können die Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen, indem Sie auf den nachfolgenden Link klicken und in unserem Cookie Consent Manager Ihre aktuell festgelegten Präferenzen ändern: https://www.volkswagen.de/de/mehr/rechtliches/datenschutz.html?open=true
+
+Die Basis der Datenverarbeitung sind Nutzerdaten. Es werden die IP Adresse, Webseiten URL, URL einer vorher besuchten Seite, Vermarkter Domain, Adform Cookie ID, User Agent, Zeitstempel und Referrer verarbeitet. Der Zugriff auf gesammelte Daten ist beschränkt auf die Volkswagen AG, Adform A/S und phd Germany GmbH. Die Dauer der Datenspeicherung beträgt 13 Monate.
+
+Weitere Informationen zu Adform erhalten Sie unter https://site.adform.com  sowie zum Datenschutz bei Adform A/S Dänemark allgemein: https://site.adform.com/privacy-center/overview
+
+d. The Trade Desk
+Diese Webseite nutzt The Trade Desk (kurz „TTD“), einen sog. Targeted Advertising Dienst. Die Firma stellt eine Technologie zur Verfügung, die Werbetreibenden hilft, digitale Werbekampagnen über viele Kanäle wie Websites, oder Apps zu verwalten. Die von der Volkswagen AG durchgeführten Werbekampagnen tragen dazu bei, die Inhalte zu bezahlen, die Ihnen gefallen. TTD sammelt und verwendet Daten als Auftragsverarbeiter, um sicherzustellen, dass die Anzeigen, die Sie im Internet sehen, relevant sind und um ihre Wirksamkeit zu messen und auszuwerten.
+
+Die Plattform sammelt und verarbeitet pseudonymisierte - d.h. nicht direkt identifizierende - Daten über Benutzer, Geräte und Anzeigen, sowie darüber, wo sie gezeigt werden. TTD tritt als Sub-Auftragsverarbeiter für die Firma PHD Germany GmbH auf. PHD Germany GmbH ist Auftragsverarbeiter der Volkswagen AG. Entsprechende Verträge zur Auftragsverarbeitung sind geschlossen.
+
+Die verarbeiteten Daten inkludieren: Cookie ID, Mobile Device ID, IP-Adresse, Interessensinformationen, Webbrowser und Geräteinformationen, Informationen, welche Werbeanzeigen Ihnen bereits angezeigt wurden, Zeitstempel und Webseiten URLs.
+
+Dabei helfen die eingesetzten Cookie-Daten Webbrowser und Geräte zu unterscheiden und wiederzuerkennen, um unsere Werbung gezielter auf Sie und Ihre Interessen abzustimmen. Die TDID (der gesetzte Cookie durch TTD) hat eine Lebensdauer von 1 Jahr ab dem Zeitpunkt, an dem Sie das letzte Mal eine Anzeige von der Plattform (TTD) erhalten haben. Diese Lebensdauer kann jedes Mal aktualisiert werden, wenn Sie mit der Plattform interagieren. Dadurch beginnt das Jahr erneut. Der Cookie erhebt technische Webbrowser Profil Daten und das Surfverhalten des Nutzers (z.B. Daten über Benutzer, Geräte und Anzeigen, sowie deren Platzierung) (s.o.). Alle Daten werden ausschließlich in pseudonymisierter Form gespeichert.
+Um Anfragen nach Anzeigen und andere Daten über Benutzer oder Geräte zwischen Verkäufern und Käufern übertragen zu können und um Ihnen Anzeigen zeigen zu können, die Ihren wahrscheinlichen Interessen entsprechen, führt TTD eine Cookie-Synchronisierung durch, d. h. die TTD Cookie-IDs werden mit den Cookie-IDs von Kunden und Partnern von TTD abgeglichen. TTD setzt gegebenenfalls und im Einzelfall weitere Sub-Auftragsverarbeiter ein und stellt Ihre Daten zur Erfüllung des Auftrags Dritten zur Verfügung. Für die Übermittlung personenbezogener Daten an Empfänger, die die Daten zum Zwecke der Auftragsdatenverarbeitung erhalten, gelten die Standardvertragsklauseln für die Übermittlung personenbezogener Daten an Auftragsverarbeiter in Drittländern. Diese wurden mit den Sub-Auftragsverarbeitern vereinbart.
+
+Diese Standardvertragsklauseln bleiben bis zu einer gegenteiligen Beschlussfassung durch die Europäische Kommission auch nach dem Inkrafttreten der DS-GVO zum 25.05.2018 in Kraft.
+
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004D0915
+
+Die Datenverarbeitung erfolgt auf Grundlage einer von Ihnen abgegebenen Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Sie können die Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen, indem Sie auf den nachfolgenden Link klicken und in unserem Cookie Consent Manager Ihre aktuell festgelegten Präferenzen ändern: Präferenzen änpassen
+
+Darüber hinaus haben Sie die Möglichkeit über die Cookie-Seite adsrvr.org von TTD direkt die im Cookie bereits gespeicherten Daten zu entfernen und damit keine personalisierte Werbung mehr über die Plattform zu erhalten. In diesem Fall führt das sog. Opt-Out-Setzen dazu, dass Ihnen TTD-Kunden- / Partnerübergreifend keine gezielte Werbung mehr angezeigt wird. Weitere Informationen zu The Trade Desk erhalten Sie hier: https://www.thetradedesk.com/, sowie zum Datenschutz bei The Trade Desk, https://www.thetradedesk.com/general/privacy
+
+E. Ihre Rechte
+Ihre nachfolgenden Rechte können Sie gegenüber der Volkswagen AG jederzeit unentgeltlich geltend machen. Weitere Informationen zur Wahrnehmung Ihrer Rechte finden Sie unter Abschnitt F.
+
+Auskunftsrecht
+
+Sie haben das Recht, von uns Auskunft (Art. 15 DSGVO) über die Verarbeitung Ihrer personenbezogenen Daten zu erhalten.
+
+Berichtigungsrecht
+
+Sie haben das Recht, von uns die Berichtigung (Art. 16 DSGVO) Sie betreffender unrichtiger bzw. unvollständiger personenbezogener Daten zu verlangen.
+
+Recht auf Löschung
+
+Sie haben das Recht, bei Vorliegen der in Art. 17 DSGVO genannten Voraussetzungen, die Löschung Ihrer Daten zu verlangen. Danach können Sie beispielsweise die Löschung Ihrer Daten verlangen, soweit diese für die Zwecke, für die sie erhoben wurden, nicht mehr notwendig sind. Außerdem können Sie Löschung verlangen, wenn wir Ihre Daten auf der Grundlage Ihrer Einwilligung verarbeiten und Sie diese Einwilligung widerrufen.
+
+Recht auf Einschränkung der Verarbeitung
+
+Sie haben das Recht, die Einschränkung der Verarbeitung Ihrer Daten zu verlangen, wenn die Voraussetzungen des Art. 18 DSGVO vorliegen. Dies ist beispielsweise der Fall, wenn Sie die Richtigkeit Ihrer Daten bestreiten. Für die Dauer der Überprüfung der Richtigkeit der Daten können Sie dann die Einschränkung der Verarbeitung verlangen.
+
+Recht auf Datenübertragbarkeit
+
+Sofern die Datenverarbeitung auf der Grundlage eine Einwilligung oder einer Vertragserfüllung beruht und diese zudem unter Einsatz einer automatisierten Verarbeitung erfolgt, haben Sie  das Recht, Ihre Daten in einem strukturierten, gängigem und maschinenlesbaren Format zu erhalten und diese an einen anderen Datenverarbeiter zu übermitteln.
+
+Widerspruchsrecht
+
+Sofern die Verarbeitung auf einem überwiegenden berechtigten Interesse beruht, haben Sie das Recht, der Verarbeitung Ihrer Daten zu widersprechen. Ein Widerspruch ist zulässig, wenn die Verarbeitung entweder im öffentlichen Interesse liegt oder aufgrund eines berechtigten Interesses der Volkswagen AG oder eines Dritten erfolgt. Im Falle des Widerspruchs bitten wir Sie, uns Ihre Gründe mitzuteilen, aus denen Sie der Datenverarbeitung widersprechen.
+Daneben haben Sie das Recht, der Datenverarbeitung zu Zwecken der Direktwerbung zu widersprechen. Das gilt auch für Profiling, soweit es mit der Direktwerbung zusammenhängt.
+
+Widerrufsrecht
+
+Sofern die Datenverarbeitung auf einer Einwilligung beruht, haben Sie  das Recht, die Einwilligung mit Wirkung für die Zukunft jederzeit kostenlos zu widerrufen.
+
+Beschwerderecht
+
+Sie haben außerdem das Recht, sich bei einer Aufsichtsbehörde (z. B. bei der Landesbeauftragten für den Datenschutz Niedersachsen) über unsere Verarbeitung Ihrer Daten zu beschweren.
+
+F. Ihre Ansprechpartner
+Ansprechpartner für die Ausübung Ihrer Rechte
+Die Ansprechpartner für die Ausübung Ihrer Rechte und weitergehender Informationen finden Sie auf der folgenden Webseite: https://datenschutz.volkswagen.de .
+
+Datenschutzbeauftragter
+Unser Datenschutzbeauftragter steht Ihnen als Ansprechpartner für datenschutzbezogene Anliegen zur Verfügung:
+
+Datenschutzbeauftragter der Volkswagen AG
+Berliner Ring 2, 38440 Wolfsburg
+datenschutz@volkswagen.de
+
+Stand: März 2021
