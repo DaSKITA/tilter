@@ -46,8 +46,11 @@ def iterate_through_hierarchy_level(parent_task, hierarchy):
                             tilt_value_part[key[1:]] = \
                                 LinkedAnnotation.objects.get(task=task, label=key, manual=False).value
                         else:
-                            tilt_value_part[key[1:]] = \
-                                LinkedAnnotation.objects.get(task=task, label=key, manual=True).value
+                            try:
+                                tilt_value_part[key[1:]] = \
+                                    LinkedAnnotation.objects.get(task=task, label=key, manual=True).value
+                            except DoesNotExist:
+                                tilt_value_part[key[1:]] = "False"
                     elif key.startswith("_"):
                         try:
                             tilt_value_part[key] = Annotation.objects.get(task=task, label=val).text
