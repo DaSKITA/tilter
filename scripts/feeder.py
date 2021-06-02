@@ -4,6 +4,7 @@ import requests
 import click
 from tqdm import tqdm
 from pathlib import Path
+from langdetect import detect
 
 
 @click.group()
@@ -13,10 +14,10 @@ def cli():
 
 @click.command()
 @click.option('-d', '--directory', default=None, help="Directory which contain Policies as .txt format.")
-@click.option('-l', '--language', default="de", help="Language of the policies.")
 @click.option('-u', '--url-mapping-path', default=None, help="Url Mapping from file name to url")
-@click.option('-o', '--output_path', default=None, help="Output path - the path where the jsonified policies go.")
-def jsonify_policies(directory: str, language: str, url_mapping_path: str, output_path: str):
+@click.option('-o', '--output_path', default=None, help="Output path - the path where the jsonified policies \
+    go.")
+def jsonify_policies(directory: str, url_mapping_path: str, output_path: str):
     """
     Transforms a .txt policy into a json file with inputs for the application.
     An URL mapping can be provided to map a file to a url it is retrieved from. If not provided a default
@@ -32,6 +33,8 @@ def jsonify_policies(directory: str, language: str, url_mapping_path: str, outpu
     if url_mapping_path:
         with open(url_mapping_path, 'r') as mapping_file:
             url_mapping_dict = json.load(mapping_file)
+    else:
+        url_mapping_dict = {}
 
     if not directory:
         directory = os.path.join(Path(os.path.abspath(__file__)).parent.parent, "data")
@@ -42,17 +45,20 @@ def jsonify_policies(directory: str, language: str, url_mapping_path: str, outpu
         if os.path.isfile(file_path) and file_name.endswith('.txt'):
             with open(file_path, 'r') as txt_file:
                 policy_text = txt_file.read()
-
+            language = detect(policy_text)
+            url = url_mapping_dict.get(file_name)
             pure_file_name = file_name.split(".")[0]
 
             json_dict = {
                 "text": policy_text,
                 "name": pure_file_name,
                 "language": language,
-                "url": url_mapping_dict[file_name] if url_mapping_path else "no url"
+                "url": url if url else "no url"
             }
+
             if not output_path:
-                output_path = os.path.join(Path(os.path.abspath(__file__)).parent.parent, "data", "json_policies")
+                output_path = os.path.join(Path(os.path.abspath(__file__)).parent.parent, "data",
+                                           "json_policies")
             if not os.path.isdir(output_path):
                 os.makedirs(output_path)
             json_file_path = os.path.join(output_path, f"{pure_file_name}.json")
