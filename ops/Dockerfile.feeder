@@ -6,6 +6,4 @@ EXPOSE 5000
 COPY data/official_policies data/official_policies
 COPY scripts scripts
 
-WORKDIR /scripts
-
-CMD ["./feeder_entrypoint.sh"]
+CMD ["./scripts/feeder_entrypoint.sh"]
