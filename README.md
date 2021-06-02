@@ -38,6 +38,14 @@ The ssh-connection can be established via `ssh -i [Path_to_Private_Key] [USERNAM
 In the engine a log is created from the console output via nohub. All output is saved in `nohub.out` in the
 root directory of the titler.
 
+It is recommended to use screens for managing the application on the compute engine.
+<br>
+Start a new screen by: `screen -S <screen_name>`
+<br>
+Reattach a screen by: `screen -r <screen_name>`
+<br>
+See all screens with: `screen ls`
+
 The deployment will be active for 90 days (from 31.05.2021) without any costs. Afterwards running the TILTer
 will costs ~13 Euros per month.
 
