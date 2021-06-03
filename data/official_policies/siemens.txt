@@ -1,0 +1,238 @@
+Datenschutzerklärung
+Juli 2020
+
+
+
+Wir (d.h. der im Impressum genannte Betreiber dieser Webseite) nehmen den Schutz Ihrer personenbezogenen Daten ernst. Diese Datenschutzerklärung beschreibt, wie wir Ihre personenbezogenen Daten erheben und erfassen, verwenden, offenlegen, übermitteln und speichern („verarbeiten“). Die erhobenen personenbezogenen Daten sind vom Kontext Ihrer Interaktionen mit uns, den von uns bezogenen Produkten, Dienstleistungen und Features, Ihrem Standort und Sitz sowie dem jeweils geltenden Recht abhängig.
+
+1. Verarbeitung personenbezogener Daten im Zusammenhang mit Ihrer Nutzung unserer Webseiten, Applikationen und Online-Services
+Datenkategorien und Zweck der Verarbeitung
+
+
+
+Im Rahmen Ihrer Nutzung unserer Webseiten, Applikationen oder Online-Services (jeweils ein „Online Angebot“) verarbeiten wir personenbezogene Daten, die Sie aktiv und freiwillig selbst angeben und die im Rahmen Ihrer Nutzung eines Online Angebots anfallen, einschließlich der folgenden Kategorien personenbezogener Daten:
+
+Ihre Kontaktinformationen, wie z.B. Vor- und Zuname, E-Mail-Adresse, Telefonnummer,
+weitere personenbezogene Daten, die Sie in Kontakt- und anderen Formularen eines Online Angebots selbst angeben,
+Informationen, die im Rahmen der Nutzung eines Online Angebots automatisch erhoben werden, wie Ihre Device- und Nutzerkennung, Informationen zu Ihrem Betriebssystem, Seiten und Dienste die Sie im Rahmen Ihres Besuchs genutzt und besucht haben sowie Datum und Uhrzeit einer Nutzeranfrage.
+Wir verarbeiten Ihre personenbezogenen Daten für folgende Zwecke:
+
+um Ihnen die Inanspruchnahme der Leistungen und Funktionen der Online Angebote zu ermöglichen, einschließlich zum Erstellen und Administrieren Ihres Online Accounts, im Rahmen von Updates, Sicherheits- und Fehlerbehebungsmaßnahmen, um Kundensupport zu erbringen und um unsere Online Angebote zu verbessern und weiterzuentwickeln,
+um die Nutzung eines Online Angebots abzurechnen,
+um Ihre Identität festzustellen und eine Nutzer-Authentifizierung zu ermöglichen,
+um Ihre Anfrage oder Weisung zu bearbeiten,
+um Ihre Bestellung abzuwickeln und Ihnen darauf bezogene Informationen und Angebote zugänglich zu machen,
+um Sie mit Informationen und Angeboten zu unseren Produkten und Dienstleistungen zu kontaktieren und Ihnen weitere Marketinginformationen zuzusenden oder Sie im Rahmen von Kundenzufriedenheitsumfragen zu kontaktieren, wie in Ziffer 3 beschrieben, und
+um unsere Nutzungsbedingungen durchzusetzen, Rechtsansprüche geltend zu machen oder abzuwehren und um betrügerische und ähnliche Handlungen, einschließlich Angriffe auf unsere IT-Infrastruktur, abzuwehren und zu unterbinden.
+Online Angebote die von Ihrem Unternehmen bereitgestellt werden
+
+
+
+In einigen Fällen werden Ihnen unsere Online Angebote durch das Unternehmen bereitgestellt, bei dem Sie beschäftigt sind. Wenn Sie ein von Ihrem Unternehmen bereitgestelltes Online Angebot verwenden, erfolgt die Verarbeitung von personenbezogenen Daten, die von Ihnen oder Ihrem Unternehmen in die Inhalte das Online Angebot eingespielt werden, im Auftrag und nach Weisung Ihres Unternehmens und im Rahmen eines Auftragsverarbeitungsvertrags zwischen Ihrem Unternehmen und uns. In diesem Fall ist Ihr Unternehmen datenschutzrechtlich verantwortlich. Wenn Sie Fragen zu personenbezogenen Daten haben, die wir als Auftragsverarbeiter für Ihr Unternehmen verarbeiten, wenden Sie sich bitte an Ihr Unternehmen.
+
+
+
+Links zu anderen Webseiten
+
+
+
+Diese Datenschutzerklärung gilt nur für Online Angebote, die auf diese Datenschutzerklärung verlinken, und nicht für Webseiten und Applikationen anderer Konzerngesellschaften mit eigener Datenschutzerklärung oder Webseiten und Applikationen sonstiger Dritter. Diese Datenschutzerklärung findet auch keine Anwendung, wenn und soweit wir als Auftragsverarbeiter unserer Geschäftspartner fungieren, z.B. wenn wir als Hosting oder Cloud Anbieter tätig werden. Online Angebote können Links auf Webseiten und Applikationen Dritter enthalten, die möglicherweise für Sie von Interesse sind. Wir sind für die Verarbeitung Ihrer personenbezogenen Daten im Rahmen von Webseiten oder Applikationen, die nicht von uns betrieben werden, sowie deren Inhalt nicht verantwortlich.
+
+2. Verarbeitung von personenbezogenen Daten von Geschäftspartnern
+Datenkategorien und Zweck der Verarbeitung
+
+
+
+Im Rahmen der Zusammenarbeit mit Geschäftspartnern verarbeiten wir personenbezogene Daten von Endverbrauchern und Ansprechpartnern bei Kunden, Interessenten, Vertriebspartnern, Lieferanten und Partnern (jeweils ein „Geschäftspartner“):
+
+Kontaktinformationen, wie Vor- und Zunamen, Position im Unternehmen, geschäftliche Anschrift, geschäftliche Telefonnummer, geschäftliche Mobilfunknummer, geschäftliche Faxnummer und geschäftliche E-Mailadresse,
+Zahlungsdaten, wie Angaben die zur Abwicklung von Zahlungsvorgängen oder Betrugsprävention erforderlich sind, einschließlich Kreditkarteninformationen und Kartenprüfnummern,
+weitere Informationen deren Verarbeitung im Rahmen eines Projekts oder der Abwicklung einer Vertragsbeziehung mit uns erforderlich sind oder die freiwillig von Geschäftspartnern angegeben werden, z.B. im Rahmen von getätigten Bestellungen, Anfragen oder Projektdetails,
+Personenbezogene Daten, die aus öffentlich verfügbaren Quellen, Informationsdatenbanken oder von Auskunfteien erhoben werden und
+soweit rechtlich im Rahmen von Compliance Screenings erforderlich: Geburtsdatum, Ausweis und Ausweisnummern, Informationen zu relevanten Gerichtsverfahren und anderen Rechtsstreitigkeiten, in die Geschäftspartner involviert sind.
+Wir verarbeiten die personenbezogenen Daten für folgende Zwecke:
+
+Kommunikation mit Geschäftspartnern zu Produkten, Dienstleistungen und Projekten, z.B. um Anfragen des Geschäftspartners zu bearbeiten oder technische Informationen zu Produkten bereitzustellen,
+Planung, Durchführung und Verwaltung der (vertraglichen) Geschäftsbeziehung zwischen dem Geschäftspartner und uns, z.B. um die Bestellung von Produkten und Dienstleistungen abzuwickeln, Zahlungen einzuziehen, zu Zwecken der Buchhaltung und Abrechnung und um Lieferungen, Wartungstätigkeiten oder Reparaturen durchzuführen,
+Durchführen von Marktanalysen, Gewinnspielen, Wettbewerben oder ähnlichen Aktionen und Events,
+Kontaktaufnahme zu Informationen und Angeboten zu unseren Produkten und Dienstleistungen und Durchführung weiterer Marketingaktivitäten und Kundenzufriedenheitsbefragungen wie in Ziffer 3 näher beschrieben,
+Aufrechterhalten und Schutz der Sicherheit unserer Produkte und Dienstleistungen sowie unserer Webseiten, Verhindern und Aufdecken von Sicherheitsrisiken, betrügerischem Vorgehen oder anderen kriminellen oder mit Schädigungsabsicht vorgenommenen Handlungen,
+Einhalten von (i) rechtlichen Anforderungen (z.B. von steuer- und handelsrechtlichen Aufbewahrungspflichten), (ii) bestehenden Pflichten zur Durchführung von Compliance Screenings (um Wirtschaftskriminalität oder Geldwäsche vorzubeugen) sowie (iii) unserer Richtlinien und Industriestandards und
+Beilegen von Rechtsstreitigkeiten, Durchsetzen bestehender Verträge und zur Geltendmachung, Ausübung und Verteidigung von Rechtsansprüchen.
+3. Verarbeitung personenbezogener Daten für Kundenzufriedenheitsbefragungen und Direktmarketing
+Im Rahmen der geltenden Gesetze können wir Ihre Kontaktdaten für Zwecke des Direktmarketings (z.B. Messeeinladungen, Newsletter mit Informationen und Angeboten zu unseren Produkten und Dienstleistungen) und zur Durchführung von Kundenzufriedenheitsbefragungen verwenden, jeweils auch per E-Mail. Sie haben jederzeit das Recht, der Verwendung Ihrer Kontaktdaten für diese Zwecke zu widersprechen, indem Sie eine E-Mail an contact@siemens.com senden oder von der Widerspruchsmöglichkeit in der Nachricht Gebrauch machen, welche Sie erhalten haben.
+
+4. Übermittlung und Weitergabe der personenbezogenen Daten
+Wir übermitteln Ihre personenbezogenen Daten gegebenenfalls an:
+
+andere Siemens Gesellschaften oder sonstige Dritte – z.B. Vertriebspartner oder Lieferanten - wenn dies im Zusammenhang mit dem Angebot und Betrieb der Online Angebote oder der Anbahnung, Durchführung oder Abwicklung der Geschäftsbeziehung erforderlich ist,
+IT-Dienstleister, die Daten im Rahmen Ihrer Leistungserbringung verarbeiten (wie z.B. Dienstleister für IT-Wartungstätigkeiten), und/oder
+Dritte, wenn dies zur Einhaltung geltenden Rechts oder zu Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist (z.B., im Zusammenhang mit Schieds- oder Gerichtsverfahren, an Gerichte, Schiedsgerichte, Behörden oder Rechtsberater).
+Personenbezogene Daten, die von Ihnen über Online Angebote veröffentlicht werden (z.B. in Chatrooms oder Foren), können für andere registrierte Benutzer des jeweiligen Online Angebots weltweit zugänglich sein.
+
+5. Speicherfristen
+Soweit bei der Erhebung (z.B. im Rahmen einer Einwilligungserklärung) keine ausdrückliche Speicherdauer angegeben wird, werden Ihre personenbezogenen Daten gelöscht, soweit diese nicht mehr zur Erfüllung des Zweckes der Speicherung erforderlich sind, es sei denn gesetzliche Aufbewahrungspflichten (z.B. handels- und steuerrechtliche Aufbewahrungspflichten) stehen einer Löschung entgegen.
+
+6. Ihre Rechte
+Nach anwendbarem Datenschutzrecht haben Sie gegebenenfalls das Recht:
+
+eine Bestätigung darüber zu verlangen, ob wir personenbezogene Daten über Sie verarbeiten und Auskunft über die von uns verarbeiteten personenbezogene Daten zu erhalten,
+die Berichtigung unrichtiger personenbezogener Daten zu verlangen,
+die Löschung der von uns verarbeiteten personenbezogenen Daten zu verlangen,
+die Einschränkung der Verarbeitung personenbezogener Daten zu verlangen,
+die Übertragung der personenbezogenen Daten, die Sie uns aktiv bereitgestellt haben, zu verlangen oder
+der Verarbeitung personenbezogener Daten, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, zu widersprechen.
+7. Datensicherheit
+Wir ergreifen angemessene technische und organisatorische Maßnahmen, um personenbezogene Daten vor unbeabsichtigter oder unrechtmäßiger Vernichtung, Nutzung oder Veränderung sowie unberechtigter Offenlegung bzw. unberechtigtem Zugang zu schützen.
+
+8. Ansprechpartner
+Unsere Datenschutzorganisation unterstützt bei allen Fragen rund um das Thema Datenschutz. Auch können Beschwerden gegenüber unserer Datenschutzorganisation angebracht und die in dieser Datenschutzerklärung genannten Rechte geltend gemacht werden.
+
+
+
+Unsere Datenschutzorganisation kann unter datenschutz@siemens.com kontaktiert werden.
+
+
+
+Unsere Datenschutzorganisation ist immer bestrebt, Ihre Anfragen und Beschwerden zu adressieren und diesen abzuhelfen. Neben der Kontaktaufnahme mit der Datenschutzorganisation haben Sie aber auch jederzeit die Möglichkeit, die zuständige Datenschutzaufsichtsbehörde zu kontaktieren.
+
+9. Verarbeitung personenbezogener Daten im Anwendungsbereich der EU-Datenschutzgrundverordnung: Verantwortlicher, Rechtsgrundlage der Datenverarbeitung und internationale Datentransfers
+Dieser Absatz findet Anwendung, wenn Ihre personenbezogenen Daten durch eine unserer Gesellschaften mit Sitz im Europäischen Wirtschaftsraum verarbeitet werden.
+
+
+
+Für die Datenverarbeitung Verantwortlicher
+
+
+
+Verantwortlicher im Sinne der Datenschutzgrundverordnung für die in dieser Datenschutzerklärung beschriebenen Verarbeitungstätigkeiten, ist die im Impressum genannte Gesellschaft.
+
+
+
+Kontaktinformationen von Geschäftspartnern teilen wir gegebenenfalls im Rahmen Ihrer Geschäftsbeziehung mit uns mit anderen Siemens-Konzerngesellschaften. Wir und diese Siemens-Konzerngesellschaften sind gemeinsam für den Schutz Ihrer personenbezogenen Daten verantwortlich (Art. 26 Datenschutzgrundverordnung). Um sicherzustellen, dass Sie Ihre datenschutzrechtlichen Rechte im Rahmen dieser gemeinsamen Verantwortlichkeit einfach und verlässlich wahrnehmen können, haben wir mit diesen Siemens-Konzerngesellschafen vereinbart, dass Sie Ihre in Ziffer 6 beschriebenen Betroffenenrechte, nicht nur gegenüber der jeweiligen Siemens-Konzerngesellschaft, sondern auch zentral gegenüber der Siemens Aktiengesellschaft geltend machen können.
+
+
+
+Kontaktieren Sie uns dazu unter: datenschutz@siemens.com.
+
+
+
+Rechtsgrundlage der Verarbeitung
+
+
+
+Die Datenschutzgrundverordnung verpflichtet Siemens, Sie über die Rechtsgrundlage der Datenverarbeitung zu informieren.
+
+Soweit bei der Erhebung der personenbezogenen Daten nicht ausdrücklich anders angegeben, ist die Rechtsgrundlage für die Datenverarbeitung:
+
+die Durchführung und Erfüllung eines Vertrags mit Ihnen (Artikel 6 (1) (b) der Datenschutzgrundverordnung) („Vertragsdurchführung“),
+die Erfüllung rechtlicher Pflichten, denen wir unterliegen (Artikel 6 (1) (c) der Datenschutzgrundverordnung), („Erfüllung rechtlicher Pflichten“) oder
+Wahrung unserer berechtigten Interessen (Artikel 6 (1) (f) der Datenschutzgrundverordnung) („Berechtigtes Interesse an der Verarbeitung“). Unser berechtigtes Interesse liegt in der Verarbeitung Ihrer personenbezogenen Daten zum Zwecke (i) des Angebots und Betriebs der Online Angebote und (ii) in der Anbahnung, Durchführung und Abwicklung unserer Geschäftsbeziehung. Soweit nach der untenstehenden Tabelle unser Berechtigtes Interesses an der Verarbeitung als Rechtsgrundlage für die Verarbeitung Ihrer personenbezogenen Daten angegeben ist, sind wir der Ansicht, dass Ihre Interessen, Grundrechte und Grundfreiheiten hinreichend berücksichtig werden, da (i) wir die in dieser Datenschutzerklärung beschriebenen Verarbeitungstätigkeiten und dahinterstehenden Prozesse regelmäßig überprüfen, (ii) wir den Schutz Ihrer personenbezogenen Daten in unseren Prozessen, einschließlich der Bindenden Unternehmensrichtlinie zum Schutz personenbezogener Daten (Siemens Binding Corporate Rules) berücksichtigen, (iii) wir die Transparenz unserer Verarbeitungstätigkeiten gewährleisten und (iv) Ihnen die vorgenannten Rechte hinsichtlich unserer Verarbeitungstätigkeiten zustehen. Wenn Sie weitere Informationen zur beschriebenen Interessenabwägung erhalten möchten, kontaktieren Sie bitte unsere Datenschutzorganisation unter datenschutz@siemens.com.
+Haben Sie im Einzelfall ausdrücklich Ihre Einwilligung in die Verarbeitung Ihrer personenbezogenen Daten erteilt, ist diese Einwilligung die Rechtsgrundlage für die Verarbeitung (Artikel 6 (1) (a) der Datenschutzgrundverordnung) („Einwilligung“).
+
+
+
+
+
+Verarbeitung personenbezogener Daten im Zusammenhang der Nutzung unserer Online Angebote - Zweck und Rechtsgrundlage
+
+
+
+Ermöglichen der Inanspruchnahme der Leistungen und Funktionen der Online Angebote, einschließlich zum Erstellen und Administrieren Ihres Online Accounts, im Rahmen von Updates, Sicherheits- und Fehlerbehebungsmaßnahmen, um Kundensupport zu erbringen und um unsere Online Angebote zu verbessern und weiterzuentwickeln
+
+Vertragsdurchführung (Artikel 6 (1) (b) der Datenschutzgrundverordnung)
+Berechtigtes Interesse an der Verarbeitung (Artikel 6 (1) (f) der Datenschutzgrundverordnung)
+Abrechnung der Nutzung eines Online Angebots
+
+Vertragsdurchführung (Artikel 6 (1) (b) der Datenschutzgrundverordnung)
+Berechtigtes Interesse an der Verarbeitung (Artikel 6 (1) (f) der Datenschutzgrundverordnung)
+Feststellen der Identität und Nutzer-Authentifizierung
+
+Vertragsdurchführung (Artikel 6 (1) (b) der Datenschutzgrundverordnung)
+Berechtigtes Interesse an der Verarbeitung (Artikel 6 (1) (f) der Datenschutzgrundverordnung)
+Bearbeiten Ihre Anfrage oder Weisung
+
+Vertragsdurchführung (Artikel 6 (1) (b) der Datenschutzgrundverordnung)
+Berechtigtes Interesse an der Verarbeitung (Artikel 6 (1) (f) der Datenschutzgrundverordnung)
+Abwickeln Ihre Bestellung und Zugänglichmachen darauf bezogener Informationen und Angebote
+
+Vertragsdurchführung (Artikel 6 (1) (b) der Datenschutzgrundverordnung)
+Berechtigtes Interesse an der Verarbeitung (Artikel 6 (1) (f) der Datenschutzgrundverordnung)
+Zusenden von Marketinginformationen oder Kontaktieren im Rahmen von Kundenzufriedenheitsumfragen, wie in Ziffer 3 beschrieben
+
+Einwilligung, wenn freiwillig erteilt (Artikel 6 (1) (a) der Datenschutzgrundverordnung)
+Berechtigtes Interesse an der Verarbeitung (Artikel 6 (1) (f) der Datenschutzgrundverordnung)
+Durchsetzen unserer Nutzungsbedingungen, Geltendmachung und Abwehr von Rechtsansprüchen, Abwehr und Unterbinden von betrügerischen und ähnlichen Handlungen, einschließlich Angriffen auf unsere IT-Infrastruktur
+
+Erfüllung rechtlicher Pflichten (Artikel 6 (1) (c) der Datenschutzgrundverordnung)
+Berechtigtes Interesse an der Verarbeitung (Artikel 6 (1) (f) der Datenschutzgrundverordnung)
+
+
+Verarbeitung von personenbezogenen Daten von Geschäftspartnern - Zweck und Rechtsgrundlage
+
+
+Kommunikation mit Geschäftspartnern zu Produkten, Dienstleistungen und Projekten, z.B. um Anfragen des Geschäftspartners zu bearbeiten oder technische Informationen zu Produkten bereitzustellen
+
+Vertragsdurchführung (Artikel 6 (1) (b) der Datenschutzverordnung)
+Berechtigtes Interesse an der Verarbeitung (Artikel 6 (1) (f) der Datenschutzverordnung)
+Planung, Durchführung und Verwaltung der (vertraglichen) Geschäftsbeziehung zwischen dem Geschäftspartner und uns, z.B. um die Bestellung von Produkten und Dienstleistungen abzuwickeln, Zahlungen einzuziehen, zu Zwecken der Buchhaltung und Abrechnung und um Lieferungen, Wartungstätigkeiten oder Reparaturen durchzuführen
+
+Vertragsdurchführung (Artikel 6 (1) (b) der Datenschutzgrundverordnung)
+Erfüllung rechtlicher Pflichten (Artikel 6 (1) (c) der Datenschutzgrundverordnung)
+Durchführen von Marktanalysen, Gewinnspielen, Wettbewerben oder ähnlichen Aktionen und Events
+
+Einwilligung, wenn freiwillig erteilt (Artikel 6 (1) (a) der Datenschutzgrundverordnung)
+Berechtigtes Interesse an der Verarbeitung (Artikel 6 (1) (f) der Datenschutzgrundverordnung)
+Durchführung von Kundenzufriedenheitsbefragungen und Direktmarketing wie in Ziffer 3 näher beschrieben
+
+Einwilligung, wenn freiwillig erteilt (Artikel 6 (1) (a) der Datenschutzgrundverordnung)
+Berechtigtes Interesse an der Verarbeitung (Artikel 6 (1) (f) der Datenschutzgrundverordnung)
+Aufrechterhalten und Schutz der Sicherheit unserer Produkte und Dienstleistungen sowie unserer Webseiten, Verhindern und Aufdecken von Sicherheitsrisiken, betrügerischem Vorgehen oder anderen kriminellen oder mit Schädigungsabsicht vorgenommenen Handlungen
+
+Berechtigtes Interesse an der Verarbeitung (Artikel 6 (1) (f) der Datenschutzgrundverordnung)
+Einhalten von (i) rechtlichen Anforderungen (z.B. von steuer- und handelsrechtlichen Aufbewahrungspflichten), (ii) bestehenden Pflichten zur Durchführung von Compliance Screenings (um Wirtschaftskriminalität oder Geldwäsche vorzubeugen) sowie (iii) unserer Richtlinien und Industriestandards
+
+Erfüllung rechtlicher Pflichten (Artikel 6 (1) (c) der Datenschutzgrundverordnung)
+Berechtigtes Interesse an der Verarbeitung (Artikel 6 (1) (f) der Datenschutzgrundverordnung)
+Beilegen von Rechtsstreitigkeiten, Durchsetzen bestehender Verträge und zur Geltendmachung, Ausübung und Verteidigung von Rechtsansprüchen
+
+Erfüllung rechtlicher Pflichten (Artikel 6 (1) (c) der Datenschutzgrundverordnung)
+Berechtigtes Interesse an der Verarbeitung (Artikel 6 (1) (f) der Datenschutzgrundverordnung)
+Internationale Datenübermittlungen
+
+
+
+Wenn wir Ihre personenbezogenen Daten an einen Empfänger übermitteln, der seinen Sitz nicht im Europäischen Wirtschaftsraum hat, stellen wir sicher, dass Ihre Daten angemessen im Einklang mit der Datenschutzgrundverordnung geschützt werden. In diesem Zusammenhang ergreifen wir, sofern dies gesetzlich erforderlich ist, die folgenden Maßnahmen:
+
+An Konzerngesellschaften in solchen Ländern geben wir Ihre personenbezogenen Daten deshalb nur weiter, wenn diese die Bindende Unternehmensrichtlinie zum Schutz personenbezogener Daten (Binding Corporate Rules, „BCR“) umgesetzt haben. Weitere Informationen über die Siemens BCR finden Sie hier.
+An konzernexterne Empfänger in solchen Ländern werden personenbezogene Daten nur dann übermittelt, wenn diese (i) EU Standardvertragsklauseln mit uns abgeschlossen oder (ii) Binding Corporate Rules eingeführt haben. Weitere Informationen sowie eine Kopie der umgesetzten Maßnahmen erhalten Sie unter datenschutz@siemens.com.
+
+
+Die zuständige Datenschutzbehörde
+
+
+
+Unsere Datenschutzorganisation unterstützt bei allen Fragen rund um das Thema Datenschutz. Neben der Kontaktaufnahme mit der Datenschutzorganisation haben Sie aber auch jederzeit die Möglichkeit, die zuständige Datenschutzaufsichtsbehörde zu kontaktieren.
+
+Eine Übersicht der nationalen und internationalen Datenschutzbehörden ist hier abrufbar.
+
+10. Weitere Informationen für Nutzer von Online Angeboten und Geschäftspartner in den USA
+Für US-Bürger gelten die folgenden weiterführenden Informationen:
+
+
+
+Do Not Track
+
+Unsere Online Angebote erkennen keine sog. „Do Not Track“ Einstellungen Ihres Webbrowsers. Bzgl. weiterführender Informationen zur „Do Not Track“ Funktionalität, besuchen Sie bitte die Hilfe-Seiten Ihres Webbrowsers.
+
+
+
+Nutzung durch Kinder
+
+Unsere Online Angebote richten sich nicht an Kinder unter 13 Jahren. Soweit gesetzlich vorgeschrieben erheben wir nicht wissentlich personenbezogene Daten von Kindern unter 13 Jahren, ohne das Einverständnis der Erziehungsberechtigten. Wir erheben und übermitteln personenbezogene Daten von Kindern nur soweit dies rechtlich zulässig ist, um das Einverständnis der Erziehungsberechtigten einzuholen oder um das Kind zu schützen.
+
+
+
+Ihre Rechte in bestimmten US-Bundesstaaten
+
+Nach den Gesetzen einiger US­Bundesstaaten haben Einwohner dieser Bundesstaaten weiterführende Rechte mit Blick auf Ihre personenbezogenen Daten. Weitere Information dazu finden Sie hier.

@@ -27,6 +27,29 @@ browser.
 
 __Note:__ You can also use the [feeder.py](/scripts/feeder.py) CLI drectly. For more Information run: `python feeder.py --help`. Make sure to install the required packages before.
 The packages can be found in `scripts/fill_database.sh` after the `pip` command.
+
+## Deployment
+
+The TILTer ist currently deployed in a [google compute engine](http://34.89.190.55:5000/).
+Deplyoment is not automated. Inside the engine the repository is clonded and has to be manually synched with
+the remote repository. For access to the compute engine ask Michael, to provide you with the necessary
+`ssh-keys` and Username.
+The ssh-connection can be established via `ssh -i [Path_to_Private_Key] [USERNAME]@34.89.190.55`.
+In the engine a log is created from the console output via nohub. All output is saved in `nohub.out` in the
+root directory of the titler.
+
+It is recommended to use screens for managing the application on the compute engine.
+<br>
+Start a new screen by: `screen -S <screen_name>`
+<br>
+Reattach a screen by: `screen -r <screen_name>`
+<br>
+See all screens with: `screen ls`
+
+The deployment will be active for 90 days (from 31.05.2021) without any costs. Afterwards running the TILTer
+will costs ~13 Euros per month.
+
+The Deployment can be accessed under: http://34.89.190.55:5000
 ## Versions
 
 ### v0.1

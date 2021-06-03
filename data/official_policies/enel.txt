@@ -1,0 +1,96 @@
+Privacy policy
+The way in which your personal data is used and shared is a matter of the utmost importance to us. Our privacy policy sets out how we process the personal data we collect via our websites and services.
+
+
+
+Who is the data controller?
+The controller of any personal data provided via the www.enel.com website (hereinafter the “Website”) is Enel S.p.A., with registered office in viale Regina Margherita 137, 00198 Roma, Italy VAT no. 15844561009, tax no. 00811720580 (hereinafter “Enel”). Enel shall process such data in accordance with the provisions laid down by current personal data privacy and protection legislation and by this policy. When subscribing to or accessing the various services, the names of any additional data controllers or processors shall be provided.
+Enel has appointed a Data Protection Officer (DPO) who can be contacted at the following e-mail address dpoenel@enel.com.
+
+
+
+What data do we collect?
+Enel will process any personal data that you have provided to us or that we have legitimately collected. This may include contact details or browsing data:
+Contact details: first name, last name, e-mail address, telephone number, the content of the message you sent, and any other personal data you may have provided during your communications with us. We will process such personal data, should you submit any inquiries, request information or send us communications of any type. This personal data needs to be processed in order to enable us to provide a response to your inquiries or requests. The provision of any further personal data should be considered optional.
+
+Browsing data: during the course of their normal functioning, the IT and telecommunications systems, as well as the software processes that exist to ensure the proper functioning of the Website, collect certain data: for example, the access date and time, the pages visited, the name of the Internet Service Provider and IP address used to access the Internet, the internet address from which you connect to our Website, etc. The transmission of such data is implicit in the use of web communication protocols or is useful for the improved management and optimization of the data and e-mail sending system.
+
+
+
+What is personal data processing?
+Personal data processing refers to any operation or set of operations performed on personal data using automated means, such as collection, recording, organization, structuring, storage, adaptation or modification, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction.
+
+
+
+How is your personal data processed?
+Your personal data is processed by Enel manually and/or using IT and telecommunications tools. Enel will process such data for specific purposes and only where there is a specific legal basis for doing so as laid down by current personal data privacy and protection legislation. Specifically, we will process your personal data only when one or more of the following legal bases have been satisfied:
+
+
+
+you have freely given your specific, informed, clear, and unambiguous consent to the processing of such data;
+the processing is necessary for the performance of a contract to which you are a party, or in order to take steps at your request prior to entering into a contract;
+Enel has a legitimate interest in processing such data;
+Enel is legally obligated to process the personal data.
+
+
+The following table sets out the purposes for which Enel processes your personal data and the legal bases for doing so.
+
+
+
+Purpose of processing
+Legal basis
+To enable users to use all the Website’s functions
+Performance of a contract
+To check the correct functioning of the Website
+Performance of a contract
+
+
+To ascertain responsibility in the event of computer crimes detrimental to the Website; detection, prevention, mitigation, or verification of fraudulent or illegal activities in
+connection with the services provided by the Website; implementation of security controls required by law
+Legitimate interest
+To respond to a query or request submitted by the data subject
+Take steps at the request of the data subject prior to entering into a contract
+The provision of your personal data is necessary in all cases where the data processing is a legal requirement or when it is necessary for the performance of a contract to which you are a party or in order to take steps at your request prior to entering into a contract. Any refusal may make it impossible for us to fulfil the purpose for which your personal data is collected.
+
+However, the provision of your personal data is voluntary when required for any other purposes: in such cases, the absence of your consent shall have no impact on the completion of the contract. The obligatory or discretionary nature of the data provision shall be indicated at the time of its collection.
+
+
+
+Who are the recipients of the personal data?
+Your personal data may be made available to:
+
+Enel employees and consultants who are responsible for data processing, or to our Group's companies within the European Union for the purposes of performing organizational, administrative, financial, and accounting activities;
+
+third party companies or other entities, in their role as external data processors, which provide outsourced services to Enel to enable the Website to function.
+
+
+
+Where and for how long is the personal data stored?
+Your Personal Data will be processed within the European Union and stored on servers located within the European Union. The same data may be processed in countries outside the European Union, provided that an adequate level of protection is guaranteed, recognized by a specific adequacy decision of the European Commission.
+
+Any transfers of Personal Data to non-EU countries, in the absence of a European Commission adequacy decision, will only be possible if Data Controllers and Data Processors involved provide adequate guarantees of contractual nature, including Binding Corporate Rules and Standard Contractual Clauses.
+
+The transfer of your Personal Data to third countries outside the European Union, in the absence of an adequacy decision or other appropriate measures as described above, will be made only if you have explicitly consented to it or in the cases provided for by the GDPR and will be processed in your interest. In these cases, we inform you that, although the Enel Group adopts operating instructions common to all the countries in which it operates, the transfer of your Personal Data may be exposed to risks related to the peculiarities of local legislation regarding the processing of Personal Data. Any personal data processed shall be stored in accordance with the principles of proportionality and necessity and, in any case, until the purposes of the data processing have been completed.
+
+
+
+What are your rights regarding your personal data?
+With respect to the personal data provided, in accordance with articles 15 – 21 of EU Regulation 2016/679 (GDPR), you have the following rights:
+
+to request access the data and request a copy;
+to request rectification;
+to request erasure;
+to obtain restriction of processing;
+to object to the processing;
+to receive the personal data in a structured, commonly used, and machine-readable format and to transmit such data to another controller without hindrance, where technically feasible.
+In any case, you have the right, at any time, to object to the processing of your personal data that is performed for the purpose of pursuing Enel’s legitimate interests. You can exercise your rights and withdraw your consent by writing an e-mail to privacy.communications@enel.com.
+
+Please be aware that it is your right to submit a complaint to the competent data protection authority. If you wish to do so, you can in one of the following ways:
+
+a) registered letter with return receipt to the Italian Data Protection Authority at: Garante per la Protezione dei Dati Personali, Piazza Venezia 11, 00186 Roma, Italy;
+b) e-mail to: garante@gpdp.it, or protocollo@pec.gpdp.it;
+c) fax to: +39 06 696773785
+
+Should you object to the processing of your personal data, Enel will suspend processing such data, except where legitimate reasons for continuing with the processing are demonstrated or where it is necessary for the establishment, exercising, or defense of a right in a court of law.
+
+For further information regarding your personal data, please contact Enel’s DPO at dpoenel@enel.com, writing the word “Privacy” in the subject line of the e-mail.

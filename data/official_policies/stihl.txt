@@ -1,0 +1,325 @@
+DATENSCHUTZ-INFORMATION DER STIHL VERTRIEBSZENTRALE AG & CO. KG
+(Stand 11.05.2021)
+
+Hiermit möchten wir Sie über die durch die STIHL Vertriebszentrale AG & Co. KG (nachfolgend „STIHL“) durchgeführte Verarbeitung personenbezogener Daten nach Maßgabe der EU-Datenschutzgrundverordnung informieren. Sollten Sie Fragen oder Anmerkungen zu dieser Datenschutz-Information haben, können Sie diese jederzeit an die unter Ziffer 2 angegebene Email-Adresse richten. STIHL hat zudem angemessene technische und organisatorische Sicherheitsmaßnahmen gemäß der EU-Datenschutzgrundverordnung getroffen, um Ihre personenbezogenen Daten gegen Verlust, Zerstörung, Manipulation und unautorisierten Zugriff zu schützen.
+
+INHALTSVERZEICHNIS
+1. ÜBERBLICK
+2. NAME UND KONTAKTDATEN DES VERANTWORTLICHEN SOWIE DES DATENSCHUTZBEAUFTRAGTEN
+3. ZWECKE DER DATENVERARBEITUNG, RECHTSGRUNDLAGEN UND BERECHTIGTE INTERESSEN, DIE VON STIHL ODER EINEM DRITTEN VERFOLGT WERDEN SOWIE KATEGORIEN VON EMPFÄNGERN
+3.1. AUFRUFEN UNSERER WEBSITE
+3.2. STIHL DIRECT
+3.3. DATENVERARBEITUNG ZU WERBEZWECKEN
+3.4. ONLINEAUFTRITT UND WEBSEITEN-OPTIMIERUNG
+3.5. STATISTISCHE AUSWERTUNG
+3.6. KONTAKTAUFNAHME
+4. ÜBERMITTLUNG VON DATEN
+5. IHRE RECHTE
+5.1. ÜBERBLICK
+5.2. WIDERSPRUCHSRECHT
+6. ÄNDERUNGEN DIESER ERKLÄRUNG
+1. ÜBERBLICK
+Die folgenden Datenschutzhinweise informieren Sie über Art und Umfang der Verarbeitung sogenannter personenbezogener Daten durch STIHL. Personenbezogene Daten sind Informationen, die Ihrer Person direkt oder mittelbar zuzuordnen sind bzw. zugeordnet werden können.
+
+2. NAME UND KONTAKTDATEN DES VERANTWORTLICHEN SOWIE DES DATENSCHUTZBEAUFTRAGTEN
+Diese Datenschutz-Information gilt für die Datenverarbeitung durch die STIHL Vertriebszentrale AG & Co. KG, Robert-Bosch-Str. 13, 64807 Dieburg („Verantwortlicher“) im Rahmen der Webseite www.stihl.de. Der Datenschutzbeauftragte von STIHL ist unter der zuvor genannten Anschrift, zu Hd. Abteilung Datenschutz, bzw. unter datenschutz-dv@stihl.de erreichbar.
+
+3. ZWECKE DER DATENVERARBEITUNG, RECHTSGRUNDLAGEN UND BERECHTIGTE INTERESSEN, DIE VON STIHL ODER EINEM DRITTEN VERFOLGT WERDEN SOWIE KATEGORIEN VON EMPFÄNGERN
+3.1. AUFRUFEN UNSERER WEBSITE
+Beim Aufrufen unserer Website werden durch den auf Ihrem Endgerät zum Einsatz kommenden Browser automatisch Informationen an den Server unserer Website gesendet und temporär in einem sogenannten Log-File gespeichert. Folgende Informationen werden dabei auch ohne Ihr Zutun erfasst und bis zur automatisierten Löschung gespeichert:
+
+die IP-Adresse des anfragenden internetfähigen Gerätes,
+das Datum und die Uhrzeit des Zugriffs,
+der Name und die URL der abgerufenen Datei,
+die Website/Applikation, von der aus der Zugriff erfolgte (Referrer-URL),
+der von Ihnen verwendete Browser und ggfs. das Betriebssystem Ihres internetfähigen Rechners sowie der Name Ihres Access-Providers.
+Die Rechtsgrundlage für die Verarbeitung der IP-Adresse ist Artikel 6 Absatz 1 lit. f DSGVO. Unser berechtigtes Interesse folgt aus den nachfolgend aufgelisteten Zwecken der Datenerhebung.
+
+Die IP-Adresse Ihres Endgerätes sowie die weiteren oben aufgelisteten Daten werden durch uns für folgende Zwecke genutzt:
+
+Gewährleistung eines reibungslosen Verbindungsaufbaus,
+Gewährleistung einer komfortablen Nutzung unserer Website/Applikation,
+Auswertung der Systemsicherheit und -stabilität.
+Die Daten werden für einen Zeitraum von 7 Tagen gespeichert und danach automatisch gelöscht. Des Weiteren verwenden wir für unsere Website sogenannte Cookies, Analyse-Tools sowie Targeting-Verfahren, wie nachfolgend unter Ziffer 3.4. genauer erläutert.
+
+3.2. STIHL DIRECT
+3.2.1. EINRICHTEN EINES KUNDENKONTOS UND BESTELLUNG
+Um Ihnen bei Ihrem Einkauf den größtmöglichen Komfort zu ermöglichen, werden Ihre persönlichen Daten in einem passwortgeschützten Kundenkonto gespeichert. Die Anlage des Kundenkontos erfolgt auf Grundlage unseres berechtigten Interesses im Sinne von Artikel 6 Abs. 1 lit. f DSGVO. Das Anlegen eines Kundenkontos erleichtert uns die Abwicklung des Vertrags und ermöglicht uns, Sie effizient und transparent über den Status des Kaufs zu informieren und Support zu leisten. Um ein Kundenkonto anzulegen, müssen Sie ein selbstgewähltes Passwort vergeben. Dieses dient zusammen mit Ihrer E-Mail-Adresse und Ihrem Namen für den Zugang zu Ihrem Kundenkonto. Nach Einrichtung eines Kundenkontos ist keine erneute Dateneingabe erforderlich. Zudem können Sie in Ihrem Kundenkonto die zu Ihnen gespeicherten Daten jederzeit einsehen und ändern.
+
+Bitte beachten Sie, dass auch nach Verlassen unserer Webseite automatisch eingeloggt bleiben, es sei denn, Sie melden sich aktiv ab. Sie haben die Möglichkeit, Ihr Kundenkonto jederzeit zu löschen. Bitte wenden Sie in diesem Fall an den Kundenservice. Bitte beachten Sie jedoch, dass damit nicht unbedingt zugleich auch eine Löschung der in dem Kundenkonto einsehbaren Daten erfolgt.
+
+Soweit Sie bei uns eine Bestellung aufgeben, verarbeiten wir die für den Abschluss, die Durchführung oder die Beendigung eines Vertrages mit Ihnen erforderlichen Daten. Hierzu zählen:
+
+Vorname, Nachname
+Rechnungs- und Lieferanschrift
+E-Mail-Adresse
+Rechnungs- und Bezahldaten
+ggf. Telefonnummer
+Serialnummer des Gerätes
+Diese Daten werden im Zuge der ersten Bestellung Ihrem Kundenkonto hinzugefügt. Bei weiteren Bestellungen müssen die Daten nicht noch einmal eingegeben werden. Rechtsgrundlage hierfür ist Artikel 6 Absatz 1 lit. b DSGVO, d.h. Sie stellen uns die Daten auf Grundlage des Vertragsverhältnisses zwischen Ihnen und uns zur Verfügung. Zur Verarbeitung Ihrer E-Mail-Adresse sind wir zudem aufgrund einer Vorgabe im Bürgerlichen Gesetzbuch (BGB), eine elektronische Bestellbestätigung versenden zu müssen, verpflichtet (Artikel 6 Absatz 1 lit. c DSGVO).
+
+Bei Auslieferung eines konkreten Gerätes wird die Serialnummer des Geräts dem Käufer zugeordnet.
+
+Durch das Anlegen eines Kundenkontos werden Ihre dem Kundenkonto zugeordneten sowie darin gespeicherten Daten grundsätzlich so lange verarbeitet, bis Sie die Löschung des Kundenkontos beantragen bzw. vornehmen. Mindestens speichern wir Ihre persönlichen Daten jedoch bis zum Ablauf der gesetzlichen bzw. möglicher vertraglicher Gewährleistungs- und Garantierechte. Nach Ablauf dieser Frist und im Falle eines gelöschten Kundenkontos bewahren wir die nach Handels- und Steuerrecht erforderlichen Informationen des Vertragsverhältnisses für die gesetzlich bestimmten Zeiträume auf. Für diesen Zeitraum (regelmäßig zehn Jahre ab Vertragsschluss) werden die Daten allein für den Fall einer Überprüfung durch die Finanzverwaltung erneut verarbeitet.
+
+Zur Abwicklung des Kaufvertrages sind des Weiteren folgende Datenverarbeitungen erforderlich:
+
+Wir geben die erforderlichen Bezahldaten an einen von uns beauftragten Bezahldienstleister weiter. Angaben zu Ihrer Lieferanschrift geben wir zum Zwecke der Abwicklung des Kaufvertrages und der Auslieferung Ihrer Bestellung an ein von uns beauftragtes Logistikunternehmen weiter.
+
+3.2.2. CLICK&COLLECT
+Sie haben die Möglichkeit, das von Ihnen bestellte Gerät an einen Fachhändler Ihrer Wahl schicken zu lassen und es dort abzuholen. In diesem Fall übermitteln wir die erforderlichen Daten (Ihre Kontaktdaten, das erworbene Produkt sowie die zugehörige Serialnummer) an den Fachhändler, sodass dieser Ihnen das Gerät übergeben kann. Der Fachhändler sowie der Tag der Abholung werden dabei von uns erfasst und Ihrem Kundenkonto zugeordnet. Rechtsgrundlage für diese Datenverarbeitung ist Art. 6 Abs. 1 lit. b DSGVO, die Datenverarbeitung ist für die Durchführung des Vertrages erforderlich.
+
+3.2.3. PRODUKTREGISTRIERUNG
+Auf unserer Website haben Sie die Möglichkeit, Ihr STIHL Produkt zu registrieren. Sämtliche im Zuge der Registrierung Ihres STIHL Produkts von Ihnen hinterlegten personenbezogenen Daten (Vorname, Nachname, Adresse (Straße, Hausnummer, Postleitzahl, Ort), E-Mail-Adresse, Telefonnummer) werden von STIHL zusammen mit den gerätespezifischen Daten des von Ihnen registrierten Produkts für die Begründung, Ausgestaltung, Durchführung, Abänderung, Abwicklung und/oder Beendigung des Registrierungsverhältnisses mit Ihnen verarbeitet. In dem Registrierungsformular sind die Daten genannt, die zwingend anzugeben sind, damit Sie Ihr Produkt registrieren können und damit in den Genuss der folgenden Vorteile aus der Produktregistrierung kommen können:
+
+Verlängerung der Garantiedauer
+Individueller, auf Sie zugeschnittener Support
+Zügige und passgenaue Unterstützung für Ihr STIHL-Gerät
+Verbesserte Nutzererfahrung bei der Nutzung unserer sonstigen Services
+Rechtsgrundlage für die Datenverarbeitung ist die Durchführung vorvertraglicher Maßnahmen und die Erfüllung des mit Ihnen bestehenden Vertrages gemäß Art. 6 Abs. 1 lit. b DSGVO.
+
+Darüber hinaus haben Sie die Möglichkeit, optionale Angaben zu machen, die uns helfen, Sie besser kennenzulernen. Diese Daten verwenden wir, um Ihre Anliegen noch besser bearbeiten zu können. Die Angabe zusätzlicher Informationen erfolgt zu jeder Zeit freiwillig. Die Datenverarbeitung erfolgt demnach ausschließlich auf Grundlage Ihrer Einwilligung gem. Art. 6 Abs. 1 lit. a DSGVO. Diese Einwilligung können Sie jederzeit mit Wirkung für die Zukunft durch Mitteilung an die unten genannten Kontaktdaten widerrufen.
+
+Im Falle einer Produktregistrierung erhalten unsere Vertragshändler lediglich die Information über den Registrierungsstatus Ihres STIHL-Produktes. Sonstige statistische Daten erhalten unsere Vertragshändler ausschließlich in anonymisierter Form. Ein Rückschluss auf Ihre Person ist hieraus nicht möglich.
+
+Darüber hinaus gehende personenbezogene Daten werden nicht an unsere Vertragshändler übermittelt.
+
+Rechtsgrundlage für die Datenverarbeitung ist die Durchführung vorvertraglicher Maßnahmen und die Erfüllung des mit Ihnen bestehenden Vertrages gemäß Art. 6 Abs. 1 lit. b DSGVO.
+
+3.2.4. IDENTITÄT UND ÜBERMITTLUNG AN AUSKUNFTEIEN
+Soweit erforderlich überprüfen wir unter Hinzuziehung von Informationen von Dienstleistern Ihre Identität. Rechtsgrundlage hierfür ist Artikel 6 Absatz 1 lit. b sowie lit. f DSGVO. Die Berechtigung hierzu ergibt sich dabei aus dem Schutz Ihrer Identität und der Vermeidung von Betrugsversuchen zu unseren Lasten. Der Umstand und das Ergebnis unserer Anfrage wird Ihrem Kundenkonto für die Dauer des Vertragsverhältnisses hinzugespeichert.
+
+Soweit Sie schon einmal bei uns eingekauft haben, können Ihre durch uns über Sie gespeicherten Daten um sogenannte Scorewerte ergänzt werden. Unter Scoring wird das Erstellen eine Prognose über zukünftige Ereignisse anhand von gesammelten Informationen und Erfahrungen aus der Vergangenheit verstanden. Anhand der zu Ihrer Person gespeicherten Daten erfolgt eine Zuordnung zu statistischen Personengruppen, die in der Vergangenheit ähnliche Einträge aufwiesen. Das zugrundeliegende verwendete Verfahren ist eine fundierte, seit langem praxiserprobte, mathematisch-statistische Methode zur Prognose von Risikowahrscheinlichkeiten.
+
+Für den Fall einer Zahlungsverzögerung übermitteln wir bei Vorliegen der sonstigen gesetzlichen Voraussetzungen die erforderlichen Daten an ein mit der Geltendmachung der Forderung beauftragtes Unternehmen. Rechtsgrundlagen hierfür sind sowohl Artikel 6 Absatz 1 lit. b als auch Artikel 6 Absatz 1 lit. f DSGVO. Die Geltendmachung einer vertraglichen Forderung ist als ein berechtigtes Interesse im Sinne der zweitgenannten Vorschrift anzusehen. Informationen über die Zahlungsverzögerung oder einen etwaigen Forderungsausfall übermitteln wir bei Vorliegen der sonstigen gesetzlichen Voraussetzungen zudem an mit uns kooperierende Auskunfteien. Rechtsgrundlage hierfür ist Artikel 6 Absatz 1 lit. f DSGVO. Das hiernach erforderliche berechtigte Interesse ergibt sich aus unserem sowie dem Interesse Dritter an einer Reduzierung von Vertragsrisiken für zukünftige Verträge.
+
+3.2.5. SUPPORT
+Alle Daten, die Sie im Zusammenhang mit Ihrem Kundenkonto angeben oder uns im Rahmen von Bestellungen mitteilen, verwenden wir auch, um Ihnen bestmöglichen Support bieten zu können. Rechtsgrundlage für die Verarbeitung der Daten zu diesem Zweck ist Art. 6 Abs. 1 lit b DSGVO soweit ein Vertragsverhältnis vorliegt oder Vertragsanbahnungen stattfinden, in allen anderen Fällen Art. 6 Abs. 1 lit. f DSGVO.
+
+3.3. DATENVERARBEITUNG ZU WERBEZWECKEN
+Nachfolgend informieren wir Sie über die Verarbeitung von personenbezogenen Daten zu Werbezwecken, welche nach der DSGVO grundsätzlich auch auf Grundlage unseres berechtigten Interesses gemäß Artikel 6 Absatz 1 lit. f DSGVO möglich ist. Die Dauer der Datenspeicherung zu Werbezwecken folgt keinen starren Grundsätzen und orientiert sich an der Frage, ob die Speicherung für die werbliche Ansprache erforderlich ist.
+
+3.3.1. WERBEZWECKE VON STIHL
+Soweit Sie mit uns einen Vertrag abgeschlossen haben, führen wir Sie als Bestandskunden. In diesem Fall verarbeiten wir Ihre postalischen Kontaktdaten außerhalb des Vorliegens einer konkreten Einwilligung, um Ihnen auf diesem Wege Informationen über neue Produkte und Dienstleistungen zukommen zu lassen. Ihre Email-Adresse verarbeiten wir, um Ihnen außerhalb des Vorliegens einer konkreten Einwilligung Informationen für eigene, ähnliche Produkte zukommen zu lassen. Die Rechtsgrundlage hierfür ist Art. 6 Abs. 1 lit. f DSGVO. Sie können der Verwendung jederzeit widersprechen, ohne dass hierfür andere als die Übermittlungskosten nach den Basistarifen entstehen.
+
+3.3.2. INTERESSENGERECHTE WERBUNG
+Damit Sie nur solche werblichen Informationen erhalten, die für Sie von vermeintlichem Interesse sind, kategorisieren und ergänzen wir Ihr Kundenprofil um weitere Informationen. Verwendet werden hierfür sowohl statistische Informationen als auch Informationen zu Ihrer Person (z.B. Basisdaten Ihres Kundenprofils). Ziel ist es, Ihnen allein an Ihren tatsächlichen oder vermeintlichen Bedürfnissen orientierte Werbung zukommen zu lassen und Sie entsprechend nicht mit unnützer Werbung zu belästigen.
+
+3.3.3. WIDERSPRUCHSRECHT
+Gegen die Datenverarbeitung zu vorgenannten Zwecken können Sie jederzeit kostenfrei und mit Wirkung für die Zukunft Widerspruch einlegen. Hierfür genügt eine E-Mail an die unter 2. genannten Kontaktdaten.
+
+Soweit Sie Widerspruch einlegen wird die betroffene Kontaktadresse für die weitere werbliche Datenverarbeitung gesperrt. Wir weisen darauf hin, dass es in Ausnahmefällen auch noch nach Eingang Ihres Widerspruchs vorübergehend noch zu einem Versand von Werbematerial kommen kann. Dies ist technisch durch die nötige Vorlaufzeit von Werbeanzeigen bedingt und bedeutet nicht, dass wir Ihren Widerspruch nicht umsetzen.
+
+3.3.4. NEWSLETTERVERSAND
+Auf unserer Webseite bieten wir Ihnen die Möglichkeit, sich für unseren Newsletter anzumelden. Um sicher gehen zu können, dass bei der Eingabe der Emailadresse keine Fehler unterlaufen sind, setzen wir das sog. Double-Opt-In-Verfahren ein: Nachdem Sie Ihre Email-Adresse in das Anmeldefeld eingegeben haben, übersenden wir Ihnen einen Bestätigungslink. Erst wenn Sie diesen Bestätigungslink anklicken, wird Ihre Email-Adresse in unseren Verteiler aufgenommen. Die Verarbeitung Ihrer elektronischen Kontaktdaten erfolgt an dieser Stelle allein auf Grundlage Ihrer Einwilligung (Artikel 6 Absatz 1 lit. a DSGVO). Sie können Ihre so erklärte Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen. Hierfür genügt ein kurzer Hinweis per Email an die unter 2. angegebene E-Mail-Adresse oder Sie klicken auf den „Abmelden“-Button am Ende eines jeden Newsletters. Soweit Sie im Rahmen der Anmeldung für unseren Newsletter Ihren Namen angegeben haben, verarbeiten wir dieses Datum auf Grundlage unseres berechtigten Interesses (Art. 6 Abs. 1 lit f DSGVO) an einer ansprechenden Darstellung unseres Newsletters und ausschließlich zur persönlichen Ansprache innerhalb des Newsletters.
+
+Wir weisen Sie darauf hin, dass wir bei Versand des Newsletters eine Erfolgsmessung durchführen und Ihr Nutzerverhalten auswerten. Für diese Auswertung beinhalten die versendeten E-Mails sogenannte Web-Beacons bzw. Tracking-Pixel. Diese liegen auf unseren Servern und geben uns Aufschluss darauf, wann und in welcher Art Sie diese aufrufen. Für die Auswertungen verknüpfen wir die genannten Daten und die Web-Beacons mit Ihrer E-Mail-Adresse.
+
+Die so gewonnenen Daten ermöglicht es uns, den Newsletter auf Ihre individuellen Interessen zuzuschneiden. Wir erfassen hierbei grundlegende Informationen wie Öffnungsrate sowie Informationen darüber, wann Sie unsere Newsletter lesen, welche Links Sie in diesen anklicken und folgern daraus Ihre persönlichen Interessen. Rechtsgrundlage für dies Datenverarbeitung ist Ihre Einwilligung, Art. 6 Abs. 1 S.1 lit. a DSGVO. Sie können Ihre Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen, indem Sie sich durch Klick auf den „Abmelden“-Button von unserem Newsletter abmelden.
+
+Ein solches Tracking ist zudem nicht möglich, wenn Sie in Ihrem E-Mail-Programm die Anzeige von Bildern standardmäßig deaktiviert haben. In diesem Fall wird Ihnen der Newsletter nicht vollständig angezeigt und Sie können eventuell nicht alle Funktionen nutzen. Wenn Sie die Bilder manuell anzeigen lassen, erfolgt das oben genannte Tracking.
+
+3.3.5. CUSTOMER DATA PLATFORM
+Wir verwenden Tealium Audience Stream, einen Dienst der Tealium Inc., 11085 Torreyana Road, San Diego, CA 92121, USA. Taelium stellt uns eine sogenannte Customer Data Platform (im Folgenden „CDP“ genannt) zu Verfügung. Durch diese ist es uns möglich die von uns mithilfe der im Folgenden beschriebenen Tracking-Technologien erhobenen Daten in einer zentralen CDP zusammenzuführen. Nach der Zusammenführung in der CDP werden die Daten an die unter 3.3.6., 3.3.9., 3.3.11. und 3.4.2. genannten Empfänger weitergeleitet. Die Empfänger nutzen die Daten zum Zweck der interessengerechten Werbung. Nähere Informationen zu den verfolgten Zwecken finden Sie in den einzelnen Abschnitten zu den Anbietern in dieser Datenschutzinformation.
+
+Die Nutzung Ihrer Daten im Rahmen der CDP erfolgt ausschließlich mit Ihrer Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO. Eine erteilte Einwilligung können Sie jederzeit durch Ändern Ihrer Cookie-Einstellungen unter folgendem Link widerrufen.
+
+3.3.6. FACEBOOK PIXELS CUSTOM AUDIENCE
+(1) Weiterhin verwendet unsere Webseite die Remarketing-Funktion „Custom Audiences“ der Facebook Inc. („Facebook“) mit dem Facebook-Pixel. Dadurch können Nutzern der Website im Rahmen des Besuchs des sozialen Netzwerkes Facebook oder anderer das Verfahren ebenfalls nutzende Websites interessenbezogene Werbeanzeigen („Facebook-Ads“) dargestellt werden. So kann das Verhalten der Seitenbesucher nachverfolgt werden, nachdem diese durch Klick auf eine Facebook-Werbeanzeige auf die Website des Anbieters weitergeleitet wurden. Dadurch können die Wirksamkeit der Facebook-Werbeanzeigen für statistische und Marktforschungszwecke ausgewertet werden und zukünftige Werbemaßnahmen optimiert werden.
+
+(2) Aufgrund der eingesetzten Marketing-Tools baut Ihr Browser automatisch eine direkte Verbindung mit dem Server von Facebook auf. Wir haben keinen Einfluss auf den Umfang und die weitere Verwendung der Daten, die durch den Einsatz dieses Tools durch Facebook erhoben werden und informieren Sie daher entsprechend unserem Kenntnisstand: Durch die Einbindung des Facebook Pixels erhält Facebook die Information, dass Sie die entsprechende Webseite unseres Internetauftritts aufgerufen haben oder eine Anzeige von uns angeklickt haben. Sofern Sie bei einem Dienst von Facebook registriert sind, kann Facebook den Besuch Ihrem Account zuordnen. Selbst wenn Sie nicht bei Facebook registriert sind bzw. sich nicht eingeloggt haben, besteht die Möglichkeit, dass der Anbieter Ihre IP-Adresse und weitere Identifizierungsmerkmale in Erfahrung bringt und speichert.
+
+(3) Wie unter 3.3.5. dargestellt, werden die oben beschriebenen Daten im Rahmen der CDP mit den unter 3.3.9., 3.4.2. und 3.4.7. dargestellten Daten zu den genannten Zwecken zusammengeführt.
+
+(4) Die Deaktivierung der Funktion „Facebook Custom Audiences“ können Sie hier vornehmen:
+Das Webtracking für das Facebook Tracking auf dieser Seite ist
+
+Facebook Tracking ist aktiv, hier klicken um es zu deaktivieren
+
+Bitte beachten Sie, dass Sie die Funktion erneut deaktivieren müssen, sobald Sie Ihre Cookies leeren. Eingeloggte Facebook Nutzer können weitere Einstellungen unter https://www.facebook.com/settings/?tab=ads vornehmen.
+
+(5) Weitere Informationen zur Datenverarbeitung und Datenerhebung durch Facebook erhalten Sie unter: Facebook Inc., 1 Hacker Way, Menlo Park, CA 94025, USA, bzw. falls Sie in der EU ansässig sind, Facebook Ireland Ltd., 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland; http://www.facebook.com/policy.php;
+(6) Spezielle Informationen und Details zum Facebook-Pixel und seiner Funktionsweise erhalten Sie im Hilfebereich von Facebook unter https://www.facebook.com/business/help/742478679120153.
+
+(7) Die Daten, welche bei der Nutzung dieses Dienstleisters verarbeitet werden, werden unter Umständen außerhalb des europäischen Wirtschaftsraumes verarbeitet. Sollte es zu einer solchen Übermittlung kommen, erfolgt diese stets verschlüsselt sowie auf Grundlage geeigneter Garantien zur Sicherstellung eines angemessenen Datenschutzniveaus i.S.d. Art. 44 ff. DSGVO.
+
+(8) Der Einsatz der Facebook Pixels erfolgt ausschließlich mit Ihrer Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO. Eine erteilte Einwilligung können Sie jederzeit wie oben beschrieben durch Ändern Ihrer Cookie-Einstellungen  widerrufen.
+
+3.3.7. PINTEREST CONVERSION TRACKING PIXEL
+(1) Die Stihl Website verwendet die Conversion Tracking Technologie des sozialen Netzwerks Pinterest (Pinterest Europe Ltd., Palmerston House, 2nd Floor, Fenian Street, Dublin 2, Irland). Diese Technologie ermöglicht es uns unseren Webseiten-Besuchern, die sich bereits für unsere Website und unsere Inhalte/Angebote interessiert haben und Pinterest-Mitglieder sind, auch auf Pinterest für sie relevante Werbung und Angebote auf Pinterest anzuzeigen. Hierzu wird auf unseren Webseiten ein Conversion Tracking Pixel von Pinterest eingebunden, über das Pinterest bei Ihrem Besuch unserer Website mitgeteilt wird, dass Sie unsere Website aufgerufen und für welche Teile unseres Angebots Sie sich interessiert haben.
+
+Wenn Sie sich z.B. auf unserer Website für unsere Angebote interessiert haben, wird Ihnen auf Pinterest eine Anzeige zu unseren Angeboten angezeigt.
+
+(2) Sie können der Erhebung der Daten zur Anzeige interessenbasierter Werbung auf Pinterest jederzeit in Ihren Konto-Einstellungen bei Pinterest unter https://www.pinterest.de/settings (dort unter „Individuelle Anpassung“ die Schaltfläche „Infos von unseren Partnern nutzen, um die Empfehlungen und Anzeigen auf Pinterest besser auf Dich abzustimmen“ deaktivieren) oder unter https://help.pinterest.com/de/article/personalization-and-data#info-ad (dort das Kontrollkästchen unter „Individuelle Anpassung deaktivieren“) deaktivieren.
+
+3.3.8. OUTBRAIN AMPLIFY
+(1) Diese Website nutzt Web-Werbeplattformen, sog. „Cookies“ der Outbrain UK Limited. Das Ziel dieser Funktion sind individuell zugeschnittene Werbeanzeigen, welche Ihnen im Rahmen des Besuchs auf unseren Websites dargestellt werden. Mit Hilfe eines sogenannten Widgets werden Besucher auf weiterführende, für Sie eventuell ebenfalls interessante Inhalte innerhalb unserer Website und auf Websites von Dritten hingewiesen. Die im Outbrain-Widget angezeigten Inhalte werden inhaltlich und technisch von Outbrain automatisch gesteuert und ausgeliefert.
+
+(2) Outbrain erfasst IP-Adressen und User-Agent-Daten und weist eine Outbrain-UUID zu, durch die jeder einzelne Leser über den Browser bzw. das Gerät identifiziert wird, mit dem eine Seite, auf der ein Outbrain-Widget eingebunden ist, aufgerufen wurde. Die UUID stellt eine Abfolge von Ziffern und/oder Buchstaben dar und ist mit dem Gerät/Browser eines Lesers verbunden (d. h. Outbrain speichert derzeit keine geräte- oder browserübergreifenden Informationen). Die erfasste IP-Adresse wird in eine Geo-Position übersetzt und dann das letzte Oktett entfernt. In den Nutzerprofilen fasst Outbrain Nutzerinteraktionen (z.B. Seitenbesuche und Klicks) aus einem Browser/Gerät zusammen, um die Präferenzen der UUID daraus abzuleiten.
+
+(3) Die Deaktivierung der personalisierten Empfehlungen können Sie auf den Seiten des Anbieters hier nach einem Klick auf „VIEW MY PROFILE“ durch Schieben des Reglers in die „Opt Out“ Position vornehmen.
+
+(4) Weitere Informationen zur Datenverarbeitung und Datenerhebung durch Outbrain erhalten Sie unter: Outbrain Inc., 39 West 13th Street, 3rd floor, New York, NY 10011, Attn: Privacy Questions / Datenschutzanfrage, bzw. falls Sie in der EU ansässig sind, Outbrain UK Limited, 175 High Holborn, West End, London WC1V 7AA, United Kingdom; https://www.outbrain.com/legal/privacy.
+
+(5) Weitere Informationen und Details zu Outbrains Amplify und seiner Funktionsweise erhalten Sie auf den Seiten von Outbrain unter https://www.outbrain.com/help/advertisers/what-is-outbrain-amplify/.
+
+(6) Die Daten, welche bei der Nutzung dieses Dienstleisters verarbeitet werden, werden unter Umständen außerhalb des europäischen Wirtschaftsraumes verarbeitet. Sollte es zu einer solchen Übermittlung kommen, erfolgt diese stets verschlüsselt sowie auf Grundlage geeigneter Garantien zur Sicherstellung eines angemessenen Datenschutzniveaus i.S.d. Art. 44 ff. DSGVO.
+(7) Der Einsatz von Outbrain Amplify erfolgt ausschließlich mit Ihrer Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO. Eine erteilte Einwilligung können Sie jederzeit wie oben beschrieben durch Ändern Ihrer Cookie-Einstellungen  widerrufen.
+3.3.9. CRITEO
+(1) Criteo unterstützt Marken, E-Commerce-Websites und andere Werbetreibende, für ihre Produkte und Dienstleistungen zu werben. Diese integrierte Technologie erkennt ihr Gerät und erhebt Informationen über ihre Browseraktivitäten seitenübergreifend. Criteo analysiert anhand eines Algorithmus das Surfverhalten und kann anschließend gezielte Produktempfehlungen als personalisierte Werbebanner auf anderen Websites (sog. Publishern) anzeigen.
+
+(2) Criteo erfasst Ihre Browser-Sitzungsdaten und weist dieser eine Cookie-Kennung zu, durch die jeder einzelne Leser über den Browser bzw. das Gerät identifiziert werden kann, wenn Criteo auf jener Seite eingebunden wird. Die UUID stellt eine Abfolge von Ziffern und/oder Buchstaben dar und ist mit dem Gerät/Browser eines Lesers verbunden (d. h. Criteo speichert keine personenbezogenen Informationen). Die erstellte Cookie-Kennung wird lediglich für Ihr derzeit genutztes Gerät erstellt. In den Nutzerprofilen fasst Criteo Nutzerinteraktionen (z.B. Seitenbesuche und Klicks) aus einem Browser/Gerät zusammen, um die Präferenzen der Cookie-Kennung daraus abzuleiten. Durch Übereinstimmungen der Präferenzen ist die Schaltung individualisierter Werbung möglich.
+(3) Wie unter 3.3.5. dargestellt, werden die oben beschriebenen Daten im Rahmen der CDP mit den unter 3.3.9., 3.4.2. und 3.4.7. dargestellten Daten zu den genannten Zwecken zusammengeführt.
+
+(4) Die Deaktivierung der Erhebung können Sie auf den Seiten des Anbieters hier vornehmen:
+- Internetbrowser: https://www.criteo.com/de/privacy/disable-criteo-services-on-internet-browsers/
+- bei mobilen Anwendungen: https://www.criteo.com/de/privacy/disable-criteo-services-on-mobile-applications/.
+
+(5) Weitere Informationen zur Datenverarbeitung und Datenerhebung durch Criteo erhalten Sie unter: Criteo, 32 Rue Blanche, 75009 Paris, France; https://www.criteo.com/de/privacy/.
+(6) Weitere Informationen und Details zu Criteo und seiner Funktionsweise erhalten Sie auf den Seiten von Criteo unter https://www.criteo.com/de/privacy/how-we-use-your-data/.
+(7) Der Einsatz von Criteo erfolgt ausschließlich mit Ihrer Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO. Eine erteilte Einwilligung können Sie jederzeit wie oben beschrieben durch Ändern Ihrer Cookie-Einstellungen widerrufen.
+
+3.3.10. VERIZON
+(1) Wir verwenden das Yahoo! Dot-Tag der Verizon Verizon Media EMEA Limited (vormals als Oath (EMEA) Limited bezeichnet) 5-7 Point Square, North Wall Quay Dublin 1 Irland - Ireland zur Messung von Kampagnenverläufen und erfolgreiche Werbemaßnahmen im Verizon-Netzwerk zuordnen zu können. Es handelt sich um ein Pageview-Tag. Wenn im Netzwerk von Verizon eine Werbekampagne von Stihl angeklickt wird (z.B. auf yahoo.com), dann werden die danach besuchten Unterseiten der Stihl-Domain mit dieser Kampagne verknüpft um die Effektivität der Kampagne messen zu können. Daten, die eine persönliche Identifizierung erlauben werden dabei nicht übertragen, gegenüber Verizon bleibt die Nutzung der Stihl Seiten anonym.
+
+(2) Nähere Informationen zu Nutzungsbedingungen und Datenschutz finden Sie unter https://www.verizonmedia.com/policies/ie/de/verizonmedia/privacy/index.html
+
+3.3.11. DYNAMIC 1001
+(1) Das Dynamic Tracking System dient der Ermittlung von Leistungen verschiedener Werbekanäle des ABC Onlineshops. Es wird von der Dynamic 1001 GmbH als technischen und statistischen Dienstleister bereitgestellt. Beim Besuch der Website ABC werden Daten Ihres Browsers für statistische Auswertungen gesammelt. Die Daten werden an die Dynamic 1001 GmbH als technischen und statistischen Dienstleister weitergegeben. Die Sammlung der Daten geschieht über einen Pixel, der auf jeder Webshop Seite eingebunden ist. Beim Kontakt mit den Dynamic Servern werden gängige Informationen wie das Betriebssystem, der verwendete Browser, das zugehörige Werbemittel, der Referrer und die IP Adresse anonymisiert gespeichert. Die IP Adresse wird nur für interne Zuordnungen verwendet und nicht an andere Parteien weitergegeben. Wenn es zu einer Bestellung kommt, werden Daten, wie die Bestellnummer, die Kundennummer, der Warenkorb und die Bestellwerte, an die Dynamic 1001 GmbH übermittelt, damit eine korrekte Verprovisionierung an die werbetreibenden Partner durchgeführt werden kann.
+
+(2) Rechtsgrundlage für die Verarbeitung personenbezogener Daten unter Verwendung von Cookies ist Ihre Einwilligung gem. Art. 6 Abs. 1 lit. a DSGVO. Diese Einwilligung können Sie jederzeit wie oben beschrieben durch Ändern Ihrer Cookie-Einstellungen  widerrufen.
+
+(3) Zudem können Sie bereits gespeicherte Cookies jederzeit in den Einstellungen Ihres Browsers löschen. Wenn Sie dies tun, können Sie möglicherweise nicht mehr alle Funktionen der Webseiten vollumfänglich nutzen.
+
+(4) Nähere Informationen zum Datenschutz finden Sie unter https://dynamic-tracking.com/Datenschutz.aspx.
+
+3.3.12. AWIN
+(1) STIHL Vertriebszentrale AG & Co. KG verarbeitet Ihre personenbezogenen Daten zur Durchführung einer Afiiliate-Marketing-Kampagne. Auf diese Weise sind wir in der Lage nachzuverfolgen, welcher Drittanbieter von Webseiten, Apps oder anderen Technologien potenzielle Kunden auf unsere Webseiten und Apps verwiesen hat („Referrer“) und ihm als Gegenleistung für diese Verweisungen eine Provision zu zahlen. Wir verfolgen hierbei das berechtigte Interesse, eine Online-Werbekampagne durchzuführen, die leistungsabhängig vergütet wird. Wir arbeiten mit Awin zusammen, die uns dabei unterstützen, diese Affiliate-Marketing-Kampagne umzusetzen. Die Awin-Datenschutzerklärung finden sie hier. Sie enthält Informationen über Ihre Rechte in Bezug auf die Datenverarbeitung durch Awin.
+
+(2) In einigen Fällen kann Awin ein eingeschränktes Profil unterhalten, das sich auf Sie bezieht. Dieses wird aber weder Ihre Identität, Ihr Online-Verhalten oder andere persönliche Merkmale offenbaren. Dieses Profil dient allein dem Zweck nachzuvollziehen, ob eine Weiterleitung auf einem Gerät begonnen und auf einem anderen Gerät abgeschlossen wurde.
+
+(3) In einigen Fällen können Awin und der Referrer des potentiellen Kunden Ihre personenbezogenen Daten erhalten und verarbeiten, um die Affiliate-Marketing-Kampagne gemeinsam mit uns umzusetzen.
+
+(4) Gleichfalls erhalten wir personenbezogene Daten potentieller Kunden von Awin und den Referrern, die sich in folgende Kategorien einteilen lassen: Cookie-Daten, Daten in Bezug auf die Webseite, App oder Technologie, von der ein potentieller Kunde an uns verwiesen wurde und technische Informationen über das von Ihnen genutzte Gerät.
+
+3.3.13. THE REACH GROUP
+Auf unserer Website werden Cookies zur Ermöglichung der Schaltung von Retargeting-Kampagnen der The Reach Group GmbH (Am Karlsbad 16, 10785 Berlin, Deutschland) eingesetzt. Bei den gespeicherten Daten innerhalb des Cookies handelt es sich nur um eine verschlüsselte, pseudonymisierte User-ID. Die eingesetzte Adserving-Technologie verwendet eine verkürzte und gehashte IP-Adressen zur Auswertung der geographischen Region, der Zugangsgeschwindigkeit sowie des Internet-Providers. Zudem werden Zeitpunkt des Besuches, die IDs der Produkte, die betrachtet, gesucht oder gekauft wurden, die URLs der betrachteten Seiten, mögliche Suchbegriffe und/oder die IDs der aufgerufenen Kategorien gespeichert, um relevantere Werbeinhalte auszuliefern. Eine Speicherung von IP- oder Browser-Daten erfolgt ausschließlich in Deutschland und zur anonymisierten Anfertigung von Besucherstatistiken und Zuordnung von Transaktionen. Ein Rückschluss auf konkreten Personen, der genauen Adresse, des Aufenthaltsortes oder weitergehenden persönlichen Daten ist dabei zu keinem Zeitpunkt möglich. Es erfolgt keine explizite Weitergabe von IP-Daten an Dritte. Alle Informationen verfügen zudem über ein Verfallsdatum von maximal 90 Tagen, ab dem Ihr Browser die gespeicherten Daten automatisch löscht. Sie können die Speicherung des Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern. Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten verhindern, indem Sie die OptOut-Funktion unter dem folgenden Link aktivieren:
+
+https://hal9000.redintelligence.net/privacy/8lcfmzhxc8d6/
+
+Weitere Informationen zum Datenschutz der The Reach Group GmbH finden Sie unter https://trg.de/datenschutzerklarung/
+Dieser Widerspruch gilt so lange, wie das zugehörige OptOut-Cookie nicht gelöscht wird. Dieses Cookie wird für die Domain, pro Browser und Benutzer eines Rechners gesetzt. Wenn Sie auf unsere Webseite von mehreren Endgeräten und Browsern aus zugreifen, müssen Sie daher auf jedem dieser Geräte und in jedem Browser der Datenerfassung separat und erneut widersprechen.
+3.4.1. COOKIES – ALLGEMEINE HINWEISE
+Um den Besuch unserer Webseiten attraktiv zu gestalten und die Nutzung bestimmter Funktionen zu ermöglichen, verwenden wir auf verschiedenen Seiten sogenannte Cookies. Hierbei handelt es sich um kleine Textdateien, die auf Ihrem Endgerät abgelegt werden. Einige der von uns verwendeten Cookies werden nach dem Ende der Browser-Sitzung, also nach dem Schließen Ihres Browsers, wieder gelöscht (sogenannte Sitzungs-Cookies). Andere Cookies verbleiben auf Ihrem Endgerät und ermöglichen uns oder unseren Partnerunternehmen, Ihren Browser beim nächsten Besuch wieder zu erkennen (sogenannte Langzeit-Cookies). Über Cookies kann weder auf andere Dateien auf Ihrem Computer zugegriffen werden noch Ihre E-Mail-Adresse ermittelt werden.
+
+Auf dieser Webseite werden die in der Cookie Information aufgeführten Cookies verwendet.
+
+Soweit wir Cookies verwenden, die für die Bereitstellung unserer Webseiten zwingend erforderlich sind, ist Rechtsgrundlage für die Verarbeitung personenbezogener Daten unter Verwendung dieser Cookies Art. 6 Abs. 1 lit. f DSGVO.
+
+Eine Verarbeitung von personenbezogenen Daten durch Cookies zu Marketingzwecken oder für die Erstellung von Statistiken erfolgt nur, wenn Sie uns hierfür Ihre Einwilligung erteilt haben. Rechtsgrundlage hierfür ist Art. 6 Abs. 1 lit. a DSGVO.
+
+Sie können Ihre Einwilligung jederzeit ohne Angabe von Gründen unter folgendem Link widerrufen, indem Sie die gestatteten Funktionalitäten anpassen.
+
+Cookies werden auf Ihrem Endgerät gespeichert und Sie haben die volle Kontrolle über deren Verwendung. Durch eine Änderung der Einstellungen des Internet-Browsers können Sie die Übertragung von Cookies deaktivieren oder einschränken. Bereits gespeicherte Cookies können jederzeit gelöscht werden. Dies kann auch automatisiert erfolgen. Werden Cookies für unsere Webseiten deaktiviert, können Sie möglicherweise nicht mehr alle Funktionen der Webseiten vollumfänglich nutzen.
+
+3.4.2. WEBANALYSE MIT GOOGLE ANALYTICS
+Diese Website benutzt Google Analytics, einen Webanalysedienst der Google LLC, 1600 Amphitheatre Parkway Mountain View, CA 94043, USA („Google"). Verantwortliche Stelle für Nutzer in der EU/ dem EWR und der Schweiz ist Google Ireland Limited, Google Building Gordon House, 4 Barrow St, Dublin, Irland, 1600. Google Analytics verwendet Cookies, die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert.
+
+Die Webseite von STIHL verwendet Google Analytics mit der Erweiterung „anonymize IP“. Das bedeutet, dass Ihre von dem Google-Analytics-Cookie erhobene IP-Adresse von Google innerhalb von Mitgliedsstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den europäischen Wirtschaftsraum vor der Übertragung in die USA gekürzt wird. Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt.  Im Auftrag von STIHL nutzt Google diese Informationen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen gegenüber dem Websitebetreiber zu erbringen. Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt.
+
+Wie unter 3.3.5. dargestellt, werden die oben beschriebenen Daten im Rahmen der CDP mit den unter 3.3.9., 3.4.2. und 3.4.7. dargestellten Daten zu den genannten Zwecken zusammengeführt und weiterverarbeitet.
+
+Rechtsgrundlage für die Verarbeitung personenbezogener Daten unter Verwendung von Cookies ist Art. 6 Abs. 1 lit. a DSGVO. Diese Einwilligung können Sie jederzeit wie oben beschrieben durch Anpassung Ihrer Cookie-Vorlieben widerrufen.
+Zudem können Sie bereits gespeicherte Cookies jederzeit in den Einstellungen Ihres Browsers löschen. Wenn Sie dies tun, können Sie möglicherweise nicht mehr alle Funktionen der Webseiten vollumfänglich nutzen.
+
+Nähere Informationen zu Nutzungsbedingungen und Datenschutz finden Sie unter www.google.com/analytics/terms/de.html bzw. unter www.google.com/intl/de/analytics/privacyoverview.html.
+
+3.4.3. GOOGLE RECAPTCHA
+(1) Wir setzen auf unseren Webseiten reCaptcha v2 ein. reCaptcha ist ein Angebot von Google (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland) und dient der Verhinderung missbräuchlicher automatisierter Eingaben in Webformulare und damit dem Schutz der technischen Systeme des Hosters. Zu diesem Zweck wird es von uns eingesetzt und darin liegt auch unser berechtigtes Interesse, Art. 6 Abs. 1 f DSGVO.
+
+(2) Wenn Sie eine unserer Webseiten aufrufen, in denen reCaptcha eingebunden ist, wird eine Verbindung zu den Servern von Google aufgebaut. Ein reCaptcha-Cookie wird gesetzt. Ihre IP-Adresse wird an Google übertragen.
+
+(3) Darüber hinaus erfasst reCaptcha mittels „Fingerprinting“ folgende Daten:
+
+genutzte Browser-Plugins
+die von Google in den letzten 6 Monaten gesetzten Cookies
+Anzahl der Mausklicks und Berührungen, die Sie auf diesem Bildschirm gemacht haben
+CSS-Informationen für die aufgerufene Seite
+Javascript-Objekte
+das Datum
+die Browsersprache
+(4) Sie können die Speicherung von Cookies und Fingerprinting durch die Auswahl entsprechender technischer Einstellungen Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können.
+
+(5) Die Datenschutzerklärung und die Nutzungsbedingungen von Google finden Sie hier: https://www.google.com/policies/privacy/ und hier: https://policies.google.com/terms.
+
+3.4. MOUSEFLOW
+(1) Auf unserer Website verwenden wir Mouseflow, ein Webanalyse-Tool der Mouseflow ApS, Flaesketorvet 68, 1711 Kopenhagen, Dänemark. Hierbei werden einzelne, zufällig ausgewählte Besuche erfasst und hierbei auch die anonymisierte IP-Adresse des Besuchers an den Anbieter des Tools übertragen. Das Tool ermöglicht uns, ein Protokoll der Mausbewegungen und Mausklicks zu erstellen. Diese können stichprobenartig als sog. Session-Replays wiedergegeben sowie in Form sog. Heatmaps ausgewertet und daraus potentielle Verbesserungen für diese Website abgeleitet werden. Weiterhin werden über Mouseflow unter Umständen Umfragen ausgespielt, mit denen die Zufriedenheit unserer Besucher erfasst werden soll. Das Ausspielen solcher Umfragen und die Teilnahme werden ebenfalls in dem vom Tool gesetzten Cookie erfasst.
+
+(2) Der Einsatz dieses Tools erfolgt ausschließlich mit Ihrer Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO. Eine erteilte Einwilligung können Sie jederzeit wie oben beschrieben durch Ändern Ihrer Cookie-Einstellungen  widerrufen.
+(3) Weitere Informationen zum Datenschutz beim Dienstleister und Einsatz von Mouseflow finden Sie auf deren Erklärung zum Datenschutz: https://mouseflow.com/de/privacy/
+
+3.4.5 MOVING IMAGE
+(1) Manche unserer Seiten enthalten Videoinhalte, die von dem hierfür beauftragten Dienst „MovingImage“ des Anbieters movingimage EVP GmbH, Stralauer Allee 7, 10245 Berlin bereitgestellt werden.
+
+(2) Bei einem Aufruf des jeweils eingebundenen Videos werden unter anderem Ihre Verbindungsdaten wie Ihre IP-Adresse sowie Informationen über das von Ihnen verwendete Endgerät an die Server des Anbieters übertragen und verschiedene Cookies gesetzt. Diese Cookies sind zwingend erforderlich, um die Funktionsfähigkeit der jeweiligen Seiten sicherzustellen. Es erfolgt hierbei keine Verarbeitung Ihrer Daten, die über das erforderliche Maß hinausgeht.
+
+(3) Die damit verbundene Verarbeitung Ihrer personenbezogenen Daten erfolgt in unserem Interesse an einer ansprechenden Gestaltung unserer App, der Steigerung der Nutzerfreundlichkeit und der Möglichkeit, Ihnen Videoinhalte zur Verfügung stellen zu können. Dies stellt unser berechtigtes Interesse nach Art. 6 Abs. 1 lit. f DSGVO dar.
+
+(4) Weitere Informationen über den Anbieter finden Sie in dessen Datenschutzerklärung:
+
+https://www.movingimage.com/de/agb/datenschutzerklarung-der-movingimage-evp-gmbh/?noredirect=de-DE
+
+3.4.6. SITESPECT
+(1) Wir nutzen auf unserer Seite den Dienst SiteSpect des Anbieters SiteSpect (De Cooridor 27, 3621ZA Breukelen, NL) für das Testen & Personalisieren des Nutzerverhaltens in verschiedenen Ausführungen unserer Webseite (A/B Testing). Hierfür setzt SiteSpect einen Cookie auf dem informationstechnologischen System des Webseiten-Besuchers, um das Nutzerverhalten analysieren zu können. Dies dient uns ausschließlich dazu, verschiedene Ausführungen unserer Website ausspielen und Nutzerpräferenzen feststellen zu können. Die Nutzung des Dienstes ist für das Ausspielen unserer Website technisch zwingend erforderlich und erfolgt auf Grundlage unseres berechtigten Interesses an einer interessengerechten Gestaltung unseres Webauftritts gem. Art. 6 Abs. 1 lit. f DSGVO.
+
+
+
+(2) Die von SiteSpect erhobenen Daten werden ausschließlich auf Servern in den Niederlanden verarbeitet. Eine Übermittlung an Länder außerhalb der EU / des EWR ist nicht beabsichtigt.
+
+3.4.7. ORACLE MAXYMISER
+(1) Wir verwenden das Produkt Oracle Maxymiser der Oracle Deutschland B.V. & Co. KG, Riesstr. 25, 80992 München. Hierzu werden Cookies gesetzt, um eine Analyse der Benutzung der Webseite durch Sie zu ermöglichen. Die so erzeugten Informationen über Ihre Nutzung der Webseiten werden an einen Server der Oracle Deutschland B.V. & Co. KG übertragen und dort gespeichert. Die Oracle Deutschland B.V. & Co. KG wird im Auftrag von uns die übermittelten anonymisierten oder pseudonymisierten Daten insbesondere dazu verwenden, um das Nutzerverhalten auf unserer Webseite auszuwerten und um die Webseite zu optimieren.
+
+(2) Wie unter 3.3.5. dargestellt, werden die oben beschriebenen Daten im Rahmen der CDP mit den unter 3.3.9., 3.4.2. und 3.4.7. dargestellten Daten zu den genannten Zwecken zusammengeführt und weiterverarbeitet.
+
+(3) Der Einsatz des Oracle Maxymisers erfolgt ausschließlich mit Ihrer Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO. Eine erteilte Einwilligung können Sie jederzeit durch Ändern Ihrer Cookie-Einstellungen unter folgendem Link widerrufen.
+
+(4) Darüber hinaus können Sie der Erfassung und Speicherung Ihrer anonymisierten Daten durch die Oracle Maxymiser Technologie sowie die Verarbeitung dieser Daten jederzeit unter folgendem Link widersprechen: https://www.oracle.com/marketingcloud/opt-status.html.
+
+
+
+3.5. STATISTISCHE AUSWERTUNG
+STIHL verarbeitet die oben genannten Daten auch, um statistische Auswertungen zu erstellen. Diese dienen dem Zweck der Verbesserung und Weiterentwicklung der von STIHL angebotenen Produkte und Dienstleistungen, insbesondere in Bezug auf die Produkteigenschaften, die Produktsicherheit, die Servicequalität, das Marketing sowie hinsichtlich der Optimierung des Händlernetzes. Für die Erstellung der Auswertungen werden personenbezogene Daten nur in dem Umfang verwendet, wie dies für die vorstehenden Zwecke erforderlich ist. Soweit möglich, werden die Daten vor ihrer Verwendung pseudonymisiert oder anonymisiert. Um die statistische Aussagekraft der Auswertungen zu erhöhen, kombiniert STIHL die vorgenannten Daten auch mit Informationen über meteorologische und/oder geographische Merkmale aus anderen Datenquellen wie zum Beispiel Wetter- und Kartendiensten. Die Ergebnisse der Auswertungen werden ausschließlich in aggregierter Form verwendet und in dieser Form und zu den vorgenannten Zwecken gegebenenfalls auch an andere mit STIHL verbundene Unternehmen weitergegeben. Kundenbezogene Auswertungen erfolgen nicht, es sei denn, der Kunde hat hierin ausdrücklich eingewilligt. Die Rechtsgrundlage für die Verarbeitung der vorstehend beschriebenen Daten ist Art. 6 Abs. 1 S. 1 lit. f DSGVO.
+3.6. KONTAKTAUFNAHME
+Wenn Sie uns telefonisch, per E-Mail, per Post, über Kontakt-Formulare oder auf andere Weise mit einem Anliegen kontaktieren oder wir Sie kontaktieren, verarbeiten wir auch Ihre personenbezogenen Daten z.B. Name, Adresse, Telefonnummer sowie die Inhalte der Mitteilung. Diese Angaben werden zu dem Zweck verarbeitet, Ihre Anfrage korrekt bearbeiten zu können. Darüber hinaus können Ihre Daten auch zu statistischen Zwecken verarbeitet werden. Näheres dazu im Folgenden. Die Nutzung Ihrer Daten erfolgt nur in dem dafür jeweils erforderlichen Umfang. Falls erforderlich, z.B. weil Ihre Anfrage die Bestellung von Drucksachen betrifft, die von einem anderen Unternehmen der STIHL Gruppe vorgehalten werden, oder im Rahmen des Kunden-Support-Services werden Ihre Daten an dieses andere Unternehmen der STIHL Gruppe weitergegeben, wenn und soweit dies zur Abwicklung Ihres Anliegens erforderlich ist. Die Rechtsgrundlage für die Verarbeitung der vorstehend beschriebenen Daten ist Art. 6 Abs. 1 lit. b DSGVO, soweit dies mit der Anbahnung oder Erfüllung eines Vertrages mit Ihnen in Verbindung steht, z.B. bei Reklamationen, bzw. auf Grundlage des Art. 6 Abs. 1 lit. f DSGVO erfolgen, da wir ein berechtigtes Interesse haben mit Ihnen geschäftlich zu korrespondieren.
+
+
+Kommunikationsdaten werden gelöscht, soweit sie nicht mehr zum Austausch mit Ihnen erforderlich sind und etwaige gesetzliche Aufbewahrungsfristen abgelaufen sind.
+Telefongespräche mit unserem Kunden-Support werden nur mit Ihrer vorherigen Einwilligung zu Qualitätssicherungs- oder Schulungszwecken aufgezeichnet und nach maximal 90 Tagen gelöscht. Die Einwilligung in die Gesprächsaufzeichnung ist selbstverständlich freiwillig. Sie können die Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen, etwa indem Sie den Mitarbeiter am Telefon bitten, die Aufzeichnung abzubrechen. Die Verarbeitung Ihrer Daten erfolgt dabei auf Grundlage Ihrer Einwilligung (Artikel 6 Abs. 1 lit. a DSGVO).
+
+
+Wir setzen für unsere Kunden-Support-Services Dienstleister ein, mit denen entsprechende Auftragsverarbeitungsverträge gemäß Art. 28 DSGVO geschlossen wurden.
+
+
+Falls zur Bearbeitung ihrer Anfrage erforderlich, werden ihre Daten an andere Unternehmen der STIHL Gruppe oder an den zuständigen Fachhändler weitergeben. Um die Dringlichkeit ihrer Anfrage bewerten zu können, nutzen wir ein Tool des Anbieters Microsoft Ireland Operations Limited, welches uns zu diesem Zweck eine Auswertung bestimmter Schlagwörter ermöglicht. Es werden hierbei ausschließlich Betreff und Inhalt Ihrer Nachricht übermittelt. Wir übermitteln keine personenbezogenen Daten an den Anbieter, es sei denn, Sie teilen diese im Rahmen Ihrer Anfrage selbst mit.
+
+4. ÜBERMITTLUNG VON DATEN
+Bestimmte Verarbeitungen, wie beispielsweise der Kundensupport, werden von Gesellschaften innerhalb der STIHL Gruppe übernommen. Daher findet regelmäßig eine Datenübermittlung innerhalb der Unternehmensgruppe statt. In der Regel erfolgt die Übermittlung auf Grundlage eines Auftragsverarbeitungsvertrages. In anderen Fällen, beispielsweise zur Analyse aggregierter Daten zum Zwecke der Marktforschung, ist Art. 6 Abs. 1 lit. f DSGVO die Rechtsgrundlage für die Übermittlung, wobei unser berechtigte Interesse in einer effizienten Ausgestaltung unserer Prozesse liegt.
+
+Mit Ausnahme der unter 3.4.2 dargestellten Verarbeitungen geben wir Ihre Daten nicht an Empfänger mit Sitz außerhalb der Europäischen Union oder des Europäischen Wirtschaftsraumes weiter. Die unter 3.4.2 genannten Verarbeitungen bewirken eine Datenübermittlung an die Server der durch uns beauftragten Anbieter von Tracking- bzw. Targetingtechnologien. Diese Server befinden sich in den USA. Die Datenübermittlung erfolgt auf Grundlage sogenannter Standardvertragsklauseln der EU-Kommission.
+
+5. IHRE RECHTE
+5.1. ÜBERBLICK
+Neben dem Recht auf Widerruf Ihrer uns gegenüber erteilten Einwilligungen stehen Ihnen bei Vorliegen der jeweiligen gesetzlichen Voraussetzungen die folgenden weiteren Rechte zu:
+
+Recht auf Auskunft über Ihre bei uns gespeicherten persönlichen Daten gem. Art. 15 DSGVO;
+Recht auf Berichtigung unrichtiger oder auf Vervollständigung richtiger Daten gem. Art. 16 DSGVO,
+Recht auf Löschung Ihrer bei uns gespeicherten Daten gem. Art. 17 DSGVO soweit keine gesetzlichen oder vertraglichen Aufbewahrungsfristen oder andere gesetzliche Pflichten bzw. Rechte zur weiteren Speicherung einzuhalten sind,
+Recht auf Einschränkung der Verarbeitung Ihrer Daten gem. Art. 18 DSGVO,
+Recht auf Datenübertragbarkeit gem. Art. 20 DSGVO
+Recht auf Beschwerde bei einer Aufsichtsbehörde.
+5.2. WIDERSPRUCHSRECHT
+Unter den Voraussetzungen des Art. 21 Abs. 1 DSGVO kann der Datenverarbeitung aus Gründen, die sich aus der besonderen Situation der betroffenen Person ergeben, widersprochen werden.
+Das vorstehende allgemeine Widerspruchsrecht gilt für alle in dieser Datenschutz-Information beschriebenen Verarbeitungszwecke, die auf Grundlage von Artikel 6 Absatz 1 lit. f DSGVO verarbeitet werden. Anders als bei dem auf die Datenverarbeitung zu werblichen Zwecken gerichteten speziellen Widerspruchsrecht, sind wir nach der DSGVO zur Umsetzung eines solchen allgemeinen Widerspruchs nur verpflichtet, wenn Sie uns hierfür Gründe von übergeordneter Bedeutung nennen.
+
+6. ÄNDERUNGEN DIESER ERKLÄRUNG
+Wir überarbeiten diese Datenschutz-Information bei Änderungen an dieser Website oder bei sonstigen Anlässen, die dies erforderlich machen. Die jeweils aktuelle Fassung findest du stets auf dieser Internetseite. Daher sollten Sie diese Website regelmäßig aufrufen, um sich über den aktuellen Stand der Datenschutzerklärung zu informieren.
