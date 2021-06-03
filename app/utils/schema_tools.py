@@ -1,6 +1,7 @@
 from config import Config
 from utils.label import AnnotationLabel
 
+
 def construct_first_level_labels(as_dict: bool = None):
     labels = []
 
@@ -10,14 +11,15 @@ def construct_first_level_labels(as_dict: bool = None):
     # construct first-level labels from tilt schema
     for i in schema.keys():
         try:
-            label = AnnotationLabel(name=schema[i]["_desc"], multiple=False)
+            label = AnnotationLabel(name=schema[i]["_desc"], multiple=False, tilt_key=i)
         except TypeError:
-            label = AnnotationLabel(name=schema[i][0]["_desc"], multiple=True)
+            label = AnnotationLabel(name=schema[i][0]["_desc"], multiple=True, tilt_key=i)
         if as_dict:
             label = label.to_dict()
         labels.append(label)
 
     return labels
+
 
 def retrieve_schema_level(hierarchy):
     schema = Config.SCHEMA_DICT.copy()
@@ -29,6 +31,7 @@ def retrieve_schema_level(hierarchy):
     if isinstance(schema, list):
         schema = schema[0]
     return schema
+
 
 def get_manual_bools(hierarchy):
     schema = retrieve_schema_level(hierarchy)

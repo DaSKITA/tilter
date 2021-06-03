@@ -43,6 +43,7 @@ class TaskCreator:
 
                     name = self._create_task_name(annotation)
                     new_task = Task(name=name, labels=label_dict[LabelStrEnum.ANNOTATION],
+                                    manual_labels=label_dict.get(LabelStrEnum.MANUAL),
                                     hierarchy=new_task_hierarchy, parent=self.task,
                                     interfaces=[
                                         "panel",
@@ -60,8 +61,9 @@ class TaskCreator:
                                                text=annotation.text,
                                                start=annotation.start, end=annotation.end)
                     new_task_anno.save()
-                    self._create_id_annotations(label_dict[LabelEnum.ID], new_task)
-                    self._create_linked_annotations(label_dict[LabelEnum.LINKED], task=new_task,
+                    self._create_id_annotations(label_dict[LabelStrEnum.ID], new_task)
+                    self._create_linked_annotations(label_dict[LabelStrEnum.LINKED],
+                                                    task=new_task,
                                                     schema_value=schema_value)
 
     def _process_dict_entry(self, dict_entry: Dict) -> Tuple[List, List]:
@@ -76,7 +78,6 @@ class TaskCreator:
         """
         # TODO: move descriptions keys into labels
         labels = []
-        desc_keys = []
         for dict_key, dict_value in dict_entry.items():
             label = None
             if dict_key.startswith("_"):
@@ -88,12 +89,13 @@ class TaskCreator:
                     label = LinkedBoolLabel(name=dict_value, linked_entry_value=dict_entry[linked_entry_key],
                                             linked_entry_key=linked_entry_key, tilt_key=dict_key)
                 else:
-                    label = ManualBoolLabel(name=dict_value, manual_bool_entry=dict_value, tilt_key=dict_key)
+                    label = ManualBoolLabel(name=dict_value, manual_bool_entry=False,
+                                            tilt_key=dict_key[1:])
             else:
                 label = self._create_annotation_label(dict_key, dict_value)
             if label:
                 labels.append(label)
-        return labels, desc_keys
+        return labels
 
     def _subtasks_needed(self, schema_value: Dict, annotation: Annotation) -> bool:
         """Evaluates necessary conditions for creating a subtask.
@@ -128,7 +130,7 @@ class TaskCreator:
         except KeyError:
             multiple = False
         if isinstance(dict_value, dict):
-            return AnnotationLabel(name=dict_value["_desc"], multiple=multiple, tilt_key=dict_value["_key"])
+            return AnnotationLabel(name=dict_value["_desc"], multiple=multiple, tilt_key=dict_key)
         else:
             return AnnotationLabel(name=dict_value, multiple=multiple, tilt_key=dict_key)
 

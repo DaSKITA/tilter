@@ -22,8 +22,10 @@ class AnnotationLabel(Label):
 
     @classmethod
     def for_marshalling(cls):
-        label_obj = cls(name=fields.String, multiple=fields.Boolean)
-        return label_obj.to_dict()
+        label_obj = cls(name=fields.String, multiple=fields.Boolean, tilt_key=fields.String)
+        label_dict = label_obj.to_dict()
+        label_dict["label_class"] = fields.String
+        return label_dict
 
 
 @dataclass

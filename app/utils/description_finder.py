@@ -2,8 +2,7 @@ from dataclasses import asdict, dataclass
 from typing import Dict, List
 from config import Config
 import json
-from database.models import Annotation, Task
-from utils.label import AnnotationLabel, LabelFactory, ManualBoolLabel
+from utils.label import LabelFactory
 
 
 class DescriptonFinder:
@@ -49,7 +48,7 @@ class DescriptonFinder:
                 description = "No description found!"
         return description
 
-    def find_descriptions(self, task: 'Task') -> Dict[str, str]:
+    def find_descriptions(self, task_labels, task_hierarchy) -> Dict[str, str]:
         """
         Finds all descriptions for a provided task and returns these descriptions in a dictionary.
         Key = Label_name
@@ -63,18 +62,15 @@ class DescriptonFinder:
         """
         descriptions_collection = DescriptionCollection()
         label_factory = LabelFactory()
-        for idx, label in enumerate(task.labels):
-            label = label_factory.create_label(task.labels[idx])
-            label_chain = task.hierarchy + [label.tilt_key]
+        for idx, label in enumerate(task_labels):
+            label = label_factory.create_label(task_labels[idx])
+            label_chain = task_hierarchy + [label.tilt_key]
             description_text = self._find_description_by_label_chain(
                 label_chain,
                 tilt_dict=self.tilt_descriptions
                 )
             description = TiltElementDescription(name=label.name, description=description_text)
-            if isinstance(label, AnnotationLabel):
-                descriptions_collection.append_annotation_description(description)
-            elif isinstance(label, ManualBoolLabel):
-                descriptions_collection.append_tooltipps(description)
+            descriptions_collection.append_description(description)
         return descriptions_collection
 
     def _get_entry_from_tilt_desc_dict(self, label_name: str, tilt_dict: dict) -> str:
@@ -109,20 +105,13 @@ class DescriptonFinder:
 class DescriptionCollection:
 
     def __init__(self) -> None:
-        self.tooltips: List[TiltElementDescription] = []
-        self.annotation_descriptions: List[TiltElementDescription] = []
+        self.descriptions: List[TiltElementDescription] = []
 
-    def append_tooltipps(self, tooltip):
-        self.tooltips.append(tooltip)
+    def append_description(self, annotation_desc):
+        self.descriptions.append(annotation_desc)
 
-    def append_annotation_description(self, annotation_desc):
-        self.annotation_descriptions.append(annotation_desc)
-
-    def get_tooltips(self):
-        return self._get_dict_list(self.tooltips)
-
-    def get_annotation_descriptions(self):
-        return self._get_dict_list(self.annotation_descriptions)
+    def get_descriptions(self):
+        return self._get_dict_list(self.descriptions)
 
     def _get_dict_list(self, description_storage):
         return [description.to_dict() for description in description_storage]

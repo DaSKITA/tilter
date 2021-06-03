@@ -8,7 +8,7 @@ from flask_restx import Api
 from flask_user import current_user, login_required, UserManager
 from forms import CreateTaskForm
 from utils.schema_tools import get_manual_bools, construct_first_level_labels
-from utils.description_finder import DescriptonFinder, ManualBoolDescriptonFinder
+from utils.description_finder import DescriptonFinder
 from utils.translator import Translator
 
 # Initialize Flask App
@@ -112,9 +112,10 @@ def label(task_id):
 
     # finds the descriptions for labels of this task
     description_finder = DescriptonFinder()
-    description_collection = description_finder.find_descriptions(task)
-    tooltips = description_collection.get_tooltips()
-    annotation_descriptions = description_collection.get_annotation_descriptions()
+    annotation_descriptions = description_finder.find_descriptions(task.labels, task.hierarchy)
+    annotation_descriptions = annotation_descriptions.get_descriptions()
+    tooltips = description_finder.find_descriptions(task.manual_labels, task.hierarchy)
+    tooltips = tooltips.get_descriptions()
 
     # finds the descriptions for manual bools of this task
     # manual_bools_description_finder = ManualBoolDescriptonFinder()
