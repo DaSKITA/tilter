@@ -112,15 +112,17 @@ def label(task_id):
 
     # finds the descriptions for labels of this task
     description_finder = DescriptonFinder()
-    descriptions = description_finder.find_descriptions(task)
+    description_collection = description_finder.find_descriptions(task)
+    tooltips = description_collection.get_tooltips()
+    annotation_descriptions = description_collection.get_annotation_descriptions()
 
     # finds the descriptions for manual bools of this task
     # manual_bools_description_finder = ManualBoolDescriptonFinder()
     # tooltips = manual_bools_description_finder.find_manual_bool_descriptions(task)
-    # TODO
-    tooltips = ["Tooltip test for legalRequirement",
-                "Tooltip test for contractualRegulation",
-                "Tooltip test for obligationToProvide"]
+    # # TODO
+    # tooltips = ["Tooltip test for legalRequirement",
+    #             "Tooltip test for contractualRegulation",
+    #             "Tooltip test for obligationToProvide"]
 
     # translate labels
     translator = Translator()
@@ -138,7 +140,8 @@ def label(task_id):
     manual_bools = get_manual_bools(task.hierarchy)
 
     return render_template('label.html', task=task, target_url=target_url, annotations=annotations,
-                           redirect_url=redirect_url, colors=colors, descriptions=descriptions,
+                           redirect_url=redirect_url, colors=colors,
+                           annotation_descriptions=annotation_descriptions,
                            manual_bools=manual_bools, tooltips=tooltips)
 
 

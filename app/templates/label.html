@@ -9,17 +9,17 @@
     <div class="return">
         <a href="{{ url_for('tasks') }}"><- {{ _('task overview') }}</a>
     </div>
-    {% if descriptions %}
+    {% if annotation_descriptions %}
         <div>
             <table class="explanation">
                 <tr>
                     <th><b>Annotation</b></th>
                     <th><b>Description</b></th>
                 </tr>
-                {% for key, desc in descriptions.items() %}
+                {% for annotation_desc in annotation_descriptions %}
                     <tr>
-                        <td>{{ _(key) }}</td>
-                        <td>{{ desc }}</td>
+                        <td>{{ _(annotation_desc.name) }}</td>
+                        <td>{{ annotation_desc.description }}</td>
                     </tr>
                 {% endfor %}
             </table>
@@ -48,7 +48,7 @@
                             <div style="display: block">
                                 <input class="manual-bool-checkbox" type="checkbox" value="" id="{{ bool[0] }}">
                                 <label class="manual-bool-label" for="flexCheckDefault">
-                                    {{ bool[1] }}<a href="#" class="tooltip-link" data-toggle="tooltip" title="{{ tooltips[loop.index0] }}"><i class="fa fa-info-circle manual-bool-icon" aria-hidden="true"></i></a>
+                                    {{ bool[1] }}<a href="#" class="tooltip-link" data-toggle="tooltip" title="{{ tooltips[loop.index0].description }}"><i class="fa fa-info-circle manual-bool-icon" aria-hidden="true"></i></a>
                                     <!-- todo: translate -->
                                 </label>
                             </div>

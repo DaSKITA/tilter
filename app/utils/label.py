@@ -2,14 +2,18 @@ from dataclasses import dataclass, asdict, field
 from flask_restx import fields
 import uuid
 from enum import Enum
+from typing import Dict
 
 
 @dataclass
 class Label:
     name: str = None
+    tilt_key: str = None
 
     def to_dict(self):
-        return asdict(self)
+        label_dict = asdict(self)
+        label_dict["label_class"] = self.__class__.__name__
+        return label_dict
 
 
 @dataclass
@@ -41,9 +45,39 @@ class IdLabel(Label):
         self.id_value = str(self.id_value)
 
 
-class LabelEnum(Enum):
+class LabelStrEnum(Enum):
+    ANNOTATION = "AnnotationLabel"
+    MANUAL = "ManualBoolLabel"
+    LINKED = "LinkedBoolLabel"
+    ID = "IdLabel"
+    LABEL = "Label"
 
-    ANNOTATION = AnnotationLabel
-    MANUAL = ManualBoolLabel
-    LINKED = LinkedBoolLabel
-    ID = IdLabel
+
+class LabelFactory:
+
+    def __init__(self) -> None:
+        """
+        Simple Factory Class that maps incomming arguments to a specific label class.
+        """
+        self.label_mappings = {
+            LabelStrEnum.ANNOTATION: AnnotationLabel,
+            LabelStrEnum.MANUAL: ManualBoolLabel,
+            LabelStrEnum.LINKED: LinkedBoolLabel,
+            LabelStrEnum.ID: IdLabel,
+            LabelStrEnum.LABEL: Label
+        }
+
+    def create_label(self, args_dict: Dict) -> Label:
+        label_class_enum = LabelStrEnum(args_dict.pop("label_class"))
+        label_class = self.label_mappings[label_class_enum]
+        return label_class(**args_dict)
+
+
+if __name__ == "__main__":
+
+    label = AnnotationLabel(name="test", tilt_key="test2", multiple=False)
+    print(label.to_dict())
+    label = label.to_dict()
+    label_factory = LabelFactory()
+    label = label_factory.create_label(label)
+    print(label)
