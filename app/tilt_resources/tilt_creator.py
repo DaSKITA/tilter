@@ -1,9 +1,7 @@
-from dataclasses import dataclass
 from config import Config
-from typing import Dict, Union
+from typing import Dict, Union, List
 
 
-@dataclass
 class TiltException:
     """
     A class for storing tilt exceptions. Every exceptions contains a schema_key_queue and a
@@ -13,8 +11,16 @@ class TiltException:
     Returns:
         [type]: [description]
     """
-    schema_key_queue: list = None
-    tilt_exception_entry: Union[int, str] = None
+    def __init__(self, schema_key_queue: List = None, tilt_exception_entry: Union[str, int] = None) -> None:
+        if schema_key_queue:
+            self.schema_key_queue = list(schema_key_queue)
+        else:
+            self.schema_key_queue = []
+
+        if tilt_exception_entry:
+            self.tilt_exception_entry = tilt_exception_entry
+        else:
+            self.tilt_exception_entry = None
 
     def _queue_is_empty(self):
         return self.schema_key_queue == []
@@ -33,16 +39,18 @@ class TiltCreator:
             self.tilt_document = tilt_document
         else:
             self.tilt_document = {}
-        self._read_tilt_exceptions_from_config(Config)
+        self.tilt_exception_obj_list = self._read_tilt_exceptions_from_config(Config)
 
     def add_tilt_exception(self, tilt_exception: 'TiltException'):
         self.tilt_exceptions.append(tilt_exception)
 
     def _read_tilt_exceptions_from_config(self, config: Config):
         tilt_exception_list = config.TILT_EXCEPTIONS
+        tilt_exception_obj_list = []
         for tilt_exception_kw in tilt_exception_list:
             tilt_exception_obj = TiltException(**tilt_exception_kw)
-            self.add_tilt_exception(tilt_exception_obj)
+            tilt_exception_obj_list.append(tilt_exception_obj)
+        return tilt_exception_obj_list
 
     def write_tilt_default_values(self) -> Dict:
         """
@@ -52,7 +60,7 @@ class TiltCreator:
         Returns:
             Dict: [description]
         """
-        for tilt_exception in self.tilt_exceptions:
+        for tilt_exception in self.tilt_exception_obj_list:
             updated_tilt_document = self._place_default_values(tilt_exception, self.tilt_document)
             self.tilt_document = updated_tilt_document
 
