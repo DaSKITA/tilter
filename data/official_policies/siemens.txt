@@ -1,238 +1,481 @@
-Datenschutzerklärung
-Juli 2020
+Über uns und unsere Website
 
+Wir, die SEG Hausgeräte GmbH, Carl-Wery-Str. 34, 81739 München, sind Betreiber dieser Website. Um mit uns in Kontakt zu treten, nutzen Sie bitte die Kontaktdaten im Impressum.
 
+Auf dieser Website können Sie auch einkaufen. Betreiber des Einkaufsbereichs ist die SEG Hausgeräte Service GmbH, Carl-Wery-Str. 34, 81739 München.
 
-Wir (d.h. der im Impressum genannte Betreiber dieser Webseite) nehmen den Schutz Ihrer personenbezogenen Daten ernst. Diese Datenschutzerklärung beschreibt, wie wir Ihre personenbezogenen Daten erheben und erfassen, verwenden, offenlegen, übermitteln und speichern („verarbeiten“). Die erhobenen personenbezogenen Daten sind vom Kontext Ihrer Interaktionen mit uns, den von uns bezogenen Produkten, Dienstleistungen und Features, Ihrem Standort und Sitz sowie dem jeweils geltenden Recht abhängig.
+Unsere Grundprinzipien
 
-1. Verarbeitung personenbezogener Daten im Zusammenhang mit Ihrer Nutzung unserer Webseiten, Applikationen und Online-Services
-Datenkategorien und Zweck der Verarbeitung
+Wir nehmen den Schutz Ihrer Daten sehr ernst. Die Verarbeitung Ihrer Daten erfolgt daher mit großer Sorgfalt und unter strikter Beachtung der anwendbaren Datenschutzgesetze. Alle unsere Websites sind mit technischen und organisatorischen Sicherheitsmaßnahmen gegen die Risiken bei der Verarbeitung personenbezogener Daten geschützt. Auch unsere Partner, die uns bei der Bereitstellung dieser Website unterstützen, müssen diese Vorgaben beachten.
 
+Was wir standardmäßig protokollieren
 
+Sie können alle nicht zugriffsgeschützten Teile unserer Website ohne die Offenlegung Ihrer Identität nutzen. Standardmäßig protokollieren wir jede Nutzung unserer Website, um Angriffe zu verhindern, Störungen zu beseitigen und Sicherheitsvorfälle aufzuklären. Mehr zu den Protokolldaten und dem Umfang der Verarbeitung findet sich im Kapitel „Wie wir Ihre Daten verarbeiten“.
 
-Im Rahmen Ihrer Nutzung unserer Webseiten, Applikationen oder Online-Services (jeweils ein „Online Angebot“) verarbeiten wir personenbezogene Daten, die Sie aktiv und freiwillig selbst angeben und die im Rahmen Ihrer Nutzung eines Online Angebots anfallen, einschließlich der folgenden Kategorien personenbezogener Daten:
+Welche Erlaubnisse wir zur Verarbeitung Ihrer Daten haben
 
-Ihre Kontaktinformationen, wie z.B. Vor- und Zuname, E-Mail-Adresse, Telefonnummer,
-weitere personenbezogene Daten, die Sie in Kontakt- und anderen Formularen eines Online Angebots selbst angeben,
-Informationen, die im Rahmen der Nutzung eines Online Angebots automatisch erhoben werden, wie Ihre Device- und Nutzerkennung, Informationen zu Ihrem Betriebssystem, Seiten und Dienste die Sie im Rahmen Ihres Besuchs genutzt und besucht haben sowie Datum und Uhrzeit einer Nutzeranfrage.
-Wir verarbeiten Ihre personenbezogenen Daten für folgende Zwecke:
+Wir respektieren Ihre Privatsphäre. Ihre Daten verarbeiten wir deswegen nur, wenn wir hierfür eine Erlaubnis haben; eine Zusammenfassung der Erlaubnistatbestände, auf die wir die Datenverarbeitung stützen, finden Sie am Ende dieser Information. Selbstverständlich können Sie uns für die Verarbeitung Ihrer Daten eine Erlaubnis erteilen, indem Sie entsprechend in die entsprechende Verarbeitung Ihrer Daten auf unserer Website einwilligen. In anderen Fällen verarbeiten wir Ihre Daten aufgrund einer gesetzlichen Erlaubnis. Wenn Sie beispielsweise auf unserer Website bestellen, dürfen wir Ihre Daten zur Erfüllung des Vertrages verarbeiten. Entsprechendes gilt, wenn Sie andere Dienste auf unserer Website in Anspruch nehmen, die eine Verarbeitung Ihrer Daten erfordern. Wir dürfen außerdem Ihre Daten verarbeiten, wenn wir hierzu ein legitimes Interesse haben. Ein Beispiel hierfür sind die Protokolldaten, die wir erheben, um u.a. den störungsfreien Betrieb unserer Website (einschließlich der Bereitstellung der Website) zu ermöglichen. In jedem Fall informieren wir Sie über eine entsprechende Verarbeitung Ihrer Daten und selbstverständlich werden Ihre Interessen stets bei jeder Verarbeitung berücksichtigt. Sollten Sie einmal Fragen zu Ihren personenbezogenen Daten haben, finden Sie im unteren Teil dieser Informationen zum Datenschutz ihre Rechte im Hinblick auf die Verarbeitung Ihrer Daten.
 
-um Ihnen die Inanspruchnahme der Leistungen und Funktionen der Online Angebote zu ermöglichen, einschließlich zum Erstellen und Administrieren Ihres Online Accounts, im Rahmen von Updates, Sicherheits- und Fehlerbehebungsmaßnahmen, um Kundensupport zu erbringen und um unsere Online Angebote zu verbessern und weiterzuentwickeln,
-um die Nutzung eines Online Angebots abzurechnen,
-um Ihre Identität festzustellen und eine Nutzer-Authentifizierung zu ermöglichen,
-um Ihre Anfrage oder Weisung zu bearbeiten,
-um Ihre Bestellung abzuwickeln und Ihnen darauf bezogene Informationen und Angebote zugänglich zu machen,
-um Sie mit Informationen und Angeboten zu unseren Produkten und Dienstleistungen zu kontaktieren und Ihnen weitere Marketinginformationen zuzusenden oder Sie im Rahmen von Kundenzufriedenheitsumfragen zu kontaktieren, wie in Ziffer 3 beschrieben, und
-um unsere Nutzungsbedingungen durchzusetzen, Rechtsansprüche geltend zu machen oder abzuwehren und um betrügerische und ähnliche Handlungen, einschließlich Angriffe auf unsere IT-Infrastruktur, abzuwehren und zu unterbinden.
-Online Angebote die von Ihrem Unternehmen bereitgestellt werden
+Wann wir von welcher Erlaubnis Gebrauch machen, teilen wir Ihnen im nächsten Abschnitt mit. Dort finden Sie auch Näheres über Art, Umfang und Zwecke der Erhebung, Verarbeitung und Nutzung Ihrer Daten auf unserer Website.
 
+Was Sie sonst noch wissen sollten:
+Nutzer unter 16 Jahren sollten personenbezogene Daten nur mit Zustimmung ihrer Eltern oder Erziehungsberechtigten an uns übermitteln. Aus den anwendbaren Datenschutzgesetzen kann sich eine abweichende Altersgrenze ergeben.
 
+Unsere Website kann Links zu Websites enthalten, die nicht von uns betrieben werden. Auf die dort stattfindende Verarbeitung Ihrer Daten und die Einhaltung von Datenschutzbestimmungen haben wir keinen Einfluss. Bitte beachten Sie die dort vorgehaltenen Informationen zum Datenschutz.
 
-In einigen Fällen werden Ihnen unsere Online Angebote durch das Unternehmen bereitgestellt, bei dem Sie beschäftigt sind. Wenn Sie ein von Ihrem Unternehmen bereitgestelltes Online Angebot verwenden, erfolgt die Verarbeitung von personenbezogenen Daten, die von Ihnen oder Ihrem Unternehmen in die Inhalte das Online Angebot eingespielt werden, im Auftrag und nach Weisung Ihres Unternehmens und im Rahmen eines Auftragsverarbeitungsvertrags zwischen Ihrem Unternehmen und uns. In diesem Fall ist Ihr Unternehmen datenschutzrechtlich verantwortlich. Wenn Sie Fragen zu personenbezogenen Daten haben, die wir als Auftragsverarbeiter für Ihr Unternehmen verarbeiten, wenden Sie sich bitte an Ihr Unternehmen.
+Datenverarbeitung bei der Nutzung der Website und der dort angebotenen Dienste
+In diesem Abschnitt beschreiben wir, welche Daten wir bei der Nutzung der Webseite und der dort angebotenen Dienste verarbeiten und zu welchen Zwecken diese Daten verwendet werden.
 
+Kurz und knapp:
 
+Die hier genannten Daten sind erforderlich, um die Website und die dort angebotenen Dienste bereitzustellen und eine sichere Nutzung zu ermöglichen.
+Registrierte Nutzer können weitere Leistungen und Angebote nutzen.
+Auch beim Einkauf sind Ihre Daten durch den Einsatz von Verschlüsselungsverfahren nach dem Stand der Technik abgesichert.
+Wenn Sie mit uns Kontakt aufnehmen, verwenden wir Ihre Daten nur dazu, Ihr Anliegen zu bearbeiten.
+Sie können über die Website einen Reparaturtermin mit uns vereinbaren; dabei erleichtert die von uns eingesetzte Technik die Adresseingabe.
+Inhalte und Services dieser Website unterstützen die Geschäftsbeziehungen mit unseren Business Partnern.
+Durch den Einsatz des Double-opt-in- Verfahrens schützen wir Ihre E-Mail Adresse vor Missbrauch durch Dritte.
+Auch als Teilnehmer einer unserer attraktiven Veranstaltungen sind Ihre Daten bei uns gut aufgehoben.
+Information zum Datenschutz, wenn Sie eine unserer Social Media Seiten verwenden.
+Unsere Website nutzt Cookies; hier erklären wir Ihnen, welche Arten von Cookies wir einsetzen und welche Daten dadurch entstehen und verarbeitet werden.
+Um die Attraktivität unserer Website zu messen, nutzen wir Webanalyse-Tools, um unsere Seite sowie die bereitgestellten Informationen zu verbessern.
+Teilen Sie Inhalte unserer Website datensparsam auf sozialen Netzwerken.
+Alle Dienstleister, die im Zusammenhang mit unserer Website Ihre Daten verarbeiten, sind sorgfältig ausgesucht und zur Einhaltung des Datenschutzes verpflichtet.
+In allen Fragen des Datenschutzes wenden Sie sich gerne an unseren Datenschutzbeauftragten.
+Darstellung der Website, Protokolldaten
 
-Links zu anderen Webseiten
+Zur Darstellung der Website ihn Ihrem Internet-Browser verwenden wir verschiedene technische Einrichtungen, um alle Inhalte (Text, Bild, Video usw.) stets aktuell darstellen zu können. Damit Ihr Nutzererlebnis, insbesondere die Ladegeschwindigkeit der Website zu jedem Zeitpunkt verbessert wird, nutzen wir dazu auch technische Dienstleister, die es uns ermöglichen, die für die Darstellung der Website erforderlichen Inhalte bereitzustellen (so genannte „Content Delivery Networks“ kurz CDN). Diese technischen CDN-Dienstleister handeln in unserem Auftrag und sind durch entsprechende Vereinbarungen an unsere Weisungen gebunden. Die so erhobenen Daten werden nur dafür verwendet, die Inhalte der Website in Ihrem Internet-Browser darzustellen und nach der Zwischenspeicherung im Rahmen der Auslieferung unmittelbar gelöscht.
 
+Bei jedem Aufruf einer Website übermittelt Ihr Internet-Browser aus technischen Gründen automatisch Informationen an unseren Webserver (sog. Protokolldaten). Manche dieser Informationen speichern wir in Logdateien, z.B.
 
+Datum des Zugriffs
+Uhrzeit des Zugriffs
+URL der Website
+verwendete Version des HTTP-Protokolls
+abgerufene Datei
+übertragene Datenmenge
+Internet-Browsertyp und -version
+Typ des Betriebssystem
+IP-Adresse (anonymisiert)
 
-Diese Datenschutzerklärung gilt nur für Online Angebote, die auf diese Datenschutzerklärung verlinken, und nicht für Webseiten und Applikationen anderer Konzerngesellschaften mit eigener Datenschutzerklärung oder Webseiten und Applikationen sonstiger Dritter. Diese Datenschutzerklärung findet auch keine Anwendung, wenn und soweit wir als Auftragsverarbeiter unserer Geschäftspartner fungieren, z.B. wenn wir als Hosting oder Cloud Anbieter tätig werden. Online Angebote können Links auf Webseiten und Applikationen Dritter enthalten, die möglicherweise für Sie von Interesse sind. Wir sind für die Verarbeitung Ihrer personenbezogenen Daten im Rahmen von Webseiten oder Applikationen, die nicht von uns betrieben werden, sowie deren Inhalt nicht verantwortlich.
+Protokolldaten enthalten keine personenbezogenen Daten. Wir werten Protokolldaten nur anlassbezogen aus, insbesondere um Störungen beim Betrieb unserer Website zu beheben oder Sicherheitsvorfälle aufzuklären. Diese Protokolldaten speichern wir ohne zeitliche Begrenzung.
 
-2. Verarbeitung von personenbezogenen Daten von Geschäftspartnern
-Datenkategorien und Zweck der Verarbeitung
+Zur Störungsbeseitigung oder zur Beweissicherung bei Sicherheitsvorfällen kann es erforderlich sein, dass wir mit den Protokolldaten zusätzlich die IP-Adresse des Endgeräts erheben. Diese Daten löschen wir, sobald die Störung beseitigt ist bzw. der Sicherheitsvorfall abschließend aufgeklärt wurde oder aus anderen Gründen der Verarbeitungszweck entfallen ist. Soweit zulässig und erforderlich, geben wir im Einzelfall bei einem Sicherheitsvorfall Protokolldaten an Ermittlungsbehörden weiter.
 
+Vorgenannte Protokolldaten speichern wir getrennt von anderen Daten, die im Rahmen der Nutzung unserer Website erhoben werden.
 
+Registrierung auf unserer Website
 
-Im Rahmen der Zusammenarbeit mit Geschäftspartnern verarbeiten wir personenbezogene Daten von Endverbrauchern und Ansprechpartnern bei Kunden, Interessenten, Vertriebspartnern, Lieferanten und Partnern (jeweils ein „Geschäftspartner“):
+Sie können sich auf unserer Website für die Nutzung verschiedener Dienste registrieren. Im Rahmen einer solchen Registrierung erheben und verarbeiten wir nachfolgende Angaben:
 
-Kontaktinformationen, wie Vor- und Zunamen, Position im Unternehmen, geschäftliche Anschrift, geschäftliche Telefonnummer, geschäftliche Mobilfunknummer, geschäftliche Faxnummer und geschäftliche E-Mailadresse,
-Zahlungsdaten, wie Angaben die zur Abwicklung von Zahlungsvorgängen oder Betrugsprävention erforderlich sind, einschließlich Kreditkarteninformationen und Kartenprüfnummern,
-weitere Informationen deren Verarbeitung im Rahmen eines Projekts oder der Abwicklung einer Vertragsbeziehung mit uns erforderlich sind oder die freiwillig von Geschäftspartnern angegeben werden, z.B. im Rahmen von getätigten Bestellungen, Anfragen oder Projektdetails,
-Personenbezogene Daten, die aus öffentlich verfügbaren Quellen, Informationsdatenbanken oder von Auskunfteien erhoben werden und
-soweit rechtlich im Rahmen von Compliance Screenings erforderlich: Geburtsdatum, Ausweis und Ausweisnummern, Informationen zu relevanten Gerichtsverfahren und anderen Rechtsstreitigkeiten, in die Geschäftspartner involviert sind.
-Wir verarbeiten die personenbezogenen Daten für folgende Zwecke:
+Verpflichtende Angaben:
 
-Kommunikation mit Geschäftspartnern zu Produkten, Dienstleistungen und Projekten, z.B. um Anfragen des Geschäftspartners zu bearbeiten oder technische Informationen zu Produkten bereitzustellen,
-Planung, Durchführung und Verwaltung der (vertraglichen) Geschäftsbeziehung zwischen dem Geschäftspartner und uns, z.B. um die Bestellung von Produkten und Dienstleistungen abzuwickeln, Zahlungen einzuziehen, zu Zwecken der Buchhaltung und Abrechnung und um Lieferungen, Wartungstätigkeiten oder Reparaturen durchzuführen,
-Durchführen von Marktanalysen, Gewinnspielen, Wettbewerben oder ähnlichen Aktionen und Events,
-Kontaktaufnahme zu Informationen und Angeboten zu unseren Produkten und Dienstleistungen und Durchführung weiterer Marketingaktivitäten und Kundenzufriedenheitsbefragungen wie in Ziffer 3 näher beschrieben,
-Aufrechterhalten und Schutz der Sicherheit unserer Produkte und Dienstleistungen sowie unserer Webseiten, Verhindern und Aufdecken von Sicherheitsrisiken, betrügerischem Vorgehen oder anderen kriminellen oder mit Schädigungsabsicht vorgenommenen Handlungen,
-Einhalten von (i) rechtlichen Anforderungen (z.B. von steuer- und handelsrechtlichen Aufbewahrungspflichten), (ii) bestehenden Pflichten zur Durchführung von Compliance Screenings (um Wirtschaftskriminalität oder Geldwäsche vorzubeugen) sowie (iii) unserer Richtlinien und Industriestandards und
-Beilegen von Rechtsstreitigkeiten, Durchsetzen bestehender Verträge und zur Geltendmachung, Ausübung und Verteidigung von Rechtsansprüchen.
-3. Verarbeitung personenbezogener Daten für Kundenzufriedenheitsbefragungen und Direktmarketing
-Im Rahmen der geltenden Gesetze können wir Ihre Kontaktdaten für Zwecke des Direktmarketings (z.B. Messeeinladungen, Newsletter mit Informationen und Angeboten zu unseren Produkten und Dienstleistungen) und zur Durchführung von Kundenzufriedenheitsbefragungen verwenden, jeweils auch per E-Mail. Sie haben jederzeit das Recht, der Verwendung Ihrer Kontaktdaten für diese Zwecke zu widersprechen, indem Sie eine E-Mail an contact@siemens.com senden oder von der Widerspruchsmöglichkeit in der Nachricht Gebrauch machen, welche Sie erhalten haben.
+Vor- und Nachname
+E-Mail-Adresse
+Passwort
+Verkaufs- und Lieferbedingungen
+Captchatext
 
-4. Übermittlung und Weitergabe der personenbezogenen Daten
-Wir übermitteln Ihre personenbezogenen Daten gegebenenfalls an:
+Freiwillige Angaben:
 
-andere Siemens Gesellschaften oder sonstige Dritte – z.B. Vertriebspartner oder Lieferanten - wenn dies im Zusammenhang mit dem Angebot und Betrieb der Online Angebote oder der Anbahnung, Durchführung oder Abwicklung der Geschäftsbeziehung erforderlich ist,
-IT-Dienstleister, die Daten im Rahmen Ihrer Leistungserbringung verarbeiten (wie z.B. Dienstleister für IT-Wartungstätigkeiten), und/oder
-Dritte, wenn dies zur Einhaltung geltenden Rechts oder zu Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist (z.B., im Zusammenhang mit Schieds- oder Gerichtsverfahren, an Gerichte, Schiedsgerichte, Behörden oder Rechtsberater).
-Personenbezogene Daten, die von Ihnen über Online Angebote veröffentlicht werden (z.B. in Chatrooms oder Foren), können für andere registrierte Benutzer des jeweiligen Online Angebots weltweit zugänglich sein.
+Anrede
+Erteilung Einwilligung in Erhalt von Werbung und Widerrufsmöglichkeit.
 
-5. Speicherfristen
-Soweit bei der Erhebung (z.B. im Rahmen einer Einwilligungserklärung) keine ausdrückliche Speicherdauer angegeben wird, werden Ihre personenbezogenen Daten gelöscht, soweit diese nicht mehr zur Erfüllung des Zweckes der Speicherung erforderlich sind, es sei denn gesetzliche Aufbewahrungspflichten (z.B. handels- und steuerrechtliche Aufbewahrungspflichten) stehen einer Löschung entgegen.
+Die Daten registrierter Nutzer speichern wir bis das Nutzerkonto gelöscht wird. Über die Einstellungen des Nutzerkontos kann ein angemeldeter Nutzer sein Konto jederzeit löschen. Im Nutzerkonto besteht außerdem die Möglichkeit, bestimmte bei der Registrierung angegebene Daten jederzeit zu ändern oder zu löschen.
 
-6. Ihre Rechte
-Nach anwendbarem Datenschutzrecht haben Sie gegebenenfalls das Recht:
+Komfort-Anmeldung (Social Sign-On Option)
 
-eine Bestätigung darüber zu verlangen, ob wir personenbezogene Daten über Sie verarbeiten und Auskunft über die von uns verarbeiteten personenbezogene Daten zu erhalten,
-die Berichtigung unrichtiger personenbezogener Daten zu verlangen,
-die Löschung der von uns verarbeiteten personenbezogenen Daten zu verlangen,
-die Einschränkung der Verarbeitung personenbezogener Daten zu verlangen,
-die Übertragung der personenbezogenen Daten, die Sie uns aktiv bereitgestellt haben, zu verlangen oder
-der Verarbeitung personenbezogener Daten, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, zu widersprechen.
-7. Datensicherheit
-Wir ergreifen angemessene technische und organisatorische Maßnahmen, um personenbezogene Daten vor unbeabsichtigter oder unrechtmäßiger Vernichtung, Nutzung oder Veränderung sowie unberechtigter Offenlegung bzw. unberechtigtem Zugang zu schützen.
+Für die Registrierung auf unserer Website können Sie auch die Komfort-Anmeldung (oder Social Sign-On Option) nutzen. Diese ist für verschiedene Soziale Netzwerke verfügbar. Zur Anmeldung werden Sie auf die Website des betreffenden Sozialen Netzwerks weitergeleitet, wo Sie sich mit ihren Zugangsdaten anmelden können. Hierdurch wird ihr Nutzerkonto des Sozialen Netzwerks mit dem Nutzerkonto auf unserer Website verknüpft. Bei der Verknüpfung erhalten wir automatisch von Ihrem Sozialen Netzwerk die zur Anmeldung erforderlichen Daten. Welche Daten von Ihrem Sozialen Netzwerk an uns übermittelt werden, können Sie den Datenschutzhinweisen und Nutzungsbedingungen des betreffenden Sozialen Netzwerks entnehmen. Wir speichern und verarbeiten von diesen Daten ausschließlich Ihren Namen und Ihre E-Mail-Adresse für die Bereitstellung unserer Dienste.
 
-8. Ansprechpartner
-Unsere Datenschutzorganisation unterstützt bei allen Fragen rund um das Thema Datenschutz. Auch können Beschwerden gegenüber unserer Datenschutzorganisation angebracht und die in dieser Datenschutzerklärung genannten Rechte geltend gemacht werden.
+Durch die Verknüpfung der beiden Nutzerkonten, müssen Sie sich zukünftig nicht mehr zusätzlich auf unserer Website anmelden, wenn Sie sich bereits in Ihrem Sozialen Netzwerk angemeldet haben. Dafür wird im Internet-Browser ein entsprechendes Cookie genutzt und bei einem erneuten Aufruf der Seite ausgelesen.
 
+Die im Rahmen der Komfort-Anmeldung gespeicherten Daten nutzen wir ausschließlich zur Bereitstellung der Dienste unserer Website, insb. der Social Sign-On Option. Die Daten registrierter Nutzer speichern wir bis das Nutzerkonto gelöscht wird. Über die Einstellungen des Nutzerkontos kann ein angemeldeter Nutzer sein Konto jederzeit löschen. Im Nutzerkonto besteht außerdem die Möglichkeit, bestimmte bei der Registrierung angegebene Daten jederzeit zu ändern oder zu löschen.
 
+Einkaufen auf unserer Website
 
-Unsere Datenschutzorganisation kann unter datenschutz@siemens.com kontaktiert werden.
+Sie können auf unserer Website auch kostenpflichte Leistungen (z.B. Bestellungen im Zubehör-Shop) in Anspruch nehmen. Für die Bestellung der Leistung erheben und verarbeiten wir nachfolgende Bestelldaten:
 
+Verpflichtende Angaben
 
+Anrede
+Vor- und Nachname
+Vollständige Anschrift
+E-Mail-Adresse
+Abrechnungsdaten (je nach von uns gewährter und vom Nutzer gewählter Zahlungsart)
 
-Unsere Datenschutzorganisation ist immer bestrebt, Ihre Anfragen und Beschwerden zu adressieren und diesen abzuhelfen. Neben der Kontaktaufnahme mit der Datenschutzorganisation haben Sie aber auch jederzeit die Möglichkeit, die zuständige Datenschutzaufsichtsbehörde zu kontaktieren.
+Freiwillige Angaben
 
-9. Verarbeitung personenbezogener Daten im Anwendungsbereich der EU-Datenschutzgrundverordnung: Verantwortlicher, Rechtsgrundlage der Datenverarbeitung und internationale Datentransfers
-Dieser Absatz findet Anwendung, wenn Ihre personenbezogenen Daten durch eine unserer Gesellschaften mit Sitz im Europäischen Wirtschaftsraum verarbeitet werden.
+Telefonnummer
+Mobilfunknummer
+Adresszusatz
+Akademischer Titel
 
+Als registrierter Nutzer profitieren Sie darüber hinaus davon, dass in Ihrem Kundenkonto für Sie der Zeitpunkt und Umfang aller Käufe (Darstellung der Historie getätigter Einkäufe im Nutzerkonto) dargestellt wird, so dass Sie Ihre Bestellungen direkt dort nachvollziehen können.
 
+Um die Sicherheit Ihrer Daten bei der Übertragung zu gewährleisten, verwenden wir dem aktuellen Stand der Technik entsprechende Verschlüsselungsverfahren (z.B. SSL) über HTTPS.
 
-Für die Datenverarbeitung Verantwortlicher
+Im Rahmen der Bestellung nutzen wir Ihre Daten ausschließlich zur Abwicklung der Bestellung und Darstellung der Bestellhistorie. Bestelldaten speichern wir mindestens bis zum Ablauf der gesetzlichen Aufbewahrungsfristen. Daten, die im Rahmen der Registrierung angegeben wurden, speichern wir bis das Nutzerkonto gelöscht wird.
 
+Kontaktaufnahme
 
+Wenn Sie mit uns außerhalb eines konkreten Vertragsverhältnisses (z.B. zu einer Bestellung) oder einer Registrierung Kontakt aufnehmen, stellen wir dafür über unsere Websites verschiedene, auch rein technische Kontaktmöglichkeiten bereit, einschließlich der Möglichkeit z.B. per (automatisiertem) Chat mit uns Kontakt aufzunehmen.
 
-Verantwortlicher im Sinne der Datenschutzgrundverordnung für die in dieser Datenschutzerklärung beschriebenen Verarbeitungstätigkeiten, ist die im Impressum genannte Gesellschaft.
+Um Ihr konkretes Anliegen bei einer solchen Kontaktaufnahme bearbeiten zu können, bitten wir Sie eventuell um die Angabe von personenbezogenen Daten. Hierzu zählen beispielsweise Ihr Name sowie Ihre E-Mail-Adresse und weitere Informationen wie der Gegenstand Ihrer Anfrage und Ihre Mitteilung. Optional können Anschrift und/oder Telefonnummer angegeben werden. Die so abgefragten Informationen erheben wir, um auf Ihr Anliegen umfassend eingehen zu können.
 
+Die uns so übermittelten personenbezogenen Daten werden ausschließlich für den Zweck verwendet, zu dem Sie uns diese bei der Kontaktierung zur Verfügung stellen – insbesondere die Bearbeitung Ihrer Anfrage. Die Daten werden ohne Ihre ausdrückliche Einwilligung nicht für andere Zwecke verwendet oder an Dritte weitergegeben. Ausgenommen hiervon sind – sofern es zur Erfüllung Ihre Anfrage notwendig ist – die an der Durchführung der Kommunikation und der Beantwortung der Anfrage beteiligten Personen und Unternehmen (z.B. lokale Servicegesellschaft). Sofern keine gesetzlichen Aufbewahrungspflichten bestehen, werden Ihre personenbezogenen Daten nach Abwicklung des Anliegens gelöscht.
 
+Online-Reparaturtermin vereinbaren
 
-Kontaktinformationen von Geschäftspartnern teilen wir gegebenenfalls im Rahmen Ihrer Geschäftsbeziehung mit uns mit anderen Siemens-Konzerngesellschaften. Wir und diese Siemens-Konzerngesellschaften sind gemeinsam für den Schutz Ihrer personenbezogenen Daten verantwortlich (Art. 26 Datenschutzgrundverordnung). Um sicherzustellen, dass Sie Ihre datenschutzrechtlichen Rechte im Rahmen dieser gemeinsamen Verantwortlichkeit einfach und verlässlich wahrnehmen können, haben wir mit diesen Siemens-Konzerngesellschafen vereinbart, dass Sie Ihre in Ziffer 6 beschriebenen Betroffenenrechte, nicht nur gegenüber der jeweiligen Siemens-Konzerngesellschaft, sondern auch zentral gegenüber der Siemens Aktiengesellschaft geltend machen können.
+Auf unserer Website können Sie direkt einen Reparaturtermin mit einem Kundendienst-Techniker vereinbaren. Hierfür benötigen wir in der Regel Informationen zu Ihrem Hausgerät, eine Problembeschreibung, sowie Ihre Adresse und weitere Kontaktdetails. Welche Daten wir konkret erheben ergibt sich aus dem Buchungsprozess.
 
+Im Rahmen des Buchungsprozesses verifizieren wir die richtige Schreibweise ihrer Adresse über die Datenbank von Google Maps, um etwaige Fehleingaben oder Verwechslungen auszuschließen. Eine Übermittlung von personenbezogenen Daten erfolgt nicht.
 
+Wir speichern Ihre Daten so lange wir diese zur Vertragsdurchführung benötigen und bis zum Ablauf gesetzlicher Aufbewahrungsfristen.
 
-Kontaktieren Sie uns dazu unter: datenschutz@siemens.com.
+Google Maps ist ein Dienst der Google LLC (vorher Google Inc.), 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA („Google“). Details zur Verarbeitung von personenbezogenen Daten durch die Nutzung von Google Maps finden Sie unter folgendem Link: http://www.google.de/intl/de/policies/privacy/. Google hat sich dem EU-US Privacy Shield unterworfen, https://www.privacyshield.gov/EU-US-Framework.
 
+Newsletter
 
+Auf unserer Website kann ein Newsletter abonniert werden. Um zu überprüfen, ob die Anmeldung zum Erhalt des Newsletters tatsächlich durch den Inhaber einer E-Mail-Adresse erfolgt ist, setzen wir das „Double-opt-in-Verfahren“ ein. Der Newsletter ist erst dann erfolgreich abonniert, wenn durch den Inhaber der E-Mail-Adresse zuvor ausdrücklich die Aktivierung des Newsletters durch Anklicken des Links aus der Bestätigungsmail bestätigt wurde. Zum Nachweis protokollieren wir die Durchführung der einzelnen Stufen des Double-opt-in-Verfahrens.
 
-Rechtsgrundlage der Verarbeitung
+Im Rahmen unserer Newsletter-Kampagnen setzen wir Analyse-Tools zur bedarfsgerechten Gestaltung unseres Newsletters, zu Werbezwecken und für die Marktforschung ein. Hierzu erheben und verarbeiten wir Daten über Ihre Nutzung unseres E-Mail Newsletters. Wenn Sie einen E-Mail Newsletter von uns öffnen, verbindet sich eine in der E-Mail enthaltene Datei (sog. Web-Beacon) mit unseren Servern. So können wir feststellen, ob ein E-Mail Newsletter geöffnet und ggf. welche Inhalte angeklickt wurden. Außerdem erfassen wir dazu technische Informationen über ihr Endgerät, mit welchem die Inhalte des E-Mail Newsletters abgerufen werden (z.B. Zeitpunkt des Abrufs, Browsertyp und Betriebssystem). Wir nutzen diese Daten ausschließlich zur statistischen Analyse unserer Newsletter-Kampagnen.
 
+Wenn Sie sich für den Bezug unseres Newsletters anmelden und damit in den Versand und die Analyse Ihres Nutzerverhaltens einwilligen, werden Ihre Daten ausschließlich für die Durchführung und Analyse der Newsletter-Kampagnen verwendet. Diese Einwilligung können Sie jederzeit widerrufen. In jedem Newsletter findet sich hierzu ein entsprechender Link. Ihre Abmeldung vom Newsletter vermerken wir in unserer Datenbank.
 
+Teilnahme an Gewinnspielen
 
-Die Datenschutzgrundverordnung verpflichtet Siemens, Sie über die Rechtsgrundlage der Datenverarbeitung zu informieren.
+Wenn Sie an einem Gewinnspiel von uns teilnehmen, werden die von Ihnen gemachten Angaben zum Zwecke der Durchführung und der Nachbereitung des Gewinnspiels von uns gespeichert und genutzt. Welche Daten wir hierfür erheben, ergibt sich aus dem Anmeldeformular des jeweiligen Gewinnspiels. Ihre Daten werden gelöscht, sobald diese für die Durchführung des Gewinnspiels und der Nachbereitung nicht mehr erforderlich sind.
 
-Soweit bei der Erhebung der personenbezogenen Daten nicht ausdrücklich anders angegeben, ist die Rechtsgrundlage für die Datenverarbeitung:
+Teilnahme an Umfragen/Rezensionen
 
-die Durchführung und Erfüllung eines Vertrags mit Ihnen (Artikel 6 (1) (b) der Datenschutzgrundverordnung) („Vertragsdurchführung“),
-die Erfüllung rechtlicher Pflichten, denen wir unterliegen (Artikel 6 (1) (c) der Datenschutzgrundverordnung), („Erfüllung rechtlicher Pflichten“) oder
-Wahrung unserer berechtigten Interessen (Artikel 6 (1) (f) der Datenschutzgrundverordnung) („Berechtigtes Interesse an der Verarbeitung“). Unser berechtigtes Interesse liegt in der Verarbeitung Ihrer personenbezogenen Daten zum Zwecke (i) des Angebots und Betriebs der Online Angebote und (ii) in der Anbahnung, Durchführung und Abwicklung unserer Geschäftsbeziehung. Soweit nach der untenstehenden Tabelle unser Berechtigtes Interesses an der Verarbeitung als Rechtsgrundlage für die Verarbeitung Ihrer personenbezogenen Daten angegeben ist, sind wir der Ansicht, dass Ihre Interessen, Grundrechte und Grundfreiheiten hinreichend berücksichtig werden, da (i) wir die in dieser Datenschutzerklärung beschriebenen Verarbeitungstätigkeiten und dahinterstehenden Prozesse regelmäßig überprüfen, (ii) wir den Schutz Ihrer personenbezogenen Daten in unseren Prozessen, einschließlich der Bindenden Unternehmensrichtlinie zum Schutz personenbezogener Daten (Siemens Binding Corporate Rules) berücksichtigen, (iii) wir die Transparenz unserer Verarbeitungstätigkeiten gewährleisten und (iv) Ihnen die vorgenannten Rechte hinsichtlich unserer Verarbeitungstätigkeiten zustehen. Wenn Sie weitere Informationen zur beschriebenen Interessenabwägung erhalten möchten, kontaktieren Sie bitte unsere Datenschutzorganisation unter datenschutz@siemens.com.
-Haben Sie im Einzelfall ausdrücklich Ihre Einwilligung in die Verarbeitung Ihrer personenbezogenen Daten erteilt, ist diese Einwilligung die Rechtsgrundlage für die Verarbeitung (Artikel 6 (1) (a) der Datenschutzgrundverordnung) („Einwilligung“).
+Wir führen auf unserer Website Umfragen durch. In der Regel werden diese Umfragen anonymisiert durchgeführt. Wenn wir im Rahmen einer Umfrage doch einmal Ihre Daten erheben, werden die von Ihnen gemachten Angaben zum Zwecke der Durchführung und der Nachbereitung der Umfrage von uns gespeichert und genutzt. Welche Daten wir hierfür erheben, ergibt sich aus der Umfrage selbst. Ihre Daten werden gelöscht, sobald diese für die Durchführung der Umfrage und der Nachbereitung nicht mehr erforderlich sind.
 
+Sie können auf unserer Website teilweise auch Rezensionen für Produkte erstellen. Welche Daten wir hierfür erheben, ergibt sich aus dem dafür vorgesehenen Formular. Dafür gelten dann besondere Bestimmungen, die Ihnen im Rahmen der Abgabe der Bewertung gesondert bekannt gegeben werden. Für die Verwaltung der Rezensionen bedienen wir uns eines Dienstleisters.
 
+Teilnahme an Veranstaltungsangeboten
 
+Wenn Sie sich für eine Veranstaltung anmelden, werden die von Ihnen gemachten Angaben zum Zwecke der Durchführung der Veranstaltung und der Nachbereitung von uns gespeichert und genutzt. Welche Daten wir hierfür erheben ergibt sich aus dem Anmeldeformular der jeweiligen Veranstaltungsseite. Ihre Daten werden gelöscht, sobald diese für die Durchführung der Veranstaltung und der Nachbereitung nicht mehr erforderlich sind.
 
+Manche Veranstaltungen erfordern die direkte Entrichtung der Teilnahmegebühr oder werden ganz oder teilweise durch unsere Partner betreut und durchgeführt. In einem solchen Fall werden Sie daher gegebenenfalls auf die Website des jeweiligen Partners weitergeleitet. Dabei werden ggf. - sofern bereits durch Sie bereitgestellt - die relevanten Daten (Name, Vorname, Postadresse, Anzahl der Teilnehmer, Zahlungsmittel) zur Durchführung der Veranstaltung/des Bezahlvorgangs an unsere(n) Partner (coladaservices gmbh, ticketareo GmbH) übermittelt.
 
-Verarbeitung personenbezogener Daten im Zusammenhang der Nutzung unserer Online Angebote - Zweck und Rechtsgrundlage
+Unsere Social Media Seiten
 
+Der Schutz Ihrer Privatsphäre bei der Verarbeitung personenbezogener Daten ist uns ein wichtiges Anliegen. Wir verarbeiten an uns übermittelte personenbezogene Daten, die bei Ihrem Besuch unserer jeweiligen Social Media Seite (z.B. Facebook Fanpage, Instagram/Pinterest Page) erhoben werden, vertraulich und nur gemäß den gesetzlichen Bestimmungen.
+Verantwortlich für die Verarbeitung Ihrer Daten über unsere Social Media Seite ist der jeweilige Betreiber der Social Media Seite (siehe nachstehende Beispiele) gemeinsam mit uns. Soweit die Verarbeitung dieser Daten in unserem Verantwortungsbereich erfolgt, stehen wir Ihnen in allen Fragen zum Thema Datenschutz und zur Wahrnehmung Ihrer Rechte gemäß den Angaben in dieser Datenschutzinformation zur Verfügung.
 
+Datenverarbeitung durch den Social Media Dienst
+Der Social Media Dienst verarbeitet Ihre personenbezogenen Daten, sobald Sie unsere jeweilige Social Media Seite nutzen. Die Verarbeitung knüpft dabei beispielsweise an folgende Nutzungsvorgänge an:
 
-Ermöglichen der Inanspruchnahme der Leistungen und Funktionen der Online Angebote, einschließlich zum Erstellen und Administrieren Ihres Online Accounts, im Rahmen von Updates, Sicherheits- und Fehlerbehebungsmaßnahmen, um Kundensupport zu erbringen und um unsere Online Angebote zu verbessern und weiterzuentwickeln
+Aufrufen einer Seite bzw. eines Beitrags oder eines Videos von einer Seite
+Eine Seite abonnieren oder nicht mehr abonnieren
+Eine Seite oder einen Beitrag mit „Gefällt mir“ oder „Gefällt mir nicht mehr“ oder ähnlichen Funktionen markieren
+Eine Seite in einem Beitrag oder Kommentar empfehlen
+Einen Seitenbeitrag kommentieren, teilen oder auf ihn reagieren (einschließlich der Art der Reaktion)
+Einen Seitenbeitrag verbergen oder als Spam melden
+Von einer anderen Seite auf den Social Media Anbieter oder von einer Website außerhalb des Social Media Anbieters auf einen Link klicken, der zu der Seite führt
+Mit der Maus über den Namen oder das Profilbild einer Seite fahren, um eine Vorschau der Seiteninhalte zu sehen
+Funktionen des Social Media Anbieters verwenden, wie zum Beispiel den Website-, Telefonnummer-, „Route planen“-Button oder einen anderen Button auf einer Seite verwenden
+Die Information, ob die Anmeldung über einen Computer oder ein Mobilgerät erfolgt.
 
-Vertragsdurchführung (Artikel 6 (1) (b) der Datenschutzgrundverordnung)
-Berechtigtes Interesse an der Verarbeitung (Artikel 6 (1) (f) der Datenschutzgrundverordnung)
-Abrechnung der Nutzung eines Online Angebots
+Welche personenbezogenen Daten vom Social Media Anbieter im Einzelnen erhoben, wie diese verarbeitet werden und welche Datenschutzrechte Sie gegenüber dem Social Media Anbieter haben, können Sie jeweils in der nachgenannten Datenschutzrichtlinie des Social Media Anbieters erfahren. Wir haben auf die auf die Erhebung folgende Datenverarbeitung durch den Social Media Anbieter keinen Einfluss.
 
-Vertragsdurchführung (Artikel 6 (1) (b) der Datenschutzgrundverordnung)
-Berechtigtes Interesse an der Verarbeitung (Artikel 6 (1) (f) der Datenschutzgrundverordnung)
-Feststellen der Identität und Nutzer-Authentifizierung
+Datenverarbeitung durch uns
+Bei der von uns über den Social Media Anbieter bereitgestellten Website gewährt uns der Social Media Anbieter Zugriff auf folgende Datenkategorien:
 
-Vertragsdurchführung (Artikel 6 (1) (b) der Datenschutzgrundverordnung)
-Berechtigtes Interesse an der Verarbeitung (Artikel 6 (1) (f) der Datenschutzgrundverordnung)
-Bearbeiten Ihre Anfrage oder Weisung
+Der Social Media Anbieter gewährt uns Zugriff auf statistische Analysen, die Aufschluss über die Nutzung unserer Social Media Website geben. Die für uns sichtbaren Analysen erlauben uns keine individuelle Analyse des Nutzungsverhaltens von einzelnen Personen. Wir können lediglich aggregierte Daten (u.a. Anzahl der Zugriffe, Likes, Follower, Herkunftsregion, Altersgruppe, Geschlecht) einsehen, die Aufschluss über unser Publikum und die Verwendung unserer Social Media Website geben. Die den Analysen zugrundeliegenden Daten des jeweiligen Nutzers werden nicht an uns übermittelt.
+Wir können für die Social Media Website beziehungsweise für einzelne veröffentlichte Beiträge einstellen, welche Zielgruppe erreicht werden soll. Die Einstellung geschieht anhand allgemeiner Parameter (z.B. Altersgruppe, Sprache, Region, Interessen), durch die unsere Inhalte an bestimmte Gruppen ausgerichtet werden können. Anhand der uns vom Social Media Anbieter bereitgestellten Daten ist es für uns nicht möglich, einzelne Personen anzusprechen oder zu identifizieren.
+Soweit Sie uns über den Social Media Anbieter direkt kontaktieren oder in sonstiger Weise mit uns interagieren und dabei bewusst personenbezogene Daten übermitteln (z.B. direkte Vernetzung mit unserer Social Media Website), speichern und verarbeiten wir diese personenbezogenen Daten zu den Zwecken, für die Sie uns diese übermittelt haben.
+Wir verarbeiten diese Daten ausschließlich zu dem Zweck, Inhalte auf unserer Social Media Website zielgruppengerecht bekannt zu machen sowie die Nutzung unserer Social Media Website besser zu verstehen und zu optimieren.
 
-Vertragsdurchführung (Artikel 6 (1) (b) der Datenschutzgrundverordnung)
-Berechtigtes Interesse an der Verarbeitung (Artikel 6 (1) (f) der Datenschutzgrundverordnung)
-Abwickeln Ihre Bestellung und Zugänglichmachen darauf bezogener Informationen und Angebote
+Darüber hinaus können wir die (zur Bereitstellung dieser Daten insoweit vorgeschaltete) Datenverarbeitung durch den Social Media Anbieter nicht beeinflussen.
+Welche personenbezogenen Daten vom jeweiligen Social Media Anbieter im Einzelnen erhoben, wie diese verarbeitet werden und welche Datenschutzrechte Sie gegenüber dem jeweiligen Social Media Anbieter haben, entnehmen Sie bitte nachstehend genannten Datenschutzrichtlinien der jeweiligen Social Media Anbieter:
 
-Vertragsdurchführung (Artikel 6 (1) (b) der Datenschutzgrundverordnung)
-Berechtigtes Interesse an der Verarbeitung (Artikel 6 (1) (f) der Datenschutzgrundverordnung)
-Zusenden von Marketinginformationen oder Kontaktieren im Rahmen von Kundenzufriedenheitsumfragen, wie in Ziffer 3 beschrieben
+a) Facebook Inc., 1601 S California Ave, Palo Alto, California 94304, USA; http://www.facebook.com/policy.php; Facebook hat sich dem EU-US-Privacy-Shield unterworfen.
 
-Einwilligung, wenn freiwillig erteilt (Artikel 6 (1) (a) der Datenschutzgrundverordnung)
-Berechtigtes Interesse an der Verarbeitung (Artikel 6 (1) (f) der Datenschutzgrundverordnung)
-Durchsetzen unserer Nutzungsbedingungen, Geltendmachung und Abwehr von Rechtsansprüchen, Abwehr und Unterbinden von betrügerischen und ähnlichen Handlungen, einschließlich Angriffen auf unsere IT-Infrastruktur
+b) Twitter, Inc., 1355 Market St, Suite 900, San Francisco, California 94103, USA; https://twitter.com/privacy. Twitter hat sich dem EU-US-Privacy-Shield unterworfen.
 
-Erfüllung rechtlicher Pflichten (Artikel 6 (1) (c) der Datenschutzgrundverordnung)
-Berechtigtes Interesse an der Verarbeitung (Artikel 6 (1) (f) der Datenschutzgrundverordnung)
+c) Instagram, provided by Facebook Ireland Limited, 4 Grand Canal Square, Dublin 2, Ireland, https://help.instagram.com/519522125107875
 
+d) Pinterest Europe Ltd., Palmerston House, 2nd Floor, Fenian Street, Dublin 2, Ireland, https://policy.pinterest.com/en/privacy-policy
 
-Verarbeitung von personenbezogenen Daten von Geschäftspartnern - Zweck und Rechtsgrundlage
+e) LinkedIn für Länder der Europäischen Union (EU), des Europäischen Wirtschaftsraums (EWR) und die Schweiz: LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place, Dublin 2, Ireland und für alle übrigen Länder: LinkedIn Corporation, 1000 W. Maude Avenue, Sunnyvale, CA 94085, USA. Die LinkedIn Corporation hat sich dem EU-US-Privacy-Shield unterworfen.
 
+f) Xing SE, Dammtorstraße 30, 20354 Hamburg, Deutschland, https://privacy.xing.com/en/privacy-policy
 
-Kommunikation mit Geschäftspartnern zu Produkten, Dienstleistungen und Projekten, z.B. um Anfragen des Geschäftspartners zu bearbeiten oder technische Informationen zu Produkten bereitzustellen
+Informationen zum EU-US Privacy Shield finden Sie unter https://www.privacyshield.gov/EU-US-Framework
 
-Vertragsdurchführung (Artikel 6 (1) (b) der Datenschutzverordnung)
-Berechtigtes Interesse an der Verarbeitung (Artikel 6 (1) (f) der Datenschutzverordnung)
-Planung, Durchführung und Verwaltung der (vertraglichen) Geschäftsbeziehung zwischen dem Geschäftspartner und uns, z.B. um die Bestellung von Produkten und Dienstleistungen abzuwickeln, Zahlungen einzuziehen, zu Zwecken der Buchhaltung und Abrechnung und um Lieferungen, Wartungstätigkeiten oder Reparaturen durchzuführen
+Welche Arten von Cookies wir nutzen und wie diese funktionieren
+Cookies
 
-Vertragsdurchführung (Artikel 6 (1) (b) der Datenschutzgrundverordnung)
-Erfüllung rechtlicher Pflichten (Artikel 6 (1) (c) der Datenschutzgrundverordnung)
-Durchführen von Marktanalysen, Gewinnspielen, Wettbewerben oder ähnlichen Aktionen und Events
+Cookies sind kleine Textdateien, die in einem speziellen Speicherbereich Ihres Browsers gespeichert werden. Cookies können jedoch nicht verwendet werden, um Programme zu starten oder Viren auf einen Computer zu übertragen. Cookies werden gesetzt, in dem Sie unsere Website besuchen oder ein so genanntes Zählpixel/Web-Beacon das Setzen eines Cookies veranlasst. Das Auslesen von Cookies ist jedoch nur durch Webserver derselben Domain möglich, von dem sie auch ursprünglich gesetzt wurden.
 
-Einwilligung, wenn freiwillig erteilt (Artikel 6 (1) (a) der Datenschutzgrundverordnung)
-Berechtigtes Interesse an der Verarbeitung (Artikel 6 (1) (f) der Datenschutzgrundverordnung)
-Durchführung von Kundenzufriedenheitsbefragungen und Direktmarketing wie in Ziffer 3 näher beschrieben
+Sie können unsere Website auch ohne Cookies betrachten. Internet-Browser sind regelmäßig so eingestellt, dass sie Cookies akzeptieren. Um die Nutzung von Cookies durch Ihren Internet-Browser zu verhindern, können Sie die Verwendung von Cookies über die Einstellungen Ihres Internet-Browsers deaktivieren und bereits gesetzte Cookies löschen. Über die Hilfefunktionen Ihres Internet-Browsers erfahren Sie, wie Sie Cookies in Ihrem Browser deaktivieren und löschen können. Bitte beachten Sie, dass die Deaktivierung/Löschung von Cookies dazu führen kann, dass einzelne Funktionen unserer Website nicht mehr erwartungsgemäß funktionieren. Cookies, die für bestimmte Funktionen unserer Website erforderlich sein könnten, sind nachfolgend dargestellt. Zudem wirkt sich die Deaktivierung/Löschung der Cookies nur auf den hierbei verwendeten Internet-Browser aus. Für weitere Internet-Browser muss daher die Deaktivierung/Löschung von Cookies entsprechend wiederholt werden.
 
-Einwilligung, wenn freiwillig erteilt (Artikel 6 (1) (a) der Datenschutzgrundverordnung)
-Berechtigtes Interesse an der Verarbeitung (Artikel 6 (1) (f) der Datenschutzgrundverordnung)
-Aufrechterhalten und Schutz der Sicherheit unserer Produkte und Dienstleistungen sowie unserer Webseiten, Verhindern und Aufdecken von Sicherheitsrisiken, betrügerischem Vorgehen oder anderen kriminellen oder mit Schädigungsabsicht vorgenommenen Handlungen
+Darüber hinaus gibt es verschiedene Möglichkeiten, das Setzen bestimmter Cookies entweder durch die Auswahl in unserem Tracking-Banner oder individuell gegenüber dem jeweiligen Dienstanbieter, dessen Tools wir für bestimmte Zwecke einsetzen, zu verhindern. Auf letztere Möglichkeit weisen wir Sie im direkten Zusammenhang mit dem jeweiligen Tool hin.
 
-Berechtigtes Interesse an der Verarbeitung (Artikel 6 (1) (f) der Datenschutzgrundverordnung)
-Einhalten von (i) rechtlichen Anforderungen (z.B. von steuer- und handelsrechtlichen Aufbewahrungspflichten), (ii) bestehenden Pflichten zur Durchführung von Compliance Screenings (um Wirtschaftskriminalität oder Geldwäsche vorzubeugen) sowie (iii) unserer Richtlinien und Industriestandards
+Session-Cookies
+Im Rahmen der Bereitstellung unserer Websites verwenden wir Session-Cookies, die wir – unabhängig von Ihrer Auswahl im Rahmen des Tracking-Banners – auf Ihrem Endgerät beim Besuch unserer Website speichern und die stets automatisch gelöscht werden, wenn Sie den Internet-Browser schließen (also das Programm beenden). Hierdurch können wir Ihnen mithilfe der Informationen in den Cookies verschiedene Funktionen auf unserer Website bereitstellen.
 
-Erfüllung rechtlicher Pflichten (Artikel 6 (1) (c) der Datenschutzgrundverordnung)
-Berechtigtes Interesse an der Verarbeitung (Artikel 6 (1) (f) der Datenschutzgrundverordnung)
-Beilegen von Rechtsstreitigkeiten, Durchsetzen bestehender Verträge und zur Geltendmachung, Ausübung und Verteidigung von Rechtsansprüchen
+Wir setzen Session-Cookies, die keine personenbezogenen Daten enthalten, für folgende Zwecke ein:
 
-Erfüllung rechtlicher Pflichten (Artikel 6 (1) (c) der Datenschutzgrundverordnung)
-Berechtigtes Interesse an der Verarbeitung (Artikel 6 (1) (f) der Datenschutzgrundverordnung)
-Internationale Datenübermittlungen
+störungsfreie Wiedergabe von Video- bzw. Audioinhalten (zum Beispiel für die Wiedergabe von Vimeo oder YouTube Videos);
+temporäre Speicherung bestimmter Nutzereingaben (z. B. Inhalt eines Warenkorbs oder eines Online-Formulars);
+Verbesserung der Nutzerfreundlichkeit sowie der statistischen Reichweitenmessung
 
+Außerdem setzen wir für folgende Zwecke Session-Cookies ein, die personenbezogene Daten enthalten:
 
+Session-Cookies, die der temporären Identifizierung bzw. Authentifizierung eines Nutzers (z.B. per Session ID zur temporären Speicherung des Warenkorbes) dienen;
 
-Wenn wir Ihre personenbezogenen Daten an einen Empfänger übermitteln, der seinen Sitz nicht im Europäischen Wirtschaftsraum hat, stellen wir sicher, dass Ihre Daten angemessen im Einklang mit der Datenschutzgrundverordnung geschützt werden. In diesem Zusammenhang ergreifen wir, sofern dies gesetzlich erforderlich ist, die folgenden Maßnahmen:
+Session-Cookies werden nach der Beendigung des Internet-Browsers, spätestens aber zum Ende der Laufzeit eines jeweiligen Cookies, automatisch gelöscht.
 
-An Konzerngesellschaften in solchen Ländern geben wir Ihre personenbezogenen Daten deshalb nur weiter, wenn diese die Bindende Unternehmensrichtlinie zum Schutz personenbezogener Daten (Binding Corporate Rules, „BCR“) umgesetzt haben. Weitere Informationen über die Siemens BCR finden Sie hier.
-An konzernexterne Empfänger in solchen Ländern werden personenbezogene Daten nur dann übermittelt, wenn diese (i) EU Standardvertragsklauseln mit uns abgeschlossen oder (ii) Binding Corporate Rules eingeführt haben. Weitere Informationen sowie eine Kopie der umgesetzten Maßnahmen erhalten Sie unter datenschutz@siemens.com.
+Persistente Cookies
+Persistente Cookies sind Cookies, die auf Ihrem Endgerät gespeichert bleiben, auch nachdem Sie den Browser geschlossen haben. Die Informationen in diesen Cookies verwenden wir, um Ihnen Komfortfunktionen auf unserer Website bereitzustellen (z.B. um bestimmte Nutzerpräferenzen zu speichern oder für Such- oder Spracheinstellungen), aber auch um Ihr Nutzungsverhalten auf unserer Website zu erfassen und mit Hilfe dieser Informationen unsere Website zu verbessern (z.B. Fehler zu erkennen) und Werbung für Sie zu personalisieren.
 
+Persistente Cookies mit Personenbezug zur Erfassung Ihres Nutzungsverhaltens verarbeiten wir nur mit Ihrer Einwilligung, welche Sie uns bei dem ersten Aufruf unserer Website über das dort angezeigte Tracking-Banner erteilen können. Sie können Ihre Einwilligung zur Erfassung Ihres Nutzungsverhaltens jederzeit widerrufen, indem Sie in Ihrem Internet-Browser alle gesetzten Cookies löschen. In diesem Fall ist aber eventuell erneut eine Auswahl im Hinblick auf das Tracking-Banner erforderlich. Außerdem können Sie auch – wie nachstehend dargestellt – Ihre Einwilligung für einzelne Webanalyse/Marketing-Tools widerrufen.
 
-Die zuständige Datenschutzbehörde
+Daten von persistenten Cookies werden bis zum Ende der Laufzeit eines jeweiligen Cookies oder bis die Cookies von Ihnen gelöscht werden, gespeichert.
 
+Nachfolgend erläutern wir Ihnen im Einzelnen, welche Technologien und Partner wir zur Analyse Ihres Nutzungsverhaltens einsetzen:
+Webanalyse durch Nutzungsprofile
 
+Auf unserer Website setzen wir Webanalyse-Tools für Zwecke der Werbung, Marktforschung und zur bedarfsgerechten Gestaltung unserer Website (und ggf. des Newsletters) ein und erheben und verarbeiten zu diesen Zwecken mit Hilfe von Analyse-Cookies und/oder JavaScript Nutzungsdaten über Ihren Besuch unserer Website und über Ihre Nutzung von Links im Newsletter (falls verfügbar). Die Erhebung Ihrer Nutzungsdaten und die Erstellung eines Nutzungsprofils daraus erfolgen unter Verwendung einer Cookie-ID. Ihre IP-Adresse wird hierbei entweder nicht erhoben oder unmittelbar nach der Erhebung anonymisiert. Daher ist kein direkter Rückschluss von der verwendeten ID auf Ihre Person möglich.
 
-Unsere Datenschutzorganisation unterstützt bei allen Fragen rund um das Thema Datenschutz. Neben der Kontaktaufnahme mit der Datenschutzorganisation haben Sie aber auch jederzeit die Möglichkeit, die zuständige Datenschutzaufsichtsbehörde zu kontaktieren.
+Nachstehend finden Sie weitergehende Informationen zu den von uns eingesetzten Webanalyse-Tools und unseren Partnern und wie Sie die Erhebung und Verarbeitung von Daten durch das jeweilige Webanalyse-Tool verhindern oder beschränken können.
 
-Eine Übersicht der nationalen und internationalen Datenschutzbehörden ist hier abrufbar.
+Adobe Analytics (Adobe Marketing Cloud)
+Zur Webanalyse bedienen wir uns des Dienstes Adobe Analytics der Adobe Systems Software Ireland Ltd., 4-6 Riverwalk, Citywest Business Park, Dublin 24, Ireland („Adobe“), der aus dem Adobe Audience Manager und Adobe Tracking besteht. Die Informationen über Ihre Nutzung unserer Website werden an Server von Adobe übertragen, ausgewertet und ausschließlich als kumulierte Daten an uns weitergegeben. Hieraus können wir Trends in der allgemeinen Website-Nutzung erkennen. Die entstehenden Nutzungsprofile führen wir nicht mit Ihrem Namen oder anderen Ihre Identität preisgebenden Informationen, wie Ihrer E-Mail-Adresse, zusammen. Die Nutzungsdaten werden durch den eingesetzten Dienst für eine Dauer von maximal 37 Monaten ab dem Zeitpunkt der Erfassung gespeichert.
 
-10. Weitere Informationen für Nutzer von Online Angeboten und Geschäftspartner in den USA
-Für US-Bürger gelten die folgenden weiterführenden Informationen:
+Opt-out: Um die Erfassung von Nutzungsdaten zu verhindern, nutzen Sie bitte die Opt-out-Website von Adobe. Informationen über die Funktion der Cookies und Opt-out Option von Adobe Analytics, finden Sie unter folgendem Link: https://www.adobe.com/de/privacy/opt-out.html.
 
+Adobe Test & Target
+Adobe Test & Target (ein Dienst der Adobe Systems Software Ireland Ltd., 4-6 Riverwalk, Citywest Business Park, Dublin 24, Ireland „Adobe“) arbeitet auf Basis von A/B Tests. Das heißt, dem Nutzer unserer Website wird eine im Vergleich zur Originalversion der Website geänderte Variante (z.B. mit unterschiedlichem Design und Inhalt) der Website angezeigt. Der Vergleich beider Varianten gibt uns Aufschluss darüber, welche Darstellung die Benutzer unserer Website bevorzugen. Beim Einsatz von Adobe Test & Target werden nur Informationen über Ihre Person verarbeitet, die keinen Rückschluss auf Sie ermöglichen. Ebenso ist die IP-Anonymisierung aktiviert, sodass Ihre IP-Adresse vor der weiteren Verarbeitung durch Adobe Test & Target gekürzt wird. Die so entstehenden Nutzungsprofile führen wir nicht mit Ihrem Namen oder anderen Ihre Identität preisgebenden Informationen, wie Ihrer E-Mail-Adresse, zusammen. Die Nutzungsdaten werden durch den eingesetzten Dienst für eine Dauer von maximal 37 Monaten ab dem Zeitpunkt der Erfassung gespeichert.
 
+Opt-out: Um die Erfassung von Nutzungsdaten zu verhindern, nutzen Sie bitte folgenden Link: http://bsh.tt.omtrdc.net/optout. Informationen über die Funktion der Cookies und Opt-out Option von Adobe Test & Target, finden Sie unter folgendem Link: https://www.adobe.com/de/privacy/opt-out.html.
 
-Do Not Track
+Channelsight
+Eine Vielzahl unserer Produkte können Sie auch direkt über entsprechende Hyperlinks (z.B. Button „Online Kaufen“) auf kooperierenden Händler-Webshops kaufen (Funktion „Zum Händlershop“). Die Weitervermittlung an die jeweilige Produktseite im Händler-Webshop sowie die Tatsache, ob Sie das Produkt im Händler-Webshop erworben haben oder nicht, erfassen wir, wenn Sie dem jeweiligen Hyperlink folgen, mit Hilfe von Javascript und Cookies (sog. Conversion-Tracking). Die so erhobenen Nutzungsdaten verwenden wir zur Messung der Attraktivität der Funktion „Zum Händlershop“ und ggfs. zur Provisionsabrechnung mit dem Händler-Webshop (sog. Affiliate-Marketing). Händler-Webshops zahlen uns u.U. für die erfolgreiche Vermittlung von Interessenten/Käufern eine Provision.
 
-Unsere Online Angebote erkennen keine sog. „Do Not Track“ Einstellungen Ihres Webbrowsers. Bzgl. weiterführender Informationen zur „Do Not Track“ Funktionalität, besuchen Sie bitte die Hilfe-Seiten Ihres Webbrowsers.
+Für das Nachverfolgen setzen wir den Dienstleister ChannelSight Ltd., Suite 3, Anglesea House, Carysfort Ave., Blackrock, Co. Dublin, Ireland (www.channelsight.com) ein. Die Informationen über Ihre Nutzung der „Zum Händlershop“ Funktion werden an Server von ChannelSight übertragen, ausgewertet an uns weitergegeben, damit wir Trends für die Nutzung der „Zum Händlershop“ Funktion ermitteln können.
 
+Im unmittelbaren Zusammenhang mit der Funktion „Zum Händlershop“ weisen wir Sie nochmals gesondert auf die Erhebung Ihrer Nutzungsdaten hin. Mit der Nutzung des jeweiligen auf unserer Website erklären Sie sich mit der Website übergreifenden Erhebung Ihrer Nutzungsdaten und dessen Auswertung durch uns zu den angegebenen Zwecken einverstanden, insbesondere auch mit der damit einhergehenden Datenerhebung durch ChannelSight und dem Händler sowie der Datenübermittlung von ChannelSight und dem Händler zu uns. Die Nutzungsdaten werden gelöscht, sobald diese für eine Provisionsabrechnung und eine Auswertung nicht mehr erforderlich sind.
 
+Opt-out: Um die Erfassung von Nutzungsdaten über Channelsight zu verhindern, nutzen Sie bitte die Opt-out-Website von Channelsight mit folgendem Link: https://www.channelsight.com/privacypolicy/.
 
-Nutzung durch Kinder
+Mouseflow
+Zur Verbesserung unserer Website und der darüber angebotenen Services zeichnen wir von zufällig ausgewählten Nutzern unserer Website Mausbewegungen und Klicks auf. Ihre IP-Adresse wird dabei anonymisiert.
 
-Unsere Online Angebote richten sich nicht an Kinder unter 13 Jahren. Soweit gesetzlich vorgeschrieben erheben wir nicht wissentlich personenbezogene Daten von Kindern unter 13 Jahren, ohne das Einverständnis der Erziehungsberechtigten. Wir erheben und übermitteln personenbezogene Daten von Kindern nur soweit dies rechtlich zulässig ist, um das Einverständnis der Erziehungsberechtigten einzuholen oder um das Kind zu schützen.
+Für die Erhebung der Nutzungsdaten setzen wir den Dienstleister Mouseflow ApS, Flaesketorvet 68, 1711 Kopenhagen, Dänemark, ein.
 
+Die entstehenden Nutzungsprofile führen wir nicht mit Ihrem Namen oder anderen Ihre Identität preisgebenden Informationen, wie Ihrer E-Mail-Adresse, zusammen. Die Nutzungsdaten werden nach 3 Monaten ab dem Zeitpunkt der Erhebung gelöscht.
 
+Opt-out: Um die Erfassung von Nutzungsdaten zu verhindern, nutzen Sie bitte die Opt-out-Website von Mouseflow mit folgendem Link: https://mouseflow.de/opt-out.
 
-Ihre Rechte in bestimmten US-Bundesstaaten
+Zoovu Interactive Digital Assistent
+Diese Website bietet einen Interaktiven Digitalen Assistenten, der die Benutzer bei der Suche nach dem für sie am besten geeigneten Produkt unterstützt. Dieser Dienst wird von dem BSH-Drittanbieter Zoovu (Deutschland) GmbH, Skalitzer Str. 104, 10997 Berlin, angeboten. Wir nutzen dieses Tool in eigener Verantwortung und haben mit Zoovu eine Datenschutzvereinbarung getroffen, dass die Daten unserer Kunden nur auf der Grundlage unserer Anweisungen verarbeitet, nicht an Dritte weitergegeben werden dürfen und technisch ausreichend geschützt sein müssen.
 
-Nach den Gesetzen einiger US­Bundesstaaten haben Einwohner dieser Bundesstaaten weiterführende Rechte mit Blick auf Ihre personenbezogenen Daten. Weitere Information dazu finden Sie hier.
+Wenn Sie den Dienst nutzen und wenn Sie uns dazu die Erlaubnis erteilt haben, z.B. indem Sie uns Ihre Zustimmung über das Tracking-Banner gegeben haben, erheben wir die folgenden Nutzungsdaten:
+
+Nutzungsdaten: (Leistung des digitalen Assistenten, Fragenbeantwortung, Navigation, Produktempfehlungen, Kauf)
+Browser / Betriebssystem / verwendetes Gerät
+Quelle des Verweises
+Die gesammelten Nutzungsdaten (unter Verwendung einer Cookie-ID) werden verwendet, um die Erfahrung des Digitalen Assistenten zu verbessern, sowie für technische Zwecke und zur Verbesserung des Dienstes. Ihre IP-Adresse wird nicht erfasst. Daher ist es nicht möglich, aus der verwendeten ID auf die Benutzeridentität zu schließen.
+
+Wenn Sie uns dazu keine Erlaubnis erteilt haben, z.B. durch Ablehnung einer Zustimmung über das Tracking-Banner, werden nur solche Cookies gesetzt, die für die Bereitstellung des Dienstes notwendig sind, aber es findet kein Tracking der Nutzung wie oben beschrieben statt.
+
+Oracle (A/B-und Multivariante-Tests)
+Zum Zwecke der User-Experience-Optimierung werden ab und an sog. A/B-und Multivariante-Tests auf der Webseite durchgeführt. Dieser Dienst wird von der ORACLE Deutschland B.V. & Co. KG, Riesstraße 25, 80992 München, Deutschland in unserem Auftrag erbracht. Hierfür werden Cookies verwendet, die an einen Server der Oracle Marketing Cloud übertragen und dort gespeichert werden. Die von Oracle Maxymiser gespeicherten Cookies werden spätestens nach 12 Monaten gelöscht. Weitere Informationen zum Datenschutz bei Oracle Maxymiser erhalten Sie unter: https://www.oracle.com/de/legal/privacy/marketing-cloud-data-cloud-privacy-policy.html
+
+Für eine Deaktivierung von Oracle Maxymiser können Sie den folgenden Link nutzen, um ein Opt-Out-Cookie zu setzen: https://www.oracle.com/de/marketingcloud/opt-status.html.
+
+Optimizely
+Zum Zwecke der User-Experience-Optimierung werden ab und an sog. A/B- und Multivariate-Tests auf dieser Website durchgeführt. Dieser Dienst wird von der Optimizely Inc. (631 Howard Street, Suite 100, San Francisco, CA 94105, United States) in unserem Auftrag erbracht. Hierfür werden Cookies verwendet, die an einen Server der von Optimizely übertragen und dort gespeichert werden.
+
+Opt-out: Für eine Deaktivierung von Optimizely können Sie der Anleitung auf https://www.optimizely.com/de/legal/opt-out/?langSwitchTo=german folgen.
+
+Marketing unter Verwendung von Nutzungsprofilen
+Auf unserer Website setzen wir verschiedene Marketing-Tools ein, wenn Sie uns dies z.B. über die von Ihnen über das Tracking-Banner erteilte Einwilligung erlaubt haben . Mittels dieser Marketing-Tools können wir Ihnen auf unseren Websites sowie auf Websites anderer Anbieter Informationen zu unseren Produkten anzeigen lassen, die Sie während der Nutzung unserer Website interessiert haben könnten. Hierzu erheben und verarbeiten wir Ihr Nutzungsverhalten beim Besuch unserer Website, wie zum Beispiel die besuchten Seiten, Navigationsmuster, gekaufte Produkte und ähnliche Daten. Die Erhebung Ihrer Nutzungsdaten und die Erstellung eines Nutzungsprofils daraus erfolgen datensparsam unter Verwendung einer Cookie-ID oder anderen Technologien.
+
+Wir setzen dabei auch Marketing-Tools von Partnern ein. Unsere Partner verarbeiten Ihre Daten in eigener Verantwortlichkeit. Nachstehend finden Sie Informationen zu den von uns eingesetzten Technologien und Partnern, sowie die Information wie Sie die oben beschriebene Erhebung und Verarbeitung von Daten verhindern können. Auf Marketing-Tools in unserer Verantwortlichkeit weisen wir gesondert hin.
+
+Diese Marketing Tools basieren auf dem Grundprinzip, dass wir auf eigenen Websites und auf Websites von Dritten für die Nutzer relevante Anzeigen schalten, die Berichte zur Kampagnenleistung verbessern können sowie vermeiden, dass ein Nutzer die gleichen Anzeigen mehrmals sieht. Darüber hinaus können wir damit auch erfassen, ob Anzeigenanfragen erfolgreich ausgespielt wurden (Conversions). Das ist etwa der Fall, wenn ein Nutzer eine von uns geschaltete Anzeige sieht und später mit demselben Internet-Browser auf unserer Website etwas kauft.
+
+Beim Besuch unserer Website baut Ihr Internet-Browser automatisch eine direkte Verbindung mit dem Server des jeweiligen Dienstleisters auf. Durch diese Einbindung erhält der Dienstleister die Information, dass der entsprechende Teil unserer Website aufgerufen wurde oder eine Anzeige von uns angeklickt wurde und übermittelt entsprechende Auswertungen an uns.
+
+Sofern Sie bei einem Dienst eines bestimmten Dienstleisters (z.B. soziale Netzwerke) registriert sind, kann dieser Dienstleister den Besuch Ihrem Account zuordnen. Selbst wenn Sie nicht bei dem entsprechenden Dienstleister registriert sind bzw. sich nicht eingeloggt haben, wird im Rahmen des vorgenannten technischen Prozesses Ihre IP-Adresse technisch übermittelt, soweit dies für die Bereitstellung von Inhalten erforderlich ist. So erstellen manche Dienstleister auch für nicht registrierte bzw. nicht eingeloggte Nutzer ein insoweit nicht mit einem Account des Dienstleisters verbundenes Nutzungsprofil anhand der übermittelten Daten. Dies können Sie vermeiden, wenn Sie die entsprechenden Inhalte auf unserer Website nicht aufrufen (z.B. Videos von Drittanbietern).
+
+Wir verwenden auch Technologien, um die Qualität unserer Anzeigen zu verbessern. Hierzu zählt, dass Anzeigen nur an Nutzer mit einem potentiellen Interesse an unseren beworbenen Produkten und Dienstleistungen oder an Nutzer mit bestimmten, aber abstrakten Merkmalen (sogenannte „Custom Audiences“) ausgespielt werden.
+
+Nachstehend informieren wir Sie über die von uns eingesetzten Anbieter solcher Marketing-Tools, deren Datenschutzbestimmungen und auch darüber, wie Sie – auf die jeweiligen Anbieter bezogen – die Erfassung von Nutzungsdaten dauerhaft verhindern können. Darüber hinaus können Sie, um die Nutzung von Cookies durch Ihren Internet-Browser zu verhindern, auch direkt die Verwendung von Cookies über die Einstellungen Ihres Internet-Browsers deaktivieren und bereits gesetzte Cookies löschen. Bitte beachten Sie, dass diese Maßnahme nicht bereits erstellte Nutzungsprofile beim Anbieter löscht, sondern nur die zukünftige Erfassung weiterer Nutzungsdaten verhindert.
+
+Google Ad Server
+Wir setzen das Online Marketing-Tool Google Ad Server (ehemals DoubleClick) der Google LLC,1600 Amphitheatre Parkway, Mountain View, CA 94043, USA („Google“) ein.
+
+Die Nutzungsdaten werden nach 540 Tagen ab dem Zeitpunkt der Erhebung gelöscht. Weitere Informationen zu DoubleClick erhalten Sie unter https://www.google.de/doubleclick, sowie zum Datenschutz bei Google allgemein: https://www.google.de/intl/de/policies/privacy.
+
+Online Marketing-Tools von Google setzen wir in eigener Verantwortung ein. Hierzu haben wir mit Google in einem Datenschutzvertrag vereinbart, dass die Daten unserer Kunden nur aufgrund unserer Weisung verarbeitet, nicht an Dritte weitergegeben werden dürfen und ausreichend technisch geschützt werden müssen.
+
+Opt-out: Um die Erfassung von Nutzungsdaten dauerhaft zu verhindern bietet Google ein Plugin für verschiedene Internet-Browser an: http://www.google.com/settings/ads/plugin. Um nur interessenbezogenen Anzeigen zu deaktivieren, können Sie die Nutzung von Drittcookies oder Cookies von der Domain „www.googleadservices.com“ blockieren oder über diesen Link https://www.google.de/settings/ads interessenbezogenen Anzeigen abschalten.
+
+Facebook-Pixel und Custom Audiences
+Wir nutzen die Online Marketing-Tools „Facebook-Pixel und Custom Audiences“ der Facebook Inc., 1 Hacker Way, Menlo Park, CA 94025, USA, bzw. Facebook Ireland Ltd., 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland, falls Sie in der EU ansässig sind („Facebook“).
+
+Facebook verarbeitet Ihre Daten in eigener datenschutzrechtlicher Verantwortung im Rahmen von Facebooks Datenverwendungsrichtlinie. Hinweise zu Facebook-Ads und Facebook Pixel finden Sie in den nachfolgenden Links: https://www.facebook.com/policy und https://www.facebook.com/business/help/651294705016616
+
+Opt-out:
+
+Um die Erfassung von Nutzungsdaten dauerhaft zu verhindern nutzen Sie bitte einen der folgenden Links: http://www.aboutads.info/choices oder http://www.youronlinechoices.eu/. Als registrierter Facebook Nutzer können Sie auch einstellen, welche Arten von Werbeanzeigen Ihnen innerhalb von Facebook angezeigt werden. Rufen Sie hierzu folgenden Link auf: https://www.facebook.com/settings/?tab=ads.
+
+Google Ads & Remarketing
+Diese Website nutzt die Online Marketing-Tools „Google Ads & Remarketing“ der Google LLC,1600 Amphitheatre Parkway, Mountain View, CA 94043, USA („Google“). Google hat sich dem EU-US Privacy Shield unterworfen, https://www.privacyshield.gov/EU-US-Framework. Online Marketing-Tools von Google setzen wir in eigener Verantwortung ein.
+
+Die bei diesem Service eingesetzten Cookies verlieren in der Regel nach 30 Tagen ihre Gültigkeit und sollen nicht dazu dienen, Sie persönlich zu identifizieren. Google stellt uns lediglich statistische Auswertungen zur Verfügung. Google verarbeitet Ihre Daten im Rahmen von Googles Datenverwendungsrichtlinie. Hinweise dazu finden Sie mit nachfolgendem Link: https://www.google.com/intl/de/policies/privacy
+
+Opt-out: Um die Erfassung von Nutzungsdaten dauerhaft zu verhindern bietet Google ein Plugin für verschiedene Internet-Browser an: http://www.google.com/settings/ads/plugin. Um interessenbezogene Anzeigen zu deaktivieren, können Sie die Nutzung von Drittcookies oder Cookies von der Domain „www.googleadservices.com“ blockieren oder über diesen Link https://www.google.de/settings/ads interessenbezogene Anzeigen abschalten. Interessenbezogene Anzeigen können auch über den Link http://www.aboutads.info/choices deaktiviert werden, wenn der Anbieter sich der Selbstregulierungs-Kampagne „About Ads“ angeschlossen hat.
+
+Nielsen Marketing Cloud Services
+Diese Website nutzt die Daten-Management-Plattform („DMP Service“) der „Nielsen Marketing Cloud“ der The Nielsen Company (UK) LLC, Nielsen House, Oxford Business Park South, John Smith Drive, Oxford OX4 2WB, UK („Nielsen“).
+
+Wir setzen diesen DMP Service für unsere Website als Marketing-Tool ein, um Ihnen auf unserer Website sowie auf Websites anderer Anbieter Informationen zu unseren Produkten anzeigen lassen, die Sie während der Nutzung unserer Website interessiert haben könnten. Nielsen stellt uns hierfür statistische Auswertungen zur Verfügung.
+
+Dieser DMP Service stellt uns außerdem geräte- und kontextübergreifende Nutzungsprofile (DMP-Daten) bereit, damit wir mehr über die Nutzer unserer Website erfahren. Diese DMP-Daten verarbeitet Nielsen im Rahmen der Datenverwendungsrichtlinie. Hinweise dazu finden Sie mit nachfolgendem Link: https://www.nielsen.com/us/en/legal/privacy-statement/exelate-privacy-policy/nielsen-marketing-cloud-privacy-notice/. Wir nutzen diese DMP-Daten nicht, um Sie persönlich zu identifizieren.
+
+Opt-out: Um die Erfassung von Nutzungsdaten dauerhaft zu verhindern nutzen Sie bitte folgende Links:
+https://sites.nielsen.com/legal/privacy-statement/exelate-privacy-policy/opt-in-opt-out/, http://optout.aboutads.info/?c=2&lang=EN,
+http://optout.networkadvertising.org/?c=1
+oder
+http://www.youronlinechoices.eu/.
+
+Soziale und sonstige Netzwerke/Dienste
+
+Inhalte unserer Website können über eingebaute Social Media-Schaltflächen in sozialen Netzwerken geteilt werden. Alle Social Media-Schaltflächen, die das Teilen von Inhalten ermöglichen, sind nicht direkt über Social Plugins der Anbieter sozialer Netzwerke, sondern über einfache Hyperlinks eingebunden. Dadurch stellen wir sicher, dass Ihre Daten nicht automatisch an Server von sozialen Netzwerken übertragen werden, sobald Sie unsere Website aufrufen. Außerdem übermitteln wir beim Teilen von Inhalten unserer Website nur diejenigen Daten an das soziale Netzwerk, die erforderlich sind, um den entsprechenden Inhalt zu teilen (z.B. der Link auf den Inhalt, den Sie teilen wollen). Personenbezogene Daten übermitteln wir hierbei nicht.
+
+Daneben finden sich weiter einfache Links zu unseren Internetauftritten auf den jeweiligen sozialen Netzwerken. Wenn Sie dem Link von unserer Website auf ein soziales Netzwerk folgen oder sich zum Teilen von Inhalten unserer Website bei Ihrem sozialen Netzwerk anmelden, werden Ihre Daten von dem jeweiligen Anbieter des sozialen Netzwerks verarbeitet.
+
+Soweit Sie in sonstigen Netzwerken oder Diensten, die eine Anmeldung erfordern, angemeldet sind, während Sie unsere Website oder einzelne Funktionen (z.B. Vimeo, YouTube) nutzen, kann das jeweilige Netzwerk/Dienst Informationen über Ihre Nutzung erheben beziehungsweise Einstellungen übernehmen, wie beispielsweise abgespielte Videos/Stand des Abspielens. Diese Daten werden aber allein durch das jeweilige Netzwerk/Dienst in eigener datenschutzrechtlicher Verantwortlichkeit erhoben und vom jeweiligen Anbieter verarbeitet.
+
+Den Zweck und Umfang der Datenerhebung, die weitere Verarbeitung und Nutzung der Daten durch den Anbieter der vorstehend beschriebenen Netzwerke sowie diesbezügliche Rechte und Einstellungsmöglichkeiten zum Schutz Ihrer Privatsphäre entnehmen Sie bitte den Informationen zum Datenschutz auf der Website des jeweiligen Anbieters.
+
+Händlersuche mit Google Maps
+
+Als Nutzer unserer Website können Sie sich kooperierende Händler in Ihrer Nähe auf einer Landkarte anzeigen lassen. Für die Darstellung der Landkarte verwenden wir Google Maps. Google Maps ist ein Dienst der Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA. Details zur Verarbeitung von personenbezogenen Daten durch die Nutzung von Google Maps finden Sie unter folgendem Link: http://www.google.de/intl/de/policies/privacy/
+
+Um die kooperierenden Händler in der Nähe anzuzeigen, müssen Sie zunächst einen Standort vorgeben. Der Standort kann entweder manuell eingegeben oder mittels der Lokalisierungsfunktion des Internet-Browsers automatisch ermitteln werden. Bei der manuellen Eingabe werden keine personenbezogenen Daten verarbeitet, sofern Sie nicht Ihre Wohnadresse zur Anzeige angeben. Für die automatische Standortermittlung mittels der Lokalisierungsfunktion des Internet-Browsers ist die Verarbeitung Ihrer IP-Adresse erforderlich. In diesem Fall stützen wir diese Verarbeitung auf Ihre Einwilligung, die der Internet-Browser bei Aufruf der Landkarte abfragt. In diesem Zusammenhang wird Ihre IP-Adresse nicht von uns gespeichert.
+
+In welchen Fällen wir Ihre Daten weitergeben
+
+Für die Umsetzung und den Betrieb unserer Website arbeiten wir mit Dienstleistern zusammen. Wir haben diese Dienstleister sorgfältig ausgewählt und zum Schutz Ihrer Daten mit jedem dieser Dienstleister einen Datenschutzvertrag abgeschlossen.
+
+Dienstleister für die Umsetzung und den Betrieb unserer Website sind:
+
+Dienstleister für Hosting-Services einschließlich verbundener technischer Leistungen (z.B. Leistungssteuerung und -messung, Content Delivery Networks)
+Dienstleister für die Bereitstellung zusätzlicher Funktionalitäten für unsere Website (z.B. Produktvideos, Blätterkatalog Issu)
+Dienstleister für Programmierleistungen
+Dienstleister für Verkaufs- und Marketingservices
+Dienstleister für Hotline-Services
+
+An andere Empfänger übermitteln wir Ihre Daten nur, soweit dies zur Erfüllung eines Vertrags mit Ihnen erforderlich ist, wir oder der Empfänger ein berechtigtes Interesse an der Weitergabe Ihrer Daten haben oder Ihre Einwilligung für die Weitergabe vorliegt. Die Verarbeitung Ihrer Daten erfolgt in diesen Fällen nach den Datenschutzbestimmungen des betreffenden Empfängers Ihrer Daten. Zu diesen Empfängern zählen Dienstleister und auch andere Unternehmen der Konzerngruppe. Darüber hinaus können Daten an andere Empfänger übermittelt werden, soweit wir aufgrund gesetzlicher Bestimmungen oder durch vollstreckbare behördliche bzw. gerichtliche Anordnung hierzu verpflichtet sind.
+
+Andere Empfänger Ihrer Daten sind:
+
+Speditionen für Lieferung/Abholung von Produkten
+Dienstleister zur Zahlungsabwicklung
+Dienstleister für das Forderungsmanagement
+
+Ihr Kontakt für alle Fragen zum Datenschutz
+
+In allen Fragen zum Thema Datenschutz und zur Wahrnehmung Ihrer Rechte, können Sie sich über folgende Kontaktdaten direkt an unsere Datenschutzbeauftragten wenden:
+
+BSH Hausgeräte GmbH
+Datenschutzbeauftragter
+Carl-Wery-Str. 34
+81739 München
+
+Data-Protection-DE@bshg.com
+
+Änderungen dieser Informationen zum Datenschutz
+
+Diese Informationen zum Datenschutz geben den aktuellen Stand der Datenverarbeitung auf unserer Website wieder. Bei Änderungen der Datenverarbeitung passen wir diese Informationen zum Datenschutz entsprechend an. Auf unserer Website stellen wir stets die aktuelle Fassung dieser Informationen zum Datenschutz zur Verfügung, damit Sie sich über den Umfang der Datenverarbeitung auf unserer Website informieren können.
+
+Die Rechte der Nutzer
+Ergänzende Informationen nach der VERORDNUNG (EU) 2016/679 DES EUROPÄISCHEN PARLAMENTS UND DES RATES vom 27. April 2016 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten, zum freien Datenverkehr und zur Aufhebung der Richtlinie 95/46/EG (Datenschutz-Grundverordnung)
+
+Kurz und knapp:
+
+Für eine umfassende Kontrolle über Ihre Daten, stehen Ihnen umfassende Rechte zu, durch die Sie die Verarbeitung Ihrer Daten durch uns steuern können.
+Wir geben Ihre Daten an Empfänger außerhalb der EU nur weiter, wenn der Datenschutz gewährleistet ist.
+Rechtsgrundlagen für Datenverarbeitungen
+
+Die oben genannten Datenverarbeitungen stützen wir auf
+
+Ihre Einwilligung (Art. 6 Abs. 1 lit. a der Verordnung (EU) 2016/679):
+Registrierung auf unserer Website
+Einkaufen auf unserer Website
+Komfort-Anmeldung (Social Sign-On Option)
+Online-Reparaturtermin vereinbaren
+Teilnahme an Gewinnspielen
+Teilnahme an Umfragen, Rezensionen
+Teilnahme an Veranstaltungsangeboten
+Ihre Einwilligung (Art. 6 Abs. 1 lit. a der Verordnung (EU) 2016/679):
+Technische Einrichtungen für die Darstellung der Website (z.B. Content Delivery Networks)
+Zusätzliche Funktionen der Website (z.B. z.B. Produktvideos, Blätterkatalog Issu)
+Protokolldaten
+Kontaktaufnahme
+Online-Reparaturtermin vereinbaren (Datenverarbeitung für die Adressverifikation)
+Unsere Website als Business Partner nutzen (Home-Delivery Option)
+Session-Cookies und Persistente Cookies für Komfort-Funktionen
+Webanalyse & Marketing
+Adobe Analytics
+Adobe Test & Target
+Oracle Maxymiser
+Ihre Einwilligung (Art. 6 Abs. 1 lit. a der Verordnung (EU) 2016/679):
+Händlersuche mit Google Maps
+Newsletter
+Persistente Cookies zur Erfassung von Nutzungsverhalten
+Webanalyse & Marketing
+Channelsight
+Mouseflow
+DoubleClick
+Facebook-Pixel und Custom Audiences
+Google Ads & Remarketing
+Nielsen Marketing Cloud
+Zoovu Interactive Digital Assistent
+
+Ihre Rechte
+
+Sollten Sie Fragen zu Ihren personenbezogenen Daten haben, finden Sie nachfolgend eine Darstellung Ihrer Rechte:
+
+Abmeldung vom Erhalt von Werbemitteilungen
+Wenn Sie Ihre Einwilligung zum Erhalt von elektronischer Werbung widerrufen möchten, können Sie den Abmeldelink nutzen, der sich in der Fußzeile der jeweiligen E-Mail befindet, oder eine E-Mail an mdo-marketing@bshg.com mit dem Betreff "Abmeldung zum Erhalt elektronischer Werbung" unter Angabe Ihres hinterlegten Vor- und Zunamens sowie Ihrer E-Mail Adresse schicken.
+
+Wenn Sie Ihren Widerspruch zum Erhalt von elektronischer Werbung und/oder von Postwerbung des FÜR UNS SHOPs mitteilen möchten, schreiben Sie eine E-Mail an aktion@fuer-uns-shop.de mit dem Betreff " Abmelden FÜR UNS" oder einen Brief mit dem Betreff " Abmelden FÜR UNS" an Agentur Günther Huinink, Gebsattelstr. 11, 81541 München unter Angabe Ihres hinterlegten Vor- und Zunamens sowie Ihrer postalischen Adresse.
+
+Ausübung Ihrer Datenschutzrechte
+Bitte nutzen Sie die folgenden Kontaktkanäle für Ihre Anfrage:
+
+I. Verbraucher: Bitte verwenden Sie das Anfrage-Webformular für Verbraucher unter https://datarequest.bsh-group.com/
+
+II. Händler/Lieferant/Service Partner und ihre Mitarbeiter: Bitte kontaktieren Sie unseren lokalen Vertrieb oder Einkauf
+
+III. Unsere Mitarbeiter: Bitte kontaktieren Sie die lokale Personalabteilung
+
+Ihr Recht auf Auskunft über Ihre Daten: Auf Anforderung hin erteilen wir Ihnen Auskunft über die bei uns gespeicherten Daten zu Ihrer Person.
+Ihr Recht auf Berichtigung bzw. Vervollständigung Ihrer Daten: Unrichtige Angaben zu Ihrer Person berichtigen wir, wenn Sie uns einen entsprechenden Hinweis erteilen. Unvollständige Daten vervollständigen wir auf Ihren Hinweis hin, wenn dies für die zweckgemäße Verarbeitung Ihrer Daten erforderlich ist.
+Ihr Recht auf Löschung Ihrer Daten: Auf Ihre Anfrage löschen wir Daten, die bei uns zu Ihrer Person gespeichert sind. Für manche Daten findet die Löschung allerdings erst nach einer festgelegten Aufbewahrungsfrist statt, weil uns z.B. das Gesetz in manchen Fällen zur Aufbewahrung der Daten verpflichtet oder wir die Daten für die Abwicklung des Vertragsverhältnisses mit Ihnen benötigen.
+Ihr Recht auf Sperrung Ihrer Daten: In bestimmten gesetzlich festgelegten Fällen sperren wir Ihre Daten, wenn Sie dies wünschen. Gesperrte Daten werden nur noch in sehr beschränktem Umfang verarbeitet.
+Ihr Widerrufsrecht bei einer Einwilligung: Sie können eine einmal erteilte Einwilligung in die Verarbeitung Ihrer Daten jederzeit mit Wirkung für die Zukunft widerrufen. Die Rechtmäßigkeit der Verarbeitung Ihrer Daten bis zum Widerruf bleibt hiervon unberührt.
+Ihr Widerspruchsrecht bei der Verarbeitung Ihrer Daten: Sie können der Verarbeitung Ihrer Daten jederzeit mit Wirkung für die Zukunft widersprechen, wenn wir Ihre Daten auf einer der gesetzlichen Grundlagen nach Art. 6 Abs. 1 lit. e oder f der Verordnung (EU) 2016/679 verarbeiten. Bei einem Widerspruch stellen wir die Verarbeitung Ihrer Daten ein, wenn nicht zwingende schutzwürdige Gründe für die Weiterverarbeitung bestehen. Zwingende schutzwürdige Gründe bestehen für uns nie, wenn wir Ihre Daten zum Zwecke des Direktmarketings verarbeiten.
+Ihr Recht auf Datenübertragbarkeit: Auf Ihren Wunsch hin können wir Ihnen bestimmte Daten in einem strukturierten, gängigen und maschinenlesbaren Format zur Verfügung stellen.
+Ihr Beschwerderecht bei der Aufsichtsbehörde: Beschwerden datenschutzrechtlicher Art können Sie auch bei einer Datenschutzbehörde einreichen. Wenden Sie sich hierzu an die Datenschutzbehörde, die für Ihren Wohnort zuständig ist oder nachfolgend an die für uns zuständige Datenschutzbehörde.
+Bayerisches Landesamt für Datenschutzaufsicht, www.baylda.de.
+
+Weitergabe an Empfänger außerhalb des EWR
+
+Wir geben personenbezogene Daten auch an Empfänger, die ihren Sitz außerhalb des EWR in sogenannten Drittstaaten haben. In diesem Fall stellen wir vor der Weitergabe sicher, dass beim Empfänger entweder ein angemessenes Datenschutzniveau besteht (z.B. aufgrund einer Angemessenheitsentscheidung der EU Kommission für das jeweilige Land oder die Vereinbarung sogenannter EU-Standardvertragsklauseln der Europäischen Union mit dem Empfänger) oder Ihre Einwilligung in die Weitergabe vorliegt.
+
+Im Falle von Übermittlungen gemäß den Artikeln 46, 47 oder 49 Absatz 1 Unterabsatz 2 der Verordnung (EU) 2016/679 geben wir Ihnen gerne einen Hinweis auf die von uns verwendeten, geeigneten oder angemessenen Garantien und die Möglichkeit, wie Sie eine Kopie dieser Garantien von uns erhalten können. Nutzen Sie hierzu die oben unter „Ihr Kontakt für alle Fragen zum Datenschutz“ angegebenen Kontaktdaten.
+
+
+
+
+Gültig ab: 07.08.2019
+Version: DPI_1.1.1 DE_DE

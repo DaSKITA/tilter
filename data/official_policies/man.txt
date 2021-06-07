@@ -1,142 +1,127 @@
 DATENSCHUTZ
 1. Allgemeine Informationen
 a) Einleitung
-Der Schutz Ihrer Persönlichkeitsrechte bei der Verarbeitung personenbezogener Daten ist für die Gesellschaften der MAN Gruppe (nachfolgend „MAN“) ein wichtiges Anliegen. Wir verarbeiten personenbezogene Daten, die beim Besuch unserer Website erhoben werden, gemäß den gesetzlichen Bestimmungen des Landes, in dem die für die Datenverarbeitung verantwortliche Stelle ihren Sitz hat.
+Der Schutz Ihrer Persönlichkeitsrechte bei der Verarbeitung personenbezogener Daten ist für die Gesellschaften der MAN Gruppe (nachfolgend „MAN“) ein wichtiges Anliegen. Wir verarbeiten personenbezogene Daten in Übereinstimmung mit den Vorschriften der europäischen Datenschutzgrundverordnung (DS-GVO) und gemäß den gesetzlichen Bestimmungen des Landes, in dem die für die Datenverarbeitung verantwortliche Stelle ihren Sitz hat.
 
-Ergänzend haben sich Unternehmen der MAN Gruppe durch eine verbindliche Konzernrichtlinie zu einem umfassenden und einheitlichen Schutz personenbezogener Daten verpflichtet. Hierdurch wird innerhalb der MAN Gruppe weltweit ein Schutzniveau sichergestellt, dass demjenigen in Deutschland und der Europäischen Union vergleichbar ist.
+Ergänzend haben sich die MAN-Gesellschaften durch eine verbindliche Konzernrichtlinie zu einem umfassenden und einheitlichen Schutz personenbezogener Daten verpflichtet. Hierdurch wird innerhalb der MAN weltweit ein Schutzniveau sichergestellt, dass demjenigen in Deutschland und der Europäischen Union vergleichbar ist.
 
-Ferner sind unsere Mitarbeiter zur Verschwiegenheit und auf den Schutz überlassener personenbezogener Daten verpflichtet.
+Ferner sind unsere Mitarbeiter zur Wahrung der Vertraulichkeit bezüglich des Umgangs mit personenbezogenen Daten verpflichtet.
 
-b) Verantwortliche Stelle und Ansprechpartner
-Verantwortliche Stelle im Sinne des Datenschutzrechts für Ihre Daten ist das Unternehmen der MAN Gruppe, welches die Website, die Sie besuchen, betreibt.
+b) Verantwortlicher, Ansprechpartner und Informationen
+Verantwortlicher im Sinne des Datenschutzrechts ist die MAN-Gesellschaft, die Ihre Daten im Rahmen eines bestehenden oder sich anbahnenden Vertragsverhältnisses verarbeitet.
 
-Bei allgemeinen und datenschutzbezogenen Fragen wenden Sie sich bitte an den zuständigen Ansprechpartner, der in der Rubrik „Kontakt“ oder im Impressum angegeben ist. Alternativ können Sie sich an den Bereich Group Data Protection wenden, der Ihre Anfrage an die Verantwortlichen weitergeben wird.
+Bei datenschutzbezogenen Fragen wenden Sie sich bitte an den Datenschutzbeauftragten/ Datenschutzkoordinator bei der MAN-Gesellschaft, mit der ein Vertragsverhältnis besteht bzw. sich anbahnt.
 
-2. Informationen zu dieser Website
-Mit diesen Datenschutzhinweisen informieren wir Sie, wie und welche personenbezogenen Daten wir erheben, verarbeiten und nutzen, wenn Sie diese Webseite besuchen.
+Datenschutzbeauftragte/ Datenschutzkoordinatoren der MAN finden Sie hier .
 
-„Personenbezogene Daten“ sind dabei alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Als identifizierbar wird eine natürliche Person angesehen, die direkt oder indirekt, insbesondere mittels Zuordnung zu einer Kennung wie einem Namen, zu einer Kennnummer, zu Standortdaten, zu einer Online-Kennung oder zu einem oder mehreren besonderen Merkmalen, die Ausdruck der physischen, physiologischen, genetischen, psychischen, wirtschaftlichen, kulturellen oder sozialen Identität dieser natürlichen Person sind, identifiziert werden kann.
+2. Erhebung und Verarbeitung personenbezogener Daten
+a) Zweckbindung und Rechtsgrundlage
+MAN verarbeitet Ihre personenbezogene Daten, um das mit Ihnen bestehende oder sich anbahnende Vertragsverhältnis durchzuführen und zu verwalten. In diesem Zusammenhang werden Ihre personenbezogenen Daten im Rahmen verschiedener Verarbeitungstätigkeiten zu unterschiedlichen Zwecken verarbeitet.
 
-Zweck dieser und anderer Webseiten ist es, Ihnen Informationen zu ausgewählten Unternehmen der MAN Gruppe zur Verfügung zu stellen.
+b) Datenquellen
+Ihre personenbezogenen Daten werden in der Regel direkt bei Ihnen im Rahmen des bestehenden bzw. sich anbahnenden Vertragsverhältnisses erhoben.
 
-Die folgenden Hinweise gelten nicht für Unternehmen, die MAN weder besitzt noch kontrolliert, und nicht für Personen, die MAN nicht beschäftigt oder anweist.
+c) Verpflichtung zur Datenbereitstellung
+Die zur Durchführung des Vertragsverhältnisses erforderlichen personenbezogenen Daten müssen Sie dem Verantwortlichen bereitstellen. Ohne diese Bereitstellung kann MAN den gesetzlichen Pflichten nicht nachkommen und das Vertragsverhältnis nicht eingehen.
 
-3. Erfassung allgemeiner Informationen und anonymer Nutzungsdaten
-Wenn Sie unsere Webseite besuchen, werden automatisch Informationen allgemeiner Natur erfasst. Diese Informationen beinhalten die Art des benutzten Webbrowsers, das verwendete Betriebssystem, den Domainnamen Ihres Internet Service Providers, die Website, die Sie bei uns besuchen, sowie technische Informationen zum Besuch (https/http-Methode, https/http-Version, https/http-Statuscode, Länge der übertragenen Daten) und ähnliches. Hierbei handelt es sich ausschließlich um Informationen, welche keine Rückschlüsse auf Ihre Person zulassen. Zudem werden diese Daten ebenso beim Zugriff auf jede andere Webseite im Internet generiert. Es handelt sich hierbei also nicht um eine spezifische Funktion dieser Webseite.
+d) Zweckbestimmung der Verarbeitungstätigkeiten
+Im Folgenden geben wir Ihnen eine Übersicht über die Zweckbestimmungen unserer Verarbeitungstätigkeiten:
 
-Informationen dieser Art werden ausschließlich anonymisiert erhoben und von uns statistisch ausgewertet. Je besser wir Ihre Wünsche verstehen, desto schneller finden Sie die gewünschte Information auf unseren Webseiten.
+Marktanalyse und Identifikation von Neukunden
 
-4. Erhebung und Verarbeitung personenbezogener Daten
-a) Einfaches Navigieren auf der Webseite
-Wenn Sie unsere Website besuchen, speichern unsere Webserver standardmäßig Ihre IP-Adresse, von der aus der Zugriff erfolgt sowie Datum und Uhrzeit des Besuchs.
+z.B. Erstellung von Marktanalysen, Messeauftritt, Internetpräsenz, Kundenevents, Gewinnspiele und anderen Promotion Aktionen.
 
-b) Nutzung von Web-Anwendungen
-Bei Nutzung unserer Web-Anwendungen können darüber hinaus noch Informationen gespeichert werden, die für die effektive Nutzung dieser Anwendung erforderlich sind.
+Marketingkommunikation
 
-c) Registrierung mittels Online-Formularen
-Weitere personenbezogene Daten werden nur erhoben, wenn Sie uns diese von sich aus freiwillig zur Verfügung stellen und soweit dies für den jeweiligen Zweck erforderlich ist z. B. im Rahmen einer Registrierung, eines Abonnements, einer Umfrage oder eines Preisausschreibens.
+z.B. Versand von Magazinen, Newsletter, Produktbroschüren, Bereitstellung von Apps
 
-d) Einsatz von Cookies
-Was sind Cookies?
-Ein Cookie ist ein kleiner Datensatz, der auf Ihrem Endgerät gespeichert wird und Daten wie z. B. persönliche Seiteneinstellungen, eine ID oder Anmeldeinformationen enthält. Dieser Datensatz wird von dem Web-Server, mit dem Sie über Ihren Web-Browser eine Verbindung aufgebaut haben, erzeugt und an Sie gesendet. Im Allgemeinen setzen wir Cookies zur Analyse des Interesses an unseren Webseiten sowie zur Verbesserung der Benutzerfreundlichkeit unserer Webseiten ein. Sie können unsere Webseiten grundsätzlich auch ohne Cookies aufrufen. Wollen Sie unsere Webseiten vollumfänglich bzw. komfortabel nutzen, sollten Sie jedoch diejenigen Cookies akzeptieren, die die Nutzung bestimmter Funktionen ermöglichen bzw. die Nutzung komfortabler machen. MAN verwendet Cookies, um das Angebot nutzerfreundlicher, effektiver und sicherer zu machen.
+Angebotserstellung
 
-Über das beim ersten Aufruf der Webseite angezeigte Cookie-Banner können Sie auswählen, ob nur die technisch notwendigen Cookies von uns verwendet werden dürfen oder ob Sie der Verwendung von optionalen Cookies zustimmen.
+Produktkonfigurator, Erstellung von Produkt- bzw. fahrzeugspezifischen Serviceangeboten, Finanzierungsangebote, Mietangebote,
 
-Zusätzlich haben Sie die Möglichkeit über die Einstellungen Ihrer Browsers die Steuerung von Cookies vorzunehmen. Die meisten Browser sind standardmäßig so eingestellt, dass sie alle Cookies akzeptieren. Sie haben allerdings die Möglichkeit, Ihren Browser derart einzustellen, dass Cookies vor ihrer Speicherung angezeigt werden, nur bestimmte Cookies akzeptiert oder abgelehnt werden oder Cookies generell abgelehnt werden.
+Abwicklung eines Bestellvorgangs
 
-Wir weisen darauf hin, dass Einstellungsänderungen immer nur den jeweiligen Browser betreffen. Nutzen Sie verschiedene Browser oder wechseln Sie das Endgerät, müssen die Einstellungen erneut vorgenommen werden. Darüber hinaus können Sie Cookies jederzeit aus Ihrem Speichermedium löschen. Weitere Informationen zu den Cookie-Einstellungen, deren Änderung und der Löschung von Cookies entnehmen Sie bitte der Hilfefunktion Ihres Web-Browsers.
+Ausfüllen der Bestellformulare, Zahlungsvorgängen Zahlungsmöglichkeiten, Lieferungs- und Zustellungsbedingungen, Einhaltung von gesetzlichen Verpflichtungen, wie z.B.: Rechnungslegung, Buchhaltung und Wirtschaftsprüfung, Interne Kosten- und Leistungsrechnung, Controlling (z.B. Erstattungen, Rücklastschriften, Verrechnungen), Reporting (z.B. für Datenqualitäts-, Steuerungs- und Planungszwecke), Berichterstattung und Planung der Vertriebskennzahlen, Durchführung des Forderungsmanagements/Mahnwesens
 
-Welche Arten von Cookies gibt es?
-a. Erstanbieter-Cookies
-Werden von der Website selbst gesetzt (selbe Domäne wie in der Adressleiste des Browsers) und können nur von dieser Website gelesen werden. Diese Cookies werden in der Regel zum Speichern von Informationen (z. B. Ihre Einstellungen) genutzt, die bei Ihrem nächsten Besuch der Website verwendet werden.
+Optimierung von Produktionsprozessen und der Fahrzeugqualität
 
-b. Drittanbieter-Cookies
-Drittanbieter-Cookies stammen von anderen Anbietern als dem Betreiber der Webseite. Sie können beispielsweise zum Sammeln von Informationen für Werbung, benutzerdefinierte Inhalte und Web-Statistiken verwendet werden.
+Erhebung von Fahrzeugdaten (z.B. Plausibilisierung und Ermittlung, von Kennzahlen zur Verbrauchs- und Verschleißreduktion), Erhebung von Service-, Wartungsdaten sowie Fehlercodes zur Fehlerdiagnose und Fehlerprävention, Auswertung von Fahrzeugdaten zur Einhaltung von Gewährleistungsverpflichtungen, Produkthaftung (Rückrufaktionen), Analyse von Fahrzeugdaten zur Qualitätsverbesserung von Fahrzeugfunktionen, Produkt- und Serviceoptimierungen
 
-c. Technisch notwendige Cookies
-Technisch notwendige Cookies sind oft für grundlegende Funktionen der Website erforderlich oder zumindest nützlich, etwa um die bevorzugte Sprache, Seiteneinstellungen oder den Inhalt eines Warenkorbes zu speichern.
+Auslieferung des Produkts
 
-d. Optionale Cookies (technisch nicht notwendige Cookies)
-Optionale Cookies gehen über den Funktionsumfang der technisch notwendigen Cookies hinaus und werden beispielsweise zum Sammeln von Informationen für Werbung, benutzerdefinierte Inhalte und Web-Statistiken verwendet.
+Fahrzeugübergabe
 
-e) Google Analytics
-Unsere Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. ("Google"). Auch Google Analytics verwendet Cookies. Dabei handelt es sich um Cookies von Google selbst (Google Analytics-Cookies) und sogenannten Drittanbieter-Cookies (DoubleClick-Cookies). Die durch diese Cookies erzeugten Informationen über Ihre Benutzung dieser Website (einschließlich Ihrer IP-Adresse) wird an einen Server der Google, Inc. in den USA übertragen und dort gespeichert. Google wird diese Informationen benutzen, um Ihre Nutzung der Website für uns auszuwerten, um Reports über die Websiteaktivitäten für uns zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundenen Dienstleistungen zu erbringen, insbesondere auch Funktionen für Display-Werbung, etwa Remarketing, Berichte zu Impressionen im Google Display-Netzwerk, Integration von DoubleClick Campaign Manager oder Google Analytics-Berichte zur Leistung nach demografischen Merkmalen und Interessen. Auch wird Google diese Informationen gegebenenfalls an Dritte übertragen, sofern dies gesetzlich vorgeschrieben oder soweit Dritte diese Daten im Auftrag von Google verarbeiten. Google wird in keinem Fall Ihre IP-Adresse mit anderen Daten von Google in Verbindung bringen.
+Erhebung und Auswertung von Kundenfeedbacks (Ermittlung der Kundenzufriedenheit)
 
-Durch die Nutzung dieser Website erklären Sie sich mit der Bearbeitung der über Sie erhobenen Daten durch Google in der zuvor beschriebenen Art und Weise und zu dem zuvor benannten Zweck einverstanden. Wir möchten Sie darauf hinweisen, dass unsere Website zur Verbesserung des Datenschutzes Google Analytics mit der Erweiterung „anonymizeIp()" verwendet. IP-Adressen werden daher nur gekürzt erfasst und weiterverarbeitet. Damit ist eine direkte Personenbeziehbarkeit bei der Analyse der Nutzung unserer Website ausgeschlossen. Sie können das Setzen der Google Analytics-Cookies durch die Erweiterung Ihres Browsers ablehnen. Damit können Sie Ihr Recht wahrnehmen, der Datenerhebung, -verarbeitung und -nutzung durch Google Analytics mit Wirkung für die Zukunft zu widersprechen. Hierzu können Sie das Deaktivierungs-Add-on für Browser von Google Analytics installieren. Damit verhindern Sie, dass Google Analytics Informationen über Ihre Webseitenbesuche speichert.
+Kundenzufriedenheitsbefragungen, Kundenbeschwerdemanagement
 
-Weitere Informationen sowie Hinweise zum Download und zur Installation dieses Deaktivierungs-Add-on finden Sie unter https://tools.google.com/dlpage/gaoptout
+After Sales Marketing
 
-Alternativ und ergänzend für Nutzer mit mobilen Geräten, können Sie das Opt-Out-Cookie verwenden. Verwenden Sie diesen Link, dann wird ein Cookie gesetzt und Sie werden nicht mehr von Google Analytics erfasst. Klicken Sie hier, um von der Erfassung von Google Analytics ausgeschlossen zu werden.
+Produkt- und Serviceschulungen, Bereitstellung von Anwendungen und EDV-Programmen und Apps
 
-Sie können Google Analytics für Display-Werbung deaktivieren und die Anzeigen im Google Display-Netzwerk anpassen, indem Sie die Anzeigeneinstellungen aufrufen: https://www.google.de/settings/ads.
+Planung und Abwicklung von Werkstattaufträgen
 
-f) Google Doubleclick
-Doubleclick by Google ist eine Dienstleistung von Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA ("Google"). Doubleclick by Google verwendet Cookies um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Dabei wird Ihrem Browser eine pseudonyme Identifikationsnummer (ID) zugeordnet, um zu überprüfen, welche Anzeigen in Ihrem Browser eingeblendet wurden und welche Anzeigen aufgerufen wurden. Die Cookies enthalten keine personenbezogenen Informationen. Die Verwendung der DoubleClick-Cookies ermöglicht Google und seinen Partner-Webseiten lediglich die Schaltung von Anzeigen auf Basis vorheriger Besuche auf unserer oder anderen Webseiten im Internet. Die durch die Cookies erzeugten Informationen werden von Google zur Auswertung an einen Server in den USA übertragen und dort gespeichert. Eine Übertragung der Daten durch Google an Dritte findet nur aufgrund gesetzlicher Vorschriften oder im Rahmen der Auftragsdatenverarbeitung statt. Keinesfalls wird Google ihre Daten mit anderen von Google erfassten Daten zusammenbringen.
+Erleichterung von Reparaturservices (Online Terminvereinbarungen)
 
-Durch die Nutzung unserer Webseiten erklären Sie sich mit der Bearbeitung der über Sie erhobenen Daten durch Google und der zuvor beschriebenen Art und Weise der Datenverarbeitung sowie dem benannten Zweck einverstanden. Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen unserer Webseiten vollumfänglich werden nutzen können. Sie können darüber hinaus die Erfassung der durch die Cookies erzeugten und auf Ihre Nutzung der Webseiten bezogenen Daten an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie das unter dem folgenden Link unter dem Punkt DoubleClick-Deaktivierungserweiterung verfügbare Browser-Plug-In herunterladen und installieren. Alternativ können Sie die Doubleclick-Cookies auf der Seite der Digital Advertising Alliance unter dem folgenden Link deaktivieren.
+Fahrzeugrücknahme
 
-g) Google reCaptcha
-Diese Seite verwendet zu Sicherheitszwecken reCaptcha, einen Dienst von Google Inc.,1600 Amphitheatre Parkway, Mountain View, CA 94043, USA (Google). Dieser Dienst stellt fest, ob die Eingabe in einem Internetformular durch einen Menschen oder missbräuchlich durch automatisierte, maschinelle Verarbeitung erfolgt. Dabei werden Ihre zuvor gekürzte IP-Adresse und ggf. weitere für den Dienst benötigte Daten an Google übermittelt. Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt. Die im Rahmen von reCaptcha von Ihrem Browser übermittelten Daten werden nicht mit anderen Daten von Google zusammengeführt. Weitere Informationen zu den Datenschutzrichtlinien von Google finden Sie unter: https://www.google.com/intl/de/policies/privacy/
+Vereinbarung für Rückkauf, Gebrauchtfahrzeugbörse
 
-h) Einbindung von Social Media Plug-Ins (Facebook, Twitter)
-Plug-Ins sind Computerprogramme, die in ein anderes Softwareprodukt, wie beispielsweise einer Website, eingebunden werden und damit dessen Funktionalität erweitern. Fast alle derzeit im Markt präsenten Plug-Ins sind Entwicklungen von Betreibern sozialer Netzwerke (engl. Social Media). Die Grundfunktionalität dieser Netzwerke ist es, den Benutzern eine meist kostenfreie Interaktions- und Kommunikationsfläche zu bieten.
+Erfüllung gesetzlicher Pflichten
 
-Die Einbindung von Social Media Plug-Ins führt allerdings dazu, dass mit dem bloßen Aufruf der einbindenden Seite – ohne dass ein Plug-In bereits angeklickt wird - Sie zugleich von diesen Diensten mit Ihrer IP-Adresse und anderen Bewegungsdaten (i.d.R. Datum, Zeit, URL-Adresse und Browser) erfasst werden. Dies erfolgt sowohl bei registrierten Nutzern des jeweiligen Dienstes, als auch bei Webseitenbesuchern, die nicht bei dem betroffenen Dienst mit einem Konto registriert sind und damit die entsprechenden Nutzungsbedingungen akzeptiert haben. Social Media Plug-Ins verwenden zudem in der Regel Cookies (siehe Punkt d) um Webseitenbesucher zu identifizieren. Diese Cookies werden von der besuchten Webseite auf Ihrem lokalen Rechner gespeichert und beim erneuten Besuch der Seite abgerufen. Die Kennung dieser Cookies wird bei jedem Besuch einer Website mit dem entsprechenden Plug-In, auch ohne aktive Nutzung des Plug-Ins, ungefragt an die Server des jeweiligen Dienstes übertragen. Durch die Verbindung der individuellen Cookie-Kennung mit den in der Vergangenheit aufgerufenen Webseiten ist eine Überwachung des Surfverhaltens möglich (Profilbildung). Durch die Erhebung der oben genannten Bewegungsdaten könnte beispielsweise ermittelt werden, wie lange der zum Cookie gehörende Nutzer welche Website besucht hat. Auf diese Weise könnten Social Media Dienste Ihre Aktivitäten im Internet protokollieren.
+Einhaltung von Aufbewahrungspflichten, Sicherstellung von Compliance-Anforderungen durch Prüfhandlungen (z.B. Sanktionslistenprüfung, Geldwäsche) , Betrieb eines internen Kontrollsystem (IKS) und anderer Monitoring-Systeme zu Sicherstellung der Ordnungsmäßigkeit der Geschäftsprozesse
 
-Um das zu verhindern und Ihre Privatsphäre besser zu schützen, nutzt unsere Webseite die 2-Klick-Methode, eine Initiative von heise.de (dort finden Sie auch weitere Informationen). Unsere Webseite bettet nur deaktivierte Buttons ein, die noch keinen Kontakt mit den zu den Social-Plug-Ins gehörenden Diensten herstellen und so auch keine Daten bei Aufruf unserer Webseite weitergeben.
+Die verarbeiteten Daten sind unter folgenden Datenkategorien einzuordnen:
 
-Erst wenn Sie auf einen der Buttons klicken, aktivieren Sie diesen und stimmen einer Kommunikation mit Facebook oder Twitter zu. Mit einem zweiten Klick können Inhalte dann sofort geteilt werden. Sind Sie bei einem der sozialen Netzwerke, deren Social Plug-In Sie nutzen wollen, bereits angemeldet, erfolgt das bei Facebook ohne ein weiteres Fenster. Bei Twitter erscheint ein Popup-Fenster, in dem man den Text des Tweets noch bearbeiten kann.
+Berufliche Kontakt- und (Arbeits-)Organisationsdaten
+IT-Nutzungsdaten
+Private Kontakt- und Identifikationsdaten
+Daten zu persönlichen/beruflichen Verhältnissen & Merkmalen
+Bonitäts- und Bankdaten
+Vertragsdaten
+Kfz-Nutzungs-Daten mit FIN/KfZ-Kennzeichen Garantie-, Gewährleistung, Produkthaftung, sicherer Fahrzeugbetrieb
+Kfz-Nutzungs-Daten mit FIN/Kfz-Kennzeichen - Komforteinstellungen, Multimedia, Navigation - Bei der Kfz-Nutzung anfallende Daten, die mit FIN/Kfz-Kennzeichen verknüpft sind und Komforteinstellungen betreffen, wie z.B. Sitzeinstellung, bevorzugte Radiosender, Klimaeinstellungen, Navigationsdaten, E-Mail-/SMS-Kontaktdaten etc.
+Kfz-Nutzungs-Daten mit FIN/Kfz-Kennzeichen - Assistenzsysteme, Fahrverhalten etc. - Bei der Kfz-Nutzung anfallende Daten, die mit FIN/Kfz-Kennzeichen verknüpft sind und das Fahr-verhalten betreffen bzw. die Nutzung von Assistenzsystemen und deren konkrete Einsatzdaten etc.
+Positionsdaten
+Sonderkategorie Bild- und Videomaterial
+Die oben genannten Verarbeitungstätigkeiten sind durch nachfolgende Rechtsgrundlagen legitimiert:
 
-Wenn Sie sich zur Aktivierung und Nutzung eines Social-Plug-Ins entscheiden, erkundigen Sie sich vorher bei den jeweiligen Anbietern über deren Umgang mit Ihren Daten und deren Datenschutzerklärung (https://www.facebook.com/about/privacy/, http://twitter.com/privacy).
+Einwilligung zu einem oder zu mehreren bestimmten Zwecken (Art. 6 Abs. 1 lit. a DS-GVO)
+Erfüllung des Vertrags oder Vertragsanbahnung (Art. 6 Abs. 1 lit. b DS-GVO)
+Erfüllung rechtlicher Verpflichtungen (Art. 6 Abs. 1 lit. c DS-GVO)
+Interessenabwägung (Art. 6 Abs. 1 lit. f DS-GVO
+Bestehen einer maßgeblichen und angemessenen Beziehung zwischen Verantwortlichem und Betroffenen
+Verhinderung von Betrug
+Direktwerbung
+Übermittlung von Daten innerhalb einer Unternehmensgruppe für interne Verwaltungszwecke (einschließlich Kunden und Beschäftigtendaten)
+3. Weitergabe personenbezogener Daten
+Ihre personenbezogenen Daten können in bestimmten Fällen auch an andere Stellen weitergegeben werden:
 
-Hinweis: Die Aktivierung der Buttons gilt jeweils nur für die aufgerufene Seite und den gewählten Dienst.
+Wenn die Weitergabe Ihrer personenbezogenen Daten zur Durchführung oder Anbahnung des Vertragsverhältnisses erforderlich ist, wie z.B. bei der Finanzierung des Vertragsgegenstands oder bei der gemeinsamen Auftragsabwicklung mit projektbezogenen Partnern (z.B. Aufbauhersteller).
 
-Die Zustimmungsbuttons können Sie unter Einstellungen (Klick auf das Zahnrad-Icon) auch dauerhaft aktivieren. Setzen Sie einfach das oder die entsprechenden Häkchen zur Freischaltung Ihrer sozialen Netzwerke. Über das Zahnrad-Icon können Sie diese Automatisierung natürlich auch jederzeit wieder rückgängig machen.
+Wir geben Ihre personenbezogenen Daten auch an von uns beauftragte Dienstleiter im Rahmen von Auftragsverarbeitungen weiter. (z.B. Organisation von Messeveranstaltungen, Durchführungen von Kundenzufriedenheitsbefragungen, Versand von E-Mail Newslettern, Hosting und Betrieb von CRM -Systemen)
 
-Im Folgenden finden Sie eine kurze Beschreibung der auf unserer Seite eingebundenen Social Media Plug-Ins.
+Die Weitergabe Ihrer Stamm- und Kontaktdaten erfolgt zur Sicherstellung eines einheitlichen und aktuellen Datenbestandes in einer zentralen Datenbank (auf diese Datenbank können auch andere Unternehmen der Volkswagen Gruppe zugreifen) und zur Bonitätsprüfung.
 
-Facebook
-Facebook ist ein soziales Netzwerk der Facebook Ireland Limited (Hanover Reach, 5-7 Hanover Quay, Dublin 2 Ireland). Auf unserer Webseite haben wir unterschiedliche Funktionen von Facebook eingebundenen (z.B. „Like“, „Teilen“). Facebook-Funktionen sind mit dem Facebook-Logo gekennzeichnet. Abhängig von der Art der Funktion können weitere Funktionen hinzukommen (z.B. „Like“, „Empfehlen“). Mit dem Like -Button können Sie Ihren Facebook Freunden und Facebook Nutzern Ihre Meinung mitteilen, welche Artikel sie mögen/empfehlen. Haben Sie als Facebook-Nutzer die Recommendations Bar in Facebook zu Ihren Facebook Anwendungen hinzugefügt, veröffentlichen Sie automatisch Ihre Leseaktivität auf Facebook in Ihrem Newsfeed und Ihrer Timeline/Chronik, sobald sich die Recommendations Bar in unserer Webseite aufklappt. Auf Facebook erfahren dann die Personen, denen Sie bei Installation der Anwendung die Rechte hierzu gegeben haben, welchen Artikel Sie gerade bei uns lesen oder welche Inhalte Sie auf unserer Webseite nutzen. Die einzelnen Einträge sowie die Applikation selber können Sie jederzeit auf Facebook wieder entfernen. Zudem werden die Facebook-„Likes“ der Nutzer mit den Beiträgen und Artikeln auf unserer Seite synchronisiert, sofern der Nutzer über Facebook auf unserer Webseite eingeloggt ist. Durch die Integration des Facebook-Buttons auf unserer Seite wird von Ihrem Browser bzw. der Anwendung eine direkte Verbindung mit den Facebook-Servern aufgebaut und der Button zur jeweiligen Facebook-Funktion von dort geladen. Wie bereits eingangs erwähnt, wird dabei u.a. die Information an Facebook übermittelt, dass die entsprechende Internetseite aufgerufen oder ein bestimmter Dienst genutzt wurde. Wenn Sie selber aktiv eine Facebook-Funktion verwenden, z.B. auf den Like-Button klicken, ist es möglich, dass Facebook weitere, auch personenbezogene Daten verarbeitet. So kann Facebook z.B. ein Cookie setzen, über den Facebook auf anderen Internetseiten, die ebenfalls Facebook-Buttons eingebunden haben, erkennen kann, dass Sie bereits in der Vergangenheit den Like-Button genutzt haben. Sind Sie als Facebook-Nutzer gleichzeitig bei Facebook eingeloggt, ist außerdem die Zuordnung eines Seitenabrufs zu ihrem Profil auf Facebook möglich. Wenn Sie eingebundene Facebook-Buttons anklicken und sich danach bei Facebook einloggen (oder bereits eingeloggt sind), können z.B. die „geliketen“ oder „empfohlenen“ Informationen auf Facebook in Ihrem Profil und Ihrer Chronik/Timeline in Kurzform veröffentlicht werden. Facebook kann so gegebenenfalls weitere Nutzungsdaten erheben und speichern. So können bei Facebook-Nutzerprofile entstehen, die über das hinausgehen, was Sie selbst bei Facebook preisgeben. Wenn Sie die eingebetteten Social Plug-Ins nicht deaktiviert haben und dennoch nicht wünschen, dass Facebook den Besuch unserer Seite Ihrem Facebook-Nutzerkonto zuordnen kann, loggen Sie sich bitte aus Ihrem Facebook-Benutzerkonto aus, bevor Sie unsere Seite besuchen. Welche Daten Facebook im Einzelnen zu eigenen Zwecken erhebt, erfahren Sie in der Datenschutzerklärung von Facebook; dort erhalten Sie auch weitere Informationen zu Datenerhebung und -verarbeitung durch Facebook und zu Ihren darauf bezogenen Rechten, Die Facebook-Datenschutzerklärung ist abrufbar unter https://www.facebook.com/about/privacy/update.
+Wenn Sie zugestimmt haben, können wir Ihre Ihre Stamm- und Kontaktdaten sowie die Angebots- und Bestelldaten zu Zwecken der Kundenbetreuung wie z.B. der Erstellung fahrzeugspezifischer Serviceangebote oder der regionalen Vorortbetreuung auch an betreffende Vertragswerkstätten, Händler, freie Importeure sowie zur Erstellung von Miet- oder Finanzierungsangeboten an entsprechende Unternehmen der Volkswagen Gruppe weitergeben.
 
-Twitter
-Twitter ist ein Micro Blogging Dienst des amerikanischen Unternehmens Twitter, Inc. (795 Folsom St., Suite 600, San Francisco, CA 94107). Durch den Twitter-Button wird von Ihrem Browser ebenfalls eine direkte Verbindung mit den Servern von Twitter aufgebaut und der Button von dort geladen. Dabei wird die Information an Twitter übermittelt, dass die entsprechende Internetseite aufgerufen wurde. Auch wenn Sie nicht eingeloggt sind, kann Twitter so gegebenenfalls Nutzungsdaten erheben und auch speichern. Wenn Sie die Twitter-Buttons anklicken und über das sich öffnende Twitter-Fenster Informationen „twittern“, übermitteln Sie die getwitterten Informationen an Twitter. Diese Informationen werden dann in Ihrem Twitter-Nutzerprofil veröffentlicht. Weitere Informationen zur Datenerhebung, Auswertung und Verarbeitung Ihrer Daten durch Twitter sowie Ihren darauf bezogenen Rechte erhalten Sie in der Datenschutzerklärung von Twitter, die unter http://twitter.com/privacy abrufbar ist.
+Wenn wir zur Weitergabe Ihrer personenbezogenen Daten zur Einhaltung nationaler Rechtsvorschriften verpflichtet sind, z.B. Übermittlung an Finanzbehörden, Gerichte, Wirtschaftsprüfer.
 
-i) Verwendung der GeoLite2 und GeoIP2 Datenbank zur Geolocation
-Auf dieser Website wird die GeoLite2 bzw. GeoIP2 Datenbank verwendet, die von dem Anbieter MaxMind Inc. bereitgestellt und bei MAN bzw. Drittanbietern gehostet wird. In der GeoLite2 bzw. GeoIP2 Datenbank sind den verwendeten IP-Adressen ungefähre Standort-/ Geolocation-Daten auf Basis des Herkunftslandes, aus dem die IP-Adresse stammt, zugeordnet. Zur Verbesserung der Suchergebnisse, um Ihnen passendere Informationen zu liefern und zur Voreinstellung bestimmter auf Sie angepasster Websitekonfigurationen, die Ihnen Ihren Besuch auf unseren Seiten angenehmer gestalten (z.B. Spracheinstellungen), wird mit Ihrer IP-Adresse über die GeoLite2 bzw. GeoIP2-Datenbank Ihr Herkunftsland ermittelt. Hierbei werden keine personenbezogenen Daten an Dritte weitergegeben.
+Mit allen datenempfangenden Gesellschaften der MAN- und Volkswagen-Gruppe wurden Datenschutzverträge abgeschlossen, um ein hohes Datenschutzniveau sicherzustellen.
 
-j) EQS Group
-Auf unserer Website werden Inhalte der EQS Group (Drittanbieter) (EQS Group AG, Karlstr. 47, 80333 München) eingebunden. Dabei handelt es sich um das Börsenchart und die Adhoc-Meldungen auf der Seite Investor Relations und den Unterseiten. Die Inhalte werden über die Adressen www.dgap.de und www.charts3.equitystory.com abgerufen. Beim Abruf der Informationen der EQS Group wird Ihre IP-Adresse an die EQS Group übermittelt. Die Übermittlung ist notwendig, um zuvor genannte Inhalte auf unserer Webseite anzeigen zu können. Die Rechtsgrundlage für die Übermittlung Ihrer IP-Adresse an EQS ist die Einwilligung gemäß Art. 6. Abs. 1 lit. a DSGVO, die Sie über das Cookie-Banner oder direkt auf der entsprechenden Seite erteilten. EQS speichert diese IP-Adresse (nur Adhoc-Meldungen) zusätzlich für zwei Wochen auf ihren Servern zur Gewährleistung der Netz- und Informationssicherheit. Die Rechtsgrundlage für die Speicherung der IP-Adresse auf den Servern der EQS Group ist das berechtigte Interesse der EQS Group gemäß Art. 6. Abs. 1. lit. f DSGVO. Die Daten werden von EQS für keine weiteren Zwecke verwendet.
+Sollten wir personenbezogene Daten an verbundene Unternehmen oder Dienstleister außerhalb des Europäischen Wirtschaftsraums (EWR) übermitteln, erfolgt die Übermittlung nur, soweit dem Drittland durch die EU-Kommission ein angemessenes Datenschutzniveau bestätigt wurde oder andere angemessene und ausreichende Datenschutzgarantien (z. B. EU-Standarddatenschutzklauseln oder Zertifizierung nach dem EU/US Privacy Shield) vorhanden sind.
 
-Zusätzlich verwendet die EQS Group Cookies (nur Adhoc-Meldungen), um eine gleichmäßige und für den User störungsfreie Funktion sicherstellen zu können. Die Cookies werden zur eindeutigen Identifikation einer User-Session benötigt. Darüber hinaus werden Cookies zum Speichern verschiedener Session-Variablen (Disclaimer, Schriftvergrößerung, Websitekontraste, etc.). eingesetzt, sowie um eine ausgeglichene Lastverteilung der Server, die hinter einem Loadbalancer sitzen, sicherzustellen.
+4. Datenspeicherung und –löschung
+Grundsätzlich löschen wir Ihre personenbezogenen Daten, sobald sie für die oben genannten Zwecke nicht mehr erforderlich sind.
 
-Weitere Informationen zu den Datenschutzrichtlinien von EQS finden Sie unter: www.eqs.com/de/ueber-eqs/datenschutz/
+Ihre personenbezogenen Daten werden gespeichert, solange wir dazu gesetzlich verpflichtet sind, oder noch gesetzliche Verjährungsfristen laufen. Dies ergibt sich regelmäßig durch rechtliche Nachweis- und Aufbewahrungspflichten, die unter anderem im Bürgerlichen Gesetzbuch (BGB), Handelsgesetzbuch (HGB), oder in der Abgabenordnung (AO) geregelt sind.
 
-5. Zweckbindung der Nutzung personenbezogener Daten
-Ihre personenbezogenen Daten werden nur zu dem Zweck verwendet, für den Sie uns diese Daten überlassen haben.
+Darüber hinaus erfolgt eine Speicherung, sofern weitere gesetzliche oder vertragliche Aufbewahrungspflichten bestehen, wie zum Beispiel im Zusammenhang mit der Produkthaftung.
 
-6. Rechtsgrundlage der Verarbeitung
-Rechtsgrundlage für die Nutzung und Speicherung Ihrer personenbezogenen Daten ist Ihre Einwilligung gem. Art. 7 EU-Datenschutzgrundverordnung (EU-DSGVO) sowie gem. § 13 Abs. 2 Telemediengesetz (TMG). Ihre Bestands- und Nutzungsdaten verarbeiten wir auf Basis und gemäß den Vorgaben der §§ 14 und 15 TMG, die eine rechtliche Verpflichtung im Sinne des Art. 6 Abs. 1 lit. c EU-DSGVO darstellen, der wir als Webseitenbetreiber unterliegen.
+5. Ihre Rechte
+Neben dem Recht auf Auskunft über die Sie betreffenden Daten und Berichtigung Ihrer Daten haben Sie, soweit dem keine gesetzlichen Regelungen entgegenstehen, auch das Recht auf Löschung sowie ein Widerspruchsrecht gegen die Verarbeitung bzw. das Recht auf Einschränkung der Verarbeitung Ihrer Daten. Ferner steht Ihnen das Recht auf Datenübertragbarkeit zu.
 
-7. Weitergabe personenbezogener Daten
-Durch die Nutzung der vorgestellten Funktionen können auch Stellen, die in Drittstaaten außerhalb des Europäischen Wirtschaftsraumes (EWR) ansässig sind, Ihre Daten einsehen. In diesen Ländern liegt ggf. ein unzureichendes Datenschutzniveau vor, da eine Angemessenheitsentscheidung der EU-Kommission fehlt und keine weiteren geeigneten Garantien zum Schutze Ihrer personenbezogenen Daten bestehen.
-
-Der Transfer Ihrer Daten in diese Drittstaaten erfolgt auf Basis Ihrer Einwilligung gemäß Art. 7 EU-DSGVO und § 13 Abs. 2 TMG bzw. auf Basis der Ausnahmetatbestände des Art. 49 Abs. 1 EU-DS-GVO, die durch die Aktivierung der entsprechenden Funktion zur Geltung kommen.
-
-Ihre Daten sind auch durch verbundene Unternehmen aus dem MAN- und VW-Konzern sowie externe Dienstleister einsehbar, die diese Webseite und die damit zusammenhängenden Systeme zur Verfügung stellen und technisch betreiben. Mit diesen Unternehmen wurden Datenschutzverträge abgeschlossen, um eine hohes Datenschutzniveau sicherzustellen.
-
-Eine Übermittlung an staatliche Einrichtungen und Behörden erfolgt nur im Rahmen zwingender nationaler Rechtsvorschriften.
-
-8. Datenspeicherung und –löschung
-Die Daten, die mit Ihrem Besuch unserer Webseite zusammenhängen (siehe Punkte 1 und 2 a), werden zwei Jahre, gerechnet vom Zeitpunkt des Öffnens unserer Webseite, gespeichert.
-
-Andere personenbezogene Daten werden so lange gespeichert, bis Sie sich selbständig abmelden, oder uns mitteilen, dass Sie die jeweils genutzte Funktion nicht mehr in Anspruch nehmen möchten.
-
-Darüber hinaus erfolgt eine Speicherung nur, sofern gesetzliche oder vertragliche Aufbewahrungspflichten bestehen.
-
-9. Ihre Rechte
-Neben dem Recht auf Auskunft über die Sie betreffenden Daten und Berichtigung Ihrer Daten haben Sie, soweit dem keine gesetzlichen Regelungen entgegenstehen, auch das Recht auf Löschung und Sperrung Ihrer Daten sowie ein Widerspruchsrecht gegen die Verarbeitung Ihrer Daten. Ferner steht Ihnen ein Recht auf Datenübertragbarkeit zu.
-
-Da wir Ihre personenbezogenen Daten aufgrund Ihrer Einwilligung erheben und verarbeiten, haben Sie zudem das Recht, die von Ihnen erteilte Einwilligung zu widerrufen. Ihr Widerruf lässt die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Datenverarbeitung unberührt.
+Wenn wir Ihre personenbezogenen Daten aufgrund Ihrer Einwilligung erheben und verarbeiten, haben Sie zudem das Recht, die von Ihnen erteilte Einwilligung mit Wirkung für die Zukunft zu widerrufen. Ihr Widerruf lässt die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Datenverarbeitung unberührt.
 
 Soweit notwendig, müssen wir Ihre Identität verifizieren, bevor wir Ihre Anträge bearbeiten können.
 
@@ -144,11 +129,10 @@ Sollten trotz unserer Bemühungen um Datenrichtigkeit und Aktualität falsche In
 
 Bei Beschwerden besteht die Möglichkeit, sich an eine Datenschutzaufsichtsbehörde zu wenden.
 
-10. Sicherheit
-Ihre Daten werden von MAN durch technische und organisatorische Sicherheitsmaßnahmen geschützt, um zufällige oder vorsätzliche Manipulationen, Verlust, Zerstörung oder den Zugriff unberechtigter Personen zu vermeiden. Unsere Sicherheitsmaßnahmen, wie z. B. die Datenverschlüsselung, werden entsprechend der technologischen Entwicklung regelmäßig verbessert.
+6. Automatisierte Entscheidungsfindung
+Es besteht keine automatisierte Entscheidungsfindung gem. Art. 22 Abs.1,4 DS-GVO.
 
-11. Links zu Websites anderer Anbieter
-Unsere Website kann Links zu Websites anderer Anbieter enthalten. MAN hat sich zum Zeitpunkt der Linksetzung davon überzeugt, dass die direkt verknüpften Seiten frei von illegalen Inhalten waren. MAN hat jedoch keinerlei Einfluss auf die Inhalte der verknüpften Seiten und kann diese nicht fortlaufend kontrollieren. Daher übernimmt MAN keine Haftung für die Inhalte der verknüpften Seiten, die nach der Linksetzung verändert wurden. Diese Datenschutzerklärung gilt nicht für die verlinkten Webseiten anderer Anbieter.
+7. Sicherheit
+Ihre Daten werden von MAN durch technische und organisatorische Sicherheitsmaßnahmen geschützt, um zufällige oder vorsätzliche Manipulationen, Verlust, Zerstörung oder den Zugriff unberechtigter Personen zu verhindern vermeiden.
 
-12. Vorbehalt
-Um der stetigen Entwicklung des Internets gerecht zu werden, kann MAN diese Datenschutzerklärung jederzeit unter Beachtung der datenschutzrechtlichen Vorgaben anpassen.
+Unsere Sicherheitsmaßnahmen, wie z. B. die Datenverschlüsselung, werden entsprechend der technologischen Entwicklung regelmäßig verbessert.

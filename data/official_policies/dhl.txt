@@ -1,0 +1,143 @@
+Besuch unserer Webseite
+
+Die DHL Paket GmbH sorgt für den Schutz der Daten der Nutzer dieser Webseite mit den jeweils separaten Bereichen DHL Paket und DHL Express. Wenn Sie diese Webseite besuchen, speichern die Webserver aus Sicherheitsgründen vorübergehend Daten, die möglicherweise eine Identifizierung zulassen.
+
+Folgende Daten werden hierbei erhoben: IP-Adresse, Hostname des zugreifenden Rechners, Webseite, über die Sie diese Webseite aufgerufen haben, eine Liste der von Ihnen im Rahmen unseres Internetauftritts besuchten Webseiten, das Datum und die Dauer Ihres Besuchs, Meldung, ob der Aufruf erfolgreich war, übertragene Datenmenge, Informationen über den die Identifikationsdaten des von Ihnen verwendeten Browsertyps und Betriebssystems. Weitere persönliche Daten wie Ihr Name, Ihre Anschrift, Telefonnummer oder E-Mail-Adresse werden nicht erfasst, es sei denn, Sie stellen diese Daten von sich aus zur Verfügung, z.B. beim Ausfüllen eines Online-Kontaktformulars, im Rahmen einer Registrierung, Umfrage, eines Wettbewerbs, einer Vertragsabwicklung oder einer Anfrage.
+
+Die vorübergehende Speicherung der Daten ist für den Ablauf eines Webseitenbesuchs erforderlich, um eine Auslieferung der Webseite zu ermöglichen. Eine weitere Speicherung in Protokolldateien erfolgt, um die Funktionsfähigkeit der Webseite und die Sicherheit der informationstechnischen Systeme sicherzustellen. In diesen Zwecken liegt auch das berechtigte Interesse an der Datenverarbeitung. Die Daten werden auf der Grundlage des Art. 6 Abs. 1 lit. f DSGVO verarbeitet.
+
+Die Webseite wird bei T-Systems International GmbH, Hahnstraße 43d, 60528 Frankfurt am Main gehostet. Der Hoster empfängt die oben genannten Daten als Auftragsverarbeiter.
+
+Die Daten werden gelöscht, sobald sie für die Erreichung des Zweckes ihrer Erhebung nicht mehr erforderlich sind. Bei der Bereitstellung der Webseite ist dies der Fall, wenn die Sitzung beendet ist. Die Protokolldateien (Access-Logs) werden 24 Stunden direkt und ausschließlich für Administratoren zugänglich aufbewahrt. Danach sind sie nur indirekt über die Rekonstruktion von Sicherungsbändern verfügbar und werden nach 30 Tagen endgültig gelöscht.
+
+Einsatz von Web Tracking
+
+Die DHL Paket GmbH setzt Tracking-Software ein, um festzustellen, wie viele Nutzer unsere Webseite besuchen und wie oft. Diese Software wird nicht zur Erfassung individueller personenbezogener Daten oder individueller IP-Adressen verwendet. Die Daten werden ausschließlich in anonymer und zusammengefasster Form für statistische Zwecke und zur Weiterentwicklung der Webseite verwendet.
+
+Einsatz von Cookies
+
+"Cookies" sind kleine Dateien, die es ermöglichen, auf Ihrem Gerät spezifische, auf Sie bezogene Informationen zu speichern, während Sie diese Webseite besuchen. Cookies helfen dabei, die Nutzungshäufigkeit und die Anzahl der Nutzer dieser Webseite zu ermitteln, sowie die Angebote für Sie möglichst komfortabel und effizient zu gestalten.
+
+Bei Aufruf dieser Webseite werden Sie über ein Cookie-Banner darüber informiert, dass technisch notwendige Cookies gesetzt werden. Die Verarbeitung von Daten durch technisch notwendige Cookies erfolgt auf Grundlage unseres berechtigten Interesses gem. Art. 6 Abs. 1 lit. f DSGVO, einen technisch einwandfreien Betrieb der Webseite zu gewährleisten. Außerdem werden Sie darüber informiert, dass Sie Ihr Einverständnis im Sinn von Art. 6 Abs. 1 lit. a DSGVO in die Verwendung von Leistungs-Cookies und/oder Analyse-Cookies erteilen können. Natürlich haben Sie die jederzeit Möglichkeit, die bereits erteilte Einwilligung zu widerrufen (siehe Umgang mit Cookies).
+
+Dauer der Speicherung
+
+"Session-Cookies" werden ausschließlich für die Dauer Ihres Besuchs auf dieser Webseite gespeichert. Sie werden automatisch gelöscht, wenn Sie Ihren Browser schließen.
+
+Zum anderen werden "persistente Cookies" benutzt, um Informationen über Besucher festzuhalten, die wiederholt auf diese Webseite zugreifen. Eine Einzelprofilbildung über Nutzungsverhalten findet nicht statt. Der Inhalt eines persistenten Cookies beschränkt sich auf eine Identifikationsnummer. Name, E-Mail-Adresse, IP-Adresse etc. werden nicht gespeichert. Der Zweck des Einsatzes dieser Cookies besteht darin, Ihnen eine optimale Benutzerführung anbieten zu können sowie Sie "wiederzuerkennen" und Ihnen bei wiederholter Nutzung eine möglichst abwechslungsreiche Webseite und neue Inhalte präsentieren zu können. Rechtsgrundlage hierfür die Einwilligung des Nutzers nach Art. 6 Abs. 1 lit. a DSGVO.
+
+In der nachstehenden Übersicht finden Sie Detailinformationen zu allen auf den Webseiten von DHL verwendeten Cookies. Bitte betätigen Sie dazu die folgende Schaltfläche:
+
+Cookie-Einstellungen
+Wenn Sie die DHL Sendungsverfolgung nutzen, setzen wir zusätzlich die folgenden Cookies:
+
+Cookie	Bezeichnung	Zweck	Weitere Informationen
+ 	verfolgenCsrfToken	Dieser Cookie enthält die anonyme Sendungsliste in Form eines Session-Tokens. Folgende Informationen sind damit hinterlegt: Sendungsnummer, Rolle, Packstücklaufzettel-ID und das Einfügedatum in der Sendungsliste. Gültigkeit 25 Minuten.
+Permanent	verfolgen_SL	Dieser Cookie enthält die anonyme Sendungsliste. Folgende Informationen sind damit hinterlegt: Sendungsnummer, Rolle, Packstücklaufzettel-ID und das Einfügedatum in der Sendungsliste.
+Loadbalancer Cookie	lb-cookie	Dieses Cookie enthält die verschlüsselte Session-ID. Vom Portal verwendet, zur Aufrechterhaltung der Sitzung. Dieses Cookie ist ein Sitzungs-Cookie und läuft ab, wenn der Browser geschlossen wird.
+ 	NOLSESSIONID	Erlaubt es dem Backend, die Session des Users zu identifizieren. Dieses Cookie ist ein Sitzungs-Cookie und läuft ab, wenn der Browser geschlossen wird.
+
+
+Wenn Sie die DHL Online Frankierung nutzen, setzen wir zusätzlich die folgenden Cookies:
+
+Cookie	Bezeichnung	Zweck	Weitere Informationen
+ 	ofi.domain
+
+Erlaubt es dem Backend technisch, einfach zu identifizieren, auf welcher Domain der User gerade operiert.
+Wird beim Einsprung oder auf Basis von URL-Parametern gesetzt.
+ 	ofi.lang
+
+Erlaubt es dem Backend technisch, einfach zu identifizieren, in welcher Sprache der User gerade operiert.	Wird beim Einsprung oder auf Basis von URL-Parametern gesetzt.
+ 	ofi.ekp	Speichert den aktuellen Marktplatz des Nutzers/Session.
+ 	OFISESSIONID	Erlaubt es dem Backend, die Session des Users zu identifizieren. Dieses Cookie ist ein Sitzungs-Cookie und läuft ab, wenn der Browser geschlossen wird.	Wird durch den Tomcat gesetzt
+
+
+Wenn Sie den DHL Finder (Standortsuche) nutzen, setzen wir zusätzlich die folgenden Cookies:
+
+Cookie	Bezeichnung	Zweck	Weitere Informationen
+ 	i18next	Dieser Cookie dient der Erkennung der Spracheinstellung des Besuchers. Damit möchten wir das Erlebnis auf der Website angenehmer gestalten. Anhand dieser Information wird erkannt, welche Sprache sich für den Besucher eignet und dementsprechend wird die Spracheinstellung gesetzt. Der Cookie sammelt die oben genannten Informationen anonym. Er wird lediglich vertraulich DHL-intern genutzt, um die Webseiten und die Benutzererfahrung zu verbessern. Dieser Cookie ist ein Sitzungs-Cookie und läuft ab, wenn der Browser geschlossen wird.
+ 	br_<primaryKey>
+
+Dieser Cookie dient der Erkennung eines wiederkehrenden Besuchers als ein- und denselben Nutzer. Anhand dieser Informationen wird erkannt, ob dieser Besucher bereits eine Bewertung für einen Standort abgegeben hat. Der Cookie sammelt die oben genannten Informationen anonym (Individuelle Besucher-ID, Zeit-/Datumsstempel). Der Cookie erlischt bereits nach 24 Stunden.
+
+
+Wenn Sie am DHL Bonusprogramm teilnehmen, setzen wir zusätzlich die folgenden Cookies:
+
+Cookie	Bezeichnung	Zweck	Weitere Informationen
+ 	dhlbuip	Gültigkeit 60 Min., speichert userID zur Anzeige der Bonuspunkte
+
+
+
+Umgang mit Cookies
+
+Sie können unsere Produkte und Dienstleistungen auch ohne Cookies in Anspruch nehmen. In Ihrem Browser können Sie die Speicherung von Cookies deaktivieren, sie auf bestimmte Webseiten begrenzen oder den Browser so einstellen, dass Sie bei der Übermittlung von Cookies benachrichtigt werden. Sie können Cookies außerdem jederzeit von Ihrer Festplatte löschen (Datei: "cookies"). In diesem Fall müssen Sie allerdings mit Einschränkungen bei der Seitendarstellung und bei der Benutzerführung rechnen.
+
+Die meisten Webbrowser erlauben über die Browsereinstellungen bis zu einem gewissen Grad eine Steuerung der meisten Cookies.
+
+Für Detailinformationen über Cookies, u.a., wie Sie feststellen können, welche Cookies gesetzt wurden und wie Sie damit umgehen und sie löschen können, besuchen Sie die Seite:
+Alles über Cookies
+
+Weitere EU-spezifische Empfehlungen zu Cookies und die diversen Ihnen zur Verfügung stehenden Opt-Out-Optionen finden Sie auf der folgenden Webseite:
+Ihre Wahlmöglichkeiten im Web
+
+Wenn Sie das Tracking durch Adobe Analytics generell ausschalten wollen, klicken Sie auf den nachstehenden Adobe Analytics Opt-Out-Link:
+Adobe Analytics Opt-Out
+
+Hatten Sie bisher Opt-Out gewählt und möchten Sie diese Einstellung rückgängig machen, klicken Sie auf den nachstehenden Adobe Analytics Opt-In-Link:
+Adobe Analytics Opt-In
+
+Sie können auch einige oder alle der auf Ihrem Rechner gesetzten Werbe-Cookies ausschalten, indem Sie die Network Advertising Initiative (NAI) oder den Präferenzmanager von meine-cookies.org besuchen.
+
+Nicht alle Zugriffe auf unsere Internetpräsenz erfolgen über einen Webbrowser. Es wird Nutzer geben, die auf die DHL-Webseiten oder Anwendungen mit einem mobilen Gerät zugreifen. In diesem Fall ist die Deaktivierung von Cookies oder die Veränderung von Webbrowser-Einstellungen eventuell nicht möglich.
+
+
+
+Hinweis auf Adressmatching Technologie
+
+Nutzung der Adressmatching Technologie der Deutschen Post AG - Ihr Widerspruchsrecht
+
+Unsere Website nutzt die Adressmatching Technologie der Deutsche Post AG für die Ermittlung statistischer Kennwerte und zur Zielgruppenbildung für eine werbliche Ansprache (offline und online). Für diese Messung wird Ihre hinterlegte Liefer-/oder Rechnungsadresse durch einen beauftragten Dienstleister einer anonymen Mikrozelle der Deutschen Post Direkt GmbH zugeordnet (Ø 6,6 Haushalte) und diese Kennziffer in verschlüsselter Form bei einem weiteren Dienstleister hinterlegt (Adressmatching).
+
+Rechtsgrundlage für diese Nutzung der Anschrift in gemeinsamer Verantwortung von uns und der Deutschen Post AG ist Art. 6 Abs. 1 S. 1 lit f) DSGVO. Die Adresse wird unmittelbar nach dem Abgleich bei dem Dienstleister gelöscht. Verantwortlich für diesen ersten Verarbeitungsschritt - der Nutzung der hinterlegten Anschrift zum Zwecke des Abgleichs mit der Mikrozellen-Datenbank - ist somit der Betreiber der Webseite. Gleiches gilt auch für die nachfolgend beschriebene Verpixelung der Webseite und Weiterleitung der Anfrage eines Users / Nutzers an die Deutsche Post AG zur nachfolgenden Markierung mittels Cookie.
+
+Sofern Sie eine Einwilligung erteilt haben, wird nach einem Zugriff auf unsere Webseite eine Anfrage des von Ihnen genutzten Endgerätes bei einem Server eines von der Deutsche Post AG beauftragter Dienstleisters veranlasst, der zwei Cookies auf dem von Ihnen verwendeten PC oder sonstigem Device / Endgerät speichert. Die Einwilligung umfasst auch die Befugnis, die von der Deutschen Post AG gespeicherten Cookies nachträglich auszulesen und mit den Cookies anderer Anbieter zu synchronisieren ("Cookie Matching"). Hierzu wird die auf Ihrem Endgerät gespeicherte Cookie-Kennung eines Drittanbieters an die Deutsche Post AG weitergeleitet, dort zur vergebenen Cookie-ID gespeichert und zur Umsetzung der genannten Zwecke verwendet. Wir als Betreiber der Webseite dokumentieren die auf unserer Webseite erteilte Einwilligung und stellen sie im Bedarfsfall der Deutschen Post AG zur Verfügung.
+
+Mit Hilfe der Cookies wird erfasst, dass Sie eine an der Messung teilnehmende Website besuchen. Diese Information wird dann auf Basis der bereits erwähnten anonymen Mikrozelle der Deutschen Post Direkt GmbH aggregiert und kann somit nicht mehr Ihrer Person zugeordnet werden.
+
+Die Einwilligung umfasst nachfolgend angeführte Zwecke:
+
+Messung von Zugriffen auf Webseiten, die ich besucht habe und die an dem Consentric -Verfahren der Deutschen Post AG teilnehmen, zur anonymen Ausweisung in Statistiken;
+Messung von Zugriffen auf Webseiten, die ich besucht habe und die an dem Consentric -Verfahren der Deutschen Post AG teilnehmen zur Ermittlung von relevanten, anonymen Mikrozellen der Deutschen Post Direkt GmbH;
+Weitergabe von Cookie-Kennungen an Partnerunternehmen zum Zweck der Zielgruppenbildung fur die Ausspielung von Online-Werbung. Die fur diesen Zweck verwendeten Cookie-Kennungen wurden vorab aufgrund der mittelbar zugeordneten Mikrozelle als relevante Zielgruppe ausgewahlt.
+Abgleich mit Cookies anderer Anbieter (.Cookie Matching¡§). Die auf meinem Endgerat gespeicherte Cookie-Kennung eines Drittanbieters darf an die Deutsche Post AG weitergeleitet, dort zur eigenen Cookie-Kennung [Cookie-ID] gespeichert und zur Umsetzung der zuvor genannten Zwecke verwendet werden
+Sie können der Datenverarbeitung im Rahmen des beschriebenen Verfahrens unter folgendem Link widersprechen bzw. die erteilte Einwilligung widerrufen:
+
+https://pixel.consentric.de/optout
+
+https://login.intelliad.com/optout.php
+
+Bitte beachten Sie: Nur anhand des bei Ihnen gesetzten Cookies können wir Sie erkennen und Ihrem Opt-Out zuordnen. Daher bleibt auch nach einem Opt-Out der Cookie gesetzt.
+
+Sollten Sie weitere Nachfragen zum Umgang mit personenbezogenen Daten haben, insbesondere Auskunft über verarbeitete personenbezogene Daten wünschen oder weitere Rechte geltend machen wollen, wenden Sie sich bitte zunächst an den Betreiber der Webseite. Weitere Informationen zum Datenschutz bei dem hier angesprochenen Consentric-Verfahren finden Sie unter https://www.deutschepost.de/de/c/consentric/datenschutz.html
+
+Das Recht, Ihre Betroffenenrechte auch gegenüber der Deutschen Post AG geltend zu machen, bleibt hiervon unberührt. Senden Sie Ihre Anfrage an consentric@deutschepost.de
+
+Das Verfahren zur Markierung eines Endgerätes und Zuordnung einer Kennung zur relevanten Mikrozelle der Deutschen Post Direkt GmbH wurde unter der Beachtung des Datenschutzes entwickelt und erhielt als - besonders datenschutzkonform - das Datenschutzgütesiegel der ADCERT Privacy Audit GmbH (www.adcert.eu).
+
+Bing Maps
+
+Im Rahmen der Sendungsverfolgung und Standortsuche bietet die DHL Paket GmbH Ihnen durch die Einbindung von Bing Maps ein verbessertes Nutzerlebnis auf dieser Webseite.
+
+Sendungsverfolgung: Mit Hilfe der Sendungsnummer können Sie Ihre Pakete verfolgen und den voraussichtlichen Zeitpunkt der Zustellung einsehen. Ist ein DHL Standort als Lieferadresse hinterlegt, dann können Sie diesen über die Karte von Bing Maps einsehen.
+Standortsuche: Auf dieser Webseite können Sie im Standortfinder nach unseren Filialen, Packstationen und Paketshops suchen, diese werden Ihnen auf einer Bing Maps Karte dargestellt.
+Für die Kartendarstellung nutzen wir Bing Maps von Microsoft Corporation (One Microsoft Way, Redmond, WA 98052-6399, USA). Hierzu werden folgende Daten an Microsoft übertragen:
+
+Referrer (Adresse der Seite auf der Bing Maps verwendet wird)
+IP-Adresse des Users
+Der genutzte Browser und Browserpräferenzen wie Browsergröße und -auflösung, Browser-Plugins, Datum, Spracheinstellung
+Standort des Nutzers: ausschließlich wenn der Nutzer die Browseranfrage "Soll www.dhl.de auf Ihren Standort zugreifen dürfen?" explizit bestätigt
+Die Datenverarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Die DHL Paket GmbH hat ein berechtigtes Interesse daran, die DHL Standorte für den Kunden bestmöglich zu visualisieren, da jeder zehnte Webseitenbesucher während seines Aufenthalts auf dieser Webseite eine Suchanfrage stellt. Zudem bietet die Karte im Kontext Standortsuche dem Kunden die Möglichkeit, sich den Weg vom Standort des Kunden zur Filiale/Packstation anzeigen zu lassen. Dieser Service wäre ohne eine Kartendarstellung nicht möglich.
+
+Bei der Standortsuche wird ausschließlich die vom Anwender eingegebene Suchadresse weitergegeben. Durch uns findet keine Verknüpfung oder Speicherung zwischen der Sucheingabe und dem Nutzer statt.
+
+Die Verarbeitung im Rahmen der Nutzung von Bing Maps und der über Bing Maps erlangten Informationen erfolgt gemäß den Microsoft Bing Maps-Nutzungsbedingungen Microsoft Bing Maps and MapPoint Web Service End User Terms of Use and Embedded Maps Service Terms of Use. Außerdem gilt die Datenschutzerklärung von Microsoft und der Microsoft-Servicevertrag.

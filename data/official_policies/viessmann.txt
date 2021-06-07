@@ -1,24 +1,24 @@
 Datenschutzerklärung
 Grundsätzliche Informationen
-Wir, die Viessmann Werke GmbH & Co. KG (im folgenden “Viessmann” oder “wir”) als Teil der Viessmann Group, nehmen den Schutz Ihrer persönlichen Daten sehr ernst und halten uns strikt an die Regeln der aktuell geltenden Datenschutzgesetze. Dazu zählt vor allem die Datenschutz Grundverordnung (im Folgenden: “DS-GVO”, Verordnung (EU) 2016/679 des europäischen Parlaments und des Rates. Die Viessmann Group sind die mit der Viessmann Werke GmbH & Co. KG verbundenen Unternehmen. Das sind solche, auf die wir einen bestimmenden Einfluss nehmen können.
+Wir, die Viessmann Climate Solutions SE (im folgenden “Viessmann” oder “wir”) als Teil der Viessmann Group, nehmen den Schutz Ihrer persönlichen Daten sehr ernst und halten uns strikt an die Regeln der aktuell geltenden Datenschutzgesetze. Dazu zählt vor allem die Datenschutz Grundverordnung (im Folgenden: “DS-GVO”, Verordnung (EU) 2016/679 des europäischen Parlaments und des Rates. Die Viessmann Group sind die mit der Viessmann Climate Solutions SE verbundenen Unternehmen. Das sind solche, auf die wir einen bestimmenden Einfluss nehmen können.
 
 Personenbezogene Daten werden auf unseren Webseiten und bei Nutzung unserer Apps und Services nur im notwendigen Umfang erhoben und zweckgebunden verarbeitet. Personenbezogene Daten sind solche Daten, durch die Sie persönlich identifizierbar sind oder mit Ihnen verknüpfte, sonstige Daten.
 
 Verantwortliche Stelle im Sinne des Bundesdatenschutzgesetzes/DS-GVO:
 
-Viessmann Werke GmbH & Co. KG
+Viessmann Climate Solutions SE
 Viessmannstraße 1D-35108 Allendorf (Eder)
 Telefon: +49 6452 70-0
 Telefax: +49 6452 70-2780
 E-Mail: info@viessmann.com
 
 Verarbeitung innerhalb der Viessmann Group
-Im Auftrag von uns, der Viessmann Werke GmbH & Co. KG, arbeiten:
+Im Auftrag von uns, der Viessmann Climate Solutions SE, arbeiten:
 
 Viessmann Deutschland GmbH für Vertriebszwecke und Marketing
-VC/O GmbH für den Betrieb der Webseiten und Apps sowie Marketing
+Viessmann Climate Solutions Berlin GmbH für den Betrieb der Webseiten und Apps sowie Marketing
 Viessmann IT Service GmbH für den Betrieb der Backend-Systeme
-Viessmann PV + E GmbH und Digital Energy Solutions GmbH & Co. KG für Vertriebszwecke und Marketing
+Viessmann PV + E GmbH, Viessmann Solutions & Services GmbH und Energy Market Solutions GmbH für Vertriebszwecke und Marketing
 Durch andere Gruppenfirmen der Viessmann Group können die erhobenen Daten verarbeitet oder an diese weitergegeben werden, wenn:
 
 Sie hierzu ausdrücklich und informiert an anderer Stelle (z.B. Hinweis im Anfrageformular) eingewilligt haben,
@@ -29,7 +29,7 @@ die Daten durch die verantwortliche Stelle anonymisiert gespeichert werden und d
 Die Unternehmen der Viessmann Group verarbeiten/übermitteln die von Ihnen zur Verfügung gestellten Daten in/an Standorten Deutschlands, der europäischen Union sowie Drittländer (u.a. USA), die ein angemessenes Datenschutzniveau gem. Artikel 45 DS-GVO aufweisen oder geeignete Garantien gem. Artikel 46 DS-GVO bieten.
 
 Anwendungsbereich der Datenschutzerklärung
-Die nachfolgende Erklärung gibt Ihnen einen Überblick darüber, wie wir den Datenschutz gewährleisten, welche Art von Daten zu welchem Zweck und auf welcher Rechtsgrundlage erhoben und verarbeitet werden. Sie hat grundsätzliche Geltung für alle von Viessmann verantworteten Webseiten und Apps. Weichen Viessmann Webseiten und Apps von diesen Grundsätzen der Datenverarbeitung ab oder ergänzen diese durch eigene, so wird dies auf den entsprechenden Webseiten bzw. in den Apps in geeigneter Weise kenntlich gemacht.
+Die nachfolgende Erklärung gibt Ihnen einen Überblick darüber, wie wir den Datenschutz gewährleisten, welche Art von Daten zu welchem Zweck und auf welcher Rechtsgrundlage erhoben und verarbeitet werden. Sie hat grundsätzliche Geltung für alle von Viessmann verantworteten Webseiten und Apps und wenn Sie auf anderen Kommunikationswegen mit uns in Kontakt treten. Weichen Viessmann Webseiten und Apps von diesen Grundsätzen der Datenverarbeitung ab oder ergänzen diese durch eigene, so wird dies auf den entsprechenden Webseiten bzw. in den Apps in geeigneter Weise kenntlich gemacht.
 
 Diese Datenschutzerklärung besteht aus fünf Teilen:
 
@@ -57,11 +57,13 @@ Ihre Zahlungsinformationen
 Ihr bisher genutzter Heizungsfachbetrieb
 Produktname Ihres Viessmann Produktes
 Herstellernummer Ihres Viessmann Produktes
-Soweit Sie uns personenbezogene Daten zur Verfügung stellen, verwenden wir diese zur Beant- wortung Ihrer Anfragen, zur Abwicklung und Durchführung Ihrer Beratungsanfrage, für die technische Administration, für Login-Aktivitäten und die innerhalb der jeweiligen Webseiten oder Apps zur Verfügung gestellten Dienste. Rechtsgrundlage hierfür ist Art. 6 Abs. 1  Satz 1 b DS-GVO bzw. Ihre Einwilligung. Die Einwilligung zur Nutzung Ihrer zur Verfügung gestellten Daten können Sie jederzeit widerrufen. Bitte wenden Sie sich dazu, möglichst unter Angabe des/der genutzten Services, an: datenschutz@viessmann.com
+Soweit Sie uns personenbezogene Daten zur Verfügung stellen, verwenden wir diese zur Beantwortung Ihrer Anfragen, zur Abwicklung und Durchführung Ihrer Beratungsanfrage, für die technische Administration, für Login-Aktivitäten und die innerhalb der jeweiligen Webseiten oder Apps zur Verfügung gestellten Dienste. Rechtsgrundlage hierfür ist Art. 6 Abs. 1  Satz 1 b DS-GVO bzw. Ihre Einwilligung. Die Einwilligung zur Nutzung Ihrer zur Verfügung gestellten Daten können Sie jederzeit widerrufen. Bitte wenden Sie sich dazu, möglichst unter Angabe des/der genutzten Services, an: datenschutz@viessmann.com
 
 Telefonische Kontaktaufnahme durch Viessmann
-Sollten Sie unserer Datenschutzerklärung zugestimmt und uns bei einer Beratungsanfrage Ihre Telefonnummer mitgeteilt haben, kontaktieren wir Sie vor der Weiterleitung Ihrer Beratungsanfrage an unseren Partnerbetrieb telefonisch, um die Richtigkeit Ihrer Angaben zu überprüfen, Ihr Vorhaben zu besprechen und Sie an den passenden Fachbetrieb vermitteln zu können.
+Sollten Sie unserer Datenschutzerklärung zugestimmt und uns bei einer Beratungsanfrage Ihre Telefonnummer mitgeteilt haben, kontaktieren wir Sie vor der Weiterleitung Ihrer Beratungsanfrage an unseren Partnerbetrieb telefonisch, um die Richtigkeit Ihrer Angaben zu überprüfen, Ihr Vorhaben zu besprechen und Sie an den passenden Fachbetrieb vermitteln zu können. Im Anschluss werden wir Sie, bei Angabe Ihrer Mobilfunknummer, u.a. per SMS nach Feedback zum aktuellen Stand befragen. Es entstehen dadurch keine Kosten für Sie.
 
+Schriftliche  Kontaktaufnahme durch Viessmann
+Sollten Sie unserer Datenschutzerklärung zugestimmt und uns bei einer Beratungsanfrage Ihre E-Mail-Adresse und/oder Mobilfunknummer mitgeteilt haben, erfassen wir Ihre Öffnungen und Klicks in E-Mail- und Push-Nachrichten sowie SMS. Dies ist notwendig, um die einzelnen Prozessschritte Ihrer Fachberatung einleiten zu können. Diese Daten werden im Anschluss an die Fachberatung gelöscht.
 Information über die Weitergabe Ihrer Daten und Bewertung
 Sollten Sie unserer Datenschutzerklärung zugestimmt und uns bei einer Beratungsanfrage Ihre E-Mail-Adresse mitgeteilt haben, informieren wir Sie per E-Mail über den aktuellen Stand Ihrer Beratungsanfrage über unseren Service. Dazu senden wir Ihnen unter anderem eine Nachricht mit den Kontaktdaten des vermittelten Fachpartners sowie im Anschluss an Ihre Beratung eine Möglichkeit zur Bewertung dieses Fachbetriebs. Geben Sie Ihre E-Mail-Adresse bei Ihrer Fachberatungsanfrage nicht an, können wir Ihnen leider keinen Fachberatungsservice ermöglichen.
 
@@ -71,22 +73,32 @@ Zur Erbringung des Services der Fachberatungsanfrage bzw. Fachbetriebsvermittlun
 Dieser Fachpartner wird dazu aufgefordert, Sie innerhalb eines festgelegten Zeitrahmens zu kontaktieren, um die von Ihnen angeforderte Fachberatung und/oder Angebotserstellung vornehmen zu können. Zu diesem Zwecke erfolgt eine Kontaktaufnahme durch den Fachbetrieb per E-Mail und/oder Telefon.
 
 Weitere Verarbeitung und Löschung Ihrer Daten
-Darüber hinaus werden Ihre Daten an Dritte, d.h. nicht zur Viessmann Group gehörende Personen oder Unternehmen, nicht weitergegeben oder verkauft. Die Löschung der gespeicherten personenbezogenen Daten erfolgt, wenn Sie Ihre Einwilligung zur Speicherung widerrufen, wenn die Daten zur Erfüllung des mit der Speicherung verfolgten Zwecks nicht mehr erforderlich sind oder wenn ihre Speicherung aus sonstigen gesetzlichen Gründen unzulässig ist.
-
+Darüber hinaus werden Ihre Daten an Dritte, d.h. nicht zur Viessmann Group gehörende Personen oder Unternehmen, nicht weitergegeben oder verkauft. Die Löschung der gespeicherten personenbezogenen Daten erfolgt, wenn Sie Ihre Einwilligung zur Speicherung widerrufen, wenn die Daten zur Erfüllung des mit der Speicherung verfolgten Zwecks nicht mehr erforderlich sind oder wenn ihre Speicherung aus sonstigen gesetzlichen Gründen unzulässig ist. Wir bieten Ihnen noch bis zu 3 Monate nach Abschluss Ihrer Fachberatung weitere Informationen und Services per E-Mail.
 Werbung und Werbeeinwilligung
-Wir, d.h. die Viessmann Werke GmbH & Co. KG, Viessmann Deutschland GmbH, VC/O GmbH und Viessmann PV + E GmbH, informieren Sie per E-Mail, Post oder Telefon nur über Produkte und Services von Viessmann und befragen Sie hierüber gegebenenfalls, sofern Sie uns ausdrücklich Ihre Einwilligung zur Nutzung Ihrer personenbezogenen Daten für Werbezwecke gegeben haben (Opt-In).
+Wir, d.h. die Viessmann Climate Solutions SE, Viessmann Deutschland GmbH, Viessmann Climate Solutions Berlin GmbH und Viessmann PV + E GmbH, informieren Sie per E-Mail, Post oder Telefon nur über Produkte und Services von Viessmann und befragen Sie hierüber gegebenenfalls, sofern Sie uns ausdrücklich Ihre Einwilligung zur Nutzung Ihrer personenbezogenen Daten für Werbezwecke gegeben haben (Opt-In).
 
-Dies erfolgt durch das aktive Setzen eines Häkchens unter unseren Formularen neben der Aussage “Ja, die Viessmann Werke GmbH & Co. KG, Viessmann Deutschland GmbH, VC/O GmbH, Viessmann PV + E GmbH und Digital Energy Solutions GmbH & Co. KG dürfen meine E-Mail-Adresse und/oder Telefonnummer verwenden, damit ich über die neuesten Produkte und Services informiert werde. Ich nutze hiermit auch meine Chance über Markt- und Meinungsforschung sowohl Kritik als auch Lob zu platzieren. Diese Einwilligung kann mit Wirkung für die Zukunft jederzeit von mir widerrufen werden.”
+Dies erfolgt durch das aktive Setzen eines Häkchens unter unseren Formularen neben der Aussage “Ja, die Viessmann Climate Solutions SE, Viessmann Deutschland GmbH, Viessmann Climate Solutions Berlin GmbH, Viessmann PV + E GmbH und Energy Market Solutions GmbH dürfen meine E-Mail-Adresse und/oder Telefonnummer verwenden, damit ich über die neuesten Produkte und Services informiert werde. Ich nutze hiermit auch meine Chance über Markt- und Meinungsforschung sowohl Kritik als auch Lob zu platzieren. Diese Einwilligung kann mit Wirkung für die Zukunft jederzeit von mir widerrufen werden.”
 
 Bitte beachten Sie: Der Ihnen auf der jeweiligen Webseite/App angezeigte Text kann unter Umständen abweichende Unternehmen aufzählen, wenn diese von Ihrer Anfrage betroffen sind.
 
 Wenn Sie uns Ihre Einwilligung für eine solche Nutzung erteilt haben, aber in Zukunft keine Werbung oder Befragungen mehr von Viessmann erhalten möchten, können Sie Ihre Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen. Ihre Daten werden dann gelöscht oder, sofern sie für Abrechnungs- und Buchhaltungszwecke noch erforderlich sind, an diese Zwecke gebunden gespeichert. Schreiben Sie dazu eine E-Mail an widerruf@viessmann.com.
 
+Newsletter
 Verwendung personenbezogener Daten bei Anmeldung zum E-Mail-Newsletter
+
 Melden Sie sich auf den Viessmann Webseiten oder in den Viessmann Apps für einen unserer Newsletter an, so wird Ihre E-Mail-Adresse zu Informations- und Werbezwecken genutzt, bis Sie sich von diesem Newsletter abmelden. Mit der Anmeldung zum Newsletter speichern wir Ihre E-Mail-Adresse, Ihre IP-Adresse und das Datum der Anmeldung. Diese Speicherung dient allein dem Nachweis im Fall, dass ein Dritter eine E-Mail-Adresse missbraucht und sich ohne Wissen des Berechtigten für den Newsletter-Empfang anmeldet.
 
 Ihre Einwilligung in den Erhalt des Newsletters können Sie jederzeit mit Wirkung für die Zukunft widerrufen. Wenn Sie den Newsletter nicht weiter beziehen möchten, können Sie sich jederzeit über den Abmeldelink im Newsletter aus unserem Verteiler austragen lassen oder Sie schreiben eine E-Mail an widerruf@viessmann.com.
 
+Optimierung von E-Mail und Newsletter-Inhalten
+
+Wir, d.h. die Viessmann Climate Solutions SE, Viessmann Deutschland GmbH, Viessmann Climate Solutions Berlin GmbH und Viessmann PV + E GmbH, informieren Sie per E-Mail über Produkte und Services von Viessmann sofern Sie eine entsprechende Anfrage zu Services und Leistungen an Viessmann gestellt haben, Sie uns ausdrücklich Ihre Einwilligung zur Nutzung Ihrer personenbezogenen Daten für Werbezwecke gegeben haben (Opt-In) oder einen unserer Newsletter abonniert haben. Um Ihnen speziell auf Ihre Bedürfnisse optimierte Inhalte anbieten zu können nutzen wir E-Mail-Tracking Technologien der salesforce.com Germany GmbH.
+
+Dies erfolgt durch das aktive Setzen eines Häkchens unter unseren Formularen neben der Aussage “Ja, ich willige in E-Mail und Newsletter-Tracking ein, damit die Inhalte für mich optimiert werden können. Diese Einwilligung kann mit Wirkung für die Zukunft jederzeit von mir widerrufen werden.”
+
+Über das E-Mail- und den Newsletter-Tracking sind statistische Auswertungsmöglichkeiten von Nutzungsdaten möglich. Hierzu erfassen wir sowohl die Öffnungen der E-Mail als auch die internen Klicks. Diese Informationen dienen dazu, die Inhalte der E-Mails und Newsletter spannender und relevanter zu gestalten sowie den Erfolg der Marketing-Kampagnen zu messen.
+
+Wenn Sie uns Ihre Einwilligung für eine solche Nutzung erteilt haben, aber in Zukunft keine Werbung oder Befragungen mehr von Viessmann erhalten möchten, können Sie Ihre Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen. Schreiben Sie dazu eine E-Mail an widerruf@viessmann.com.
 Verwendung personenbezogener Daten bei Nutzung des Kontaktformulars
 Wenn Sie uns Anfragen über eines unserer Kontaktformulare zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung Ihrer Anfrage und für den Fall von Anschlussfragen zum gleichen Thema bei uns gespeichert. Diese Daten werden nicht an Dritte weitergegeben.
 
@@ -117,17 +129,21 @@ Die Löschung der gespeicherten personenbezogenen Daten erfolgt, wenn Sie Ihre E
 
 Für weitere personenbezogene Daten, die im Rahmen Lieferung und Leistung von Produkten und Dienstleistungen gem. Artikel 6 Abs.1 lit.b)  verarbeitet werden gelten die Datenschutzbestimmungen in den jeweiligen allgemeinen Verkaufsbedingungen.
 
+Weitergabe personenbezogener und Unternehmensdaten
+Zur Erbringung von Services durch Dritte oder angebotene Leistungen von Partnern (diese sind innerhalb des jeweiligen Einwilligungstextes aufgezählt) leiten wir mit ihrer Einwilligung die von Ihnen eingegebenen personenbezogenen und Unternehmensdaten an diese, insbesondere zum Zweck der Kontaktaufnahme, weiter.
+
 III. Bestimmungen für Bewerber
-Dieser Teil der Datenschutzbestimmungen gilt für Bewerber auf Stellenanzeigen von Unternehmen der Viessmann Group oder Drittunternehmen, denen Viessmann eine Plattform bzw. Partnerprogramm für Stellenanzeigen/ -vermittlung zur Verfügung stellt. Dies gilt nur insoweit, als dass diese Bewerber personenbezogene Daten im Rahmen des Bewerbungsverfahrens, z.B. Bewerbung in Papierform, E-Mail, Kontaktformulare mit Anhang bzw. durch Viessmann betriebene Portale oder die Nutzung elektronischer Stellenbörsen Dritter entsprechend der erforderlichen Inhalte, auch gemäß weiterer landesgesetzlicher Vorgaben, an Viessmann übermitteln. Auf Papier übermittelte Bewerbungsunterlagen werden eingescannt und in unseren Systemen gespeichert, das Papier danach datenschutzrechtlich konform über zertifizierte Dienstleister entsorgt.
+Dieser Teil der Datenschutzbestimmungen gilt für Bewerber auf Stellenanzeigen von Unternehmen der Viessmann Group oder Drittunternehmen, denen Viessmann eine Plattform bzw. Partnerprogramm für Stellenanzeigen/ -vermittlung zur Verfügung stellt. Dies gilt nur insoweit, als dass diese Bewerber personenbezogene Daten im Rahmen des Bewerbungsverfahrens, z.B. Bewerbung in Papierform, E-Mail, Kontaktformulare mit Anhang bzw. durch Viessmann betriebene Portale (z.B. AZUBI-Portal) oder die Nutzung elektronischer Stellenbörsen Dritter entsprechend der erforderlichen Inhalte, auch gemäß weiterer landesgesetzlicher Vorgaben, an Viessmann übermitteln. Auf Papier übermittelte Bewerbungsunterlagen werden eingescannt und in unseren Systemen gespeichert, das Papier danach datenschutzrechtlich konform über zertifizierte Dienstleister entsorgt.
 
-Ihre personenbezogenen Daten verwenden wir nur zur Abwicklung Ihrer Bewerbung und auf Grundlage der Einwilligung in diese Datenschutzerklärung. Die Einsicht in Ihre Unterlagen haben die Personalverantwortlichen der Viessmann Werke GmbH & Co. KG, des jeweiligen Gruppenunternehmens sowie Vorgesetzte bzw. andere Recruiting-Verantwortliche in deren Bereich die Stelle ausgeschrieben ist. Eine weitere Form der Verarbeitung erfolgt anonymisiert zum Zwecke der Erfolgsmessung der Stellenbesetzungen und der verwendeten technischen Bewerbungskanäle sowie, auch anonymisiert, der übermittelten Fähigkeiten von Bewerbern.
+Ihre personenbezogenen Daten verwenden wir nur zur Abwicklung Ihrer Bewerbung und/oder im Rahmen des Talent Relationship Managements und auf Grundlage der Einwilligung in diese Datenschutzerklärung.  Zur Abwicklung Ihrer Bewerbung gehört, insofern erforderlich, auch die Nutzung Ihrer Daten zur Kontaktaufnahme per E-Mail und/oder Post und/oder Telefon sowie, wenn gegeben (z.B. Azubi-Portal), auch die Weitergabe der Bewerbungsunterlagen an Drittunternehmen. Die Einsicht in Ihre Unterlagen haben die Recruiting- und Personalverantwortlichen der Viessmann Climate Solutions Berlin GmbH, der Viessmann Climate Solutions SE, des jeweiligen Gruppenunternehmens sowie Vorgesetzte bzw. andere Recruiting-Verantwortliche in deren Bereich die Stelle ausgeschrieben ist. Eine weitere Form der Verarbeitung erfolgt anonymisiert zum Zwecke der Erfolgsmessung der Stellenbesetzungen und der verwendeten technischen Bewerbungskanäle sowie, auch anonymisiert, der übermittelten Fähigkeiten von Bewerbern.
 
-Die Verarbeitung der Daten erfolgt mit Hilfe von Systemen der Greenhouse Software, Inc., einem Unternehmen mit Sitz in den USA. Die Viessmann Werke GmbH & Co. KG hat hierzu entsprechend Artikel 46 DS-GVO mit Greenhouse einen Vertrag auf Basis der EU Standarddatenschutzklauseln abgeschlossen.
+Die Verarbeitung der Daten erfolgt, mit Ausnahme des AZUBI-Portals, mit Hilfe von Systemen der Greenhouse Software, Inc., einem Unternehmen mit Sitz in den USA. Die Viessmann Climate Solutions Berlin GmbH hat hierzu entsprechend Artikel 46 DS-GVO mit Greenhouse einen Vertrag auf Basis der EU Standarddatenschutzklauseln abgeschlossen.
 
-Die Löschung der gespeicherten personenbezogenen Daten des Bewerbers erfolgt automatisch frühestens nach 4, aber spätestens nach 6 Monaten, ab dem Zeitpunkt, an dem der Bewerber informiert wurde, dass die Stelle nicht durch ihn besetzt wird und keine weiteren gesetzlichen Vorgaben dem entgegenstehen. Die Frist ergibt sich aus den Vorgaben des Allgemeinen Gleichstellungsgesetzes. Nur bei einer ausdrücklichen Einwilligung Ihrerseits auf unsere Nachfrage verbleiben Ihre Daten in unserem System gespeichert, um für zukünftige andere Stellenausschreibungen in Betracht gezogen werden zu können.
+Die Löschung der gespeicherten personenbezogenen Daten des Bewerbers erfolgt automatisch frühestens nach 4, aber spätestens nach 6 Monaten, ab dem Zeitpunkt, an dem der Bewerber informiert wurde, dass die Stelle nicht durch ihn besetzt wird und keine weiteren gesetzlichen Vorgaben dem entgegenstehen. Die Frist ergibt sich aus den Vorgaben des Allgemeinen Gleichstellungsgesetzes.
+
+Bei Aufnahme in das Talent Relationship Management Program werden Ihre Daten in unserem System bis zu 365 Tage gespeichert, um für zukünftige Stellenausschreibungen vorab in Betracht gezogen werden zu können. Hierbei nutzen wir Ihre zur Verfügung gestellten Daten zur Kontaktaufnahme per E-Mail und/oder Post und/oder Telefon. Nur bei einer ausdrücklichen Einwilligung Ihrerseits auf unsere Nachfrage verbleiben Ihre Daten auch über diesen Zeitraum hinaus in unserem System gespeichert, um für zukünftige andere Stellenausschreibungen in Betracht gezogen werden zu können.
 
 Bei der Übersendung von Bewerbungsunterlagen in Papierform ohne Bezug auf Stellenanzeigen in unseren elektronischen Formaten z.B. als Initiativbewerbung, erhalten Sie eine Zusammenfassung dieser Datenschutzerklärung, zusammen mit einer Eingangsbestätigung Ihres Schreibens oder jedoch spätestens bei einer Absage unsererseits.
-
 IV. Allgemeine Informationen und Bestimmungen für die Viessmann Webseiten und Apps
 Diese Bestimmungen gelten zusätzlich zu den Bestimmungen für private Nutzer sowie den Bestimmungen für geschäftliche Nutzer für die Webseiten und Apps von Viessmann. Für unsere Apps existieren teilweise zusätzliche eigene Datenschutzerklärungen. Die Datenschutzerklärung der Viessmann Apps ViCare und Vitotrol Plus finden Sie unter folgendem Link: https://www.viessmann.de/de/misc/apps/vicare-vitotrol/privacy-policy.html
 
@@ -147,15 +163,14 @@ Gewährleistung eines reibungslosen Verbindungsaufbaus der Webseite
 Gewährleistung einer komfortablen Nutzung der vorgenannten Webseite
 Auswertung der Systemsicherheit und Systemstabilität
 Für weitere administrative und statistische Zwecke
-
 Die personenbezogenen Daten der Server Log Files werden auf Basis von Art. 6 Abs. 1 lit. f DSGVO verarbeitet. Dieser Erlaubnistatbestand gestattet die Verarbeitung von personenbezogenen Daten im Rahmen des „berechtigten Interesses“ des Verantwortlichen, soweit nicht Ihre Grundrechte, Grundfreiheiten oder Interessen überwiegen. Unser berechtigtes Interesse besteht in der leichteren Administration und der Möglichkeit, Hacking zu erkennen und zu verfolgen. Sie können dieser Datenverarbeitung jederzeit widersprechen, wenn Gründe vorliegen, die in Ihrer besonderen Situation bestehen und die gegen die Datenverarbeitung sprechen. Hierzu genügt eine E-Mail an den Datenschutzbeauftragten. Unser berechtigtes Interesse folgt aus oben aufgelisteten Zwecken zur Datenerhebung. In keinem Fall verwenden wir die erhobenen Daten zu dem Zweck, Rückschlüsse auf Ihre Person zu ziehen.
 
 Die Server Log Files mit den oben genannten Daten werden automatisch nach 30 Tagen gelöscht oder im Falle der Verwendung für Statistiken anonymisiert. Wir behalten uns vor, die Server Log Files länger zu speichern, wenn Tatsachen vorliegen, die die Annahme eines unzulässigen Zugriffs (wie etwa der Versuch eines Hackings oder einer sogenannten DDOS-Attacke) nahe legen.
 
-Datenverarbeitung zum Zugang und Zugriff auf unsere Webseiten und  Apps - “Viessmann Account”
-Viessmann nutzt für die Erteilung, die Änderung und das Löschen von Zugangs- und Zugriffsberechtigungen für nicht öffentliche oder nicht frei nutzbare Webseiten und Apps neben herkömmlichen Login-Funktionen (z.B. Benutzerkennung und Passwort) ein zentrales Identitäts und Zugriffsmanagement System (“IAM”). Hierfür werden folgende  personenbezogene Daten von Ihnen verarbeitet:
+Datenverarbeitung zum Zugang und Zugriff auf unsere Webseiten und Apps - "Viessmann Account"
+Viessmann nutzt für die Erteilung, die Änderung und das Löschen von Zugangs- und Zugriffsberechtigungen für nicht öffentliche oder nicht frei nutzbare Webseiten und Apps neben herkömmlichen Login-Funktionen (z.B. Benutzerkennung und Passwort) ein zentrales Identitäts und Zugriffsmanagement System ("IAM"). Hierfür werden folgende personenbezogene Daten von Ihnen verarbeitet:
 
-E-Mail Adresse
+E-Mail-Adresse
 Kennwort
 genutzte Webseite / App mit letztem Zeitstempel
 Benutzerrolle(n)
@@ -164,7 +179,7 @@ Vorname und Nachname und weitere Daten (Abhängig von der genutzten Webseite / A
 Mobile-/Telefonnummer (für 2-Faktor- Authentifizierungen)
 Die genannten Daten werden durch uns zu folgenden Zwecken verarbeitet:
 
-Erstellung des “Viessmann Account”
+Erstellung des "Viessmann Account"
 Erstellung und Verwaltung von Zugangsrechten zu Apps- und Webseiten
 Erstellung und Verwaltung von rollenbasierten Zugriffsrechten innerhalb von Apps- und Webseiten
 Prüfung und Anzeige der Berechtigungen durch/für die jeweils verantwortlichen Funktionen für die einzelnen Webseiten und Apps bei Viessmann
@@ -172,10 +187,10 @@ Kommunikation von Informationen zur genutzten Webseite und App (z.B. Änderungen
 Erstellung und Auswertung von aggregierten (“anonymisierten”) Kennzahlen zur Nutzung von Webseiten und Apps
 Die Erlaubnis zur Verarbeitung Ihrer personenbezogenen Daten liegt je nach genutzter Webseite bzw. APP in
 
-der Erfüllung eines Vertrages mit Ihnen gem. DS-GVO Art. 6 Abs. 1 lit b, dessen Gegenstand auch die Nutzung von Viessmann Webseiten oder Apps umfasst ,
+der Erfüllung eines Vertrages mit Ihnen gem. DS-GVO Art. 6 Abs. 1 lit b, dessen Gegenstand auch die Nutzung von Viessmann Webseiten oder Apps umfasst,
 Ihrer Einwilligung gem. DS-GVO Art. 6 Abs. 1 lit a, wenn Sie um diese explizit gebeten werden oder
 in unserem berechtigtem Interesse gem. DS-GVO Art. 6 Abs. 1 lit. f .
-Dieser letzte Erlaubnistatbestand gestattet die Verarbeitung von personenbezogenen Daten im Rahmen des „berechtigten Interesses“ des Verantwortlichen, soweit nicht Ihre Grundrechte, Grundfreiheiten oder Interessen überwiegen. Unser berechtigtes Interesse besteht in einer  effizienten Administration von Zugang und Zugriffsrechten und dem Schutz der Webseiten und Apps sowie der dort verarbeiteten Daten vor unbefugter Benutzung (z.B. Offenlegung, Änderung, Löschung). Sie können dieser Datenverarbeitung jederzeit widersprechen, wenn Gründe vorliegen, die in Ihrer besonderen Situation bestehen und die gegen die Datenverarbeitung sprechen. Hierzu genügt eine E-Mail an den Datenschutzbeauftragten. Bitte prüfen Sie im Vorfeld eines Widerspruchs, ob Sie das Benutzerkonto nicht selbst löschen können. Einige Benutzerrollen, insbesondere die auf einer Einwilligung basierenden, ermöglichen auch das Löschen Ihrer personenbezogener Daten im Rahmen eines Self-Service durch Sie selbst.
+Dieser letzte Erlaubnistatbestand gestattet die Verarbeitung von personenbezogenen Daten im Rahmen des „berechtigten Interesses“ des Verantwortlichen, soweit nicht Ihre Grundrechte, Grundfreiheiten oder Interessen überwiegen. Unser berechtigtes Interesse besteht in einer effizienten Administration von Zugang und Zugriffsrechten und dem Schutz der Webseiten und Apps sowie der dort verarbeiteten Daten vor unbefugter Benutzung (z.B. Offenlegung, Änderung, Löschung). Sie können dieser Datenverarbeitung jederzeit widersprechen, wenn Gründe vorliegen, die in Ihrer besonderen Situation bestehen und die gegen die Datenverarbeitung sprechen. Hierzu genügt eine E-Mail an den Datenschutzbeauftragten. Bitte prüfen Sie im Vorfeld eines Widerspruchs, ob Sie das Benutzerkonto nicht selbst löschen können. Einige Benutzerrollen, insbesondere die auf einer Einwilligung basierenden, ermöglichen auch das Löschen Ihrer personenbezogener Daten im Rahmen eines Self-Service durch Sie selbst.
 In keinem Fall verwenden wir die erhobenen Daten zu dem Zweck, weitere Rückschlüsse auf Ihre Person zu ziehen oder Profile zu erstellen.
 
 Die oben genannten Daten werden im Falle einer länger als 360 Tagen währenden Inaktivität Ihres Benutzerkontos (letzter Zeitstempel erfolgreicher Login oder Nutzung Webseite bzw. APP) automatisch gelöscht oder, im Falle der Verwendung für Statistiken, anonymisiert. Sie erhalten vor Ablauf dieser Frist eine entsprechende Information von uns. Wir behalten uns vor, die personenbezogenen Daten länger zu speichern wenn sich dieses aus gesetzlichen oder vertraglichen Gründen ergibt oder wenn Tatsachen vorliegen, die die Annahme eines unzulässigen Zugriffs nahe legen.
@@ -196,6 +211,7 @@ Bei der Implementierung und dem Einsatz von Analyse-Werkzeugen und Trackingtechn
 
 Durch entsprechende Einstellungen Ihres Browsers oder der Apps bzw. der ausführenden Betriebssystemumgebung hierfür (iOS, Android) können Sie die Übermittlung solcher Daten verhindern, dies führt aber unter Umständen zu Problemen beim Aufruf, der Bedienung oder der Funktionalität des angebotenen Inhaltes oder Dienstes.
 
+
 Third-Party-Cookies
 Viessmann bedient sich einiger Werbepartner, die dabei helfen, das Internetangebot und die Webseiten für Sie interessanter zu gestalten. Daher werden bei einem Besuch der Webseiten auch Cookies von Partnerunternehmen auf Ihrer Festplatte gespeichert. Hierbei handelt es sich um temporäre/permanente Cookies, die sich automatisch nach der vorgegebenen Zeit löschen. Diese temporären oder auch permanenten Cookies (Lebensdauer 14 Tage bis 10 Jahre) werden auf Ihrer Festplatte gespeichert und löschen sich nach der vorgegebenen Zeit von allein. Auch die Cookies unserer Partnerunternehmen enthalten lediglich pseudonyme, meist sogar anonyme Daten. Hierbei handelt es sich beispielsweise um Daten darüber, welche Produkte Sie sich angesehen haben, ob etwas gekauft wurde, welche Produkte gesucht wurden etc.
 
@@ -206,16 +222,488 @@ Unsere Webseiten verwenden hierbei sogenannte Re-Targeting-Technologien. Wir nut
 
 Durch Nutzung unserer Seite willigen Sie ein, dass sogenannte Cookies eingesetzt und damit Nutzungsdaten von Ihnen erhoben, gespeichert und genutzt werden. Weiter werden Ihre Daten in Cookies über das Ende der Browser-Sitzung hinaus gespeichert, um beispielsweise bei Ihren nächsten Besuchen der Webseiten wieder aufgerufen werden zu können. Diese Einwilligung können Sie jederzeit mit Wirkung für die Zukunft widerrufen, indem Sie in Ihren Browsereinstellungen die Annahme von Cookies verweigern.
 
+Acxiom
+Verwendung personenbezogener Daten zur Kundenanalyse und weiteren Werbezwecken
 
-YouTube Video
-Es ist ein Video-Player-Dienst. Die Zustimmung muss vor jedem Video gegeben werden. Die Zustimmung wird nicht von Usercentrics verwaltet.
+Zur Selektion bestimmter Zielgruppen anhand vorgegebener Kriterien sowie für die Bildung und Ansprache neuer idealtypischer Zielgruppen (potentielle Neukunden) zur Durchführung von Werbeaktivitäten lässt Viessmann mittels eines Dienstleisters pseudonymisierte oder anonymisierte - und damit nicht mehr einer bestimmten Person zuordenbare - Daten von relevanten Interessenten und Bestandskunden analysieren.
+
+Auf der Grundlage dieser Analyse können für die selektierten Zielgruppen Werbe-Accounts auf digitalen Plattformen zum Zwecke des zielgruppengenauen Werbetargetings genutzt in dem die stark verschlüsselten Stammdaten der potentiellen Neukunden mit vergleichbaren stark verschlüsselten Stammdaten von dort pseudonymisierten Facebook- bzw. Google-Nutzern abgeglichen werden, um diese mit Kampagnen von Viessmann zu bewerben. Zur Durchführung solcher Verarbeitungen beauftragt Viessmann im Rahmen einer Auftragsverarbeitung streng zweckgebunden spezialisierte Unternehmen, wie z.B. für Facebook-Aktivitäten die Acxiom Deutschland GmbH, Martin-Behaim Str. 12, 63263 Neu-Isenburg, Deutschland. Acxiom pseudonymisiert dabei alle Daten betroffener Personen und handelt ggfs. bei der Schaltung von Werbung z.B. auf Facebook als sogenannte „Trusted Third Party“. Bei Facebook erscheint diese Verarbeitung beispielsweise in den Werbepräferenzen unter dem Punkt “Unternehmen, die eine Liste mit deinen Informationen hochgeladen und geteilt haben”.
+
+Die personenbezogenen Daten zum Zweck der Kundenanalyse werden auf Basis von Art. 6 Abs. 1 lit. f DSGVO verarbeitet. Dieser Erlaubnistatbestand gestattet die Verarbeitung von personenbezogenen Daten im Rahmen des „berechtigten Interesses“ des Verantwortlichen, soweit nicht Ihre Grundrechte, Grundfreiheiten oder Interessen überwiegen. Unser berechtigtes Interesse besteht in der Analyse zur Identifizierung von potentiellen Neukunden sowie in den oben genannten Zwecken. In keinem Fall verwenden wir die erhobenen Daten zu dem Zweck, Rückschlüsse auf Ihre Person zu ziehen. Sie können dieser Datenverarbeitung jederzeit widersprechen, wenn Gründe vorliegen, die in Ihrer besonderen Situation bestehen und die gegen die Datenverarbeitung sprechen. Hierzu genügt eine E-Mail an den weiter unten genannten Datenschutzbeauftragten.
+
+
+Bing Ads Retargeting
+Hierbei handelt es sich um einen Retargeting-Service, mit dem Websites wieder mit früheren Besuchern verbunden werden können.
 Verarbeitendes Unternehmen
+Microsoft Corporation
+
+One Microsoft Way, Redmond, WA 98052-6399, USA
+
+Datenverarbeitungszwecke
+Diese Liste stellt die Zwecke der Datenerhebung und -verarbeitung dar.
+
+Retargeting
+Genutzte Technologien
+Diese Liste enthält alle Technologien, mit denen dieser Dienst Daten sammelt. Typische Technologien sind Cookies und Pixel, die im Browser platziert werden.
+
+Cookies
+Erhobene Daten
+Diese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.
+
+Browser-Sprache
+Cookie-Informationen
+Digitale Signatur
+IP-Adresse
+Microsoft Klick-ID
+Seitentitel
+Referrer URL
+Bildschirmauflösung
+URL
+Version von UET
+Eventinformationen
+Ladezeit der Seite
 Rechtsgrundlage
 Im folgenden wird die erforderliche Rechtsgrundlage für die Verarbeitung von Daten genannt
 
+Art. 6 Abs. 1 S. 1 lit. a DSGVO
+Ort der Verarbeitung
+Europäische Union
+Aufbewahrungsdauer
+Die Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.
 
-Google Optimize
-Dies ist ein Optimierungsservice.
+Die Daten bleiben 180 Tage lang erhalten.
+Datenempfänger
+Microsoft Corporation
+Datenschutzbeauftragter der verarbeitenden Firma
+Nachfolgend finden Sie die E-Mail-Adresse des Datenschutzbeauftragten des verarbeitenden Unternehmens.
+
+https://aka.ms/privacyresponse
+Weitergabe an Drittländer
+Dieser Service kann die erfassten Daten an ein anderes Land weiterleiten. Bitte beachten Sie, dass dieser Service Daten außerhalb der Europäischen Union und des europäischen Wirtschaftsraums und in ein Land, welches kein angemessenes Datenschutzniveau bietet, übertragen kann. Falls die Daten in die USA übertragen werden, besteht das Risiko, dass Ihre Daten von US Behörden zu Kontroll- und Überwachungszwecken verarbeitet werden können, ohne dass Ihnen möglicherweise Rechtsbehelfsmöglichkeiten zustehen. Nachfolgend finden Sie eine Liste der Länder, in die die Daten übertragen werden. Dies kann für verschiedene Zwecke der Fall sein, z. B. zum Speichern oder Verarbeiten.
+
+Weltweit
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen: https://privacy.microsoft.com/en-us/PrivacyStatement
+
+Opt-Out Link: https://account.microsoft.com/privacy/ad-settings/signedout?ru=https:%2F%2Faccount.microsoft.com%2Fprivacy%2Fad-settings
+
+Speicherinformation
+Unten sehen Sie die längste potenzielle Speicherdauer auf einem Gerät, die bei Verwendung der Cookie-Speichermethode und bei Verwendung anderer Methoden festgelegt wurde.
+
+Höchstgrenze für die Speicherung von Cookies: 1 Jahr, 25 Tage
+Gespeicherte Informationen
+
+Taboola
+Dies ist eine Werbeplattform. Mit diesem Service ist es möglich, die Benutzerinteraktion zu erhöhen.
+Verarbeitendes Unternehmen
+Taboola, Inc. (in case of EWR citizens: Taboola Europe Limited)
+
+1115 Broadway, 7th Floor, New York, New York 10010, United States of America
+
+Datenverarbeitungszwecke
+Diese Liste stellt die Zwecke der Datenerhebung und -verarbeitung dar.
+
+Werbung
+Analyse
+Personalisierung
+Bereitstellung von Diensten
+Genutzte Technologien
+Diese Liste enthält alle Technologien, mit denen dieser Dienst Daten sammelt. Typische Technologien sind Cookies und Pixel, die im Browser platziert werden.
+
+Cookies
+Erhobene Daten
+Diese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.
+
+Absturzdaten
+Datum und Uhrzeit des Besuchs
+Geräteinformationen
+Gerätebestriebssystem
+Geografischer Standort
+IP-Adresse
+Referrer URL
+Besuchte Websites
+Eventinformationen
+Rechtsgrundlage
+Im folgenden wird die erforderliche Rechtsgrundlage für die Verarbeitung von Daten genannt
+
+Art. 6 Abs. 1 S. 1 lit. a DSGVO
+Ort der Verarbeitung
+Europäische Union
+Aufbewahrungsdauer
+Die Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.
+
+Benutzerinformationen werden ab der letzten Interaktion des Benutzers mit dem Dienst nicht länger als 18 Monate gespeichert.
+Datenempfänger
+Affiliates
+Service providers
+Customers
+Datenschutzbeauftragter der verarbeitenden Firma
+Nachfolgend finden Sie die E-Mail-Adresse des Datenschutzbeauftragten des verarbeitenden Unternehmens.
+
+dpo@taboola.com
+Weitergabe an Drittländer
+Dieser Service kann die erfassten Daten an ein anderes Land weiterleiten. Bitte beachten Sie, dass dieser Service Daten außerhalb der Europäischen Union und des europäischen Wirtschaftsraums und in ein Land, welches kein angemessenes Datenschutzniveau bietet, übertragen kann. Falls die Daten in die USA übertragen werden, besteht das Risiko, dass Ihre Daten von US Behörden zu Kontroll- und Überwachungszwecken verarbeitet werden können, ohne dass Ihnen möglicherweise Rechtsbehelfsmöglichkeiten zustehen. Nachfolgend finden Sie eine Liste der Länder, in die die Daten übertragen werden. Dies kann für verschiedene Zwecke der Fall sein, z. B. zum Speichern oder Verarbeiten.
+
+China,Israel,Vereinigte Staaten von Amerika
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen: https://www.taboola.com/privacy-policy
+
+Opt-Out Link: https://www.taboola.com/privacy-policy#user-choices-and-optout
+
+Cookie-Richtlinie des Verarbeiters: https://www.taboola.com/de/cookie-policy
+
+Speicherinformation
+Unten sehen Sie die längste potenzielle Speicherdauer auf einem Gerät, die bei Verwendung der Cookie-Speichermethode und bei Verwendung anderer Methoden festgelegt wurde.
+
+Höchstgrenze für die Speicherung von Cookies: 1 Jahr
+Gespeicherte Informationen
+
+Twitter Embed
+Wir verwenden Twitter Embed, um Tweets von Twitter anzuzeigen.
+Verarbeitendes Unternehmen
+Twitter, Inc.
+
+1355 Market Street, Suite 900, San Francisco, CA 94103, United States of America
+
+Datenverarbeitungszwecke
+Diese Liste stellt die Zwecke der Datenerhebung und -verarbeitung dar.
+
+Bereitstellung von Inhalten
+Genutzte Technologien
+Diese Liste enthält alle Technologien, mit denen dieser Dienst Daten sammelt. Typische Technologien sind Cookies und Pixel, die im Browser platziert werden.
+
+Cookies
+Erhobene Daten
+Diese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.
+
+Nutzungsdaten
+User Agent
+Kontoinformationen
+Klicks
+Rechtsgrundlage
+Im folgenden wird die erforderliche Rechtsgrundlage für die Verarbeitung von Daten genannt
+
+Art. 6 Abs. 1 S. 1 lit. a DSGVO
+Ort der Verarbeitung
+Vereinigte Staaten von Amerika
+Aufbewahrungsdauer
+Die Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.
+
+Die Daten werden gelöscht, sobald sie nicht mehr für die Verarbeitungszwecke benötigt werden.
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen: https://twitter.com/privacy
+
+
+LinkedIn Analytics
+Dies ist ein Analysedienst.
+Verarbeitendes Unternehmen
+LinkedIn Ireland Unlimited Company
+
+Wilton Place, Dublin 2, Ireland
+
+Datenverarbeitungszwecke
+Diese Liste stellt die Zwecke der Datenerhebung und -verarbeitung dar.
+
+Analyse
+Genutzte Technologien
+Diese Liste enthält alle Technologien, mit denen dieser Dienst Daten sammelt. Typische Technologien sind Cookies und Pixel, die im Browser platziert werden.
+
+Cookies
+Erhobene Daten
+Diese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.
+
+Informationen zu Add-Ons
+Browser-Informationen
+Gerätekennung
+IP-Adresse
+Verbindungsgeschwindigkeit
+Informationen über das Betriebssystem
+Referrer URL
+Rechtsgrundlage
+Im folgenden wird die erforderliche Rechtsgrundlage für die Verarbeitung von Daten genannt
+
+Art. 6 Abs. 1 S. 1 lit. a DSGVO
+Ort der Verarbeitung
+Europäische Union
+Aufbewahrungsdauer
+Die Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.
+
+Daten werden gelöscht, sobald sie für die Bearbeitung nicht mehr benötigt werden.
+Datenempfänger
+LinkedIn Ireland Unlimited Company
+LinkedIn Inc.
+Datenschutzbeauftragter der verarbeitenden Firma
+Nachfolgend finden Sie die E-Mail-Adresse des Datenschutzbeauftragten des verarbeitenden Unternehmens.
+
+https://www.linkedin.com/help/linkedin/ask/TSO-DPO
+Weitergabe an Drittländer
+Dieser Service kann die erfassten Daten an ein anderes Land weiterleiten. Bitte beachten Sie, dass dieser Service Daten außerhalb der Europäischen Union und des europäischen Wirtschaftsraums und in ein Land, welches kein angemessenes Datenschutzniveau bietet, übertragen kann. Falls die Daten in die USA übertragen werden, besteht das Risiko, dass Ihre Daten von US Behörden zu Kontroll- und Überwachungszwecken verarbeitet werden können, ohne dass Ihnen möglicherweise Rechtsbehelfsmöglichkeiten zustehen. Nachfolgend finden Sie eine Liste der Länder, in die die Daten übertragen werden. Dies kann für verschiedene Zwecke der Fall sein, z. B. zum Speichern oder Verarbeiten.
+
+Singapur,Vereinigte Staaten von Amerika
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen: https://www.linkedin.com/legal/privacy-policy
+
+Opt-Out Link: https://www.linkedin.com/help/linkedin/answer/62931/manage-advertising-preferences?lang=en
+
+Cookie-Richtlinie des Verarbeiters: https://www.linkedin.com/legal/cookie_policy
+
+Speicherinformation
+Unten sehen Sie die längste potenzielle Speicherdauer auf einem Gerät, die bei Verwendung der Cookie-Speichermethode und bei Verwendung anderer Methoden festgelegt wurde.
+
+Höchstgrenze für die Speicherung von Cookies: 1 Jahr
+Gespeicherte Informationen
+
+Hotjar
+Dies ist ein Webanalysedienst.
+Verarbeitendes Unternehmen
+Hotjar Limited
+
+Dragonara Business Centre, 5th Floor, Dragonara Road, Paceville St Julian's STJ 3141, Malta
+
+Datenverarbeitungszwecke
+Diese Liste stellt die Zwecke der Datenerhebung und -verarbeitung dar.
+
+Analyse
+Fehler-Tracking
+Genutzte Technologien
+Diese Liste enthält alle Technologien, mit denen dieser Dienst Daten sammelt. Typische Technologien sind Cookies und Pixel, die im Browser platziert werden.
+
+Cookies
+Erhobene Daten
+Diese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.
+
+Browser-Informationen
+Gerätetyp
+Geografischer Standort
+IP-Adresse
+Bildschirmauflösung
+Eindeutige Gerätekennung
+Sprachinformationen
+Rechtsgrundlage
+Im folgenden wird die erforderliche Rechtsgrundlage für die Verarbeitung von Daten genannt
+
+Art. 6 Abs. 1 S. 1 lit. a DSGVO
+Ort der Verarbeitung
+Europäische Union
+Aufbewahrungsdauer
+Die Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.
+
+Daten werden gelöscht, sobald sie für die Bearbeitung nicht mehr benötigt werden.
+Datenempfänger
+Hotjar Ltd.
+Datenschutzbeauftragter der verarbeitenden Firma
+Nachfolgend finden Sie die E-Mail-Adresse des Datenschutzbeauftragten des verarbeitenden Unternehmens.
+
+dpo@hotjar.com
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen: https://www.hotjar.com/legal/policies/privacy
+
+Opt-Out Link: https://www.hotjar.com/legal/compliance/opt-out
+
+Cookie-Richtlinie des Verarbeiters: https://www.hotjar.com/legal/policies/cookie-information
+
+Speicherinformation
+Unten sehen Sie die längste potenzielle Speicherdauer auf einem Gerät, die bei Verwendung der Cookie-Speichermethode und bei Verwendung anderer Methoden festgelegt wurde.
+
+Höchstgrenze für die Speicherung von Cookies: 1 Jahr
+Gespeicherte Informationen
+
+Bing Ads
+Dies ist ein Werbeanbieter.
+Verarbeitendes Unternehmen
+Microsoft Corporation
+
+One Microsoft Way, Redmond, WA 98052-6399, United States of America
+
+Datenverarbeitungszwecke
+Diese Liste stellt die Zwecke der Datenerhebung und -verarbeitung dar.
+
+Werbung
+Conversion Tracking
+Genutzte Technologien
+Diese Liste enthält alle Technologien, mit denen dieser Dienst Daten sammelt. Typische Technologien sind Cookies und Pixel, die im Browser platziert werden.
+
+Cookies
+Erhobene Daten
+Diese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.
+
+Absprungraten
+Browser-Sprache
+Angeklickte Anzeigen
+Umwandlungen
+Digitale Signatur
+Besuchsdauer
+Beschäftigungs-Metriken
+Microsoft Klick-ID
+Anzahl der Besuche
+Reaktionszeiten der Seite
+Seitentitel
+Referrer URL
+Farbtiefe des Bildschirms
+Bildschirmauflösung
+UET-ID-Tag
+URL
+Rechtsgrundlage
+Im folgenden wird die erforderliche Rechtsgrundlage für die Verarbeitung von Daten genannt
+
+Art. 6 Abs. 1 S. 1 lit. a DSGVO
+Ort der Verarbeitung
+Europäische Union
+Aufbewahrungsdauer
+Die Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.
+
+Daten werden gelöscht, sobald sie für die Bearbeitung nicht mehr benötigt werden.
+Datenempfänger
+Microsoft Corporation
+Datenschutzbeauftragter der verarbeitenden Firma
+Nachfolgend finden Sie die E-Mail-Adresse des Datenschutzbeauftragten des verarbeitenden Unternehmens.
+
+https://aka.ms/privacyresponse
+Weitergabe an Drittländer
+Dieser Service kann die erfassten Daten an ein anderes Land weiterleiten. Bitte beachten Sie, dass dieser Service Daten außerhalb der Europäischen Union und des europäischen Wirtschaftsraums und in ein Land, welches kein angemessenes Datenschutzniveau bietet, übertragen kann. Falls die Daten in die USA übertragen werden, besteht das Risiko, dass Ihre Daten von US Behörden zu Kontroll- und Überwachungszwecken verarbeitet werden können, ohne dass Ihnen möglicherweise Rechtsbehelfsmöglichkeiten zustehen. Nachfolgend finden Sie eine Liste der Länder, in die die Daten übertragen werden. Dies kann für verschiedene Zwecke der Fall sein, z. B. zum Speichern oder Verarbeiten.
+
+Weltweit
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen: https://privacy.microsoft.com/de-de/privacystatement
+
+Opt-Out Link: https://account.microsoft.com/privacy/ad-settings/signedout?ru=https:%2F%2Faccount.microsoft.com%2Fprivacy%2Fad-settings
+
+Speicherinformation
+Unten sehen Sie die längste potenzielle Speicherdauer auf einem Gerät, die bei Verwendung der Cookie-Speichermethode und bei Verwendung anderer Methoden festgelegt wurde.
+
+Höchstgrenze für die Speicherung von Cookies: 1 Jahr, 25 Tage
+Gespeicherte Informationen
+
+Adform
+Dies ist eine Plattform für digitale Werbetechnologie. Die Plattform bietet Tools zum Kauf von Werbeflächen in digitalen Medien.
+Verarbeitendes Unternehmen
+Adform A/S
+
+Wildersgade 10B, 1st floor, DK-1408 Copenhagen, Denmark
+
+Datenverarbeitungszwecke
+Diese Liste stellt die Zwecke der Datenerhebung und -verarbeitung dar.
+
+Analyse
+Conversion Tracking
+Optimierung
+Retargeting
+Targeting
+Genutzte Technologien
+Diese Liste enthält alle Technologien, mit denen dieser Dienst Daten sammelt. Typische Technologien sind Cookies und Pixel, die im Browser platziert werden.
+
+Cookies
+Pixel
+Web beacons
+Erhobene Daten
+Diese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.
+
+Angesehene Werbeanzeigen
+Browser-Informationen
+Browser-Typ
+Angeklickte Anzeigen
+Cookie ID
+Datum und Uhrzeit des Besuchs
+Gerätekennung
+Geräteinformationen
+Gerätebestriebssystem
+Geografischer Standort
+Mobile advertising IDs
+Suchbegriffe
+Informationen zu Drittanbietern
+Eindeutige Gerätekennung
+Nutzungsdaten
+Besuchte Websites
+Cross-Device-ID
+Partner-ID
+Rechtsgrundlage
+Im folgenden wird die erforderliche Rechtsgrundlage für die Verarbeitung von Daten genannt
+
+Art. 6 Abs. 1 S. 1 lit. a DSGVO
+Ort der Verarbeitung
+Europäische Union
+Aufbewahrungsdauer
+Die Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.
+
+Adform speichert keine Cookie basierten Informationen länger als 13 Monate.
+Datenempfänger
+Adform A/S
+Service partners
+Datenschutzbeauftragter der verarbeitenden Firma
+Nachfolgend finden Sie die E-Mail-Adresse des Datenschutzbeauftragten des verarbeitenden Unternehmens.
+
+dpo@adform.com
+Weitergabe an Drittländer
+Dieser Service kann die erfassten Daten an ein anderes Land weiterleiten. Bitte beachten Sie, dass dieser Service Daten außerhalb der Europäischen Union und des europäischen Wirtschaftsraums und in ein Land, welches kein angemessenes Datenschutzniveau bietet, übertragen kann. Falls die Daten in die USA übertragen werden, besteht das Risiko, dass Ihre Daten von US Behörden zu Kontroll- und Überwachungszwecken verarbeitet werden können, ohne dass Ihnen möglicherweise Rechtsbehelfsmöglichkeiten zustehen. Nachfolgend finden Sie eine Liste der Länder, in die die Daten übertragen werden. Dies kann für verschiedene Zwecke der Fall sein, z. B. zum Speichern oder Verarbeiten.
+
+Weltweit
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen: https://site.adform.com/privacy-center/platform-privacy/product-and-services-privacy-policy/
+
+Opt-Out Link: https://site.adform.com/privacy-center/platform-privacy/opt-out/
+
+Cookie-Richtlinie des Verarbeiters: https://site.adform.com/privacy-center/website-privacy/cookie-policy/
+
+Speicherinformation
+Unten sehen Sie die längste potenzielle Speicherdauer auf einem Gerät, die bei Verwendung der Cookie-Speichermethode und bei Verwendung anderer Methoden festgelegt wurde.
+
+Höchstgrenze für die Speicherung von Cookies: 1 Monat, 29 Tage
+Gespeicherte Informationen
+
+Outbrain
+Dies ist ein Werbedienst. Dieser Service bietet Empfehlungen zu Benutzerinteressen.
+Verarbeitendes Unternehmen
+Outbrain Inc.
+
+39 West 13th Street, 3rd floor, New York, NY 1001, United States of America
+
+Datenverarbeitungszwecke
+Diese Liste stellt die Zwecke der Datenerhebung und -verarbeitung dar.
+
+Werbung
+Conversion Tracking
+Genutzte Technologien
+Diese Liste enthält alle Technologien, mit denen dieser Dienst Daten sammelt. Typische Technologien sind Cookies und Pixel, die im Browser platziert werden.
+
+Cookies
+Pixel
+Erhobene Daten
+Diese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.
+
+Anonymisierte IP-Adresse
+Browser-Typ
+Datum und Uhrzeit des Besuchs
+Geräteinformationen
+Gerätebestriebssystem
+Referrer URL
+Besuchte Websites
+Rechtsgrundlage
+Im folgenden wird die erforderliche Rechtsgrundlage für die Verarbeitung von Daten genannt
+
+Art. 6 Abs. 1 S. 1 lit. a DSGVO
+Ort der Verarbeitung
+Vereinigte Staaten von Amerika
+Aufbewahrungsdauer
+Die Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.
+
+Daten werden gelöscht, sobald sie für die Bearbeitung nicht mehr benötigt werden.
+Datenempfänger
+Outbrain Inc.
+Datenschutzbeauftragter der verarbeitenden Firma
+Nachfolgend finden Sie die E-Mail-Adresse des Datenschutzbeauftragten des verarbeitenden Unternehmens.
+
+privacy@eprivacy.eu
+Weitergabe an Drittländer
+Dieser Service kann die erfassten Daten an ein anderes Land weiterleiten. Bitte beachten Sie, dass dieser Service Daten außerhalb der Europäischen Union und des europäischen Wirtschaftsraums und in ein Land, welches kein angemessenes Datenschutzniveau bietet, übertragen kann. Falls die Daten in die USA übertragen werden, besteht das Risiko, dass Ihre Daten von US Behörden zu Kontroll- und Überwachungszwecken verarbeitet werden können, ohne dass Ihnen möglicherweise Rechtsbehelfsmöglichkeiten zustehen. Nachfolgend finden Sie eine Liste der Länder, in die die Daten übertragen werden. Dies kann für verschiedene Zwecke der Fall sein, z. B. zum Speichern oder Verarbeiten.
+
+Weltweit
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen: https://www.outbrain.com/legal/privacy
+
+Opt-Out Link: https://www.outbrain.com/legal/privacy#privacy-policy
+
+Cookie-Richtlinie des Verarbeiters: https://www.outbrain.com/legal/#cookies
+
+Speicherinformation
+Unten sehen Sie die längste potenzielle Speicherdauer auf einem Gerät, die bei Verwendung der Cookie-Speichermethode und bei Verwendung anderer Methoden festgelegt wurde.
+
+Höchstgrenze für die Speicherung von Cookies: 5 Minuten
+Gespeicherte Informationen
+
+Google AdWords Conversion
+Dies ist ein Conversion-Marketing-Service. Dieser Service hilft Websites, Website-Besucher in zahlende Kunden zu verwandeln.
 Verarbeitendes Unternehmen
 Google Ireland Limited
 
@@ -224,7 +712,9 @@ Google Building Gordon House, 4 Barrow St, Dublin, D04 E5W5, Ireland
 Datenverarbeitungszwecke
 Diese Liste stellt die Zwecke der Datenerhebung und -verarbeitung dar.
 
-Optimierung
+Werbung
+Analyse
+Conversion Tracking
 Genutzte Technologien
 Diese Liste enthält alle Technologien, mit denen dieser Dienst Daten sammelt. Typische Technologien sind Cookies und Pixel, die im Browser platziert werden.
 
@@ -232,14 +722,21 @@ Cookies
 Erhobene Daten
 Diese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.
 
-Anonymisierte IP-Adresse
-Benutzerverhalten vor Ort
+Erfolgsquoten von Werbekampagnen
+Browser-Sprache
+Browser-Typ
+Angeklickte Anzeigen
+Cookie ID
+Datum und Uhrzeit des Besuchs
+IP-Adresse
+Anzahl der durch Anzeigen getätigten Käufe
+Web-Anfrage
 Rechtsgrundlage
 Im folgenden wird die erforderliche Rechtsgrundlage für die Verarbeitung von Daten genannt
 
-Art. 6 Abs. 1 s. 1 lit. a DS-GVO
+Art. 6 Abs. 1 S. 1 lit. a DSGVO
 Ort der Verarbeitung
-Europäische Union
+Vereinigte Staaten von Amerika
 Aufbewahrungsdauer
 Die Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.
 
@@ -247,11 +744,6 @@ Die Daten werden gelöscht, sobald sie nicht mehr für die Verarbeitungszwecke b
 Datenempfänger
 Google LLC
 Google Ireland Limited
-Alphabet Inc
-Datenschutzbeauftragter der verarbeitenden Firma
-Nachfolgend finden Sie die E-Mail-Adresse des Datenschutzbeauftragten des verarbeitenden Unternehmens.
-
-https://support.google.com/policies/troubleshooter/7575787?hl=en
 Weitergabe an Drittländer
 Dieser Service kann die erfassten Daten an ein anderes Land weiterleiten. Bitte beachten Sie, dass dieser Service Daten außerhalb der Europäischen Union und des europäischen Wirtschaftsraums und in ein Land, welches kein angemessenes Datenschutzniveau bietet, übertragen kann. Falls die Daten in die USA übertragen werden, besteht das Risiko, dass Ihre Daten von US Behörden zu Kontroll- und Überwachungszwecken verarbeitet werden können, ohne dass Ihnen möglicherweise Rechtsbehelfsmöglichkeiten zustehen. Nachfolgend finden Sie eine Liste der Länder, in die die Daten übertragen werden. Dies kann für verschiedene Zwecke der Fall sein, z. B. zum Speichern oder Verarbeiten.
 
@@ -260,53 +752,415 @@ Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen:
 
 Opt-Out Link: https://safety.google/privacy/privacy-controls/
 
+Cookie-Richtlinie des Verarbeiters: https://policies.google.com/technologies/cookies?hl=en
 
-Usercentrics Consent Management Platform
-Dies ist ein Zustimmungsverwaltungsdienst. Die Usercentrics GmbH wird auf der Webseite als Auftragsverarbeiter zum Zwecke des Consent Managements eingesetzt.
+Speicherinformation
+Unten sehen Sie die längste potenzielle Speicherdauer auf einem Gerät, die bei Verwendung der Cookie-Speichermethode und bei Verwendung anderer Methoden festgelegt wurde.
+
+Höchstgrenze für die Speicherung von Cookies: 1 Jahr
+Gespeicherte Informationen
+
+twiago
+Dies ist ein Marketing-Service für native Werbung.
 Verarbeitendes Unternehmen
-Usercentrics GmbH
+twiago GmbH
 
-Sendlinger Str. 7, 80331 Munich, Germany
+Charlottenstraße 61, 51149 Köln, Germany
 
 Datenverarbeitungszwecke
 Diese Liste stellt die Zwecke der Datenerhebung und -verarbeitung dar.
 
-Einhaltung der gesetzlichen Verpflichtungen
-Einwilligungsspeicherung
+Marketing
+Werbung
 Genutzte Technologien
 Diese Liste enthält alle Technologien, mit denen dieser Dienst Daten sammelt. Typische Technologien sind Cookies und Pixel, die im Browser platziert werden.
 
-Local Storage
+Cookies
 Erhobene Daten
 Diese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.
 
-Opt-in- und Opt-out-Daten
+Browser-Typ
+Browser-Sprache
+Datum uns Uhrzeit des Besuchs
 Referrer URL
-User Agent
-Benutzereinstellungen
-Consent ID
-Zeitpunkt der Einwilligung
-Einwilligungstyp
-Template-Version
-Banner-Sprache
+Absturzdaten
+Geografischer Standort
 Rechtsgrundlage
 Im folgenden wird die erforderliche Rechtsgrundlage für die Verarbeitung von Daten genannt
 
-Art. 6 Abs. 1 S. 1 lit. c DSGVO
+Art. 6 Abs. 1 s. 1 lit. a DSGVO
 Ort der Verarbeitung
-Europäische Union (Zustimmungsdatenbank befindet sich in Belgien)
+Europäische Union
 Aufbewahrungsdauer
 Die Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.
 
-Die Einwilligungsdaten (Einwilligung und Widerruf der Einwilligung) werden drei Jahre lang gespeichert. Die Daten werden dann sofort gelöscht.
+Die Daten werden gelöscht, sobald sie nicht mehr für die Verarbeitungszwecke benötigt werden.
 Datenempfänger
-Usercentrics GmbH
+twiago GmbH
+Service providers
 Datenschutzbeauftragter der verarbeitenden Firma
 Nachfolgend finden Sie die E-Mail-Adresse des Datenschutzbeauftragten des verarbeitenden Unternehmens.
 
-datenschutz@usercentrics.com
-Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen: https://usercentrics.com/privacy-policy/
+legal@twiago.com
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen: https://www.twiago.com/datenschutz/
 
+
+Facebook Custom Audiences
+Dies ist ein Ad-Targeting-Service.
+Verarbeitendes Unternehmen
+Facebook Ireland Limited
+
+4 Grand Canal Square, Grand Canal Harbour, Dublin, D02, Ireland
+
+Datenverarbeitungszwecke
+Diese Liste stellt die Zwecke der Datenerhebung und -verarbeitung dar.
+
+Werbung
+Analyse
+Optimierung
+Personalisierung
+Retargeting
+Genutzte Technologien
+Diese Liste enthält alle Technologien, mit denen dieser Dienst Daten sammelt. Typische Technologien sind Cookies und Pixel, die im Browser platziert werden.
+
+Cookies
+Mobile-SDK
+Pixel
+Erhobene Daten
+Diese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.
+
+Browser-Informationen
+Browser-Typ
+Umwandlungen
+Cookie ID
+Gerätebestriebssystem
+Geografischer Standort
+Hardware-/Software-Art
+Informationen aus Drittanbieterquellen
+IP-Adresse
+Nicht vertrauliche benutzerdefinierte Daten
+Pixelspezifische Daten
+Referrer URL
+Social Media-Freundesnetzwerk
+Transaktionsinformationen
+Nutzungsdaten
+User Agent
+Ansichten und Interaktionen mit Inhalten und Anzeigen
+Facebook-Cookie-Informationen
+Facebook Nutzer-ID
+Rechtsgrundlage
+Im folgenden wird die erforderliche Rechtsgrundlage für die Verarbeitung von Daten genannt
+
+Art. 6 Abs. 1 S. 1 lit. a DSGVO
+Ort der Verarbeitung
+Europäische Union
+Aufbewahrungsdauer
+Die Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.
+
+Die Daten werden gelöscht, sobald sie nicht mehr für die Verarbeitungszwecke benötigt werden.
+Datenempfänger
+Facebook Inc.
+Facebook Ireland Limited
+Datenschutzbeauftragter der verarbeitenden Firma
+Nachfolgend finden Sie die E-Mail-Adresse des Datenschutzbeauftragten des verarbeitenden Unternehmens.
+
+https://www.facebook.com/help/contact/540977946302970
+Weitergabe an Drittländer
+Dieser Service kann die erfassten Daten an ein anderes Land weiterleiten. Bitte beachten Sie, dass dieser Service Daten außerhalb der Europäischen Union und des europäischen Wirtschaftsraums und in ein Land, welches kein angemessenes Datenschutzniveau bietet, übertragen kann. Falls die Daten in die USA übertragen werden, besteht das Risiko, dass Ihre Daten von US Behörden zu Kontroll- und Überwachungszwecken verarbeitet werden können, ohne dass Ihnen möglicherweise Rechtsbehelfsmöglichkeiten zustehen. Nachfolgend finden Sie eine Liste der Länder, in die die Daten übertragen werden. Dies kann für verschiedene Zwecke der Fall sein, z. B. zum Speichern oder Verarbeiten.
+
+Vereinigte Staaten von Amerika
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen: https://www.facebook.com/privacy/explanation
+
+Opt-Out Link: https://www.facebook.com/ads/preferences/?entry_product=ad_settings_screen
+
+Cookie-Richtlinie des Verarbeiters: https://www.facebook.com/policies/cookies/
+
+Speicherinformation
+Unten sehen Sie die längste potenzielle Speicherdauer auf einem Gerät, die bei Verwendung der Cookie-Speichermethode und bei Verwendung anderer Methoden festgelegt wurde.
+
+Höchstgrenze für die Speicherung von Cookies: 1 Jahr
+Gespeicherte Informationen
+
+Indeed
+Dies ist ein Jobportal.
+Verarbeitendes Unternehmen
+Indeed, Inc.
+
+124 St. Stephen's Green, Dublin 2, Ireland
+
+Datenverarbeitungszwecke
+Diese Liste stellt die Zwecke der Datenerhebung und -verarbeitung dar.
+
+Analyse
+Bewerbung
+Genutzte Technologien
+Diese Liste enthält alle Technologien, mit denen dieser Dienst Daten sammelt. Typische Technologien sind Cookies und Pixel, die im Browser platziert werden.
+
+Cookies
+Erhobene Daten
+Diese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.
+
+IP-Adresse
+Domain Name
+MAC-Adresse (Media Access Control)
+Fortsetzen
+Profil Information
+Rechtsgrundlage
+Im folgenden wird die erforderliche Rechtsgrundlage für die Verarbeitung von Daten genannt
+
+Art. 6 Abs. 1 s. 1 lit. f DSGVO
+Ort der Verarbeitung
+Europäische Union
+Aufbewahrungsdauer
+Die Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.
+
+Die Daten werden gelöscht, sobald sie nicht mehr für die Verarbeitungszwecke benötigt werden.
+Datenempfänger
+Indeed, Inc.
+Datenschutzbeauftragter der verarbeitenden Firma
+Nachfolgend finden Sie die E-Mail-Adresse des Datenschutzbeauftragten des verarbeitenden Unternehmens.
+
+privacy-dept@indeed.com
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen: https://de.indeed.com/legal#privacy
+
+
+AT INTERNET
+Dies ist ein Website-Optimierungsdienst, ein Dienst zur Analyse des Nutzerverhaltens.
+Verarbeitendes Unternehmen
+Applied Technologies Internet, Inc.
+
+LE LAFAYETTE, 85 avenue John Fitzgerald Kennedy 33700 Mérignac, France
+
+Datenverarbeitungszwecke
+Diese Liste stellt die Zwecke der Datenerhebung und -verarbeitung dar.
+
+Analyse
+Analyse des Nutzerverhaltens
+Optimierung
+Genutzte Technologien
+Diese Liste enthält alle Technologien, mit denen dieser Dienst Daten sammelt. Typische Technologien sind Cookies und Pixel, die im Browser platziert werden.
+
+Cookies
+Erhobene Daten
+Diese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.
+
+IP Adresse
+Mobile Identifier
+Geografischer Standort
+Eindeutige Besucher-ID
+Besucherzahl
+Wiederholte Besuche
+Anzahl der Seitenaufrufe
+Aufenthaltsdauer auf den einzelnen Seiten
+Browser-Typ
+Andere Arten von Navigationsdaten
+Rechtsgrundlage
+Im folgenden wird die erforderliche Rechtsgrundlage für die Verarbeitung von Daten genannt
+
+Art. 6 Abs. 1 S. 1 lit. a DSGVO
+Ort der Verarbeitung
+Europäische Union, Vereiningte Staaten von Amerika
+Aufbewahrungsdauer
+Die Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.
+
+Die Rohdaten werden sechs Monate nach der Erhebung gelöscht.
+Datenempfänger
+Applied Technologies Internet, Inc.
+Datenschutzbeauftragter der verarbeitenden Firma
+Nachfolgend finden Sie die E-Mail-Adresse des Datenschutzbeauftragten des verarbeitenden Unternehmens.
+
+dpo@atinternet.com
+Weitergabe an Drittländer
+Dieser Service kann die erfassten Daten an ein anderes Land weiterleiten. Bitte beachten Sie, dass dieser Service Daten außerhalb der Europäischen Union und des europäischen Wirtschaftsraums und in ein Land, welches kein angemessenes Datenschutzniveau bietet, übertragen kann. Falls die Daten in die USA übertragen werden, besteht das Risiko, dass Ihre Daten von US Behörden zu Kontroll- und Überwachungszwecken verarbeitet werden können, ohne dass Ihnen möglicherweise Rechtsbehelfsmöglichkeiten zustehen. Nachfolgend finden Sie eine Liste der Länder, in die die Daten übertragen werden. Dies kann für verschiedene Zwecke der Fall sein, z. B. zum Speichern oder Verarbeiten.
+
+Vereinigte Staaten von Amerika
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen: https://www.atinternet.com/en/company/data-protection/
+
+Opt-Out Link: http://www.xiti.com/de/optout.aspx
+
+Cookie-Richtlinie des Verarbeiters: https://www.atinternet.com/en/company/data-protection/
+
+
+Criteo
+Dies ist ein Werbedienst.
+Verarbeitendes Unternehmen
+Criteo SA
+
+32 Rue Blanche, 75009 Paris, France
+
+Datenverarbeitungszwecke
+Diese Liste stellt die Zwecke der Datenerhebung und -verarbeitung dar.
+
+Werbung
+Marketing
+Personalisierung
+Retargeting
+Genutzte Technologien
+Diese Liste enthält alle Technologien, mit denen dieser Dienst Daten sammelt. Typische Technologien sind Cookies und Pixel, die im Browser platziert werden.
+
+Cookies
+Erhobene Daten
+Diese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.
+
+Browser-Informationen
+Klickpfad
+Datum und Uhrzeit des Besuchs
+Geräteinformationen
+Angesehene Dateien
+Standort-Informationen
+IP-Adresse
+Mobile advertising IDs
+Anzahl der Seitenaufrufe
+Angesehene Produkte
+Referrer URL
+Suchbegriffe
+Technische IDs
+Nutzungsdaten
+Anzahl der geschalteten Anzeigen
+Rechtsgrundlage
+Im folgenden wird die erforderliche Rechtsgrundlage für die Verarbeitung von Daten genannt
+
+Art. 6 Abs. 1 S. 1 lit. a DSGVO
+Ort der Verarbeitung
+Europäische Union
+Aufbewahrungsdauer
+Die Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.
+
+Technische Daten bleiben bis zu 13 Monate erhalten. Cookies verfallen 13 Monate nach ihrer letzten Aktualisierung.
+Datenempfänger
+Tochterunternehmen
+Verbundene Unternehmen
+Datenschutzbeauftragter der verarbeitenden Firma
+Nachfolgend finden Sie die E-Mail-Adresse des Datenschutzbeauftragten des verarbeitenden Unternehmens.
+
+dpo@criteo.com
+Weitergabe an Drittländer
+Dieser Service kann die erfassten Daten an ein anderes Land weiterleiten. Bitte beachten Sie, dass dieser Service Daten außerhalb der Europäischen Union und des europäischen Wirtschaftsraums und in ein Land, welches kein angemessenes Datenschutzniveau bietet, übertragen kann. Falls die Daten in die USA übertragen werden, besteht das Risiko, dass Ihre Daten von US Behörden zu Kontroll- und Überwachungszwecken verarbeitet werden können, ohne dass Ihnen möglicherweise Rechtsbehelfsmöglichkeiten zustehen. Nachfolgend finden Sie eine Liste der Länder, in die die Daten übertragen werden. Dies kann für verschiedene Zwecke der Fall sein, z. B. zum Speichern oder Verarbeiten.
+
+Weltweit
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen: https://www.criteo.com/privacy/
+
+Opt-Out Link: https://www.criteo.com/privacy/#user-choices
+
+Cookie-Richtlinie des Verarbeiters: https://www.criteo.com/privacy/corporate-privacy-policy/
+
+Speicherinformation
+Unten sehen Sie die längste potenzielle Speicherdauer auf einem Gerät, die bei Verwendung der Cookie-Speichermethode und bei Verwendung anderer Methoden festgelegt wurde.
+
+Höchstgrenze für die Speicherung von Cookies: 10 Jahre, 2 Tage
+Gespeicherte Informationen
+
+Kameleoon
+Unsere Website verwendet die Softwareanwendung Kameleoon. Kameleoon ist eine SaaS-Lösung, die A/B-Tests und Web-Personalisierungen ermöglicht. Wir benutzen die Lösung um ein besseres Verständnis dafür zu erhalten, wie unsere Webseite genutzt wird sowie Ihnen eine optimierte Nutzererfahrung zu bieten. Kameleoon speichert dabei keine personenbezogenen Daten. Die anfallenden Nutzerdaten werden zu einer internen Kennung gespeichert, wobei die IP-Adresse anonymisiert wird.
+Für die Analysen werden Cookies eingesetzt, die mit einer pseudonymisierten ID verknüpft werden. Ihre IP-Adresse wird dazu vollständig anonymisiert und nicht gespeichert. Die durch den Cookie erzeugten Informationen über die Benutzung unserer Websites werden an einen Server von Kameleoon in Deutschland/Europa übermittelt und dort in aggregierter und pseudonymisierter Form gespeichert. Die im Rahmen von Kameleoon von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Kameleoon zusammengeführt.
+Verarbeitendes Unternehmen
+Kameleoon SAS, 12 rue de la Chaussée d'Antin, 75009 Paris, France
+
+Datenverarbeitungszwecke
+Diese Liste stellt die Zwecke der Datenerhebung und -verarbeitung dar.
+
+Analyse
+Optimierung
+Tracking akzeptieren (bei Opt-Out auf Nein gesetzt)
+Genutzte Technologien
+Diese Liste enthält alle Technologien, mit denen dieser Dienst Daten sammelt. Typische Technologien sind Cookies und Pixel, die im Browser platziert werden.
+
+Log-Dateien
+Cookies
+Erhobene Daten
+Diese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.
+
+IP Adresse
+Browser Informationen
+Bildschirmauflösung
+Referrer URL
+Zeitzone
+Informationen des Betriebssystems
+Gerätetyp
+Geografischer Standort
+Anzahl der Seitenaufrufe
+URLs
+Nutzungsdaten
+Anzahl der geöffneten Registerkarten
+Ob ein Werbeblocker installiert ist
+Anzahl der Besuche
+Log file Daten
+Datum und Uhrzeit des Besuchs
+Rechtsgrundlage
+Im folgenden wird die erforderliche Rechtsgrundlage für die Verarbeitung von Daten genannt
+
+Art. 6 Abs. 1 S. 1 lit. f DS-GVO. Der Einsatz von Kameleoon dient der Wahrung unserer, im Rahmen einer Interessenabwägung, überwiegenden berechtigten Interessen an einer Auswertung und optimierten Darstellung unserer Online-Angebote gemäß Art. 6 Abs. 1 lit. f DSGVO. Die Auswertung der erhobenen Daten erfolgt über einen Zeitraum von maximal 380 Tagen. Sie haben die Möglichkeit, einer Erfassung und Verarbeitung der durch das Kameleoon-Cookie erzeugten Daten zu widersprechen und eine solche zu verhindern. Hierzu müssen Sie den nachfolgenden Link klicken, der ein Opt-Out-Cookie setzt. Bitte beachten Sie, dass das Löschen der Cookies ein Neuladen der Seite erfordert.
+Ort der Verarbeitung
+Europäische Union
+Aufbewahrungsdauer
+Die Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.
+
+Die Aufbewahrungsdauer beträgt maximal 380 Tage.
+Datenempfänger
+Kameleoon SAS
+Datenschutzbeauftragter der verarbeitenden Firma
+Nachfolgend finden Sie die E-Mail-Adresse des Datenschutzbeauftragten des verarbeitenden Unternehmens.
+
+dataprotection@kameleoon.com
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen: https://www.kameleoon.com/de/datenschutz/
+
+
+Google Ads Remarketing
+Dies ist ein Remarketing-Service.
+Verarbeitendes Unternehmen
+Google Ireland Limited
+
+Google Building Gordon House, 4 Barrow St, Dublin, D04 E5W5, Ireland
+
+Datenverarbeitungszwecke
+Diese Liste stellt die Zwecke der Datenerhebung und -verarbeitung dar.
+
+Remarketing
+Genutzte Technologien
+Diese Liste enthält alle Technologien, mit denen dieser Dienst Daten sammelt. Typische Technologien sind Cookies und Pixel, die im Browser platziert werden.
+
+Cookies
+Erhobene Daten
+Diese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.
+
+Besuchsdauer
+IP-Adresse
+Besuchte Seiten
+Inhalt an dem der Nutzer interessiert ist
+Webseiten-Nutzung
+Rechtsgrundlage
+Im folgenden wird die erforderliche Rechtsgrundlage für die Verarbeitung von Daten genannt
+
+Art. 6 Abs. 1 S. 1 lit. a DSGVO
+Ort der Verarbeitung
+Europäische Union
+Aufbewahrungsdauer
+Die Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.
+
+Die Daten werden gelöscht, sobald sie nicht mehr für die Verarbeitungszwecke benötigt werden.
+Datenempfänger
+Google Ireland Limited
+Google LLC
+Alphabet Inc.
+Datenschutzbeauftragter der verarbeitenden Firma
+Nachfolgend finden Sie die E-Mail-Adresse des Datenschutzbeauftragten des verarbeitenden Unternehmens.
+
+https://support.google.com/policies/troubleshooter/7575787?hl=en
+Weitergabe an Drittländer
+Dieser Service kann die erfassten Daten an ein anderes Land weiterleiten. Bitte beachten Sie, dass dieser Service Daten außerhalb der Europäischen Union und des europäischen Wirtschaftsraums und in ein Land, welches kein angemessenes Datenschutzniveau bietet, übertragen kann. Falls die Daten in die USA übertragen werden, besteht das Risiko, dass Ihre Daten von US Behörden zu Kontroll- und Überwachungszwecken verarbeitet werden können, ohne dass Ihnen möglicherweise Rechtsbehelfsmöglichkeiten zustehen. Nachfolgend finden Sie eine Liste der Länder, in die die Daten übertragen werden. Dies kann für verschiedene Zwecke der Fall sein, z. B. zum Speichern oder Verarbeiten.
+
+Weltweit
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen: https://policies.google.com/privacy?hl=de
+
+Opt-Out Link: https://safety.google/privacy/privacy-controls/
+
+Cookie-Richtlinie des Verarbeiters: https://policies.google.com/technologies/cookies?hl=de
+
+Speicherinformation
+Unten sehen Sie die längste potenzielle Speicherdauer auf einem Gerät, die bei Verwendung der Cookie-Speichermethode und bei Verwendung anderer Methoden festgelegt wurde.
+
+Höchstgrenze für die Speicherung von Cookies: 1 Jahr
+Gespeicherte Informationen
 
 Facebook Pixel
 Dies ist eine Tracking-Technologie, die von Facebook angeboten und von anderen Facebook-Diensten wie z.B. Facebook Custom Audiences genutzt wird.
@@ -384,52 +1238,51 @@ Unten sehen Sie die längste potenzielle Speicherdauer auf einem Gerät, die bei
 Höchstgrenze für die Speicherung von Cookies: 1 Jahr
 Gespeicherte Informationen
 
-Google Tag Manager
-Dies ist ein Tag-Management-System. Damit kann der Benutzer Messcodes und zugehörige Codefragmente aktualisieren, die auf der Website des Benutzers oder in der mobilen App als Tags bezeichnet werden.
+Usercentrics Consent Management Platform
+Dies ist ein Zustimmungsverwaltungsdienst. Die Usercentrics GmbH wird auf der Webseite als Auftragsverarbeiter zum Zwecke des Consent Managements eingesetzt.
 Verarbeitendes Unternehmen
-Google Ireland Limited
+Usercentrics GmbH
 
-Google Building Gordon House, 4 Barrow St, Dublin, D04 E5W5, Ireland
+Sendlinger Str. 7, 80331 Munich, Germany
 
 Datenverarbeitungszwecke
 Diese Liste stellt die Zwecke der Datenerhebung und -verarbeitung dar.
 
-Tag-Verwaltung
+Einhaltung der gesetzlichen Verpflichtungen
+Einwilligungsspeicherung
 Genutzte Technologien
 Diese Liste enthält alle Technologien, mit denen dieser Dienst Daten sammelt. Typische Technologien sind Cookies und Pixel, die im Browser platziert werden.
 
-Pixel
+Local Storage
 Erhobene Daten
 Diese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.
 
-Aggregierte Daten über die Tag-Auslösung
+Opt-in- und Opt-out-Daten
+Referrer URL
+User Agent
+Benutzereinstellungen
+Consent ID
+Zeitpunkt der Einwilligung
+Einwilligungstyp
+Template-Version
+Banner-Sprache
 Rechtsgrundlage
 Im folgenden wird die erforderliche Rechtsgrundlage für die Verarbeitung von Daten genannt
 
-Art. 6 Abs. 1 S. 1 lit. a DSGVO
+Art. 6 Abs. 1 S. 1 lit. c DSGVO
 Ort der Verarbeitung
-Vereinigte Staaten von Amerika
+Europäische Union (Zustimmungsdatenbank befindet sich in Belgien)
 Aufbewahrungsdauer
 Die Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.
 
-Die Daten werden nach 14 Tagen Abruf gelöscht.
+Die Einwilligungsdaten (Einwilligung und Widerruf der Einwilligung) werden drei Jahre lang gespeichert. Die Daten werden dann sofort gelöscht.
 Datenempfänger
-Alphabet Inc.
-Google LLC
-Google Ireland Limited
+Usercentrics GmbH
 Datenschutzbeauftragter der verarbeitenden Firma
 Nachfolgend finden Sie die E-Mail-Adresse des Datenschutzbeauftragten des verarbeitenden Unternehmens.
 
-https://support.google.com/policies/contact/general_privacy_form
-Weitergabe an Drittländer
-Dieser Service kann die erfassten Daten an ein anderes Land weiterleiten. Bitte beachten Sie, dass dieser Service Daten außerhalb der Europäischen Union und des europäischen Wirtschaftsraums und in ein Land, welches kein angemessenes Datenschutzniveau bietet, übertragen kann. Falls die Daten in die USA übertragen werden, besteht das Risiko, dass Ihre Daten von US Behörden zu Kontroll- und Überwachungszwecken verarbeitet werden können, ohne dass Ihnen möglicherweise Rechtsbehelfsmöglichkeiten zustehen. Nachfolgend finden Sie eine Liste der Länder, in die die Daten übertragen werden. Dies kann für verschiedene Zwecke der Fall sein, z. B. zum Speichern oder Verarbeiten.
-
-Weltweit
-Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen: https://policies.google.com/privacy?hl=en
-
-Opt-Out Link: https://safety.google/privacy/privacy-controls/
-
-Cookie-Richtlinie des Verarbeiters: https://www.google.com/intl/de/tagmanager/use-policy.html
+datenschutz@usercentrics.com
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen: https://usercentrics.com/privacy-policy/
 
 
 Google Analytics
@@ -497,43 +1350,199 @@ Unten sehen Sie die längste potenzielle Speicherdauer auf einem Gerät, die bei
 
 Höchstgrenze für die Speicherung von Cookies: 2 Jahre
 Gespeicherte Informationen
-Dieser Service verwendet verschiedene Mittel zum Speichern von Informationen auf dem Gerät eines Benutzers, wie nachfolgend aufgeführt.
 
-_ga
-Dies wird verwendet, um Benutzer zu unterscheiden.
-Dauer: 2 Jahre
-Typ: cookie
-Domain:
-_gid
-Dies wird verwendet, um Benutzer zu unterscheiden.
-Dauer: 1 Tag
-Typ: cookie
-Domain:
-_gat
-Wird verwendet, um die Anforderungsrate zu drosseln.
-Dauer: 1 Minute
-Typ: cookie
-Domain:
-_dc_gtm_xxx
-Dies wird verwendet, um Benutzer zu unterscheiden.
-Dauer: 1 Minute
-Typ: cookie
-Domain:
-_gat_gtag_xxx
-Dies wird verwendet, um Benutzer zu unterscheiden.
-Dauer: 1 Minute
-Typ: cookie
-Domain:
-_gac_xx
-Dies enthält Informationen darüber, auf welche Anzeige geklickt wurde.
-Dauer: 2 Monate, 29 Tage
-Typ: cookie
-Domain:
-IDE
-Mithilfe dieser ID kann Google den Nutzer auf verschiedenen Websites und Domains erkennen und personalisierte Werbung anzeigen.
-Dauer: 1 Jahr
-Typ: cookie
-Domain:
+Google Maps
+Dies ist ein Web-Mapping-Dienst.
+Verarbeitendes Unternehmen
+Google Ireland Limited
+
+Google Building Gordon House, 4 Barrow St, Dublin, D04 E5W5, Ireland
+
+Datenverarbeitungszwecke
+Diese Liste stellt die Zwecke der Datenerhebung und -verarbeitung dar.
+
+Karten anzeigen
+Genutzte Technologien
+Diese Liste enthält alle Technologien, mit denen dieser Dienst Daten sammelt. Typische Technologien sind Cookies und Pixel, die im Browser platziert werden.
+
+Cookies
+Erhobene Daten
+Diese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.
+
+Datum und Uhrzeit des Besuchs
+Standort-Informationen
+IP-Adresse
+URL
+Nutzungsdaten
+Rechtsgrundlage
+Im folgenden wird die erforderliche Rechtsgrundlage für die Verarbeitung von Daten genannt
+
+Art. 6 Abs. 1 S. 1 lit. a DSGVO
+Ort der Verarbeitung
+Europäische Union
+Aufbewahrungsdauer
+Die Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.
+
+Die Daten werden gelöscht, sobald sie nicht mehr für die Verarbeitungszwecke benötigt werden.
+Datenempfänger
+Google Ireland Limited
+Google LLC
+Alphabet Inc
+Datenschutzbeauftragter der verarbeitenden Firma
+Nachfolgend finden Sie die E-Mail-Adresse des Datenschutzbeauftragten des verarbeitenden Unternehmens.
+
+https://support.google.com/policies/troubleshooter/7575787?hl=en
+Weitergabe an Drittländer
+Dieser Service kann die erfassten Daten an ein anderes Land weiterleiten. Bitte beachten Sie, dass dieser Service Daten außerhalb der Europäischen Union und des europäischen Wirtschaftsraums und in ein Land, welches kein angemessenes Datenschutzniveau bietet, übertragen kann. Falls die Daten in die USA übertragen werden, besteht das Risiko, dass Ihre Daten von US Behörden zu Kontroll- und Überwachungszwecken verarbeitet werden können, ohne dass Ihnen möglicherweise Rechtsbehelfsmöglichkeiten zustehen. Nachfolgend finden Sie eine Liste der Länder, in die die Daten übertragen werden. Dies kann für verschiedene Zwecke der Fall sein, z. B. zum Speichern oder Verarbeiten.
+
+Weltweit
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen: http://www.google.com/intl/de/policies/privacy/
+
+Opt-Out Link: https://safety.google/privacy/privacy-controls/
+
+Cookie-Richtlinie des Verarbeiters: https://policies.google.com/technologies/cookies?hl=en
+
+Speicherinformation
+Unten sehen Sie die längste potenzielle Speicherdauer auf einem Gerät, die bei Verwendung der Cookie-Speichermethode und bei Verwendung anderer Methoden festgelegt wurde.
+
+Höchstgrenze für die Speicherung von Cookies: 6 Monate
+Gespeicherte Informationen
+
+Google Ads Conversion Tracking
+Dies ist ein Conversion Tracking-Service.
+Verarbeitendes Unternehmen
+Google Ireland Limited
+
+Google Building Gordon House, 4 Barrow St, Dublin, D04 E5W5, Ireland
+
+Datenverarbeitungszwecke
+Diese Liste stellt die Zwecke der Datenerhebung und -verarbeitung dar.
+
+Werbung
+Analyse
+Conversion Tracking
+Genutzte Technologien
+Diese Liste enthält alle Technologien, mit denen dieser Dienst Daten sammelt. Typische Technologien sind Cookies und Pixel, die im Browser platziert werden.
+
+Cookies
+Pixel
+Web beacons
+Erhobene Daten
+Diese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.
+
+Browser-Sprache
+Browser-Typ
+Angeklickte Anzeigen
+Cookie ID
+Cookie-Informationen
+Datum und Uhrzeit des Besuchs
+IP-Adresse
+Referrer URL
+Nutzungsdaten
+Web-Anfrage
+Rechtsgrundlage
+Im folgenden wird die erforderliche Rechtsgrundlage für die Verarbeitung von Daten genannt
+
+Art. 6 Abs. 1 S. 1 lit. a DSGVO
+Ort der Verarbeitung
+Europäische Union
+Aufbewahrungsdauer
+Die Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.
+
+Die Daten werden gelöscht, sobald sie nicht mehr für die Verarbeitungszwecke benötigt werden.
+Datenempfänger
+Google Ireland Limited
+Google LLC
+Alphabet Inc
+Datenschutzbeauftragter der verarbeitenden Firma
+Nachfolgend finden Sie die E-Mail-Adresse des Datenschutzbeauftragten des verarbeitenden Unternehmens.
+
+https://support.google.com/policies/troubleshooter/7575787?hl=en
+Weitergabe an Drittländer
+Dieser Service kann die erfassten Daten an ein anderes Land weiterleiten. Bitte beachten Sie, dass dieser Service Daten außerhalb der Europäischen Union und des europäischen Wirtschaftsraums und in ein Land, welches kein angemessenes Datenschutzniveau bietet, übertragen kann. Falls die Daten in die USA übertragen werden, besteht das Risiko, dass Ihre Daten von US Behörden zu Kontroll- und Überwachungszwecken verarbeitet werden können, ohne dass Ihnen möglicherweise Rechtsbehelfsmöglichkeiten zustehen. Nachfolgend finden Sie eine Liste der Länder, in die die Daten übertragen werden. Dies kann für verschiedene Zwecke der Fall sein, z. B. zum Speichern oder Verarbeiten.
+
+Weltweit
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen: https://policies.google.com/privacy?hl=en
+
+Opt-Out Link: https://safety.google/privacy/privacy-controls/
+
+Cookie-Richtlinie des Verarbeiters: https://policies.google.com/technologies/cookies?hl=en
+
+Speicherinformation
+Unten sehen Sie die längste potenzielle Speicherdauer auf einem Gerät, die bei Verwendung der Cookie-Speichermethode und bei Verwendung anderer Methoden festgelegt wurde.
+
+Höchstgrenze für die Speicherung von Cookies: 1 Jahr
+Gespeicherte Informationen
+
+Google Tag Manager
+Dies ist ein Tag-Management-System. Damit kann der Benutzer Messcodes und zugehörige Codefragmente aktualisieren, die auf der Website des Benutzers oder in der mobilen App als Tags bezeichnet werden.
+Verarbeitendes Unternehmen
+Google Ireland Limited
+
+Google Building Gordon House, 4 Barrow St, Dublin, D04 E5W5, Ireland
+
+Datenverarbeitungszwecke
+Diese Liste stellt die Zwecke der Datenerhebung und -verarbeitung dar.
+
+Tag-Verwaltung
+Genutzte Technologien
+Diese Liste enthält alle Technologien, mit denen dieser Dienst Daten sammelt. Typische Technologien sind Cookies und Pixel, die im Browser platziert werden.
+
+Pixel
+Erhobene Daten
+Diese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.
+
+Aggregierte Daten über die Tag-Auslösung
+Rechtsgrundlage
+Im folgenden wird die erforderliche Rechtsgrundlage für die Verarbeitung von Daten genannt
+
+Art. 6 Abs. 1 S. 1 lit. a DSGVO
+Ort der Verarbeitung
+Vereinigte Staaten von Amerika
+Aufbewahrungsdauer
+Die Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.
+
+Die Daten werden nach 14 Tagen Abruf gelöscht.
+Datenempfänger
+Alphabet Inc.
+Google LLC
+Google Ireland Limited
+Datenschutzbeauftragter der verarbeitenden Firma
+Nachfolgend finden Sie die E-Mail-Adresse des Datenschutzbeauftragten des verarbeitenden Unternehmens.
+
+https://support.google.com/policies/contact/general_privacy_form
+Weitergabe an Drittländer
+Dieser Service kann die erfassten Daten an ein anderes Land weiterleiten. Bitte beachten Sie, dass dieser Service Daten außerhalb der Europäischen Union und des europäischen Wirtschaftsraums und in ein Land, welches kein angemessenes Datenschutzniveau bietet, übertragen kann. Falls die Daten in die USA übertragen werden, besteht das Risiko, dass Ihre Daten von US Behörden zu Kontroll- und Überwachungszwecken verarbeitet werden können, ohne dass Ihnen möglicherweise Rechtsbehelfsmöglichkeiten zustehen. Nachfolgend finden Sie eine Liste der Länder, in die die Daten übertragen werden. Dies kann für verschiedene Zwecke der Fall sein, z. B. zum Speichern oder Verarbeiten.
+
+Weltweit
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen: https://policies.google.com/privacy?hl=en
+
+Opt-Out Link: https://safety.google/privacy/privacy-controls/
+
+Cookie-Richtlinie des Verarbeiters: https://www.google.com/intl/de/tagmanager/use-policy.html
+
+
+Wiredminds
+Unsere Webseite nutzt die Zählpixeltechnologie der wiredminds GmbH (www.wiredminds.de) zur Analyse des Besucherverhaltens.
+Verarbeitendes Unternehmen
+WiredMinds GmbH
+
+Rechtsgrundlage
+Im folgenden wird die erforderliche Rechtsgrundlage für die Verarbeitung von Daten genannt
+
+Datenschutzbeauftragter der verarbeitenden Firma
+Nachfolgend finden Sie die E-Mail-Adresse des Datenschutzbeauftragten des verarbeitenden Unternehmens.
+
+datenschutzbeauftragter@wiredminds.de
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen: https://www.wiredminds.de/fileadmin/testimages/content/datenschutz/DSB_WiredMinds_16.pdf
+
+
+YouTube Video
+Dies ist ein Video-Player-Dienst. Vor jedem Video muss eine Einwilligung erteilt werden, das Consent wird nicht über Usercentrics verwaltet.
+Verarbeitendes Unternehmen
+Rechtsgrundlage
+Im folgenden wird die erforderliche Rechtsgrundlage für die Verarbeitung von Daten genannt
+
 V. Informationen zu den Rechten Betroffener
 Dieser Teil der Datenschutzerklärung bietet zusätzliche Informationen zur Ausübung Ihrer Rechte als Betroffener gegenüber Viessmann.
 
@@ -594,6 +1603,6 @@ Sicherheitshinweis
 Wir sind bemüht, Ihre personenbezogenen Daten durch das Ergreifen technischer und organisatorischer Möglichkeiten so zu speichern, dass sie für Dritte nicht zugänglich sind. Bei der Kommunikation per E-Mail kann die vollständige Datensicherheit nicht gewährleistet werden, sodass wir Ihnen bei vertraulichen Informationen den Postweg empfehlen.
 
 Änderung der Datenschutzerklärung
-Diese Datenschutzerklärung ist aktuell gültig und hat den Stand Mai 2018.
+Diese Datenschutzerklärung ist aktuell gültig und hat den Stand 27. April 2020.
 
-Durch die Weiterentwicklung unserer Webseite und Angebote darüber oder aufgrund geänderter gesetzlicher bzw. behördlicher Vorgaben kann es notwendig werden, diese Datenschutzerklärung zu ändern. Die jeweils aktuelle Datenschutzerklärung kann jederzeit auf der Webseite unter https://dieseurl von Ihnen abgerufen und ausgedruckt werden.
+Durch die Weiterentwicklung unserer Webseite und Angebote darüber oder aufgrund geänderter gesetzlicher bzw. behördlicher Vorgaben kann es notwendig werden, diese Datenschutzerklärung zu ändern. Die jeweils aktuelle Datenschutzerklärung kann jederzeit auf der Webseite unter https://www.viessmann.de/de/datenschutzerklaerung.html von Ihnen abgerufen und ausgedruckt werden.
