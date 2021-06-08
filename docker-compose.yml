@@ -26,8 +26,8 @@ services:
       MONGODB_HOST: mongo
       FLASK_SECRET_KEY: 12345678901234567890123456789012
       FLASK_APP: main.py
-      FLASK_DEBUG: 0
-      FLASK_ENV: "production"
+      FLASK_DEBUG: 1
+      FLASK_ENV: "development"
       RUN: flask run --host=0.0.0.0 --port=5000
     command: flask run --host=0.0.0.0 --port=5000
     # Infinite loop, to keep it alive, for debugging
