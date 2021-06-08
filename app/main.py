@@ -110,9 +110,20 @@ def label(task_id):
     task = Task.objects.get(pk=task_id)
     annotations = Annotation.objects(task=task)
 
-    # finds the descriptions for potential annotations of this task
+    # finds the descriptions for labels of this task
     description_finder = DescriptonFinder()
-    descriptions = description_finder.find_descriptions(task)
+    annotation_descriptions = description_finder.find_descriptions(task.labels, task.hierarchy)
+    annotation_descriptions = annotation_descriptions.get_descriptions()
+    tooltips = description_finder.find_descriptions(task.manual_labels, task.hierarchy)
+    tooltips = tooltips.get_descriptions()
+
+    # finds the descriptions for manual bools of this task
+    # manual_bools_description_finder = ManualBoolDescriptonFinder()
+    # tooltips = manual_bools_description_finder.find_manual_bool_descriptions(task)
+    # # TODO
+    # tooltips = ["Tooltip test for legalRequirement",
+    #             "Tooltip test for contractualRegulation",
+    #             "Tooltip test for obligationToProvide"]
 
     # translate labels
     translator = Translator()
@@ -130,8 +141,9 @@ def label(task_id):
     manual_bools = get_manual_bools(task.hierarchy)
 
     return render_template('label.html', task=task, target_url=target_url, annotations=annotations,
-                           redirect_url=redirect_url, colors=colors, descriptions=descriptions,
-                           manual_bools=manual_bools)
+                           redirect_url=redirect_url, colors=colors,
+                           annotation_descriptions=annotation_descriptions,
+                           manual_bools=manual_bools, tooltips=tooltips)
 
 
 # API Setup

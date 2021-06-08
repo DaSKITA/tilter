@@ -11,7 +11,7 @@ class Task(db.Document):
     interfaces = db.ListField()
     text = db.StringField()
     html = db.BooleanField()
-    desc_keys = db.ListField()
+    manual_labels = db.ListField(db.DictField(), required=False)
 
 
 class User(db.Document, UserMixin):

@@ -24,6 +24,8 @@ task_with_id = ns.model('Task', {
     'text': fields.String(required=True, description='Task text'),
     'html': fields.Boolean(description='HTML formatted task text'),
     'labels': fields.List(description='Task labels', cls_or_instance=fields.Nested(label_fields)),
+    'manual_labels': fields.List(description='Manual Boolean Task labels',
+                                 cls_or_instance=fields.Nested(label_fields)),
 })
 
 task_no_id_or_label = ns.model('Task', {
@@ -78,8 +80,7 @@ class TaskCollection(Resource):
                             "controls",
                             "side-column",
                             "predictions:menu"],
-                            html=html, text=text,
-                            desc_keys=schema.keys())
+                            html=html, text=text)
                 task.save()
                 meta = Meta(name=name, url=url, root_task=task, language=language)
                 meta.save()

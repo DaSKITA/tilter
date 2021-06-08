@@ -3,7 +3,7 @@ from collections import defaultdict
 
 from database.models import LinkedAnnotation, Task, Annotation, HiddenAnnotation
 from config import Config
-from utils.label import AnnotationLabel, ManualBoolLabel, LinkedBoolLabel, IdLabel, Label, LabelEnum
+from utils.label import AnnotationLabel, ManualBoolLabel, LinkedBoolLabel, IdLabel, Label, LabelStrEnum
 
 
 class TaskCreator:
@@ -37,12 +37,13 @@ class TaskCreator:
             for schema_key, schema_value in schema_level.items():
                 schema_value = schema_value[0] if isinstance(schema_value, list) else schema_value
                 if isinstance(schema_value, dict) and self._subtasks_needed(schema_value, annotation):
-                    labels, desc_keys = self._process_dict_entry(schema_value)
+                    labels = self._process_dict_entry(schema_value)
                     new_task_hierarchy = self.task.hierarchy + [schema_key]
                     label_dict = self._filter_labels(labels)
 
                     name = self._create_task_name(annotation)
-                    new_task = Task(name=name, labels=label_dict[LabelEnum.ANNOTATION],
+                    new_task = Task(name=name, labels=label_dict[LabelStrEnum.ANNOTATION],
+                                    manual_labels=label_dict.get(LabelStrEnum.MANUAL),
                                     hierarchy=new_task_hierarchy, parent=self.task,
                                     interfaces=[
                                         "panel",
@@ -51,8 +52,7 @@ class TaskCreator:
                                         "side-column",
                                         "predictions:menu"],
                                     html=self.task.html,
-                                    text=self.task.text,
-                                    desc_keys=desc_keys)
+                                    text=self.task.text)
                     new_task.save()
 
                     # create annotation for new task
@@ -61,8 +61,9 @@ class TaskCreator:
                                                text=annotation.text,
                                                start=annotation.start, end=annotation.end)
                     new_task_anno.save()
-                    self._create_id_annotations(label_dict[LabelEnum.ID], new_task)
-                    self._create_linked_annotations(label_dict[LabelEnum.LINKED], task=new_task,
+                    self._create_id_annotations(label_dict[LabelStrEnum.ID], new_task)
+                    self._create_linked_annotations(label_dict[LabelStrEnum.LINKED],
+                                                    task=new_task,
                                                     schema_value=schema_value)
 
     def _process_dict_entry(self, dict_entry: Dict) -> Tuple[List, List]:
@@ -77,7 +78,6 @@ class TaskCreator:
         """
         # TODO: move descriptions keys into labels
         labels = []
-        desc_keys = []
         for dict_key, dict_value in dict_entry.items():
             label = None
             if dict_key.startswith("_"):
@@ -86,16 +86,16 @@ class TaskCreator:
             elif dict_key.startswith("~"):
                 if dict_value.startswith("#"):
                     linked_entry_key = dict_value.split("#")[1]
-                    label = LinkedBoolLabel(name=dict_key, linked_entry_value=dict_entry[linked_entry_key],
-                                            linked_entry_key=linked_entry_key)
+                    label = LinkedBoolLabel(name=dict_value, linked_entry_value=dict_entry[linked_entry_key],
+                                            linked_entry_key=linked_entry_key, tilt_key=dict_key)
                 else:
-                    label = ManualBoolLabel(name=dict_key, manual_bool_entry=dict_value)
+                    label = ManualBoolLabel(name=dict_value, manual_bool_entry=False,
+                                            tilt_key=dict_key[1:])
             else:
-                label = self._create_annotation_label(dict_value)
-                desc_keys.append(dict_key)
+                label = self._create_annotation_label(dict_key, dict_value)
             if label:
                 labels.append(label)
-        return labels, desc_keys
+        return labels
 
     def _subtasks_needed(self, schema_value: Dict, annotation: Annotation) -> bool:
         """Evaluates necessary conditions for creating a subtask.
@@ -112,7 +112,7 @@ class TaskCreator:
         field_is_dict = any(isinstance(val, dict) for val in schema_value.values())
         return annotation_equality and (non_artificial or field_is_dict)
 
-    def _create_annotation_label(self, dict_value: Union[str, Dict, List]) -> AnnotationLabel:
+    def _create_annotation_label(self, dict_key: str, dict_value: Union[str, Dict, List]) -> AnnotationLabel:
         """Creates AnnotationLabel instances. These instances are pinned onto a task and provide
         basic annotation functionality in label studio.
 
@@ -123,16 +123,16 @@ class TaskCreator:
             [type]: [description]
         """
         if isinstance(dict_value, str):
-            return AnnotationLabel(dict_value, multiple=False)
+            return AnnotationLabel(name=dict_value, multiple=False, tilt_key=dict_key)
         try:
             dict_value = dict_value[0]
             multiple = True
         except KeyError:
             multiple = False
         if isinstance(dict_value, dict):
-            return AnnotationLabel(name=dict_value["_desc"], multiple=multiple)
+            return AnnotationLabel(name=dict_value["_desc"], multiple=multiple, tilt_key=dict_key)
         else:
-            return AnnotationLabel(name=dict_value, multiple=multiple)
+            return AnnotationLabel(name=dict_value, multiple=multiple, tilt_key=dict_key)
 
     def _create_id_annotations(self, id_labels: IdLabel, task: Task):
         """Creates Annotations with IDs and saves them in the Database.
@@ -159,7 +159,7 @@ class TaskCreator:
         """
         label_dict = defaultdict(list)
         for label in label_list:
-            label_dict[LabelEnum(label.__class__)].append(label.to_dict())
+            label_dict[LabelStrEnum(label.__class__.__name__)].append(label.to_dict())
         return label_dict
 
     def _create_task_name(self, annotation: Annotation) -> str:
@@ -181,7 +181,7 @@ class TaskCreator:
             else:
                 subtask_key = False
             linked_annotation = LinkedAnnotation(task=task,
-                                                 label=linked_label["name"],
+                                                 label=linked_label["tilt_key"],
                                                  related_to=related_annotation,
                                                  value=subtask_key,
                                                  manual=False)
