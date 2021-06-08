@@ -9,17 +9,17 @@
     <div class="return">
         <a href="{{ url_for('tasks') }}"><- {{ _('task overview') }}</a>
     </div>
-    {% if descriptions %}
+    {% if annotation_descriptions %}
         <div>
             <table class="explanation">
                 <tr>
                     <th><b>Annotation</b></th>
                     <th><b>Description</b></th>
                 </tr>
-                {% for key, desc in descriptions.items() %}
+                {% for annotation_desc in annotation_descriptions %}
                     <tr>
-                        <td>{{ _(key) }}</td>
-                        <td>{{ desc }}</td>
+                        <td>{{ _(annotation_desc.name) }}</td>
+                        <td>{{ annotation_desc.description }}</td>
                     </tr>
                 {% endfor %}
             </table>
@@ -36,14 +36,19 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
+                {% for label in task.labels %}
+                    <div id="{{ label.name }}" class="modal-body">
+                        <label class="annotation-label">{{ label.name }}</label>
+                        <p class="annotation"></p>
+                    </div>
+                {% endfor %}
                     <div class="modal-body">
-                        <table>
+                        <table class="modal-checkboxes">
                         {% for bool in manual_bools %}
                             <div style="display: block">
                                 <input class="manual-bool-checkbox" type="checkbox" value="" id="{{ bool[0] }}">
                                 <label class="manual-bool-label" for="flexCheckDefault">
-                                    {{ bool[1] }}
-                                    <!-- todo: tooltips (https://getbootstrap.com/docs/4.0/components/modal/#tooltips-and-popovers) -->
+                                    {{ bool[1] }}<a href="#" class="tooltip-link" data-toggle="tooltip" title="{{ tooltips[loop.index0].description }}"><i class="fa fa-info-circle manual-bool-icon" aria-hidden="true"></i></a>
                                     <!-- todo: translate -->
                                 </label>
                             </div>
@@ -69,10 +74,32 @@
 
     <!-- Initialize Label Studio -->
     <script>
+        function getAnnotationsByLabel(label, completion) {
+            let annotations = [];
+            completion.serializeCompletion().forEach( function (element) {
+                    if (element["value"]["labels"][0] === label) {
+                        annotations.push(element["value"]["text"]);
+                    }
+                }
+            )
+            return annotations.join("\n");
+        }
+
         const addBoolsToAnnotationsIfNeeded = async (completion) => {
             {% if manual_bools %}
-                window.completion = completion
-                $('#manualBoolModal').modal()
+                window.completion = completion;
+                let labelText;
+                {% for label in task.labels %}
+                    labelText = getAnnotationsByLabel("{{ label.name }}", completion);
+                    if (labelText) {
+                        $('#{{ label.name }}').show();
+                        $('#{{ label.name }}').children("p").text(labelText);
+                    } else {
+                        $('#{{ label.name }}').hide();
+                    }
+                {% endfor %}
+                $('[data-toggle="tooltip"]').tooltip();
+                $('#manualBoolModal').modal();
             {% else %}
                 await sendAnnotations(completion)
             {% endif %}
@@ -172,11 +199,9 @@
                 LS.completionStore.selectCompletion(c.id);
             },
             onSubmitCompletion: function (LS, completion) {
-                console.log(completion)
                 addBoolsToAnnotationsIfNeeded(completion)
             },
             onUpdateCompletion: function (LS, completion) {
-                console.log(completion)
                 addBoolsToAnnotationsIfNeeded(completion)
             }
         });
