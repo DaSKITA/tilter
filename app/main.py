@@ -77,29 +77,29 @@ def tasks():
     return render_template('tasks.html', tasks=tasks)
 
 
-@app.route('/tasks/create', methods=['GET', 'POST'])
-@login_required
-def create_task():
-    form = CreateTaskForm()
-    if request.method == 'GET':
-        return render_template('create_task.html', form=form)
-    else:
-        if form.validate_on_submit():
-            labels = construct_first_level_labels()
-            Task(name=form.name.data, labels=labels, hierarchy=[], parent=None,
-                 interfaces=[
-                     "panel",
-                     "update",
-                     "controls",
-                     "side-column",
-                     "predictions:menu"],
-                 text=form.text.data,
-                 html=form.html.data
-                 ).save()
-            flash("Succesfully created Task " + form.name.data, 'success')
-        else:
-            flash("Error in Validation of sent Form, please check", 'error')
-        return redirect('/tasks/create')
+# @app.route('/tasks/create', methods=['GET', 'POST'])
+# @login_required
+# def create_task():
+#     form = CreateTaskForm()
+#     if request.method == 'GET':
+#         return render_template('create_task.html', form=form)
+#     else:
+#         if form.validate_on_submit():
+#             labels = construct_first_level_labels()
+#             Task(name=form.name.data, labels=labels, hierarchy=[], parent=None,
+#                  interfaces=[
+#                      "panel",
+#                      "update",
+#                      "controls",
+#                      "side-column",
+#                      "predictions:menu"],
+#                  text=form.text.data,
+#                  html=form.html.data
+#                  ).save()
+#             flash("Succesfully created Task " + form.name.data, 'success')
+#         else:
+#             flash("Error in Validation of sent Form, please check", 'error')
+#         return redirect('/tasks/create')
 
 
 @app.route('/tasks/<string:task_id>')
@@ -138,10 +138,12 @@ def label(task_id):
     # decide if postprocessing is needed before sending LSF completion to API url
     manual_bools = get_manual_bools(task.hierarchy)
 
+    token = create_access_token(identity=current_user.username)
+
     return render_template('label.html', task=task, target_url=target_url, annotations=annotations,
                            redirect_url=redirect_url, colors=colors,
                            annotation_descriptions=annotation_descriptions,
-                           manual_bools=manual_bools, tooltips=tooltips)
+                           manual_bools=manual_bools, tooltips=tooltips, token=token)
 
 
 # API Setup

@@ -69,7 +69,9 @@ def jsonify_policies(directory: str, url_mapping_path: str, output_path: str):
 @click.command()
 @click.option('-d', '--directory', default=None, help="Directory of policies.")
 @click.option('-u', '--url', default=None, help="Url of the host to send to")
-def post_tasks(directory: str = None, url: str = None):
+@click.option('-n', '--username', default=None, help="Username for Authentication")
+@click.option('-p', '--password', default=None, help="Password for Authentication")
+def post_tasks(directory: str = None, url: str = None, username: str = None, password: str = None):
     """
     Writes tasks from a json format into the MongoDB. In order to run, the TILTer needs to be
     setup.
@@ -77,11 +79,17 @@ def post_tasks(directory: str = None, url: str = None):
     Args:
         directory (str, optional): [description]. Defaults to None.
     """
-    print("Sending policies to database.")
     headers = {
         'Content-Type': 'application/json; charset=utf-8',
     }
-
+    # print("Fetching API Auth Token.")
+    # data = {
+    #     "username": username,
+    #     "password": password,
+    # }
+    # token = requests.post(f'{url}/api/auth/', headers=headers, data=json.dumps(data)).json()
+    # headers['Authorization'] = token
+    print("Sending policies to database.")
     if not url:
         url = "http://localhost:5000"
     if not directory:
