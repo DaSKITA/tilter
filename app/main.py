@@ -1,12 +1,18 @@
 from api.restx import ns
+
 from config import Config
+
 from database.db import db
 from database.models import Task, User, Annotation
-from flask import Blueprint, flash, Flask, Markup, render_template, redirect, request, url_for
+
+from flask import Blueprint, flash, Flask, jsonify, make_response, Markup, render_template, redirect, request, url_for
 from flask_babel import _, Babel, Domain
-from flask_restx import Api
+from flask_jwt_extended import create_access_token, jwt_required, JWTManager
+from flask_restx import Api, fields, Resource
 from flask_user import current_user, login_required, UserManager
+
 from forms import CreateTaskForm
+
 from utils.schema_tools import get_manual_bools, construct_first_level_labels
 from utils.description_finder import DescriptonFinder
 from utils.translator import Translator
@@ -31,9 +37,9 @@ def get_locale():
 
 
 # .../tasks/ render helper function
-def task_tree_to_dict(tasks):
+def task_tree_to_dict(task_list):
     task_tree_dict = {}
-    for task in tasks:
+    for task in task_list:
         task_tree_dict[task] = task_tree_to_dict(Task.objects(parent=task))
     return task_tree_dict
 
@@ -110,20 +116,12 @@ def label(task_id):
     task = Task.objects.get(pk=task_id)
     annotations = Annotation.objects(task=task)
 
-    # finds the descriptions for labels of this task
+    # finds the descriptions for labels and manual bools of this task
     description_finder = DescriptonFinder()
     annotation_descriptions = description_finder.find_descriptions(task.labels, task.hierarchy)
     annotation_descriptions = annotation_descriptions.get_descriptions()
     tooltips = description_finder.find_descriptions(task.manual_labels, task.hierarchy)
     tooltips = tooltips.get_descriptions()
-
-    # finds the descriptions for manual bools of this task
-    # manual_bools_description_finder = ManualBoolDescriptonFinder()
-    # tooltips = manual_bools_description_finder.find_manual_bool_descriptions(task)
-    # # TODO
-    # tooltips = ["Tooltip test for legalRequirement",
-    #             "Tooltip test for contractualRegulation",
-    #             "Tooltip test for obligationToProvide"]
 
     # translate labels
     translator = Translator()
@@ -152,6 +150,34 @@ api = Api(api_bp, version='1.0', title='TILTer API', doc='/docs/',
           description='A simple API granting access to Task & Annotation objects and TILT document conversions')
 api.add_namespace(ns)
 app.register_blueprint(api_bp)
+
+jwt = JWTManager(app)
+
+user = api.model('User', {
+    'username': fields.String(required=True, description="Username"),
+    'password': fields.String(required=True, description="Password")
+})
+
+@api.route("/auth")
+class Authentication(Resource):
+
+    @api.expect(user)
+    def post(self):
+        username = request.json.get("username", None)
+        password = request.json.get("password", None)
+
+        try:
+            current_user = User.objects.get(username=username)
+        except Exception as e:
+            return {"msg": "Username does not exist"}, 401
+
+        if user_manager.password_manager.verify_password(password=password, password_hash=current_user.password):
+            access_token = create_access_token(identity=username)
+            return access_token, 200
+        else:
+            return {"msg": "Wrong password"}, 401
+
+
 
 if __name__ == "__main__":
     app.run(use_debugger=False, use_reloader=False, passthrough_errors=True)

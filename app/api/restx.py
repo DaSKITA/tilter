@@ -1,23 +1,36 @@
 from config import Config
-from database.models import Task, Annotation
+
+from database.models import Annotation, Task, User
+
 from flask import request
+from flask_jwt_extended import jwt_required
 from flask_restx import fields, Namespace, Resource
+
 from mongoengine import DoesNotExist
+
 from utils.schema_tools import construct_first_level_labels
 from utils.create_tilt import create_tilt
 from utils.label import AnnotationLabel
 from utils.translator import Translator
+
 from tilt_resources.annotation_handler import AnnotationHandler
+from tilt_resources.meta import Meta
 from tilt_resources.task_creator import TaskCreator
 
-
-from tilt_resources.meta import Meta
-
 # API Namespace
-ns = Namespace("task", description="API Node for TILTer")
+authorizations = {
+    'apikey': {
+        'type': 'apiKey',
+        'in': 'header',
+        'name': 'Authorization'
+    }
+}
+
+ns = Namespace("task", description="API Node for TILTer", authorizations=authorizations)
 
 # create models for marshalling
 label_fields = AnnotationLabel.for_marshalling()
+
 task_with_id = ns.model('Task', {
     'id': fields.String(required=True, description='Unique identifier of the task'),
     'name': fields.String(required=True, description='Name of the task'),
@@ -54,6 +67,8 @@ class TaskCollection(Resource):
 
     @ns.expect(task_no_id_or_label)
     @ns.marshal_with(task_with_id)
+    @ns.doc(security='apikey')
+    @jwt_required()
     def post(self):
         """
         Creates a new task and returns it.
@@ -104,6 +119,8 @@ class TaskById(Resource):
         """
         return Task.objects.get(id=id)
 
+    @ns.doc(security='apikey')
+    @jwt_required()
     def delete(self, id):
         """
         Deletes task with given id
@@ -129,6 +146,8 @@ class AnnotationByTaskId(Resource):
 
     @ns.expect(annotation)
     @ns.marshal_with(annotation)
+    @ns.doc(security='apikey')
+    @jwt_required()
     def post(self, id):
         """
         Creates a new annotation for task with given id and returns it.
@@ -153,6 +172,8 @@ class AnnotationByTaskId(Resource):
 class AnnotationByTaskIdInJSON(Resource):
 
     @ns.marshal_with(annotation, as_list=True)
+    @ns.doc(security='apikey')
+    @jwt_required()
     def post(self, id):
         """
         Creates new annotations for a task with given id and returns them.

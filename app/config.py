@@ -15,6 +15,9 @@ class Config(object):
     USER_ENABLE_CHANGE_USERNAME = False
     USER_AFTER_LOGIN_ENDPOINT = 'tasks'
 
+    JWT_SECRET_KEY = "changemeplease"
+    JWT_HEADER_TYPE = ""
+
     LANGUAGES = ['en', 'de']
 
     BASE_PATH = os.path.abspath(os.path.dirname(__file__))
