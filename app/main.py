@@ -171,13 +171,13 @@ class Authentication(Resource):
         try:
             current_user = User.objects.get(username=username)
         except Exception as e:
-            return {"msg": "Username does not exist"}, 401
+            return {"msg": "Wrong username or password"}, 401
 
         if user_manager.password_manager.verify_password(password=password, password_hash=current_user.password):
             access_token = create_access_token(identity=username)
             return access_token, 200
         else:
-            return {"msg": "Wrong password"}, 401
+            return {"msg": "Wrong username or password"}, 401
 
 
 
