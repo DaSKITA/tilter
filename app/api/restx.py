@@ -74,34 +74,15 @@ class TaskCollection(Resource):
         Creates a new task and returns it.
         :return: newly created task
         """
-        schema = Config.SCHEMA_DICT
-        labels = construct_first_level_labels(as_dict=True)
+        task_creator = TaskCreator()
 
         name = request.json.get('name')
         text = request.json.get('text')
         html = request.json.get('html')
         url = request.json.get('url')
-        language = request.json.get("language")
-
-        if name != '' and text != '':
-            try:
-                task = Task.objects.get(name=name, labels=labels, hierarchy=[], parent=None, html=html,
-                                        text=text)
-            except DoesNotExist:
-                task = Task(name=name, labels=labels, hierarchy=[], parent=None,
-                            interfaces=[
-                            "panel",
-                            "update",
-                            "controls",
-                            "side-column",
-                            "predictions:menu"],
-                            html=html, text=text)
-                task.save()
-                meta = Meta(name=name, url=url, root_task=task, language=language)
-                meta.save()
-                return task, 201
-            else:
-                return task, 200
+        task = task_creator.create_task(name=name, html=html, text=text, url=url)
+        if task:
+            return task, 201
         else:
             return None, 400
 
