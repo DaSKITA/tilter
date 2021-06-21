@@ -1,9 +1,23 @@
 {% extends "base.html" %}
-<h1>{% block title %} {{ _('Welcome to TILTer') }} {% endblock %}</h1>
 {% block content %}
-    <h2>{{ _('Home page') }}</h2>
-    <p><a href={{ url_for('user.register') }}>{{ _('Register') }}</a></p>
-    <p><a href={{ url_for('user.login') }}>{{ _('Sign in') }}</a></p>
-    <p><a href={{ url_for('index') }}>{{ _('Home page') }}</a> ({{ _('accessible to anyone') }})</p>
-    <p><a href={{ url_for('member_page') }}>{{ _('Member page') }}</a> ({{ _('login required') }})</p>
+    <h1 class="title">{% block title %} {{ _('Welcome to TILTer') }} {% endblock %}</h1>
+    <h2 class="subtitle">Übersicht</h2>
+    <p>Diese Annotationsplattform ist Teil eines neuen Ökosystems zur Verarbeitung von
+        datenschutzrechtlichen Transparenzinformationen. Sie unterstützt den Prozess der Überführung von
+        textuellen Datenschutzerklärungen in das strukturierte, maschinenlesbare Format TILT, welches in einem
+        Dokumentenspeicher abgelegt werden kann. Später können die so „gewonnen“, also zur Weiterverarbeitung
+        aufbereiteten, Informationen über verschiedene Kanäle ausgespielt werden. Beispielhaft werden im Projekt
+        DaSKITA bereits eine Browser-Erweiterung oder ein interaktiver dialogbasierter Chatbot entwickelt.
+    </p>
+    <p>
+    	Weitere Informationen:
+    	<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+  			<path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+  			<path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+		</svg> <a href="https://daskita.github.io">https://daskita.github.io</a>
+	</p>
+    <img class="index-image" src="{{ url_for('static', filename='images/uebersicht.png') }}">
+    <img class="index-logo" src="{{ url_for('static', filename='images/tub.png') }}">
+    <div class="contact">
+    </div>
 {% endblock %}

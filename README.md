@@ -3,20 +3,57 @@
 # tilter
 Annotation tool _TILTer_ for the annotation and conversion of privacy policies into the [TILT schema](https://github.com/Transparency-Information-Language/schema).
 
-## Installation
+
+## Run Application
+
+### Prerequisites
+
+* Python 3.7.0 or above
+
+### Installation
 1. Install [Docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/).
 2. `git clone https://github.com/DaSKITA/tilter.git`
-3. `docker-compose up`
-5. Access [http://localhost:5000](http://localhost:5000) and [http://localhost:5000/api/docs/](http://localhost:5000/api/docs/) in your favorite browser.
+browser.
 
 
+### SetUp
+
+3. Type `docker-compose up` in the Terminal Window.
+4. Access [http://localhost:5000](http://localhost:5000) and [http://localhost:5000/api/docs/](http://localhost:5000/api/docs/) in your favorite Browser
+5. Get some Privacy Policies from the TUB-Cloud as `.txt`-files. And place them in the `data` folder.
+6. Open a Terminal Window and activate your python environment.
+7. Execute the script under `scripts/fill_database.sh`
+
+
+__Note:__ You can also use the [feeder.py](/scripts/feeder.py) CLI drectly. For more Information run: `python feeder.py --help`. Make sure to install the required packages before.
+The packages can be found in `scripts/fill_database.sh` after the `pip` command.
+
+## Deployment
+
+The TILTer ist currently deployed in a [google compute engine](http://34.89.190.55:5000/).
+Deplyoment is not automated. Inside the engine the repository is clonded and has to be manually synched with
+the remote repository. For access to the compute engine ask Michael, to provide you with the necessary
+`ssh-keys` and Username.
+The ssh-connection can be established via `ssh -i [Path_to_Private_Key] [USERNAME]@34.89.190.55`.
+In the engine a log is created from the console output via nohub. All output is saved in `nohub.out` in the
+root directory of the titler.
+
+It is recommended to use screens for managing the application on the compute engine.
+<br>
+Start a new screen by: `screen -S <screen_name>`
+<br>
+Reattach a screen by: `screen -r <screen_name>`
+<br>
+See all screens with: `screen ls`
+
+The deployment will be active for 90 days (from 31.05.2021) without any costs. Afterwards running the TILTer
+will costs ~13 Euros per month.
+
+The Deployment can be accessed under: http://34.89.190.55:5000
 ## Versions
 
 ### v0.1
 ![](./.docs/screen1.png)
-
-## Adding Privacy Policies
-Run `python scripts/feeder.py -d [dir]`, where `[dir]` is the path to a folder containing privacy policies.
 
 ## Languages and Translations
 Currently supported Languages are English (standard) and German. These are realized using the `pybabel` package. For more information regarding this topic please visit the [babel documentation](http://babel.pocoo.org/en/latest/index.html).

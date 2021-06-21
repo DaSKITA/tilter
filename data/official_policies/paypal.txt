@@ -1,0 +1,398 @@
+Datenschutzerklärung
+Datum des Inkrafttretens: 16. Dezember 2020
+
+Drucken
+
+
+Übersicht
+Welche personenbezogenen Daten erfassen wir?
+Warum speichern wir personenbezogene Daten?
+Wie verarbeiten wir personenbezogene Daten?
+Geben wir personenbezogene Daten weiter?
+Wie arbeiten wir mit anderen Diensten und Partnern zusammen?
+Internationale Transfers
+Wie verwenden wir Cookies und Nachverfolgungstechnologien?
+Welche Datenschutzoptionen stehen Ihnen zur Verfügung?
+Welche Rechte haben Sie?
+Wie schützen wir Ihre personenbezogenen Daten?
+Können Kinder unsere Dienste nutzen?
+Was sollten Sie noch wissen?
+Nehmen Sie Kontakt mit uns auf.
+Begriffsbestimmungen
+Weitere Informationen (inkl. "Hinweis zu Bankvorschriften" für Kunden im EWR)
+1. Übersicht
+PayPal hat diese Datenschutzerklärung erstellt, um darzulegen, wie PayPal als Datenverantwortlicher personenbezogene Daten von Ihnen erhebt, speichert, verarbeitet, weitergibt und übermittelt, wenn Sie unsere Sites besuchen oder unsere Dienste nutzen. Diese Datenschutzerklärung bezieht sich auf personenbezogene Daten, die sich aus Ihrem Besuch unserer Seiten oder Ihrer Nutzung unserer Dienste ergeben. Sie gilt nicht für Seiten oder Dienstleistungen, die nicht uns gehören bzw. die wir nicht kontrollieren. Ebenso gilt diese Datenschutzerklärung nicht für Seiten oder Dienstleistungen anderer PayPal-Kunden.
+
+Als europäische Bank mit Sitz in Luxemburg kommen wir den Anforderungen des Datenschutzes und der Finanzaufsichtsbehörden nach. Es wird klargestellt, dass diese Datenschutzerklärung keinen "Rahmenvertrag" im Sinne der EU-Zahlungsdienstleistungsrichtlinie (2007/64/EG) darstellt oder diese Richtlinie für den europäischen Wirtschaftsraum in sonstiger Weise umsetzt.
+
+Die vorliegende Datenschutzerklärung soll Sie über unsere Datenschutzmaßnahmen informieren und aufzeigen, welche Datenschutzoptionen Ihnen zur Verfügung stehen, wenn Sie unsere Seiten und Dienste nutzen. Bitte beachten Sie, dass unser Dienstleistungsangebot von Region zu Region unterschiedlich ausfallen kann. Diese Datenschutzerklärung kann für bestimmte Seiten und Dienste mit zusätzlichen Hinweisen ergänzt werden. Zusätzliche Informationen finden Sie in der "Erklärung zu Cookies und Tracking-Technologien" sowie im "Hinweis zu Bankvorschriften".
+
+Wir haben einige der im Rahmen dieser Datenschutzerklärung verwendeten Begriffe mit Definitionen versehen. Die definierten Begriffe finden Sie im Abschnitt Begriffsbestimmungen.
+
+Kontaktieren Sie uns, wenn Sie Fragen zu unseren Datenschutzmaßnahmen haben, die in dieser Datenschutzerklärung nicht beantwortet werden.
+
+
+2. Welche personenbezogenen Daten erfassen wir?
+Wir erfassen personenbezogene Daten von Ihnen, wenn Sie unsere Seiten besuchen oder unsere Dienste nutzen. Dazu gehören folgende Informationen:
+
+Informationen zur Registrierung und Nutzung – Wenn Sie sich registrieren, um unsere Dienste zu nutzen und dafür ein Konto einrichten, erheben wir personenbezogene Daten, die notwendig sind, um die von Ihnen angeforderten Dienste anzubieten und zu erbringen. Je nach den von Ihnen gewählten Dienstleistungen brauchen wir zur Einrichtung eines Kontos Ihren Namen, Ihre Postanschrift, Telefonnummer, E-Mail-Adresse und Identifikationsdaten. Gegebenenfalls bitten wir Sie, uns zur Nutzung unserer Dienste weitere personenbezogene Daten zur Verfügung zu stellen.
+
+Transaktions- und Erfahrungsdaten – Wenn Sie unsere Dienste nutzen oder auf unsere Seiten zugreifen, z.B. um bei Händlern einzukaufen, Geld zu erhalten, Zahlungen abzuwickeln oder Geld an Freunde und Familie zu senden, erheben wir Informationen über die Transaktion sowie andere mit der Transaktion verbundene Informationen, wie z.B. den gesendeten oder angeforderten Betrag, den für Produkte oder Dienstleistungen gezahlten Betrag, Informationen über den Händler, einschließlich Informationen über die zur Durchführung der Transaktion verwendeten Zahlungsmittel, Geräteinformationen, technische Nutzungsdaten und Geolokationsdaten.
+Personenbezogene Daten von Transaktionsbeteiligten – Wenn Sie unsere Dienste nutzen oder auf unsere Seiten zugreifen, erheben wir von Ihnen bereitgestellte personenbezogene Daten über andere an der Transaktion Beteiligte.
+Geld senden oder anfordern: Wenn Sie über unsere Dienste Geld senden oder anfordern, erheben wir personenbezogene Daten wie Name, Anschrift, Telefonnummer und Kontoinformationen des Empfängers oder Absenders. Der Umfang der erforderlichen personenbezogenen Daten eines Beteiligten variiert je nach den Diensten, die Sie zum Senden oder Anfordern von Geld nutzen.
+Selbst zahlen oder jemand anderen zur Zahlung einer Rechnung auffordern: Wenn Sie unsere Dienste verwenden, um eine Rechnung für jemand anderen zu bezahlen, oder wenn Sie einen PayPal-Kunden auffordern, eine Rechnung von Ihnen zu zahlen, erheben wir personenbezogene Daten über den Kontoinhaber wie Name, Postanschrift, Telefonnummer, E-Mail-Adresse und Kontonummer der Rechnung, die Sie bezahlen oder deren Zahlung Sie anfordern.
+Ihrem Konto Guthaben hinzufügen: Wenn Sie unsere Dienste nutzen, um Ihrem Konto oder einem anderen Konto Guthaben hinzuzufügen, oder wenn Sie einen anderen Kunden auffordern, einem dieser Konten Guthaben hinzuzufügen, erheben wir zur Vereinfachung der Bearbeitung personenbezogene Daten von Ihnen über die andere Partei oder umgekehrt. Wenn Sie beispielsweise unsere Dienste nutzen, um ein Mobiltelefon aufzuladen oder um Guthaben anzufordern, das Sie Ihrem Mobilfunkkonto hinzufügen möchten, erheben wir personenbezogene Daten und andere Informationen, einschließlich der Mobilfunknummer des anderen Teilnehmers.
+Informationen zu Ihrem öffentlichen Profil und Ihren Freunden und Kontakten – Es kann für uns einfacher sein, Ihnen beim Handeln mit Ihren Freunden und Kontakten zu helfen, wenn Sie Ihre Kontaktlistendaten mit Ihrem Konto verbinden oder wenn Ihr Kontoprofil öffentlich verfügbar ist. Wenn Sie eine Kontoverbindung zwischen Ihrem Gerät oder einer Social-Media-Plattform und Ihrem Konto herstellen, werden wir Ihre Kontaktlistendaten (wie Name, Adresse, E-Mail-Adresse) zur Verbesserung der Benutzerfreundlichkeit verwenden. Wenn Ihr Kontoprofil öffentlich ist, können Sie von anderen Nutzern gefunden werden, indem sie nach Ihrem Namen, Benutzernamen, Ihrer E-Mail-Adresse oder Mobilfunknummer auf PayPal suchen und anhand Ihres Fotos prüfen, dass dies wirklich Ihr Konto ist. Die Nutzer können Ihnen anschließend Geld senden. Sie können Ihr Kontoprofil jederzeit in den Einstellungen von PayPal.me auf "Privat" festlegen.
+Personenbezogene Daten, die Sie uns zur Verfügung stellen, um zusätzliche Dienste oder bestimmte Onlinedienste in Anspruch zu nehmen – Wenn Sie eine optionale Sitefunktion anfordern oder nutzen bzw. erweiterte Dienste oder andere wählbare Funktionen anfordern, erheben wir möglicherweise weitere Daten von Ihnen. Wir senden Ihnen eine gesonderte Benachrichtigung zum Zeitpunkt der Erhebung, wenn die personenbezogenen Daten auf andere Art verwendet werden, als in dieser Datenschutzerklärung festgelegt.
+Personenbezogene Daten über Sie, wenn Sie markenfreie Dienste nutzen – Bestimmte Dienste sind verfügbar, ohne dass Sie sich in ein Konto einloggen oder ein Konto erstellen müssen. Wir erheben personenbezogene Daten, wenn Sie mit unseren Händlern interagieren und Zahlungen über unsere Kartenzahlungsdienste tätigen, die nicht den PayPal-Markennamen tragen, sowie wenn Sie einen Checkout mit PayPal durchführen, ohne sich in ein Konto einzuloggen. Bei unseren markenfreien Zahlungsdiensten findet Ihre Interaktion mit dem Händler auf dessen Plattform statt. Wenn Sie ein Kontoinhaber sind oder ein Konto zu einem späteren Zeitpunkt eröffnen, können wir zur Verbesserung Ihrer Kundenerfahrung als Kontoinhaber sowie für Compliance- und Analysezwecke Informationen über markenfreie Transaktionen erheben und sie mit Ihrem Konto verknüpfen. Wenn Sie kein Kontoinhaber sind, erheben und speichern wir alle von Ihnen angegebenen Informationen und verwenden diese Informationen gemäß dieser Datenschutzerklärung.
+Von Dritten bezogene personenbezogene Daten über Sie – Wir erhalten Informationen von Dritten wie z.B. Händlern, Datenanbietern und Kreditauskunfteien, soweit dies gesetzlich zulässig ist.
+Andere Daten, die wir im Zusammenhang mit Ihrer Nutzung unserer Sites oder Dienste erheben – Wir erheben gegebenenfalls zusätzliche Informationen von Ihnen oder über Sie, wenn Sie mit uns kommunizieren, sich an unsere Kundenservice-Teams wenden oder an einer Umfrage teilnehmen.
+
+3. Warum speichern wir personenbezogene Daten?
+Wir speichern personenbezogene Daten in einem identifizierbaren Format nur so lange, wie dies für die Erfüllung unserer gesetzlichen oder regulatorischen Verpflichtungen und für unsere Unternehmenszwecke erforderlich ist. Wir speichern personenbezogene Daten für längere Zeiträume als gesetzlich vorgeschrieben, wenn dies in unserem berechtigten Unternehmensinteresse liegt und nicht gesetzlich verboten ist. Bei Schließung Ihres Kontos können wir Maßnahmen ergreifen, um personenbezogene Daten und weitere Informationen zu maskieren. Wir behalten uns jedoch die Möglichkeit vor, die Daten so lange zu speichern und darauf zuzugreifen, wie dies zur Einhaltung des geltenden Rechts erforderlich ist. Die Verwendung und Offenlegung solcher personenbezogenen Daten erfolgt weiterhin in Übereinstimmung mit dieser Datenschutzerklärung.
+
+Die Cookies, die wir verwenden, haben feste Verfallszeiten. Wenn Sie innerhalb dieser Zeiten unsere Seiten nicht besuchen oder unsere Dienste nicht nutzen, werden die Cookies automatisch deaktiviert und gespeicherte Daten werden gelöscht. Weitere Informationen finden Sie in unserer Erklärung zu Cookies und Tracking-Technologien.
+
+
+4. Wie verarbeiten wir personenbezogene Daten?
+Wir können Ihre personenbezogenen Daten aus einer Vielzahl von Gründen verarbeiten, die nach dem Datenschutzrecht des Europäischen Wirtschaftsraums (EWR) und der Schweiz zulässig sind.
+
+Zum Betreiben der Seiten und zur Bereitstellung der Dienste, darunter:
+
+Anweisen einer Zahlung, Senden oder Anfordern von Geld, Hinzufügen von Guthaben zu einem Konto oder Bezahlen einer Rechnung;
+Authentifizieren Ihres Zugriffs auf ein Konto;
+Kommunikation mit Ihnen in Bezug auf Ihr Konto, die Seiten, Dienste oder PayPal;
+Erstellen einer Kontoverknüpfung zwischen Ihrem Konto und einem Drittanbieter-Konto oder einer Drittanbieter-Plattform;
+Bonitätsüberprüfung und andere Überprüfungen der Kreditwürdigkeit, Bewerten von Anwendungen, Informationsabgleich zur Prüfung auf Richtigkeit und Verifizierung und
+laufende Aktualisierung Ihrer Konto- und Finanzdaten.
+Zur Steuerung unserer Unternehmenserfordernisse, wie z.B. Überwachung, Analyse und Verbesserung der Dienste und der Leistung und Funktionalität der Sites.  Zum Beispiel analysieren wir das Nutzerverhalten und führen Recherchen über die Verwendung unserer Dienste durch.
+Zur Risikosteuerung und um durch Verifizierung Ihrer Identität die Seiten, die Dienste und Sie vor Betrug zu schützen Die Risiko- und Betrugstools von PayPal nutzen personenbezogene Daten, Geräteinformationen, technische Nutzungsdaten und Geolokationsdaten von unseren Seiten und Websites, auf denen PayPal-Dienste angeboten werden, um Betrug und Missbrauch der Dienste aufzudecken und zu verhindern.
+Zur Erfüllung unserer Verpflichtungen und zur Durchsetzung der Bedingungen unserer Seiten und Dienste. Dies umfasst auch die Einhaltung aller geltenden Gesetze und Vorschriften.
+Zur Wahrnehmung unserer berechtigten Interessen, einschließlich:
+Durchsetzung der Bedingungen unserer Seiten und Dienste;
+Verwaltung unserer tagtäglichen Unternehmensanforderungen wie Überwachung, Analyse;
+Management von Risiken, Betrug und Missbrauch von PayPal-Dienste;
+Anonymisieren personenbezogener Daten, um zusammengefasste Statistikdaten an Dritte, einschließlich anderer Unternehmen und der Öffentlichkeit, weitergeben zu können, aus denen hervorgeht, wie, wann und warum PayPal-Kunden auf unsere Seiten zugreifen und unsere Dienste nutzen;
+Durchführung von Business-to-Business-Marketing; und
+Bereitstellung personalisierter Dienste (auch als interessenbasierte Werbung bezeichnet) durch PayPal über Websites Dritter und Onlinedienste. Wir können Sie betreffende personenbezogene Daten und sonstige Informationen, die wir gemäß dieser Datenschutzerklärung erhoben haben, nutzen, um Ihnen personalisierte Anzeigen, Funktionen oder Angebote auf Websites von Dritten bereitzustellen.
+Einfacheres Finden anderer Personen und einfacheres Vernetzen mit diesen. Wenn Sie uns beispielsweise Zugriff Ihre Kontakte gewähren oder wenn Ihr Kontoprofil öffentlich ist, können wir Verbindungen zu Personen vorschlagen, die Sie vielleicht kennen, und anderen helfen, sich mit Ihnen in Verbindung zu setzen. So haben diese die Möglichkeit, Ihnen Geld zu senden, indem sie Ihr Profil finden können, wenn sie nach Name, Benutzername, E-Mail-Adresse oder Handynummer auf PayPal nach Ihnen suchen. Beispielsweise können wir Informationen, die wir aufgrund der Nutzung unserer Dienste durch Sie und Ihre Kontakte über Sie haben, und Informationen, die Sie und andere uns zur Verfügung stellen, verknüpfen, um Ihnen Personen vorzuschlagen, die Sie möglicherweise kennen oder mit denen Sie eventuell über unsere Dienste in Kontakt treten möchten. Soziale Funktionalität und Funktionen, die Ihnen die Nutzung der Dienste mit anderen erleichtern sollen, variieren je nach Service.
+Mit Ihrer Zustimmung, auch für Folgendes:
+Um Ihnen PayPal-Produkte und -Dienste sowie Produkte und Dienste nicht verbundener Unternehmen anzubieten. Wir können Ihre personenbezogenen Daten auch verarbeiten, um die Marketinginhalte und bestimmte Dienste oder Seiteninhalte so abzustimmen, dass Sie Ihren Interessen auf PayPal und anderen Websites von Dritten besser entsprechen.
+Um Cookies und andere Nachverfolgungstechnologien einzusetzen und Ihnen so personalisierte Anzeigen, Funktionen, Dienste oder Angebote bereitzustellen und/oder um mit anderen Drittanbietern wie Händlern, Werbe- oder Analytikunternehmen zusammenzuarbeiten und Ihnen so diese personalisierten Dienste zur Verfügung zu stellen (auch als interessenbasierte Werbung bezeichnet).
+Um Ihnen ortsspezifische Optionen, Funktionen oder Angebote bereitzustellen, wenn Sie sich entscheiden, Ihre Geolokationsinformationen über die Dienste zu teilen. Wir verwenden diese Informationen, um die Sicherheit der Seiten und Dienste zu verbessern und bieten Ihnen ortsbezogene Dienste wie Werbung, Suchergebnisse und andere personalisierte​ Inhalte (auch als interessenbasierte Werbung bezeichnet).
+Um auf Ihre Anfragen zu reagieren, zum Beispiel um Sie wegen einer Frage kontaktieren zu können, die Sie an unser Kundenservice-Team gerichtet haben.
+Sie können Ihre Einwilligung jederzeit und kostenlos widerrufen. Anweisungen dazu finden Sie im Abschnitt "Ihre Datenschutz-Einstellungen".
+
+
+5. Geben wir Ihre personenbezogenen Daten weiter?
+Wir können Ihre personenbezogenen Daten oder sonstige Informationen über Sie auf verschiedene Weise an andere weitergeben, die in diesem Abschnitt der Datenschutzerklärung beschrieben sind. Die Weitergabe Ihrer personenbezogenen Daten oder sonstigen Informationen kann aus folgenden Gründen erfolgen:
+
+An andere Mitglieder der PayPal-Unternehmensgruppe: Wir können Ihre personenbezogenen Daten an Mitglieder der PayPal-Unternehmensgruppe weitergeben, unter anderem um die von Ihnen angeforderten oder autorisierten Dienste zu erbringen, um Risiken zu steuern, um zur Aufdeckung und Verhinderung potenziell unrechtmäßiger und betrügerischer Handlungen und sonstiger Verstöße gegen unsere Richtlinien und Vereinbarungen beizutragen und um die Verfügbarkeit und Konnektivität von Produkten und Diensten und der Kommunikation von PayPal verwalten zu können.
+
+An andere Unternehmen, die Dienstleistungen an uns erbringen: Wir geben personenbezogene Daten an Drittanbieter weiter, die unter unserer Anleitung und in unserem Auftrag Dienstleistungen und Funktionen erbringen. Diese Drittanbieter stellen Ihnen beispielsweise Dienste bereit, verifizieren Ihre Identität, unterstützen uns bei der Verarbeitung von Transaktionen, senden Ihnen Werbung für unsere Produkte und Dienste oder bieten Kundenservice.
+
+An andere Finanzinstitute: Wir geben personenbezogene Daten an andere Finanzinstitute weiter, mit denen wir eine Partnerschaft eingegangen sind, um gemeinsam Produkte zu entwickeln und anzubieten. Ohne Ihre ausdrückliche Einwilligung dürfen diese Finanzinstitute die Informationen nur dazu verwenden, PayPal-Produkte zu vermarkten und anzubieten. Wir können personenbezogene Daten auch weitergeben, um Transaktionen zu verarbeiten, Ihnen Vorteile in Zusammenhang mit Ihren für PayPal verwendbaren Karten zu gewähren und Ihre Finanzdaten auf dem neuesten Stand zu halten.
+
+An andere Parteien einer Transaktion, wenn Sie die Dienste nutzen, wie z.B. an andere PayPal-Kunden, Händler und deren Dienstleister: Wir können Informationen über Sie und Ihr Konto an die anderen Parteien weitergeben, die an der Verarbeitung Ihrer Transaktionen beteiligt sind. Dazu gehören auch andere Nutzer, denen Sie Geld senden oder von denen Sie Geld erhalten, sowie Händler und deren Dienstleister. Die Informationen könnten Folgendes umfassen:
+
+Personenbezogene Daten und Kontoinformationen, die zur Erleichterung der Transaktion erforderlich sind;
+Personenbezogene Daten, die (ein) andere(r) Transaktionsteilnehmer zur Klärung von Konflikten und zur Prüfung und Prävention von Betrug benötigt bzw. benötigen; und
+Anonymisierte Daten und Leistungsanalysen, die Händlern dabei helfen, die Nutzung unserer Dienste besser zu verstehen und die Zufriedenheit der PayPal-Kunden zu steigern.
+An andere Drittparteien für unsere geschäftlichen Zwecke oder wenn dies rechtlich zulässig oder vorgeschrieben ist: Wir können Informationen über Sie an andere Parteien für die Geschäftszwecke von PayPal oder im Rahmen der gesetzlichen Bestimmungen weitergeben, einschließlich:
+
+wenn wir dazu verpflichtet sind, um ein Gesetz, ein rechtskräftiges Urteil oder eine Vorschrift zu erfüllen;
+an Vollstreckungsbehörden, sonstige Regierungsbeamte oder andere Dritte aufgrund einer Vorladung, eines Gerichtsbeschlusses oder eines anderen Rechtsverfahrens oder Rechtsgrundes, aus dem PayPal oder die PayPal-Unternehmensgruppe verpflichtet sind;
+wenn wir nach eigenem Ermessen der Auffassung sind, dass die Weitergabe von personenbezogenen Daten notwendig oder geboten ist, um physische Schäden oder finanzielle Verluste zu verhindern oder um die Aufklärung von mutmaßlichen oder tatsächlichen rechtswidrigen Aktivitäten zu unterstützen,
+um wesentliche Interessen einer Person zu schützen;
+an Kreditauskunfteien und Datenverarbeiter zwecks Referenz für Kreditprüfungen, zur Betrugsbekämpfung und zu Compliance-Zwecken;
+um Verstöße gegen für unsere Dienste geltende Nutzungsbedingungen oder sonstige rechtliche Bestimmungen zu untersuchen oder um diese Rechtsinstrumente durchzusetzen;
+zum Schutz unserer Vermögenswerte, Dienste und Rechte;
+um einen Kauf oder Verkauf des Unternehmens von PayPal oder von Teilen des Unternehmens zu erleichtern;
+im Zusammenhang mit Versanddiensten und ähnlichen Dienstleistungen für Einkäufe mit einem unserer Dienste;
+zur Bewertung und Steuerung von Risiken und zur Vorbeugung gegen Betrug zu Lasten von uns und unseren Kunden sowie von Betrug im Zusammenhang mit unseren Seiten oder der Nutzung unserer Dienste. Dies umfasst auch Betrug, der sich bei unseren Geschäftspartnern, strategischen Unternehmungen oder anderen Personen und Händlern, beispielsweise eBay, Inc., ereignet oder diese betrifft,
+an unsere Bankpartner gemäß den Regeln der Kreditkartenvereinigungen über die Aufnahme in die Liste gekündigter Händler,
+an Kreditauskunfteien und Inkassounternehmen;
+an Unternehmen, mit denen eine Firmenzusammenlegung oder Übernahme geplant ist; und
+um unsere Audit-, Compliance- und Unternehmensführungsfunktionen zu unterstützen.
+Aufgrund Ihrer Einwilligung: Wir geben Ihre personenbezogenen Daten und andere Informationen auch weiter, wenn Sie Ihre Einwilligung dazu erteilen oder uns entsprechend anweisen. Dies gilt auch für den Fall, dass Sie eine Verknüpfung mit dem Konto bzw. der Plattform von Dritten autorisieren.
+
+Darüber hinaus kann PayPal zusammengefasste statistische Daten über die Art und Weise, die Zeiträume und die Gründe des Besuchs unserer Seiten und der Verwendung unserer Dienste durch Nutzer an Dritte, einschließlich an andere Unternehmen und Bürger, weitergeben. Diese Daten identifizieren Sie nicht persönlich und bieten keine Informationen über Ihre Nutzung der Seiten oder Dienste. Wir geben Ihre personenbezogenen Daten ohne Ihre Einwilligung nicht an Dritte für deren Marketingzwecke weiter.
+
+
+6. Wie arbeiten wir mit anderen Diensten und Partnern zusammen?
+Ein innovativer Vorteil der Dienste von PayPal ist, dass Sie Ihr Konto mit dem Konto oder der Plattform eines Dritten verknüpfen können. Im Sinne dieser Datenschutzerklärung ist eine "Kontoverknüpfung" mit Dritten eine von Ihnen autorisierte oder gestattete Verknüpfung zwischen Ihrem Konto und nicht zu PayPal gehörenden Konten, Zahlungsinstrumenten oder Plattformen, die Ihnen gehören oder die Sie rechtmäßig kontrollieren. Wenn Sie eine solche Verknüpfung autorisieren, erfolgt ein direkter Austausch Ihrer personenbezogenen Daten zwischen PayPal und dem Drittanbieter. Beispiele für Kontoverknüpfungen:
+
+Sie verlinken Ihr Konto mit einem Social-Media-Konto oder Social-Messaging-Dienst;
+Sie verknüpfen Ihr Konto mit einem externen Datenaggregierer oder Finanzdienstleister, wenn Sie dem betreffenden Unternehmen Ihre Anmeldedaten mitteilen, oder
+Sie verwenden Ihr Konto für Zahlungen an einen Händler oder gestatten einem Händler, Ihr Konto zu belasten.
+Wenn Sie eine Kontoverknüpfung erstellen, erhalten wir möglicherweise von dem Dritten Daten über Sie und Ihre Nutzung seiner Dienste. Verknüpfen Sie Ihr Konto beispielsweise mit einem Social-Media-Konto, erhalten wir über die Kontoverknüpfung von dem Social-Media-Anbieter personenbezogene Daten. Wenn Sie Ihr Konto direkt oder über einen Drittanbieter mit anderen Finanzkonten verknüpfen, haben wir gegebenenfalls Zugriff auf Ihren Kontostand und auf Transaktionsdaten, wie z.B. Einkäufe und Überweisungen. Wir nutzen die Daten, die wir von einem Dritten über eine Kontoverknüpfung erhalten, ausschließlich gemäß den Bestimmungen dieser Datenschutzerklärung.
+
+Die Verwendung und Offenlegung von Informationen, die wir aufgrund einer Kontoverknüpfung an Dritte weitergeben, richtet sich nach den Datenschutzbestimmungen des Dritten. Vor der Genehmigung einer Kontoverknüpfung sollten Sie stets die Datenschutzerklärung des Dritten prüfen, für den Sie eine Kontoverknüpfung autorisieren, mit der er Zugriff auf Ihre personenbezogenen Daten erhält. Beispielsweise können personenbezogene Daten, die PayPal an ein Konto oder eine Plattform eines Dritten weitergibt (z.B. ein Social-Media-Konto), je nach dem Inhalt der Datenschutzbestimmungen des Kontos oder der Plattform an bestimmte weitere Dritte, einschließlich der allgemeinen Öffentlichkeit, weitergegeben werden.
+
+
+7. Internationale Übermittlung
+Unsere geschäftlichen Tätigkeiten werden durch ein Netzwerk von Computern, Cloud-basierten Servern und anderen Infrastruktur- und Informationstechnologien unterstützt, unter anderem auch von Dritten.
+
+Die genannten Parteien sind gegebenenfalls in anderen Ländern als Sie sowie außerhalb des Europäischen Wirtschaftsraums und der Schweiz ansässig. In diesen Ländern ist nicht immer ein gleichwertiger Datenschutz gegeben. In Übereinstimmung mit dem Datenschutzrecht für den EWR haben wir konkrete Maßnahmen getroffen, um den Schutz Ihrer personenbezogenen Daten zu gewährleisten. Insbesondere finden bei der Übermittlung Ihrer personenbezogenen Daten innerhalb von Unternehmen, die mit PayPal verbunden sind, die von den zuständigen Aufsichtsbehörden genehmigten bindenden Unternehmensregeln Anwendung (hier verfügbar). Andere Datenübermittlungen unterliegen gegebenenfalls vertraglichen Schutzbestimmungen. Wenden Sie sich an uns, wenn Sie weitere Informationen wünschen.
+
+Wenn Sie mit Personen außerhalb des EWR oder der Schweiz Transaktionen durchführen oder unseren Dienst mit Plattformen wie z.B. sozialen Netzwerken außerhalb des EWR oder der Schweiz verknüpfen, sind wir verpflichtet, Ihre personenbezogenen Daten an die genannten Parteien zu übermitteln, um Ihnen den angeforderten Dienst bereitstellen zu können.
+
+
+8. Wie verwenden wir Cookies und Nachverfolgungstechnologien?
+Wenn Sie unsere Seiten besuchen, unsere Dienste nutzen oder die Website eines Dritten besuchen, für die wir Onlinedienste zur Verfügung stellen, setzen wir bzw. unsere Geschäftspartner und Anbieter gegebenenfalls Cookies und andere Nachverfolgungstechnologien (zusammengefasst "Cookies") ein, um Sie als PayPal-Kunden zu erkennen und Ihre Online-Erfahrungen, die von Ihnen genutzten Dienste sowie andere Online-Inhalte und Werbung zu personalisieren, die Effektivität von Werbeaktionen zu bewerten, Analysen durchzuführen, Risiken zu minimieren, möglichem Betrug vorzubeugen und das Vertrauen und die Sicherheit im Zusammenhang mit unseren Seiten und Diensten zu fördern. Einige Aspekte und Funktionen unserer Seiten und Dienste sind nur durch den Einsatz von Cookies verfügbar. Wenn Sie Cookies deaktivieren oder ablehnen, wird die Nutzung der Seiten und Dienste daher möglicherweise eingeschränkt oder ist nicht mehr möglich.
+
+Do Not Track (DNT) ist eine optionale Browser-Einstellung, mit der Sie Ihre Präferenzen bezüglich der Nachverfolgung Ihrer Handlungen im Internet durch Werbetreibende und andere Dritte festlegen können. Wir reagieren nicht auf DNT-Signale.
+
+In unserer Erklärung zu Cookies und Tracking-Technologien erfahren Sie mehr darüber, wie wir Cookies einsetzen.
+
+
+9. Welche Datenschutzoptionen stehen Ihnen zur Verfügung?
+Sie haben Wahlmöglichkeiten hinsichtlich der in dieser Datenschutzerklärung beschriebenen Datenschutzmaßnahmen und -kommunikationen. Die meisten Wahlmöglichkeiten werden Ihnen erklärt, wenn Sie sich für einen Dienst neu anmelden, den Dienst verwenden oder eine Seite nutzen. Während Sie durch die Dienste navigieren, erhalten Sie möglicherweise Anweisungen und Eingabeaufforderungen.
+
+Wahlmöglichkeiten in Bezug auf die Erfassung personenbezogener Daten
+Personenbezogene Daten. Sie können die Übermittlung von personenbezogenen Daten, die von PayPal angefordert werden, ablehnen. Dann stehen Ihnen jedoch möglicherweise bestimmte oder alle Dienste nicht zur Verfügung.
+Standortdaten und andere Informationen auf Geräteebene. Das Gerät, mit dem Sie auf die Seiten oder Dienste zugreifen, erhebt Daten über Sie. Dazu gehören Geolokationsdaten und Nutzungsdaten, die PayPal anschließend erheben und verwenden kann. Informationen über Ihre Möglichkeiten, die Erhebung und Nutzung solcher Daten zu beschränken, finden Sie in den auf Ihrem Gerät verfügbaren Einstellungen.
+Wahlmöglichkeiten in Bezug auf die Nutzung Ihrer personenbezogenen Daten
+Onlinenachverfolgung und interessenbasierte Werbung. Wir arbeiten mit Partnern und anderen externen Dienstleistern zusammen, um Ihnen Werbung mithilfe von werbebezogenen Cookies und Web-Beacons anzuzeigen. Sie können werbebezogene Cookies und Web-Beacons deaktivieren. In diesem Fall wird unsere Werbung nicht auf Ihre Interessen abgestimmt. Auf Websites von Dritten wird Ihnen unsere Werbung weiterhin angezeigt.
+
+Weitere Informationen über von Dritten verwendete werbebezogene Cookies und interessenbasierte Werbung sowie darüber, wie diese bei Unternehmen, die an der brancheninternen Selbstregulierung teilnehmen, deaktiviert werden können, finden Sie unter Ihre Online-Wahlmöglichkeiten.
+Andere Personen suchen und Verknüpfungen herstellen. Falls verfügbar, können Sie Ihre Einstellungen für die Suche und Verknüpfung mit anderen Personen über Ihr Konto bei dem von Ihnen verwendeten Dienst verwalten.
+Wahlmöglichkeiten im Zusammenhang mit Kontoverknüpfungen
+Wenn Sie eine Kontoverknüpfung mit einem Konto oder einer Plattform eines Dritten wie z.B. einem Social-Media-Konto autorisieren, können Sie gegebenenfalls Ihre Verknüpfungseinstellungen über Ihr Konto oder das Konto bzw. die Plattform des Dritten verwalten. Weitere Informationen über die Optionen, die Sie in diesem Fall haben, finden Sie in der Datenschutzerklärung des Drittanbieters.
+Wahlmöglichkeiten im Zusammenhang mit Cookies
+Sie haben mehrere Optionen zur Verwaltung Ihrer Cookie-Einstellungen. Je nach Browser oder Internetgerät können Sie zum Beispiel bestimmte Cookies oder Nachverfolgungstechnologien löschen, deaktivieren oder blockieren. Nähere Informationen finden Sie auf AboutCookies.org. Sie können diese Optionen aktivieren. Dadurch können Sie aber möglicherweise viele Grundfunktionen eines Dienstes oder einer Site nicht mehr nutzen.
+Bezüglich der Verwendung von Cookies und anderen Nachverfolgungstechnologien haben Sie gegebenenfalls Wahlmöglichkeiten, wenn Sie einen Dienst nutzen oder Teile einer Seite besuchen. Sie können beispielsweise gefragt werden, ob der Dienst oder die Seite bestimmte Informationen über Sie speichern darf. Dann nutzen wir Cookies und andere Nachverfolgungstechnologien nur in dem Umfang, den Sie zugelassen haben.
+Weitere Informationen über unsere Cookies und Nachverfolgungstechnologien finden Sie auf der Seite "Erklärung zu Cookies und Tracking-Technologien".
+Wahlmöglichkeiten im Zusammenhang mit Ihrer Registrierung und Ihren Kontoinformationen
+Haben Sie ein Konto, können Sie in der Regel personenbezogene Daten prüfen und bearbeiten, indem Sie sich einloggen und die Informationen selbst korrigieren oder indem Sie uns kontaktieren. Wenn Sie kein Konto haben oder Fragen zu Ihren Kontoinformationen oder anderen personenbezogenen Daten haben, können Sie sich gerne an uns wenden.
+Wahlmöglichkeiten in Bezug auf Kommunikation
+Mitteilungen, Benachrichtigungen und Updates von uns:
+Marketing: Wir senden Ihnen gegebenenfalls über diverse Kommunikationskanäle wie E-Mail, SMS, Pop-ups, Push-Benachrichtigungen und Messaging-Anwendungen Werbeinhalte zu unseren Seiten, Diensten und Produkten, zu von uns gemeinsam mit anderen Finanzeinrichtungen angebotenen Produkten und zu Produkten und Dienstleistungen von konzernunabhängigen Dritten und von Mitgliedern der PayPal-Unternehmensgruppe. Sie können diese Werbenachrichten abbestellen, indem Sie den Anweisungen in den von uns versendeten Mitteilungen folgen. Haben Sie ein Konto bei uns, können Sie zudem Ihre Benachrichtigungseinstellungen in den Kontoeinstellungen ändern. Push-Benachrichtigungen können Sie über die Einstellungen Ihres Geräts steuern.
+Kommunikation zu Informations- und sonstigen Zwecken: Wir senden Ihnen Mitteilungen, deren Versendung an alle PayPal-Kunden vorgeschrieben oder notwendig ist, die wichtige Informationen enthalten oder die Sie von uns angefordert haben. Diese Mitteilungen können Sie nicht abbestellen. Sie haben jedoch unter Umständen die Möglichkeit, die Medien und das Format anzupassen, über die bzw. das Sie die Mitteilungen erhalten.
+
+10. Welche Rechte haben Sie?
+Vorbehaltlich etwaiger Einschränkungen nach dem Datenschutzrecht des EWR haben Sie in Bezug auf Ihre personenbezogenen Daten bestimmte Rechte. Insbesondere haben Sie in Bezug auf die Daten ein Recht auf Zugang, Berichtigung, Einschränkung der Verarbeitung, Widerspruch gegen die Verarbeitung, Löschung und Übertragbarkeit. Bitte kontaktieren Sie uns, wenn Sie eines dieser Rechte ausüben möchten.
+
+Wenn Sie ein Konto bei einem unserer Dienste haben, können Sie personenbezogene Daten in der Regel in diesem Konto prüfen und bearbeiten, indem Sie sich einloggen und die Angaben selbst aktualisieren. Wir können Kreditentscheidungen im Wege automatisierter Entscheidungsfindung treffen, wenn uns Ihre Einwilligung dazu vorliegt, dies für den Abschluss oder die Erfüllung eines Vertrags erforderlich ist oder nach dem Unionsrecht oder dem Recht der Mitgliedstaaten zulässig ist.
+
+Bitte wenden Sie sich an uns, wenn Sie mehr über die automatisierte Entscheidungsfindung erfahren wollen.
+
+
+11. Wie schützen wir Ihre personenbezogenen Daten?
+Wir führen technische, physische und administrative Sicherheitsmaßnahmen durch, um Ihre personenbezogenen Daten angemessen vor Verlust, Missbrauch, unbefugtem Zugriff, Weitergabe und Änderung zu schützen. Zu diesen Sicherheitsmaßnahmen gehören Firewalls, Datenverschlüsselung, physische Zugangsbeschränkungen zu unseren Rechenzentren und Berechtigungskontrollen für den Zugriff auf Daten. Wir sorgen für die Sicherung unserer Systeme und Dienste, für die Sicherheit und die Geheimhaltung Ihres Passworts bzw. Ihrer Passwörter und Ihres Kontoprofils bzw. Ihrer Anmeldedaten sind Sie jedoch selbst verantwortlich. Darüber hinaus obliegt es Ihnen, zu prüfen, ob die bei uns über Sie vorliegenden personenbezogenen Daten sachlich richtig und auf dem neuesten Stand sind. Für den Schutz personenbezogener Daten, die wir aufgrund einer von Ihnen autorisierten Kontoverknüpfung an Dritte weitergeben, sind wir nicht verantwortlich.
+
+
+12. Können Kinder unsere Dienste nutzen?
+Die Seiten und Dienste dürfen nicht von Personen genutzt werden, die unter 16 Jahre alt sind. Wir erheben nicht wissentlich Informationen, einschließlich personenbezogener Daten, von Kindern oder anderen Personen, welche unsere Seiten und Dienste nicht rechtmäßig nutzen können.  Wenn wir Kenntnis davon erhalten, dass wir personenbezogene Daten von einem Kind unter 16 Jahren erhoben haben, löschen wir diese unverzüglich, sofern wir nicht zur Speicherung der Daten rechtlich verpflichtet sind. Kontaktieren Sie uns, wenn Sie vermuten, dass wir irrtümlich oder versehentlich Daten von einem Kind unter 16 Jahren erhoben haben.
+
+
+13. Was sollten Sie noch wissen?
+Änderungen dieser Datenschutzerklärung.
+
+Wir können diese Datenschutzerklärung von Zeit zu Zeit überarbeiten, um Änderungen unseres Unternehmens, der Seiten oder Dienste oder der geltenden Gesetze zu berücksichtigen. Die überarbeitete Datenschutzerklärung wird ab dem dort angegebenen Datum des Inkrafttretens wirksam.
+
+Enthält die überarbeitete Version eine wesentliche Änderung, informieren wir Sie 30 Tage im Voraus durch Bekanntgabe der Änderung auf der Seite "AGB-Aktualisierungen". Gegebenenfalls informieren wir Kunden über die Änderung auch per E-Mail oder über einen anderen Kanal.
+
+
+14. Kontaktaufnahme
+Bei Fragen oder Anliegen zu dieser Datenschutzerklärung und der dazugehörigen ergänzenden Hinweise oder unserem Umgang mit personenbezogenen Daten können Sie uns gerne kontaktieren.
+
+Wir möchten sichergehen, dass Sie Ihre Fragen an die richtige Stelle richten:
+
+Klicken Sie hier, um uns bezüglich Ihres PayPal-Kontos oder Ihrer PayPal-Transaktion oder einer Kartenzahlung an einen Händler zu kontaktieren.
+
+Klicken Sie hier bei Fragen zu Ihrem Xoom-Konto.
+Wenn Sie mit der Bearbeitung Ihres Anliegens nicht zufrieden sind, haben Sie das Recht, bei der Aufsichtsbehörde für Datenschutz in Ihrem Land Beschwerde einzureichen.
+
+Unseren Datenschutzbeauftragten können Sie online oder unter der Kontaktadresse PayPal (Europe) S.à.r.l. et Cie, S.C.A., 22-24 Boulevard Royal, L-2449 Luxemburg erreichen.
+
+
+
+15. Begriffsbestimmungen
+Konto bezeichnet ein PayPal- oder Xoom-Kundenkonto.
+
+Datenverantwortlicher bedeutet, dass PayPal über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet.
+
+Gerätedaten bezeichnet Daten, die automatisch von einem beliebigen Gerät erhoben werden können, das für den Zugriff auf die Seite oder Dienste verwendet wird. Zu diesen Daten gehören unter anderem Ihr Gerätetyp, die Netzwerkverbindungen Ihres Geräts, Name und IP-Adresse Ihres Geräts, Informationen zum Webbrowser Ihres Geräts und zur Internetverbindung, mit denen Sie auf die Seite oder Dienste zugreifen, Geolokationsdaten, Informationen zu Apps, die auf Ihr Gerät heruntergeladen wurden, sowie biometrische Daten.
+
+Geolokationsdaten bezeichnet Informationen, die anhand von Längen- und Breitenkoordinaten, die über GPS, WLAN oder Mobilfunk ermitteltet wurden, mit angemessener Genauigkeit Ihren Standort identifizieren.
+
+PayPal bezeichnet PayPal (Europe) S.a.r.l. et Cie, S.C.A nebst Tochtergesellschaften oder verbundenen Unternehmen. In dieser Datenschutzerklärung wird PayPal je nach Kontext auch als "wir", "uns" oder "unser" bezeichnet.
+
+Personenbezogene Daten bezeichnet Informationen, die einer identifizierten oder direkt oder indirekt identifizierbaren natürlichen Person zugeordnet werden können. Zu den "personenbezogenen Daten" können unter anderem Name, Anschrift (einschließlich Rechnungs- und Lieferanschrift), Telefonnummer, E-Mail-Adresse, Zahlungskartennummer, andere Kontoinformationen, Kontonummer, Geburtsdatum und von Behörden ausgestellte Daten (z.B. Führerscheinnummer, Personalausweisnummer, Reisepassnummer) gehören.
+
+Verarbeitung bezeichnet jeden mit oder ohne Hilfe automatisierter Verfahren ausgeführten Vorgang oder jede solche Vorgangsreihe im Zusammenhang mit personenbezogenen Daten wie das Erheben, das Erfassen, die Organisation, das Ordnen, die Speicherung, die Anpassung oder Veränderung, das Auslesen, das Abfragen, die Offenlegung durch Übermittlung, Verbreitung oder eine andere Form der Bereitstellung, den Abgleich oder die Verknüpfung, die Einschränkung, das Löschen oder die Vernichtung von personenbezogenen Daten.
+
+Dienste bezeichnet alle Produkte, Dienstleistungen, Inhalte, Ausstattungen, Technologien oder Funktionen sowie alle damit verbundenen Websites, Anwendungen und Dienstleistungen, die Ihnen von PayPal angeboten werden.
+
+Sites bezeichnet die Websites, mobilen Apps, offiziellen Social-Media-Plattformen oder anderen Online-Tools, über die PayPal die Dienste anbietet und die diese Datenschutzerklärung veröffentlicht haben oder mit ihr verlinkt sind.
+
+Technische Nutzungsdaten bezeichnet Daten, die wir von Ihrem Telefon, Computer oder anderen Geräten erheben, die Sie für den Zugriff auf die Seiten oder Dienste nutzen. Technische Nutzungsdaten geben uns Aufschluss darüber, wie Sie die Seiten und Dienste verwenden, beispielsweise wonach Sie gesucht und was Sie auf den Seiten angesehen haben. Auch Ihre IP-Adresse, Statistiken dazu, wie Seiten geladen oder angezeigt werden, welche Websites Sie vor dem Aufruf unserer Seiten besucht haben und andere durch Cookies erfasste Nutzungs- und Browsing-Informationen zählen zu diesen Daten.
+
+Benutzer bezeichnet eine Person, die die Dienste nutzt oder auf die Seiten zugreift.
+
+
+
+16. Zusatzinformationen
+
+Die Informationen in diesem Abschnitt können für Kunden je nach Region spezifisch sein oder PayPal von Dritten zur Verfügung gestellt werden, mit denen Sie gegebenenfalls bei der Nutzung der Dienste interagieren. Bei Fragen zu den Informationen in diesem Abschnitt können Sie sich gerne an uns wenden.
+
+Hinweis zu Bankvorschriften für Kunden im EWR
+Nutzung Ihrer personenbezogenen Daten durch Kreditauskunfteien in Deutschland
+Google ReCaptcha
+
+
+"Hinweis zur Bankvorschriften" für Kunden im EWR und in der Schweiz
+Im Allgemeinen fordert das luxemburgische Recht, dem PayPal (in Bezug auf Datenschutz und Bankgeheimnis) unterliegt, einen höheren Grad an Transparenz als die meisten anderen EU-Vorschriften. Im Gegensatz zu den meisten Anbietern von Internet- oder Finanzdienstleistungen in der EU listen wir daher in dieser Datenschutzerklärung die Drittanbieter, die Dienstleistungen für uns erbringen und denen gegenüber wir Ihre Daten offenlegen, sowie den Zweck der Offenlegung und die Art der offengelegten Daten auf. Einen Link zu diesen Drittanbietern finden Sie hier. Indem Sie diese Datenschutzerklärung annehmen und ein Konto bei PayPal halten, willigen Sie ausdrücklich in die Übermittlung Ihrer Daten an diese Dritten für die aufgeführten Zwecke ein.
+
+PayPal kann die oben genannte Drittanbieterliste jedes Quartal (d.h. zum 1. Januar, 1. April, 1. Juli und 1. Oktober) aktualisieren. PayPal beginnt erst nach 30 Tagen ab dem Datum der Veröffentlichung der Liste innerhalb der Datenschutzerklärung mit der Übermittlung von Daten an eines der in der jeweiligen Aktualisierung neu aufgeführten Unternehmen oder für die dort neu aufgeführten Zwecke oder Datentypen. Sie sollten die Liste in jedem Quartal zu den oben genannten Terminen auf der PayPal-Website nachlesen. Wenn Sie der neuen Datenübertragung nicht innerhalb von 30 Tagen nach Veröffentlichung der aktualisierten Drittanbieterliste widersprechen, gelten die Änderungen der Liste und dieser Datenschutzerklärung als von Ihnen angenommen. Sind Sie mit den Änderungen nicht einverstanden, können Sie Ihr Konto schließen und die Nutzung unserer Dienste einstellen.
+
+Um die PayPal-Dienste bereitstellen zu können, müssen wir möglicherweise bestimmte von uns erhobene Informationen (wie in dieser Datenschutzerklärung erläutert) an andere mit PayPal verbundene Unternehmen oder sonstige Stellen übermitteln, einschließlich solcher, die gemäß diesem Abschnitt eine Funktion als Zahlungsdienstleister, Zahlungsanbieter oder Kontoinhaber (oder ähnliche Funktionen) erfüllen. Sie erkennen an, dass diese Unternehmen in ihren jeweiligen Rechtsordnungen gegebenenfalls Gesetzen, Vorschriften, Untersuchungen, Ermittlungen oder Anordnungen unterliegen, die die Weitergabe von Daten an die zuständigen Behörden des betreffenden Landes erfordern. Durch die Nutzung der PayPal-Dienste willigen Sie in die Übermittlung Ihrer Daten durch uns an die oben genannten Stellen ein, damit wir Ihnen die PayPal-Dienste bereitstellen können.
+
+Sie erklären sich insbesondere damit einverstanden und weisen PayPal an, mit Ihren Daten Folgendes zu tun:
+
+Offenlegung erforderlicher Informationen gegenüber: der Polizei und anderen Vollzugsbehörden; Sicherheitskräften; zuständigen staatlichen, zwischenstaatlichen oder überstaatlichen Stellen; zuständigen Behörden, Abteilungen, Aufsichtsbehörden, Selbstregulierungsbehörden oder -organisationen (einschließlich der hier im Abschnitt "Behörden" der Drittanbieterliste genannten Stellen) und anderen Dritten, einschließlich Unternehmen der PayPal-Gruppe, (i) deren Weisungen zu befolgen wir rechtlich verpflichtet sind, unter anderem aufgrund der luxemburgischen Gesetze vom 24. Juli 2015 über das US-amerikanische Gesetz zur Einhaltung der Steuervorschriften für Auslandskonten ("FATCA") und vom 18. Dezember 2015 über die einvernehmlich festgelegten Standards für die Berichterstattung der OECD ("CRS Gesetz"), (ii) bei denen wir Grund zu der Annahme haben, dass die Kooperation mit ihnen bei der Untersuchung von Betrugsfällen oder sonstigen tatsächlichen oder mutmaßlichen widerrechtlichen Aktivitäten angemessen ist, (iii) um Verstöße gegen unsere Nutzungsbedingungen zu untersuchen (dies gilt auch für Ihre Zahlungsquelle oder Ihren Kredit- oder Debitkartenanbieter).
+
+Wenn Sie unter den Geltungsbereich des FATCA oder des CRS-Gesetzes fallen, sind wir dazu verpflichtet, Sie über die Weitergabe von Daten an die jeweiligen Behörden zu unterrichten. Informieren Sie sich über die Verpflichtungen von PayPal nach dem FATCA und dem CRS-Gesetz sowie darüber, wie sich diese Verpflichtungen auf Sie auswirken können und welche Informationen wir gegebenenfalls im Zuge dieser Verpflichtungen weitergeben.
+
+Wir und weitere Organisationen, darunter Unternehmen, die Zahlungen über PayPal akzeptieren, sind außerdem zur Weitergabe und Verwendung der erforderlichen Daten (darunter auch von Behörden zur Betrugsbekämpfung aufgezeichneten Daten) sowie zum Zugriff auf diese Daten (jeweils auch aus anderen Ländern) zum Zwecke der Bewertung und Steuerung von Risiken (darunter zur Bekämpfung von Betrug, Geldwäsche und Terrorismusfinanzierung) berechtigt. Wenden Sie sich an uns, wenn Sie weitere Informationen über die zuständigen Betrugsbekämpfungsstellen wünschen. Klicken Sie hier, um weitere Informationen zu diesen Stellen, Betrugsbekämpfungsstellen und weiteren Dritten zu erhalten.
+
+Offenlegung von Kontoinformationen gegenüber Inhabern von geistigem Eigentum, wenn diese nach dem maßgeblichen nationalen Recht eines EU-Mitgliedstaates einen außergerichtlichen Auskunftsanspruch gegen PayPal aufgrund einer Verletzung ihrer geistigen Eigentumsrechte haben, bei der PayPal-Dienste genutzt wurden (zum Beispiel § 19, Absatz 2, Nr. 3 des deutschen Markengesetzes oder § 101, Absatz 2, Nr. 3 des deutschen Urheberrechtsgesetzes).
+
+Obligatorische Offenlegung aufgrund von Kreditkartenbestimmungen oder in straf- oder zivilrechtlichen Verfahren.
+
+Offenlegung Ihres Namens und PayPal-Links im PayPal-Benutzerverzeichnis. Ihre Daten werden anderen PayPal-Kunden als Antwort auf die Suche anhand Ihres Namens, Ihrer E-Mail-Adresse oder Telefonnummer oder eines Teils dieser Angaben bestätigt. Dadurch soll sichergestellt werden, dass die Zahlungen an den richtigen Empfänger vorgenommen werden. Diese Funktion kann in den PayPal-Profil-Einstellungen deaktiviert werden.
+
+Nutzen Sie als Händler einen Dritten für den Zugriff auf PayPal oder die Integration von PayPal, können wir notwendige Informationen an diesen Dritten zur Umsetzung und Verwaltung der betreffenden Vereinbarungen weitergeben (darunter den Status Ihrer PayPal-Integration, ob Sie ein aktives PayPal-Konto haben und ob Sie bereits mit einem anderen PayPal-Integrationspartner arbeiten).
+
+Offenlegung notwendiger Informationen gegenüber Zahlungsanbietern, Wirtschaftsprüfern, Kundendienstmitarbeitern, Betrugsbekämpfungsstellen, Anbietern von Finanzprodukten, Handelspartnern, Marketing- und PR-Unternehmen, Konzernunternehmen, Agenturen, Marktplätzen und sonstigen hier aufgeführten Dritten. Zweck dieser Offenlegung ist es, die Bereitstellung der PayPal-Dienste an Sie zu ermöglichen. In der Drittanbieterliste haben wir außerdem unter jeder "Kategorie" nicht abschließende Beispiele von Dritten (einschließlich deren Abtretungsempfängern und Rechtsnachfolgern) aufgeführt, gegenüber denen eine Offenlegung Ihrer Kontoinformationen derzeit tatsächlich stattfindet oder in Betracht gezogen werden kann. Neben dem Zweck der Offenlegung haben wir auch die offengelegten Informationen angegeben (soweit nicht anders angegeben, ist es diesen Dritten gesetzlich bzw. vertraglich untersagt, die Informationen für einen anderen als den vorgesehenen Zweck zu nutzen).
+
+Offenlegung erforderlicher Daten gegenüber Ihren Vertretern bzw. Verfahrensbevollmächtigten (z.B. dem Inhaber einer von Ihnen erteilten Vollmacht oder einem für Sie bestellten Vormund).
+
+Offenlegung von zusammengefassten Statistikdaten an unsere Geschäftspartner oder PR-Partner. Wir können beispielsweise offenlegen, dass ein bestimmter Prozentsatz unserer Kunden in einer bestimmten Stadt lebt. Diese zusammengefassten Daten enthalten jedoch keine individuell identifizierenden Informationen.
+
+Weitergabe erforderlicher Kontoinformationen an nicht mit uns verbundene (hier aufgeführte) Dritte zu folgenden Zwecken:
+
+Betrugsbekämpfung und Risikosteuerung: Bekämpfung von Betrug sowie Beurteilung und Steuerung von Risiken. Wenn Sie beispielsweise PayPal-Dienste zum Kauf oder Verkauf über eBay Inc oder die Tochter- oder Partnerunternehmen von eBay Inc ("eBay") nutzen, können wir Kontoinformationen an eBay weitergeben, um Ihre Konten vor betrügerischen Aktivitäten zu schützen, Sie auf betrügerische Aktivitäten auf Ihren Konten hinzuweisen oder Kreditrisiken zu bewerten.
+
+Im Rahmen unserer Maßnahmen zur Betrugsbekämpfung und Risikosteuerung können wir notwendige Kontoinformationen an eBay weitergeben, wenn PayPal Ihr Konto wegen Konflikten, Käuferschutzanträgen, Rückbuchungen oder anderen Sachverhalten in Bezug auf den Verkauf oder Kauf von Waren mit einer Sperre oder anderweitigen Beschränkung versehen hat. Wir können auch Kontoinformationen an eBay weitergeben, damit eBay seine Programme zur Bewertung von Käufern oder Verkäufern durchführen kann.
+
+Kundenservice: zu Zwecken des Kundenservice, einschließlich der Betreuung Ihrer Konten oder zur Beilegung von Konflikten (z.B. in Bezug auf Rechnungen oder Transaktionen).
+
+Versand: im Zusammenhang mit dem Versand und darauf bezogenen Dienstleistungen für mit PayPal getätigte Käufe.
+
+Einhaltung gesetzlicher Vorschriften: zur Unterstützung der Verifizierungsanforderungen bei der Bekämpfung von Geldwäsche und Terrorismusfinanzierung.
+
+Dienstleister: um den mit uns vertraglich verbundenen Dienstleistern zu ermöglichen, uns bei geschäftlichen Vorgängen wie z.B. Betrugsbekämpfung, Inkassomaßnahmen, Marketing, Kundenservice und Technologiedienstleistungen zu unterstützen. Diese Dienstleister werden von uns vertraglich verpflichtet, Ihre Daten nur für die Dienstleistungen zu verwenden, die sie für uns erbringen, nicht jedoch zu ihrem eigenen Nutzen.
+
+
+
+Nutzung Ihrer personenbezogenen Daten durch Kreditauskunfteien in Deutschland
+
+Warum benötigen wir Kreditscores?
+
+Bei einigen PayPal-Diensten ist es erforderlich, dass wir Vorauszahlungen vornehmen und uns daher gegenüber unseren Kunden einem Bonitätsrisiko aussetzen (z.B. wenn Sie mit Lastschrift zahlen oder in Verbindung mit einem Kreditprodukt von PayPal). Daher ist es notwendig, dass wir die Zahlungsbereitschaft und -fähigkeit unserer Kunden bei bestimmten Diensten überprüfen, indem wir Bonitätsinformationen einholen. Dies erleichtert uns die Entscheidung, ob wir dem Kunden das Produkt anbieten können.
+
+
+
+Warum geben wir personenbezogene Daten an Kreditauskunfteien weiter?
+
+Wir geben Ihre Daten (Name, Anschrift und Geburtsdatum, Bankkontoinformationen) zum Zwecke der Bonitätsprüfung, zur Erlangung von Informationen, zur Beurteilung des Ausfallrisikos anhand mathematischer Methoden unter Verwendung von Adressdaten sowie zur Verifizierung Ihrer Anschrift weiter.
+
+Die Rechtsgrundlagen für derartige Übermittlungen sind Artikel 6, Absatz 1, Buchstabe b und Artikel 6 Absatz 1, Buchstabe f der Datenschutz-Grundverordnung der Europäischen Union ("DSGVO"). Informationen können auf der Grundlage dieser Bestimmungen nur weitergegeben werden, soweit dies zur Wahrung der berechtigten Interessen von PayPal oder Dritten erforderlich ist und die Interessen, Grundrechte und Grundfreiheiten der betroffenen Person, die den Schutz personenbezogener Daten erfordern, nicht außer Kraft gesetzt werden.
+
+Nähere Informationen zum ICD im Sinne von Artikel 14 DSGVO, d.h. Informationen über den Geschäftszweck, die Zwecke der Speicherung von Daten, die Datenempfänger, die Rechte der betroffenen Person auf Information, das Recht auf Löschung oder Richtigstellung von Informationen usw. finden Sie unter den Links in der nachstehenden, von den Kreditauskunfteien bereitgestellten Tabelle.
+
+Weitere Informationen zur Verwendung Ihrer Daten durch die Kreditauskunfteien und dazu, wie Sie diese kontaktieren können, finden Sie in der nachstehenden Tabelle.
+
+
+
+So erfahren Sie mehr
+
+Sie können sich an derzeit in Deutschland tätige Kreditauskunfteien mit einem Ersuchen um Auskunft über die über Sie gespeicherten Daten wenden.
+
+Name der Kreditauskunftei und Sitz
+
+Anschrift und Kontaktdaten, um Auskünfte über gespeicherte Daten eines Verbrauchers zu erhalten
+
+Accumio Finance Services GmbH
+
+Accumio Finance Services GmbH
+Niederlassung Hannover
+Customer Care Services Center
+– Selbstauskunft Auskunftei –
+Postfach 11 02 54
+D-30099 Hannover
+
+http://saf-solutions.de/services/selbstauskunft-auskunftei/
+
+CEG Creditreform Boniversum GmbH
+
+Creditreform Boniversum GmbH
+
+Konsumentenservice
+
+Hellersbergstr. 11
+
+D-41460 Neuss
+
+http://www.meineauskunft.org/eigenauskunft/
+
+CRIF Bürgel GmbH
+
+CRIF Bürgel GmbH
+– Niederlassung Zentrale –
+
+Radlkoferstraße 2
+
+81373
+
+München
+
+https://www.crifbuergel.de/de/kontakt
+
+https://www.crifbuergel.de/de/kontakt/selbstauskunft
+
+SCHUFA Holding AG
+
+SCHUFA Holding AG
+Kormoranweg 5
+65201 Wiesbaden
+https://www.meineschufa.de
+
+www.schufa.de/datenschutz
+
+
+
+Weitere Informationen finden Sie hier
+
+infoscore Consumer Data GmbH/arvato
+
+infoscore Consumer Data GmbH
+Abteilung Datenschutz
+Rheinstraße 99
+76532 Baden-Baden
+http://www.arvato-infoscore.de/verbraucher/selbstauskunft/
+
+https://finance.arvato.com/icdinfoblatt
+
+
+
+Welche Daten werden an die Kreditauskunftei gesendet, um den Kreditscore zu erhalten? Welche Daten speichert die Kreditauskunftei?
+
+In Fällen, in denen PayPal bei einer Kreditauskunftei einen Kreditscore über Sie angefordert hat, können den Kreditauskunfteien Informationen über ein anschließendes "negatives Verhalten" von Ihnen, d.h. bestimmte Fälle von Verstößen gegen den zwischen uns bestehenden Vertrag, zur Verfügung gestellt werden. Dies ist beispielsweise der Fall, wenn Sie trotz mehrerer Mahnungen oder Vollstreckungsmaßnahmen einen ausstehenden Betrag nicht auf Ihr PayPal-Konto eingezahlt haben. Die betreffenden Informationen werden nur dann übermittelt, wenn dies im berechtigten Interesse von PayPal, der Kreditauskunftei oder deren Kunden erforderlich ist und kein Grund zu der Annahme besteht, dass Ihr berechtigtes Interesse an der Zurückbehaltung dieser Informationen überwiegt.
+
+Diese Informationen werden in der Datenbank der Kreditauskunftei gespeichert und können in der nachstehend beschriebenen Weise von der Kreditauskunftei zur Bestimmung eines Scoring-Wertes genutzt werden.
+
+
+
+Wie eine Kreditauskunftei Daten über "negatives Verhalten" nutzt und Verwendung von Adressdaten für Kreditscores
+
+Die Kreditauskunftei speichert und nutzt die erhaltenen Informationen. Die Nutzung beinhaltet die Berechnung eines Wahrscheinlichkeitswerts anhand der Daten, die der Kreditauskunftei zur Beurteilung des Kreditrisikos (Score) zur Verfügung stehen. Für die Berechnung des Scores kann die Kreditauskunftei auf der Grundlage eines mathematisch-statistischen Verfahrens auch Adressdaten verwenden. Die empfangenen Daten können an Vertragspartner im Europäischen Raum und in der Schweiz übermittelt werden, um diesen Personen Informationen zur Bonitätsbeurteilung einzelner Personen zur Verfügung zu stellen. Vertragspartner der Kreditauskunftei sind Unternehmen, die durch ihre Dienstleistungen ein finanzielles Kreditrisiko tragen (insbesondere Finanzinstitute, Kreditkartenunternehmen und Leasingunternehmen, aber auch Händler, Telekommunikationsunternehmen, Energieversorger, Versicherungen und Inkassobüros). Die Kreditauskunftei stellt diesen Kunden Informationen nur dann zur Verfügung, wenn sie im Einzelfall ein berechtigtes Interesse an solchen Informationen begründen können und die Weitergabe dieser Daten nach Abwägung aller beteiligten Interessen zulässig ist. Die zur Verfügung gestellten Informationen können daher zwischen Vertragspartnern der Kreditauskunftei variieren.
+
+
+Google ReCaptcha
+
+PayPal verwendet ReCaptcha auf den Seiten und in Diensten. Ihre Verwendung von ReCaptcha unterliegt den Datenschutzgrundsätzen und Nutzungsbedingungen vonGoogle.
+
+ReCaptcha wird nur zur Bekämpfung von Spam und Missbrauch verwendet.

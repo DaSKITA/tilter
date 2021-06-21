@@ -1,60 +1,262 @@
 {
   "controller": {
-    "desc": "Controller - Company Name",
-    "key": "name",
+    "_desc": "Controller - Company Name",
+    "_key": "name",
     "name": "Company Name",
     "country": "Country",
+    "address": "Address",
+    "division": "Division",
     "representative": {
-      "desc": "Representative - E-Mail",
-      "key": "email",
-      "email": "E-Mail address"
+      "_desc": "Representative - Name",
+      "_key": "name",
+      "name": "Representative Name",
+      "email": "E-Mail address",
+      "phone": "Phone"
     }
   },
+
   "dataProtectionOfficer": {
-    "desc": "Data Protection Officer - E-mail",
-    "key": "email",
-    "email": "E-Mail address"
+    "_desc": "Data Protection Officer - E-mail",
+    "_key": "email",
+    "email": "E-Mail address",
+    "phone": "Phone",
+    "country": "Country",
+    "name": "Name",
+    "address": "Address"
   },
-  "dataDisclosed": {
-      "desc": "Data Disclosed - Category",
-      "key": "category",
+
+  "dataDisclosed": [
+    {
+      "_desc": "Data Disclosed - Category",
+      "_key": "category",
+      "_id": "_id",
       "category": "Data Category",
-      "purposes": {
-          "desc": "Data Disclosed - Purpose",
-          "key": "purpose",
-          "purpose": "Purpose of Data"
-        },
-      "legalBases": {
-          "desc": "Data Disclosed - Legal Basis",
-          "key": "description",
-          "description": "Legal Basis Description"
-        },
-      "legitimateInterests": {
-          "desc": "Data Disclosed - Legitimate Interest",
-          "key": "reasoning",
-          "reasoning": "Legitimate Interest - Reasoning"
-        },
-      "recipients": {
-          "desc": "Data Disclosed - Recipients",
-          "key": "name",
-          "name": "Recipient Name",
-          "country": "Recipient Country"
-        },
-      "storage": {
-          "desc": "Data Disclosed - Storage Period",
-          "key": "purposeConditional",
-          "purposeConditional": "Storage Period - Purpose Conditional",
-          "legalBasisConditional": "Storage Period - Legal Basis Conditional"
+      "purposes": [
+        {
+          "_desc": "Data Disclosed - Purpose",
+          "_key": "purpose",
+          "purpose": "Purpose of Data",
+          "description": "Description for Purpose"
         }
+      ],
+      "legalBases": [
+        {
+          "_desc": "Data Disclosed - Legal Basis",
+          "_key": "reference",
+          "reference": "Reference for Legal Basis",
+          "description": "Legal Basis Description"
+        }
+      ],
+      "legitimateInterests": [
+        {
+          "_desc": "Data Disclosed - Legitimate Interest",
+          "_key": "reasoning",
+          "reasoning": "Legitimate Interest - Reasoning",
+          "~exists": "#reasoning"
+        }
+      ],
+      "recipients": [
+        {
+          "_desc": "Data Disclosed - Recipient Name",
+          "_key": "name",
+          "name": "Recipient Name",
+          "country": "Recipient Country",
+          "division": "Recipient Division",
+          "address": "Address",
+          "representative": {
+            "_desc": "Data Disclosed - Recipients - Representative",
+            "_key": "name",
+            "name": "Name",
+            "email": "Email",
+            "phone": "Phone"
+          },
+          "category": "Category"
+        }
+      ],
+      "recipientsOnlyCategory": [
+        {
+          "_desc": "Data Disclosed - Recipient Category Only",
+          "_key": "category",
+          "category": "Category"
+        }
+      ],
+      "storage": [
+        {
+          "_desc": "Data Disclosed - Storage Purpose",
+          "_key": "purposeConditional",
+          "purposeConditional": [
+            "Storage Period - Purpose Conditional"
+          ],
+          "legalBasisConditional": [
+            "Storage Period - Legal Basis Conditional"
+          ],
+          "temporal": {
+            "_desc": "Data Disclosed - Storage Purpose - Temporal",
+            "_key": "description",
+            "description": "Description",
+            "ttl": "Time to Live"
+          },
+          "aggregationFunction": "max"
+        }
+      ],
+      "nonDisclosure": {
+        "_desc": "Data Disclosed - Nondisclosure",
+        "_key": "consequences",
+        "consequences": "Consequences",
+        "~legalRequirement": "Legal Requirement",
+        "~contractualRegulation": "Contractual Regulation",
+        "~obligationToProvide": "Obligation to provide"
+      }
+    }
+  ],
+
+  "thirdCountryTransfers": [
+    {
+      "_desc": "Third Country Transfers - Target Country",
+      "_key": "country",
+      "country": "Target Country",
+      "adequacyDecision": {
+        "_desc": "Third Country Transfer - Adequacy Decision",
+        "_key": "description",
+        "~available": "#description",
+        "description": "Description"
+      },
+      "appropriateGuarantees": {
+        "_desc": "Third Country Transfer - Appropriate Guarantees",
+        "_key": "description",
+        "~available": "#description",
+        "description": "Description"
+      },
+      "presenceOfEnforceableRightsAndEffectiveRemedies": {
+        "_desc": "Third Country Transfer - Presence of enforceable Rights and effective Remedies",
+        "_key": "description",
+        "~available": "#description",
+        "description": "Description"
+      },
+      "standardDataProtectionClause": {
+        "_desc": "Third Country Transfer - Standard Data Protection Clause",
+        "_key": "description",
+        "~available": "#description",
+        "description": "Description"
+      }
+    }
+  ],
+
+  "accessAndDataPortability": {
+    "_desc": "Access and Data Portability",
+    "_key": "description",
+    "~available": "#description",
+    "description": "Description",
+    "url": "URL-Link",
+    "email": "E-Mail address",
+    "identificationEvidences": [
+      "Access and Data Portability - Identification Evidences"
+    ],
+    "administrativeFee": {
+      "_desc": "Administration Fee",
+      "_key": "amount",
+      "amount": "Amount",
+      "currency": "Currency"
     },
-  "thirdCountryTransfers": {
-    "desc": "Third Country Transfers - Target Country",
-    "key": "country",
-    "country": "Target Country"
+    "dataFormats": [
+      "Data Formats"
+    ]
   },
+
+  "sources": [
+    {
+      "_desc": "Sources",
+      "_key": "dataCategory",
+      "_id": "_id",
+      "dataCategory": "Data Category",
+      "sources": [
+        {
+          "_desc": "Sources",
+          "_key": "description",
+          "description": "Description",
+          "url": "URL-Link",
+          "~publiclyAvailable": "Publicly Available"
+        }
+      ]
+    }
+  ],
+
+  "rightToInformation": {
+    "_desc": "Right to Information",
+    "_key": "description",
+    "~available": "#description",
+    "description": "Description",
+    "url": "URL",
+    "email": "E-Mail address",
+    "identificationEvidences": ["Identification Evidences"]
+  },
+
+  "rightToRectificationOrDeletion": {
+    "_desc": "Right to Deletion",
+    "_key": "description",
+    "~available": "#description",
+    "description": "Description",
+    "url": "URL",
+    "email": "E-Mail address",
+    "identificationEvidences": ["Identification Evidences"]
+  },
+
+  "rightToDataPortability": {
+    "_desc": "Right to Data Portability",
+    "_key": "description",
+    "~available": "#description",
+    "description": "Description",
+    "url": "URL",
+    "email": "E-Mail address",
+    "identificationEvidences": ["Identification Evidences"]
+  },
+
+  "rightToWithdrawConsent": {
+    "_desc": "Right to Withdraw Consent",
+    "_key": "description",
+    "~available": "#description",
+    "description": "Description",
+    "url": "URL",
+    "email": "E-Mail address",
+    "identificationEvidences": ["Identification Evidences"]
+  },
+
+  "rightToComplain": {
+    "_desc": "Right to Complain",
+    "_key": "description",
+    "~available": "#description",
+    "description": "Description",
+    "url": "URL",
+    "email": "E-Mail address",
+    "identificationEvidences": ["Identification Evidences"],
+    "supervisoryAuthority": {
+      "_desc": "Right to Complain - Supervisor Authority",
+      "_key": "name",
+      "name": "Name",
+      "address": "Address",
+      "country": "Country",
+      "email": "E-Mail address",
+      "phone": "Phone"
+    }
+  },
+
   "automatedDecisionMaking": {
-    "desc": "Automated Decision Making - Logic",
-    "key": "logicInvolved",
-    "logicInvolved": "Involved Logic"
-  }
+    "_desc": "Automated Decision Making - Logic",
+    "_key": "logicInvolved",
+    "logicInvolved": "Involved Logic",
+    "~inUse": "#logicInvolved",
+    "scopeAndIntendedEffects": "Scope and Intended Effects"
+  },
+
+  "changesOfPurpose": [
+    {
+      "_desc": "Changes of Purpose",
+      "_key": "description",
+      "description": "Description",
+      "affectedDataCategories": ["Affected Data Categories"],
+      "plannedDateOfChange": "Planned Date of Change",
+      "urlOfNewVersion": "URL of new Version"
+    }
+  ]
 }
+

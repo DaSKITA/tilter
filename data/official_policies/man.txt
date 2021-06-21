@@ -1,0 +1,138 @@
+DATENSCHUTZ
+1. Allgemeine Informationen
+a) Einleitung
+Der Schutz Ihrer Persönlichkeitsrechte bei der Verarbeitung personenbezogener Daten ist für die Gesellschaften der MAN Gruppe (nachfolgend „MAN“) ein wichtiges Anliegen. Wir verarbeiten personenbezogene Daten in Übereinstimmung mit den Vorschriften der europäischen Datenschutzgrundverordnung (DS-GVO) und gemäß den gesetzlichen Bestimmungen des Landes, in dem die für die Datenverarbeitung verantwortliche Stelle ihren Sitz hat.
+
+Ergänzend haben sich die MAN-Gesellschaften durch eine verbindliche Konzernrichtlinie zu einem umfassenden und einheitlichen Schutz personenbezogener Daten verpflichtet. Hierdurch wird innerhalb der MAN weltweit ein Schutzniveau sichergestellt, dass demjenigen in Deutschland und der Europäischen Union vergleichbar ist.
+
+Ferner sind unsere Mitarbeiter zur Wahrung der Vertraulichkeit bezüglich des Umgangs mit personenbezogenen Daten verpflichtet.
+
+b) Verantwortlicher, Ansprechpartner und Informationen
+Verantwortlicher im Sinne des Datenschutzrechts ist die MAN-Gesellschaft, die Ihre Daten im Rahmen eines bestehenden oder sich anbahnenden Vertragsverhältnisses verarbeitet.
+
+Bei datenschutzbezogenen Fragen wenden Sie sich bitte an den Datenschutzbeauftragten/ Datenschutzkoordinator bei der MAN-Gesellschaft, mit der ein Vertragsverhältnis besteht bzw. sich anbahnt.
+
+Datenschutzbeauftragte/ Datenschutzkoordinatoren der MAN finden Sie hier .
+
+2. Erhebung und Verarbeitung personenbezogener Daten
+a) Zweckbindung und Rechtsgrundlage
+MAN verarbeitet Ihre personenbezogene Daten, um das mit Ihnen bestehende oder sich anbahnende Vertragsverhältnis durchzuführen und zu verwalten. In diesem Zusammenhang werden Ihre personenbezogenen Daten im Rahmen verschiedener Verarbeitungstätigkeiten zu unterschiedlichen Zwecken verarbeitet.
+
+b) Datenquellen
+Ihre personenbezogenen Daten werden in der Regel direkt bei Ihnen im Rahmen des bestehenden bzw. sich anbahnenden Vertragsverhältnisses erhoben.
+
+c) Verpflichtung zur Datenbereitstellung
+Die zur Durchführung des Vertragsverhältnisses erforderlichen personenbezogenen Daten müssen Sie dem Verantwortlichen bereitstellen. Ohne diese Bereitstellung kann MAN den gesetzlichen Pflichten nicht nachkommen und das Vertragsverhältnis nicht eingehen.
+
+d) Zweckbestimmung der Verarbeitungstätigkeiten
+Im Folgenden geben wir Ihnen eine Übersicht über die Zweckbestimmungen unserer Verarbeitungstätigkeiten:
+
+Marktanalyse und Identifikation von Neukunden
+
+z.B. Erstellung von Marktanalysen, Messeauftritt, Internetpräsenz, Kundenevents, Gewinnspiele und anderen Promotion Aktionen.
+
+Marketingkommunikation
+
+z.B. Versand von Magazinen, Newsletter, Produktbroschüren, Bereitstellung von Apps
+
+Angebotserstellung
+
+Produktkonfigurator, Erstellung von Produkt- bzw. fahrzeugspezifischen Serviceangeboten, Finanzierungsangebote, Mietangebote,
+
+Abwicklung eines Bestellvorgangs
+
+Ausfüllen der Bestellformulare, Zahlungsvorgängen Zahlungsmöglichkeiten, Lieferungs- und Zustellungsbedingungen, Einhaltung von gesetzlichen Verpflichtungen, wie z.B.: Rechnungslegung, Buchhaltung und Wirtschaftsprüfung, Interne Kosten- und Leistungsrechnung, Controlling (z.B. Erstattungen, Rücklastschriften, Verrechnungen), Reporting (z.B. für Datenqualitäts-, Steuerungs- und Planungszwecke), Berichterstattung und Planung der Vertriebskennzahlen, Durchführung des Forderungsmanagements/Mahnwesens
+
+Optimierung von Produktionsprozessen und der Fahrzeugqualität
+
+Erhebung von Fahrzeugdaten (z.B. Plausibilisierung und Ermittlung, von Kennzahlen zur Verbrauchs- und Verschleißreduktion), Erhebung von Service-, Wartungsdaten sowie Fehlercodes zur Fehlerdiagnose und Fehlerprävention, Auswertung von Fahrzeugdaten zur Einhaltung von Gewährleistungsverpflichtungen, Produkthaftung (Rückrufaktionen), Analyse von Fahrzeugdaten zur Qualitätsverbesserung von Fahrzeugfunktionen, Produkt- und Serviceoptimierungen
+
+Auslieferung des Produkts
+
+Fahrzeugübergabe
+
+Erhebung und Auswertung von Kundenfeedbacks (Ermittlung der Kundenzufriedenheit)
+
+Kundenzufriedenheitsbefragungen, Kundenbeschwerdemanagement
+
+After Sales Marketing
+
+Produkt- und Serviceschulungen, Bereitstellung von Anwendungen und EDV-Programmen und Apps
+
+Planung und Abwicklung von Werkstattaufträgen
+
+Erleichterung von Reparaturservices (Online Terminvereinbarungen)
+
+Fahrzeugrücknahme
+
+Vereinbarung für Rückkauf, Gebrauchtfahrzeugbörse
+
+Erfüllung gesetzlicher Pflichten
+
+Einhaltung von Aufbewahrungspflichten, Sicherstellung von Compliance-Anforderungen durch Prüfhandlungen (z.B. Sanktionslistenprüfung, Geldwäsche) , Betrieb eines internen Kontrollsystem (IKS) und anderer Monitoring-Systeme zu Sicherstellung der Ordnungsmäßigkeit der Geschäftsprozesse
+
+Die verarbeiteten Daten sind unter folgenden Datenkategorien einzuordnen:
+
+Berufliche Kontakt- und (Arbeits-)Organisationsdaten
+IT-Nutzungsdaten
+Private Kontakt- und Identifikationsdaten
+Daten zu persönlichen/beruflichen Verhältnissen & Merkmalen
+Bonitäts- und Bankdaten
+Vertragsdaten
+Kfz-Nutzungs-Daten mit FIN/KfZ-Kennzeichen Garantie-, Gewährleistung, Produkthaftung, sicherer Fahrzeugbetrieb
+Kfz-Nutzungs-Daten mit FIN/Kfz-Kennzeichen - Komforteinstellungen, Multimedia, Navigation - Bei der Kfz-Nutzung anfallende Daten, die mit FIN/Kfz-Kennzeichen verknüpft sind und Komforteinstellungen betreffen, wie z.B. Sitzeinstellung, bevorzugte Radiosender, Klimaeinstellungen, Navigationsdaten, E-Mail-/SMS-Kontaktdaten etc.
+Kfz-Nutzungs-Daten mit FIN/Kfz-Kennzeichen - Assistenzsysteme, Fahrverhalten etc. - Bei der Kfz-Nutzung anfallende Daten, die mit FIN/Kfz-Kennzeichen verknüpft sind und das Fahr-verhalten betreffen bzw. die Nutzung von Assistenzsystemen und deren konkrete Einsatzdaten etc.
+Positionsdaten
+Sonderkategorie Bild- und Videomaterial
+Die oben genannten Verarbeitungstätigkeiten sind durch nachfolgende Rechtsgrundlagen legitimiert:
+
+Einwilligung zu einem oder zu mehreren bestimmten Zwecken (Art. 6 Abs. 1 lit. a DS-GVO)
+Erfüllung des Vertrags oder Vertragsanbahnung (Art. 6 Abs. 1 lit. b DS-GVO)
+Erfüllung rechtlicher Verpflichtungen (Art. 6 Abs. 1 lit. c DS-GVO)
+Interessenabwägung (Art. 6 Abs. 1 lit. f DS-GVO
+Bestehen einer maßgeblichen und angemessenen Beziehung zwischen Verantwortlichem und Betroffenen
+Verhinderung von Betrug
+Direktwerbung
+Übermittlung von Daten innerhalb einer Unternehmensgruppe für interne Verwaltungszwecke (einschließlich Kunden und Beschäftigtendaten)
+3. Weitergabe personenbezogener Daten
+Ihre personenbezogenen Daten können in bestimmten Fällen auch an andere Stellen weitergegeben werden:
+
+Wenn die Weitergabe Ihrer personenbezogenen Daten zur Durchführung oder Anbahnung des Vertragsverhältnisses erforderlich ist, wie z.B. bei der Finanzierung des Vertragsgegenstands oder bei der gemeinsamen Auftragsabwicklung mit projektbezogenen Partnern (z.B. Aufbauhersteller).
+
+Wir geben Ihre personenbezogenen Daten auch an von uns beauftragte Dienstleiter im Rahmen von Auftragsverarbeitungen weiter. (z.B. Organisation von Messeveranstaltungen, Durchführungen von Kundenzufriedenheitsbefragungen, Versand von E-Mail Newslettern, Hosting und Betrieb von CRM -Systemen)
+
+Die Weitergabe Ihrer Stamm- und Kontaktdaten erfolgt zur Sicherstellung eines einheitlichen und aktuellen Datenbestandes in einer zentralen Datenbank (auf diese Datenbank können auch andere Unternehmen der Volkswagen Gruppe zugreifen) und zur Bonitätsprüfung.
+
+Wenn Sie zugestimmt haben, können wir Ihre Ihre Stamm- und Kontaktdaten sowie die Angebots- und Bestelldaten zu Zwecken der Kundenbetreuung wie z.B. der Erstellung fahrzeugspezifischer Serviceangebote oder der regionalen Vorortbetreuung auch an betreffende Vertragswerkstätten, Händler, freie Importeure sowie zur Erstellung von Miet- oder Finanzierungsangeboten an entsprechende Unternehmen der Volkswagen Gruppe weitergeben.
+
+Wenn wir zur Weitergabe Ihrer personenbezogenen Daten zur Einhaltung nationaler Rechtsvorschriften verpflichtet sind, z.B. Übermittlung an Finanzbehörden, Gerichte, Wirtschaftsprüfer.
+
+Mit allen datenempfangenden Gesellschaften der MAN- und Volkswagen-Gruppe wurden Datenschutzverträge abgeschlossen, um ein hohes Datenschutzniveau sicherzustellen.
+
+Sollten wir personenbezogene Daten an verbundene Unternehmen oder Dienstleister außerhalb des Europäischen Wirtschaftsraums (EWR) übermitteln, erfolgt die Übermittlung nur, soweit dem Drittland durch die EU-Kommission ein angemessenes Datenschutzniveau bestätigt wurde oder andere angemessene und ausreichende Datenschutzgarantien (z. B. EU-Standarddatenschutzklauseln oder Zertifizierung nach dem EU/US Privacy Shield) vorhanden sind.
+
+4. Datenspeicherung und –löschung
+Grundsätzlich löschen wir Ihre personenbezogenen Daten, sobald sie für die oben genannten Zwecke nicht mehr erforderlich sind.
+
+Ihre personenbezogenen Daten werden gespeichert, solange wir dazu gesetzlich verpflichtet sind, oder noch gesetzliche Verjährungsfristen laufen. Dies ergibt sich regelmäßig durch rechtliche Nachweis- und Aufbewahrungspflichten, die unter anderem im Bürgerlichen Gesetzbuch (BGB), Handelsgesetzbuch (HGB), oder in der Abgabenordnung (AO) geregelt sind.
+
+Darüber hinaus erfolgt eine Speicherung, sofern weitere gesetzliche oder vertragliche Aufbewahrungspflichten bestehen, wie zum Beispiel im Zusammenhang mit der Produkthaftung.
+
+5. Ihre Rechte
+Neben dem Recht auf Auskunft über die Sie betreffenden Daten und Berichtigung Ihrer Daten haben Sie, soweit dem keine gesetzlichen Regelungen entgegenstehen, auch das Recht auf Löschung sowie ein Widerspruchsrecht gegen die Verarbeitung bzw. das Recht auf Einschränkung der Verarbeitung Ihrer Daten. Ferner steht Ihnen das Recht auf Datenübertragbarkeit zu.
+
+Wenn wir Ihre personenbezogenen Daten aufgrund Ihrer Einwilligung erheben und verarbeiten, haben Sie zudem das Recht, die von Ihnen erteilte Einwilligung mit Wirkung für die Zukunft zu widerrufen. Ihr Widerruf lässt die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Datenverarbeitung unberührt.
+
+Soweit notwendig, müssen wir Ihre Identität verifizieren, bevor wir Ihre Anträge bearbeiten können.
+
+Sollten trotz unserer Bemühungen um Datenrichtigkeit und Aktualität falsche Informationen gespeichert sein, werden wir diese nach entsprechendem Hinweis berichtigen.
+
+Bei Beschwerden besteht die Möglichkeit, sich an eine Datenschutzaufsichtsbehörde zu wenden.
+
+6. Automatisierte Entscheidungsfindung
+Es besteht keine automatisierte Entscheidungsfindung gem. Art. 22 Abs.1,4 DS-GVO.
+
+7. Sicherheit
+Ihre Daten werden von MAN durch technische und organisatorische Sicherheitsmaßnahmen geschützt, um zufällige oder vorsätzliche Manipulationen, Verlust, Zerstörung oder den Zugriff unberechtigter Personen zu verhindern vermeiden.
+
+Unsere Sicherheitsmaßnahmen, wie z. B. die Datenverschlüsselung, werden entsprechend der technologischen Entwicklung regelmäßig verbessert.

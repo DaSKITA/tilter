@@ -1,9 +1,7 @@
 from dotenv import load_dotenv
 import os
 from pathlib import Path
-import fastjsonschema
 import json
-
 
 # Flask Config from Class
 class Config(object):
@@ -14,13 +12,19 @@ class Config(object):
     USER_ENABLE_USERNAME = True  # Enable username authentication
     USER_REQUIRE_RETYPE_PASSWORD = False  # Simplify register form
     USER_ENABLE_CHANGE_USERNAME = False
-    USER_AFTER_LOGIN_ENDPOINT = 'member_page'
+    USER_AFTER_LOGIN_ENDPOINT = 'tasks'
 
     LANGUAGES = ['en', 'de']
 
     BASE_PATH = os.path.abspath(os.path.dirname(__file__))
     ROOT_PATH = Path(BASE_PATH).parent
+
     TEST_PATH = os.path.join(ROOT_PATH, "test")
+    DESC_PATH = os.path.join(BASE_PATH, "tilt_resources/tilt_desc.json")
+    SCHEMA_PATH = os.path.join(BASE_PATH, "tilt_resources/schema.json")
+
+    with open(SCHEMA_PATH, 'r') as json_file:
+        SCHEMA_DICT = json.load(json_file)
 
     # Secrets
     if not os.environ.get("DEPLOYMENT", None):
@@ -43,8 +47,12 @@ class Config(object):
                                               mongodb_database=os.environ["MONGODB_DATABASE"],
                                               host=os.environ.get("MONGODB_HOST", "localhost"))
 
-    
-
-
     # Load tilt-hub secrets
     TILT_HUB = load_dotenv(dotenv_path=os.path.join(BASE_PATH, "secrets/local/tilthub.env"))
+
+    TILT_EXCEPTIONS = [
+        {
+            "schema_key_queue": ["dataDisclosed", "storage", "aggregationFunction"],
+            "tilt_exception_entry": "max"
+        }
+    ]

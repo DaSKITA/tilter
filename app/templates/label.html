@@ -6,8 +6,65 @@
 
     <h1>{% block title %} {{ _('Welcome to TILTer') }} {% endblock %}</h1>
     <h2>{{ _('Task') }} "{{ task.name }}"</h2>
-    <a href="{{ url_for("tasks") }}"><- {{ _('task overview') }}</a>
-    <br><br>
+    <div class="return">
+        <a href="{{ url_for('tasks') }}"><- {{ _('task overview') }}</a>
+    </div>
+    {% if annotation_descriptions %}
+        <div>
+            <table class="explanation">
+                <tr>
+                    <th><b>Annotation</b></th>
+                    <th><b>Description</b></th>
+                </tr>
+                {% for annotation_desc in annotation_descriptions %}
+                    <tr>
+                        <td>{{ _(annotation_desc.name) }}</td>
+                        <td>{{ annotation_desc.description }}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
+    {% endif %}
+
+    {% if manual_bools %}
+        <div class="modal fade" id="manualBoolModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Zusätzliche Annotationen</h5><!-- todo: translate -->
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                {% for label in task.labels %}
+                    <div id="{{ label.name }}" class="modal-body">
+                        <label class="annotation-label">{{ label.name }}</label>
+                        <p class="annotation"></p>
+                    </div>
+                {% endfor %}
+                    <div class="modal-body">
+                        <table class="modal-checkboxes">
+                        {% for bool in manual_bools %}
+                            <div style="display: block">
+                                <input class="manual-bool-checkbox" type="checkbox" value="" id="{{ bool[0] }}">
+                                <label class="manual-bool-label" for="flexCheckDefault">
+                                    {{ bool[1] }}<a href="#" class="tooltip-link" data-toggle="tooltip" title="{{ tooltips[loop.index0].description }}"><i class="fa fa-info-circle manual-bool-icon" aria-hidden="true"></i></a>
+                                    <!-- todo: translate -->
+                                </label>
+                            </div>
+                        {% endfor %}
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary"
+                                onclick="finalizeAnnotationsIncludingBools()">Update
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endif %}
 
     <!-- Create the Label Studio container -->
     <div id="label-studio"></div>
@@ -17,20 +74,64 @@
 
     <!-- Initialize Label Studio -->
     <script>
-        const sendAnnotations = async (completion) => {
-                        const response = await fetch('{{ target_url }}', {
-                            method: "POST",
-                            body: JSON.stringify(completion.areas.toJSON()),
-                            headers: {
-                                "accept": "application/json",
-                                "Content-Type": "application/json"
-                            }
-                        });
-                        const content = await response;
-                        console.log(content)
-                        answer = content.ok.toString().charAt(0).toUpperCase() + content.ok.toString().slice(1);
-                        window.location.replace('{{ redirect_url }}?success=' + answer)
+        function getAnnotationsByLabel(label, completion) {
+            let annotations = [];
+            completion.serializeCompletion().forEach( function (element) {
+                    if (element["value"]["labels"][0] === label) {
+                        annotations.push(element["value"]["text"]);
                     }
+                }
+            )
+            return annotations.join("\n");
+        }
+
+        const addBoolsToAnnotationsIfNeeded = async (completion) => {
+            {% if manual_bools %}
+                window.completion = completion;
+                let labelText;
+                {% for label in task.labels %}
+                    labelText = getAnnotationsByLabel("{{ label.name }}", completion);
+                    if (labelText) {
+                        $('#{{ label.name }}').show();
+                        $('#{{ label.name }}').children("p").text(labelText);
+                    } else {
+                        $('#{{ label.name }}').hide();
+                    }
+                {% endfor %}
+                $('[data-toggle="tooltip"]').tooltip();
+                $('#manualBoolModal').modal();
+            {% else %}
+                await sendAnnotations(completion)
+            {% endif %}
+        }
+
+        const finalizeAnnotationsIncludingBools = async () => {
+            const checkboxValues = $(".manual-bool-checkbox").map(function() {
+                var checkboxValue = new Object();
+                checkboxValue[this.id] = $(this).prop("checked");
+                return checkboxValue;
+              }).get();
+            window.completion["manualBools"] = checkboxValues
+            await sendAnnotations(window.completion)
+        }
+
+        const sendAnnotations = async (completion) => {
+            let data = completion.areas.toJSON();
+            if (typeof completion["manualBools"] != "undefined") {
+                data["manual_bools"] = completion["manualBools"];
+            };
+            const response = await fetch('{{ target_url }}', {
+                method: "POST",
+                body: JSON.stringify(data),
+                headers: {
+                    "accept": "application/json",
+                    "Content-Type": "application/json"
+                }
+            });
+            const content = await response;
+            let answer = content.ok.toString();
+            window.location.replace('{{ redirect_url }}?success=' + answer)
+        }
 
         var labelStudio = new LabelStudio('label-studio', {
             config: `
@@ -39,7 +140,11 @@
                     background: white; top: 0">
             <Labels name="ner" toName="text">
                 {% for label in task.labels %}
-                    <Label value="{{ label }}" background="{{ colors[loop.index - 1] }}"/>
+                    {% if label.multiple == True %}
+                    <Label value="{{ label.name }}" background="{{ colors[loop.index0] }}"/>
+                    {% else %}
+                    <Label value="{{ label.name }}" background="{{ colors[loop.index0] }}" maxUsages="1"/>
+                    {% endif %}
                 {% endfor %}
             </Labels>
         </View>
@@ -77,7 +182,7 @@
                             },
                         {% endfor %}
                     ]
-                  }],
+                }],
                 predictions: [],
                 data: {
                     text: ` {% if task.html %}
@@ -94,10 +199,10 @@
                 LS.completionStore.selectCompletion(c.id);
             },
             onSubmitCompletion: function (LS, completion) {
-                sendAnnotations(completion)
+                addBoolsToAnnotationsIfNeeded(completion)
             },
             onUpdateCompletion: function (LS, completion) {
-                sendAnnotations(completion)
+                addBoolsToAnnotationsIfNeeded(completion)
             }
         });
     </script>
