@@ -226,7 +226,7 @@ class PushTiltToHub(Resource):
             validate_func = fastjsonschema.compile(schema)
             try:
                 validate_func(document)
-                validation = 'Validation successful!'
+                validation = 'Validation successful!', True
             except fastjsonschema.exceptions.JsonSchemaValueException as js:
                 validation = str(js), False
 
@@ -241,5 +241,5 @@ class PushTiltToHub(Resource):
             'validation_successful' : validation[1],
             'validation' : validation[0]
             }
-            
+
         return result, response.status_code
