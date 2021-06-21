@@ -1,20 +1,14 @@
-from config import Config
-
-from database.models import Annotation, Task, User
+from database.models import Annotation, Task
 
 from flask import request
 from flask_jwt_extended import jwt_required
 from flask_restx import fields, Namespace, Resource
 
-from mongoengine import DoesNotExist
-
-from utils.schema_tools import construct_first_level_labels
 from utils.create_tilt import create_tilt
 from utils.label import AnnotationLabel
 from utils.translator import Translator
 
 from tilt_resources.annotation_handler import AnnotationHandler
-from tilt_resources.meta import Meta
 from tilt_resources.task_creator import TaskCreator
 
 # API Namespace
@@ -80,7 +74,7 @@ class TaskCollection(Resource):
         text = request.json.get('text')
         html = request.json.get('html')
         url = request.json.get('url')
-        task = task_creator.create_task(name=name, html=html, text=text, url=url)
+        task = task_creator.create_root_task(name=name, html=html, text=text, url=url)
         if task:
             return task, 201
         else:
@@ -181,7 +175,6 @@ class AnnotationByTaskIdInJSON(Resource):
         new_annotations, current_annotations = annotation_handler.filter_new_annotations(shaped_data)
         annotation_handler.synch_task_annotations(task, current_annotations)
         task_creator.create_subtasks(new_annotations)
-
 
 
 @ns.route('/tilt')

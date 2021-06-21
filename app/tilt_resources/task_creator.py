@@ -192,11 +192,22 @@ class TaskCreator:
                                                  manual=False)
             linked_annotation.save()
 
-    def create_task(self, name: str, html: str, text: str, url: str) -> bool:
+    def create_root_task(self, name: str, text: str, url: str, html: str = None) -> bool:
+        """Creates a Root Task for a Privacy Policy
+
+        Args:
+            name (str): [description]
+            html (str): [description]
+            text (str): [description]
+            url (str): [description]
+
+        Returns:
+            bool: [description]
+        """
         labels = construct_first_level_labels(as_dict=True)
         if name != '' and text != '':
             try:
-                task = Task.objects.get(name=name, labels=labels, hierarchy=[], parent=None, html=html,
+                task = Task.objects.get(name=name, labels=labels, hierarchy=[], parent=None,
                                         text=text)
             except DoesNotExist:
                 task = Task(name=name, labels=labels, hierarchy=[], parent=None,
@@ -211,6 +222,7 @@ class TaskCreator:
                 language = detect(text)
                 meta = Meta(name=name, url=url, root_task=task, language=language)
                 meta.save()
+                print(f"Task for {name} was successfully created.")
             return task
         else:
             print("Task name and Text was empty, task can not be created")

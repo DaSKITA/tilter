@@ -16,6 +16,7 @@ from forms import CreateTaskForm
 from utils.schema_tools import get_manual_bools, construct_first_level_labels
 from utils.description_finder import DescriptonFinder
 from utils.translator import Translator
+from utils.feeder import Feeder
 
 # Initialize Flask App
 app = Flask(__name__)
@@ -26,6 +27,10 @@ db.init_app(app)
 # Babel Setup
 domain = Domain()
 babel = Babel(app, default_locale='de')
+
+# Policies
+feeder = Feeder(policy_data_dir=Config.POLICY_DIR)
+feeder.feed_app_with_policies()
 
 
 @babel.localeselector
