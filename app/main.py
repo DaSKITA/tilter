@@ -5,15 +5,13 @@ from config import Config
 from database.db import db
 from database.models import Task, User, Annotation
 
-from flask import Blueprint, flash, Flask, jsonify, make_response, Markup, render_template, redirect, request, url_for
+from flask import Blueprint, flash, Flask, Markup, render_template, redirect, request, url_for
 from flask_babel import _, Babel, Domain
-from flask_jwt_extended import create_access_token, jwt_required, JWTManager
+from flask_jwt_extended import create_access_token, JWTManager
 from flask_restx import Api, fields, Resource
 from flask_user import current_user, login_required, UserManager
 
-from forms import CreateTaskForm
-
-from utils.schema_tools import get_manual_bools, construct_first_level_labels
+from utils.schema_tools import get_manual_bools
 from utils.description_finder import DescriptonFinder
 from utils.translator import Translator
 from utils.feeder import Feeder
@@ -188,4 +186,4 @@ class Authentication(Resource):
 
 
 if __name__ == "__main__":
-    app.run(use_debugger=False, use_reloader=False, passthrough_errors=True)
+    app.run(host="0.0.0.0", port="5000", use_debugger=False, use_reloader=False, passthrough_errors=True)
