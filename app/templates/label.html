@@ -125,7 +125,8 @@
                 body: JSON.stringify(data),
                 headers: {
                     "accept": "application/json",
-                    "Content-Type": "application/json"
+                    "Content-Type": "application/json",
+                    "Authorization": "{{ token }}"
                 }
             });
             const content = await response;

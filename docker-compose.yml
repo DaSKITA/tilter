@@ -1,20 +1,10 @@
 version: '3.8'
 services:
-  feeder:
-    build:
-        context: .
-        dockerfile: ops/Dockerfile.feeder
-    container_name: feeder
-    depends_on:
-        - flask
-        - mongo
   flask:
     build:
         context: .
         dockerfile: ops/Dockerfile
     container_name: flask
-    volumes:
-      - ./app:/app
     ports:
       - "5000:5000"
     restart: unless-stopped
@@ -24,12 +14,12 @@ services:
       MONGODB_PASSWORD: SuperSecret
       MONGODB_PORT: 27017
       MONGODB_HOST: mongo
+      DEPLOYMENT: 1
       FLASK_SECRET_KEY: 12345678901234567890123456789012
       FLASK_APP: main.py
       FLASK_DEBUG: 1
       FLASK_ENV: "development"
-      RUN: flask run --host=0.0.0.0 --port=5000
-    command: flask run --host=0.0.0.0 --port=5000
+      JWT_SECRET_KEY: "secret"
     # Infinite loop, to keep it alive, for debugging
     # command: bash -c "while true; do echo 'sleeping...' && sleep 10; done"
     depends_on:

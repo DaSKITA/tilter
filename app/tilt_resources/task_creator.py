@@ -4,13 +4,18 @@ from collections import defaultdict
 from database.models import LinkedAnnotation, Task, Annotation, HiddenAnnotation
 from config import Config
 from utils.label import AnnotationLabel, ManualBoolLabel, LinkedBoolLabel, IdLabel, Label, LabelStrEnum
+from utils.schema_tools import construct_first_level_labels
+from tilt_resources.meta import Meta
+from mongoengine import DoesNotExist
+from langdetect import detect
 
 
 class TaskCreator:
 
-    def __init__(self, task: Task) -> None:
+    def __init__(self, task: Task = None) -> None:
         self.schema = Config.SCHEMA_DICT
-        self.task = task
+        if task:
+            self.task = task
 
     def _retrieve_schema_level(self, path_list: List[str]) -> Dict:
         hierarchy = self.schema
@@ -186,3 +191,39 @@ class TaskCreator:
                                                  value=subtask_key,
                                                  manual=False)
             linked_annotation.save()
+
+    def create_root_task(self, name: str, text: str, url: str, html: str = None) -> Union[None, Task]:
+        """Creates a Root Task for a Privacy Policy. A root task is the initial task for a privacy company.
+
+        Args:
+            name (str): [description]
+            html (str): [description]
+            text (str): [description]
+            url (str): [description]
+
+        Returns:
+            bool: [description]
+        """
+        labels = construct_first_level_labels(as_dict=True)
+        if name != '' and text != '':
+            try:
+                task = Task.objects.get(name=name, labels=labels, hierarchy=[], parent=None,
+                                        text=text)
+            except DoesNotExist:
+                task = Task(name=name, labels=labels, hierarchy=[], parent=None,
+                            interfaces=[
+                            "panel",
+                            "update",
+                            "controls",
+                            "side-column",
+                            "predictions:menu"],
+                            html=html, text=text)
+                task.save()
+                language = detect(text)
+                meta = Meta(name=name, url=url, root_task=task, language=language)
+                meta.save()
+                print(f"Task for {name} was successfully created.")
+            return task
+        else:
+            print("Task name and Text was empty, task can not be created")
+            return None
