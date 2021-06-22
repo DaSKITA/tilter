@@ -9,7 +9,8 @@ class AnnotationHandler:
         self.all_current_annotations = []
         self.new_annotations = []
 
-    def get_annotation(self, task=None, text=None, start=None, end=None, label=None, annotation_class=None) -> Union[Annotation, None]:
+    def get_annotation(self, task=None, text=None, start=None,
+                       end=None, label=None) -> Union[Annotation, None]:
         """Retrieves an Annotation by values. If the Annotation does not exist an error is thrown.
 
         Args:

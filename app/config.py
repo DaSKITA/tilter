@@ -7,6 +7,14 @@ import json
 # Flask Config from Class
 class Config(object):
 
+    # Secrets
+    BASE_PATH = os.path.abspath(os.path.dirname(__file__))
+    DEPLOYMENT = os.environ.get("DEPLOYMENT", False)
+    if not DEPLOYMENT:
+        load_dotenv(dotenv_path=os.path.join(BASE_PATH, "secrets/local/flask-local.env"))
+    else:
+        print("Load Production Configurations...")
+
     # Flask-User Setup
     USER_APP_NAME = "TILTer"  # Shown in and email templates and page footers
     USER_ENABLE_EMAIL = False  # Disable email authentication
@@ -15,11 +23,12 @@ class Config(object):
     USER_ENABLE_CHANGE_USERNAME = False
     USER_AFTER_LOGIN_ENDPOINT = 'tasks'
 
+    JWT_SECRET_KEY = os.environ["JWT_SECRET_KEY"]
+    JWT_HEADER_TYPE = ""
+
     LANGUAGES = ['en', 'de']
 
-    BASE_PATH = os.path.abspath(os.path.dirname(__file__))
     ROOT_PATH = Path(BASE_PATH).parent
-
     TEST_PATH = os.path.join(ROOT_PATH, "test")
     DESC_PATH = os.path.join(BASE_PATH, "tilt_resources/tilt_desc.json")
     SCHEMA_PATH = os.path.join(BASE_PATH, "tilt_resources/schema.json")
@@ -27,11 +36,9 @@ class Config(object):
     with open(SCHEMA_PATH, 'r') as json_file:
         SCHEMA_DICT = json.load(json_file)
 
-    # Secrets
-    if not os.environ.get("DEPLOYMENT", None):
-        load_dotenv(dotenv_path=os.path.join(BASE_PATH, "secrets/local/flask-local.env"))
-
     SECRET_KEY = os.environ["FLASK_SECRET_KEY"]
+    POLICY_DIR = os.path.join(ROOT_PATH, "data/official_policies") if DEPLOYMENT \
+        else os.path.join(ROOT_PATH, "data/test_policies")
 
     def _create_mongo_settings(mongodb_user: str,
                                mongodb_password: str,

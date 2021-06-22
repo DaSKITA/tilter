@@ -1,13 +1,5 @@
 version: '3.8'
 services:
-  feeder:
-    build:
-        context: .
-        dockerfile: ops/Dockerfile.feeder
-    container_name: feeder
-    depends_on:
-        - flask
-        - mongo
   flask:
     build:
         context: .
