@@ -28,7 +28,7 @@ label_fields = AnnotationLabel.for_marshalling()
 task_with_id = ns.model('Task', {
     'id': fields.String(required=True, description='Unique identifier of the task'),
     'name': fields.String(required=True, description='Name of the task'),
-    'text': fields.String(required=True, description='Task text'),
+    'text': fields.String(required=True, description='Task text (Privacy Policy)'),
     'html': fields.Boolean(description='HTML formatted task text'),
     'labels': fields.List(description='Task labels', cls_or_instance=fields.Nested(label_fields)),
     'manual_labels': fields.List(description='Manual Boolean Task labels',
@@ -37,8 +37,9 @@ task_with_id = ns.model('Task', {
 
 task_no_id_or_label = ns.model('Task', {
     'name': fields.String(required=True, description='Name of the task'),
-    'text': fields.String(required=True, description='Task text'),
+    'text': fields.String(required=True, description='Task text (Privacy Policy)'),
     'html': fields.Boolean(description='HTML formatted task text'),
+    'url': fields.String(required=True, description='URL of the Privacy Policy')
 })
 
 annotation = ns.model('Annotation', {
