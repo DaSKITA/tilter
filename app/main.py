@@ -29,8 +29,8 @@ domain = Domain()
 babel = Babel(app, default_locale='de')
 
 # Policies
-# feeder = Feeder(policy_data_dir=Config.POLICY_DIR)
-# feeder.feed_app_with_policies()
+feeder = Feeder(policy_data_dir=Config.POLICY_DIR)
+feeder.feed_app_with_policies()
 
 
 @babel.localeselector
