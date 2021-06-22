@@ -16,6 +16,9 @@ class Feeder:
         self.task_creator = TaskCreator()
 
     def feed_app_with_policies(self):
+        """
+        Adds initial privacy policies to the application with help of the task creator class.
+        """
         file_count = 0
         json_file_names = [file_name
                            for file_name in os.listdir(self.policy_data_dir) if file_name.endswith(".json")]

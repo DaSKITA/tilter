@@ -192,8 +192,8 @@ class TaskCreator:
                                                  manual=False)
             linked_annotation.save()
 
-    def create_root_task(self, name: str, text: str, url: str, html: str = None) -> bool:
-        """Creates a Root Task for a Privacy Policy
+    def create_root_task(self, name: str, text: str, url: str, html: str = None) -> Union[None, Task]:
+        """Creates a Root Task for a Privacy Policy. A root task is the initial task for a privacy company.
 
         Args:
             name (str): [description]

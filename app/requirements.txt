@@ -1,8 +1,8 @@
 flask
 flask_mongoengine
 dependencies/dist/Flask_User-1.0.2.3-py2.py3-none-any.whl
-flask_jwt_extended
-flask_wtf
+flask_jwt_extended==4.2.1
+flask_wtf==0.14.3
 wtforms
 flask-restx
 email_validator
