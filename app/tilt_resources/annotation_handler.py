@@ -59,8 +59,25 @@ class AnnotationHandler:
 
     def delete(self, annotation: Annotation = None):
         if annotation:
+            deletion_msg = self._delete_tied_objects(annotation)
             annotation.delete()
-            print(f"Deleted Annotation with Label: {annotation.label}")
+            print(f"Deleted Annotation with Label: {annotation.label} -- " + deletion_msg)
+
+    def _delete_tied_objects(self, annotation):
+        if annotation.child_annotation:
+            tied_annotation = annotation.child_annotation
+            task = tied_annotation.task
+        elif annotation.parent_annotation:
+            tied_annotation = annotation.parent_annotation
+            task = annotation.task
+        else:
+            return ""
+        tied_annotation.delete()
+        task_annotations = Annotation.objects(task=task)
+        if task_annotations:
+            [task_annotation.delete() for task_annotation in task_annotations]
+        task.delete()
+        return "Annotation was tied to Subtask, deleted Subtask and its Annotations"
 
     def filter_new_annotations(self, annotation_list: List[Annotation]):
         """

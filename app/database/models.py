@@ -35,6 +35,8 @@ class Annotation(db.Document):
     text = db.StringField(required=True)
     label = db.StringField(required=True)
     task = db.ReferenceField('Task', required=True)
+    parent_annotation = db.ReferenceField('Annotation', required=False, default=None)
+    child_annotation = db.ReferenceField('Annotation', required=False, default=None)
 
 
 class MetaTask(db.Document):
