@@ -1,9 +1,10 @@
 import click
-from utils.database_migration.migration_task import HtmlTaskTag, SubtaskAnnotation
+from scripts.database_migration.migration_task import HtmlTaskTag, SubtaskAnnotation
 
 
-@click.command()
-def migrate_db(task_name, *args, **kwargs):
+#@click.command()
+#@click.option("-t", "--task_name", default="", help="Supply a migration task name.")
+def migrate_db(task_name):
     """Applies Database Migration Tasks.
     The tasks are chosen by a proved string via the command line
 
@@ -17,9 +18,9 @@ def migrate_db(task_name, *args, **kwargs):
 
     migration_task = task_mapping.get(task_name, None)
     if migration_task:
-        click.echo(f"Running {migration_task.__name__}...")
-        migration_task.run_migration(*args, **kwargs)
+        click.echo(f"Running {migration_task.__name__} Migration Task...")
+        migration_task.run_migration()
 
 
 if __name__ == "__main__":
-    migrate_db()
+    migrate_db("subtask_annotation")
