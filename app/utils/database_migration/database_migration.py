@@ -12,7 +12,7 @@ def migrate_db(task_name, *args, **kwargs):
     """
     task_mapping = {
         "task_html_entry": HtmlTaskTag,
-        "subtaskannotation": SubtaskAnnotation
+        "subtask_annotation": SubtaskAnnotation
     }
 
     migration_task = task_mapping.get(task_name, None)

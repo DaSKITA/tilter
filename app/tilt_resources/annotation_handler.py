@@ -60,10 +60,23 @@ class AnnotationHandler:
     def delete(self, annotation: Annotation = None):
         if annotation:
             deletion_msg = self._delete_tied_objects(annotation)
-            annotation.delete()
+            if deletion_msg == "":
+                annotation.delete()
             print(f"Deleted Annotation with Label: {annotation.label} -- " + deletion_msg)
 
     def _delete_tied_objects(self, annotation):
+        """
+        Task which create subtasks, have child annotations, which references them in the respective subtask.
+        So the entries for child_annotation and parent_annotation is alaways a self reference to the supplied
+        annotation for deletion. Depending on where the self reference is stored the annotation's task also
+        gets deleted.
+
+        Args:
+            annotation ([type]): [description]
+
+        Returns:
+            [type]: [description]
+        """
         if annotation.child_annotation:
             tied_annotation = annotation.child_annotation
             task = tied_annotation.task
