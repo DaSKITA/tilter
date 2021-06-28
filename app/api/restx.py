@@ -1,6 +1,7 @@
-from config import Config
-from database.models import Task, Annotation
+from database.models import Annotation, Task
+
 from flask import request
+from flask_jwt_extended import jwt_required
 from flask_restx import fields, Namespace, Resource
 from mongoengine import DoesNotExist
 
@@ -8,6 +9,7 @@ from utils.schema_tools import construct_first_level_labels
 from utils.create_tilt import create_tilt
 from utils.label import AnnotationLabel
 from utils.translator import Translator
+
 from tilt_resources.annotation_handler import AnnotationHandler
 from tilt_resources.task_creator import TaskCreator
 
@@ -17,14 +19,23 @@ import requests
 import fastjsonschema
 
 # API Namespace
-ns = Namespace("task", description="API Node for TILTer")
+authorizations = {
+    'apikey': {
+        'type': 'apiKey',
+        'in': 'header',
+        'name': 'Authorization'
+    }
+}
+
+ns = Namespace("task", description="API Node for TILTer", authorizations=authorizations)
 
 # create models for marshalling
 label_fields = AnnotationLabel.for_marshalling()
+
 task_with_id = ns.model('Task', {
     'id': fields.String(required=True, description='Unique identifier of the task'),
     'name': fields.String(required=True, description='Name of the task'),
-    'text': fields.String(required=True, description='Task text'),
+    'text': fields.String(required=True, description='Task text (Privacy Policy)'),
     'html': fields.Boolean(description='HTML formatted task text'),
     'labels': fields.List(description='Task labels', cls_or_instance=fields.Nested(label_fields)),
     'manual_labels': fields.List(description='Manual Boolean Task labels',
@@ -33,8 +44,9 @@ task_with_id = ns.model('Task', {
 
 task_no_id_or_label = ns.model('Task', {
     'name': fields.String(required=True, description='Name of the task'),
-    'text': fields.String(required=True, description='Task text'),
+    'text': fields.String(required=True, description='Task text (Privacy Policy)'),
     'html': fields.Boolean(description='HTML formatted task text'),
+    'url': fields.String(required=True, description='URL of the Privacy Policy')
 })
 
 annotation = ns.model('Annotation', {
@@ -57,39 +69,22 @@ class TaskCollection(Resource):
 
     @ns.expect(task_no_id_or_label)
     @ns.marshal_with(task_with_id)
+    @ns.doc(security='apikey')
+    @jwt_required()
     def post(self):
         """
         Creates a new task and returns it.
         :return: newly created task
         """
-        schema = Config.SCHEMA_DICT
-        labels = construct_first_level_labels(as_dict=True)
+        task_creator = TaskCreator()
 
         name = request.json.get('name')
         text = request.json.get('text')
         html = request.json.get('html')
         url = request.json.get('url')
-        language = request.json.get("language")
-
-        if name != '' and text != '':
-            try:
-                task = Task.objects.get(name=name, labels=labels, hierarchy=[], parent=None, html=html,
-                                        text=text)
-            except DoesNotExist:
-                task = Task(name=name, labels=labels, hierarchy=[], parent=None,
-                            interfaces=[
-                            "panel",
-                            "update",
-                            "controls",
-                            "side-column",
-                            "predictions:menu"],
-                            html=html, text=text)
-                task.save()
-                meta = Meta(name=name, url=url, root_task=task, language=language)
-                meta.save()
-                return task, 201
-            else:
-                return task, 200
+        task = task_creator.create_root_task(name=name, html=html, text=text, url=url)
+        if task:
+            return task, 201
         else:
             return None, 400
 
@@ -107,6 +102,8 @@ class TaskById(Resource):
         """
         return Task.objects.get(id=id)
 
+    @ns.doc(security='apikey')
+    @jwt_required()
     def delete(self, id):
         """
         Deletes task with given id
@@ -132,6 +129,8 @@ class AnnotationByTaskId(Resource):
 
     @ns.expect(annotation)
     @ns.marshal_with(annotation)
+    @ns.doc(security='apikey')
+    @jwt_required()
     def post(self, id):
         """
         Creates a new annotation for task with given id and returns it.
@@ -156,6 +155,8 @@ class AnnotationByTaskId(Resource):
 class AnnotationByTaskIdInJSON(Resource):
 
     @ns.marshal_with(annotation, as_list=True)
+    @ns.doc(security='apikey')
+    @jwt_required()
     def post(self, id):
         """
         Creates new annotations for a task with given id and returns them.
@@ -182,7 +183,6 @@ class AnnotationByTaskIdInJSON(Resource):
         new_annotations, current_annotations = annotation_handler.filter_new_annotations(shaped_data)
         annotation_handler.synch_task_annotations(task, current_annotations)
         task_creator.create_subtasks(new_annotations)
-
 
 
 @ns.route('/tilt')

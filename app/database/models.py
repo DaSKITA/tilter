@@ -10,7 +10,7 @@ class Task(db.Document):
     parent = db.ReferenceField('Task')
     interfaces = db.ListField()
     text = db.StringField()
-    html = db.BooleanField()
+    html = db.BooleanField(default=False, required=False)
     manual_labels = db.ListField(db.DictField(), required=False)
 
 

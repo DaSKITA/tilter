@@ -4,6 +4,24 @@ from mongoengine import DoesNotExist
 from tilt_resources.meta import Meta
 from tilt_resources.tilt_creator import TiltCreator
 
+def get_recipients_from_category_only(annotations):
+    recipients = []
+    for annotation in annotations:
+        recipient_from_annotation = {
+            "name": None,
+            "country": None,
+            "division": None,
+            "address": None,
+            "representative": {
+                "name": None,
+                "email": None,
+                "phone": None
+            },
+            "category": annotation.text
+        }
+        recipients.append(recipient_from_annotation)
+    return recipients
+
 
 def iterate_through_hierarchy_level(parent_task, hierarchy):
     local_schema = Config.SCHEMA_DICT.copy()
@@ -16,29 +34,31 @@ def iterate_through_hierarchy_level(parent_task, hierarchy):
         except:
             local_schema = local_schema[0][i]
 
-    # if schema is of type list change cardinality and
+    # if schema is of type list change cardinality and take note of limitation
     if type(local_schema) is list:
         local_schema = local_schema[0]
         label_limited = False
 
+    # get all tasks that are associated as children of parent_task and are at the according hierarchy level
     tasks = Task.objects(parent=parent_task, hierarchy=hierarchy)
 
-    # there is no limitation regarding cardinality
     if not label_limited:
+        # there is no limitation regarding cardinality, so we expect a list of elements
         tilt_value = []
         if tasks:
+            # there are subtasks of parent_task at the expected hierarchy level
             for task in tasks:
                 tilt_value_part = {}
                 # iterate through current schema hierarchy
                 for key, val in local_schema.items():
                     # TODO: incorporate linked annotations
-                    if type(val) in [dict, list]:
+                    if key in ['_desc', '_key', "recipientsOnlyCategory"]:
+                        continue
+                    elif type(val) in [dict, list]:
                         val = val[0] if isinstance(val, list) else val
                         new_hierarchy = hierarchy.copy()
                         new_hierarchy.append(key)
                         tilt_value_part[key] = iterate_through_hierarchy_level(task, new_hierarchy)
-                    elif key in ['_desc', '_key']:
-                        continue
                     elif key == "_id":
                         tilt_value_part[key] = HiddenAnnotation.objects.get(task=task, label=val).value
                     elif key.startswith("~"):
@@ -62,7 +82,19 @@ def iterate_through_hierarchy_level(parent_task, hierarchy):
                         except DoesNotExist:
                             tilt_value_part[key] = None
                 tilt_value.append(tilt_value_part)
+
+            # special case for recipientsOnlyCategory
+            if hierarchy[-1] == "recipients":
+                annotations = Annotation.objects(task=parent_task, label="Data Disclosed - Recipient Category Only")
+                tilt_value += get_recipients_from_category_only(annotations)
+
         elif type(local_schema) is dict:
+            # special case for recipientsOnlyCategory
+            if hierarchy[-1] == "recipients":
+                annotations = Annotation.objects(task=parent_task, label="Data Disclosed - Recipient Category Only")
+                if annotations:
+                    tilt_value += get_recipients_from_category_only(annotations)
+                    return tilt_value
             # iterate through current schema hierarchy
             tilt_value_part = {}
             for key, val in local_schema.items():
@@ -124,7 +156,7 @@ def create_tilt(id):
 
     # TODO: this class needs to be extended
     tilt_creator = TiltCreator(tilt_dict)
-    tilt_creator.write_tilt_default_values()
+    #tilt_creator.write_tilt_default_values()
     tilt_dict = tilt_creator.get_tilt_document()
 
     # Create Meta Object
