@@ -3,7 +3,6 @@ import os
 from pathlib import Path
 import json
 
-
 # Flask Config from Class
 class Config(object):
 
@@ -36,6 +35,13 @@ class Config(object):
     with open(SCHEMA_PATH, 'r') as json_file:
         SCHEMA_DICT = json.load(json_file)
 
+    with open('tilt_resources/tilt-complete-schema.json', 'r') as complete_schema_file:
+        COMPLETE_SCHEMA = json.load(complete_schema_file)    
+
+    # Secrets
+    if not os.environ.get("DEPLOYMENT", None):
+        load_dotenv(dotenv_path=os.path.join(BASE_PATH, "secrets/local/flask-local.env"))
+
     SECRET_KEY = os.environ["FLASK_SECRET_KEY"]
     POLICY_DIR = os.path.join(ROOT_PATH, "data/official_policies") if DEPLOYMENT \
         else os.path.join(ROOT_PATH, "data/test_policies")
@@ -54,6 +60,9 @@ class Config(object):
                                               mongodb_port=os.environ["MONGODB_PORT"],
                                               mongodb_database=os.environ["MONGODB_DATABASE"],
                                               host=os.environ.get("MONGODB_HOST", "localhost"))
+
+    # Load tilt-hub secrets
+    TILT_HUB = load_dotenv(dotenv_path=os.path.join(BASE_PATH, "secrets/local/tilthub.env"))
 
     TILT_EXCEPTIONS = [
         {
