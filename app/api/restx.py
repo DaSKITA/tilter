@@ -215,20 +215,19 @@ class TiltDocumentByTaskId(Resource):
 @ns.route('/<string:id>/tilt/publish')
 @ns.param('id', 'unique task identifier')
 class PushTiltToHub(Resource):
+
     def post(self, id):
         """
         Pushes the respective tilt-document to the tilt-hub database
         """
         document = create_tilt(id)
-
-        with open('tilt_resources/tilt-complete-schema.json', 'r') as json_file:
-            schema = json.load(json_file)
-            validate_func = fastjsonschema.compile(schema)
-            try:
-                validate_func(document)
-                validation = 'Validation successful!', True
-            except fastjsonschema.exceptions.JsonSchemaValueException as js:
-                validation = str(js), False
+        
+        validate_func = fastjsonschema.compile(Config.COMPLETE_SCHEMA)
+        try:
+            validate_func(document)
+            validation = 'Validation successful!', True
+        except fastjsonschema.exceptions.JsonSchemaValueException as js:
+            validation = str(js), False
 
         response = requests.post(
                    url=os.getenv('TILT_HUB_REST_URL') + '/tilt/tilt',
@@ -243,3 +242,16 @@ class PushTiltToHub(Resource):
             }
 
         return result, response.status_code
+
+    def delete(self, id):
+        """
+        Deletes the tilt-document with the same _hash value from tilt-hub
+        """
+        document = create_tilt(id)
+
+        response = requests.delete(
+                   url=os.getenv('TILT_HUB_REST_URL') + '/tilt/tilt/*?filter={"meta._hash": "' + document['meta']['_hash'] + '" }',
+                   auth=(os.getenv('TILT_HUB_BASIC_AUTH_USER'), os.getenv('TILT_HUB_BASIC_AUTH_PASSWORD'))
+        )
+
+        return json.loads(response.content), response.status_code

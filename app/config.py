@@ -26,6 +26,9 @@ class Config(object):
     with open(SCHEMA_PATH, 'r') as json_file:
         SCHEMA_DICT = json.load(json_file)
 
+    with open('tilt_resources/tilt-complete-schema.json', 'r') as complete_schema_file:
+        COMPLETE_SCHEMA = json.load(complete_schema_file)    
+
     # Secrets
     if not os.environ.get("DEPLOYMENT", None):
         load_dotenv(dotenv_path=os.path.join(BASE_PATH, "secrets/local/flask-local.env"))
