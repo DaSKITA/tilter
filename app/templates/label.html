@@ -5,9 +5,9 @@
     <link href="https://unpkg.com/label-studio@0.8.0/build/static/css/main.css" rel="stylesheet">
 
     <h1>{% block title %} {{ _('Welcome to TILTer') }} {% endblock %}</h1>
-    <h2>{{ _('Task') }} "{{ task.name }}"</h2>
+    <h2>{{ _('Task') }} "{{ task.name }}" <!--button id="publish" class="btn btn-outline-success btn-sm"><i class="fas fa-upload"></i> Publish to tilt-hub</button> <button id="unpublish" class="btn btn-outline-danger btn-sm"><i class="fas fa-trash"></i> Delete from tilt-hub</button--></h2>
     <div class="return">
-        <a href="{{ url_for('tasks') }}"><- {{ _('task overview') }}</a>
+        <a href="{{ url_for('tasks') }}"><i class="fas fa-long-arrow-alt-left"></i> {{ _('task overview') }}</a>
     </div>
     {% if annotation_descriptions %}
         <div>
