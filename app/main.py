@@ -1,15 +1,20 @@
 from api.restx import ns
+
 from config import Config
+
 from database.db import db
 from database.models import Task, User, Annotation
+
 from flask import Blueprint, flash, Flask, Markup, render_template, redirect, request, url_for
 from flask_babel import _, Babel, Domain
-from flask_restx import Api
+from flask_jwt_extended import create_access_token, JWTManager
+from flask_restx import Api, fields, Resource
 from flask_user import current_user, login_required, UserManager
-from forms import CreateTaskForm
-from utils.schema_tools import get_manual_bools, construct_first_level_labels
+
+from utils.schema_tools import get_manual_bools
 from utils.description_finder import DescriptonFinder
 from utils.translator import Translator
+from utils.feeder import Feeder
 
 # Initialize Flask App
 app = Flask(__name__)
@@ -21,6 +26,10 @@ db.init_app(app)
 domain = Domain()
 babel = Babel(app, default_locale='de')
 
+# Policies
+feeder = Feeder(policy_data_dir=Config.POLICY_DIR)
+feeder.feed_app_with_policies()
+
 
 @babel.localeselector
 def get_locale():
@@ -31,9 +40,9 @@ def get_locale():
 
 
 # .../tasks/ render helper function
-def task_tree_to_dict(tasks):
+def task_tree_to_dict(task_list):
     task_tree_dict = {}
-    for task in tasks:
+    for task in task_list:
         task_tree_dict[task] = task_tree_to_dict(Task.objects(parent=task))
     return task_tree_dict
 
@@ -71,29 +80,29 @@ def tasks():
     return render_template('tasks.html', tasks=tasks)
 
 
-@app.route('/tasks/create', methods=['GET', 'POST'])
-@login_required
-def create_task():
-    form = CreateTaskForm()
-    if request.method == 'GET':
-        return render_template('create_task.html', form=form)
-    else:
-        if form.validate_on_submit():
-            labels = construct_first_level_labels()
-            Task(name=form.name.data, labels=labels, hierarchy=[], parent=None,
-                 interfaces=[
-                     "panel",
-                     "update",
-                     "controls",
-                     "side-column",
-                     "predictions:menu"],
-                 text=form.text.data,
-                 html=form.html.data
-                 ).save()
-            flash("Succesfully created Task " + form.name.data, 'success')
-        else:
-            flash("Error in Validation of sent Form, please check", 'error')
-        return redirect('/tasks/create')
+# @app.route('/tasks/create', methods=['GET', 'POST'])
+# @login_required
+# def create_task():
+#     form = CreateTaskForm()
+#     if request.method == 'GET':
+#         return render_template('create_task.html', form=form)
+#     else:
+#         if form.validate_on_submit():
+#             labels = construct_first_level_labels()
+#             Task(name=form.name.data, labels=labels, hierarchy=[], parent=None,
+#                  interfaces=[
+#                      "panel",
+#                      "update",
+#                      "controls",
+#                      "side-column",
+#                      "predictions:menu"],
+#                  text=form.text.data,
+#                  html=form.html.data
+#                  ).save()
+#             flash("Succesfully created Task " + form.name.data, 'success')
+#         else:
+#             flash("Error in Validation of sent Form, please check", 'error')
+#         return redirect('/tasks/create')
 
 
 @app.route('/tasks/<string:task_id>')
@@ -110,20 +119,12 @@ def label(task_id):
     task = Task.objects.get(pk=task_id)
     annotations = Annotation.objects(task=task)
 
-    # finds the descriptions for labels of this task
+    # finds the descriptions for labels and manual bools of this task
     description_finder = DescriptonFinder()
     annotation_descriptions = description_finder.find_descriptions(task.labels, task.hierarchy)
     annotation_descriptions = annotation_descriptions.get_descriptions()
     tooltips = description_finder.find_descriptions(task.manual_labels, task.hierarchy)
     tooltips = tooltips.get_descriptions()
-
-    # finds the descriptions for manual bools of this task
-    # manual_bools_description_finder = ManualBoolDescriptonFinder()
-    # tooltips = manual_bools_description_finder.find_manual_bool_descriptions(task)
-    # # TODO
-    # tooltips = ["Tooltip test for legalRequirement",
-    #             "Tooltip test for contractualRegulation",
-    #             "Tooltip test for obligationToProvide"]
 
     # translate labels
     translator = Translator()
@@ -140,10 +141,12 @@ def label(task_id):
     # decide if postprocessing is needed before sending LSF completion to API url
     manual_bools = get_manual_bools(task.hierarchy)
 
+    token = create_access_token(identity=current_user.username)
+
     return render_template('label.html', task=task, target_url=target_url, annotations=annotations,
                            redirect_url=redirect_url, colors=colors,
                            annotation_descriptions=annotation_descriptions,
-                           manual_bools=manual_bools, tooltips=tooltips)
+                           manual_bools=manual_bools, tooltips=tooltips, token=token)
 
 
 # API Setup
@@ -153,5 +156,34 @@ api = Api(api_bp, version='1.0', title='TILTer API', doc='/docs/',
 api.add_namespace(ns)
 app.register_blueprint(api_bp)
 
+jwt = JWTManager(app)
+
+user = api.model('User', {
+    'username': fields.String(required=True, description="Username"),
+    'password': fields.String(required=True, description="Password")
+})
+
+
+@api.route("/auth")
+class Authentication(Resource):
+
+    @api.expect(user)
+    def post(self):
+        username = request.json.get("username", None)
+        password = request.json.get("password", None)
+
+        try:
+            current_user = User.objects.get(username=username)
+        except Exception:
+            return {"msg": "Wrong username or password"}, 401
+
+        if user_manager.password_manager.verify_password(password=password,
+                                                         password_hash=current_user.password):
+            access_token = create_access_token(identity=username)
+            return access_token, 200
+        else:
+            return {"msg": "Wrong username or password"}, 401
+
+
 if __name__ == "__main__":
-    app.run(use_debugger=False, use_reloader=False, passthrough_errors=True)
+    app.run(host="0.0.0.0", port="5000", use_debugger=False, use_reloader=False, passthrough_errors=True)
