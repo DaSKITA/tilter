@@ -1,4 +1,5 @@
 from abc import ABC, abstractmethod
+from mongoengine.errors import DoesNotExist
 from app.database.models import Task, Annotation
 from typing import List, Dict
 from config import Config
@@ -19,7 +20,7 @@ class HtmlTaskTag(MigrationTask):
     @staticmethod
     def run_migration():
         for task in tqdm(Task.objects):
-            task.update(html=True)
+            task.update(html=False)
 
 
 class SubtaskAnnotation(MigrationTask):
@@ -49,11 +50,12 @@ class SubtaskAnnotation(MigrationTask):
             for idx, _ in enumerate(tilt_schema[schema_key]):
                 if hierachy_list == []:
                     parent_annotation, child_annotation = SubtaskAnnotation._identify_parent_child_annotation_pair(
-                        tilt_schema[idx][schema_key], annotation)
+                        tilt_schema[schema_key][idx], annotation)
                 else:
                     parent_annotation, child_annotation = SubtaskAnnotation.get_tied_annotation_values(
                         hierachy_list=hierachy_list,
-                        tilt_schema=tilt_schema[idx][schema_key])
+                        tilt_schema=tilt_schema[schema_key][idx],
+                        annotation=annotation)
         else:
             if hierachy_list == []:
                 parent_annotation, child_annotation = SubtaskAnnotation._identify_parent_child_annotation_pair(
@@ -61,7 +63,8 @@ class SubtaskAnnotation(MigrationTask):
             else:
                 parent_annotation, child_annotation = SubtaskAnnotation.get_tied_annotation_values(
                     hierachy_list=hierachy_list,
-                    tilt_schema=tilt_schema[schema_key]
+                    tilt_schema=tilt_schema[schema_key],
+                    annotation=annotation
                 )
         return parent_annotation, child_annotation
 
@@ -80,7 +83,7 @@ class SubtaskAnnotation(MigrationTask):
         try:
             child_key = child_key[0]
         except IndexError:
-            return "No key found for annotation label."
+            print("No key found for annotation label.")
 
         if child_key == tilt_schema["_key"]:
             child_annotation = annotation
@@ -97,16 +100,19 @@ class SubtaskAnnotation(MigrationTask):
         subtask_label = subtask_dict[subtask_annot_key]
         child_tasks = Task.objects(parent=annotation_task)
         for child_task in child_tasks:
-            child_task_annotation = Annotation.objects.get(task=child_task, label=subtask_label, text=annotation.text)
-            if child_task_annotation:
-                return child_task_annotation
-        return None
+            try:
+                child_task_annotation = Annotation.objects.get(
+                    task=child_task, label=subtask_label, text=annotation.text)
+                break
+            except DoesNotExist:
+                child_task_annotation = None
+        return child_task_annotation
 
     @staticmethod
     def _determine_parent_annotation(tilt_schema, annotation):
         parent_task = annotation.task.parent
         parent_label = tilt_schema["_desc"]
-        parent_annotation = Annotation.objects.get(task=parent_task, label=parent_label)
+        parent_annotation = Annotation.objects.get(task=parent_task, label=parent_label, text=annotation.text)
         return parent_annotation
 
     @staticmethod
@@ -145,4 +151,8 @@ class SubtaskAnnotation(MigrationTask):
                 break
             else:
                 annotation_task = None
-        return tilt_schema[annotation_key]
+        subtask_dict = tilt_schema[annotation_key]
+        if isinstance(subtask_dict, list):
+            return subtask_dict[0]
+        else:
+            return subtask_dict
