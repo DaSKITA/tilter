@@ -1,10 +1,11 @@
 from abc import ABC, abstractmethod
 from mongoengine.errors import DoesNotExist
-from app.database.models import Task, Annotation
+from app.database.models import Task, Annotation, LinkedAnnotation
 from typing import List, Dict
 from config import Config
 from mongoengine import connect
 from tqdm import tqdm
+from tilt_resources.annotation_handler import AnnotationHandler
 
 
 class MigrationTask(ABC):
@@ -75,11 +76,6 @@ class SubtaskAnnotation(MigrationTask):
                      if annotation.label == schema_value]
         parent_annotation = None
         child_annotation = None
-
-        try:
-            subtask_dict = subtask_dict[0]
-        except KeyError:
-            pass
         try:
             child_key = child_key[0]
         except IndexError:
@@ -130,8 +126,8 @@ class SubtaskAnnotation(MigrationTask):
                     annotation, tilt_schema)
             if parent_annotation and child_annotation:
                 print(f"Updating Annotation: {annotation.label}")
-                annotation.update(parent_annotation=parent_annotation)
-                annotation.update(child_annotation=child_annotation)
+                annotation.update(parent_annotation=parent_annotation.to_dbref())
+                annotation.update(child_annotation=child_annotation.to_dbref())
 
     @staticmethod
     def define_root_annotation_ties(annotation, tilt_schema):
@@ -156,3 +152,34 @@ class SubtaskAnnotation(MigrationTask):
             return subtask_dict[0]
         else:
             return subtask_dict
+
+
+class DeleteUnboundObj:
+
+    @staticmethod
+    def run_migration():
+        annotation_handler = AnnotationHandler()
+        for annotation in Annotation.objects:
+            try:
+                parent_chain = []
+                annotation_task = annotation.task
+                parent_chain = DeleteUnboundObj.get_task_chain(annotation_task, parent_chain)
+            except DoesNotExist:
+                annotation.delete()
+                [annotation_handler._delete_task_objects(task) for task in parent_chain]
+                [task.delete() for task in parent_chain]
+                print("Delete all tasks and annotations with unclear paths")
+
+    @staticmethod
+    def get_task_chain(annotation_task, task_list):
+        task_list = task_list + [annotation_task]
+        if annotation_task.parent:
+            task_list = DeleteUnboundObj.get_task_chain(annotation_task.parent, task_list)
+        return task_list
+
+    @staticmethod
+    def delete_task_elements(task):
+        task_annotations = Annotation.objects(task=task)
+        linked_task_annotations = LinkedAnnotation.objects(task=task)
+        [task_annotation.delete() for task_annotation in task_annotations]
+        [task_annotation.delete() for task_annotation in linked_task_annotations]

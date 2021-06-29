@@ -1,6 +1,6 @@
 from mongoengine import DoesNotExist
 from typing import Union, Tuple, List
-from database.models import Annotation, LinkedAnnotation, Task
+from database.models import Annotation, LinkedAnnotation, Task, HiddenAnnotation, MetaTask
 
 
 class AnnotationHandler:
@@ -86,9 +86,7 @@ class AnnotationHandler:
         else:
             return ""
         tied_annotation.delete()
-        task_annotations = Annotation.objects(task=task)
-        if task_annotations:
-            [task_annotation.delete() for task_annotation in task_annotations]
+        self._delete_task_objects(task)
         task.delete()
         return "Annotation was tied to Subtask, deleted Subtask and its Annotations"
 
@@ -150,3 +148,18 @@ class AnnotationHandler:
                                                           label=manual_bool_label)
             manual_bool_annotation.save()
         print("Manual Bools created.")
+
+    def _delete_task_objects(self, task):
+        task_annotations = Annotation.objects(task=task)
+        linked_annotations = LinkedAnnotation.objects(task=task)
+        hidden_annotations = HiddenAnnotation.objects(task=task)
+        self._delete_task_annotation_obj(task_annotations)
+        self._delete_task_annotation_obj(linked_annotations)
+        self._delete_task_annotation_obj(hidden_annotations)
+        meta_objects = MetaTask.objects(root_task=task)
+        if meta_objects:
+            meta_objects.delete()
+
+    def _delete_task_annotation_obj(self, task_annotations):
+        if task_annotations:
+            [task_annotation.delete() for task_annotation in task_annotations]
