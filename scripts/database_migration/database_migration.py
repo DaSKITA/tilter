@@ -21,6 +21,8 @@ def migrate_db(task_name):
     if migration_task:
         click.echo(f"Running {migration_task.__name__} Migration Task...")
         migration_task.run_migration()
+    else:
+        click.echo("No migration Task Found")
 
 
 if __name__ == "__main__":
