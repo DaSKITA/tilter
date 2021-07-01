@@ -10,8 +10,8 @@ services:
     restart: unless-stopped
     environment:
       MONGODB_DATABASE: tilterdb
-      MONGODB_USERNAME: root
-      MONGODB_PASSWORD: SuperSecret
+      MONGODB_USERNAME: /run/secrets/mongo_user
+      MONGODB_PASSWORD: /run/secrets/mongo_password
       MONGODB_PORT: 27017
       MONGODB_HOST: mongo
       DEPLOYMENT: 1
@@ -19,9 +19,12 @@ services:
       FLASK_APP: main.py
       FLASK_DEBUG: 1
       FLASK_ENV: "development"
-      JWT_SECRET_KEY: "secret"
+      JWT_SECRET_KEY: /run/secrets/jwt_secret_key
     # Infinite loop, to keep it alive, for debugging
     # command: bash -c "while true; do echo 'sleeping...' && sleep 10; done"
+    secrets:
+        - mongo_user
+        - mongo_password
     depends_on:
       - mongo
 
@@ -36,10 +39,13 @@ services:
     depends_on:
       - mongo
     environment:
-      ME_CONFIG_MONGODB_ADMINUSERNAME: root
-      ME_CONFIG_MONGODB_ADMINPASSWORD: SuperSecret
+      ME_CONFIG_MONGODB_ADMINUSERNAME: /run/secrets/mongo_user
+      ME_CONFIG_MONGODB_ADMINPASSWORD: /run/secrets/mongo_password
       ME_CONFIG_BASICAUTH_USERNAME: admin
       ME_CONFIG_BASICAUTH_PASSWORD: SuperSecret
+      secrets:
+        - mongo_user
+        - mongo_password
 
   mongo:
     image: mongo:4.4.4
@@ -47,8 +53,8 @@ services:
     restart: unless-stopped
     command: mongod --auth
     environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: SuperSecret
+      MONGO_INITDB_ROOT_USERNAME: /run/secrets/mongo_user
+      MONGO_INITDB_ROOT_PASSWORD: /run/secrets/mongo_password
       MONGO_INITDB_DATABASE: tilterdb
       MONGODB_DATA_DIR: /data/db
       MONDODB_LOG_DIR: /dev/null
@@ -56,3 +62,16 @@ services:
       - ./volumes:/data/db
     ports:
       - '27017:27017'
+      secrets:
+        - mongo_user
+        - mongo_password
+
+secrets:
+    mongo_user:
+        file: mongo_user.txt
+    mongo_password:
+        external: true
+        name: mongo_password
+
+
+# https://docs.docker.com/compose/compose-file/compose-file-v3/#secrets-configuration-reference
