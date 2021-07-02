@@ -8,6 +8,8 @@ def migrate_db(task_name):
     """Applies Database Migration Tasks.
     The tasks are chosen by a proved string via the command line
 
+    Order: tbd
+
     Args:
         task_name ([type]): [description]
     """
