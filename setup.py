@@ -1,8 +1,8 @@
 from distutils.core import setup
 
 setup(
-    name='tilter',
+    name='app',
     version='1.0',
     description='TILT Annotation Tool',
-    package_dir={'': 'app'}
+    packages=["app"],
 )
