@@ -3,13 +3,20 @@ from database.models import Annotation, Task
 from flask import request
 from flask_jwt_extended import jwt_required
 from flask_restx import fields, Namespace, Resource
+from mongoengine import DoesNotExist
 
+from utils.schema_tools import construct_first_level_labels
 from utils.create_tilt import create_tilt
 from utils.label import AnnotationLabel
 from utils.translator import Translator
 
 from tilt_resources.annotation_handler import AnnotationHandler
 from tilt_resources.task_creator import TaskCreator
+
+import json
+import os
+import requests
+import fastjsonschema
 
 # API Namespace
 authorizations = {
@@ -203,3 +210,48 @@ class TiltDocumentByTaskId(Resource):
         :return: JSON tilt representation of all tasks
         """
         return create_tilt(id), 200
+
+
+@ns.route('/<string:id>/tilt/publish')
+@ns.param('id', 'unique task identifier')
+class PushTiltToHub(Resource):
+
+    def post(self, id):
+        """
+        Pushes the respective tilt-document to the tilt-hub database
+        """
+        document = create_tilt(id)
+        
+        validate_func = fastjsonschema.compile(Config.COMPLETE_SCHEMA)
+        try:
+            validate_func(document)
+            validation = 'Validation successful!', True
+        except fastjsonschema.exceptions.JsonSchemaValueException as js:
+            validation = str(js), False
+
+        response = requests.post(
+                   url=os.getenv('TILT_HUB_REST_URL') + '/tilt/tilt',
+                   data=json.dumps(document),
+                   auth=(os.getenv('TILT_HUB_BASIC_AUTH_USER'), os.getenv('TILT_HUB_BASIC_AUTH_PASSWORD'))
+        )
+
+        result = {
+            'url' : response.headers.get('location'),
+            'validation_successful' : validation[1],
+            'validation' : validation[0]
+            }
+
+        return result, response.status_code
+
+    def delete(self, id):
+        """
+        Deletes the tilt-document with the same _hash value from tilt-hub
+        """
+        document = create_tilt(id)
+
+        response = requests.delete(
+                   url=os.getenv('TILT_HUB_REST_URL') + '/tilt/tilt/*?filter={"meta._hash": "' + document['meta']['_hash'] + '" }',
+                   auth=(os.getenv('TILT_HUB_BASIC_AUTH_USER'), os.getenv('TILT_HUB_BASIC_AUTH_PASSWORD'))
+        )
+
+        return json.loads(response.content), response.status_code

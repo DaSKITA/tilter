@@ -60,8 +60,7 @@ class AnnotationHandler:
     def delete(self, annotation: Annotation = None):
         if annotation:
             deletion_msg = self._delete_tied_objects(annotation)
-            if deletion_msg == "":
-                annotation.delete()
+            annotation.delete()
             print(f"Deleted Annotation with Label: {annotation.label} -- " + deletion_msg)
 
     def _delete_tied_objects(self, annotation):

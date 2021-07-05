@@ -1,5 +1,7 @@
+#!/usr/bin/env python
+
 import click
-from scripts.database_migration.migration_task import HtmlTaskTag, SubtaskAnnotation, DeleteUnboundObj
+from migration_task import HtmlTaskTag, SubtaskAnnotation, DeleteUnboundObj
 
 
 @click.command()
@@ -7,6 +9,8 @@ from scripts.database_migration.migration_task import HtmlTaskTag, SubtaskAnnota
 def migrate_db(task_name):
     """Applies Database Migration Tasks.
     The tasks are chosen by a proved string via the command line
+
+    Order: tbd
 
     Args:
         task_name ([type]): [description]
@@ -21,6 +25,7 @@ def migrate_db(task_name):
     if migration_task:
         click.echo(f"Running {migration_task.__name__} Migration Task...")
         migration_task.run_migration()
+        click.echo("Success!")
     else:
         click.echo("No migration Task Found")
 
