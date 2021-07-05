@@ -62,10 +62,14 @@ class TaskCreator:
 
                     # create annotation for new task
                     new_task_annotation_label = self._create_task_annotation_label(schema_value)
-                    new_task_anno = Annotation(task=new_task, label=new_task_annotation_label,
-                                               text=annotation.text,
-                                               start=annotation.start, end=annotation.end)
-                    new_task_anno.save()
+                    new_task_annotation = Annotation(task=new_task,
+                                                     label=new_task_annotation_label,
+                                                     text=annotation.text,
+                                                     start=annotation.start,
+                                                     end=annotation.end,
+                                                     parent_annotation=annotation)
+                    new_task_annotation.save()
+                    annotation.update(child_annotation=new_task_annotation)
                     self._create_id_annotations(label_dict[LabelStrEnum.ID], new_task)
                     self._create_linked_annotations(label_dict[LabelStrEnum.LINKED],
                                                     task=new_task,

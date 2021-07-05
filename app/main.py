@@ -1,3 +1,4 @@
+from mongoengine.errors import DoesNotExist
 from api.restx import ns
 
 from config import Config
@@ -116,8 +117,11 @@ def label(task_id):
         flash(_("Error updateing Annotations!"), 'error')
 
     # get task and its annotations
-    task = Task.objects.get(pk=task_id)
-    annotations = Annotation.objects(task=task)
+    try:
+        task = Task.objects.get(pk=task_id)
+        annotations = Annotation.objects(task=task)
+    except DoesNotExist:
+        return redirect(url_for('tasks'))
 
     # finds the descriptions for labels and manual bools of this task
     description_finder = DescriptonFinder()
