@@ -119,7 +119,6 @@ class SubtaskAnnotation(MigrationTask):
     def run_migration():
         tilt_schema = Config.SCHEMA_DICT
         for annotation in tqdm(Annotation.objects):
-            # try:
             annotation_task = annotation.task
             annotation_hierarchy = list(annotation_task.hierarchy)
             if annotation_hierarchy != []:
@@ -141,9 +140,6 @@ class SubtaskAnnotation(MigrationTask):
                 annotation.update(child_annotation=child_annotation.to_dbref())
             else:
                 print(f"Nothing was updated for {annotation.label} in {annotation.task.name}")
-            # except DoesNotExist:
-            #     print(f"## Could not update {annotation.label}. Data corrupted! ##")
-            #     continue
 
     @staticmethod
     def define_root_annotation_ties(annotation, tilt_schema):
