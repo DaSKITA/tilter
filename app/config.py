@@ -3,6 +3,7 @@ import os
 from pathlib import Path
 import json
 
+
 # Flask Config from Class
 class Config(object):
 
@@ -31,12 +32,13 @@ class Config(object):
     TEST_PATH = os.path.join(ROOT_PATH, "test")
     DESC_PATH = os.path.join(BASE_PATH, "tilt_resources/tilt_desc.json")
     SCHEMA_PATH = os.path.join(BASE_PATH, "tilt_resources/schema.json")
+    COMPLETE_SCHEMA_PATH = os.path.join(BASE_PATH, 'tilt_resources/tilt-complete-schema.json')
 
     with open(SCHEMA_PATH, 'r') as json_file:
         SCHEMA_DICT = json.load(json_file)
 
-    with open('tilt_resources/tilt-complete-schema.json', 'r') as complete_schema_file:
-        COMPLETE_SCHEMA = json.load(complete_schema_file)    
+    with open(COMPLETE_SCHEMA_PATH, 'r') as complete_schema_file:
+        COMPLETE_SCHEMA = json.load(complete_schema_file)
 
     # Secrets
     if not os.environ.get("DEPLOYMENT", None):
