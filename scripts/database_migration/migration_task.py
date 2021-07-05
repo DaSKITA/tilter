@@ -108,31 +108,42 @@ class SubtaskAnnotation(MigrationTask):
     def _determine_parent_annotation(tilt_schema, annotation):
         parent_task = annotation.task.parent
         parent_label = tilt_schema["_desc"]
-        parent_annotation = Annotation.objects.get(task=parent_task, label=parent_label, text=annotation.text,
-                                                   start=annotation.start, end=annotation.end)
+        try:
+            parent_annotation = Annotation.objects.get(task=parent_task, label=parent_label, text=annotation.text,
+                                                       start=annotation.start, end=annotation.end)
+        except DoesNotExist:
+            parent_annotation = None
         return parent_annotation
 
     @staticmethod
     def run_migration():
         tilt_schema = Config.SCHEMA_DICT
         for annotation in tqdm(Annotation.objects):
-            try:
-                annotation_task = annotation.task
-                annotation_hierarchy = list(annotation_task.hierarchy)
-                if annotation_hierarchy != []:
-                    parent_annotation, child_annotation = SubtaskAnnotation.get_tied_annotation_values(
-                        annotation=annotation, hierachy_list=annotation_hierarchy, tilt_schema=tilt_schema)
+            # try:
+            annotation_task = annotation.task
+            annotation_hierarchy = list(annotation_task.hierarchy)
+            if annotation_hierarchy != []:
+                parent_annotation, child_annotation = SubtaskAnnotation.get_tied_annotation_values(
+                    annotation=annotation, hierachy_list=annotation_hierarchy, tilt_schema=tilt_schema)
+            else:
+                parent_annotation, child_annotation = SubtaskAnnotation.define_root_annotation_ties(
+                    annotation, tilt_schema)
 
-                else:
-                    parent_annotation, child_annotation = SubtaskAnnotation.define_root_annotation_ties(
-                        annotation, tilt_schema)
-                if parent_annotation and child_annotation:
-                    print(f"Updating Annotation: {annotation.label}")
-                    annotation.update(parent_annotation=parent_annotation.to_dbref())
-                    annotation.update(child_annotation=child_annotation.to_dbref())
-            except DoesNotExist:
-                print(f"## Could not update {annotation.label}. Data corrupted! ##")
-                continue
+            if parent_annotation and child_annotation:
+                print(f"Updating Annotation: {annotation.label}")
+                annotation.update(parent_annotation=parent_annotation.to_dbref())
+                annotation.update(child_annotation=child_annotation.to_dbref())
+            elif parent_annotation:
+                print(f"Updating Annotation: {annotation.label}")
+                annotation.update(parent_annotation=parent_annotation.to_dbref())
+            elif child_annotation:
+                print(f"Updating Annotation: {annotation.label}")
+                annotation.update(child_annotation=child_annotation.to_dbref())
+            else:
+                print(f"Nothing was updated for {annotation.label} in {annotation.task.name}")
+            # except DoesNotExist:
+            #     print(f"## Could not update {annotation.label}. Data corrupted! ##")
+            #     continue
 
     @staticmethod
     def define_root_annotation_ties(annotation, tilt_schema):
