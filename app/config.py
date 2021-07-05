@@ -53,7 +53,6 @@ class Config(object):
                                               mongodb_port=os.environ["MONGODB_PORT"],
                                               mongodb_database=os.environ["MONGODB_DATABASE"],
                                               host=os.environ.get("MONGODB_HOST", "localhost"))
-    print(f"MongoDB: {MONGODB_SETTINGS}")
 
     TILT_EXCEPTIONS = [
         {

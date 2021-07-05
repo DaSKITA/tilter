@@ -15,11 +15,11 @@ services:
             MONGODB_PORT: 27017
             MONGODB_HOST: mongo
             DEPLOYMENT: 1
-            FLASK_SECRET_KEY: $FLASK_SECRET_KEY
+            FLASK_SECRET_KEY: ${FLASK_SECRET_KEY}
             FLASK_APP: main.py
             FLASK_DEBUG: 0
             FLASK_ENV: "production"
-            JWT_SECRET_KEY: $JWT_SECRET_KEY
+            JWT_SECRET_KEY: ${JWT_SECRET_KEY}
         # Infinite loop, to keep it alive, for debugging
         # command: bash -c "while true; do echo 'sleeping...' && sleep 10; done"
         depends_on:
@@ -38,8 +38,8 @@ services:
         environment:
             ME_CONFIG_MONGODB_ADMINUSERNAME: ${MONGODB_USERNAME}
             ME_CONFIG_MONGODB_ADMINPASSWORD: ${MONGODB_PASSWORD}
-            ME_CONFIG_BASICAUTH_USERNAME: admin
-            ME_CONFIG_BASICAUTH_PASSWORD: SuperSecret
+            ME_CONFIG_BASICAUTH_USERNAME: ${MONGO_EXPRESS_USER}
+            ME_CONFIG_BASICAUTH_PASSWORD: ${MONGO_EXPRESS_PASSWORD}
 
     mongo:
         image: mongo:4.4.4

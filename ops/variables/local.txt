@@ -1,4 +1,3 @@
-#!/usr/bin/env bash
 export MONGODB_DATABASE="localtilterdb"
 export MONGODB_USERNAME="root"
 export MONGODB_PASSWORD="SuperPassword"
@@ -13,3 +12,6 @@ export JWT_SECRET_KEY="classic"
 export TILT_HUB_REST_URL='http://ec2-18-185-97-19.eu-central-1.compute.amazonaws.com:8080'
 export TILT_HUB_BASIC_AUTH_USER="admin"
 export TILT_HUB_BASIC_AUTH_PASSWORD="secret"
+
+export MONGO_EXPRESS_USER="admin"
+export MONGO_EXPRESS_PASSWORD="verysecret"
