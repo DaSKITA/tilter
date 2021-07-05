@@ -39,17 +39,17 @@
             // hide task id text
             $('.ls-task-info').hide();
             // make update button float and hide it
-            $('[class*="Controls_block"]').css({'position': 'fixed', 'bottom': '1em', 'right': '9.8em'});
+            $('[class*="Controls_block_"]').css({'position': 'fixed', 'bottom': '7em', 'right': '9.8em'});
             $('[class*="Controls_block"]').hide();
             // give app menu margin-bottom to make room for update button
             $('[class*="App_menu"]').css('margin-bottom', '5em');
             // increase update button width
-            $('.ls-update-btn').css({'width': '250px', 'height': '75px', 'font-size': '150%'});
+            $('.ls-update-btn').css({'width': '250px', 'height': '75px', 'font-size': '130%'});
             // hide delete all labels button
             $('div.ant-card-head-title').find('button.ant-btn-danger').hide()
 
             $(window).on("scroll", function () {
-               if ($(this).scrollTop() > 350) {
+               if ($(this).scrollTop() > 450) {
                   $('[class*="Controls_block"]').fadeIn();
                } else {
                   $('[class*="Controls_block"]').fadeOut(200);

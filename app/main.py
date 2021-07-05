@@ -11,9 +11,7 @@ from flask_jwt_extended import create_access_token, jwt_required, JWTManager
 from flask_restx import Api, fields, Resource
 from flask_user import current_user, login_required, UserManager
 
-from forms import CreateTaskForm
-
-from utils.schema_tools import get_manual_bools, construct_first_level_labels
+from utils.schema_tools import construct_first_level_labels, get_manual_bools, reduce_schema, retrieve_schema_level
 from utils.description_finder import DescriptonFinder
 from utils.translator import Translator
 from utils.feeder import Feeder
@@ -29,8 +27,8 @@ domain = Domain()
 babel = Babel(app, default_locale='de')
 
 # Policies
-feeder = Feeder(policy_data_dir=Config.POLICY_DIR)
-feeder.feed_app_with_policies()
+# feeder = Feeder(policy_data_dir=Config.POLICY_DIR)
+# feeder.feed_app_with_policies()
 
 
 @babel.localeselector
@@ -47,6 +45,43 @@ def task_tree_to_dict(task_list):
     for task in task_list:
         task_tree_dict[task] = task_tree_to_dict(Task.objects(parent=task))
     return task_tree_dict
+
+# .../task/__id__/next helper function
+def select_next_task(task, initial_task_id, hierarchy=None):
+    next_task_id = None
+    child_tasks = Task.objects(parent=task)
+    if child_tasks:
+        if hierarchy:
+            # hierarchy is given
+            local_schema = retrieve_schema_level(hierarchy[:-1])
+
+            # reduce local_schema to schema entries that are hierarchically after hierarchy[-1]
+            local_schema = reduce_schema(local_schema, hierarchy[-1])
+
+            for entry in local_schema.keys():
+                target_hierarchy = hierarchy[:-1] + [entry]
+                entry_tasks = child_tasks(hierarchy=target_hierarchy).order_by('id')
+                if entry_tasks:
+                    get_next = False
+                    for task in entry_tasks:
+                        if get_next:
+                            next_task_id = task.id
+                            break
+                        elif task.id == initial_task_id:
+                            get_next = True
+        else:
+            # no hierarchy given (first iteration)
+            # return the first child according to schema
+            local_schema = retrieve_schema_level(task.hierarchy)
+
+            for entry in local_schema.keys():
+                target_hierarchy = hierarchy + [entry] if hierarchy else [entry]
+                entry_tasks = child_tasks(hierarchy=target_hierarchy).order_by('id')
+                if entry_tasks:
+                    next_task_id = entry_tasks[0].id
+
+
+    return next_task_id
 
 
 # Character Escaping Filters for Templates
@@ -82,29 +117,25 @@ def tasks():
     return render_template('tasks.html', tasks=tasks)
 
 
-# @app.route('/tasks/create', methods=['GET', 'POST'])
-# @login_required
-# def create_task():
-#     form = CreateTaskForm()
-#     if request.method == 'GET':
-#         return render_template('create_task.html', form=form)
-#     else:
-#         if form.validate_on_submit():
-#             labels = construct_first_level_labels()
-#             Task(name=form.name.data, labels=labels, hierarchy=[], parent=None,
-#                  interfaces=[
-#                      "panel",
-#                      "update",
-#                      "controls",
-#                      "side-column",
-#                      "predictions:menu"],
-#                  text=form.text.data,
-#                  html=form.html.data
-#                  ).save()
-#             flash("Succesfully created Task " + form.name.data, 'success')
-#         else:
-#             flash("Error in Validation of sent Form, please check", 'error')
-#         return redirect('/tasks/create')
+@app.route('/tasks/<string:task_id>/next')
+@login_required
+def redirect_to_next_task(task_id, initial_task_id=None, hierarchy=None):
+    task = Task.objects.get(id=task_id)
+    if not initial_task_id:
+        initial_task_id = task_id
+    # select first child task according to schema
+    next_task = select_next_task(task, initial_task_id=initial_task_id, hierarchy=hierarchy)
+    if next_task:
+        return redirect(url_for("label", task_id=next_task))
+    else:
+        if task.parent:
+            # there may be siblings
+            return redirect_to_next_task(task_id=task.parent.id, initial_task_id=initial_task_id,
+                                         hierarchy=task.hierarchy)
+        else:
+            # there are no siblings left, therefore the annotation process is finished
+            flash(_("Finished annotating all subtasks!"), 'success')
+            return redirect(url_for("tasks"))
 
 
 @app.route('/tasks/<string:task_id>')

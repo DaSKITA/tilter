@@ -37,3 +37,12 @@ def get_manual_bools(hierarchy):
     schema = retrieve_schema_level(hierarchy)
     return [(k, v) for (k, v) in schema.items() if k[0] == '~' and v[0] != '#']
 
+def reduce_schema(schema, trigger):
+    return_schema = schema.copy()
+    for entry in schema.keys():
+        if entry != trigger:
+            return_schema.pop(entry)
+        else:
+            break
+    return return_schema
+
