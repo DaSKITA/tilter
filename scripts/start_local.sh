@@ -5,7 +5,6 @@ BASEDIR=$(dirname "$SCRIPT_DIR")
 export FLASK_ENV="development"
 export FLASK_DEBUG=true
 export FLASK_APP=main.py
-export $(grep -v '^#' $BASEDIR/app/secrets/local/flask-local.env | xargs -0)
 
 gnome-terminal -- bash -c "sh ${SCRIPT_DIR}/start_mongo_db.sh"
 

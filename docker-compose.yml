@@ -9,22 +9,19 @@ services:
         - "5000:5000"
         restart: unless-stopped
         environment:
-            MONGODB_DATABASE: tilterdb
-            MONGODB_USERNAME: /run/secrets/mongo_user
-            MONGODB_PASSWORD: /run/secrets/mongo_password
+            MONGODB_DATABASE: ${MONGODB_INITDB_DATABASE}
+            MONGODB_USERNAME: ${MONGODB_USERNAME}
+            MONGODB_PASSWORD: ${MONGODB_PASSWORD}
             MONGODB_PORT: 27017
             MONGODB_HOST: mongo
             DEPLOYMENT: 1
-            FLASK_SECRET_KEY: 12345678901234567890123456789012
+            FLASK_SECRET_KEY: $FLASK_SECRET_KEY
             FLASK_APP: main.py
             FLASK_DEBUG: 0
             FLASK_ENV: "production"
-            JWT_SECRET_KEY: /run/secrets/jwt_secret_key
+            JWT_SECRET_KEY: $JWT_SECRET_KEY
         # Infinite loop, to keep it alive, for debugging
         # command: bash -c "while true; do echo 'sleeping...' && sleep 10; done"
-        secrets:
-            - mongo_user
-            - mongo_password
         depends_on:
         - mongo
 
@@ -39,13 +36,10 @@ services:
         depends_on:
         - mongo
         environment:
-            ME_CONFIG_MONGODB_ADMINUSERNAME: /run/secrets/mongo_user
-            ME_CONFIG_MONGODB_ADMINPASSWORD: /run/secrets/mongo_password
+            ME_CONFIG_MONGODB_ADMINUSERNAME: ${MONGODB_USERNAME}
+            ME_CONFIG_MONGODB_ADMINPASSWORD: ${MONGODB_PASSWORD}
             ME_CONFIG_BASICAUTH_USERNAME: admin
             ME_CONFIG_BASICAUTH_PASSWORD: SuperSecret
-        secrets:
-            - mongo_user
-            - mongo_password
 
     mongo:
         image: mongo:4.4.4
@@ -53,28 +47,12 @@ services:
         restart: unless-stopped
         command: mongod --auth
         environment:
-            MONGO_INITDB_ROOT_USERNAME: /run/secrets/mongo_user
-            MONGO_INITDB_ROOT_PASSWORD: /run/secrets/mongo_password
-            MONGO_INITDB_DATABASE: tilterdb
+            MONGO_INITDB_ROOT_USERNAME: ${MONGODB_USERNAME}
+            MONGO_INITDB_ROOT_PASSWORD: ${MONGODB_PASSWORD}
+            MONGO_INITDB_DATABASE: ${MONGODB_INITDB_DATABASE}
             MONGODB_DATA_DIR: /data/db
             MONDODB_LOG_DIR: /dev/null
         volumes:
             - ./volumes:/data/db
         ports:
             - '27017:27017'
-        secrets:
-            - mongo_user
-            - mongo_password
-
-secrets:
-    mongo_user:
-        external: true
-        name: mongo_user
-    mongo_password:
-        external: true
-        name: mongo_password
-
-
-# https://docs.docker.com/compose/compose-file/compose-file-v3/#secrets-configuration-reference
-# https://stackoverflow.com/questions/42139605/how-do-you-manage-secret-values-with-docker-compose-v3-1/42151570#42151570
-
