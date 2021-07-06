@@ -47,41 +47,39 @@ def task_tree_to_dict(task_list):
     return task_tree_dict
 
 # .../task/__id__/next helper function
-def select_next_task(task, initial_task_id, hierarchy=None):
-    next_task_id = None
+def select_next_task(task, previous_seen_task_id, hierarchy=None):
     child_tasks = Task.objects(parent=task)
+
     if child_tasks:
         if hierarchy:
-            # hierarchy is given
+            # retrieve and reduce local_schema to schema entries that are hierarchically after hierarchy[-1]
             local_schema = retrieve_schema_level(hierarchy[:-1])
-
-            # reduce local_schema to schema entries that are hierarchically after hierarchy[-1]
             local_schema = reduce_schema(local_schema, hierarchy[-1])
 
             for entry in local_schema.keys():
                 target_hierarchy = hierarchy[:-1] + [entry]
-                entry_tasks = child_tasks(hierarchy=target_hierarchy).order_by('id')
-                if entry_tasks:
+                target_tasks = child_tasks(hierarchy=target_hierarchy).order_by('id')
+                if Task.objects.get(id=previous_seen_task_id) in target_tasks:
                     get_next = False
-                    for task in entry_tasks:
+                    for task in target_tasks:
                         if get_next:
-                            next_task_id = task.id
-                            break
-                        elif task.id == initial_task_id:
+                            return task.id
+                        elif task.id == previous_seen_task_id:
                             get_next = True
+                elif target_tasks:
+                    return target_tasks.first().id
         else:
             # no hierarchy given (first iteration)
             # return the first child according to schema
             local_schema = retrieve_schema_level(task.hierarchy)
 
             for entry in local_schema.keys():
-                target_hierarchy = hierarchy + [entry] if hierarchy else [entry]
-                entry_tasks = child_tasks(hierarchy=target_hierarchy).order_by('id')
-                if entry_tasks:
-                    next_task_id = entry_tasks[0].id
+                target_hierarchy = task.hierarchy + [entry] if task.hierarchy else [entry]
+                target_tasks = child_tasks(hierarchy=target_hierarchy).order_by('id')
+                if target_tasks:
+                    return target_tasks.first().id
 
-
-    return next_task_id
+    return None
 
 
 # Character Escaping Filters for Templates
@@ -119,18 +117,16 @@ def tasks():
 
 @app.route('/tasks/<string:task_id>/next')
 @login_required
-def redirect_to_next_task(task_id, initial_task_id=None, hierarchy=None):
+def redirect_to_next_task(task_id, previous_seen_task_id=None, hierarchy=None):
     task = Task.objects.get(id=task_id)
-    if not initial_task_id:
-        initial_task_id = task_id
     # select first child task according to schema
-    next_task = select_next_task(task, initial_task_id=initial_task_id, hierarchy=hierarchy)
+    next_task = select_next_task(task, previous_seen_task_id=previous_seen_task_id, hierarchy=hierarchy)
     if next_task:
         return redirect(url_for("label", task_id=next_task))
     else:
         if task.parent:
             # there may be siblings
-            return redirect_to_next_task(task_id=task.parent.id, initial_task_id=initial_task_id,
+            return redirect_to_next_task(task_id=task.parent.id, previous_seen_task_id=task.id,
                                          hierarchy=task.hierarchy)
         else:
             # there are no siblings left, therefore the annotation process is finished
