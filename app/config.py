@@ -1,4 +1,3 @@
-from dotenv import load_dotenv
 import os
 from pathlib import Path
 import json
@@ -10,10 +9,6 @@ class Config(object):
     # Secrets
     BASE_PATH = os.path.abspath(os.path.dirname(__file__))
     DEPLOYMENT = os.environ.get("DEPLOYMENT", False)
-    if not DEPLOYMENT:
-        load_dotenv(dotenv_path=os.path.join(BASE_PATH, "secrets/local/flask-local.env"))
-    else:
-        print("Load Production Configurations...")
 
     # Flask-User Setup
     USER_APP_NAME = "TILTer"  # Shown in and email templates and page footers
@@ -40,10 +35,6 @@ class Config(object):
     with open(COMPLETE_SCHEMA_PATH, 'r') as complete_schema_file:
         COMPLETE_SCHEMA = json.load(complete_schema_file)
 
-    # Secrets
-    if not os.environ.get("DEPLOYMENT", None):
-        load_dotenv(dotenv_path=os.path.join(BASE_PATH, "secrets/local/flask-local.env"))
-
     SECRET_KEY = os.environ["FLASK_SECRET_KEY"]
     POLICY_DIR = os.path.join(ROOT_PATH, "data/official_policies") if DEPLOYMENT \
         else os.path.join(ROOT_PATH, "data/test_policies")
@@ -60,11 +51,8 @@ class Config(object):
     MONGODB_SETTINGS = _create_mongo_settings(mongodb_user=os.environ["MONGODB_USERNAME"],
                                               mongodb_password=os.environ["MONGODB_PASSWORD"],
                                               mongodb_port=os.environ["MONGODB_PORT"],
-                                              mongodb_database=os.environ["MONGODB_DATABASE"],
+                                              mongodb_database=os.environ["MONGO_INITDB_DATABASE"],
                                               host=os.environ.get("MONGODB_HOST", "localhost"))
-
-    # Load tilt-hub secrets
-    TILT_HUB = load_dotenv(dotenv_path=os.path.join(BASE_PATH, "secrets/local/tilthub.env"))
 
     TILT_EXCEPTIONS = [
         {
