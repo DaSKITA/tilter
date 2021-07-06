@@ -9,7 +9,7 @@ services:
         - "5000:5000"
         restart: unless-stopped
         environment:
-            MONGODB_DATABASE: ${MONGODB_INITDB_DATABASE}
+            MONGO_INITDB_DATABASE: ${MONGO_INITDB_DATABASE}
             MONGODB_USERNAME: ${MONGODB_USERNAME}
             MONGODB_PASSWORD: ${MONGODB_PASSWORD}
             MONGODB_PORT: 27017
@@ -49,7 +49,7 @@ services:
         environment:
             MONGO_INITDB_ROOT_USERNAME: ${MONGODB_USERNAME}
             MONGO_INITDB_ROOT_PASSWORD: ${MONGODB_PASSWORD}
-            MONGO_INITDB_DATABASE: ${MONGODB_INITDB_DATABASE}
+            MONGO_INITDB_DATABASE: ${MONGO_INITDB_DATABASE}
             MONGODB_DATA_DIR: /data/db
             MONDODB_LOG_DIR: /dev/null
         volumes:

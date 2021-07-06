@@ -51,7 +51,7 @@ class Config(object):
     MONGODB_SETTINGS = _create_mongo_settings(mongodb_user=os.environ["MONGODB_USERNAME"],
                                               mongodb_password=os.environ["MONGODB_PASSWORD"],
                                               mongodb_port=os.environ["MONGODB_PORT"],
-                                              mongodb_database=os.environ["MONGODB_DATABASE"],
+                                              mongodb_database=os.environ["MONGO_INITDB_DATABASE"],
                                               host=os.environ.get("MONGODB_HOST", "localhost"))
 
     TILT_EXCEPTIONS = [
