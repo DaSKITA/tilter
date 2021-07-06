@@ -35,6 +35,8 @@ class Annotation(db.Document):
     text = db.StringField(required=True)
     label = db.StringField(required=True)
     task = db.ReferenceField('Task', required=True)
+    parent_annotation = db.ReferenceField('Annotation', required=False, default=None)
+    child_annotation = db.ReferenceField('Annotation', required=False, default=None)
 
 
 class MetaTask(db.Document):
@@ -63,7 +65,7 @@ class HiddenAnnotation(db.Document):
 
 
 class LinkedAnnotation(db.Document):
-    """Annotations that fill out automaticall, when a label to a related annotation is given.
+    """Annotations that fill out automatically, when a label to a related annotation is given.
 
     Args:
         db ([type]): [description]

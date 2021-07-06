@@ -1,6 +1,6 @@
 from mongoengine import DoesNotExist
 from typing import Union, Tuple, List
-from database.models import Annotation, LinkedAnnotation, Task
+from database.models import Annotation, LinkedAnnotation, Task, HiddenAnnotation, MetaTask
 
 
 class AnnotationHandler:
@@ -59,8 +59,35 @@ class AnnotationHandler:
 
     def delete(self, annotation: Annotation = None):
         if annotation:
+            deletion_msg = self._delete_tied_objects(annotation)
             annotation.delete()
-            print(f"Deleted Annotation with Label: {annotation.label}")
+            print(f"Deleted Annotation with Label: {annotation.label} -- " + deletion_msg)
+
+    def _delete_tied_objects(self, annotation):
+        """
+        Task which create subtasks, have child annotations, which references them in the respective subtask.
+        So the entries for child_annotation and parent_annotation is alaways a self reference to the supplied
+        annotation for deletion. Depending on where the self reference is stored the annotation's task also
+        gets deleted.
+
+        Args:
+            annotation ([type]): [description]
+
+        Returns:
+            [type]: [description]
+        """
+        if annotation.child_annotation:
+            tied_annotation = annotation.child_annotation
+            task = tied_annotation.task
+        elif annotation.parent_annotation:
+            tied_annotation = annotation.parent_annotation
+            task = annotation.task
+        else:
+            return ""
+        tied_annotation.delete()
+        self._delete_task_objects(task)
+        task.delete()
+        return "Annotation was tied to Subtask, deleted Subtask and its Annotations"
 
     def filter_new_annotations(self, annotation_list: List[Annotation]):
         """
@@ -120,3 +147,18 @@ class AnnotationHandler:
                                                           label=manual_bool_label)
             manual_bool_annotation.save()
         print("Manual Bools created.")
+
+    def _delete_task_objects(self, task):
+        task_annotations = Annotation.objects(task=task)
+        linked_annotations = LinkedAnnotation.objects(task=task)
+        hidden_annotations = HiddenAnnotation.objects(task=task)
+        self._delete_task_annotation_obj(task_annotations)
+        self._delete_task_annotation_obj(linked_annotations)
+        self._delete_task_annotation_obj(hidden_annotations)
+        meta_objects = MetaTask.objects(root_task=task)
+        if meta_objects:
+            meta_objects.delete()
+
+    def _delete_task_annotation_obj(self, task_annotations):
+        if task_annotations:
+            [task_annotation.delete() for task_annotation in task_annotations]

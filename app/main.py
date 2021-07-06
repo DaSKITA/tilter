@@ -1,3 +1,4 @@
+from mongoengine.errors import DoesNotExist
 from api.restx import ns
 
 from config import Config
@@ -5,13 +6,13 @@ from config import Config
 from database.db import db
 from database.models import Task, User, Annotation
 
-from flask import Blueprint, flash, Flask, jsonify, make_response, Markup, render_template, redirect, request, url_for
+from flask import Blueprint, flash, Flask, Markup, render_template, redirect, request, url_for
 from flask_babel import _, Babel, Domain
-from flask_jwt_extended import create_access_token, jwt_required, JWTManager
+from flask_jwt_extended import create_access_token, JWTManager
 from flask_restx import Api, fields, Resource
 from flask_user import current_user, login_required, UserManager
 
-from utils.schema_tools import construct_first_level_labels, get_manual_bools, reduce_schema, retrieve_schema_level
+from utils.schema_tools import get_manual_bools, reduce_schema, retrieve_schema_level
 from utils.description_finder import DescriptonFinder
 from utils.translator import Translator
 from utils.feeder import Feeder
@@ -27,8 +28,8 @@ domain = Domain()
 babel = Babel(app, default_locale='de')
 
 # Policies
-# feeder = Feeder(policy_data_dir=Config.POLICY_DIR)
-# feeder.feed_app_with_policies()
+feeder = Feeder(policy_data_dir=Config.POLICY_DIR)
+feeder.feed_app_with_policies()
 
 
 @babel.localeselector
@@ -145,8 +146,11 @@ def label(task_id):
         flash(_("Error updateing Annotations!"), 'error')
 
     # get task and its annotations
-    task = Task.objects.get(pk=task_id)
-    annotations = Annotation.objects(task=task)
+    try:
+        task = Task.objects.get(pk=task_id)
+        annotations = Annotation.objects(task=task)
+    except DoesNotExist:
+        return redirect(url_for('tasks'))
 
     # finds the descriptions for labels and manual bools of this task
     description_finder = DescriptonFinder()
@@ -215,4 +219,4 @@ class Authentication(Resource):
 
 
 if __name__ == "__main__":
-    app.run(use_debugger=False, use_reloader=False, passthrough_errors=True)
+    app.run(host="0.0.0.0", port="5000", use_debugger=False, use_reloader=False, passthrough_errors=True)
