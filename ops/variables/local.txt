@@ -1,0 +1,14 @@
+export MONGODB_USERNAME="admin"
+export MONGODB_PASSWORD="SuperPassword"
+export MONGODB_PORT="27017"
+export MONGO_INITDB_DATABASE="localtilterdb"
+
+export FLASK_SECRET_KEY="12345678901234567890123456788213"
+export JWT_SECRET_KEY="classic"
+
+export TILT_HUB_REST_URL='http://ec2-18-185-97-19.eu-central-1.compute.amazonaws.com:8080'
+export TILT_HUB_BASIC_AUTH_USER="admin"
+export TILT_HUB_BASIC_AUTH_PASSWORD="classic"
+
+export MONGO_EXPRESS_USER="admin"
+export MONGO_EXPRESS_PASSWORD="verysecret"

@@ -1,58 +1,58 @@
 version: '3.8'
 services:
-  flask:
-    build:
-        context: .
-        dockerfile: ops/Dockerfile
-    container_name: flask
-    ports:
-      - "5000:5000"
-    restart: unless-stopped
-    environment:
-      MONGODB_DATABASE: tilterdb
-      MONGODB_USERNAME: root
-      MONGODB_PASSWORD: SuperSecret
-      MONGODB_PORT: 27017
-      MONGODB_HOST: mongo
-      DEPLOYMENT: 1
-      FLASK_SECRET_KEY: 12345678901234567890123456789012
-      FLASK_APP: main.py
-      FLASK_DEBUG: 1
-      FLASK_ENV: "development"
-      JWT_SECRET_KEY: "secret"
-    # Infinite loop, to keep it alive, for debugging
-    # command: bash -c "while true; do echo 'sleeping...' && sleep 10; done"
-    depends_on:
-      - mongo
+    flask:
+        build:
+            context: .
+            dockerfile: ops/Dockerfile
+        container_name: flask
+        ports:
+        - "5000:5000"
+        restart: unless-stopped
+        environment:
+            MONGO_INITDB_DATABASE: ${MONGO_INITDB_DATABASE}
+            MONGODB_USERNAME: ${MONGODB_USERNAME}
+            MONGODB_PASSWORD: ${MONGODB_PASSWORD}
+            MONGODB_PORT: 27017
+            MONGODB_HOST: mongo
+            DEPLOYMENT: 1
+            FLASK_SECRET_KEY: ${FLASK_SECRET_KEY}
+            FLASK_APP: main.py
+            FLASK_DEBUG: 0
+            FLASK_ENV: "production"
+            JWT_SECRET_KEY: ${JWT_SECRET_KEY}
+        # Infinite loop, to keep it alive, for debugging
+        # command: bash -c "while true; do echo 'sleeping...' && sleep 10; done"
+        depends_on:
+        - mongo
 
-  mongo-express: # DATABASE ADMINISTRATION
-    image: mongo-express:0.54
-    container_name: mongo-express
-    ports:
-      - "8081:8081"
-    links:
-      - mongo
-    restart: always # this is necessary since the volume of mongo causes a longer restart
-    depends_on:
-      - mongo
-    environment:
-      ME_CONFIG_MONGODB_ADMINUSERNAME: root
-      ME_CONFIG_MONGODB_ADMINPASSWORD: SuperSecret
-      ME_CONFIG_BASICAUTH_USERNAME: admin
-      ME_CONFIG_BASICAUTH_PASSWORD: SuperSecret
+    mongo-express: # DATABASE ADMINISTRATION
+        image: mongo-express:0.54
+        container_name: mongo-express
+        ports:
+        - "8081:8081"
+        links:
+        - mongo
+        restart: always # this is necessary since the volume of mongo causes a longer restart
+        depends_on:
+        - mongo
+        environment:
+            ME_CONFIG_MONGODB_ADMINUSERNAME: ${MONGODB_USERNAME}
+            ME_CONFIG_MONGODB_ADMINPASSWORD: ${MONGODB_PASSWORD}
+            ME_CONFIG_BASICAUTH_USERNAME: ${MONGO_EXPRESS_USER}
+            ME_CONFIG_BASICAUTH_PASSWORD: ${MONGO_EXPRESS_PASSWORD}
 
-  mongo:
-    image: mongo:4.4.4
-    container_name: mongo
-    restart: unless-stopped
-    command: mongod --auth
-    environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: SuperSecret
-      MONGO_INITDB_DATABASE: tilterdb
-      MONGODB_DATA_DIR: /data/db
-      MONDODB_LOG_DIR: /dev/null
-    volumes:
-      - ./volumes:/data/db
-    ports:
-      - '27017:27017'
+    mongo:
+        image: mongo:4.4.4
+        container_name: mongo
+        restart: unless-stopped
+        command: mongod --auth
+        environment:
+            MONGO_INITDB_ROOT_USERNAME: ${MONGODB_USERNAME}
+            MONGO_INITDB_ROOT_PASSWORD: ${MONGODB_PASSWORD}
+            MONGO_INITDB_DATABASE: ${MONGO_INITDB_DATABASE}
+            MONGODB_DATA_DIR: /data/db
+            MONDODB_LOG_DIR: /dev/null
+        volumes:
+            - ./volumes:/data/db
+        ports:
+            - '27017:27017'

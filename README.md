@@ -9,24 +9,29 @@ Annotation tool _TILTer_ for the annotation and conversion of privacy policies i
 ### Prerequisites
 
 * Python 3.7.0 or above
-
-### Installation
-1. Install [Docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/).
-2. `git clone https://github.com/DaSKITA/tilter.git`
-browser.
+* [Docker](https://docs.docker.com/get-docker/)
+* [docker-compose](https://docs.docker.com/compose/install/)
 
 
 ### SetUp
+#### Docker-Compose
 
-3. Type `docker-compose up` in the Terminal Window.
-4. Access [http://localhost:5000](http://localhost:5000) and [http://localhost:5000/api/docs/](http://localhost:5000/api/docs/) in your favorite Browser
-5. Get some Privacy Policies from the TUB-Cloud as `.txt`-files. And place them in the `data` folder.
-6. Open a Terminal Window and activate your python environment.
-7. Execute the script under `scripts/fill_database.sh`
+1. Type `source ops/variables/local.txt`
+2. Type `docker-compose up` in the Terminal Window.
+3. Access [http://localhost:5000](http://localhost:5000) and [http://localhost:5000/api/docs/](http://localhost:5000/api/docs/) in your favorite Browser
 
 
-__Note:__ You can also use the [feeder.py](/scripts/feeder.py) CLI drectly. For more Information run: `python feeder.py --help`. Make sure to install the required packages before.
-The packages can be found in `scripts/fill_database.sh` after the `pip` command.
+#### Local
+
+This is a setup Guide for Ubuntu.
+
+1. Create a Python Environment with `python -m venv <your-env-name>`
+2. Activate your python environment with `source <your-env-name>/bin/activate`
+3. Upgrade Pip with `python -m pip install -U pip` and install all necessary packages with `pip install -r app/requirements.txt`
+4. Install the app with `pip install -e .`
+5. Type `source ops/variables/local.txt`
+6. Run the app with `./scripts/start_local.sh`
+
 
 ## Deployment
 
@@ -45,6 +50,8 @@ Start a new screen by: `screen -S <screen_name>`
 Reattach a screen by: `screen -r <screen_name>`
 <br>
 See all screens with: `screen ls`
+
+Deployment variables are stored seperately.
 
 The deployment will be active for 90 days (from 31.05.2021) without any costs. Afterwards running the TILTer
 will costs ~13 Euros per month.

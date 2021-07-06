@@ -1,6 +1,6 @@
 from mongoengine import DoesNotExist
 from typing import Union, Tuple, List
-from database.models import Annotation, LinkedAnnotation, Task, HiddenAnnotation, MetaTask
+from app.database.models import Annotation, LinkedAnnotation, Task, HiddenAnnotation, MetaTask
 
 
 class AnnotationHandler:
