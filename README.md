@@ -25,9 +25,9 @@ Annotation tool _TILTer_ for the annotation and conversion of privacy policies i
 
 This is a setup Guide for Ubuntu.
 
-1. Create a Python Environment
-2. Activate your python environment
-3. Upgrade Pip and install all packages from the `app/requirements.txt`
+1. Create a Python Environment with `python -m venv <your-env-name>`
+2. Activate your python environment with `source <your-env-name>/bin/activate`
+3. Upgrade Pip with `python -m pip install -U pip` and install all necessary packages with `pip install -r app/requirements.txt`
 4. Install the app with `pip install -e .`
 5. Type `source ops/variables/local.txt`
 6. Run the app with `./scripts/start_local.sh`

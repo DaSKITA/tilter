@@ -1,10 +1,10 @@
-flask
-flask_mongoengine
+Flask==1.1.2
+mongoengine==0.23.0
 dependencies/dist/Flask_User-1.0.2.3-py2.py3-none-any.whl
 flask_jwt_extended==4.2.1
 flask_wtf==0.14.3
-wtforms
-flask-restx
+WTForms==2.3.3
+flask-restx==0.2.0
 email_validator
 flask-babel==2.0.0
 python-dotenv==0.15.0
@@ -14,3 +14,4 @@ numpy==1.20.1
 pandas==1.2.3
 fastjsonschema==2.15.1
 langdetect==1.0.9
+wheel==0.36.2
