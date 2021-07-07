@@ -77,17 +77,16 @@ class AnnotationHandler:
         Returns:
             [type]: [description]
         """
-        if annotation.child_annotation:
-            tied_annotation = annotation.child_annotation
-            task = tied_annotation.task
-        elif annotation.parent_annotation:
-            tied_annotation = annotation.parent_annotation
-            task = annotation.task
+        if annotation.child_annotation == annotation:
+            annotation.child_annotation.delete()
+            annotation.task.delete()
+            annotation.parent_annotation.delete()
+        elif annotation.parent_annotation == annotation:
+            annotation.delete()
+            annotation.child_annotation.delete()
+            annotation.child_annotation.task.delete()
         else:
             return ""
-        tied_annotation.delete()
-        self._delete_task_objects(task)
-        task.delete()
         return "Annotation was tied to Subtask, deleted Subtask and its Annotations"
 
     def filter_new_annotations(self, annotation_list: List[Annotation]):
