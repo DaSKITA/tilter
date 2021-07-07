@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import click
-from migration_task import HtmlTaskTag, SubtaskAnnotation, DeleteUnboundObj
+from utils.migration_task import HtmlTaskTag, SubtaskAnnotation, DeleteUnboundObj
 
 
 @click.command()

@@ -1,6 +1,6 @@
 from mongoengine import DoesNotExist
 from typing import Union, Tuple, List
-from app.database.models import Annotation, LinkedAnnotation, Task, HiddenAnnotation, MetaTask
+from database.models import Annotation, LinkedAnnotation, Task, HiddenAnnotation, MetaTask
 
 
 class AnnotationHandler:
@@ -24,7 +24,8 @@ class AnnotationHandler:
             Union[Annotation, None]: [description]
         """
         try:
-            annotation = Annotation.objects.get(task=task, text=text, start=start, end=end, label=label)
+            annotation = Annotation.objects.get(task=task, text=text, start=start, end=end,
+                                                label=label)
         except DoesNotExist:
             print(Warning(f"Annotation {label} does not exist!"))
             annotation = None
@@ -76,17 +77,16 @@ class AnnotationHandler:
         Returns:
             [type]: [description]
         """
-        if annotation.child_annotation:
-            tied_annotation = annotation.child_annotation
-            task = tied_annotation.task
-        elif annotation.parent_annotation:
-            tied_annotation = annotation.parent_annotation
-            task = annotation.task
+        if annotation.child_annotation == annotation:
+            annotation.child_annotation.delete()
+            annotation.task.delete()
+            annotation.parent_annotation.delete()
+        elif annotation.parent_annotation == annotation:
+            annotation.delete()
+            annotation.child_annotation.delete()
+            annotation.child_annotation.task.delete()
         else:
             return ""
-        tied_annotation.delete()
-        self._delete_task_objects(task)
-        task.delete()
         return "Annotation was tied to Subtask, deleted Subtask and its Annotations"
 
     def filter_new_annotations(self, annotation_list: List[Annotation]):
