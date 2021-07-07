@@ -4,14 +4,14 @@ import hashlib
 import json
 from typing import Dict
 
-from database.models import MetaTask
+from database.models import MetaTask, Task
 
 
 class Meta:
 
     def __init__(self, _id=None, name=None, version=None, language=None, created=None,
                  modified=None, url=None,
-                 root_task=None, status=None, _hash=None):
+                 root_task: Task = None, status=None, _hash=None):
         """This class is a wrapper to a MongoEngine Document Class.
         The wrapper is the Metadata Object which gets written into the Tilt Document.
         It automatically passes necessary information for persistance to the document

@@ -4,6 +4,7 @@ from mongoengine import DoesNotExist
 from tilt_resources.meta import Meta
 from tilt_resources.tilt_creator import TiltCreator
 
+
 def get_recipients_from_category_only(annotations):
     recipients = []
     for annotation in annotations:

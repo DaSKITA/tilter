@@ -1,6 +1,6 @@
 from mongoengine import DoesNotExist
 from typing import Union, Tuple, List
-from app.database.models import Annotation, LinkedAnnotation, Task, HiddenAnnotation, MetaTask
+from database.models import Annotation, LinkedAnnotation, Task, HiddenAnnotation, MetaTask
 
 
 class AnnotationHandler:
@@ -24,7 +24,8 @@ class AnnotationHandler:
             Union[Annotation, None]: [description]
         """
         try:
-            annotation = Annotation.objects.get(task=task, text=text, start=start, end=end, label=label)
+            annotation = Annotation.objects.get(task=task, text=text, start=start, end=end,
+                                                label=label)
         except DoesNotExist:
             print(Warning(f"Annotation {label} does not exist!"))
             annotation = None

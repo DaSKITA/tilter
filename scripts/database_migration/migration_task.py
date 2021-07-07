@@ -1,11 +1,11 @@
 from abc import ABC, abstractmethod
 from mongoengine.errors import DoesNotExist
-from app.database.models import Task, Annotation, LinkedAnnotation
+from database.models import Task, Annotation, LinkedAnnotation
 from typing import List, Dict
-from app.config import Config
+from config import Config
 from mongoengine import connect
 from tqdm import tqdm
-from app.tilt_resources.annotation_handler import AnnotationHandler
+from tilt_resources.annotation_handler import AnnotationHandler
 
 
 class MigrationTask(ABC):
