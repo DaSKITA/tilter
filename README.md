@@ -1,5 +1,18 @@
 ![Docker Compose Actions Workflow](https://github.com/DaSKITA/tilter/workflows/Docker%20Compose%20Actions%20Workflow/badge.svg)
 
+
+<p float="left" align="center">
+  <img src="/.docs/screen01.png" width="45%" />
+  <img src="/.docs/screen02.png" width="45%" />
+</p>
+
+<p float="left" align="center">
+  <img src="/.docs/screen03.png" width="45%" />
+  <img src="/.docs/screen04.png" width="45%" />
+</p>
+
+
+
 # tilter
 Annotation tool _TILTer_ for the annotation and conversion of privacy policies into the [TILT schema](https://github.com/Transparency-Information-Language/schema).
 
@@ -56,10 +69,7 @@ The deployment will be active for 90 days (from 31.05.2021) without any costs. A
 will costs ~13 Euros per month.
 
 The Deployment can be accessed under: http://34.89.190.55:5000
-## Versions
 
-### v0.1
-![](./.docs/screen1.png)
 
 ## Languages and Translations
 Currently supported Languages are English (standard) and German. These are realized using the `pybabel` package. For more information regarding this topic please visit the [babel documentation](http://babel.pocoo.org/en/latest/index.html).
