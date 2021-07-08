@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+body {
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+}
+
+.btn i {
+    margin-right: 0.2em;
+}
+
+nav.navbar {
+    background: rgba(0,0,0,0.78);
+    padding: 1em;
+}
+
+p.navbar-custom-text {
+    margin: auto;
+    display: inline-block;
+    color: white !important;
+}
+
+a.navbar-custom-btn {
+    margin-left: 0.2em;
+}
+
+div.navbar-custom-right {
+    text-align: center;
+}
+
+div.container {
+    margin-top: 2em;
+}
+
+h1.title {
+    margin-bottom: 0.5em;
+}
+
+h2.subtitle {
+    margin-bottom: 1.5em;
+}
+
+img.index-image {
+    margin-bottom: 1.25em;
+    width: inherit;
+}
+
+img.index-logo {
+    margin-bottom: 1.25em;
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.row {
+    justify-content: space-between;
+    margin: unset;
+}
+
+div.user-interface {
+    width: 50%;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul .inner {
+    padding-left: 2em;
+    overflow: hidden;
+    display: none;
+}
+
+ul li {
+    margin: .5em 0;
+}
+
+ul li a.accordion-link {
+	width: 5em;
+	display: block;
+    background: rgba(95, 95, 95, 0.78);
+    color: #fefefe;
+    padding: .75em;
+    border-radius: 0 0.15em 0.15em 0;
+    transition: background .3s ease;
+	text-align: center;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background: rgba(51, 51, 51, 0.78);
+}
+
+ul li div.toggle {
+    width: -webkit-fill-available;
+    display: block;
+    background: rgba(0, 0, 0, 0.78);
+    color: #fefefe;
+    padding: .75em;
+    border-radius: 0.15em 0 0 0.15em;
+    transition: background .3s ease;
+}
+
+ul li div.toggle:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+i.placeholder {
+    margin-left: 10px;
+}
+
+ul li i {
+    margin-right: 0.5em;
+}
+
+div.toggle-container {
+    display: flex;
+}
+
+button.create-task {
+    background: rgba(95, 95, 95, 0.78);
+}
+
+button.create-task:hover {
+    background: rgba(51, 51, 51, 0.78);
+}
+
+div.return {
+    margin-bottom: 1em;
+}
+
+table.explanation {
+    width: 100%;
+    font-size: 0.9rem;
+    margin-bottom: 1em;
+}
+
+label.manual-bool-label {
+    padding-left: 1em;
+}
+
+label.annotation-label {
+    font-size: large;
+}
+
+p.annotation {
+    margin: 0 1em 0 1em;
+}
+
+a.tooltip-link, a.tooltip-link:hover, a.tooltip-link:focus, a.tooltip-link:active {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.78);
+}
+
+.tooltip-inner {
+    max-width: 350px;
+}
+
+i.manual-bool-icon {
+    padding-left: 0.5em;
+}

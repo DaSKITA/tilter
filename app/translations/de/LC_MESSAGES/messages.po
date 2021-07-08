@@ -1,0 +1,184 @@
+# German translations for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-03-01 11:59+0100\n"
+"PO-Revision-Date: 2021-02-28 18:05+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: templates/create_task.html:4 templates/index.html:2 templates/label.html:7
+#: templates/member_page.html:2 templates/tasks.html:4
+msgid "Welcome to TILTer"
+msgstr "Willkommen bei TILTer"
+
+#: templates/create_task.html:5 templates/label.html:9
+msgid "task overview"
+msgstr "Aufgabenübersicht"
+
+#: templates/create_task.html:6
+msgid "Task Creation"
+msgstr "Aufgabenerstellung"
+
+#: templates/index.html:4 templates/index.html:7 templates/member_page.html:5
+msgid "Home page"
+msgstr "Homepage"
+
+#: templates/index.html:5
+msgid "Register"
+msgstr "Registrieren"
+
+#: templates/index.html:6
+msgid "Sign in"
+msgstr "Anmelden"
+
+#: templates/index.html:7 templates/member_page.html:5
+msgid "accessible to anyone"
+msgstr "ohne Anmeldung zugänglich"
+
+#: templates/index.html:8 templates/member_page.html:6
+msgid "Member page"
+msgstr "Mitgliedsseite"
+
+#: templates/index.html:8 templates/member_page.html:6
+msgid "login required"
+msgstr "Anmeldung erforderlich"
+
+#: templates/label.html:8
+msgid "Task"
+msgstr "Aufgabe"
+
+#: templates/member_page.html:4
+msgid "Members page"
+msgstr "Mitgliedsseite"
+
+#: templates/member_page.html:7
+msgid "Sign out"
+msgstr "Abmelden"
+
+#: templates/member_page.html:8
+msgid "Task Overview"
+msgstr "Aufgabenübersicht"
+
+#: templates/tasks.html:6
+msgid "These are your Tasks!"
+msgstr "Dies sind Ihre Aufgaben!"
+
+#: templates/tasks.html:10
+msgid "Task Name"
+msgstr "Aufgabe"
+
+#: templates/tasks.html:23
+msgid "You currently have no tasks!"
+msgstr "Sie haben aktuell keine Aufgaben!"
+
+#: templates/tasks.html:25
+msgid "Create a new Task"
+msgstr "Neue Aufgabe erstellen"
+
+#: templates/label.html:40
+msgid "Controller - Company Name"
+msgstr "Verantwortliche*r - Unternehmensbezeichnung"
+
+#: templates/label.html:40
+msgid "Company Name"
+msgstr "Unternehmensbezeichnung"
+
+#: templates/label.html:40
+msgid "Country"
+msgstr "Land(-eskürzel)"
+
+#: templates/label.html:40
+msgid "Representative - E-Mail"
+msgstr "Vertreter - E-Mail"
+
+#: templates/label.html:40
+msgid "Data Protection Officer - E-mail"
+msgstr "Datenschutzbeauftragte*r - E-mail"
+
+#: templates/label.html:40
+msgid "E-Mail address"
+msgstr "E-Mail Adresse"
+
+#: templates/label.html:40
+msgid "Data Disclosed - Category"
+msgstr "Betroffene Daten - Kategorie"
+
+#: templates/label.html:40
+msgid "Data Category"
+msgstr "Kategorie der Daten"
+
+#: templates/label.html:40
+msgid "Data Disclosed - Purpose"
+msgstr "Betroffene Daten - Zweck"
+
+#: templates/label.html:40
+msgid "Purpose of Data"
+msgstr "Zweck"
+
+#: templates/label.html:40
+msgid "Data Disclosed - Legal Basis"
+msgstr "Betroffene Daten - Rechtsgrundlage"
+
+#: templates/label.html:40
+msgid "Legal Basis Description"
+msgstr "Beschreibung der Rechtsgrundlage"
+
+#: templates/label.html:40
+msgid "Data Disclosed - Legitimate Interest"
+msgstr "Betroffene Daten - Berechtigte Interessen"
+
+#: templates/label.html:40
+msgid "Legitimate Interest - Reasoning"
+msgstr "Berechtigte Interessen - Begründung"
+
+#: templates/label.html:40
+msgid "Data Disclosed - Recipients"
+msgstr "Betroffene Daten - Empfänger(-kategorien)"
+
+#: templates/label.html:40
+msgid "Recipient Name"
+msgstr "Empfänger(-kategorie) Unternehmensbezeichnung"
+
+#: templates/label.html:40
+msgid "Recipient Country"
+msgstr "Empfänger(-kategorie) Landeskürzel"
+
+#: templates/label.html:40
+msgid "Data Disclosed - Storage Period"
+msgstr "Betroffene Daten - Dauer der Speicherung"
+
+#: templates/label.html:40
+msgid "Storage Period - Purpose Conditional"
+msgstr "Dauer der Speicherung - Konditional: Beschreibung des Zwecks"
+
+#: templates/label.html:40
+msgid "Storage Period - Legal Basis Conditional"
+msgstr "Dauer der Speicherung - Konditional: Beschreibung der Rechtsgrundlage"
+
+#: templates/label.html:40
+msgid "Third Country Transfers - Target Country"
+msgstr "Drittlandweitergabe - Ziel Landeskürzel"
+
+#: templates/label.html:40
+msgid "Target Country"
+msgstr "Ziel Landeskürzel"
+
+#: templates/label.html:40
+msgid "Automated Decision Making - Logic"
+msgstr "Automatisierte Entscheidungsfindung - Logik"
+
+#: templates/label.html:40
+msgid "Involved Logic"
+msgstr "Beschreibung der involvierten Logik"

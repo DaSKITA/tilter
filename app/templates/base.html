@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/4811785e1a.js" crossorigin="anonymous"></script>
+    <!-- and Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+
+    <!-- Project CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/style.css') }}">
+
+    <!-- Block for page-specific custom entries in head -->
+    {% block head %} {% endblock %}
+
+    <script>
+        $(document).ready(function () {
+            // hide task id text
+            $('.ls-task-info').hide();
+            // make update button float and hide it
+            $('[class*="Controls_block_"]').css({'position': 'fixed', 'bottom': '7em', 'right': '9.8em'});
+            $('[class*="Controls_block"]').hide();
+            // give app menu margin-bottom to make room for update button
+            $('[class*="App_menu"]').css('margin-bottom', '5em');
+            // increase update button width
+            $('.ls-update-btn').css({'width': '250px', 'height': '75px', 'font-size': '130%'});
+            // hide delete all labels button
+            $('div.ant-card-head-title').find('button.ant-btn-danger').hide()
+
+            $(window).on("scroll", function () {
+               if ($(this).scrollTop() > 450) {
+                  $('[class*="Controls_block"]').fadeIn();
+               } else {
+                  $('[class*="Controls_block"]').fadeOut(200);
+               }
+            });
+
+
+            $('.toggle').click(function (e) {
+                e.preventDefault();
+
+                var $this = $(this);
+
+                if ($this.parent().next().hasClass('show')) {
+                    $this.parent().next().removeClass('show');
+                    $this.children('.fa').removeClass('fa-chevron-down');
+                    $this.children('.fa').addClass('fa-chevron-right');
+                    $this.parent().next().slideUp(350)
+                } else {
+                    $this.parent().parent().parent().find('li .inner').removeClass('show');
+                    $this.parent().parent().parent().find('li .inner').slideUp(350);
+                    $this.parent().parent().parent().find('i.fa').removeClass('fa-chevron-down');
+                    $this.parent().parent().parent().find('i.fa').addClass('fa-chevron-right');
+                    $this.parent().next().toggleClass('show');
+                    $this.children('.fa').removeClass('fa-chevron-right');
+                    $this.children('.fa').addClass('fa-chevron-down');
+                    $this.parent().next().slideToggle(350);
+                }
+            });
+        })
+    </script>
+
+    <title>{% block title %} {% endblock %}</title>
+</head>
+<body>
+<nav class="navbar navbar-dark justify-content-between">
+        <a class="navbar-brand" href="{{ url_for('index') }}">TILTer</a>
+    {% if current_user.is_authenticated %}
+        <div class="navbar-custom-right">
+            <p class="navbar-custom-text">{{ current_user.username }}</p>
+            <a href="{{ url_for('user.logout') }}" class="btn btn-danger navbar-custom-btn"><i class="bi bi-box-arrow-left"></i> {{ _('Sign out') }}</a>
+        </div>
+    {% else %}
+        <div class="navbar-custom-right">
+            <a href="{{ url_for('user.login') }}" class="btn btn-primary navbar-custom-btn"><i class="bi bi-box-arrow-in-right"></i> {{ _('Sign in') }}</a>
+            <a href="{{ url_for('user.register') }}" class="btn btn-primary navbar-custom-btn"><i class="bi bi-person-plus-fill"></i> {{ _('Register') }}</a>
+        </div>
+    {% endif %}
+</nav>
+{# One-time system messages called Flash messages #}
+{% block flash_messages %}
+    {%- with messages = get_flashed_messages(with_categories=true) -%}
+        {% if messages %}
+            {% for category, message in messages %}
+                {% if category=='error' %}
+                    {% set category='danger' %}
+                {% endif %}
+                <div class="alert alert-{{ category }}">{{ message|safe }}</div>
+            {% endfor %}
+        {% endif %}
+    {%- endwith %}
+{% endblock %}
+<div class="container">
+    {% block content %} {% endblock %}
+</div>
+</body>
+</html>
