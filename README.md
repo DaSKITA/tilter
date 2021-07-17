@@ -93,6 +93,37 @@ When updating existing languages there is no need to follow the whole procedure 
 5. Compile the changes using `pybabel compile -d translations` in `/app/`.
 6. Restart the flask application via docker.
 
+### Creating a new labelling task
+1. Visit http://tilter.implementation.cloud/api/docs.
+2. **`POST`** `/auth` with your credentials and save your _apiKey_.
+
+```json
+{
+  "username": "janedoe",
+  "password": "rEyl3TuS4Qq"
+}
+
+```
+
+4. Authorize in the upper right corner with your _apiKey_ (e.g. `eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTYyNjUxOTA5OSwianRpIjoiM2Q0ODVkOGMtMmU4NS00OTg4LTk4YTEtNjlmYzI4NDI2MDgwIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImVsaWFzZ3J1ZW5ld2FsZCIsIm5iZiI6MTYyNjUxOTA5OSwiZXhwIjoxNjI2NTE5OTk5fQ`). Note: You need to generate a new one from time to time.
+5. **`POST`** `/task/create` with
+
+```json
+{
+  "name": "My Company",
+  "text": "Here we describe how we collect, use, and handle your personal data when you use our websites, software, and services (\u201CServices\u201D). For more information and details, please see...",
+  "html": false,
+  "url": "https://mycompany.com/privacy"
+}
+
+```
+
+Tip: Use https://www.freeformatter.com/json-escape.html to escape your `text` for correct json representation.
+
+5. Check the task list at http://tilter.implementation.cloud/tasks.
+6. Visit your created task and label all subtasks.
+7. Retrieve the resulting tilt document via http://tilter.implementation.cloud/api/task/:id/tilt where `:id` is something like `60d08460e26c9b911f6c81aa` depending on your task.
+
 ## License
 MIT License
 
