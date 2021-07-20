@@ -85,7 +85,10 @@
 </head>
 <body>
 <nav class="navbar navbar-dark justify-content-between">
+    <div class="navbar-brand">
         <a class="navbar-brand" href="{{ url_for('index') }}">TILTer</a>
+        <a class="navbar-custom-left-element" href="{{ url_for('tasks') }}"><p class="navbar-custom-text">Task Overview</p></a>
+    </div>
     {% if current_user.is_authenticated %}
         <div class="navbar-custom-right">
             <p class="navbar-custom-text">{{ current_user.username }}</p>

@@ -101,11 +101,7 @@ def txt_escape(text):
 # Routing
 @app.route('/')
 def index():
-    # String-based templates
-    if current_user.is_authenticated:
-        return redirect(url_for('tasks'))
-    else:
-        return render_template('index.html')
+    return render_template('index.html')
 
 
 @app.route('/tasks')
