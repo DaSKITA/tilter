@@ -177,6 +177,10 @@ def label(task_id):
     # decide if postprocessing is needed before sending LSF completion to API url
     manual_bools = get_manual_bools(task.hierarchy)
 
+    # handle manual bool annotation alert
+    if manual_bools:
+        flash("To complete this task hit use on of the Update buttons and fill out the remaining fields!", 'info')
+
     token = create_access_token(identity=current_user.username)
 
     return render_template('label.html', task=task, target_url=target_url, annotations=annotations,
