@@ -94,6 +94,7 @@ When updating existing languages there is no need to follow the whole procedure 
 6. Restart the flask application via docker.
 
 ### Creating a new labelling task
+0. Create yourself an account.
 1. Visit http://tilter.implementation.cloud/api/docs.
 2. **`POST`** `/auth` with your credentials and save your _apiKey_.
 
