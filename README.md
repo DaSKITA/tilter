@@ -68,7 +68,7 @@ Deployment variables are stored seperately.
 The deployment will be active for 90 days (from 31.05.2021) without any costs. Afterwards running the TILTer
 will costs ~13 Euros per month.
 
-The Deployment can be accessed under: http://34.89.190.55:5000
+The Deployment can be accessed under: http://34.141.64.214:5000/
 
 
 ## Languages and Translations
