@@ -101,11 +101,7 @@ def txt_escape(text):
 # Routing
 @app.route('/')
 def index():
-    # String-based templates
-    if current_user.is_authenticated:
-        return redirect(url_for('tasks'))
-    else:
-        return render_template('index.html')
+    return render_template('index.html')
 
 
 @app.route('/tasks')
@@ -179,6 +175,7 @@ def label(task_id):
     # decide if postprocessing is needed before sending LSF completion to API url
     manual_bools = get_manual_bools(task.hierarchy)
 
+    # create access token for Update Button POST
     token = create_access_token(identity=current_user.username)
 
     return render_template('label.html', task=task, target_url=target_url, annotations=annotations,

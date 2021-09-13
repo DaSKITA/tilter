@@ -22,6 +22,11 @@ p.navbar-custom-text {
     margin: auto;
     display: inline-block;
     color: white !important;
+
+}
+
+a.navbar-custom-left-element {
+    margin-left: 0.3em;
 }
 
 a.navbar-custom-btn {
