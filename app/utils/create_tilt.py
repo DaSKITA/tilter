@@ -161,17 +161,19 @@ def create_tilt(id):
     tilt_dict = tilt_creator.get_tilt_document()
 
     # Create Meta Object
-    meta_document_obj = MetaTask.objects.get(root_task=root)
-    meta_entry = Meta.from_db_document(meta_document_obj)
-    meta_entry.generate_hash_entry(tilt_dict)
+    try:
+        meta_document_obj = MetaTask.objects.get(root_task=root)
+        meta_entry = Meta.from_db_document(meta_document_obj)
+        meta_entry.generate_hash_entry(tilt_dict)
 
-    # update hash for modified
-    meta_document_obj._hash = meta_entry._hash
-    meta_document_obj.save()
+        # update hash for modified
+        meta_document_obj._hash = meta_entry._hash
+        meta_document_obj.save()
 
-    # put meta first
-    meta_entry = list(meta_entry.to_tilt_dict_meta().items())
-    meta_entry.extend(tilt_dict.items())
-    tilt_dict = dict(meta_entry)
-
+        # put meta first
+        meta_entry = list(meta_entry.to_tilt_dict_meta().items())
+        meta_entry.extend(tilt_dict.items())
+        tilt_dict = dict(meta_entry)
+    except DoesNotExist:
+        print(Warning("MetaTask not present! Skipping Metaobject creation."))
     return tilt_dict
