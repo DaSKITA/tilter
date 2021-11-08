@@ -101,11 +101,7 @@ def txt_escape(text):
 # Routing
 @app.route('/')
 def index():
-    # String-based templates
-    if current_user.is_authenticated:
-        return redirect(url_for('tasks'))
-    else:
-        return render_template('index.html')
+    return render_template('index.html')
 
 
 @app.route('/tasks')
@@ -166,9 +162,11 @@ def label(task_id):
     translator = Translator()
     [label.update(name=translator.translate(label["name"])) for label in task.labels]
 
-    # define the API target url and the url to redirect to
+    # define the API target url, the url to redirect to and the TILT doc reference link
     target_url = request.url_root + 'api/task/' + str(task_id) + '/annotation/json'
+    tilt_ref_url = request.url_root + 'api/task/' + str(task_id) + '/tilt'
     redirect_url = request.base_url
+
 
     # define colors for labels
     colors = ['blue', 'red', '#1CBA3D', '#13812A', 'orange', 'magenta', 'pink', 'brown', '#B986D4', '#8FA1E2', 'dimgrey',
@@ -177,12 +175,16 @@ def label(task_id):
     # decide if postprocessing is needed before sending LSF completion to API url
     manual_bools = get_manual_bools(task.hierarchy)
 
+    # handle manual bool annotation alert
+    if manual_bools:
+        flash("To complete this task hit use on of the Update buttons and fill out the remaining fields!", 'info')
+
     token = create_access_token(identity=current_user.username)
 
     return render_template('label.html', task=task, target_url=target_url, annotations=annotations,
                            redirect_url=redirect_url, colors=colors,
                            annotation_descriptions=annotation_descriptions,
-                           manual_bools=manual_bools, tooltips=tooltips, token=token)
+                           manual_bools=manual_bools, tooltips=tooltips, token=token, tilt_ref_url=tilt_ref_url)
 
 
 # API Setup
