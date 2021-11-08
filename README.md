@@ -34,13 +34,13 @@ This is a setup Guide for Ubuntu.
 
 ## Deployment
 
-The TILTer ist currently deployed in a [google compute engine](http://34.89.190.55:5000/).
-Deplyoment is not automated. Inside the engine the repository is clonded and has to be manually synched with
-the remote repository. For access to the compute engine ask Michael, to provide you with the necessary
-`ssh-keys` and Username.
-The ssh-connection can be established via `ssh -i [Path_to_Private_Key] [USERNAME]@34.89.190.55`.
+TILTer is deployed on a TU VM.
+Inside the VM the repository is clonded and has to be manually synched with
+the remote repository. For access to the VM ask Michael.
 In the engine a log is created from the console output via nohub. All output is saved in `nohub.out` in the
 root directory of the titler.
+The TILTer is available under: 'https://daskita-tilter.infra.ise-apps.de/'
+
 
 It is recommended to use screens for managing the application on the compute engine.
 <br>
