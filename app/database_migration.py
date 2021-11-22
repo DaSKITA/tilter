@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import click
-from utils.migration_task import HtmlTaskTag, SubtaskAnnotation, DeleteUnboundObj
+from utils.migration_task import HtmlTaskTag, SubtaskAnnotation, DeleteUnboundObj, TaskStatus
 
 
 @click.command()
@@ -18,7 +18,8 @@ def migrate_db(task_name):
     task_mapping = {
         "task_html_entry": HtmlTaskTag,
         "subtask_annotation": SubtaskAnnotation,
-        "delete_unbound_obj": DeleteUnboundObj
+        "delete_unbound_obj": DeleteUnboundObj,
+        "task_status": TaskStatus
     }
 
     migration_task = task_mapping.get(task_name, None)

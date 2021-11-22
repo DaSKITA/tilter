@@ -111,6 +111,16 @@ class TaskById(Resource):
         """
         return Task.objects.get(id=id).delete()
 
+    @ns.doc(security='apikey')
+    @jwt_required()
+    def post(self, id):
+        key = request.json.get("key")
+        value = request.json.get("value")
+        task = Task.objects.get(id=id)
+        task.update(**{key: value})
+        task.save()
+
+
 
 @ns.route('/<string:id>/annotation')
 @ns.param('id', 'unique task identifier')

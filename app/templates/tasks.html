@@ -8,7 +8,12 @@
         {% for task, subtasks in tasks.items() recursive %}
           <li>
           <div class="toggle-container">
-            <input type="checkbox" id=task.id name="done" value="task.done" onchange="mark_done(this)">
+            <input type="checkbox" id={{ task.id }} name="done" value= {{ task.done }} onchange="mark_done(this)">
+            <script>
+                element = document.getElementById("{{ task.id }}");
+                element.checked = Boolean(element.value)
+                console.log(element);
+            </script>
               <div class="toggle">{% if subtasks %}<i class="fa fa-chevron-right"></i>{% else %}<i class="placeholder"></i>{% endif %}{{ task.name }}</div><a class="accordion-link" href="{{ url_for("label", task_id=task.id) }}">></a>
           </div>
             {% if subtasks %}
@@ -24,17 +29,38 @@
         <h2 class="subtitle">{{ _('You currently have no tasks! Maybe create one?') }}</h2>
     {% endif%}
     <!-- <button onclick="location.href=''" type="button" class="btn btn-secondary btn-lg create-task"><i class="bi bi-file-plus-fill"></i> {{ _('Create new task') }}</button> -->
+
+    <script>
+        function mark_done(obj) {
+            console.log(obj)
+            if ($(obj).is(":checked")){
+                var payload = {
+                key: "done",
+                value: true
+            }
+            }else{
+                var payload = {
+                key: "done",
+                value: false
+            }
+            }
+            response = fetch('{{ tasks_api }}' + obj.id.toString(), {
+                        method: "POST",
+                        body: JSON.stringify(payload),
+                        headers: {
+                            "accept": "application/json",
+                            "Content-Type": "application/json",
+                            "Authorization": "{{ token }}"
+                        }
+                })
+            }
+
+        function set_boxes(task_id) {
+            return Boolean(task_id)
+        }
+    </script>
+
+
+
 {% endblock %}
 
-<script>
-function mark_done(obj) {
-    if($(obj).is(":checked")){
-      alert("Yes checked"); //when checked
-      $("#page-header-inner").addClass("sticky");
-    }else{
-      alert("Not checked"); //when not checked
-    }
-
-  }
-
-</script>

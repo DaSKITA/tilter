@@ -108,9 +108,10 @@ def index():
 @app.route('/tasks')
 @login_required
 def tasks():
-    # tasks = gather_task_list()
+    tasks_api = request.url_root + "api/task/"
     tasks = task_tree_to_dict(Task.objects(parent=None))
-    return render_template('tasks.html', tasks=tasks)
+    token = create_access_token(identity=current_user.username)
+    return render_template('tasks.html', tasks=tasks, tasks_api=tasks_api, token=token)
 
 
 @app.route('/tasks/<string:task_id>/next')
