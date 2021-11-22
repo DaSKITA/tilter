@@ -1,6 +1,6 @@
 from mongoengine.errors import DoesNotExist
 from api.restx import ns
-from urllib.parse import urlparse
+
 
 from config import Config
 

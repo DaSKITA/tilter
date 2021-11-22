@@ -9,4 +9,4 @@ export PYTHONPATH="${PYTHONPATH}:${BASEDIR}/app"
 
 gnome-terminal -- bash -c "sh ${SCRIPT_DIR}/start_mongo_db.sh"
 
-(cd "${BASEDIR}/app" && flask run --cert=adhoc)
+(cd "${BASEDIR}/app" && flask run)
