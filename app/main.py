@@ -138,6 +138,12 @@ def redirect_to_next_task(task_id, previous_seen_task_id=None, hierarchy=None):
 @app.route('/tasks/<string:task_id>')
 @login_required
 def label(task_id):
+
+    # change to https if reverse proxy forces https
+    request_forwarding_protocol = request.environ.get("HTTP_X_FORWARDED_PROTO", None)
+    if request_forwarding_protocol:
+        request.scheme = request_forwarding_protocol
+
     # handle success message, after clicking update button
     update_success = request.args.get('success', default=None)
     if update_success == "true":
@@ -164,8 +170,8 @@ def label(task_id):
     [label.update(name=translator.translate(label["name"])) for label in task.labels]
 
     # define the API target url, the url to redirect to and the TILT doc reference link
-    target_url = request.host_url + 'api/task/' + str(task_id) + '/annotation/json'
-    tilt_ref_url = request.host_url + 'api/task/' + str(task_id) + '/tilt'
+    target_url = request.url_root + 'api/task/' + str(task_id) + '/annotation/json'
+    tilt_ref_url = request.url_root + 'api/task/' + str(task_id) + '/tilt'
     redirect_url = request.host_url
 
     # define colors for labels
