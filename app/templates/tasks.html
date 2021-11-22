@@ -8,6 +8,7 @@
         {% for task, subtasks in tasks.items() recursive %}
           <li>
           <div class="toggle-container">
+            <input type="checkbox" id=task.id name="done" value="task.done" onchange="mark_done(this)">
               <div class="toggle">{% if subtasks %}<i class="fa fa-chevron-right"></i>{% else %}<i class="placeholder"></i>{% endif %}{{ task.name }}</div><a class="accordion-link" href="{{ url_for("label", task_id=task.id) }}">></a>
           </div>
             {% if subtasks %}
@@ -24,3 +25,16 @@
     {% endif%}
     <!-- <button onclick="location.href=''" type="button" class="btn btn-secondary btn-lg create-task"><i class="bi bi-file-plus-fill"></i> {{ _('Create new task') }}</button> -->
 {% endblock %}
+
+<script>
+function mark_done(obj) {
+    if($(obj).is(":checked")){
+      alert("Yes checked"); //when checked
+      $("#page-header-inner").addClass("sticky");
+    }else{
+      alert("Not checked"); //when not checked
+    }
+
+  }
+
+</script>

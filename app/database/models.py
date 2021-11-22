@@ -12,6 +12,7 @@ class Task(db.Document):
     text = db.StringField()
     html = db.BooleanField(default=False, required=False)
     manual_labels = db.ListField(db.DictField(), required=False)
+    done = db.BooleanField(default=False, required=True)
 
 
 class User(db.Document, UserMixin):

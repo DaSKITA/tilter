@@ -24,6 +24,13 @@ class HtmlTaskTag(MigrationTask):
             task.update(html=False)
 
 
+class TaskStatus(MigrationTask):
+
+    @staticmethod
+    def run_migration():
+        for task in tqdm(Task.objects):
+            task.update(done=False)
+
 class SubtaskAnnotation(MigrationTask):
 
     @staticmethod
