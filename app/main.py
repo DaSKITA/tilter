@@ -163,13 +163,9 @@ def label(task_id):
     [label.update(name=translator.translate(label["name"])) for label in task.labels]
 
     # define the API target url, the url to redirect to and the TILT doc reference link
-    target_url = request.url_root + 'api/task/' + str(task_id) + '/annotation/json'
-    tilt_ref_url = request.url_root + 'api/task/' + str(task_id) + '/tilt'
-    redirect_url = request.base_url
-    print(target_url)
-    print(request.scheme)
-    print(request.url_root)
-
+    target_url = request.host_url + 'api/task/' + str(task_id) + '/annotation/json'
+    tilt_ref_url = request.host_url + 'api/task/' + str(task_id) + '/tilt'
+    redirect_url = request.host_url
 
     # define colors for labels
     colors = ['blue', 'red', '#1CBA3D', '#13812A', 'orange', 'magenta', 'pink', 'brown', '#B986D4', '#8FA1E2', 'dimgrey',
