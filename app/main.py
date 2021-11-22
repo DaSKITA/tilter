@@ -163,9 +163,9 @@ def label(task_id):
     [label.update(name=translator.translate(label["name"])) for label in task.labels]
 
     # define the API target url, the url to redirect to and the TILT doc reference link
-    target_url = request.host_url + 'api/task/' + str(task_id) + '/annotation/json'
-    tilt_ref_url = request.host_url + 'api/task/' + str(task_id) + '/tilt'
-    redirect_url = request.host_url
+    target_url = Config.LOCAL_HOST + 'api/task/' + str(task_id) + '/annotation/json'
+    tilt_ref_url = Config.LOCAL_HOST + 'api/task/' + str(task_id) + '/tilt'
+    redirect_url = Config.LOCAL_HOST
 
     # define colors for labels
     colors = ['blue', 'red', '#1CBA3D', '#13812A', 'orange', 'magenta', 'pink', 'brown', '#B986D4', '#8FA1E2', 'dimgrey',
@@ -224,5 +224,5 @@ class Authentication(Resource):
 
 if __name__ == "__main__":
     app.run(
-        host="0.0.0.0", port="5000", use_debugger=False, use_reloader=False,
+        host=Config.LOCAL_HOST, port="5000", use_debugger=False, use_reloader=False,
         passthrough_errors=True)
