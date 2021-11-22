@@ -229,4 +229,4 @@ class Authentication(Resource):
 if __name__ == "__main__":
     app.run(
         host="0.0.0.0", port="5000", use_debugger=False, use_reloader=False,
-        passthrough_errors=True, ssl_context="adhoc")
+        passthrough_errors=True)
