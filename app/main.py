@@ -1,5 +1,6 @@
 from mongoengine.errors import DoesNotExist
 from api.restx import ns
+from urllib.parse import urlparse
 
 from config import Config
 
@@ -224,5 +225,5 @@ class Authentication(Resource):
 
 if __name__ == "__main__":
     app.run(
-        host=Config.LOCAL_HOST, port="5000", use_debugger=False, use_reloader=False,
+        host=urlparse(Config.LOCAL_HOST).hostname, port="5000", use_debugger=False, use_reloader=False,
         passthrough_errors=True)
