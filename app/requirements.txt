@@ -16,3 +16,4 @@ fastjsonschema==2.15.1
 langdetect==1.0.9
 wheel==0.36.2
 flask-mongoengine==1.0.0
+pyOpenSSL==21.0.0

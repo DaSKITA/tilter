@@ -22,6 +22,11 @@ p.navbar-custom-text {
     margin: auto;
     display: inline-block;
     color: white !important;
+
+}
+
+a.navbar-custom-left-element {
+    margin-left: 0.3em;
 }
 
 a.navbar-custom-btn {
@@ -132,8 +137,16 @@ button.create-task:hover {
     background: rgba(51, 51, 51, 0.78);
 }
 
-div.return {
+div.navigation-links {
     margin-bottom: 1em;
+}
+
+a.navigation-link {
+    margin-right: 1em;
+}
+
+.navigation-link i {
+    margin-right: 0.5em;
 }
 
 table.explanation {
