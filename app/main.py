@@ -1,6 +1,7 @@
 from mongoengine.errors import DoesNotExist
 from api.restx import ns
 
+
 from config import Config
 
 from database.db import db
@@ -137,6 +138,12 @@ def redirect_to_next_task(task_id, previous_seen_task_id=None, hierarchy=None):
 @app.route('/tasks/<string:task_id>')
 @login_required
 def label(task_id):
+
+    # change to https if reverse proxy forces https
+    request_forwarding_protocol = request.environ.get("HTTP_X_FORWARDED_PROTO", None)
+    if request_forwarding_protocol:
+        request.scheme = request_forwarding_protocol
+
     # handle success message, after clicking update button
     update_success = request.args.get('success', default=None)
     if update_success == "true":
@@ -166,7 +173,6 @@ def label(task_id):
     target_url = request.url_root + 'api/task/' + str(task_id) + '/annotation/json'
     tilt_ref_url = request.url_root + 'api/task/' + str(task_id) + '/tilt'
     redirect_url = request.base_url
-
 
     # define colors for labels
     colors = ['blue', 'red', '#1CBA3D', '#13812A', 'orange', 'magenta', 'pink', 'brown', '#B986D4', '#8FA1E2', 'dimgrey',
@@ -224,4 +230,6 @@ class Authentication(Resource):
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port="5000", use_debugger=False, use_reloader=False, passthrough_errors=True)
+    app.run(
+        host="0.0.0.0", port="5000", use_debugger=False, use_reloader=False,
+        passthrough_errors=True)
