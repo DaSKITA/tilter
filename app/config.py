@@ -9,7 +9,7 @@ class Config(object):
     # Secrets
     BASE_PATH = os.path.abspath(os.path.dirname(__file__))
     DEPLOYMENT = os.environ.get("DEPLOYMENT", False)
-    LOCAL_HOST = "0.0.0.0"
+    LOCAL_HOST = "http://127.0.0.1/"
 
     # Flask-User Setup
     USER_APP_NAME = "TILTer"  # Shown in and email templates and page footers
