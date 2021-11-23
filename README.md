@@ -71,10 +71,7 @@ will costs ~13 Euros per month.
 The Deployment can be accessed under: http://34.141.64.214:5000/
 
 ## Tilter Manual
-
-
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/iXkU5phBCQoDpM" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/MichaelGebauer1/tilter-manual" title="Tilter Manual" target="_blank">Tilter Manual</a> </strong> von <strong><a href="//www.slideshare.net/MichaelGebauer1" target="_blank">MichaelGebauer1</a></strong> </div>
-
+For a detailed manual for the titler go [here](https://www.slideshare.net/MichaelGebauer1/tilter-manual)
 
 
 ## Languages and Translations
