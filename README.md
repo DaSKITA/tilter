@@ -70,6 +70,12 @@ will costs ~13 Euros per month.
 
 The Deployment can be accessed under: http://34.141.64.214:5000/
 
+## Tilter Manual
+
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/iXkU5phBCQoDpM" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/MichaelGebauer1/tilter-manual" title="Tilter Manual" target="_blank">Tilter Manual</a> </strong> von <strong><a href="//www.slideshare.net/MichaelGebauer1" target="_blank">MichaelGebauer1</a></strong> </div>
+
+
 
 ## Languages and Translations
 Currently supported Languages are English (standard) and German. These are realized using the `pybabel` package. For more information regarding this topic please visit the [babel documentation](http://babel.pocoo.org/en/latest/index.html).
@@ -141,3 +147,4 @@ This software depends on the following third party software products:
 - [label-studio](https://github.com/heartexlabs/label-studio-frontend) under Apache 2.0 License
 - [bootstrap](https://github.com/twbs/bootstrap) under MIT License
 - [flask](https://github.com/pallets/flask) under BSD-3-Clause License
+
