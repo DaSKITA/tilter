@@ -1,3 +1,4 @@
+from app.utils.document_annotation_collector import DocumentAnnotationCollector
 from database.models import Annotation, Task
 
 from flask import request
@@ -182,6 +183,29 @@ class AnnotationByTaskIdInJSON(Resource):
         new_annotations, current_annotations = annotation_handler.filter_new_annotations(shaped_data)
         annotation_handler.synch_task_annotations(task, current_annotations)
         task_creator.create_subtasks(new_annotations)
+
+
+@ns.route('/document_annotations')
+class DocumentAnnotations(Resource):
+
+    def get(self):
+        """
+        Iterates through all Tasks and gets all annotations for a document.
+        Output Format:
+            "Document_Text": "<string>",
+            "Annotations:
+                            {
+                            Annotation_Label: "",
+                            Annotation_Text: "",
+                            Annotation_Start: "",
+                            Annotation_End: ""
+                            }
+        """
+        document_annotation_list = []
+        doc_annotation_collector = DocumentAnnotationCollector()
+        for task in Task.objects(parent=None):
+            document_annotation_list += doc_annotation_collector.create_annotation_dict(task)
+        return document_annotation_list
 
 
 @ns.route('/tilt')
