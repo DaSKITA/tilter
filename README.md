@@ -70,6 +70,9 @@ will costs ~13 Euros per month.
 
 The Deployment can be accessed under: http://34.141.64.214:5000/
 
+## Tilter Manual
+For a detailed manual for the titler go [here](https://www.slideshare.net/MichaelGebauer1/tilter-manual)
+
 
 ## Languages and Translations
 Currently supported Languages are English (standard) and German. These are realized using the `pybabel` package. For more information regarding this topic please visit the [babel documentation](http://babel.pocoo.org/en/latest/index.html).
@@ -141,3 +144,4 @@ This software depends on the following third party software products:
 - [label-studio](https://github.com/heartexlabs/label-studio-frontend) under Apache 2.0 License
 - [bootstrap](https://github.com/twbs/bootstrap) under MIT License
 - [flask](https://github.com/pallets/flask) under BSD-3-Clause License
+
