@@ -189,6 +189,8 @@ class AnnotationByTaskIdInJSON(Resource):
 @ns.route('/document_annotations')
 class DocumentAnnotations(Resource):
 
+    @ns.doc(security='apikey')
+    @jwt_required()
     def get(self):
         """
         Iterates through all Tasks and gets all annotations for a document.
@@ -214,6 +216,9 @@ class DocumentAnnotations(Resource):
 @ns.route('/<string:identifier>/document_annotations')
 @ns.param("identifier", "unique task identifider")
 class DocumentAnnotationsById(Resource):
+    
+    @ns.doc(security='apikey')
+    @jwt_required()
     def get(self, identifier):
         """
         Gives the document and all annotations for a supplied document id.
