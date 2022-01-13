@@ -1,6 +1,7 @@
 import os
 from pathlib import Path
 import json
+from datetime import timedelta
 
 
 # Flask Config from Class
@@ -19,6 +20,7 @@ class Config(object):
     USER_AFTER_LOGIN_ENDPOINT = 'tasks'
 
     JWT_SECRET_KEY = os.environ["JWT_SECRET_KEY"]
+    JWT_ACCESS_TOKEN_EXPIRES = timedelta(hours=1)
     JWT_HEADER_TYPE = ""
 
     LANGUAGES = ['en', 'de']

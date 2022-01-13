@@ -5,6 +5,10 @@ from mongoengine import DoesNotExist
 class DocumentAnnotationCollector:
 
     def __init__(self) -> None:
+        """
+        This classs creates a list of annotations for given documents. It is used to create training data out
+        of all documents or a supplied document.
+        """
         pass
 
     def create_annotation_dict(self, root_task=None) -> dict:
@@ -26,10 +30,21 @@ class DocumentAnnotationCollector:
         return tasks
 
     def get_annotation_list(self, task_list):
-        annotations = []
+        """This function searches for annotations in a given task list. This currently does not include
+        HiddenAnnotations and LinkedAnnotations.
+
+        Args:
+            task_list ([type]): [description]
+
+        Returns:
+            [type]: [description]
+        """
+        annotations_list = []
         for task in task_list:
-            annotations += Annotation.object(task=task).get()
-            return annotations
+            annotations = Annotation.objects(task=task)
+            annotations = self.fix_annotation_labels(annotations, task)
+            annotations_list += annotations
+        return annotations_list
 
     def get_annotation_information(self, annotation):
         return dict(
@@ -38,3 +53,20 @@ class DocumentAnnotationCollector:
             annotation_start=annotation.start,
             annotation_end=annotation.end
         )
+
+    def fix_annotation_labels(self, annotations, task):
+        """
+        As annotations in their base form do not have a hierarchy indication in their label name, they need to
+        be added herein. The recommended practice would be to incorpoerate a proper name during the task
+        creation.
+
+        Args:
+            annotations ([type]): [description]
+            task ([type]): [description]
+
+        Returns:
+            [type]: [description]
+        """
+        for annotation in annotations:
+            annotation.label = "--".join(task.hierarchy) + "--" + f"{annotation.label}"
+        return annotations

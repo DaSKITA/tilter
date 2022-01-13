@@ -1,4 +1,4 @@
-from app.utils.document_annotation_collector import DocumentAnnotationCollector
+from utils.document_annotation_collector import DocumentAnnotationCollector
 from database.models import Annotation, Task
 
 from flask import request
@@ -17,6 +17,7 @@ import os
 import requests
 import fastjsonschema
 from config import Config
+from mongoengine import DoesNotExist
 
 # API Namespace
 authorizations = {
@@ -192,20 +193,51 @@ class DocumentAnnotations(Resource):
         """
         Iterates through all Tasks and gets all annotations for a document.
         Output Format:
-            "Document_Text": "<string>",
-            "Annotations:
-                            {
-                            Annotation_Label: "",
-                            Annotation_Text: "",
-                            Annotation_Start: "",
-                            Annotation_End: ""
-                            }
+            "document": {
+                        "document_name: "",
+                        "text: ""},
+            "annotations:
+                        {
+                            Annotation_label: "",
+                            Annotation_text: "",
+                            Annotation_start: "",
+                            Annotation_end: ""
+                        }
         """
         document_annotation_list = []
         doc_annotation_collector = DocumentAnnotationCollector()
         for task in Task.objects(parent=None):
-            document_annotation_list += doc_annotation_collector.create_annotation_dict(task)
+            document_annotation_list.append(doc_annotation_collector.create_annotation_dict(task))
         return document_annotation_list
+
+
+@ns.route('/<string:identifier>/document_annotations')
+@ns.param("identifier", "unique task identifider")
+class DocumentAnnotationsById(Resource):
+    def get(self, identifier):
+        """
+        Gives the document and all annotations for a supplied document id.
+        Output Format:
+            "document": {
+                        "document_name: "",
+                        "text: ""},
+            "annotations:
+                        {
+                            Annotation_label: "",
+                            Annotation_text: "",
+                            Annotation_start: "",
+                            Annotation_end: ""
+                        }
+        """
+        doc_annotation_collector = DocumentAnnotationCollector()
+        try:
+            task = Task.objects.get(id=identifier)
+            if task.parent is not None:
+                raise DoesNotExist
+        except DoesNotExist:
+            return "Task does not exist for a given root task!", 500
+        document_annotations = doc_annotation_collector.create_annotation_dict(task)
+        return document_annotations
 
 
 @ns.route('/tilt')
