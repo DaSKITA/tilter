@@ -4,27 +4,34 @@
     <!-- Include Label Studio stylesheet -->
     <link href="https://unpkg.com/label-studio@0.8.0/build/static/css/main.css" rel="stylesheet">
 
-    <h1>{% block title %} {{ _('Welcome to TILTer') }} {% endblock %}</h1>
-    <h2>{{ _('Task') }} "{{ task.name }}" <!--button id="publish" class="btn btn-outline-success btn-sm"><i class="fas fa-upload"></i> Publish to tilt-hub</button> <button id="unpublish" class="btn btn-outline-danger btn-sm"><i class="fas fa-trash"></i> Delete from tilt-hub</button--></h2>
+    <h1>{% block title %} {{ _('Task') }} "{{ task.name }}" {% endblock %}</h1>
     <div class="navigation-links">
         <a class="navigation-link" href="{{ url_for('tasks') }}"><i class="fa fa-long-arrow-alt-left"></i> {{ _('task overview') }}</a>
         <a class="navigation-link" href="{{ tilt_ref_url }}"><i class="fa fa-link"></i>TILT representation</a>
     </div>
+
     {% if annotation_descriptions %}
-        <div>
-            <table class="explanation">
-                <tr>
-                    <th><b>Annotation</b></th>
-                    <th><b>Description</b></th>
-                </tr>
-                {% for annotation_desc in annotation_descriptions %}
-                    <tr>
-                        <td>{{ _(annotation_desc.name) }}</td>
-                        <td>{{ annotation_desc.description }}</td>
-                    </tr>
-                {% endfor %}
-            </table>
-        </div>
+        <ul id="descriptions" class="accordion">
+            <li>
+                <div class="toggle-container">
+                    <div class="toggle toggle-descriptions"><i class="fa fa-chevron-right"></i>Label Descriptions</div>
+                </div>
+                <ul class="inner">
+                    <table class="explanation">
+                        <tr>
+                            <th><b>Label</b></th>
+                            <th><b>Description</b></th>
+                        </tr>
+                        {% for annotation_desc in annotation_descriptions %}
+                            <tr>
+                                <td>{{ _(annotation_desc.name) }}</td>
+                                <td>{{ annotation_desc.description }}</td>
+                            </tr>
+                        {% endfor %}
+                    </table>
+                </ul>
+            </li>
+        </ul>
     {% endif %}
 
     {% if manual_bools %}
@@ -67,6 +74,32 @@
         </div>
     {% endif %}
 
+    {% if predictions %}
+        <ul id="predictions" class="accordion">
+            <li>
+                <div class="toggle-container">
+                    <div class="toggle toggle-predictions"><i class="fa fa-chevron-right"></i>Predictions</div>
+                </div>
+                <ul class="inner">
+                    <table>
+                        <tr>
+                            <th>Label</th>
+                            <th>Prediction</th>
+                            <th></th>
+                        </tr>
+                        {% for prediction in predictions %}
+                            <tr>
+                                <td>{{ _(prediction.label) }}</td>
+                                <td>{{ prediction.text }}</td>
+                                <td><a href="javascript:labelText('{{ label_lookup.index(prediction.label) }}', {{ prediction.start }}, {{ prediction.end }});"><i class="fa fa-square-check"></i></a></td>
+                            </tr>
+                        {% endfor %}
+                    </table>
+                </ul>
+            </li>
+        </ul>
+    {% endif %}
+
     <!-- Create the Label Studio container -->
     <div id="label-studio"></div>
 
@@ -89,12 +122,13 @@
             </div>
         </div>
     </div>
+
     <!-- Initialize Label Studio -->
     <script>
 
         const updateAndContinue = async () => {
             window.updateAndContinueBool = true;
-            $(".ant-btn-primary").click()
+            $(".ant-btn-primary").click();
         }
 
         function getAnnotationsByLabel(label, completion) {
@@ -130,11 +164,11 @@
 
         const finalizeAnnotationsIncludingBools = async () => {
             const checkboxValues = $(".manual-bool-checkbox").map(function() {
-                var checkboxValue = new Object();
+                const checkboxValue = new Object();
                 checkboxValue[this.id] = $(this).prop("checked");
                 return checkboxValue;
-              }).get();
-            window.completion["manualBools"] = checkboxValues
+            }).get();
+            window.completion["manualBools"] = checkboxValues;
             await sendAnnotations(window.completion)
         }
 
@@ -142,7 +176,7 @@
             let data = completion.areas.toJSON();
             if (typeof completion["manualBools"] != "undefined") {
                 data["manual_bools"] = completion["manualBools"];
-            };
+            }
             const response = await fetch('{{ target_url }}', {
                 method: "POST",
                 body: JSON.stringify(data),
@@ -160,36 +194,93 @@
             } else {
                 redirectAddition = "?success=" + answer;
             }
-            window.location.replace("{{ redirect_url }}" + redirectAddition)
+            window.location.replace("{{ redirect_url }}" + redirectAddition);
         }
 
-        var labelStudio = new LabelStudio('label-studio', {
+        const selectText = async (selector, rangeStart, rangeEnd) => {
+
+            const findOnPosition = (root, position, borderSide = 'left') => {
+                const walker = document.createTreeWalker(root, NodeFilter.SHOW_ALL);
+
+                let lastPosition = 0;
+                let currentNode = walker.nextNode();
+                let nextNode = walker.nextNode();
+
+                while (currentNode) {
+                    const isText = currentNode.nodeType === Node.TEXT_NODE;
+                    const isBR = currentNode.nodeName === 'BR';
+
+                    if (isText || isBR) {
+                        const length = currentNode.length ? currentNode.length : 1;
+
+                        if (length + lastPosition >= position || !nextNode) {
+                            if (borderSide === 'right' && length + lastPosition === position && nextNode) {
+                                return { node: nextNode, position: 0 };
+                            }
+                            return { node: currentNode, position: isBR ? 0 : Math.min(Math.max(position - lastPosition, 0), length) };
+                        } else {
+                            lastPosition += length;
+                        }
+                    }
+
+                    currentNode = nextNode;
+                    nextNode = walker.nextNode();
+                }
+            };
+
+            const elem = document.querySelector(selector);
+
+            const start = findOnPosition(elem, rangeStart, 'right');
+            const end = findOnPosition(elem, rangeEnd, 'left');
+
+            const range = new Range();
+
+            range.setStart(start.node, start.position);
+            range.setEnd(end.node, end.position);
+
+            window.getSelection().removeAllRanges();
+            window.getSelection().addRange(range);
+
+            return start.node
+        }
+
+        const labelText = async (label_number, start, end) => {
+            // simulate clicking the label
+            document.dispatchEvent(new KeyboardEvent('keydown', {'key': label_number.toString()}));
+
+            // simulate selecting text
+            const start_node = await selectText('.htx-text', start, end);
+            start_node.scrollIntoView();
+        }
+
+        const labelStudio = new LabelStudio('label-studio', {
             config: `
-      <View>
-        <View style="padding: 20px; border: 1px solid #CCC; border-radius: 5px; margin-bottom: 5px; position:sticky;
-                    background: white; top: 0">
-            <Labels name="ner" toName="text">
-                {% for label in task.labels %}
-                    {% if label.multiple == True %}
-                    <Label value="{{ label.name }}" background="{{ colors[loop.index0] }}"/>
-                    {% else %}
-                    <Label value="{{ label.name }}" background="{{ colors[loop.index0] }}" maxUsages="1"/>
-                    {% endif %}
-                {% endfor %}
-            </Labels>
-        </View>
-        <View style="border: 1px solid #CCC; border-radius: 5px; padding: 5px">
-            <Text name="text" value="$text" showLabels="true"/>
-        </View>
-      </View>
-      `,
+          <View>
+            <View style="padding: 20px; border: 1px solid #CCC; border-radius: 5px; margin-bottom: 5px; position:sticky;
+                        background: white; top: 0">
+                <Labels name="ner" toName="text">
+                    {% for label in task.labels %}
+                        {% if label.multiple == True %}
+                        <Label value="{{ label.name }}" background="{{ colors[loop.index0] }}"/>
+                        {% else %}
+                        <Label value="{{ label.name }}" background="{{ colors[loop.index0] }}" maxUsages="1"/>
+                        {% endif %}
+                    {% endfor %}
+                </Labels>
+            </View>
+            <View style="border: 1px solid #CCC; border-radius: 5px; padding: 5px">
+                <Text name="text" value="$text" showLabels="true"/>
+            </View>
+          </View>
+          `,
 
             interfaces: [
                 "panel",
                 "update",
                 "controls",
                 "side-column",
-//                "predictions:menu",
+    //                "completions:menu",
+    //                "predictions:menu",
             ],
 
             task: {
@@ -216,9 +307,9 @@
                 predictions: [],
                 data: {
                     text: ` {% if task.html %}
-                                {{ task.text | html_escape }}
-                            {% else %}{{ task.text | txt_escape }}
-                                {% endif %}`
+                                    {{ task.text | html_escape }}
+                                {% else %}{{ task.text | txt_escape }}
+                                    {% endif %}`
                 }
             },
 

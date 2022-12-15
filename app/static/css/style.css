@@ -103,7 +103,7 @@ ul li a:hover {
     background: rgba(51, 51, 51, 0.78);
 }
 
-ul li div.toggle {
+ul li div.toggle-tasks {
     width: -webkit-fill-available;
     display: block;
     background: rgba(0, 0, 0, 0.78);
@@ -113,7 +113,7 @@ ul li div.toggle {
     transition: background .3s ease;
 }
 
-ul li div.toggle:hover {
+ul li div.toggle-tasks:hover {
     background: rgba(0, 0, 0, 0.9);
 }
 
@@ -149,10 +149,9 @@ a.navigation-link {
     margin-right: 0.5em;
 }
 
-table.explanation {
+ul.inner table {
     width: 100%;
     font-size: 0.9rem;
-    margin-bottom: 1em;
 }
 
 label.manual-bool-label {
@@ -178,4 +177,68 @@ a.tooltip-link, a.tooltip-link:hover, a.tooltip-link:focus, a.tooltip-link:activ
 
 i.manual-bool-icon {
     padding-left: 0.5em;
+}
+
+ul li div.toggle-descriptions {
+    width: -webkit-fill-available;
+    display: block;
+    background: rgb(232, 232, 232);
+    color: rgb(51, 51, 51);
+    padding: .75em;
+    border-radius: 0.15em 0 0 0.15em;
+    transition: background .3s ease;
+}
+
+ul li div.toggle-descriptions:hover {
+    background: rgb(220, 220, 220);
+}
+
+ul li div.toggle-predictions {
+    width: -webkit-fill-available;
+    display: block;
+    background: rgb(232, 232, 232);
+    color: rgb(51, 51, 51);
+    padding: .75em;
+    border-radius: 0.15em 0 0 0.15em;
+    transition: background .3s ease;
+}
+
+ul li div.toggle-predictions:hover {
+    background: rgb(220, 220, 220);
+}
+
+#descriptions ul.inner {
+    background: rgb(220, 220, 220);
+    color: rgb(51, 51, 51);
+    padding: .75em;
+    border-radius: 0.15em 0 0 0.15em;
+}
+
+#predictions ul.inner {
+    background: rgb(220, 220, 220);
+    color: rgb(51, 51, 51);
+    padding: .75em;
+    border-radius: 0.15em 0 0 0.15em;
+}
+
+ul.inner td {
+    padding-right: .5em;
+}
+
+ul.inner th {
+    font-weight: bold;
+}
+
+ul.inner tr {
+    border-bottom: 1px solid black;
+}
+
+table a {
+    background: none;
+    color: black;
+}
+
+table a:hover{
+    background: none;
+    color: black;
 }
