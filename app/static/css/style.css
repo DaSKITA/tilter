@@ -99,7 +99,7 @@ ul li a.accordion-link {
     text-decoration: none;
 }
 
-ul li a:hover {
+ul li a.accordion-link:hover {
     background: rgba(51, 51, 51, 0.78);
 }
 
@@ -236,9 +236,10 @@ ul.inner tr {
 table a {
     background: none;
     color: black;
+    transition: background .3s ease;
 }
 
 table a:hover{
     background: none;
-    color: black;
+    color: rgb(100, 100, 100);
 }

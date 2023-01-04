@@ -230,27 +230,30 @@
 
             const elem = document.querySelector(selector);
 
-            const start = findOnPosition(elem, rangeStart, 'right');
-            const end = findOnPosition(elem, rangeEnd, 'left');
+            const start_elem = findOnPosition(elem, rangeStart, 'right');
+            const end_elem = findOnPosition(elem, rangeEnd, 'left');
 
             const range = new Range();
 
-            range.setStart(start.node, start.position);
-            range.setEnd(end.node, end.position);
+            range.setStart(start_elem.node, start_elem.position);
+            range.setEnd(end_elem.node, end_elem.position);
 
             window.getSelection().removeAllRanges();
             window.getSelection().addRange(range);
 
-            return start.node
+            return start_elem.node
         }
 
-        const labelText = async (label_number, start, end) => {
+        const labelText = async (label_number, start_pos, end_pos) => {
             // simulate clicking the label
             document.dispatchEvent(new KeyboardEvent('keydown', {'key': label_number.toString()}));
 
-            // simulate selecting text
-            const start_node = await selectText('.htx-text', start, end);
-            start_node.scrollIntoView();
+            // simulate selecting texT
+            const start_node = await selectText('.htx-text', start_pos, end_pos);
+
+            // scroll to selected text
+            const y_offset = start_node.parentElement.offsetTop + window.scrollY;
+            window.scroll({top: y_offset, behavior: 'smooth'});
         }
 
         const labelStudio = new LabelStudio('label-studio', {
