@@ -2,7 +2,7 @@
 
 {% block content %}
     <!-- Include Label Studio stylesheet -->
-    <link href="https://unpkg.com/label-studio@0.8.0/build/static/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/LSF_main.css') }}">
 
     <h1>{% block title %} {{ _('Task') }} "{{ task.name }}" {% endblock %}</h1>
     <div class="navigation-links">
@@ -91,7 +91,7 @@
                             <tr>
                                 <td>{{ _(prediction.label) }}</td>
                                 <td>{{ prediction.text }}</td>
-                                <td><a href="javascript:labelText('{{ label_lookup.index(prediction.label) }}', {{ prediction.start }}, {{ prediction.end }});"><i class="fa fa-square-check"></i></a></td>
+                                <td><a style="cursor: pointer" onclick="javascript:labelText('{{ label_lookup.index(prediction.label) }}', {{ prediction.start }}, {{ prediction.end }});"><i class="fa fa-square-check"></i></a></td>
                             </tr>
                         {% endfor %}
                     </table>
@@ -104,7 +104,7 @@
     <div id="label-studio"></div>
 
     <!-- Include the Label Studio library -->
-    <script src="https://unpkg.com/label-studio@0.8.0/build/static/js/main.js"></script>
+    <script src="{{ url_for('static', filename='js/LSF_main.js') }}"></script>
 
     <!-- Update & Continue Button -->
     <div class="Controls_block" style="position: fixed; bottom: 1em; right: 9.8em;">
