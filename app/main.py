@@ -6,6 +6,7 @@ from config import Config
 
 from database.db import db
 from database.models import Task, User, Annotation
+import requests
 
 from flask import Blueprint, flash, Flask, Markup, render_template, redirect, request, url_for
 from flask_babel import _, Babel, Domain
@@ -189,10 +190,8 @@ def label(task_id):
     token = create_access_token(identity=current_user.username)
 
     # TODO: get predictions from TILTify
-    predictions = [{"label": task.labels[0]["name"], "start":  200, "end": 300,
-                    "text": "This is an example Text. It has no purpose but to display an example"},
-                   {"label": task.labels[1]["name"], "start":  525, "end": 600,
-                    "text": "This is another example Text. It has no purpose but to display another example"}]
+    url = 
+    response = requests.post()
 
     # prepare label lookup dict for predictions JS functionalities (1-indexed)
     label_lookup = [entry["name"] for entry in task.labels]
