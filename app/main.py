@@ -1,3 +1,6 @@
+import requests
+import json
+
 from mongoengine.errors import DoesNotExist
 from api.restx import ns
 
@@ -6,14 +9,12 @@ from config import Config, TILTIFY
 
 from database.db import db
 from database.models import Task, User, Annotation
-import requests
 
 from flask import Blueprint, flash, Flask, Markup, render_template, redirect, request, url_for
 from flask_babel import _, Babel, Domain
 from flask_jwt_extended import create_access_token, JWTManager
 from flask_restx import Api, fields, Resource
 from flask_user import current_user, login_required, UserManager
-
 from utils.schema_tools import get_manual_bools, reduce_schema, retrieve_schema_level
 from utils.description_finder import DescriptonFinder
 from utils.translator import Translator
@@ -49,6 +50,7 @@ def task_tree_to_dict(task_list):
     for task in task_list:
         task_tree_dict[task] = task_tree_to_dict(Task.objects(parent=task))
     return task_tree_dict
+
 
 # .../task/__id__/next helper function
 def select_next_task(task, previous_seen_task_id, hierarchy=None):
@@ -190,10 +192,16 @@ def label(task_id):
     # prepare label lookup dict for predictions JS functionalities (1-indexed)
     label_lookup = [entry["name"] for entry in task.labels]
 
-    # handle JWT access token
-    token = create_access_token(identity=current_user.username)
+    # handle JWT access token for TILTer and TILTify
+    payload = {
+        "password": Config.JWT_SECRET_KEY
+    }
+    tiltify_url = f"https:\\{TILTIFY.address}:{TILTIFY.port}"
+    response = requests.post(tiltify_url + '/api/auth', json=payload, headers={'Content-Type': 'application/json'}).json()
+    tiltify_token = response.data
+    tilter_token = create_access_token(identity=current_user.username)
 
-    url = f"https:\\{TILTIFY.address}:{TILTIFY.port}"
+
     doc_annotation_collector = DocumentAnnotationCollector()
     pred_doc = doc_annotation_collector.create_annotation_dict(task)
     payload = {
@@ -202,7 +210,9 @@ def label(task_id):
     }
 
     # TODO: if unlucky, web sockets & format response
-    response = requests.post(url, json=payload, timeout=3000, headers={'Content-Type': 'application/json'})
+    # get predictions from TILTify
+    response = requests.post(tiltify_url + '/api/predict', json=payload, timeout=3000,
+                             headers={'Authorization': tiltify_token, 'Content-Type': 'application/json'})
     predictions = response.data
 
     predictions = [{
@@ -215,7 +225,7 @@ def label(task_id):
     return render_template('label.html', task=task, target_url=target_url, annotations=annotations,
                            redirect_url=redirect_url, colors=colors, predictions=predictions,
                            annotation_descriptions=annotation_descriptions, label_lookup=label_lookup,
-                           manual_bools=manual_bools, tooltips=tooltips, token=token, tilt_ref_url=tilt_ref_url)
+                           manual_bools=manual_bools, tooltips=tooltips, token=tilter_token, tilt_ref_url=tilt_ref_url)
 
 
 # API Setup
