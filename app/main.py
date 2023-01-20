@@ -2,7 +2,7 @@ from mongoengine.errors import DoesNotExist
 from api.restx import ns
 
 
-from config import Config
+from config import Config, TILTIFY
 
 from database.db import db
 from database.models import Task, User, Annotation
@@ -18,6 +18,7 @@ from utils.schema_tools import get_manual_bools, reduce_schema, retrieve_schema_
 from utils.description_finder import DescriptonFinder
 from utils.translator import Translator
 from utils.feeder import Feeder
+from utils.document_annotation_collector import DocumentAnnotationCollector
 
 # Initialize Flask App
 app = Flask(__name__)
@@ -186,15 +187,30 @@ def label(task_id):
     if manual_bools:
         flash("To complete this task hit use on of the Update buttons and fill out the remaining fields!", 'info')
 
+    # prepare label lookup dict for predictions JS functionalities (1-indexed)
+    label_lookup = [entry["name"] for entry in task.labels]
+
     # handle JWT access token
     token = create_access_token(identity=current_user.username)
 
-    # TODO: get predictions from TILTify
-    url = 
-    response = requests.post()
+    url = f"https:\\{TILTIFY.address}:{TILTIFY.port}"
+    doc_annotation_collector = DocumentAnnotationCollector()
+    pred_doc = doc_annotation_collector.create_annotation_dict(task)
+    payload = {
+        "document": pred_doc,
+        "labels": label_lookup
+    }
 
-    # prepare label lookup dict for predictions JS functionalities (1-indexed)
-    label_lookup = [entry["name"] for entry in task.labels]
+    # TODO: if unlucky, web sockets & format response
+    response = requests.post(url, json=payload, timeout=3000, headers={'Content-Type': 'application/json'})
+    predictions = response.data
+
+    predictions = [{
+        "label": pred["label"],
+        "text": pred["text"],
+        "start": pred["start"],
+        "end": pred["end"]
+    } for pred in predictions]
 
     return render_template('label.html', task=task, target_url=target_url, annotations=annotations,
                            redirect_url=redirect_url, colors=colors, predictions=predictions,
