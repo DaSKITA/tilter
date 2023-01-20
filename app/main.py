@@ -149,7 +149,7 @@ def label(task_id):
     if update_success == "true":
         flash(_("Annotations updated successfully!"), 'success')
     elif update_success == "false":
-        flash(_("Error updateing Annotations!"), 'error')
+        flash(_("Error updating Annotations!"), 'error')
 
     # get task and its annotations
     try:
@@ -185,11 +185,21 @@ def label(task_id):
     if manual_bools:
         flash("To complete this task hit use on of the Update buttons and fill out the remaining fields!", 'info')
 
+    # handle JWT access token
     token = create_access_token(identity=current_user.username)
 
+    # TODO: get predictions from TILTify
+    predictions = [{"label": task.labels[0]["name"], "start":  200, "end": 300,
+                    "text": "This is an example Text. It has no purpose but to display an example"},
+                   {"label": task.labels[1]["name"], "start":  525, "end": 600,
+                    "text": "This is another example Text. It has no purpose but to display another example"}]
+
+    # prepare label lookup dict for predictions JS functionalities (1-indexed)
+    label_lookup = [entry["name"] for entry in task.labels]
+
     return render_template('label.html', task=task, target_url=target_url, annotations=annotations,
-                           redirect_url=redirect_url, colors=colors,
-                           annotation_descriptions=annotation_descriptions,
+                           redirect_url=redirect_url, colors=colors, predictions=predictions,
+                           annotation_descriptions=annotation_descriptions, label_lookup=label_lookup,
                            manual_bools=manual_bools, tooltips=tooltips, token=token, tilt_ref_url=tilt_ref_url)
 
 

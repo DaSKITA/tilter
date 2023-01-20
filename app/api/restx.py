@@ -1,5 +1,7 @@
+import datetime
+
 from utils.document_annotation_collector import DocumentAnnotationCollector
-from database.models import Annotation, Task
+from database.models import Annotation, Task, TrainingTimestamp
 
 from flask import request
 from flask_jwt_extended import jwt_required
@@ -55,6 +57,10 @@ annotation = ns.model('Annotation', {
     'label': fields.String(description='Annotation label'),
     'start': fields.Integer(description='Starting Position of Annotation'),
     'end': fields.Integer(description='Ending Position of Annotation'),
+})
+
+timestamp = ns.model('TrainingTimestamp', {
+    'timestamp': fields.DateTime(description='Last Training Trigger Timestamp')
 })
 
 
@@ -315,3 +321,28 @@ class PushTiltToHub(Resource):
         )
 
         return json.loads(response.content), response.status_code
+
+@ns.route('/timestamp')
+class Timestamp(Resource):
+    @ns.marshal_with(timestamp)
+    def get(self):
+        timestamp = TrainingTimestamp.objects.first()
+        if not timestamp:
+            return None, 400
+        return timestamp, 200
+
+    @ns.expect(timestamp)
+    @ns.marshal_with(timestamp)
+    @ns.doc(security='apikey')
+    @jwt_required()
+    def post(self):
+        new_timestamp = request.json.get('timestamp') if request.json and request.json.get('timestamp')\
+            else datetime.datetime.now()
+        timestamp = TrainingTimestamp.objects.first()
+        if not timestamp:
+            timestamp = TrainingTimestamp(timestamp=new_timestamp)
+        else:
+            timestamp.timestamp = new_timestamp
+        timestamp.save()
+        return timestamp, 200
+

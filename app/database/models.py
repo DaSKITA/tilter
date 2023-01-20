@@ -1,4 +1,6 @@
+from config import Config
 from database.db import db
+from datetime import datetime
 from flask_user import UserMixin
 
 
@@ -37,6 +39,16 @@ class Annotation(db.Document):
     task = db.ReferenceField('Task', required=True)
     parent_annotation = db.ReferenceField('Annotation', required=False, default=None)
     child_annotation = db.ReferenceField('Annotation', required=False, default=None)
+    changed_at = db.DateTimeField(required=False)
+
+    def save(self, *args, **kwargs):
+        self.changed_at = datetime.now()
+        super(Annotation, self).save(args, kwargs)
+        timestamp = TrainingTimestamp.objects.first()
+        if len(Annotation.objects(changed_at__gt=timestamp.timestamp)) >= Config.TRAINING_TRIGGER_INTERVAL:
+            # call tiltify API here
+            timestamp.timestamp = datetime.now()
+            timestamp.save()
 
 
 class MetaTask(db.Document):
@@ -75,3 +87,8 @@ class LinkedAnnotation(db.Document):
     label = db.StringField(required=True)
     related_to = db.ReferenceField('Annotation')
     manual = db.BooleanField(required=True)
+
+
+class TrainingTimestamp(db.Document):
+    """Simple timestamp object to schedule training calls to tiltify"""
+    timestamp = db.DateTimeField(required=True)
