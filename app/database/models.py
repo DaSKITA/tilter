@@ -45,8 +45,9 @@ class Annotation(db.Document):
         self.changed_at = datetime.now()
         super(Annotation, self).save(args, kwargs)
         timestamp = TrainingTimestamp.objects.first()
+        # filter annotations
         if len(Annotation.objects(changed_at__gt=timestamp.timestamp)) >= Config.TRAINING_TRIGGER_INTERVAL:
-            # call tiltify API here
+            # call tiltify API here and send documentcollection
             timestamp.timestamp = datetime.now()
             timestamp.save()
 
