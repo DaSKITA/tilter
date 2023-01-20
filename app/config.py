@@ -65,8 +65,7 @@ class Config(object):
         }
     ]
 
+
 class TILTIFY:
     address = os.environ["TILTIFY_ADD"]
     port = os.environ["TILTIFY_PORT"]
-    user = os.environ["TILTIFY_USER"]
-    pw = os.environ["TILTIFY_PW"]

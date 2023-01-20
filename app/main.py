@@ -196,11 +196,9 @@ def label(task_id):
     payload = {
         "password": Config.JWT_SECRET_KEY
     }
-    tiltify_url = f"https:\\{TILTIFY.address}:{TILTIFY.port}"
-    response = requests.post(tiltify_url + '/api/auth', json=payload, headers={'Content-Type': 'application/json'}).json()
-    tiltify_token = response.data
+    tiltify_url = f"http://{TILTIFY.address}:{TILTIFY.port}"
+    tiltify_token = requests.post(tiltify_url + '/api/auth', json=payload, headers={'Content-Type': 'application/json'}).json()
     tilter_token = create_access_token(identity=current_user.username)
-
 
     doc_annotation_collector = DocumentAnnotationCollector()
     pred_doc = doc_annotation_collector.create_annotation_dict(task)
@@ -211,19 +209,12 @@ def label(task_id):
 
     # TODO: if unlucky, web sockets & format response
     # get predictions from TILTify
-    response = requests.post(tiltify_url + '/api/predict', json=payload, timeout=3000,
-                             headers={'Authorization': tiltify_token, 'Content-Type': 'application/json'})
-    predictions = response.data
-
-    predictions = [{
-        "label": pred["label"],
-        "text": pred["text"],
-        "start": pred["start"],
-        "end": pred["end"]
-    } for pred in predictions]
+    predictions= requests.post(
+        tiltify_url + '/api/predict', json=payload, timeout=3000,
+        headers={'Authorization': tiltify_token, 'Content-Type': 'application/json'}).json()
 
     return render_template('label.html', task=task, target_url=target_url, annotations=annotations,
-                           redirect_url=redirect_url, colors=colors, predictions=predictions,
+                           redirect_url=redirect_url, colors=colors, predictions=predictions["predictions"],
                            annotation_descriptions=annotation_descriptions, label_lookup=label_lookup,
                            manual_bools=manual_bools, tooltips=tooltips, token=tilter_token, tilt_ref_url=tilt_ref_url)
 
