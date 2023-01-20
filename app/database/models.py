@@ -1,4 +1,4 @@
-from config import Config
+from config import Config, TILTIFY
 from database.db import db
 from datetime import datetime
 from flask_user import UserMixin
@@ -47,7 +47,7 @@ class Annotation(db.Document):
         timestamp = TrainingTimestamp.objects.first()
         # filter annotations
         if len(Annotation.objects(changed_at__gt=timestamp.timestamp)) >= Config.TRAINING_TRIGGER_INTERVAL:
-            # call tiltify API here and send documentcollection
+
             timestamp.timestamp = datetime.now()
             timestamp.save()
 
