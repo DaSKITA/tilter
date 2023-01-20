@@ -196,11 +196,8 @@ def label(task_id):
     payload = {
         "password": Config.JWT_SECRET_KEY
     }
-    tiltify_url = f"https:\\{TILTIFY.address}:{TILTIFY.port}"
-    response = requests.post(tiltify_url + '/api/auth', json=payload, headers={'Content-Type': 'application/json'}).json()
-    tiltify_token = response.data
+    tiltify_token = requests.post(TILTIFY.url + '/api/auth', json=payload, headers={'Content-Type': 'application/json'}).json()
     tilter_token = create_access_token(identity=current_user.username)
-
 
     doc_annotation_collector = DocumentAnnotationCollector()
     pred_doc = doc_annotation_collector.create_annotation_dict(task)
@@ -211,7 +208,7 @@ def label(task_id):
 
     # TODO: if unlucky, web sockets & format response
     # get predictions from TILTify
-    response = requests.post(tiltify_url + '/api/predict', json=payload, timeout=3000,
+    response = requests.post(TILTIFY.url + '/api/predict', json=payload, timeout=3000,
                              headers={'Authorization': tiltify_token, 'Content-Type': 'application/json'})
     predictions = response.data
 

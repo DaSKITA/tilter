@@ -70,3 +70,4 @@ class TILTIFY:
     port = os.environ["TILTIFY_PORT"]
     user = os.environ["TILTIFY_USER"]
     pw = os.environ["TILTIFY_PW"]
+    url = f"https:\\{address}:{port}"
