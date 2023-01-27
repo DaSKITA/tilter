@@ -69,4 +69,3 @@ class Config(object):
 class TILTIFY:
     address = os.environ["TILTIFY_ADD"]
     port = os.environ["TILTIFY_PORT"]
-    url = f"{address}:{port}"

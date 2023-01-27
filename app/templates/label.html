@@ -91,7 +91,7 @@
                             <tr>
                                 <td>{{ _(prediction.label) }}</td>
                                 <td>{{ prediction.text }}</td>
-                                j<td><a style="cursor: pointer" onclick="javascript:labelText('{{ label_lookup.index(prediction.label) }}', {{ prediction.start }}, {{ prediction.end }});"><i class="fa fa-square-check"></i></a></td>
+                                <td><a style="cursor: pointer" onclick="javascript:labelText('{{ label_lookup.index(prediction.label) }}', {{ prediction.start }}, {{ prediction.end }});"><i class="fa fa-square-check"></i></a></td>
                             </tr>
                         {% endfor %}
                     </table>
@@ -197,6 +197,14 @@
             window.location.replace("{{ redirect_url }}" + redirectAddition);
         }
 
+        const activateLabel = async (label_number) => {
+            const label_elem = $("div[class^='Segment_block']").children(":first").children(":first").children(":first").children(":first").children(":eq(" + label_number + ")");
+
+            if (label_elem.css("background-color") === 'rgb(232, 232, 232)') {
+                label_elem.click()
+            }
+        }
+
         const selectText = async (selector, rangeStart, rangeEnd) => {
 
             const findOnPosition = (root, position, borderSide = 'left') => {
@@ -241,19 +249,18 @@
             window.getSelection().removeAllRanges();
             window.getSelection().addRange(range);
 
-            return start_elem.node
+            return range
         }
 
         const labelText = async (label_number, start_pos, end_pos) => {
             // simulate clicking the label
-            document.dispatchEvent(new KeyboardEvent('keydown', {'key': label_number.toString()}));
+            await activateLabel(label_number.toString());
 
-            // simulate selecting texT
-            const start_node = await selectText('.htx-text', start_pos, end_pos);
+            // simulate selecting text
+            const range = await selectText('.htx-text', start_pos, end_pos);
 
             // scroll to selected text
-            const y_offset = start_node.parentElement.offsetTop + window.scrollY;
-            window.scroll({top: y_offset, behavior: 'smooth'});
+            window.scroll({top: range.getBoundingClientRect().top - 400, behavior: 'smooth'});
         }
 
         const labelStudio = new LabelStudio('label-studio', {
