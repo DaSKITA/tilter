@@ -1,7 +1,11 @@
-from config import Config, TILTIFY
-from database.db import db
+import requests
 from datetime import datetime
+
+from database.db import db
 from flask_user import UserMixin
+
+from config import Config, TILTIFY
+from utils.tiltify_authentication import get_tiltify_token
 
 
 # Model Entries
@@ -39,17 +43,16 @@ class Annotation(db.Document):
     task = db.ReferenceField('Task', required=True)
     parent_annotation = db.ReferenceField('Annotation', required=False, default=None)
     child_annotation = db.ReferenceField('Annotation', required=False, default=None)
-    changed_at = db.DateTimeField(required=False)
 
     def save(self, *args, **kwargs):
-        self.changed_at = datetime.now()
         super(Annotation, self).save(args, kwargs)
-        timestamp = TrainingTimestamp.objects.first()
-        # filter annotations
-        if len(Annotation.objects(changed_at__gt=timestamp.timestamp)) >= Config.TRAINING_TRIGGER_INTERVAL:
-
-            timestamp.timestamp = datetime.now()
-            timestamp.save()
+        tiltify_token = get_tiltify_token()
+        url = f"http://{TILTIFY.address}:{TILTIFY.port}"
+        payload = {'documents': [{'document_name': self.task.name,
+                                  'text': self.task.text}],
+                   'labels': [self.label]}
+        requests.post(url + "/api/train", json=payload, timeout=3000,
+                      headers={'Authorization': tiltify_token, 'Content-Type': 'application/json'})
 
 
 class MetaTask(db.Document):

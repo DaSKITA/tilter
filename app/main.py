@@ -15,11 +15,12 @@ from flask_babel import _, Babel, Domain
 from flask_jwt_extended import create_access_token, JWTManager
 from flask_restx import Api, fields, Resource
 from flask_user import current_user, login_required, UserManager
-from utils.schema_tools import get_manual_bools, reduce_schema, retrieve_schema_level
 from utils.description_finder import DescriptonFinder
-from utils.translator import Translator
-from utils.feeder import Feeder
 from utils.document_annotation_collector import DocumentAnnotationCollector
+from utils.feeder import Feeder
+from utils.schema_tools import get_manual_bools, reduce_schema, retrieve_schema_level
+from utils.tiltify_authentication import get_tiltify_token
+from utils.translator import Translator
 
 # Initialize Flask App
 app = Flask(__name__)
@@ -193,11 +194,8 @@ def label(task_id):
     label_lookup = [entry["name"] for entry in task.labels]
 
     # handle JWT access token for TILTer and TILTify
-    payload = {
-        "password": Config.JWT_SECRET_KEY
-    }
     url = f"http://{TILTIFY.address}:{TILTIFY.port}"
-    tiltify_token = requests.post(url + '/api/auth', json=payload, headers={'Content-Type': 'application/json'}).json()
+    tiltify_token = get_tiltify_token()
     tilter_token = create_access_token(identity=current_user.username)
 
     doc_annotation_collector = DocumentAnnotationCollector()
