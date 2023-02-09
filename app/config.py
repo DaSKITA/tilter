@@ -41,8 +41,6 @@ class Config(object):
     POLICY_DIR = os.path.join(ROOT_PATH, "data/official_policies") if DEPLOYMENT \
         else os.path.join(ROOT_PATH, "data/test_policies")
 
-    TRAINING_TRIGGER_INTERVAL = 20
-
     def _create_mongo_settings(mongodb_user: str,
                                mongodb_password: str,
                                mongodb_port: str,
