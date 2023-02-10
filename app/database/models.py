@@ -48,9 +48,19 @@ class Annotation(db.Document):
         super(Annotation, self).save(args, kwargs)
         tiltify_token = get_tiltify_token()
         url = f"http://{TILTIFY.address}:{TILTIFY.port}"
-        payload = {'documents': [{'document_name': self.task.name,
-                                  'text': self.task.text}],
-                   'labels': [self.label]}
+        payload = {
+            'documents': [{
+                'document': {
+                    'document_name': self.task.name,
+                    'text': self.task.text
+                },
+                'annotations': [{
+                    'annotation_label': self.label,
+                    'annotation_text': self.text,
+                    'annotation_start': self.start,
+                    'annotation_end': self.end
+                }]}],
+            'labels': [self.label]}
         requests.post(url + "/api/train", json=payload, timeout=3000,
                       headers={'Authorization': tiltify_token, 'Content-Type': 'application/json'})
 
