@@ -20,6 +20,11 @@ services:
             FLASK_DEBUG: 0
             FLASK_ENV: "production"
             JWT_SECRET_KEY: ${JWT_SECRET_KEY}
+            TILTIFY_ADD: ${TILTIFY_ADD}
+            TILTIFY_PORT: ${TILTIFY_PORT}
+            TILTIFY_USER: ${TILTIFY_USER}
+            TILTIFY_PW: ${TILTIFY_PW}
+
         # Infinite loop, to keep it alive, for debugging
         # command: bash -c "while true; do echo 'sleeping...' && sleep 10; done"
         depends_on:

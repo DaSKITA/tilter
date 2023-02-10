@@ -182,3 +182,4 @@ Temporary Items
 # project ignores
 volumes/*
 .vscode
+env_vars.txt

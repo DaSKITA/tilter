@@ -8,7 +8,7 @@
         {% for task, subtasks in tasks.items() recursive %}
           <li>
           <div class="toggle-container">
-              <div class="toggle">{% if subtasks %}<i class="fa fa-chevron-right"></i>{% else %}<i class="placeholder"></i>{% endif %}{{ task.name }}</div><a class="accordion-link" href="{{ url_for("label", task_id=task.id) }}">></a>
+              <div class="toggle toggle-tasks">{% if subtasks %}<i class="fa fa-chevron-right"></i>{% else %}<i class="placeholder"></i>{% endif %}{{ task.name }}</div><a class="accordion-link" href="{{ url_for("label", task_id=task.id) }}">></a>
           </div>
             {% if subtasks %}
                 <ul class="inner">

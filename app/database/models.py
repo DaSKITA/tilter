@@ -1,5 +1,11 @@
+import requests
+from datetime import datetime
+
 from database.db import db
 from flask_user import UserMixin
+
+from config import Config, TILTIFY
+from utils.tiltify_authentication import get_tiltify_token
 
 
 # Model Entries
@@ -38,6 +44,26 @@ class Annotation(db.Document):
     parent_annotation = db.ReferenceField('Annotation', required=False, default=None)
     child_annotation = db.ReferenceField('Annotation', required=False, default=None)
 
+    def save(self, *args, **kwargs):
+        super(Annotation, self).save(args, kwargs)
+        tiltify_token = get_tiltify_token()
+        url = f"http://{TILTIFY.address}:{TILTIFY.port}"
+        payload = {
+            'documents': [{
+                'document': {
+                    'document_name': self.task.name,
+                    'text': self.task.text
+                },
+                'annotations': [{
+                    'annotation_label': self.label,
+                    'annotation_text': self.text,
+                    'annotation_start': self.start,
+                    'annotation_end': self.end
+                }]}],
+            'labels': [self.label]}
+        requests.post(url + "/api/train", json=payload, timeout=3000,
+                      headers={'Authorization': tiltify_token, 'Content-Type': 'application/json'})
+
 
 class MetaTask(db.Document):
     _id = db.StringField(required=True)
@@ -75,3 +101,8 @@ class LinkedAnnotation(db.Document):
     label = db.StringField(required=True)
     related_to = db.ReferenceField('Annotation')
     manual = db.BooleanField(required=True)
+
+
+class TrainingTimestamp(db.Document):
+    """Simple timestamp object to schedule training calls to tiltify"""
+    timestamp = db.DateTimeField(required=True)

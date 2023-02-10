@@ -1,8 +1,11 @@
+import requests
+import json
+
 from mongoengine.errors import DoesNotExist
 from api.restx import ns
 
 
-from config import Config
+from config import Config, TILTIFY
 
 from database.db import db
 from database.models import Task, User, Annotation
@@ -12,11 +15,12 @@ from flask_babel import _, Babel, Domain
 from flask_jwt_extended import create_access_token, JWTManager
 from flask_restx import Api, fields, Resource
 from flask_user import current_user, login_required, UserManager
-
-from utils.schema_tools import get_manual_bools, reduce_schema, retrieve_schema_level
 from utils.description_finder import DescriptonFinder
-from utils.translator import Translator
+from utils.document_annotation_collector import DocumentAnnotationCollector
 from utils.feeder import Feeder
+from utils.schema_tools import get_manual_bools, reduce_schema, retrieve_schema_level
+from utils.tiltify_authentication import get_tiltify_token
+from utils.translator import Translator
 
 # Initialize Flask App
 app = Flask(__name__)
@@ -47,6 +51,7 @@ def task_tree_to_dict(task_list):
     for task in task_list:
         task_tree_dict[task] = task_tree_to_dict(Task.objects(parent=task))
     return task_tree_dict
+
 
 # .../task/__id__/next helper function
 def select_next_task(task, previous_seen_task_id, hierarchy=None):
@@ -149,7 +154,7 @@ def label(task_id):
     if update_success == "true":
         flash(_("Annotations updated successfully!"), 'success')
     elif update_success == "false":
-        flash(_("Error updateing Annotations!"), 'error')
+        flash(_("Error updating Annotations!"), 'error')
 
     # get task and its annotations
     try:
@@ -185,12 +190,30 @@ def label(task_id):
     if manual_bools:
         flash("To complete this task hit use on of the Update buttons and fill out the remaining fields!", 'info')
 
-    token = create_access_token(identity=current_user.username)
+    # prepare label lookup dict for predictions JS functionalities (1-indexed)
+    label_lookup = [entry["name"] for entry in task.labels]
+
+    # handle JWT access token for TILTer and TILTify
+    url = f"http://{TILTIFY.address}:{TILTIFY.port}"
+    tiltify_token = get_tiltify_token()
+    tilter_token = create_access_token(identity=current_user.username)
+
+    doc_annotation_collector = DocumentAnnotationCollector()
+    pred_doc = doc_annotation_collector.create_annotation_dict(task)
+    payload = {
+        "document": pred_doc,
+        "labels": label_lookup
+    }
+
+    # TODO: if unlucky, web sockets & format response
+    # get predictions from TILTify
+    predictions = requests.post(url + '/api/predict', json=payload, timeout=3000,
+                             headers={'Authorization': tiltify_token, 'Content-Type': 'application/json'}).json()
 
     return render_template('label.html', task=task, target_url=target_url, annotations=annotations,
-                           redirect_url=redirect_url, colors=colors,
-                           annotation_descriptions=annotation_descriptions,
-                           manual_bools=manual_bools, tooltips=tooltips, token=token, tilt_ref_url=tilt_ref_url)
+                           redirect_url=redirect_url, colors=colors, predictions=predictions["predictions"],
+                           annotation_descriptions=annotation_descriptions, label_lookup=label_lookup,
+                           manual_bools=manual_bools, tooltips=tooltips, token=tilter_token, tilt_ref_url=tilt_ref_url)
 
 
 # API Setup
